@@ -1,0 +1,354 @@
+[
+  {
+    "scene_id": "sec1_intro",
+    "scene_title": "Welcome",
+    "audio_lines": [
+      {
+        "line_index": 0,
+        "text": "Hello friends! Let\u2019s explore the beach together and practice our reading.",
+        "audio_file": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\audio\\sec1_intro_line_1.mp3",
+        "duration_seconds": 4.4,
+        "pause_after": 0.5
+      }
+    ]
+  },
+  {
+    "scene_id": "sec2_question",
+    "scene_title": "Read the Question",
+    "audio_lines": [
+      {
+        "line_index": 0,
+        "text": "Now listen carefully. Tick the correct sentences.",
+        "audio_file": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\audio\\sec2_question_line_1.mp3",
+        "duration_seconds": 2.8,
+        "pause_after": 0.3
+      },
+      {
+        "line_index": 1,
+        "text": "a. Varun and Vidya go to a ______ with their family.",
+        "audio_file": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\audio\\sec2_question_line_2.mp3",
+        "duration_seconds": 4.4,
+        "pause_after": 0.2
+      },
+      {
+        "line_index": 2,
+        "text": "b. They build a ______ on the beach.",
+        "audio_file": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\audio\\sec2_question_line_3.mp3",
+        "duration_seconds": 3.2,
+        "pause_after": 0.2
+      },
+      {
+        "line_index": 3,
+        "text": "c. They decorate the ______ with ______.",
+        "audio_file": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\audio\\sec2_question_line_4.mp3",
+        "duration_seconds": 2.8,
+        "pause_after": 0.2
+      },
+      {
+        "line_index": 4,
+        "text": "d. Vidya has a ______ and a ______.",
+        "audio_file": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\audio\\sec2_question_line_5.mp3",
+        "duration_seconds": 3.2,
+        "pause_after": 0.0
+      }
+    ]
+  },
+  {
+    "scene_id": "sec3_worked_step_a",
+    "scene_title": "Worked Step \u2013 Sentence A",
+    "audio_lines": [
+      {
+        "line_index": 0,
+        "text": "Let\u2019s fill in the first sentence together.",
+        "audio_file": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\audio\\sec3_worked_step_a_line_1.mp3",
+        "duration_seconds": 2.8,
+        "pause_after": 0.3
+      },
+      {
+        "line_index": 1,
+        "text": "Varun and Vidya go to a **sandcastle** with their family.",
+        "audio_file": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\audio\\sec3_worked_step_a_line_2.mp3",
+        "duration_seconds": 4.0,
+        "pause_after": 0.0
+      }
+    ]
+  },
+  {
+    "scene_id": "sec4_worked_step_b",
+    "scene_title": "Worked Step \u2013 Sentence B",
+    "audio_lines": [
+      {
+        "line_index": 0,
+        "text": "Now the second sentence.",
+        "audio_file": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\audio\\sec4_worked_step_b_line_1.mp3",
+        "duration_seconds": 2.0,
+        "pause_after": 0.3
+      },
+      {
+        "line_index": 1,
+        "text": "They build a **sandcastle** on the beach.",
+        "audio_file": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\audio\\sec4_worked_step_b_line_2.mp3",
+        "duration_seconds": 2.8,
+        "pause_after": 0.0
+      }
+    ]
+  },
+  {
+    "scene_id": "sec5_worked_step_c",
+    "scene_title": "Worked Step \u2013 Sentence C",
+    "audio_lines": [
+      {
+        "line_index": 0,
+        "text": "Third sentence, let\u2019s choose the right words.",
+        "audio_file": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\audio\\sec5_worked_step_c_line_1.mp3",
+        "duration_seconds": 2.8,
+        "pause_after": 0.3
+      },
+      {
+        "line_index": 1,
+        "text": "They decorate the **room** with **stories**.",
+        "audio_file": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\audio\\sec5_worked_step_c_line_2.mp3",
+        "duration_seconds": 2.4,
+        "pause_after": 0.0
+      }
+    ]
+  },
+  {
+    "scene_id": "sec6_worked_step_d",
+    "scene_title": "Worked Step \u2013 Sentence D",
+    "audio_lines": [
+      {
+        "line_index": 0,
+        "text": "Last sentence, fill the blanks.",
+        "audio_file": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\audio\\sec6_worked_step_d_line_1.mp3",
+        "duration_seconds": 2.0,
+        "pause_after": 0.3
+      },
+      {
+        "line_index": 1,
+        "text": "Vidya has a **shovel** and a **bucket**.",
+        "audio_file": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\audio\\sec6_worked_step_d_line_2.mp3",
+        "duration_seconds": 2.8,
+        "pause_after": 0.0
+      }
+    ]
+  },
+  {
+    "scene_id": "sec7_answer_reveal",
+    "scene_title": "Answer Reveal",
+    "audio_lines": [
+      {
+        "line_index": 0,
+        "text": "Great job! Here are the correct sentences.",
+        "audio_file": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\audio\\sec7_answer_reveal_line_1.mp3",
+        "duration_seconds": 2.8,
+        "pause_after": 0.5
+      }
+    ]
+  },
+  {
+    "scene_id": "sec8_mcq",
+    "scene_title": "Check Your Understanding",
+    "audio_lines": [
+      {
+        "line_index": 0,
+        "text": "Now pick the sentence that talks about the playroom.",
+        "audio_file": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\audio\\sec8_mcq_line_1.mp3",
+        "duration_seconds": 3.6,
+        "pause_after": 0.0
+      }
+    ]
+  },
+  {
+    "scene_id": "secB_exercise1",
+    "scene_title": "True / False Walk\u2011through",
+    "audio_lines": [
+      {
+        "line_index": 0,
+        "text": "Now let's read the statement together: They build a castle with clay.",
+        "audio_file": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\audio\\secB_exercise1_line_1.mp3",
+        "duration_seconds": 4.8,
+        "pause_after": 0.5
+      },
+      {
+        "line_index": 1,
+        "text": "We will decide whether this sentence is true or false.",
+        "audio_file": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\audio\\secB_exercise1_line_2.mp3",
+        "duration_seconds": 4.0,
+        "pause_after": 0.5
+      },
+      {
+        "line_index": 2,
+        "text": "Think about the words we have just learned \u2013 castle, clay, and building.",
+        "audio_file": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\audio\\secB_exercise1_line_3.mp3",
+        "duration_seconds": 5.2,
+        "pause_after": 0.5
+      },
+      {
+        "line_index": 3,
+        "text": "A castle is usually made of stone, not clay, so the statement is not correct.",
+        "audio_file": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\audio\\secB_exercise1_line_4.mp3",
+        "duration_seconds": 6.0,
+        "pause_after": 0.5
+      },
+      {
+        "line_index": 4,
+        "text": "Great job! The answer is: False.",
+        "audio_file": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\audio\\secB_exercise1_line_5.mp3",
+        "duration_seconds": 2.4,
+        "pause_after": 0.0
+      }
+    ]
+  },
+  {
+    "scene_id": "sec1_intro",
+    "scene_title": "Comprehending Ability \u2013 Warm\u2011up",
+    "audio_lines": [
+      {
+        "line_index": 0,
+        "text": "Welcome, friends! Today we will read a short story about a beach adventure and practice answering questions together.",
+        "audio_file": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\audio\\sec1_intro_line_1.mp3",
+        "duration_seconds": 7.2,
+        "pause_after": 0.5
+      }
+    ]
+  },
+  {
+    "scene_id": "sec2_question_a",
+    "scene_title": "Question A \u2013 What do Varun and Vidya do on the beach?",
+    "audio_lines": [
+      {
+        "line_index": 0,
+        "text": "First question: What do Varun and Vidya do on the beach?",
+        "audio_file": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\audio\\sec2_question_a_line_1.mp3",
+        "duration_seconds": 4.4,
+        "pause_after": 0.5
+      }
+    ]
+  },
+  {
+    "scene_id": "sec3_answer_a",
+    "scene_title": "Answer A \u2013 Reveal",
+    "audio_lines": [
+      {
+        "line_index": 0,
+        "text": "Great thinking! The answer is:",
+        "audio_file": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\audio\\sec3_answer_a_line_1.mp3",
+        "duration_seconds": 2.0,
+        "pause_after": 0.3
+      },
+      {
+        "line_index": 1,
+        "text": "Varun and Vidya *went* to the beach.",
+        "audio_file": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\audio\\sec3_answer_a_line_2.mp3",
+        "duration_seconds": 2.8,
+        "pause_after": 0.5
+      }
+    ]
+  },
+  {
+    "scene_id": "sec4_question_b",
+    "scene_title": "Question B \u2013 What do they use to build the sandcastle?",
+    "audio_lines": [
+      {
+        "line_index": 0,
+        "text": "Next question: What do they use to build the sandcastle?",
+        "audio_file": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\audio\\sec4_question_b_line_1.mp3",
+        "duration_seconds": 4.0,
+        "pause_after": 0.5
+      }
+    ]
+  },
+  {
+    "scene_id": "sec5_answer_b",
+    "scene_title": "Answer B \u2013 Reveal",
+    "audio_lines": [
+      {
+        "line_index": 0,
+        "text": "Well done! The answer is:",
+        "audio_file": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\audio\\sec5_answer_b_line_1.mp3",
+        "duration_seconds": 2.0,
+        "pause_after": 0.3
+      },
+      {
+        "line_index": 1,
+        "text": "They use a bucket and a small shovel.",
+        "audio_file": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\audio\\sec5_answer_b_line_2.mp3",
+        "duration_seconds": 3.2,
+        "pause_after": 0.5
+      }
+    ]
+  },
+  {
+    "scene_id": "sec6_question_c",
+    "scene_title": "Question C \u2013 Where does the staircase go?",
+    "audio_lines": [
+      {
+        "line_index": 0,
+        "text": "Third question: Where does the staircase go?",
+        "audio_file": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\audio\\sec6_question_c_line_1.mp3",
+        "duration_seconds": 2.8,
+        "pause_after": 0.5
+      }
+    ]
+  },
+  {
+    "scene_id": "sec7_answer_c",
+    "scene_title": "Answer C \u2013 Reveal",
+    "audio_lines": [
+      {
+        "line_index": 0,
+        "text": "Excellent! The answer is:",
+        "audio_file": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\audio\\sec7_answer_c_line_1.mp3",
+        "duration_seconds": 2.0,
+        "pause_after": 0.3
+      },
+      {
+        "line_index": 1,
+        "text": "The staircase goes down to the sandcastle area.",
+        "audio_file": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\audio\\sec7_answer_c_line_2.mp3",
+        "duration_seconds": 3.2,
+        "pause_after": 0.5
+      }
+    ]
+  },
+  {
+    "scene_id": "sec8_discussion",
+    "scene_title": "Let\u2019s Discuss \u2013 Feelings about the Beach",
+    "audio_lines": [
+      {
+        "line_index": 0,
+        "text": "Now let\u2019s think together: Why do we feel happy when we see a beach?",
+        "audio_file": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\audio\\sec8_discussion_line_1.mp3",
+        "duration_seconds": 5.6,
+        "pause_after": 0.5
+      }
+    ]
+  },
+  {
+    "scene_id": "sec9_greeting_mcq",
+    "scene_title": "Greeting Practice \u2013 Choose the Right Sentence",
+    "audio_lines": [
+      {
+        "line_index": 0,
+        "text": "Let\u2019s practice greetings. Listen to the two sentences and pick the one that is a correct introduction.",
+        "audio_file": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\audio\\sec9_greeting_mcq_line_1.mp3",
+        "duration_seconds": 6.8,
+        "pause_after": 0.5
+      }
+    ]
+  },
+  {
+    "scene_id": "sec10_greeting_answer",
+    "scene_title": "Greeting Answer \u2013 Reveal",
+    "audio_lines": [
+      {
+        "line_index": 0,
+        "text": "The correct greeting is option A.",
+        "audio_file": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\audio\\sec10_greeting_answer_line_1.mp3",
+        "duration_seconds": 2.4,
+        "pause_after": 0.5
+      }
+    ]
+  }
+]

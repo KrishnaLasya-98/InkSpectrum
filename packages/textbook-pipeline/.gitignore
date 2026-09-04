@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Environment
+.env
+
+# Project outputs
+projects/*/output/*.mp4
+projects/*/output/*.wav
+projects/*/audio/*.mp3
+projects/*/audio/*.wav
+projects/*/remotion/node_modules/
+
+# Test data (keep structure, not corpus)
+data/textbook_corpus/*.pdf
+tests/data/*.pdf
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Logs
+*.log
+logs/

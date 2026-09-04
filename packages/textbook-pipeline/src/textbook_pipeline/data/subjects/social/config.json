@@ -1,0 +1,58 @@
+{
+  "subject": "social",
+  "display_name": "Social Studies / EVS",
+  "default_voice": "en-US-AriaNeural",
+  "primary_color": "#0F9E75",
+  "secondary_color": "#FF6B2C",
+  "background_color": "#FFFFFF",
+  "tts_rate": "+0%",
+  "reading_level_adjustment": 0.95,
+  "scene_template_dir": "data/subjects/social/templates",
+  "scene_types": [
+    "title", "subtitle", "text", "clear",
+    "timeline", "map_marker",
+    "cause_effect_chain", "comparison_table",
+    "labeled_diagram", "process_flow",
+    "question_card", "worked_step", "answer_reveal"
+  ],
+  "narration_pattern": {
+    "theoretical": [
+      "introduce_topic_with_context",
+      "state_key_facts",
+      "show_visual_anchor_map_or_timeline",
+      "explain_causes_and_effects",
+      "summarize_significance"
+    ],
+    "exercise": [
+      "read_question",
+      "reference_facts_from_chapter",
+      "explain_reasoning",
+      "state_answer",
+      "broader_context"
+    ]
+  },
+  "terminology": {
+    "highlight_keywords": [
+      "constitution", "democracy", "parliament", "legislature",
+      "continent", "country", "capital", "state", "river", "mountain",
+      "dynasty", "empire", "revolution", "independence", "movement",
+      "ecosystem", "biodiversity", "pollution", "climate", "renewable",
+      "timeline", "BC", "AD", "century", "era", "period"
+    ]
+  },
+  "exercise_detection_patterns": [
+    "(?:Answer|Fill in|Choose|Match|Identify)\\s+(?:the\\s+)?(?:following|these)",
+    "(?:Name|Where|When|Who|Why|How)\\s+(?:is|was|did|are|were)\\s",
+    "Q\\d+\\.\\s",
+    "\\([a-d]\\)\\s"
+  ],
+  "tts_voice_alternatives": [
+    "en-US-AriaNeural",
+    "en-IN-NeerjaNeural",
+    "en-GB-RyanNeural"
+  ],
+  "sub_themes": {
+    "social_studies": ["history", "geography", "civics"],
+    "evs": ["environment", "ecology", "sustainability"]
+  }
+}

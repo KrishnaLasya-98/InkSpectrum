@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  pipeline:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: textbook-pipeline-engine
+    volumes:
+      - .:/app
+    env_file:
+      - ./textbook-pipeline/.env
+    # Use host networking to make it easier to access local resources if needed
+    network_mode: "host"
+    # Ensure the container doesn't exit immediately
+    stdin_open: true
+    tty: true
+    # Resource limits to prevent the container from freezing the host Windows OS
+    deploy:
+      resources:
+        limits:
+          memory: 8G

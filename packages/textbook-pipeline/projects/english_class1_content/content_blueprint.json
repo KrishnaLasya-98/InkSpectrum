@@ -1,0 +1,17 @@
+{
+  "id": "unknown_book_ch1",
+  "number": 1,
+  "title": "Extracted Chapter",
+  "subject": "science",
+  "grade": 1,
+  "textbook_id": "unknown_book",
+  "learning_objectives": [],
+  "sections": [],
+  "page_range": [
+    1,
+    1
+  ],
+  "source_pdf": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_content\\content_pages_6_20.pdf",
+  "total_estimated_duration_seconds": 0,
+  "metadata": {}
+}

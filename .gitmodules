@@ -1,0 +1,3 @@
+[submodule "vendor/docling"]
+path = vendor/docling
+url = https://github.com/docling-project/docling.git

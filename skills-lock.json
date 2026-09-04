@@ -1,0 +1,203 @@
+{
+  "version": 1,
+  "skills": {
+    "PDF Processing Pro": {
+      "source": "davila7/claude-code-templates",
+      "sourceType": "github",
+      "skillPath": "cli-tool/components/skills/document-processing/pdf-processing-pro/SKILL.md",
+      "computedHash": "d555142c25b12f244d54f401227a259af0ffd9ffb1d8b434e89ce36571dc7814"
+    },
+    "add-sfx": {
+      "source": "remotion-dev/remotion",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/add-sfx/SKILL.md",
+      "computedHash": "f27e830204fc09307818eda754020714d013eb01e297962df852b51fd4459070"
+    },
+    "agent-orchestration-improve-agent": {
+      "source": "sickn33/agentic-awesome-skills",
+      "sourceType": "github",
+      "skillPath": "skills/agent-orchestration-improve-agent/SKILL.md",
+      "computedHash": "f441ce410e5dc2c3374245009b9c665d39898cadc5fed931e4afa9c3dcbe0bab"
+    },
+    "ai-image-generation": {
+      "source": "skills-101/superpowers",
+      "sourceType": "github",
+      "skillPath": "tools/image/ai-image-generation/SKILL.md",
+      "computedHash": "0cb296ffe8d9277dff2e4fbd9888fa943a4f6acee4ad218559e60e45c8a06526"
+    },
+    "ai-video-generation": {
+      "source": "skills-101/superpowers",
+      "sourceType": "github",
+      "skillPath": "tools/video/ai-video-generation/SKILL.md",
+      "computedHash": "a2d7f92bb0fc3670a531576ce6e4ae0b7ed842cdeebec354a5bebe4c97821e39"
+    },
+    "aliyun-cosyvoice-voice-clone": {
+      "source": "cinience/alicloud-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ai/audio/aliyun-cosyvoice-voice-clone/SKILL.md",
+      "computedHash": "6cdd9c35a86dc9afc11e41f015a792be6daaf78e2433975d8c20583172a4f988"
+    },
+    "building-pydantic-ai-agents": {
+      "source": "pydantic/skills",
+      "sourceType": "github",
+      "skillPath": "skills/building-pydantic-ai-agents/SKILL.md",
+      "computedHash": "bb474c7cc6c736d59423b6041ded02725b9e3f147eccc430abe67a14bdee7e5e"
+    },
+    "ffmpeg": {
+      "source": "digitalsamba/claude-code-video-toolkit",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/ffmpeg/SKILL.md",
+      "computedHash": "453ce416b404291eb9ae04164b68447b3f35d9fb019f924ab5b72c503b2a6dc8"
+    },
+    "godot-audio": {
+      "source": "gamedev-skills/awesome-gamedev-agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/godot/godot-audio/SKILL.md",
+      "computedHash": "fed1da4d4d45c4c70d2978a428370d1fec87c094bfc1491396dc2fa00ae4d1b5"
+    },
+    "google-agents-cli-deploy": {
+      "source": "google/agents-cli",
+      "sourceType": "github",
+      "skillPath": "skills/google-agents-cli-deploy/SKILL.md",
+      "computedHash": "320088db1cd4e2967c8f25e24f97b2b66efa2b705a37829873afbbfead3dba0e"
+    },
+    "groq-rate-limits": {
+      "source": "jeremylongshore/tons-of-skills-marketplace",
+      "sourceType": "github",
+      "skillPath": "skills/.curated/groq-rate-limits/SKILL.md",
+      "computedHash": "d3155f00ac57ebf069f44636d87286e1191bdcc9f663570e9aab8ab707836db7"
+    },
+    "h3-prompt-writing": {
+      "source": "minimax-ai/minimax-h3",
+      "sourceType": "github",
+      "skillPath": "skills/h3-prompt-writing/SKILL.md",
+      "computedHash": "e5712d549cd8ee5a3ae5249d984d65b70a14ec9e66e5ec37fe818384c2837e1e"
+    },
+    "hyperframes-cli": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "skillPath": "skills/hyperframes-cli/SKILL.md",
+      "computedHash": "2197e685d1fcbd43dc446acfa8dc2a15490b839298098f297f3c1660773276cf"
+    },
+    "image-to-video": {
+      "source": "genmedia-labs/skills",
+      "sourceType": "github",
+      "skillPath": "image-to-video/SKILL.md",
+      "computedHash": "ff4a666a6db5af1c3aefe40c6379dd445177cfaa2bd51a1834c4ccf476ffd882"
+    },
+    "managed-deep-agents": {
+      "source": "langchain-ai/langchain-skills",
+      "sourceType": "github",
+      "skillPath": "config/skills/managed-deep-agents/SKILL.md",
+      "computedHash": "e4f26dfc142ef97704ddc5e090b2636f2b67ba4542a52018d1860e851e608ed8"
+    },
+    "manimce-best-practices": {
+      "source": "adithya-s-k/manim_skill",
+      "sourceType": "github",
+      "skillPath": "skills/manimce-best-practices/SKILL.md",
+      "computedHash": "d8a9168f993c3152944059fed0ec258101f7ed00d24852a9eb73d8541a2b92ed"
+    },
+    "minimax-h3-prompt-reviewer": {
+      "source": "unknowlei/minimax-h3-opencode-skills",
+      "sourceType": "github",
+      "skillPath": "skills/minimax-h3-prompt-reviewer/SKILL.md",
+      "computedHash": "2b8264e78339951da97cef2df1ed1b7a13c460e87f797be303abb0c5eb1a3d60"
+    },
+    "minimax-h3-reference-to-video": {
+      "source": "chiphoton/minimax-h3-codex-drama",
+      "sourceType": "github",
+      "skillPath": "skills/minimax-h3-reference-to-video/SKILL.md",
+      "computedHash": "99229228a09bffe9bfede78d0ca70609ccacafacc529d0fb4346da5ae2530bb5"
+    },
+    "minimax-h3-text-to-video": {
+      "source": "chiphoton/minimax-h3-codex-drama",
+      "sourceType": "github",
+      "skillPath": "skills/minimax-h3-text-to-video/SKILL.md",
+      "computedHash": "7ab4fda174de21b38334f42c97e3244e977cb0b8bfdcc533642f8017626f29ed"
+    },
+    "modelslab-audio-generation": {
+      "source": "modelslab/skills",
+      "sourceType": "github",
+      "skillPath": "audio-generation/SKILL.md",
+      "computedHash": "d70ff1fedec32f8bb518ae8d39831fcc7e61efa9a292fb6f12802cdefa4e44c6"
+    },
+    "modelslab-billing-subscriptions": {
+      "source": "modelslab/skills",
+      "sourceType": "github",
+      "skillPath": "billing-subscriptions/SKILL.md",
+      "computedHash": "31f2e61cc334982dba5df99040c324fc3f74d20c991b9ee7afc829e42c113591"
+    },
+    "modelslab-image-generation": {
+      "source": "modelslab/skills",
+      "sourceType": "github",
+      "skillPath": "image-generation/SKILL.md",
+      "computedHash": "f83b2e63bd40a2cb7fc3abbcfbfbf60905bbc01ef841826c9543ebc3f36f0a1e"
+    },
+    "modelslab-video-generation": {
+      "source": "modelslab/skills",
+      "sourceType": "github",
+      "skillPath": "video-generation/SKILL.md",
+      "computedHash": "4a56d77d02cfb16d2d1932bd6ad2df5e6a3d64cc8e269195e19cbbc39ed242b1"
+    },
+    "music-video-subtitle-generator": {
+      "source": "minimax-ai/minimax-h3",
+      "sourceType": "github",
+      "skillPath": "skills/music-video-subtitle-generator/SKILL.md",
+      "computedHash": "0b95ce3fdaba3bc1a101d286ae9d7717200a38ba3a38808007145999ded7a449"
+    },
+    "pdf": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pdf/SKILL.md",
+      "computedHash": "37226d4220d844377e6b2a386c51a011df4cd130855ff0b80bcc22f9c28abd57"
+    },
+    "prompt-engineering-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "skillPath": "plugins/llm-application-dev/skills/prompt-engineering-patterns/SKILL.md",
+      "computedHash": "3cfeff53f7cbc7b33a5ea1624c1d38563f22c6f7e52ad00b5c9a8b822a763a44"
+    },
+    "python-resilience": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "skillPath": "plugins/python-development/skills/python-resilience/SKILL.md",
+      "computedHash": "5141bd0eb323ea160151895db8a3c3cd5ab96a5188f05f671407d75585c2ec63"
+    },
+    "react-pdf": {
+      "source": "vercel-labs/json-render",
+      "sourceType": "github",
+      "skillPath": "skills/react-pdf/SKILL.md",
+      "computedHash": "72c5c4c8c70c97659fe978518d12e0835ca61c1c9a1a341d14eb1216bc2c2873"
+    },
+    "senior-ml-engineer": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "engineering-team/skills/senior-ml-engineer/SKILL.md",
+      "computedHash": "f4aa55acc4829ec0e298a090ec585a22424ca4da15c85990e37909e6f5ddf6e3"
+    },
+    "video-edit": {
+      "source": "agentspace-so/runcomfy-skills",
+      "sourceType": "github",
+      "skillPath": "video-edit/SKILL.md",
+      "computedHash": "f5e3dae395e536ff13fb2f66c20bbe84120739c161ff4a95b9c9e168b4d84105"
+    },
+    "video-use": {
+      "source": "browser-use/video-use",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "8facc4a73763a185f5c10d797250184dd8cdece3542cd1ad5290456cfcca7aa4"
+    },
+    "workflow-orchestration-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "skillPath": "plugins/backend-development/skills/workflow-orchestration-patterns/SKILL.md",
+      "computedHash": "01221e558bf2d2352ac736e717b3d657996bc1275258c22d1c0b729bfea6aa09"
+    },
+    "writing-for-agents": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/productivity/writing-for-agents/SKILL.md",
+      "computedHash": "831e996c177c6c5233eb3bb472a33edee2b3ce1ee5a6d7e8b696c1c3fb4eda3d"
+    }
+  }
+}

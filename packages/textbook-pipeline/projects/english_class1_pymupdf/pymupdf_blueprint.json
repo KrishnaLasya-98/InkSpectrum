@@ -1,0 +1,606 @@
+{
+  "id": "detected_via_keywords_ch1",
+  "number": 1,
+  "title": "Lesson 1 - At the Beach",
+  "subject": "english",
+  "grade": 1,
+  "textbook_id": "detected_via_keywords",
+  "learning_objectives": [],
+  "sections": [
+    {
+      "id": "sec_1",
+      "type": "theoretical",
+      "title": "Lesson 1 - At the Beach",
+      "content_text": " 17 - 25",
+      "page_range": [
+        1,
+        1
+      ],
+      "docling_refs": [
+        {
+          "item_id": "pymupdf_1_1",
+          "page_number": 1,
+          "label": "LESSON"
+        }
+      ],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0
+    },
+    {
+      "id": "sec_2",
+      "type": "theoretical",
+      "title": "Lesson 2 -",
+      "content_text": " (Poem)\t1 - Love 26 - 28",
+      "page_range": [
+        1,
+        1
+      ],
+      "docling_refs": [
+        {
+          "item_id": "pymupdf_1_2",
+          "page_number": 1,
+          "label": "LESSON"
+        }
+      ],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0
+    },
+    {
+      "id": "sec_3",
+      "type": "theoretical",
+      "title": "Lesson 3 - The School",
+      "content_text": " 29 - 37",
+      "page_range": [
+        1,
+        1
+      ],
+      "docling_refs": [
+        {
+          "item_id": "pymupdf_1_3",
+          "page_number": 1,
+          "label": "LESSON"
+        }
+      ],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0
+    },
+    {
+      "id": "sec_4",
+      "type": "theoretical",
+      "title": "Lesson 4 -",
+      "content_text": " (Poem)\tBooks 38 - 40",
+      "page_range": [
+        1,
+        1
+      ],
+      "docling_refs": [
+        {
+          "item_id": "pymupdf_1_4",
+          "page_number": 1,
+          "label": "LESSON"
+        }
+      ],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0
+    },
+    {
+      "id": "sec_5",
+      "type": "theoretical",
+      "title": "Lesson 5 - My Neighbourhood",
+      "content_text": " 41 - 48",
+      "page_range": [
+        1,
+        1
+      ],
+      "docling_refs": [
+        {
+          "item_id": "pymupdf_1_5",
+          "page_number": 1,
+          "label": "LESSON"
+        }
+      ],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0
+    },
+    {
+      "id": "sec_6",
+      "type": "theoretical",
+      "title": "Lesson 6 - Our Village",
+      "content_text": " 49 - 59",
+      "page_range": [
+        1,
+        1
+      ],
+      "docling_refs": [
+        {
+          "item_id": "pymupdf_1_6",
+          "page_number": 1,
+          "label": "LESSON"
+        }
+      ],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0
+    },
+    {
+      "id": "sec_7",
+      "type": "theoretical",
+      "title": "Lesson 7 -",
+      "content_text": " Hills 60 - 62",
+      "page_range": [
+        1,
+        1
+      ],
+      "docling_refs": [
+        {
+          "item_id": "pymupdf_1_7",
+          "page_number": 1,
+          "label": "LESSON"
+        }
+      ],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0
+    },
+    {
+      "id": "sec_8",
+      "type": "theoretical",
+      "title": "Lesson 8 - Come and Play",
+      "content_text": " 63 - 72 CONTENT Pages",
+      "page_range": [
+        1,
+        1
+      ],
+      "docling_refs": [
+        {
+          "item_id": "pymupdf_1_8",
+          "page_number": 1,
+          "label": "LESSON"
+        }
+      ],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0
+    },
+    {
+      "id": "sec_9",
+      "type": "exercise",
+      "title": "PHONICS ( Worksheet - 1)",
+      "content_text": " A to Z A says /a/ as in Apple Sometimes /a/ as in Ape D says /d/ as in Duck G says /g/ as in Gift Sometimes /g/ as in Giraffe B says /b/ as in Bat E says /e/ as in Egg Sometimes /e/ as in Sheep H says /h/ as in Hat C says /c/ as in Cat Sometimes /c/ as in Cap F says /f/ as in Fan I says /i/ as in Ink Sometimes /i/ as in Ice-Cream 7 Rockland English - Class 1",
+      "page_range": [
+        2,
+        2
+      ],
+      "docling_refs": [
+        {
+          "item_id": "pymupdf_2_9",
+          "page_number": 2,
+          "label": "WORKSHEET"
+        }
+      ],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0
+    },
+    {
+      "id": "sec_10",
+      "type": "exercise",
+      "title": "PHONICS ( Worksheet - 1)",
+      "content_text": " A to Z J says /j/ as in Jug M says /m/ as in Moon P says /p/ as in Pencil K says /k/ as in Kites (kite picture) N says /n/ as in Net Q says /q/ as in Quilt L says /l/ as in Lion O says /o/ as in Orange Sometimes /o/ as in Old  Man R says /r/ as in Rocket 8 Rockland English - Class 1",
+      "page_range": [
+        3,
+        3
+      ],
+      "docling_refs": [
+        {
+          "item_id": "pymupdf_3_10",
+          "page_number": 3,
+          "label": "WORKSHEET"
+        }
+      ],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0
+    },
+    {
+      "id": "sec_11",
+      "type": "exercise",
+      "title": "PHONICS ( Worksheet - 1)",
+      "content_text": " A to Z S says /s/ as in Star V says /v/ as in Vegetables Y says /y/ as in Yacht T says /t/ as in Tooth Brush W says /w/ as in Watch Z says /z/ as in Zebra U says /u/ as in Umbrella Sometimes /u/ as in Unicorn X says /x/ as in Box 9 Rockland English - Class 1",
+      "page_range": [
+        4,
+        4
+      ],
+      "docling_refs": [
+        {
+          "item_id": "pymupdf_4_11",
+          "page_number": 4,
+          "label": "WORKSHEET"
+        }
+      ],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0
+    },
+    {
+      "id": "sec_12",
+      "type": "exercise",
+      "title": "PHONICS ( Worksheet - 2)",
+      "content_text": " Vowels (A,E,I,O,U) Reading words with Vowels ‘A’ at an ad ab ap ag am bat ban bad cab cap bag dam cat can dad dab gap lag ram hat man had fab map rag pat pan lad tab rap sag sat ran mad nab tat tan pad Reading words with Vowels ‘E’ ed en et eg bed den bet beg fed hen get keg red men let leg led pen pet peg wed ten vet Reading words with Vowels ‘I’ in it ip id ib ig bin bit dip bid bib big fin fit hip did nib fig kin kit lip kid rib wig pin lit nip lid tin sit rip 10 Rockland English - Class 1 Vowels (A,E,I,O,U) Reading words with Vowels ‘O’ od ob og ot op cod cob cog cot cop rod bob dog dot hop nod mob fog got pop pod rob log hot top god Sob jog not Reading words with Vowels ‘U’ un ug ub bun dug cub fun hug hub gun jug rub run lug tub sun mug 11 Rockland English - Class 1",
+      "page_range": [
+        5,
+        5
+      ],
+      "docling_refs": [
+        {
+          "item_id": "pymupdf_5_12",
+          "page_number": 5,
+          "label": "WORKSHEET"
+        }
+      ],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0
+    },
+    {
+      "id": "sec_13",
+      "type": "exercise",
+      "title": "PHONICS ( Worksheet - 3)",
+      "content_text": " Rhyming Words 1.  Read the word in each row. Colour the circle next to the object",
+      "page_range": [
+        7,
+        7
+      ],
+      "docling_refs": [
+        {
+          "item_id": "pymupdf_7_13",
+          "page_number": 7,
+          "label": "WORKSHEET"
+        }
+      ],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [
+        {
+          "id": "ex_13_1",
+          "question_text": "1.  Read the word in each row. Colour the circle next to the object",
+          "exercise_type": "short_answer",
+          "difficulty": 2,
+          "marks": null,
+          "options": null,
+          "correct_answer": null,
+          "worked_solution": null,
+          "hint": null,
+          "visual_assets": [],
+          "page_number": 7,
+          "docling_refs": [
+            {
+              "item_id": "pymupdf_q_7_0",
+              "page_number": 7,
+              "label": "QUESTION"
+            }
+          ]
+        }
+      ],
+      "estimated_duration_seconds": 0
+    },
+    {
+      "id": "sec_14",
+      "type": "exercise",
+      "title": "that rhymes with the word.",
+      "content_text": " a. cot b. red c. rid d. rug e. rat 2. Find the words. pet jam box sit jug s i t o j r z k s u p e t z g i u j a m y e b o x 12 Rockland English - Class 1 Rhyming Words 3. Fill in the blanks and match the rhyming words. s ___ ___                  m ___ ___ p ___ ____ l ____ ____ 13 Rockland English - Class 1",
+      "page_range": [
+        7,
+        7
+      ],
+      "docling_refs": [
+        {
+          "item_id": "pymupdf_7_14",
+          "page_number": 7,
+          "label": "HEADING"
+        }
+      ],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [
+        {
+          "id": "ex_14_1",
+          "question_text": "3. Fill in the blanks and match the rhyming words.",
+          "exercise_type": "short_answer",
+          "difficulty": 2,
+          "marks": null,
+          "options": null,
+          "correct_answer": null,
+          "worked_solution": null,
+          "hint": null,
+          "visual_assets": [],
+          "page_number": 8,
+          "docling_refs": [
+            {
+              "item_id": "pymupdf_q_8_0",
+              "page_number": 8,
+              "label": "QUESTION"
+            }
+          ]
+        }
+      ],
+      "estimated_duration_seconds": 0
+    },
+    {
+      "id": "sec_15",
+      "type": "exercise",
+      "title": "PHONICS ( Worksheet - 4)",
+      "content_text": " Sounds of Vowels 1. Let us revise the long sounds of the vowels. a says /a/ as in ape e says /e/ as in sheep i says /i/ as in ice cream o says/o/ as in old u says /u/ as in flute 2 . Let us read and understand. long ‘a’ long ‘e’ long ‘i’ long ‘o’ long ‘u’ gate sleep pile rose glue rake sheep dime hose mule cape deep dice note flute tape deer vine rope tube cave cheer slide bone cube skate kneel prize nose blue 14 Rockland English - Class 1 Sounds of Vowels 3. Let us read and understand. Long sound to ‘i’ bit bite fin fine pin pine Long sound to ‘o’ pop pope hop hope rob robe Long sound to ‘a’ can cane tap tape mat mate Long sound to ‘u’ cut cute cub cube tub tube",
+      "page_range": [
+        9,
+        9
+      ],
+      "docling_refs": [
+        {
+          "item_id": "pymupdf_9_15",
+          "page_number": 9,
+          "label": "WORKSHEET"
+        }
+      ],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [
+        {
+          "id": "ex_15_1",
+          "question_text": "1. Let us revise the long sounds of the vowels.",
+          "exercise_type": "short_answer",
+          "difficulty": 2,
+          "marks": null,
+          "options": null,
+          "correct_answer": null,
+          "worked_solution": null,
+          "hint": null,
+          "visual_assets": [],
+          "page_number": 9,
+          "docling_refs": [
+            {
+              "item_id": "pymupdf_q_9_0",
+              "page_number": 9,
+              "label": "QUESTION"
+            }
+          ]
+        },
+        {
+          "id": "ex_15_2",
+          "question_text": "3. Let us read and understand.",
+          "exercise_type": "short_answer",
+          "difficulty": 2,
+          "marks": null,
+          "options": null,
+          "correct_answer": null,
+          "worked_solution": null,
+          "hint": null,
+          "visual_assets": [],
+          "page_number": 10,
+          "docling_refs": [
+            {
+              "item_id": "pymupdf_q_10_1",
+              "page_number": 10,
+              "label": "QUESTION"
+            }
+          ]
+        }
+      ],
+      "estimated_duration_seconds": 0
+    },
+    {
+      "id": "sec_16",
+      "type": "theoretical",
+      "title": "Long sound to ‘e’",
+      "content_text": " eat sea read weak leaf keep 15 Rockland English - Class 1",
+      "page_range": [
+        10,
+        10
+      ],
+      "docling_refs": [
+        {
+          "item_id": "pymupdf_10_16",
+          "page_number": 10,
+          "label": "HEADING"
+        }
+      ],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0
+    },
+    {
+      "id": "sec_17",
+      "type": "exercise",
+      "title": "PHONICS ( Worksheet - 5)",
+      "content_text": " Sounds of Vowels 1. Identify each picture, circles with the letters that name it, and write the",
+      "page_range": [
+        11,
+        11
+      ],
+      "docling_refs": [
+        {
+          "item_id": "pymupdf_11_17",
+          "page_number": 11,
+          "label": "WORKSHEET"
+        }
+      ],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [
+        {
+          "id": "ex_17_1",
+          "question_text": "1. Identify each picture, circles with the letters that name it, and",
+          "exercise_type": "short_answer",
+          "difficulty": 2,
+          "marks": null,
+          "options": null,
+          "correct_answer": null,
+          "worked_solution": null,
+          "hint": null,
+          "visual_assets": [],
+          "page_number": 11,
+          "docling_refs": [
+            {
+              "item_id": "pymupdf_q_11_0",
+              "page_number": 11,
+              "label": "QUESTION"
+            }
+          ]
+        }
+      ],
+      "estimated_duration_seconds": 0
+    },
+    {
+      "id": "sec_18",
+      "type": "theoretical",
+      "title": "word.",
+      "content_text": " a. s o r e ______________ g\t    o\t    r b. b n s e ______________ j o\t    p c. o a c p ______________ s\t    z\t    v d. y c i e ______________ v\t    h\t    a e. n e i q ______________ c\t    d\t    t 16 Rockland English - Class 1 Look at the picture. What do you see? Talk about any 3 of them. Read and Enjoy Let us read what Varun and his sister do when they visit a beach with their family. It is a lovely day. Varun and his sister Vidya are at a beach with their parents.",
+      "page_range": [
+        11,
+        11
+      ],
+      "docling_refs": [
+        {
+          "item_id": "pymupdf_11_18",
+          "page_number": 11,
+          "label": "HEADING"
+        }
+      ],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0
+    },
+    {
+      "id": "sec_19",
+      "type": "exercise",
+      "title": "At the Beach",
+      "content_text": " 1 Lesson Cloud Sandcastle Sand Palm Tree Sea Ball Girl Swimming Ring Starfish 17 Rockland English - Class 1 Warm Up Hey, let us build a sandcastle. Sure! I have a shovel and a bucket too. Varun and Vidya build a castle together. Look, this room is for Grandpa and Grandma. Wow! They will tell us stories here. Varun and Vidya build a very big castle. This room is for Mummy and Daddy. And that one is our playroom. We can keep all our toys here. Where does this staircase go? It goes to the basement. We can play hide-and-seek there. Nobody will find us there. Mom and Dad are calling. We have to leave now! 18 Rockland English - Class 1 A. Tick  (      ) the correct sentences. a.\t Varun and Vidya go to a               with their family. (    \t ) b.\tThey build a on the beach. (    \t ) c.\t They decorate the                with              . (    \t ) d.\tVidya has a and a       . (    \t )",
+      "page_range": [
+        12,
+        12
+      ],
+      "docling_refs": [
+        {
+          "item_id": "pymupdf_12_19",
+          "page_number": 12,
+          "label": "HEADING"
+        }
+      ],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0
+    },
+    {
+      "id": "sec_20",
+      "type": "exercise",
+      "title": "B. Tick whether the following statements are true or false.",
+      "content_text": " a. They build a castle with clay. Glossary shovel : a tool for digging earth. basement : rooms or wide space below the ground floor of a building staircase : a set of stairs in a building",
+      "page_range": [
+        14,
+        14
+      ],
+      "docling_refs": [
+        {
+          "item_id": "pymupdf_14_20",
+          "page_number": 14,
+          "label": "HEADING"
+        }
+      ],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0
+    },
+    {
+      "id": "sec_21",
+      "type": "exercise",
+      "title": "Comprehending Ability",
+      "content_text": " 19 Rockland English - Class 1 b. They went to the beach with their parents. c. Grandpa and Grandma tells us stories. C.  Think and Answer. a.\t What do Varun and Vidya do on the beach? ________________________________________________________. b.\tWhat do they use to build the sandcastle? ________________________________________________________. c.\t Where does the staircase go? ________________________________________________________. D. Let’s Discuss Why do we feel happy when we see a beach? What do you say when you meet someone? How do you introduce yourself? Hello! I am Adithya. Hello! Adithya, I am Smitha. I live in Mumbai. I live in Delhi.I am in Grade -1",
+      "page_range": [
+        14,
+        14
+      ],
+      "docling_refs": [
+        {
+          "item_id": "pymupdf_14_21",
+          "page_number": 14,
+          "label": "HEADING"
+        }
+      ],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0
+    },
+    {
+      "id": "sec_22",
+      "type": "exercise",
+      "title": "Speaking Ability",
+      "content_text": " 20 Rockland English - Class 1",
+      "page_range": [
+        15,
+        15
+      ],
+      "docling_refs": [
+        {
+          "item_id": "pymupdf_15_22",
+          "page_number": 15,
+          "label": "HEADING"
+        }
+      ],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0
+    }
+  ],
+  "page_range": [
+    1,
+    15
+  ],
+  "source_pdf": "D:\\new_video_pip\\textbook-pipeline\\projects\\english_class1_pymupdf\\content_pages_6_20.pdf",
+  "total_estimated_duration_seconds": 0,
+  "metadata": {}
+}

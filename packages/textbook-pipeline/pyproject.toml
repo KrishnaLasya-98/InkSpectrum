@@ -1,0 +1,122 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "textbook-pipeline"
+version = "0.1.0"
+description = "Transform K-10 textbook PDFs into chapter-by-chapter video lectures"
+readme = "README.md"
+requires-python = ">=3.10,<4.0"
+license = {text = "MIT"}
+authors = [
+  {name = "Lasya"}
+]
+keywords = [
+  "education", "textbook", "video-generation", "k-10",
+  "remotion", "manim", "docling", "pedagogical"
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Education",
+  "Topic :: Education",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "License :: OSI Approved :: MIT License"
+]
+
+# Minimal base dependencies
+dependencies = [
+  "pydantic>=2.0.0,<3.0.0",
+  "python-dotenv>=1.0.0",
+  "tqdm>=4.65.0"
+]
+
+# Phase 1 subjects: english, math, social/evs
+# Phase 2 (deferred): gk, additional subjects
+[project.optional-dependencies]
+# Document parsing (PDF -> structured)
+docling = [
+  "docling>=2.0.0",
+]
+
+# LLM (script + scene generation)
+llm = [
+  "langchain>=0.1.0",
+  "langchain-openai>=0.1.0",
+  "openai>=1.0.0",
+]
+
+# TTS (narration)
+tts = [
+  "edge-tts>=6.1.0",
+  "elevenlabs>=1.0.0",
+]
+
+# Subtitles (SRT generation)
+subtitles = [
+  "srt>=3.5.0",
+]
+
+# Remotion renderer (TypeScript toolchain, not Python)
+# Install via: npm install -g @remotion/cli (see lib/renderers/remotion/)
+
+# Manim renderer (math-heavy chapters)
+manim = [
+  "manim>=0.18.0",
+  "sympy>=1.12",
+]
+
+# Video composition (final assembly)
+compositor = [
+  "moviepy>=1.0.3",
+]
+
+# All phase-1 features
+all = [
+  "docling>=2.0.0",
+  "langchain>=0.1.0",
+  "langchain-openai>=0.1.0",
+  "openai>=1.0.0",
+  "edge-tts>=6.1.0",
+  "elevenlabs>=1.0.0",
+  "srt>=3.5.0",
+  "manim>=0.18.0",
+  "sympy>=1.12",
+  "moviepy>=1.0.3"
+]
+
+# Dev tools
+dev = [
+  "pytest>=7.0.0",
+  "pytest-cov>=4.0.0",
+  "ruff>=0.1.0",
+  "mypy>=1.0.0",
+]
+
+[project.scripts]
+textbook-pipeline = "textbook_pipeline.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/textbook_pipeline"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W", "UP", "B", "C4", "SIM"]
+ignore = ["E501"]  # line-too-long
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false # gradual typing

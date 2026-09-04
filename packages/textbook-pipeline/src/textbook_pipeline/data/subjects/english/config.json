@@ -1,0 +1,59 @@
+{
+  "subject": "english",
+  "display_name": "English",
+  "default_voice": "en-US-AriaNeural",
+  "primary_color": "#FF6B2C",
+  "secondary_color": "#3D3BDB",
+  "background_color": "#FFFFFF",
+  "tts_rate": "-10%",
+  "reading_level_adjustment": 0.9,
+  "scene_template_dir": "data/subjects/english/templates",
+  "scene_types": [
+    "title", "subtitle", "text", "clear",
+    "word_highlight", "sentence_token",
+    "vocabulary_card", "pronunciation_guide",
+    "question_card", "worked_step", "answer_reveal"
+  ],
+  "narration_pattern": {
+    "theoretical": [
+      "introduce_passage",
+      "read_with_expression",
+      "highlight_key_vocabulary",
+      "explain_grammar_or_theme",
+      "summarize_meaning"
+    ],
+    "exercise": [
+      "read_question",
+      "reference_passage_excerpt",
+      "analyze_options_or_prompt",
+      "model_response",
+      "key_takeaway"
+    ]
+  },
+  "terminology": {
+    "highlight_keywords": [
+      "noun", "verb", "adjective", "adverb", "pronoun", "preposition",
+      "metaphor", "simile", "personification", "alliteration", "rhyme",
+      "stanza", "paragraph", "synonym", "antonym", "context clue",
+      "theme", "plot", "character", "setting", "narrator"
+    ]
+  },
+  "exercise_detection_patterns": [
+    "(?:Read|Choose|Answer|Fill in|Complete)\\s+(?:the\\s+)?(?:following|passage|questions?)",
+    "(?:Choose the correct|Find the|Identify the)\\s+\\w+",
+    "Q\\d+\\.\\s",
+    "\\([a-d]\\)\\s"
+  ],
+  "tts_voice_alternatives": [
+    "en-US-AriaNeural",
+    "en-US-JennyNeural",
+    "en-IN-NeerjaNeural",
+    "en-GB-RyanNeural"
+  ],
+  "reading_pace_wpm": {
+    "grade_1_2": 90,
+    "grade_3_5": 120,
+    "grade_6_8": 150,
+    "grade_9_10": 170
+  }
+}

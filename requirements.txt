@@ -1,0 +1,25 @@
+opencv-python
+pillow
+numpy
+ffmpeg-python
+moviepy
+torch
+torchvision
+transformers
+datasets
+accelerate
+sentencepiece
+protobuf
+requests
+tqdm
+pyyaml
+python-dotenv
+
+# Model testing sprint dependencies
+httpx>=0.27.0
+typer>=0.12.0
+rich>=13.0
+tenacity>=8.2.0
+python-dotenv>=1.0
+groq>=0.11.0
+pandas>=2.0.0

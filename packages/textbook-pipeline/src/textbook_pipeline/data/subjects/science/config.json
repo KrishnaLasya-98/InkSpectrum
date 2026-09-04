@@ -1,0 +1,65 @@
+{
+  "subject": "science",
+  "display_name": "Science",
+  "default_voice": "en-US-AriaNeural",
+  "primary_color": "#0F9E75",
+  "secondary_color": "#3D3BDB",
+  "background_color": "#FFFFFF",
+  "tts_rate": "+0%",
+  "reading_level_adjustment": 1.0,
+  "scene_template_dir": "data/subjects/science/templates",
+  "scene_types": [
+    "title", "subtitle", "text", "clear",
+    "latex_inline", "latex_block",
+    "polygon", "circle", "rectangle", "triangle",
+    "axes_2d", "plot_curve",
+    "labeled_diagram", "process_flow", "cycle_diagram", "molecule_structure",
+    "timeline", "comparison_table",
+    "question_card", "worked_step", "answer_reveal"
+  ],
+  "narration_pattern": {
+    "theoretical": [
+      "introduce_concept_with_real_world_anchor",
+      "state_scientific_principle",
+      "show_diagram_with_explanation",
+      "walk_through_process_steps",
+      "summarize_with_observation_or_law"
+    ],
+    "exercise": [
+      "read_question",
+      "reference_scientific_principle",
+      "walk_through_reasoning",
+      "state_answer",
+      "real_world_application"
+    ]
+  },
+  "terminology": {
+    "highlight_keywords": [
+      "atom", "molecule", "element", "compound", "mixture",
+      "cell", "tissue", "organ", "organism", "species",
+      "force", "energy", "work", "power", "velocity", "acceleration",
+      "current", "voltage", "resistance", "circuit", "magnet",
+      "photosynthesis", "respiration", "digestion", "reproduction",
+      "habitat", "ecosystem", "food chain", "predator", "prey",
+      "hypothesis", "experiment", "observation", "conclusion"
+    ]
+  },
+  "exercise_detection_patterns": [
+    "(?:Choose|Fill in|Answer|Match|Identify|Name)\\s+(?:the\\s+)?(?:correct|following)",
+    "(?:What|Why|How|When|Where|Which)\\s+(?:is|are|do|does|did|happens)",
+    "Q\\d+\\.\\s",
+    "\\([a-d]\\)\\s",
+    "(?:True or False|Write (?:T|F))"
+  ],
+  "diagram_taxonomy": {
+    "process_flow": ["water cycle", "life cycle", "rock cycle", "food chain"],
+    "cycle_diagram": ["carbon cycle", "nitrogen cycle", "Krebs cycle"],
+    "labeled_diagram": ["cell", "atom", "heart", "eye", "circuit", "plant"],
+    "molecule_structure": ["H2O", "CO2", "NaCl", "glucose"]
+  },
+  "tts_voice_alternatives": [
+    "en-US-AriaNeural",
+    "en-US-JennyNeural",
+    "en-IN-NeerjaNeural"
+  ]
+}

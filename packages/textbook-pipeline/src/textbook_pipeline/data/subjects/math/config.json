@@ -1,0 +1,55 @@
+{
+  "subject": "math",
+  "display_name": "Mathematics",
+  "default_voice": "en-US-AriaNeural",
+  "primary_color": "#3D3BDB",
+  "secondary_color": "#FF6B2C",
+  "background_color": "#FFFFFF",
+  "tts_rate": "+0%",
+  "reading_level_adjustment": 1.0,
+  "scene_template_dir": "data/subjects/math/templates",
+  "scene_types": [
+    "title", "subtitle", "text", "clear",
+    "latex_inline", "latex_block",
+    "polygon", "circle", "rectangle", "triangle", "angle_arc",
+    "axes_2d", "axes_3d", "plot_curve",
+    "number_line", "fraction_bar", "grid",
+    "question_card", "worked_step", "answer_reveal"
+  ],
+  "narration_pattern": {
+    "theoretical": [
+      "introduce_concept",
+      "state_definition",
+      "show_equation",
+      "worked_example",
+      "summary_recall"
+    ],
+    "exercise": [
+      "read_question",
+      "identify_givens",
+      "state_strategy",
+      "step_by_step_solution",
+      "final_answer_with_verification"
+    ]
+  },
+  "terminology": {
+    "highlight_keywords": [
+      "equation", "formula", "theorem", "proof", "variable",
+      "coefficient", "derivative", "integral", "matrix", "vector",
+      "function", "polynomial", "rational", "irrational", "integer",
+      "factor", "multiple", "prime", "composite", "quotient", "remainder"
+    ]
+  },
+  "equation_detection_patterns": [
+    "[A-Za-z]\\s*[=<>≤≥±]\\s*[^.\\n]+",
+    "\\b(?:sin|cos|tan|log|ln|sqrt)\\s*\\(",
+    "[0-9]+\\^[0-9]+",
+    "[0-9]+/[0-9]+",
+    "[A-Za-z]_[0-9]+"
+  ],
+  "tts_voice_alternatives": [
+    "en-US-AriaNeural",
+    "en-US-JennyNeural",
+    "en-US-GuyNeural"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "$schema": "https://app.kilo.ai/config.json",
+  "permission": {
+    "bash": "allow",
+    "edit": "allow",
+    "write": "allow",
+    "read": "allow",
+    "glob": "allow",
+    "grep": "allow",
+    "task": "allow",
+    "webfetch": "allow",
+    "websearch": "allow",
+    "todowrite": "allow",
+    "question": "allow",
+    "skill": "allow",
+    "external_directory": "allow"
+  },
+  "mcp": {
+    "google-maps-platform-code-assist": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@googlemaps/code-assist-mcp@0.2.0"
+      ]
+    },
+    "puppeteer": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-puppeteer"
+      ]
+    },
+    "playwright": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@playwright/mcp@0.0.38"
+      ]
+    },
+    "sequentialthinking": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
+    },
+    "model-evaluator": {
+      "enabled": true,
+      "description": "Agentic AI Video Generation for K-10 Educational Content"
+    }
+  }
+}
