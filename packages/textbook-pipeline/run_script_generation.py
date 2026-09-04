@@ -2,15 +2,10 @@ import json
 import sys
 from pathlib import Path
 
-PROJECT_ROOT = Path("D:/new_video_pip/textbook-pipeline").absolute()
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
-
-from lib.environment import initialize_environment
 initialize_environment()
 
-from lib.script_writer.generator import generate_chapter_script
-from schemas import ChapterNode
+from textbook_pipeline.core.script.generator import generate_chapter_script
+from textbook_pipeline.models import ChapterNode
 
 # Load the blueprint
 blueprint_path = Path("D:/new_video_pip/textbook-pipeline/projects/english_class1_pymupdf/pymupdf_blueprint.json")

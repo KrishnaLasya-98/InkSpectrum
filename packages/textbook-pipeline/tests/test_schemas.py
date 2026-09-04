@@ -21,7 +21,7 @@ from pathlib import Path
 
 import pytest
 
-from schemas import (
+from textbook_pipeline.models import (
     AudioManifest,
     ChapterNode,
     DoclingRef,
@@ -241,7 +241,7 @@ class TestChapterRoundTrip:
 class TestScriptLayer:
     def test_scene_step_math_latex(self):
         """SceneStep with LaTeX equation (math scene) is valid."""
-        from schemas import SceneStep
+        from textbook_pipeline.models import SceneStep
         step = SceneStep(
             at=5.0,
             type=SceneStepType.LATEX_BLOCK,
@@ -254,7 +254,7 @@ class TestScriptLayer:
 
     def test_scene_step_english_highlight(self):
         """SceneStep for English word-highlight is valid."""
-        from schemas import SceneStep
+        from textbook_pipeline.models import SceneStep
         step = SceneStep(
             at=2.0,
             type=SceneStepType.WORD_HIGHLIGHT,
@@ -267,7 +267,7 @@ class TestScriptLayer:
 
     def test_script_scene_with_voiceover(self):
         """ScriptScene holds voiceover + scene steps."""
-        from schemas import SceneStep
+        from textbook_pipeline.models import SceneStep
         script = ScriptScene(
             id="ch1_intro",
             title="Introduction",
@@ -293,7 +293,7 @@ class TestScriptLayer:
 class TestStoryboardLayer:
     def test_storyboard_with_audio(self):
         """StoryboardScene links script + audio with timing."""
-        from schemas import SceneStep
+        from textbook_pipeline.models import SceneStep
         audio = AudioManifest(
             scene_id="ch1_intro",
             audio_path=Path("audio/ch1_intro.mp3"),

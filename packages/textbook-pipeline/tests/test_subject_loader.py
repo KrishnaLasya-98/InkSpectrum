@@ -8,13 +8,13 @@ from __future__ import annotations
 
 import pytest
 
-from data.subjects.loader import (
+from textbook_pipeline.data.subjects.loader import (
     available_subjects,
     is_subject_available,
     load_subject_config,
     reset_cache,
 )
-from schemas import Subject
+from textbook_pipeline.models import Subject
 
 
 # Ensure cache is fresh for each test

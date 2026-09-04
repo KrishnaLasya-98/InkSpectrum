@@ -11,14 +11,9 @@ import logging
 import sys
 from pathlib import Path
 
-PROJECT_ROOT = Path("D:/new_video_pip/textbook-pipeline").absolute()
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
-
-from lib.environment import initialize_environment
 initialize_environment()
 
-from wrappers.agnes_client import AgnesPipelineClient
+from textbook_pipeline.wrappers.agnes_client import AgnesPipelineClient
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

@@ -2,15 +2,10 @@ import json
 import sys
 from pathlib import Path
 
-PROJECT_ROOT = Path("D:/new_video_pip/textbook-pipeline").absolute()
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
-
-from lib.environment import initialize_environment
 initialize_environment()
 
-from lib.script_writer.generator import ScriptWriter
-from schemas import ChapterNode, SectionType, SectionNode
+from textbook_pipeline.core.script.generator import ScriptWriter
+from textbook_pipeline.models import ChapterNode, SectionType, SectionNode
 
 # Load the blueprint
 blueprint_path = Path("D:/new_video_pip/textbook-pipeline/projects/english_class1_pymupdf/pymupdf_blueprint.json")
@@ -34,7 +29,7 @@ for s in target_sections:
     print(f"  - {s.id}: {s.title} (type={s.type})")
 
 # Build mini-chapter with just Lesson 1 sections
-from schemas import ChapterNode as CN
+from textbook_pipeline.models import ChapterNode as CN
 mini_chapter = CN(
     id=chapter.id,
     number=1,

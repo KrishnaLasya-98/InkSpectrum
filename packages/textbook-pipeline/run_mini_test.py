@@ -3,25 +3,11 @@ import sys
 from pathlib import Path
 import json
 
-# 1. Force project root into sys.path
-PROJECT_ROOT = Path("D:/new_video_pip/textbook-pipeline").absolute()
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
-
-# 2. Initialize Environment
-try:
-    from lib.environment import initialize_environment
-    initialize_environment()
-    print("✅ Environment bridge active.")
-except ImportError as e:
-    print(f"Critical Import Error: {e}")
-    exit(1)
-
 # 3. Import our connectors and logic
 try:
-    from wrappers.docling_client import DoclingClient
-    from lib.textbook_ingest.subject_router import SubjectRouter
-    from lib.textbook_ingest.chapter_grouper import ChapterGrouper
+    from textbook_pipeline.wrappers.docling_client import DoclingClient
+    from textbook_pipeline.core.ingestion.subject_router import SubjectRouter
+    from textbook_pipeline.core.ingestion.chapter_grouper import ChapterGrouper
 except ImportError as e:
     print(f"Critical Import Error: {e}")
     exit(1)
@@ -55,7 +41,7 @@ def run_mini_test():
     
     # Step C: Group into Chapter Structure
     print("\n[Step 3/3] Grouping into Pedagogical Tree...")
-    grouper = ChapterGrouper(subject=subject_info['subject', grade=subject_info['grade'])
+    grouper = ChapterGrouper(subject=subject_info['subject'], grade=subject_info['grade'])
     chapter_node = grouper.group_into_chapter(raw_doc, subject_info)
     
     # Save Result

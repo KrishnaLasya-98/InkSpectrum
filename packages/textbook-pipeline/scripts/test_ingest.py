@@ -16,10 +16,10 @@ from dotenv import load_dotenv
 from lib import environment
 load_dotenv()
 
-from wrappers.docling_client import DoclingClient
-from lib.textbook_ingest.subject_router import SubjectRouter
-from lib.textbook_ingest.chapter_grouper import ChapterGrouper
-from schemas import Subject
+from textbook_pipeline.wrappers.docling_client import DoclingClient
+from textbook_pipeline.core.ingestion.subject_router import SubjectRouter
+from textbook_pipeline.core.ingestion.chapter_grouper import ChapterGrouper
+from textbook_pipeline.models import Subject
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
