@@ -1,0 +1,33 @@
+name: framework_smoke
+category: custom
+description: Minimal smoke test for framework validation. No external API calls.
+mode: executive-producer
+skill: skills/pipelines/framework_smoke/executive-producer
+budget_default_usd: 0.10
+max_revisions_per_stage: 1
+compatible_playbooks:
+  - clean-classroom
+
+stages:
+  - name: research
+    skill: skills/pipelines/framework_smoke/research-director
+    produces: [chapter_node]
+    tools_available: [opendataloader_extract]
+    checkpoint_required: true
+    human_approval_default: false
+    success_criteria:
+      - chapter_node JSON is written
+      - chapter.sections is non-empty
+    review_focus:
+      - schema validation passes
+      - section count > 0
+
+  - name: review
+    skill: skills/meta/reviewer
+    produces: [review_report]
+    tools_available: []
+    checkpoint_required: true
+    human_approval_default: false
+    success_criteria:
+      - all success_criteria from research pass
+      - no schema violations

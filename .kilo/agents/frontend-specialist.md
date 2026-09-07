@@ -7,7 +7,7 @@ options:
 permission:
   read: allow
   edit:
-    "*": deny
+    "*": allow
     "*.ts": allow
     "*.tsx": allow
     "*.js": allow
@@ -16,7 +16,7 @@ permission:
     "*.scss": allow
     "*.less": allow
   bash: allow
-  mcp: deny
+  mcp: allow
   question: allow
 ---
 

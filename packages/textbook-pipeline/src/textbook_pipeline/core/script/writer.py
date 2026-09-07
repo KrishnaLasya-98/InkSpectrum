@@ -24,7 +24,6 @@ from textbook_pipeline.models.script import (
     SceneStep,
     SceneStepType,
     VoiceoverLine,
-    SceneStepType,
 )
 
 load_dotenv()
@@ -97,11 +96,11 @@ class ScriptWriter:
         return f"""You are an expert {prompts['teacher_persona']} creating educational video scripts.
 
 SCENE STEP VOCABULARY (constrained primitives - ONLY these types allowed):
-- Universal: TITLE, SUBTITLE, TEXT, CLEAR
-- English/Humanities: WORD_HIGHLIGHT, SENTENCE_TOKEN, VOCABULARY_CARD, PRONUNCIATION_GUIDE, POEM_CARD, DIALOGUE_BUBBLE, STORYBOARD_FRAME
-- Math: LATEX_INLINE, LATEX_BLOCK, POLYGON, CIRCLE, RECTANGLE, TRIANGLE, ANGLE_ARC, AXES_2D, AXES_3D, PLOT_CURVE, NUMBER_LINE, FRACTION_BAR, GRID
-- Social Studies: TIMELINE, MAP_MARKER, CAUSE_EFFECT_CHAIN, COMPARISON_TABLE, GEOGRAPHIC_MAP, HISTORICAL_FIGURE, PRIMARY_SOURCE
-- Exercises: QUESTION_CARD, WORKED_STEP, ANSWER_REVEAL
+- Universal: title, subtitle, text, clear
+- English/Humanities: word_highlight, sentence_token, vocabulary_card, pronunciation_guide, poem_card, dialogue_bubble, storyboard_frame
+- Math: latex_inline, latex_block, polygon, circle, rectangle, triangle, angle_arc, axes_2d, axes_3d, plot_curve, number_line, fraction_bar, grid
+- Social Studies: timeline, map_marker, cause_effect_chain, comparison_table, geographic_map, historical_figure, primary_source
+- Exercises: question_card, worked_step, answer_reveal
 
 OUTPUT FORMAT: Valid JSON array of ScriptScene objects matching the schema.
 
@@ -191,19 +190,16 @@ Output: JSON array of ScriptScene objects."""
             try:
                 scene = ScriptScene(
                     id=item.get("id", f"scene_{section.id}_{len(scenes)}"),
-                    section_id=section.id,
-                    section_type=section_type,
                     title=item.get("title", section.title),
+                    section_ref=section.id,
                     voiceover_lines=[
                         VoiceoverLine(**vl) for vl in item.get("voiceover_lines", [])
                     ],
                     scene_steps=[
                         SceneStep(**ss) for ss in item.get("scene_steps", [])
                     ],
-                    estimated_duration=item.get("estimated_duration", 10.0),
-                    render_mode=item.get("render_mode", "remotion"),
-                    visual_style=item.get("visual_style", "cinematic"),
-                    docling_refs=item.get("docling_refs", []),
+                    duration_seconds=item.get("duration_seconds", item.get("estimated_duration", 10.0)),
+                    notes=item.get("notes", ""),
                 )
                 scenes.append(scene)
             except ValidationError as e:
@@ -216,23 +212,19 @@ Output: JSON array of ScriptScene objects."""
         """Create a minimal fallback scene when LLM output is invalid."""
         return [ScriptScene(
             id=f"scene_{section.id}_fallback",
-            section_id=section.id,
-            section_type=section_type,
             title=section.title,
+            section_ref=section.id,
             voiceover_lines=[VoiceoverLine(
-                id="vl_001",
                 text=section.content_text[:200] or "Lesson content",
-                start_time=0.0,
-                end_time=5.0,
+                duration_seconds=5.0,
             )],
             scene_steps=[SceneStep(
-                id="ss_001",
                 type=SceneStepType.TEXT,
                 at=0.0,
                 duration=5.0,
-                content=section.content_text[:200] or "Lesson content",
+                text=section.content_text[:200] or "Lesson content",
             )],
-            estimated_duration=5.0,
+            duration_seconds=5.0,
         )]
 
     def generate_chapter_script(self, chapter: ChapterNode) -> List[ScriptScene]:
@@ -248,18 +240,20 @@ Output: JSON array of ScriptScene objects."""
 
             system_prompt = self._get_system_prompt(subject)
 
+            scenes: Optional[List[ScriptScene]] = None
             for attempt in range(self.max_retries):
                 try:
                     response = self._invoke([
                         SystemMessage(content=system_prompt),
                         HumanMessage(content=prompt),
                     ])
-                    scenes = self._parse_script_response(response, section, section.type)
-                    all_scenes.extend(scenes)
+                    scenes = self._parse_script_response(response, section, section.type.value)
                     break
                 except Exception as e:
                     logger.error(f"Failed to generate script for section {section.id}: {e}")
                     if attempt == self.max_retries - 1:
-                        all_scenes.append(self._fallback_scene(section, section.type))
+                        scenes = self._fallback_scene(section, section.type.value)
+            if scenes:
+                all_scenes.extend(scenes)
 
         return all_scenes

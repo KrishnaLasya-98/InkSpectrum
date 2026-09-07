@@ -1,0 +1,39 @@
+# InkSpectrum global configuration
+# Loaded by lib.config_model.InkSpectrumConfig.load()
+# All paths are relative to the repository root.
+
+llm:
+  provider: groq
+  base_url: https://api.groq.com/openai/v1
+  model: openai/gpt-oss-120b
+  temperature: 0.3
+  max_tokens: 8192
+  max_retries: 3
+  api_key_env: GROQ_API_KEY
+
+budget:
+  default_per_pipeline_usd: 2.00
+  per_stage_cap_usd: 0.50
+  per_call_reserve_usd: 0.05
+  enforce_hard_cap: true
+
+checkpoint:
+  root: .kilo/checkpoints
+  keep_history: 5
+  auto_resume: true
+
+output:
+  artifacts_root: .kilo/artifacts
+  video_root: .kilo/output/videos
+  audio_root: .kilo/output/audio
+  image_root: .kilo/output/images
+
+modelslab:
+  base_url: https://modelslab.com/api/v7
+  api_key_env: MODELSLAB_API_KEY
+  image_model: hidream-o1
+  tts_model: text-to-speech
+  video_model_i2v: h3-minimax-start-end-frame
+  video_model_r2v: h3-minimax-r2v
+
+project_root: .

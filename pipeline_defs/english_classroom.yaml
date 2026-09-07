@@ -1,0 +1,96 @@
+name: english_classroom
+category: generated
+description: Primary school English lesson (story + comprehension + exercise walkthrough).
+mode: executive-producer
+skill: skills/pipelines/english_classroom/executive-producer
+budget_default_usd: 2.00
+max_revisions_per_stage: 3
+compatible_playbooks:
+  - clean-classroom
+  - warm-primary
+
+stages:
+  - name: research
+    skill: skills/pipelines/english_classroom/research-director
+    produces: [chapter_node]
+    tools_available: [opendataloader_extract, pymupdf_extract, docling_extract]
+    checkpoint_required: true
+    human_approval_default: false
+    success_criteria:
+      - chapter_node JSON is written
+      - section_count >= 3
+    review_focus:
+      - heading hierarchy preserved
+      - all images extracted
+
+  - name: script
+    skill: skills/pipelines/english_classroom/script-director
+    produces: [script_scenes]
+    tools_available: [groq_llm_script_writer]
+    checkpoint_required: true
+    human_approval_default: false
+    success_criteria:
+      - one ScriptScene per section
+      - all SceneStep.type values are in vocabulary
+      - voiceover_lines have duration_seconds
+    review_focus:
+      - vocabulary is grade-appropriate
+      - exercises are walkable
+
+  - name: scene_plan
+    skill: skills/pipelines/english_classroom/scene-plan-director
+    produces: [scene_plan]
+    tools_available: []
+    checkpoint_required: true
+    human_approval_default: false
+    success_criteria:
+      - each scene has a layout
+      - each scene has an asset list
+    review_focus:
+      - asset list is complete
+      - layout is renderer-compatible
+
+  - name: assets
+    skill: skills/pipelines/english_classroom/asset-director
+    produces: [audio, images, video]
+    tools_available: [modelslab_tts, modelslab_image, modelslab_video]
+    checkpoint_required: true
+    human_approval_default: true
+    success_criteria:
+      - all audio files exist
+      - all required images exist
+      - cost < budget_default_usd
+    review_focus:
+      - TTS pace is grade-appropriate
+      - image style matches playbook
+
+  - name: edit
+    skill: skills/pipelines/english_classroom/edit-director
+    produces: [edit_decisions]
+    tools_available: []
+    checkpoint_required: true
+    human_approval_default: false
+    success_criteria:
+      - cut timing matches voiceover
+      - transitions are smooth
+
+  - name: compose
+    skill: skills/pipelines/english_classroom/compose-director
+    produces: [final_video]
+    tools_available: [ffmpeg_compose, remotion_compose]
+    checkpoint_required: true
+    human_approval_default: true
+    success_criteria:
+      - MP4 rendered at target resolution
+      - audio levels within LUFS target
+      - no black frames
+
+  - name: publish
+    skill: skills/pipelines/english_classroom/publish-director
+    produces: [published_video]
+    tools_available: []
+    checkpoint_required: true
+    human_approval_default: false
+    success_criteria:
+      - video saved to .kilo/output/videos/
+      - metadata sidecar written

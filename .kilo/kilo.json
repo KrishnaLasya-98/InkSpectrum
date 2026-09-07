@@ -51,6 +51,18 @@
     "model-evaluator": {
       "enabled": true,
       "description": "Agentic AI Video Generation for K-10 Educational Content"
+    },
+    "nteract": {
+      "type": "local",
+      "command": [
+        "C:\\Users\\user",
+        "mcp"
+      ],
+      "environment": {
+        "NTERACT_CHANNEL": "stable"
+      },
+      "enabled": true,
+      "timeout": 30000
     }
   }
 }

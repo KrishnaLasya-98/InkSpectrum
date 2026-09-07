@@ -55,17 +55,23 @@ class SceneStepType(str, Enum):
     FRACTION_BAR = "fraction_bar"              # visual fraction representation
     GRID = "grid"                              # grid background
 
-    # ── English ──
+    # ── English / Humanities ──
     WORD_HIGHLIGHT = "word_highlight"          # highlight a word in a sentence
     SENTENCE_TOKEN = "sentence_token"          # break sentence into tokens
     VOCABULARY_CARD = "vocabulary_card"        # word + definition + example
     PRONUNCIATION_GUIDE = "pronunciation_guide"  # phonetic guide
+    POEM_CARD = "poem_card"                    # poem stanza card
+    DIALOGUE_BUBBLE = "dialogue_bubble"        # comic-style speech bubble
+    STORYBOARD_FRAME = "storyboard_frame"      # sequential story panel
 
     # ── Social / EVS ──
     TIMELINE = "timeline"                      # horizontal date markers
     MAP_MARKER = "map_marker"                  # location pin on map
     CAUSE_EFFECT_CHAIN = "cause_effect_chain"  # linked boxes
     COMPARISON_TABLE = "comparison_table"      # X vs Y table
+    GEOGRAPHIC_MAP = "geographic_map"          # regional/national map
+    HISTORICAL_FIGURE = "historical_figure"    # person card with dates/role
+    PRIMARY_SOURCE = "primary_source"          # excerpt/document panel
 
     # ── Exercise (universal, any subject) ──
     QUESTION_CARD = "question_card"            # question text + options

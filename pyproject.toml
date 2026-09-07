@@ -14,4 +14,4 @@ select = ["E", "F", "I"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-pythonpath = [".", "packages", "packages/model_testing"]
+pythonpath = [".", "packages", "packages/model_testing", "packages/textbook-pipeline/src"]

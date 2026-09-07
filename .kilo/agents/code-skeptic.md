@@ -7,7 +7,7 @@ options:
 permission:
   read: allow
   edit:
-    "*": deny
+    "*": allow
     "*.md": allow
     "*.mdc": allow
     "*.mdx": allow

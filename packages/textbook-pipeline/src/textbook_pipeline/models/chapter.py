@@ -102,6 +102,7 @@ class ImageAsset(BaseModel):
     caption: Optional[str] = None
     alt_text: Optional[str] = None               # for accessibility
     classification: Optional[str] = None         # e.g. "diagram", "photo", "map"
+    bbox: Optional[dict[str, float]] = None      # spatial bbox for alignment: {x, y, w, h}
 
 
 class DoclingRef(BaseModel):
@@ -147,6 +148,7 @@ class SectionNode(BaseModel):
     figures: list[ImageAsset] = Field(default_factory=list)
     exercises: list[ExerciseNode] = Field(default_factory=list)
     estimated_duration_seconds: int = 0          # set by script writer
+    raw_blocks: Optional[list[dict]] = None      # debugging/QA: original extracted blocks
 
 
 class ChapterNode(BaseModel):

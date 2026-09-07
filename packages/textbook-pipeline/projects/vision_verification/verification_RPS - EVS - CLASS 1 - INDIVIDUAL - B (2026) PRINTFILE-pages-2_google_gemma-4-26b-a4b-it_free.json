@@ -1,0 +1,18 @@
+{
+  "pdf": "RPS - EVS - CLASS 1 - INDIVIDUAL - B (2026) PRINTFILE-pages-2.pdf",
+  "model": "google/gemma-4-26b-a4b-it:free",
+  "pages_verified": 2,
+  "total_pages": 8,
+  "results": [
+    {
+      "page": 1,
+      "model": "google/gemma-4-26b-a4b-it:free",
+      "error": "Max retries exceeded for rate limit"
+    },
+    {
+      "page": 2,
+      "model": "google/gemma-4-26b-a4b-it:free",
+      "error": "Max retries exceeded for rate limit"
+    }
+  ]
+}

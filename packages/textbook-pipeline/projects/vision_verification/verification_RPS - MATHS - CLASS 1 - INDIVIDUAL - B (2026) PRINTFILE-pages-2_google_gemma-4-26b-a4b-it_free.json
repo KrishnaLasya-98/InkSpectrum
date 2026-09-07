@@ -1,0 +1,18 @@
+{
+  "pdf": "RPS - MATHS - CLASS 1 - INDIVIDUAL - B (2026) PRINTFILE-pages-2.pdf",
+  "model": "google/gemma-4-26b-a4b-it:free",
+  "pages_verified": 2,
+  "total_pages": 16,
+  "results": [
+    {
+      "page": 1,
+      "model": "google/gemma-4-26b-a4b-it:free",
+      "error": "Client error '429 Too Many Requests' for url 'https://api.anyapi.ai/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+    },
+    {
+      "page": 2,
+      "model": "google/gemma-4-26b-a4b-it:free",
+      "error": "Client error '429 Too Many Requests' for url 'https://api.anyapi.ai/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+    }
+  ]
+}

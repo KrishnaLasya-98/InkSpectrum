@@ -15,8 +15,10 @@ Usage:
 
     # Just ingest: PDF → chapter JSON
     python -m textbook_pipeline ingest \\
-        --pdf data/textbook_corpus/MATHS_V2.pdf \\
-        --chapter 3
+        --pdf /path/to/any.pdf \\
+        --subject english \\
+        --grade 1 \\
+        --output projects/lesson1
 
     # Just render
     python -m textbook_pipeline render \\
@@ -56,12 +58,43 @@ def cmd_generate(args: argparse.Namespace) -> int:
 
 
 def cmd_ingest(args: argparse.Namespace) -> int:
-    """PDF → chapter JSON (uses Docling)."""
-    logger.info(
-        "ingest: pdf=%s chapter=%d subject=%s",
-        args.pdf, args.chapter, args.subject,
+    """PDF → chapter JSON (uses PyMuPDF extractor)."""
+    try:
+        from textbook_pipeline.core.ingestion.pymupdf_extractor import PyMuPDFExtractor
+    except ImportError as exc:
+        logger.error("Failed to import extractor: %s", exc)
+        return 1
+
+    pdf_path = args.pdf.resolve()
+    if not pdf_path.exists() or not pdf_path.is_file():
+        logger.error("PDF not found: %s", pdf_path)
+        return 1
+    if pdf_path.suffix.lower() != ".pdf":
+        logger.error("Not a PDF file: %s", pdf_path)
+        return 1
+
+    subject = Subject(args.subject)
+    output = args.output.resolve()
+    output.mkdir(parents=True, exist_ok=True)
+
+    extractor = PyMuPDFExtractor()
+    chapter = extractor.extract_chapters(
+        pdf_path=pdf_path,
+        subject=subject,
+        grade=args.grade,
+        textbook_id=pdf_path.stem,
     )
-    logger.warning("Ingestion not yet implemented — Docling wrapper pending.")
+
+    # Validation
+    issues = extractor.validate_extraction(chapter)
+    if issues:
+        for issue in issues:
+            logger.warning("Validation issue: %s", issue)
+
+    blueprint_path = output / "blueprint.json"
+    blueprint_path.write_text(chapter.model_dump_json(indent=2), encoding="utf-8")
+    logger.info("Saved blueprint to %s", blueprint_path)
+    print(f"✅ Saved blueprint to {blueprint_path}")
     return 0
 
 
@@ -122,10 +155,10 @@ def build_parser() -> argparse.ArgumentParser:
 
     # ingest
     p_ing = sub.add_parser("ingest", help="PDF → chapter JSON")
-    p_ing.add_argument("--pdf", required=True, type=Path)
-    p_ing.add_argument("--chapter", required=True, type=int)
-    p_ing.add_argument("--subject", choices=[s.value for s in Subject])
-    p_ing.add_argument("--grade", type=int, choices=range(1, 11))
+    p_ing.add_argument("--pdf", required=True, type=Path, help="Path to input PDF")
+    p_ing.add_argument("--subject", required=True, choices=[s.value for s in Subject], help="Subject")
+    p_ing.add_argument("--grade", required=True, type=int, choices=range(1, 11), help="Grade (1-10)")
+    p_ing.add_argument("--output", required=True, type=Path, help="Output directory")
     p_ing.set_defaults(func=cmd_ingest)
 
     # script

@@ -7,8 +7,8 @@ from pathlib import Path
 PACKAGES_ROOT = Path(__file__).parent.parent / "packages"
 sys.path.insert(0, str(PACKAGES_ROOT / "edugen"))
 sys.path.insert(0, str(PACKAGES_ROOT / "video-explainer"))
-sys.path.insert(0, str(PACKAGES_ROOT / "textbook-pipeline"))
-sys.path.insert(0, str(PACKAGES_ROOT / "model-testing"))
+sys.path.insert(0, str(PACKAGES_ROOT / "textbook-pipeline" / "src"))
+sys.path.insert(0, str(PACKAGES_ROOT / "model_testing"))
 
 
 def run_edugen():
@@ -27,7 +27,7 @@ def run_textbook_pipeline():
 
 
 def run_model_test():
-    from packages.model_testing.cli import app
+    from model_testing.cli import app
     app()
 
 

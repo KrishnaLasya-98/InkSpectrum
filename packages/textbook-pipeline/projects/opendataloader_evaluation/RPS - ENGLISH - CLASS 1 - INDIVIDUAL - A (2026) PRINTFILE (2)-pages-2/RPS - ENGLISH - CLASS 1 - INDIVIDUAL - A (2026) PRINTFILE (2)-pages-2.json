@@ -1,0 +1,1248 @@
+{
+  "file name" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2.pdf",
+  "number of pages" : 9,
+  "author" : null,
+  "title" : null,
+  "creation date" : null,
+  "modification date" : "D:20260907042944Z",
+  "kids" : [ {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 5,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 95.707, 686.641, 388.371, 752.434 ],
+    "heading level" : 1,
+    "font" : "Comfortaa-Bold",
+    "font size" : 36.0,
+    "text color" : "[0.0, 0.0, 0.0, 0.0]",
+    "content" : "At the Beach 1"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 6,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 82.622, 729.581, 128.558, 751.725 ],
+    "heading level" : 3,
+    "font" : "MinionPro-Bold",
+    "font size" : 16.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "Lesson"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 20,
+    "page number" : 1,
+    "bounding box" : [ 52.725, 616.602, 104.565, 672.812 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile1.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H2",
+    "id" : 19,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 122.627, 624.715, 208.167, 649.461 ],
+    "heading level" : 2,
+    "font" : "Albertus-Bold",
+    "font size" : 20.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "Warm Up"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 2,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 587.801, 466.408, 606.537 ],
+    "font" : "GillSansMTPro-Book",
+    "font size" : 16.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "Look at the picture. What do you see? Talk about any 3 of them."
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 7,
+    "page number" : 1,
+    "bounding box" : [ 0.0, 185.098, 630.0, 576.0 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile2.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 8,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 517.978, 80.95, 530.859 ],
+    "font" : "GillSansMTPro-Book",
+    "font size" : 11.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "Cloud"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 11,
+    "page number" : 1,
+    "bounding box" : [ 469.307, 402.778, 513.263, 415.659 ],
+    "font" : "GillSansMTPro-Book",
+    "font size" : 11.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "Palm Tree"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 12,
+    "page number" : 1,
+    "bounding box" : [ 244.135, 370.407, 355.108, 386.859 ],
+    "font" : "GillSansMTPro-Book",
+    "font size" : 11.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "Sea Ball"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 13,
+    "page number" : 1,
+    "bounding box" : [ 140.925, 304.138, 157.282, 317.019 ],
+    "font" : "GillSansMTPro-Book",
+    "font size" : 11.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "Girl"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 14,
+    "page number" : 1,
+    "bounding box" : [ 463.68, 291.178, 529.625, 304.059 ],
+    "font" : "GillSansMTPro-Book",
+    "font size" : 11.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "Swimming Ring"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 10,
+    "page number" : 1,
+    "bounding box" : [ 41.76, 286.138, 62.671, 299.019 ],
+    "font" : "GillSansMTPro-Book",
+    "font size" : 11.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "Sand"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 15,
+    "page number" : 1,
+    "bounding box" : [ 285.23, 203.756, 317.108, 216.637 ],
+    "font" : "GillSansMTPro-Book",
+    "font size" : 11.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "Starfish"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 9,
+    "page number" : 1,
+    "bounding box" : [ 126.72, 196.858, 172.216, 209.739 ],
+    "font" : "GillSansMTPro-Book",
+    "font size" : 11.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "Sandcastle"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 3,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 54.0, 160.208, 173.492, 179.36 ],
+    "heading level" : 3,
+    "font" : "GillSansMTPro-Bold",
+    "font size" : 16.0,
+    "text color" : "[0.02, 0.77, 1.0, 0.09]",
+    "content" : "Read and Enjoy"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 4,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 71.2, 524.968, 149.275 ],
+    "font" : "GillSansMTPro-Book",
+    "font size" : 16.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "Let us read what Varun and his sister do when they visit a beach with their family. It is a lovely day. Varun and his sister Vidya are at a beach with their parents."
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 25,
+    "page number" : 2,
+    "bounding box" : [ 53.28, 498.6, 577.44, 752.4 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile4.png"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 26,
+    "page number" : 2,
+    "bounding box" : [ 419.76, 304.92, 577.44, 491.4 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile5.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 24,
+    "page number" : 2,
+    "bounding box" : [ 55.44, 110.842, 577.453, 450.271 ],
+    "font" : "GillSansMTPro-Book",
+    "font size" : 16.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "Hey, let us build a sandcastle. Sure! I have a shovel and a bucket too. Varun and Vidya build a castle together. Look, this room is for Grandpa and Grandma. Wow! They will tell us stories here. Varun and Vidya build a very big castle. This room is for Mummy and Daddy. And that one is our playroom. We can keep all our toys here. Where does this staircase go? It goes to the basement. We can play hide-and-seek there. Nobody will find us there. Mom and Dad are calling. We have to leave now!"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 43,
+    "page number" : 3,
+    "bounding box" : [ 63.0, 525.833, 576.0, 756.486 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile7.png"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 42,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 470.65, 105.84, 526.86 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile8.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 41,
+    "page number" : 3,
+    "bounding box" : [ 72.94, 387.969, 515.254, 502.703 ],
+    "font" : "GillSansMTPro-Book",
+    "font size" : 16.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "Glossary shovel : a tool for digging earth. basement : rooms or wide space below the ground floor of a building staircase : a set of stairs in a building"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 48,
+    "page number" : 3,
+    "bounding box" : [ 54.94, 293.982, 167.98, 355.207 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile9.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H2",
+    "id" : 47,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 175.829, 309.181, 382.329, 333.927 ],
+    "heading level" : 2,
+    "font" : "Albertus-Bold",
+    "font size" : 20.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "Comprehending Ability"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 32,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 54.94, 270.579, 339.068, 289.731 ],
+    "heading level" : 3,
+    "font" : "GillSansMTPro-Bold",
+    "font size" : 16.0,
+    "text color" : "[0.02, 0.77, 1.0, 0.09]",
+    "content" : "A. Tick ( ) the correct sentences."
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 49,
+    "page number" : 3,
+    "bounding box" : [ 249.84, 233.804, 293.76, 264.6 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile10.png"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 33,
+    "level" : "1",
+    "page number" : 3,
+    "bounding box" : [ 72.94, 151.902, 532.268, 259.645 ],
+    "numbering style" : "english letters",
+    "number of list items" : 4,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "id" : 34,
+      "page number" : 3,
+      "bounding box" : [ 72.94, 240.909, 532.268, 259.645 ],
+      "font" : "GillSansMTPro-Book",
+      "font size" : 16.0,
+      "text color" : "[0.0, 0.0, 0.0, 1.0]",
+      "content" : "a. Varun and Vidya go to a with their family. ( )",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "id" : 35,
+      "page number" : 3,
+      "bounding box" : [ 72.94, 211.24, 532.268, 229.976 ],
+      "font" : "GillSansMTPro-Book",
+      "font size" : 16.0,
+      "text color" : "[0.0, 0.0, 0.0, 1.0]",
+      "content" : "b. They build a on the beach. ( )",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "id" : 36,
+      "page number" : 3,
+      "bounding box" : [ 72.94, 181.571, 532.268, 200.307 ],
+      "font" : "GillSansMTPro-Book",
+      "font size" : 16.0,
+      "text color" : "[0.0, 0.0, 0.0, 1.0]",
+      "content" : "c. They decorate the with . ( )",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "id" : 37,
+      "page number" : 3,
+      "bounding box" : [ 72.94, 151.902, 532.268, 170.638 ],
+      "font" : "GillSansMTPro-Book",
+      "font size" : 16.0,
+      "text color" : "[0.0, 0.0, 0.0, 1.0]",
+      "content" : "d. Vidya has a and a . ( )",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 44,
+    "page number" : 3,
+    "bounding box" : [ 181.149, 205.56, 229.972, 236.8 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile11.png"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 45,
+    "page number" : 3,
+    "bounding box" : [ 222.58, 175.68, 263.52, 205.28 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile12.png"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 46,
+    "page number" : 3,
+    "bounding box" : [ 313.48, 175.68, 351.36, 205.28 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile13.png"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 51,
+    "page number" : 3,
+    "bounding box" : [ 163.323, 143.92, 201.769, 177.48 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile14.png"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 52,
+    "page number" : 3,
+    "bounding box" : [ 240.48, 148.273, 264.544, 174.172 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile15.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 38,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 54.94, 122.232, 510.576, 141.384 ],
+    "heading level" : 3,
+    "font" : "GillSansMTPro-Bold",
+    "font size" : 16.0,
+    "text color" : "[0.02, 0.77, 1.0, 0.09]",
+    "content" : "B. Tick whether the following statements are true or false."
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 39,
+    "level" : "1",
+    "page number" : 3,
+    "bounding box" : [ 72.94, 92.563, 267.033, 111.299 ],
+    "numbering style" : "english letters",
+    "number of list items" : 1,
+    "next list id" : 57,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "id" : 40,
+      "page number" : 3,
+      "bounding box" : [ 72.94, 92.563, 267.033, 111.299 ],
+      "font" : "GillSansMTPro-Book",
+      "font size" : 16.0,
+      "text color" : "[0.0, 0.0, 0.0, 1.0]",
+      "content" : "a. They build a castle with clay.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 57,
+    "level" : "1",
+    "page number" : 4,
+    "bounding box" : [ 72.0, 691.271, 359.515, 739.676 ],
+    "numbering style" : "english letters",
+    "number of list items" : 2,
+    "previous list id" : 39,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "id" : 58,
+      "page number" : 4,
+      "bounding box" : [ 72.0, 720.94, 359.515, 739.676 ],
+      "font" : "GillSansMTPro-Book",
+      "font size" : 16.0,
+      "text color" : "[0.0, 0.0, 0.0, 1.0]",
+      "content" : "b. They went to the beach with their parents.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "id" : 59,
+      "page number" : 4,
+      "bounding box" : [ 72.0, 691.271, 330.731, 710.007 ],
+      "font" : "GillSansMTPro-Book",
+      "font size" : 16.0,
+      "text color" : "[0.0, 0.0, 0.0, 1.0]",
+      "content" : "c. Grandpa and Grandma tells us stories.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 60,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 54.0, 661.601, 225.625, 680.753 ],
+    "heading level" : 3,
+    "font" : "GillSansMTPro-Bold",
+    "font size" : 16.0,
+    "text color" : "[0.02, 0.77, 1.0, 0.09]",
+    "content" : "C. Think and Answer."
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 61,
+    "level" : "1",
+    "page number" : 4,
+    "bounding box" : [ 72.0, 483.586, 523.84, 650.668 ],
+    "numbering style" : "english letters",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "id" : 62,
+      "page number" : 4,
+      "bounding box" : [ 72.0, 602.263, 523.84, 650.668 ],
+      "font" : "GillSansMTPro-Book",
+      "font size" : 16.0,
+      "text color" : "[0.0, 0.0, 0.0, 1.0]",
+      "content" : "a. What do Varun and Vidya do on the beach? ________________________________________________________.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "id" : 63,
+      "page number" : 4,
+      "bounding box" : [ 72.0, 542.924, 523.84, 591.329 ],
+      "font" : "GillSansMTPro-Book",
+      "font size" : 16.0,
+      "text color" : "[0.0, 0.0, 0.0, 1.0]",
+      "content" : "b. What do they use to build the sandcastle? ________________________________________________________.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "id" : 64,
+      "page number" : 4,
+      "bounding box" : [ 72.0, 483.586, 523.84, 531.991 ],
+      "font" : "GillSansMTPro-Book",
+      "font size" : 16.0,
+      "text color" : "[0.0, 0.0, 0.0, 1.0]",
+      "content" : "c. Where does the staircase go? ________________________________________________________.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H4",
+    "id" : 65,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 54.0, 424.247, 361.531, 473.068 ],
+    "heading level" : 4,
+    "font" : "GillSansMTPro-Book",
+    "font size" : 16.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "D. Let’s Discuss Why do we feel happy when we see a beach?"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 70,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 356.04, 164.16, 412.25 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile17.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H2",
+    "id" : 69,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 167.806, 367.696, 310.866, 392.442 ],
+    "heading level" : 2,
+    "font" : "Albertus-Bold",
+    "font size" : 20.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "Speaking Ability"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 66,
+    "page number" : 4,
+    "bounding box" : [ 72.0, 335.239, 561.782, 353.975 ],
+    "font" : "GillSansMTPro-Book",
+    "font size" : 16.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "What do you say when you meet someone? How do you introduce yourself?"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 68,
+    "page number" : 4,
+    "bounding box" : [ 115.2, 131.4, 460.8, 327.6 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile18.png"
+  }, {
+    "type" : "caption",
+    "pdfua_tag" : "Caption",
+    "id" : 67,
+    "page number" : 4,
+    "bounding box" : [ 72.0, 68.215, 495.712, 116.621 ],
+    "linked content id" : 68,
+    "font" : "GillSansMTPro-Book",
+    "font size" : 16.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "Hello! I am Adithya. Hello! Adithya, I am Smitha. I live in Mumbai. I live in Delhi.I am in Grade -1"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 76,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 54.0, 737.648, 176.419, 756.8 ],
+    "heading level" : 3,
+    "font" : "GillSansMTPro-Bold",
+    "font size" : 16.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "Begin by saying:"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 77,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 683.979, 576.014, 726.715 ],
+    "font" : "GillSansMTPro-Book",
+    "font size" : 16.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "Hello, My name is _____. I am ______ years old. I live in _______. My birthday is on ____________."
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 83,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 619.91, 123.84, 676.12 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile20.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H2",
+    "id" : 82,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 138.767, 635.109, 221.007, 659.855 ],
+    "heading level" : 2,
+    "font" : "Albertus-Bold",
+    "font size" : 20.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "Grammar"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 78,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 54.0, 594.971, 236.341, 614.123 ],
+    "heading level" : 3,
+    "font" : "GillSansMTPro-Bold",
+    "font size" : 16.0,
+    "text color" : "[0.02, 0.77, 1.0, 0.09]",
+    "content" : "Vowels and Consonants"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 79,
+    "page number" : 5,
+    "bounding box" : [ 72.0, 565.302, 576.059, 584.038 ],
+    "font" : "GillSansMTPro-Book",
+    "font size" : 16.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "There are 26 letters in the English alphabets. These letters can be divided into"
+  }, {
+    "type" : "caption",
+    "pdfua_tag" : "Caption",
+    "id" : 80,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 481.963, 472.904, 560.038 ],
+    "linked content id" : 81,
+    "font" : "GillSansMTPro-Book",
+    "font size" : 16.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "vowels and consonants. The five letters a,e,i,o and u in the red circles are called vowels. The rest of the twenty – one letters are called consonants."
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 81,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 93.324, 576.0, 455.836 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile21.png"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 92,
+    "level" : "1",
+    "page number" : 6,
+    "bounding box" : [ 72.0, 411.286, 529.658, 756.384 ],
+    "numbering style" : "english letters",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "id" : 93,
+      "page number" : 6,
+      "bounding box" : [ 72.0, 737.648, 529.658, 756.384 ],
+      "font" : "GillSansMTPro-Book",
+      "font size" : 16.0,
+      "text color" : "[0.0, 0.0, 0.0, 1.0]",
+      "content" : "a. Colour the starfish with vowels in red. Colour the consonants in blue.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "id" : 94,
+      "page number" : 6,
+      "bounding box" : [ 72.0, 411.286, 482.0, 459.691 ],
+      "font" : "GillSansMTPro-Book",
+      "font size" : 16.0,
+      "text color" : "[0.0, 0.0, 0.0, 1.0]",
+      "content" : "b. Write the name of your friend. Circle the Consonants. _________________________________________________",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 99,
+    "page number" : 6,
+    "bounding box" : [ 120.378, 677.85, 134.64, 699.274 ],
+    "font" : "ArialMT",
+    "font size" : 19.177,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "Z"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 103,
+    "page number" : 6,
+    "bounding box" : [ 251.196, 677.85, 268.049, 699.274 ],
+    "font" : "ArialMT",
+    "font size" : 19.177,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "U"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 109,
+    "page number" : 6,
+    "bounding box" : [ 382.013, 677.85, 396.275, 699.274 ],
+    "font" : "ArialMT",
+    "font size" : 19.177,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "T"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 115,
+    "page number" : 6,
+    "bounding box" : [ 512.831, 677.85, 530.992, 699.274 ],
+    "font" : "ArialMT",
+    "font size" : 19.177,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "O"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 107,
+    "page number" : 6,
+    "bounding box" : [ 194.178, 590.55, 209.748, 611.974 ],
+    "font" : "ArialMT",
+    "font size" : 19.177,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "X"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 113,
+    "page number" : 6,
+    "bounding box" : [ 324.996, 590.55, 340.566, 611.974 ],
+    "font" : "ArialMT",
+    "font size" : 19.177,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "A"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 119,
+    "page number" : 6,
+    "bounding box" : [ 455.813, 590.55, 471.383, 611.974 ],
+    "font" : "ArialMT",
+    "font size" : 19.177,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "B"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 101,
+    "page number" : 6,
+    "bounding box" : [ 120.378, 503.25, 126.867, 524.674 ],
+    "font" : "ArialMT",
+    "font size" : 19.177,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "I"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 105,
+    "page number" : 6,
+    "bounding box" : [ 251.196, 503.25, 262.867, 524.674 ],
+    "font" : "ArialMT",
+    "font size" : 19.177,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "J"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 111,
+    "page number" : 6,
+    "bounding box" : [ 382.013, 503.25, 404.048, 524.674 ],
+    "font" : "ArialMT",
+    "font size" : 19.177,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "W"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 117,
+    "page number" : 6,
+    "bounding box" : [ 512.831, 503.25, 528.401, 524.674 ],
+    "font" : "ArialMT",
+    "font size" : 19.177,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "E"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 123,
+    "page number" : 6,
+    "bounding box" : [ 55.08, 348.79, 109.08, 405.0 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile23.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H2",
+    "id" : 122,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 130.121, 363.99, 228.941, 388.736 ],
+    "heading level" : 2,
+    "font" : "Albertus-Bold",
+    "font size" : 20.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "Vocabulary"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 95,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 233.27, 525.256, 341.43 ],
+    "font" : "GillSansMTPro-Book",
+    "font size" : 16.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "Word forming Ability: Joined Words Read these words. sandcastle = sand + castle staircase = stair + case Words that are made up of two smaller words are called Joined words."
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 96,
+    "level" : "2",
+    "page number" : 6,
+    "bounding box" : [ 54.0, 179.601, 563.667, 222.753 ],
+    "numbering style" : "english letters",
+    "number of list items" : 1,
+    "next list id" : 130,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "id" : 97,
+      "page number" : 6,
+      "bounding box" : [ 54.0, 179.601, 563.667, 222.753 ],
+      "font" : "GillSansMTPro-Bold",
+      "font size" : 16.0,
+      "text color" : "[0.0, 0.0, 0.0, 1.0]",
+      "content" : "A. Now, join the words and write the new word in the blanks. The picture will help you.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 91,
+    "page number" : 6,
+    "bounding box" : [ 450.72, 102.694, 559.72, 185.895 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile24.png"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 89,
+    "page number" : 6,
+    "bounding box" : [ 93.32, 92.835, 202.32, 185.894 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile25.png"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 90,
+    "page number" : 6,
+    "bounding box" : [ 266.04, 104.041, 363.96, 180.248 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile26.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 88,
+    "level" : "2",
+    "page number" : 6,
+    "bounding box" : [ 401.04, 131.148, 414.672, 152.572 ],
+    "font" : "ArialMT",
+    "font size" : 19.177,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "="
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 120,
+    "level" : "3",
+    "page number" : 6,
+    "bounding box" : [ 223.2, 116.975, 236.832, 138.399 ],
+    "font" : "ArialMT",
+    "font size" : 19.177,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "+"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 138,
+    "page number" : 7,
+    "bounding box" : [ 90.8, 669.704, 181.8, 747.395 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile28.png"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 139,
+    "page number" : 7,
+    "bounding box" : [ 254.733, 669.6, 338.107, 743.692 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile29.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 137,
+    "level" : "3",
+    "page number" : 7,
+    "bounding box" : [ 211.68, 700.333, 403.152, 721.757 ],
+    "font" : "ArialMT",
+    "font size" : 19.177,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "+ ="
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 140,
+    "page number" : 7,
+    "bounding box" : [ 450.1, 666.673, 537.3, 750.426 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile30.png"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 143,
+    "page number" : 7,
+    "bounding box" : [ 89.975, 544.945, 182.625, 624.045 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile31.png"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 144,
+    "page number" : 7,
+    "bounding box" : [ 250.84, 545.581, 342.0, 623.409 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile32.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 142,
+    "level" : "3",
+    "page number" : 7,
+    "bounding box" : [ 211.68, 576.279, 403.152, 597.703 ],
+    "font" : "ArialMT",
+    "font size" : 19.177,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "+ ="
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 147,
+    "page number" : 7,
+    "bounding box" : [ 439.2, 546.026, 548.2, 637.363 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile33.png"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 145,
+    "page number" : 7,
+    "bounding box" : [ 439.2, 536.887, 548.2, 632.104 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile34.png"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 149,
+    "page number" : 7,
+    "bounding box" : [ 87.25, 434.183, 190.8, 508.63 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile35.png"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 150,
+    "page number" : 7,
+    "bounding box" : [ 241.92, 429.531, 350.92, 508.631 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile36.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 148,
+    "level" : "3",
+    "page number" : 7,
+    "bounding box" : [ 211.68, 453.885, 403.152, 475.309 ],
+    "font" : "ArialMT",
+    "font size" : 19.177,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "+ ="
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 151,
+    "page number" : 7,
+    "bounding box" : [ 439.2, 430.2, 548.2, 508.63 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile37.png"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 130,
+    "level" : "2",
+    "page number" : 7,
+    "bounding box" : [ 54.0, 260.941, 568.672, 375.101 ],
+    "numbering style" : "english letters",
+    "number of list items" : 1,
+    "previous list id" : 96,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "id" : 131,
+      "page number" : 7,
+      "bounding box" : [ 54.0, 260.941, 568.672, 375.101 ],
+      "font" : "GillSansMTPro-Bold",
+      "font size" : 16.0,
+      "text color" : "[0.0, 0.0, 0.0, 1.0]",
+      "content" : "B. Write the words together to make joined words. a. base + ball = _____________ b. air + plane = _____________ c. chalk + board = _____________ d. snow + man = _____________ e. hair + brush = _____________ f. butter + fly = _____________",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 136,
+    "page number" : 7,
+    "bounding box" : [ 54.0, 169.584, 123.01, 225.794 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile38.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H2",
+    "id" : 135,
+    "level" : "Subtitle",
+    "page number" : 7,
+    "bounding box" : [ 123.875, 184.783, 246.675, 209.529 ],
+    "heading level" : 2,
+    "font" : "Albertus-Bold",
+    "font size" : 20.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "Pronunciation"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 132,
+    "page number" : 7,
+    "bounding box" : [ 76.0, 142.264, 219.694, 161.0 ],
+    "font" : "GillSansMTPro-Book",
+    "font size" : 16.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "Read the words aloud."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 133,
+    "page number" : 7,
+    "bounding box" : [ 72.0, 76.925, 524.462, 125.331 ],
+    "font" : "GillSansMTPro-Book",
+    "font size" : 16.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "mat van rat dad nap at have sandcastle These are all words having the short /a/ sound"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 163,
+    "page number" : 8,
+    "bounding box" : [ 54.0, 696.19, 123.01, 752.4 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile40.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H2",
+    "id" : 162,
+    "level" : "Subtitle",
+    "page number" : 8,
+    "bounding box" : [ 128.393, 713.21, 267.793, 737.956 ],
+    "heading level" : 2,
+    "font" : "Albertus-Bold",
+    "font size" : 20.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "Creative Ability"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 157,
+    "page number" : 8,
+    "bounding box" : [ 54.0, 648.64, 397.065, 667.792 ],
+    "font" : "GillSansMTPro-Bold",
+    "font size" : 16.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "Write about yourself to complete the letter."
+  }, {
+    "type" : "caption",
+    "pdfua_tag" : "Caption",
+    "id" : 160,
+    "page number" : 8,
+    "bounding box" : [ 138.277, 566.596, 491.727, 634.046 ],
+    "linked content id" : 158,
+    "font" : "MinionPro-Regular",
+    "font size" : 50.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "ALL ABOUT ME"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 158,
+    "page number" : 8,
+    "bounding box" : [ 54.0, 78.661, 576.0, 573.92 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile41.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 165,
+    "page number" : 8,
+    "bounding box" : [ 384.373, 364.441, 483.228, 386.69 ],
+    "font" : "GillSansMTPro-Book",
+    "font size" : 19.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "My Favourite"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 182,
+    "page number" : 9,
+    "bounding box" : [ 56.389, 681.79, 149.125, 752.4 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile43.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H2",
+    "id" : 181,
+    "level" : "Subtitle",
+    "page number" : 9,
+    "bounding box" : [ 158.59, 699.89, 302.77, 724.636 ],
+    "heading level" : 2,
+    "font" : "Albertus-Bold",
+    "font size" : 20.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "Listening Ability"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 171,
+    "page number" : 9,
+    "bounding box" : [ 72.0, 651.319, 495.21, 670.055 ],
+    "font" : "GillSansMTPro-Book",
+    "font size" : 16.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "Listen to your teacher and write the new words in your note book"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 185,
+    "page number" : 9,
+    "bounding box" : [ 54.637, 562.782, 115.921, 622.8 ],
+    "alt_source" : "missing",
+    "source" : "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_images/imageFile44.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H2",
+    "id" : 184,
+    "level" : "Subtitle",
+    "page number" : 9,
+    "bounding box" : [ 134.743, 574.196, 218.443, 598.942 ],
+    "heading level" : 2,
+    "font" : "Albertus-Bold",
+    "font size" : 20.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "Life Skills"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 172,
+    "page number" : 9,
+    "bounding box" : [ 54.0, 508.642, 575.974, 551.378 ],
+    "font" : "GillSansMTPro-Book",
+    "font size" : 16.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "Family story time, encourage kids to bring a favourite family story or memory to share with the class."
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H2",
+    "id" : 187,
+    "level" : "Subtitle",
+    "page number" : 9,
+    "bounding box" : [ 132.673, 440.23, 271.373, 464.976 ],
+    "heading level" : 2,
+    "font" : "Albertus-Bold",
+    "font size" : 20.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "Self Assessment"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H3",
+    "id" : 173,
+    "level" : "Subtitle",
+    "page number" : 9,
+    "bounding box" : [ 54.0, 389.965, 502.015, 409.117 ],
+    "heading level" : 3,
+    "font" : "GillSansMTPro-Bold",
+    "font size" : 16.0,
+    "text color" : "[0.0, 0.0, 0.0, 1.0]",
+    "content" : "Read these lines. Colour one smiley to show how you feel:"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "id" : 174,
+    "level" : "4",
+    "page number" : 9,
+    "bounding box" : [ 72.0, 201.618, 388.33, 371.031 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "id" : 175,
+      "page number" : 9,
+      "bounding box" : [ 72.0, 352.295, 341.083, 371.031 ],
+      "font" : "GillSansMTPro-Book",
+      "font size" : 16.0,
+      "text color" : "[0.0, 0.0, 0.0, 1.0]",
+      "content" : "1. read and enjoy a text on ‘At the beach’.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "id" : 176,
+      "page number" : 9,
+      "bounding box" : [ 72.0, 314.626, 384.155, 333.362 ],
+      "font" : "GillSansMTPro-Book",
+      "font size" : 16.0,
+      "text color" : "[0.0, 0.0, 0.0, 1.0]",
+      "content" : "2. Differentiate between vowels and consonants.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "id" : 177,
+      "page number" : 9,
+      "bounding box" : [ 72.0, 276.957, 251.613, 295.693 ],
+      "font" : "GillSansMTPro-Book",
+      "font size" : 16.0,
+      "text color" : "[0.0, 0.0, 0.0, 1.0]",
+      "content" : "3. Identify the joined words.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "id" : 178,
+      "page number" : 9,
+      "bounding box" : [ 72.0, 239.287, 388.33, 258.023 ],
+      "font" : "GillSansMTPro-Book",
+      "font size" : 16.0,
+      "text color" : "[0.0, 0.0, 0.0, 1.0]",
+      "content" : "4. I can listen carefully and understand the words.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "id" : 179,
+      "page number" : 9,
+      "bounding box" : [ 72.0, 201.618, 300.301, 220.354 ],
+      "font" : "GillSansMTPro-Book",
+      "font size" : 16.0,
+      "text color" : "[0.0, 0.0, 0.0, 1.0]",
+      "content" : "5. Know how to introduce yourself.",
+      "kids" : [ ]
+    } ]
+  } ]
+}

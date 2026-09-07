@@ -17,15 +17,25 @@ from pathlib import Path
 from typing import Tuple, Optional, Any, Dict
 
 from dotenv import load_dotenv
-from langchain_openai import ChatOpenAI
-from langchain_core.messages import HumanMessage, SystemMessage
-
 from textbook_pipeline.models.chapter import Subject
 
 # Load env for API keys
 load_dotenv()
 
 logger = logging.getLogger(__name__)
+
+
+def _lazy_import_langchain():
+    """Import langchain only when needed to avoid hard dependency."""
+    try:
+        from langchain_openai import ChatOpenAI
+        from langchain_core.messages import HumanMessage, SystemMessage
+        return ChatOpenAI, HumanMessage, SystemMessage
+    except ImportError as exc:
+        raise ImportError(
+            "langchain-openai is required for SubjectRouter. "
+            "Install it with: pip install langchain-openai"
+        ) from exc
 
 class SubjectRouter:
     """Detects subject and grade from a document's initial content."""
@@ -39,12 +49,15 @@ class SubjectRouter:
         # Use provided model or fallback to MODEL_ROUTER in .env
         self.model = model or os.getenv("MODEL_ROUTER", "deepseek/deepseek-chat")
 
+        ChatOpenAI, HumanMessage, SystemMessage = _lazy_import_langchain()
         self.client = ChatOpenAI(
             api_key=key,
             base_url="https://api.anyapi.ai/v1",
             model=self.model,
             temperature=0,
         )
+        self._HumanMessage = HumanMessage
+        self._SystemMessage = SystemMessage
 
     def route_subject(self, raw_doc: Any) -> Dict[str, Any]:
         """Analyzes content and returns a dict with Subject, Grade, and TextbookID.
@@ -168,8 +181,8 @@ class SubjectRouter:
         
         try:
             response = self.client.invoke([
-                SystemMessage(content="You are a precise classifier. Output only valid JSON."),
-                HumanMessage(content=prompt)
+                self._SystemMessage(content="You are a precise classifier. Output only valid JSON."),
+                self._HumanMessage(content=prompt)
             ])
             
             # Handle empty response

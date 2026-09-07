@@ -1,0 +1,18 @@
+{
+  "pdf": "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2.pdf",
+  "model": "google/gemma-4-26b-a4b-it:free",
+  "pages_verified": 2,
+  "total_pages": 9,
+  "results": [
+    {
+      "page": 1,
+      "model": "google/gemma-4-26b-a4b-it:free",
+      "error": "Max retries exceeded for rate limit"
+    },
+    {
+      "page": 2,
+      "model": "google/gemma-4-26b-a4b-it:free",
+      "error": "Max retries exceeded for rate limit"
+    }
+  ]
+}

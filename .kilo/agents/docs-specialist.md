@@ -7,7 +7,7 @@ options:
 permission:
   read: allow
   edit:
-    "*": deny
+    "*": allow
     "*.md": allow
     "*.mdx": allow
     "*.txt": allow
@@ -18,7 +18,7 @@ permission:
     CHANGELOG: allow
     "*/CHANGELOG": allow
   bash: allow
-  mcp: deny
+  mcp: allow
   question: allow
 ---
 

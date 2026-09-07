@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://inkspectrum.dev/schemas/tools/base_tool.schema.json",
+  "title": "BaseToolMetadata",
+  "description": "Identity and routing metadata for an InkSpectrum tool (mirrors OpenMontage BaseTool contract).",
+  "type": "object",
+  "required": [
+    "name",
+    "version",
+    "tier",
+    "capability",
+    "provider",
+    "runtime",
+    "stability"
+  ],
+  "properties": {
+    "name": { "type": "string", "pattern": "^[a-z][a-z0-9_]*$" },
+    "version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+    "tier": {
+      "type": "string",
+      "enum": ["core", "voice", "enhance", "generate", "source", "analyze", "publish"]
+    },
+    "capability": { "type": "string" },
+    "provider": { "type": "string" },
+    "runtime": {
+      "type": "string",
+      "enum": ["local", "local_gpu", "api", "hybrid"]
+    },
+    "stability": {
+      "type": "string",
+      "enum": ["experimental", "beta", "production"]
+    },
+    "estimated_cost_usd": { "type": "number", "minimum": 0 },
+    "description": { "type": "string" },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^(cmd:|env:|python:).+"
+      }
+    }
+  },
+  "additionalProperties": false
+}

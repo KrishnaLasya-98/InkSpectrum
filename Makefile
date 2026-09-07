@@ -1,47 +1,76 @@
-.PHONY: help install install-dev test lint format clean run-edugen run-video-explainer run-textbook-pipeline
+.PHONY: help install install-dev setup test contracts qa eval lint format clean pipeline list-tools check-deps
 
 help:
-	@echo "Available targets:"
-	@echo "  install          - Install dependencies"
-	@echo "  install-dev      - Install dev dependencies"
-	@echo "  test             - Run tests"
-	@echo "  lint             - Run linters"
-	@echo "  format           - Format code"
-	@echo "  clean            - Clean temp files"
-	@echo "  run-edugen       - Run EduGen module"
-	@echo "  run-video-explainer - Run video explainer"
-	@echo "  run-textbook-pipeline - Run textbook pipeline"
+	@echo "InkSpectrum Makefile"
+	@echo ""
+	@echo "Setup:"
+	@echo "  install          Install runtime dependencies"
+	@echo "  install-dev      Install dev dependencies (ruff, black, pytest)"
+	@echo "  setup            Create venv and install everything"
+	@echo ""
+	@echo "Tests:"
+	@echo "  test             Run all tests"
+	@echo "  contracts        Run contract tests (BaseTool, registry, schemas)"
+	@echo "  qa               Run QA integration tests (real APIs)"
+	@echo "  eval             Run eval harness (golden scenarios)"
+	@echo ""
+	@echo "Quality:"
+	@echo "  lint             Run ruff + black"
+	@echo "  format           Auto-format code"
+	@echo "  check-deps       Check tool dependencies (FFmpeg, env vars, packages)"
+	@echo "  list-tools       List all registered tools"
+	@echo ""
+	@echo "Pipeline:"
+	@echo "  pipeline PIPELINE=<name>   Run a pipeline (smoke test if no input given)"
+	@echo "  smoke            Run framework_smoke pipeline"
+	@echo ""
+	@echo "Cleanup:"
+	@echo "  clean            Remove temp files, caches"
 
 install:
 	pip install -r requirements.txt
 
 install-dev:
 	pip install -r requirements.txt
-	pip install black ruff pytest pytest-cov
+	pip install black ruff pytest pytest-cov jsonschema pyyaml pydantic
+
+setup:
+	python3 -m venv .venv
+	. .venv/bin/activate && pip install --upgrade pip && pip install -e packages/textbook-pipeline/ -e packages/model-evaluator/ && pip install -r requirements.txt
 
 test:
-	python -m pytest tests/ -v
+	python -m pytest tests/ packages/textbook-pipeline/tests/ -v
+
+contracts:
+	python -m pytest tests/contracts/ -v
+
+qa:
+	python -m pytest tests/qa/ -v
+
+eval:
+	python -m pytest tests/eval/ -v
 
 lint:
-	ruff check src/ tests/ EduGen/ video_explainer/ textbook-pipeline/
-	black --check src/ tests/ EduGen/ video_explainer/ textbook-pipeline/
+	ruff check lib/ tools/ tests/ packages/textbook-pipeline/src/ packages/textbook-pipeline/tests/
+	black --check lib/ tools/ tests/ packages/textbook-pipeline/src/ packages/textbook-pipeline/tests/
 
 format:
-	black src/ tests/ EduGen/ video_explainer/ textbook-pipeline/
-	ruff check --fix src/ tests/ EduGen/ video_explainer/ textbook-pipeline/
+	black lib/ tools/ tests/ packages/textbook-pipeline/src/ packages/textbook-pipeline/tests/
+	ruff check --fix lib/ tools/ tests/ packages/textbook-pipeline/src/ packages/textbook-pipeline/tests/
 
 clean:
-	del /s /q temp\* 2>nul
-	del /s /q output\* 2>nul
-	for /d /r . %%d in (__pycache__) do @if exist "%%d" rd /s /q "%%d"
-	for /d /r . %%d in (.pytest_cache) do @if exist "%%d" rd /s /q "%%d"
-	for /d /r . %%d in (.ruff_cache) do @if exist "%%d" rd /s /q "%%d"
+	python -c "import shutil, glob; [shutil.rmtree(p, ignore_errors=True) for p in glob.glob('**/__pycache__', recursive=True)]; [shutil.rmtree(p, ignore_errors=True) for p in glob.glob('**/.pytest_cache', recursive=True)]; [shutil.rmtree(p, ignore_errors=True) for p in glob.glob('**/.ruff_cache', recursive=True)]"
 
-run-edugen:
-	python src/run.py edugen
+list-tools:
+	python -c "from lib.tool_registry import all_tools; [print(f'{t.metadata.name:30s} {t.metadata.capability:20s} {t.metadata.runtime.value:10s} cost=${t.metadata.estimated_cost_usd}') for t in all_tools()]"
 
-run-video-explainer:
-	python src/run.py video_explainer
+check-deps:
+	python -c "from lib.tool_registry import all_tools; [print(t.metadata.name, '->', t.describe()['missing_dependencies'] or 'OK') for t in all_tools()]"
 
-run-textbook-pipeline:
-	python src/run.py textbook_pipeline
+smoke:
+	python -c "from lib.pipeline_loader import load_manifest; m = load_manifest('pipeline_defs/framework_smoke.yaml'); print(f'Pipeline: {m.name} ({len(m.stages)} stages)'); [print(f'  - {s.name}: {s.skill}') for s in m.stages]"
+
+pipeline:
+	@if [ -z "$(PIPELINE)" ]; then echo "Usage: make pipeline PIPELINE=<name>"; exit 1; fi
+	@echo "Running pipeline: $(PIPELINE)"
+	python -m ink_orchestrator --pipeline pipeline_defs/$(PIPELINE).yaml

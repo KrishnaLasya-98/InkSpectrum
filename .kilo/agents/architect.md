@@ -7,12 +7,12 @@ options:
 permission:
   read: allow
   edit:
-    "*": deny
+    "*": allow
     .kilo/plans/*.md: allow
     .plans/*.md: allow
     .opencode/plans/*.md: allow
-  bash: deny
-  mcp: deny
+  bash: allow
+  mcp: allow
   question: allow
   plan_exit: allow
 ---
