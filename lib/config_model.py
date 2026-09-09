@@ -19,13 +19,13 @@ from lib.env_loader import load_env
 # ───────────────────────────────────────────────────────────────────
 
 class LLMConfig(BaseModel):
-    provider: str = "groq"
-    base_url: str = "https://api.groq.com/openai/v1"
-    model: str = "openai/gpt-oss-120b"
+    provider: str = "anyapi"
+    base_url: str = "https://api.anyapi.ai/v1"
+    model: str = "qwen3.8-27b"
     temperature: float = 0.3
     max_tokens: int = 8192
     max_retries: int = 3
-    api_key_env: str = "GROQ_API_KEY"
+    api_key_env: str = "ANYAPI_API_KEY"
 
 
 class BudgetConfig(BaseModel):

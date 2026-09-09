@@ -1,0 +1,205 @@
+{
+  "scene_count": 20,
+  "scenes": [
+    {
+      "scene_id": "scene_sec_001_0",
+      "title": "At the Beach 1",
+      "duration_seconds": 10.0,
+      "layout": "title_top",
+      "assets_required": [
+        "text:highlight",
+        "image:vocabulary_card",
+        "image:vocabulary_card",
+        "text:highlight",
+        "image:vocabulary_card"
+      ],
+      "voiceover_lines": 3,
+      "scene_steps": 6
+    },
+    {
+      "scene_id": "scene_sec_002_0",
+      "title": "Lesson",
+      "duration_seconds": 10.0,
+      "layout": "title_top",
+      "assets_required": [
+        "text:highlight",
+        "image:vocabulary_card",
+        "image:vocabulary_card",
+        "text:highlight"
+      ],
+      "voiceover_lines": 5,
+      "scene_steps": 9
+    },
+    {
+      "scene_id": "scene_sec_003_0",
+      "title": "Warm Up: At the Beach",
+      "duration_seconds": 10.0,
+      "layout": "title_top",
+      "assets_required": [
+        "text:highlight",
+        "image:vocabulary_card",
+        "image:vocabulary_card",
+        "text:highlight",
+        "text:highlight"
+      ],
+      "voiceover_lines": 5,
+      "scene_steps": 9
+    },
+    {
+      "scene_id": "scene_sec_004_fallback",
+      "title": "Read and Enjoy",
+      "duration_seconds": 5.0,
+      "layout": "centered",
+      "assets_required": [],
+      "voiceover_lines": 1,
+      "scene_steps": 1
+    },
+    {
+      "scene_id": "scene_sec_005_fallback",
+      "title": "Comprehending Ability",
+      "duration_seconds": 5.0,
+      "layout": "centered",
+      "assets_required": [],
+      "voiceover_lines": 1,
+      "scene_steps": 1
+    },
+    {
+      "scene_id": "scene_sec_006_0",
+      "title": "A. Tick ( ) the correct sentences.",
+      "duration_seconds": 10.0,
+      "layout": "title_top",
+      "assets_required": [],
+      "voiceover_lines": 0,
+      "scene_steps": 2
+    },
+    {
+      "scene_id": "scene_sec_007_0",
+      "title": "Statement a: They build a castle with clay.",
+      "duration_seconds": 10.0,
+      "layout": "centered",
+      "assets_required": [
+        "image:vocabulary_card",
+        "image:vocabulary_card"
+      ],
+      "voiceover_lines": 0,
+      "scene_steps": 5
+    },
+    {
+      "scene_id": "scene_sec_008_0",
+      "title": "C. Think and Answer.",
+      "duration_seconds": 10.0,
+      "layout": "title_top",
+      "assets_required": [],
+      "voiceover_lines": 2,
+      "scene_steps": 3
+    },
+    {
+      "scene_id": "scene_sec_009_fallback",
+      "title": "D. Let\u2019s Discuss Why do we feel happy when we see a beach?",
+      "duration_seconds": 5.0,
+      "layout": "centered",
+      "assets_required": [],
+      "voiceover_lines": 1,
+      "scene_steps": 1
+    },
+    {
+      "scene_id": "scene_sec_010_fallback",
+      "title": "Speaking Ability",
+      "duration_seconds": 5.0,
+      "layout": "centered",
+      "assets_required": [],
+      "voiceover_lines": 1,
+      "scene_steps": 1
+    },
+    {
+      "scene_id": "scene_sec_011_fallback",
+      "title": "Begin by saying:",
+      "duration_seconds": 5.0,
+      "layout": "centered",
+      "assets_required": [],
+      "voiceover_lines": 1,
+      "scene_steps": 1
+    },
+    {
+      "scene_id": "scene_sec_012_fallback",
+      "title": "Grammar",
+      "duration_seconds": 5.0,
+      "layout": "centered",
+      "assets_required": [],
+      "voiceover_lines": 1,
+      "scene_steps": 1
+    },
+    {
+      "scene_id": "scene_sec_013_fallback",
+      "title": "Vowels and Consonants",
+      "duration_seconds": 5.0,
+      "layout": "centered",
+      "assets_required": [],
+      "voiceover_lines": 1,
+      "scene_steps": 1
+    },
+    {
+      "scene_id": "scene_sec_014_fallback",
+      "title": "Vocabulary",
+      "duration_seconds": 5.0,
+      "layout": "centered",
+      "assets_required": [],
+      "voiceover_lines": 1,
+      "scene_steps": 1
+    },
+    {
+      "scene_id": "scene_sec_015_fallback",
+      "title": "Pronunciation",
+      "duration_seconds": 5.0,
+      "layout": "centered",
+      "assets_required": [],
+      "voiceover_lines": 1,
+      "scene_steps": 1
+    },
+    {
+      "scene_id": "scene_sec_016_fallback",
+      "title": "Creative Ability",
+      "duration_seconds": 5.0,
+      "layout": "centered",
+      "assets_required": [],
+      "voiceover_lines": 1,
+      "scene_steps": 1
+    },
+    {
+      "scene_id": "scene_sec_017_fallback",
+      "title": "Listening Ability",
+      "duration_seconds": 5.0,
+      "layout": "centered",
+      "assets_required": [],
+      "voiceover_lines": 1,
+      "scene_steps": 1
+    },
+    {
+      "scene_id": "scene_sec_018_fallback",
+      "title": "Life Skills",
+      "duration_seconds": 5.0,
+      "layout": "centered",
+      "assets_required": [],
+      "voiceover_lines": 1,
+      "scene_steps": 1
+    },
+    {
+      "scene_id": "scene_sec_019_fallback",
+      "title": "Self Assessment",
+      "duration_seconds": 5.0,
+      "layout": "centered",
+      "assets_required": [],
+      "voiceover_lines": 1,
+      "scene_steps": 1
+    },
+    {
+      "scene_id": "scene_sec_020_fallback",
+      "title": "Read these lines. Colour one smiley to show how you feel:",
+      "duration_seconds": 5.0,
+      "layout": "centered",
+      "assets_required": [],
+      "voiceover_lines": 1,
+      "scene_steps": 1
+    }
+  ]
+}

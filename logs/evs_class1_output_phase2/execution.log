@@ -1,0 +1,75 @@
+2026-09-09T17:03:46 | INFO     | pipeline.evs_class1_output_phase2 | [11:33:46] ✓ [script] Generating script scenes for evs_class1_output
+2026-09-09T17:03:46 | INFO     | pipeline.evs_class1_output_phase2 | [11:33:46] ✓ [system] ═══ SCRIPT START ═══
+2026-09-09T17:03:46 | INFO     | pipeline.evs_class1_output_phase2 | [11:33:46] ✓ [script] Generating script scenes for evs_class1_output
+2026-09-09T17:03:46 | INFO     | pipeline.evs_class1_output_phase2 | [11:33:46] ✓ [system] ═══ SCRIPT START ═══
+2026-09-09T17:03:46 | INFO     | pipeline.evs_class1_output_phase2 | [11:33:46] ✓ [system] Generated: sec_001    Lesson : 8 Animal Life                   VO=2 Steps=3 Storyboard=3
+2026-09-09T17:03:46 | INFO     | pipeline.evs_class1_output_phase2 | [11:33:46] ✓ [system] Generated: sec_002    Lesson : 8 Animal Life > Highlights of t VO=3 Steps=4 Storyboard=4
+2026-09-09T17:03:46 | INFO     | pipeline.evs_class1_output_phase2 | [11:33:46] ✓ [system] Generated: sec_003    Lesson : 8 Animal Life > Highlights of t VO=2 Steps=3 Storyboard=3
+2026-09-09T17:03:46 | INFO     | pipeline.evs_class1_output_phase2 | [11:33:46] ✓ [system] Generated: sec_004    Lesson : 8 Animal Life > Highlights of t VO=2 Steps=3 Storyboard=3
+2026-09-09T17:03:46 | INFO     | pipeline.evs_class1_output_phase2 | [11:33:46] ✓ [system] Generated: sec_005    Lesson : 8 Animal Life > Highlights of t VO=2 Steps=3 Storyboard=3
+2026-09-09T17:03:46 | INFO     | pipeline.evs_class1_output_phase2 | [11:33:46] ✓ [system] Generated: sec_006    Lesson : 8 Animal Life > Highlights of t VO=3 Steps=4 Storyboard=4
+2026-09-09T17:03:46 | INFO     | pipeline.evs_class1_output_phase2 | [11:33:46] ✓ [system] Generated: sec_007    Lesson : 8 Animal Life > Highlights of t VO=2 Steps=3 Storyboard=3
+2026-09-09T17:03:46 | INFO     | pipeline.evs_class1_output_phase2 | [11:33:46] ✓ [system] Generated: sec_008    Lesson : 8 Animal Life > Highlights of t VO=2 Steps=3 Storyboard=3
+2026-09-09T17:03:46 | INFO     | pipeline.evs_class1_output_phase2 | [11:33:46] ✓ [system] Generated: sec_009    Lesson : 8 Animal Life > Highlights of t VO=3 Steps=4 Storyboard=4
+2026-09-09T17:03:46 | INFO     | pipeline.evs_class1_output_phase2 | [11:33:46] ✓ [system] Generated: sec_010    Lesson : 8 Animal Life > Highlights of t VO=2 Steps=3 Storyboard=3
+2026-09-09T17:03:46 | INFO     | pipeline.evs_class1_output_phase2 | [11:33:46] ✓ [system] Generated: sec_011    Lesson : 8 Animal Life > Highlights of t VO=3 Steps=4 Storyboard=4
+2026-09-09T17:03:46 | INFO     | pipeline.evs_class1_output_phase2 | [11:33:46] ✓ [system] Generated: sec_012    Lesson : 8 Animal Life > Glossary        VO=3 Steps=4 Storyboard=4
+2026-09-09T17:03:46 | INFO     | pipeline.evs_class1_output_phase2 | [11:33:46] ✓ [system] Generated: sec_013    Lesson : 8 Animal Life > Glossary > I. A VO=4 Steps=3 Storyboard=3
+2026-09-09T17:03:46 | INFO     | pipeline.evs_class1_output_phase2 | [11:33:46] ✓ [system] Generated: sec_014    Lesson : 8 Animal Life > Glossary > I. A VO=4 Steps=3 Storyboard=3
+2026-09-09T17:03:46 | INFO     | pipeline.evs_class1_output_phase2 | [11:33:46] ✓ [system] Generated: sec_015    Lesson : 8 Animal Life > Glossary > I. A VO=4 Steps=3 Storyboard=3
+2026-09-09T17:03:46 | INFO     | pipeline.evs_class1_output_phase2 | [11:33:46] ✓ [system] Generated: sec_016    Lesson : 8 Animal Life > Glossary > I. A VO=4 Steps=3 Storyboard=3
+2026-09-09T17:03:46 | INFO     | pipeline.evs_class1_output_phase2 | [11:33:46] ✓ [script] Generated 16 script scenes
+2026-09-09T17:03:46 | INFO     | pipeline.evs_class1_output_phase2 | [11:33:46] ✓ [system] ═══ SCRIPT END ═══
+2026-09-09T17:03:46 | INFO     | pipeline.evs_class1_output_phase2 | [11:33:46] ✓ [system] Saved 16 scenes to D:\new_video_pip\packages\textbook-pipeline\projects\evs_class1_output\phase2_script_scenes.json
+2026-09-09T17:03:46 | INFO     | pipeline.evs_class1_output_phase2 | [11:33:46] ✓ [script] Script generation complete
+2026-09-09T17:03:46 | INFO     | pipeline.evs_class1_output_phase2 | [11:33:46] ✓ [system] ═══ SCRIPT END ═══
+2026-09-09T17:05:31 | INFO     | pipeline.evs_class1_output_phase2 | [11:35:31] ✓ [script] Generating script scenes for evs_class1_output
+2026-09-09T17:05:31 | INFO     | pipeline.evs_class1_output_phase2 | [11:35:31] ✓ [system] ═══ SCRIPT START ═══
+2026-09-09T17:05:31 | INFO     | pipeline.evs_class1_output_phase2 | [11:35:31] ✓ [script] Generating script scenes for evs_class1_output
+2026-09-09T17:05:31 | INFO     | pipeline.evs_class1_output_phase2 | [11:35:31] ✓ [system] ═══ SCRIPT START ═══
+2026-09-09T17:05:31 | INFO     | pipeline.evs_class1_output_phase2 | [11:35:31] ✓ [system] Generated: sec_001    Lesson : 8 Animal Life                   VO=2 Steps=3 Storyboard=3
+2026-09-09T17:05:31 | INFO     | pipeline.evs_class1_output_phase2 | [11:35:31] ✓ [system] Generated: sec_002    Lesson : 8 Animal Life > Highlights of t VO=3 Steps=4 Storyboard=4
+2026-09-09T17:05:31 | INFO     | pipeline.evs_class1_output_phase2 | [11:35:31] ✓ [system] Generated: sec_003    Lesson : 8 Animal Life > Highlights of t VO=2 Steps=3 Storyboard=3
+2026-09-09T17:05:31 | INFO     | pipeline.evs_class1_output_phase2 | [11:35:31] ✓ [system] Generated: sec_004    Lesson : 8 Animal Life > Highlights of t VO=2 Steps=3 Storyboard=3
+2026-09-09T17:05:31 | INFO     | pipeline.evs_class1_output_phase2 | [11:35:31] ✓ [system] Generated: sec_005    Lesson : 8 Animal Life > Highlights of t VO=2 Steps=3 Storyboard=3
+2026-09-09T17:05:31 | INFO     | pipeline.evs_class1_output_phase2 | [11:35:31] ✓ [system] Generated: sec_006    Lesson : 8 Animal Life > Highlights of t VO=3 Steps=4 Storyboard=4
+2026-09-09T17:05:31 | INFO     | pipeline.evs_class1_output_phase2 | [11:35:31] ✓ [system] Generated: sec_007    Lesson : 8 Animal Life > Highlights of t VO=2 Steps=3 Storyboard=3
+2026-09-09T17:05:31 | INFO     | pipeline.evs_class1_output_phase2 | [11:35:31] ✓ [system] Generated: sec_008    Lesson : 8 Animal Life > Highlights of t VO=2 Steps=3 Storyboard=3
+2026-09-09T17:05:31 | INFO     | pipeline.evs_class1_output_phase2 | [11:35:31] ✓ [system] Generated: sec_009    Lesson : 8 Animal Life > Highlights of t VO=3 Steps=4 Storyboard=4
+2026-09-09T17:05:31 | INFO     | pipeline.evs_class1_output_phase2 | [11:35:31] ✓ [system] Generated: sec_010    Lesson : 8 Animal Life > Highlights of t VO=2 Steps=3 Storyboard=3
+2026-09-09T17:05:31 | INFO     | pipeline.evs_class1_output_phase2 | [11:35:31] ✓ [system] Generated: sec_011    Lesson : 8 Animal Life > Highlights of t VO=3 Steps=4 Storyboard=4
+2026-09-09T17:05:31 | INFO     | pipeline.evs_class1_output_phase2 | [11:35:31] ✓ [system] Generated: sec_012    Lesson : 8 Animal Life > Glossary        VO=3 Steps=4 Storyboard=4
+2026-09-09T17:05:31 | INFO     | pipeline.evs_class1_output_phase2 | [11:35:31] ✓ [system] Generated: sec_013    Lesson : 8 Animal Life > Glossary > I. A VO=4 Steps=3 Storyboard=3
+2026-09-09T17:05:31 | INFO     | pipeline.evs_class1_output_phase2 | [11:35:31] ✓ [system] Generated: sec_014    Lesson : 8 Animal Life > Glossary > I. A VO=4 Steps=3 Storyboard=3
+2026-09-09T17:05:31 | INFO     | pipeline.evs_class1_output_phase2 | [11:35:31] ✓ [system] Generated: sec_015    Lesson : 8 Animal Life > Glossary > I. A VO=4 Steps=3 Storyboard=3
+2026-09-09T17:05:31 | INFO     | pipeline.evs_class1_output_phase2 | [11:35:31] ✓ [system] Generated: sec_016    Lesson : 8 Animal Life > Glossary > I. A VO=4 Steps=3 Storyboard=3
+2026-09-09T17:05:31 | INFO     | pipeline.evs_class1_output_phase2 | [11:35:31] ✓ [script] Generated 16 script scenes
+2026-09-09T17:05:31 | INFO     | pipeline.evs_class1_output_phase2 | [11:35:31] ✓ [system] ═══ SCRIPT END ═══
+2026-09-09T17:05:31 | INFO     | pipeline.evs_class1_output_phase2 | [11:35:31] ✓ [system] Saved 16 scenes to D:\new_video_pip\packages\textbook-pipeline\projects\evs_class1_output\phase2_script_scenes.json
+2026-09-09T17:05:31 | INFO     | pipeline.evs_class1_output_phase2 | [11:35:31] ✓ [script] Script generation complete
+2026-09-09T17:05:31 | INFO     | pipeline.evs_class1_output_phase2 | [11:35:31] ✓ [system] ═══ SCRIPT END ═══
+2026-09-09T17:08:21 | INFO     | pipeline.evs_class1_output_phase2 | [11:38:21] ✓ [script] Generating script scenes for evs_class1_output
+2026-09-09T17:08:21 | INFO     | pipeline.evs_class1_output_phase2 | [11:38:21] ✓ [system] ═══ SCRIPT START ═══
+2026-09-09T17:08:21 | INFO     | pipeline.evs_class1_output_phase2 | [11:38:21] ✓ [script] Generating script scenes for evs_class1_output
+2026-09-09T17:08:21 | INFO     | pipeline.evs_class1_output_phase2 | [11:38:21] ✓ [system] ═══ SCRIPT START ═══
+2026-09-09T17:08:21 | INFO     | pipeline.evs_class1_output_phase2 | [11:38:21] ✓ [system] Generated: sec_001    Lesson : 8 Animal Life                   VO=2 Steps=3 Storyboard=3
+2026-09-09T17:08:21 | INFO     | pipeline.evs_class1_output_phase2 | [11:38:21] ✓ [system] Generated: sec_002    Lesson : 8 Animal Life > Highlights of t VO=3 Steps=4 Storyboard=4
+2026-09-09T17:08:21 | INFO     | pipeline.evs_class1_output_phase2 | [11:38:21] ✓ [system] Generated: sec_003    Lesson : 8 Animal Life > Highlights of t VO=2 Steps=3 Storyboard=3
+2026-09-09T17:08:21 | INFO     | pipeline.evs_class1_output_phase2 | [11:38:21] ✓ [system] Generated: sec_004    Lesson : 8 Animal Life > Highlights of t VO=2 Steps=3 Storyboard=3
+2026-09-09T17:08:21 | INFO     | pipeline.evs_class1_output_phase2 | [11:38:21] ✓ [system] Generated: sec_005    Lesson : 8 Animal Life > Highlights of t VO=2 Steps=3 Storyboard=3
+2026-09-09T17:08:21 | INFO     | pipeline.evs_class1_output_phase2 | [11:38:21] ✓ [system] Generated: sec_006    Lesson : 8 Animal Life > Highlights of t VO=3 Steps=4 Storyboard=4
+2026-09-09T17:08:21 | INFO     | pipeline.evs_class1_output_phase2 | [11:38:21] ✓ [system] Generated: sec_007    Lesson : 8 Animal Life > Highlights of t VO=2 Steps=3 Storyboard=3
+2026-09-09T17:08:21 | INFO     | pipeline.evs_class1_output_phase2 | [11:38:21] ✓ [system] Generated: sec_008    Lesson : 8 Animal Life > Highlights of t VO=2 Steps=3 Storyboard=3
+2026-09-09T17:08:21 | INFO     | pipeline.evs_class1_output_phase2 | [11:38:21] ✓ [system] Generated: sec_009    Lesson : 8 Animal Life > Highlights of t VO=3 Steps=4 Storyboard=4
+2026-09-09T17:08:21 | INFO     | pipeline.evs_class1_output_phase2 | [11:38:21] ✓ [system] Generated: sec_010    Lesson : 8 Animal Life > Highlights of t VO=2 Steps=3 Storyboard=3
+2026-09-09T17:08:21 | INFO     | pipeline.evs_class1_output_phase2 | [11:38:21] ✓ [system] Generated: sec_011    Lesson : 8 Animal Life > Highlights of t VO=3 Steps=4 Storyboard=4
+2026-09-09T17:08:21 | INFO     | pipeline.evs_class1_output_phase2 | [11:38:21] ✓ [system] Generated: sec_012    Lesson : 8 Animal Life > Glossary        VO=3 Steps=4 Storyboard=4
+2026-09-09T17:08:21 | INFO     | pipeline.evs_class1_output_phase2 | [11:38:21] ✓ [system] Generated: sec_013    Lesson : 8 Animal Life > Glossary > I. A VO=4 Steps=3 Storyboard=3
+2026-09-09T17:08:21 | INFO     | pipeline.evs_class1_output_phase2 | [11:38:21] ✓ [system] Generated: sec_014    Lesson : 8 Animal Life > Glossary > I. A VO=4 Steps=3 Storyboard=3
+2026-09-09T17:08:21 | INFO     | pipeline.evs_class1_output_phase2 | [11:38:21] ✓ [system] Generated: sec_015    Lesson : 8 Animal Life > Glossary > I. A VO=4 Steps=3 Storyboard=3
+2026-09-09T17:08:21 | INFO     | pipeline.evs_class1_output_phase2 | [11:38:21] ✓ [system] Generated: sec_016    Lesson : 8 Animal Life > Glossary > I. A VO=4 Steps=3 Storyboard=3
+2026-09-09T17:08:21 | INFO     | pipeline.evs_class1_output_phase2 | [11:38:21] ✓ [script] Generated 16 script scenes
+2026-09-09T17:08:21 | INFO     | pipeline.evs_class1_output_phase2 | [11:38:21] ✓ [system] ═══ SCRIPT END ═══
+2026-09-09T17:08:21 | INFO     | pipeline.evs_class1_output_phase2 | [11:38:21] ✓ [system] Saved 16 scenes to D:\new_video_pip\packages\textbook-pipeline\projects\evs_class1_output\phase2_script_scenes.json
+2026-09-09T17:08:21 | INFO     | pipeline.evs_class1_output_phase2 | [11:38:21] ✓ [script] Script generation complete
+2026-09-09T17:08:21 | INFO     | pipeline.evs_class1_output_phase2 | [11:38:21] ✓ [system] ═══ SCRIPT END ═══

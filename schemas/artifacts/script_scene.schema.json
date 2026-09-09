@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://inkspectrum.dev/schemas/artifacts/script_scene.schema.json",
+  "title": "ScriptScene",
+  "description": "A scene in the video script: voiceover + visual plan.",
+  "type": "object",
+  "required": ["id", "title", "voiceover_lines", "scene_steps", "duration_seconds"],
+  "properties": {
+    "id": { "type": "string" },
+    "title": { "type": "string" },
+    "section_ref": { "anyOf": [{ "type": "string" }, { "type": "null" }] },
+    "duration_seconds": { "type": "number", "minimum": 0 },
+    "notes": { "anyOf": [{ "type": "string" }, { "type": "null" }] },
+    "voiceover_lines": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["text", "duration_seconds"],
+        "properties": {
+          "text": { "type": "string" },
+          "duration_seconds": { "type": "number", "minimum": 0 },
+          "scene_id": { "anyOf": [{ "type": "string" }, { "type": "null" }] },
+          "pause_after": { "type": "number", "minimum": 0 }
+        }
+      }
+    },
+    "scene_steps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["at", "type"],
+        "properties": {
+          "at": { "type": "number", "minimum": 0 },
+          "duration": { "anyOf": [{ "type": "number", "minimum": 0 }, { "type": "null" }] },
+          "type": { "type": "string" },
+          "text": { "anyOf": [{ "type": "string" }, { "type": "null" }] },
+          "latex": { "anyOf": [{ "type": "string" }, { "type": "null" }] },
+          "color": { "anyOf": [{ "type": "string" }, { "type": "null" }] },
+          "size": { "anyOf": [{ "type": "string" }, { "type": "null" }] }
+        }
+      }
+    }
+  }
+}

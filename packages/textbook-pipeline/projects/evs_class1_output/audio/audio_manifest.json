@@ -1,0 +1,419 @@
+{
+  "total_scenes": 16,
+  "total_lines": 45,
+  "generated_files": 45,
+  "scenes": [
+    {
+      "scene_id": "scene_sec_001_0",
+      "scene_title": "Lesson : 8 Animal Life",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "- We Learn - Do you have any pet animals? _____________________________ - How do",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_001_0_line_1.mp3",
+          "duration_seconds": 8.0,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "Pay attention to Lesson : 8 Animal Life.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_001_0_line_2.mp3",
+          "duration_seconds": 3.2,
+          "pause_after": 0.0
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_sec_002_0",
+      "scene_title": "Lesson : 8 Animal Life > Highlights of the Lesson",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "- Animals around us - Land Animals - Water Animals - Birds - Insects - Animal Ho",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_002_0_line_1.mp3",
+          "duration_seconds": 11.2,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "Animals are found all over the world and they need food, shelter, air, and water",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_002_0_line_2.mp3",
+          "duration_seconds": 9.2,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 2,
+          "text": "Their size, eating habits, body colour, and body covering vary according to the ",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_002_0_line_3.mp3",
+          "duration_seconds": 9.6,
+          "pause_after": 0.0
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_sec_003_0",
+      "scene_title": "Lesson : 8 Animal Life > Highlights of the Lesson > Water animals.",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "Animals that live in water are called \u201cWater Animals or Aquatic Animals\u201d..",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_003_0_line_1.mp3",
+          "duration_seconds": 4.8,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "Pay attention to Lesson : 8 Animal Life > Highlights of the Lesson > Water anima",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_003_0_line_2.mp3",
+          "duration_seconds": 6.4,
+          "pause_after": 0.0
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_sec_004_0",
+      "scene_title": "Lesson : 8 Animal Life > Highlights of the Lesson > Water animals. > Land animals.",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "Animals that live on land are called \u201cLand Animals\u201d. Lion Elephant Tiger.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_004_0_line_1.mp3",
+          "duration_seconds": 4.8,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "Pay attention to Lesson : 8 Animal Life > Highlights of the Lesson > Water anima",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_004_0_line_2.mp3",
+          "duration_seconds": 7.6,
+          "pause_after": 0.0
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_sec_005_0",
+      "scene_title": "Lesson : 8 Animal Life > Highlights of the Lesson > Water animals. > Land animals. > Birds",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "Birds are the animals with feathers, wings and two-legs and a beak without teeth",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_005_0_line_1.mp3",
+          "duration_seconds": 6.8,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "Pay attention to Lesson : 8 Animal Life > Highlights of the Lesson > Water anima",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_005_0_line_2.mp3",
+          "duration_seconds": 8.4,
+          "pause_after": 0.0
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_sec_006_0",
+      "scene_title": "Lesson : 8 Animal Life > Highlights of the Lesson > Water animals. > Land animals. > Birds > Insects",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "Very small animals are called \u201cInsects\u201d. They have six legs. Some insects have w",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_006_0_line_1.mp3",
+          "duration_seconds": 6.4,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "Butterfly Housefly Grasshopper Domestic Animals: Animals that are kept at home o",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_006_0_line_2.mp3",
+          "duration_seconds": 9.6,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 2,
+          "text": "Pet Animals: Some animals like dog, parrot and rabbit are kept as pets. We love ",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_006_0_line_3.mp3",
+          "duration_seconds": 8.4,
+          "pause_after": 0.0
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_sec_007_0",
+      "scene_title": "Lesson : 8 Animal Life > Highlights of the Lesson > Water animals. > Land animals. > Birds > Animal Homes :",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "Animals need home to live and food to grow. Different animals eat different kind",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_007_0_line_1.mp3",
+          "duration_seconds": 8.4,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "Pay attention to Lesson : 8 Animal Life > Highlights of the Lesson > Water anima",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_007_0_line_2.mp3",
+          "duration_seconds": 10.0,
+          "pause_after": 0.0
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_sec_008_0",
+      "scene_title": "Lesson : 8 Animal Life > Highlights of the Lesson > Water animals. > Land animals. > Birds > Lions :",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "- Lions live in caves in forests. - These caves are called \u201cDens\u201d. - They eat fl",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_008_0_line_1.mp3",
+          "duration_seconds": 8.0,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "Pay attention to Lesson : 8 Animal Life > Highlights of the Lesson > Water anima",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_008_0_line_2.mp3",
+          "duration_seconds": 9.6,
+          "pause_after": 0.0
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_sec_009_0",
+      "scene_title": "Lesson : 8 Animal Life > Highlights of the Lesson > Water animals. > Land animals. > Birds > Rabbits :",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "- They are burrowing animals and live in burrows - They eat vegetables. Birds : ",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_009_0_line_1.mp3",
+          "duration_seconds": 8.4,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "- They eat seeds, berries, fruit, insects, etc. Ants : - They make a hill-like s",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_009_0_line_2.mp3",
+          "duration_seconds": 8.0,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 2,
+          "text": "- Ants live in a group like bees..",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_009_0_line_3.mp3",
+          "duration_seconds": 3.2,
+          "pause_after": 0.0
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_sec_010_0",
+      "scene_title": "Lesson : 8 Animal Life > Highlights of the Lesson > Water animals. > Land animals. > Birds > Domestic and pet animals are kept in human-made homes. A dog lives in a kennel",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "A cow lives in a shed A horse lives in a stable.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_010_0_line_1.mp3",
+          "duration_seconds": 4.8,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "Pay attention to Lesson : 8 Animal Life > Highlights of the Lesson > Water anima",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_010_0_line_2.mp3",
+          "duration_seconds": 14.8,
+          "pause_after": 0.0
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_sec_011_0",
+      "scene_title": "Lesson : 8 Animal Life > Highlights of the Lesson > Let\u2019s Recall",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "- Animals live both on land and in water. - Animals are of different sizes. - An",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_011_0_line_1.mp3",
+          "duration_seconds": 9.2,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "- Very small animals are called insects. - Animals that can be kept at home are ",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_011_0_line_2.mp3",
+          "duration_seconds": 7.2,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 2,
+          "text": "- Animals that live in jungle are called wild animals. - Different animals live ",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_011_0_line_3.mp3",
+          "duration_seconds": 8.4,
+          "pause_after": 0.0
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_sec_012_0",
+      "scene_title": "Lesson : 8 Animal Life > Glossary",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "- Birds : Animals that can fly are called birds. - Insects : Very small animals ",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_012_0_line_1.mp3",
+          "duration_seconds": 7.6,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "- Domestic animals: animals that can be kept at home. - Wild animals : Animals t",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_012_0_line_2.mp3",
+          "duration_seconds": 7.6,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 2,
+          "text": "- Den : Place where lions live. Assessment.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_012_0_line_3.mp3",
+          "duration_seconds": 3.2,
+          "pause_after": 0.0
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_sec_013_0",
+      "scene_title": "Lesson : 8 Animal Life > Glossary > I. Answer the following question.",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "Now let us practice. Lesson : 8 Animal Life > Glossary > I. Answer the following",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_013_0_line_1.mp3",
+          "duration_seconds": 6.8,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "Look at the question carefully: - 1. Name any two pet animals. _________________",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_013_0_line_2.mp3",
+          "duration_seconds": 10.4,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 2,
+          "text": "Think about your answer before you respond.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_013_0_line_3.mp3",
+          "duration_seconds": 2.8,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 3,
+          "text": "Great job! Let us check the answer together.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_013_0_line_4.mp3",
+          "duration_seconds": 3.2,
+          "pause_after": 0.0
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_sec_014_0",
+      "scene_title": "Lesson : 8 Animal Life > Glossary > I. Answer the following question. > II. Fill in the blanks.",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "Now let us practice. Lesson : 8 Animal Life > Glossary > I. Answer the following",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_014_0_line_1.mp3",
+          "duration_seconds": 9.2,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "Look at the question carefully: - 1. Rabbits live in _______________________. - ",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_014_0_line_2.mp3",
+          "duration_seconds": 16.4,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 2,
+          "text": "Think about your answer before you respond.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_014_0_line_3.mp3",
+          "duration_seconds": 2.8,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 3,
+          "text": "Great job! Let us check the answer together.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_014_0_line_4.mp3",
+          "duration_seconds": 3.2,
+          "pause_after": 0.0
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_sec_015_0",
+      "scene_title": "Lesson : 8 Animal Life > Glossary > I. Answer the following question. > II. Fill in the blanks. > III. Choose the correct answer.",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "Now let us practice. Lesson : 8 Animal Life > Glossary > I. Answer the following",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_015_0_line_1.mp3",
+          "duration_seconds": 11.6,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "Look at the question carefully: - 1. Fish live in _______________________. a) wa",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_015_0_line_2.mp3",
+          "duration_seconds": 31.2,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 2,
+          "text": "Think about your answer before you respond.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_015_0_line_3.mp3",
+          "duration_seconds": 2.8,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 3,
+          "text": "Great job! Let us check the answer together.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_015_0_line_4.mp3",
+          "duration_seconds": 3.2,
+          "pause_after": 0.0
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_sec_016_0",
+      "scene_title": "Lesson : 8 Animal Life > Glossary > I. Answer the following question. > ACTIVITY > Draw any animal of your choice and name it.",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "Now let us practice. Lesson : 8 Animal Life > Glossary > I. Answer the following",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_016_0_line_1.mp3",
+          "duration_seconds": 11.6,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "Look at the question carefully: Life Skills Animals also have feelings. Do not h",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_016_0_line_2.mp3",
+          "duration_seconds": 9.6,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 2,
+          "text": "Think about your answer before you respond.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_016_0_line_3.mp3",
+          "duration_seconds": 2.8,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 3,
+          "text": "Great job! Let us check the answer together.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\evs_class1_output\\audio\\scene_sec_016_0_line_4.mp3",
+          "duration_seconds": 3.2,
+          "pause_after": 0.0
+        }
+      ]
+    }
+  ],
+  "provider": "edge"
+}

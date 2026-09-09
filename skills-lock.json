@@ -115,6 +115,18 @@
       "skillPath": "skills/minimax-h3-text-to-video/SKILL.md",
       "computedHash": "7ab4fda174de21b38334f42c97e3244e977cb0b8bfdcc533642f8017626f29ed"
     },
+    "modelslab-3d-generation": {
+      "source": "modelslab/skills",
+      "sourceType": "github",
+      "skillPath": "3d-generation/SKILL.md",
+      "computedHash": "75dfc2604fa31746d09c73da3aaa806fa95b5b9cd32a37fd3c91dd6003bdd9d8"
+    },
+    "modelslab-account-management": {
+      "source": "modelslab/skills",
+      "sourceType": "github",
+      "skillPath": "account-management/SKILL.md",
+      "computedHash": "c65d8cac402fdc3f0dfa9a1a665f399055d71e28d84075f085c73b3e8a029512"
+    },
     "modelslab-audio-generation": {
       "source": "modelslab/skills",
       "sourceType": "github",
@@ -127,17 +139,59 @@
       "skillPath": "billing-subscriptions/SKILL.md",
       "computedHash": "31f2e61cc334982dba5df99040c324fc3f74d20c991b9ee7afc829e42c113591"
     },
+    "modelslab-chat-generation": {
+      "source": "modelslab/skills",
+      "sourceType": "github",
+      "skillPath": "chat-generation/SKILL.md",
+      "computedHash": "f6be3d3b88f3a2f60945e1deee93a223360cba07850f6649d805914311b1e96e"
+    },
+    "modelslab-deepfake": {
+      "source": "modelslab/skills",
+      "sourceType": "github",
+      "skillPath": "deepfake/SKILL.md",
+      "computedHash": "1bac8ff451aa8c98cbbc693bea866d74f51c7307620691d4d37a70d0de11b6c1"
+    },
+    "modelslab-image-editing": {
+      "source": "modelslab/skills",
+      "sourceType": "github",
+      "skillPath": "image-editing/SKILL.md",
+      "computedHash": "c95cd4b77fe4e4e6d8082f66e27d543c6dcc52293cff44b7771c30f4583ace4a"
+    },
     "modelslab-image-generation": {
       "source": "modelslab/skills",
       "sourceType": "github",
       "skillPath": "image-generation/SKILL.md",
       "computedHash": "f83b2e63bd40a2cb7fc3abbcfbfbf60905bbc01ef841826c9543ebc3f36f0a1e"
     },
+    "modelslab-interior-design": {
+      "source": "modelslab/skills",
+      "sourceType": "github",
+      "skillPath": "interior-design/SKILL.md",
+      "computedHash": "ec7a01f5a7573de1abd3eb5d732f139692607bab557e26072bbb7a550c971387"
+    },
+    "modelslab-model-discovery": {
+      "source": "modelslab/skills",
+      "sourceType": "github",
+      "skillPath": "model-discovery/SKILL.md",
+      "computedHash": "2e0fdae22bf6acd5da09c4046ff4f441e1c6668cf084f1cc86263ebcdac4fc7a"
+    },
+    "modelslab-sdk-usage": {
+      "source": "modelslab/skills",
+      "sourceType": "github",
+      "skillPath": "sdk-usage/SKILL.md",
+      "computedHash": "49b198ce7087a518e07464ad8b1ab9ae1567fab4b932979c8294cd4d74fdf6ef"
+    },
     "modelslab-video-generation": {
       "source": "modelslab/skills",
       "sourceType": "github",
       "skillPath": "video-generation/SKILL.md",
       "computedHash": "4a56d77d02cfb16d2d1932bd6ad2df5e6a3d64cc8e269195e19cbbc39ed242b1"
+    },
+    "modelslab-webhooks": {
+      "source": "modelslab/skills",
+      "sourceType": "github",
+      "skillPath": "webhooks/SKILL.md",
+      "computedHash": "411ae74132f930148c30d805545a43c9727aea5ee0faa92901cf1fb2b0190198"
     },
     "music-video-subtitle-generator": {
       "source": "minimax-ai/minimax-h3",

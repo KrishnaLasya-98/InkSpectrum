@@ -14,9 +14,9 @@ Phase 1 subjects: ENGLISH, MATH, SOCIAL
 from __future__ import annotations
 
 from enum import Enum
-from typing import Optional, Union
+from typing import Any, Optional, Union
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 
 
 # ───────────────────────────────────────────────────────────────────
@@ -106,13 +106,16 @@ class SceneStep(BaseModel):
         SceneStep(at=3, type=SceneStepType.LATEX_BLOCK, latex="6CO_2 + 6H_2O \\rightarrow ...", x=160, y=100)
     """
 
-    at: float = Field(ge=0, description="Time in seconds when this step appears")
+    model_config = ConfigDict(populate_by_name=True, extra="allow")
+
+    at: float = Field(default=0.0, ge=0, description="Time in seconds when this step appears")
     duration: Optional[float] = Field(None, ge=0, description="How long it stays (default: until next clear)")
 
     type: SceneStepType
 
-    # Text content (varies by type)
-    text: Optional[str] = None                  # for title/subtitle/text
+    # Text content (varies by type). Accept `text` from schema-aware output,
+    # and `content` from LLM output that ignores the schema.
+    text: Optional[str] = Field(default=None, alias="text")
     latex: Optional[str] = None                 # for latex_inline/latex_block
 
     # Position (varies by type)
@@ -160,6 +163,8 @@ class VoiceoverLine(BaseModel):
 class ScriptScene(BaseModel):
     """A scene in the video script: voiceover + visual plan."""
 
+    model_config = ConfigDict(populate_by_name=True, extra="allow")
+
     id: str                                     # e.g. "sec1_intro", "ex3_q1"
     title: str                                  # human-readable label
     voiceover_lines: list[VoiceoverLine]
@@ -167,3 +172,23 @@ class ScriptScene(BaseModel):
     duration_seconds: float                     # total (voiceover + pauses)
     section_ref: Optional[str] = None           # SectionNode.id this came from
     notes: str = ""                             # pedagogical notes for QA
+
+    # ── Generative asset fields (Phase 3.5) ──
+    image_prompt: Optional[str] = None          # T2I prompt for start frame / background
+    video_prompt: Optional[str] = None          # I2V/T2V motion description
+    init_image_url: Optional[str] = None        # Generated/uploaded start frame URL
+    generated_assets: Optional[dict[str, str]] = None  # {"image": "path", "video": "path", "audio": "path"}
+
+    # ── Visual storyboard fields ──
+    storyboard: Optional[list[dict]] = None     # Detailed visual sequence for video production
+    # Each storyboard entry: {
+    #   "time": float,           # seconds from scene start
+    #   "duration": float,       # how long this shot lasts
+    #   "visual": str,           # description of what is shown
+    #   "on_screen_text": str,   # text overlay (if any)
+    #   "camera_motion": str,    # "static", "pan_left", "dolly_in", etc.
+    #   "animation_type": str,   # "character_walk", "environmental", "particle", etc.
+    #   "transition_in": str,    # "fade", "cut", "slide", etc.
+    #   "transition_out": str,   # "fade", "cut", "slide", etc.
+    #   "asset_requirements": list[str],  # e.g. ["image:lion", "video:swimming_fish"]
+    # }

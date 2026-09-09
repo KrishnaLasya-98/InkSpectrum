@@ -58,13 +58,7 @@ def cmd_generate(args: argparse.Namespace) -> int:
 
 
 def cmd_ingest(args: argparse.Namespace) -> int:
-    """PDF → chapter JSON (uses PyMuPDF extractor)."""
-    try:
-        from textbook_pipeline.core.ingestion.pymupdf_extractor import PyMuPDFExtractor
-    except ImportError as exc:
-        logger.error("Failed to import extractor: %s", exc)
-        return 1
-
+    """PDF → chapter JSON (uses OpenDataLoader primary, PyMuPDF fallback)."""
     pdf_path = args.pdf.resolve()
     if not pdf_path.exists() or not pdf_path.is_file():
         logger.error("PDF not found: %s", pdf_path)
@@ -77,13 +71,44 @@ def cmd_ingest(args: argparse.Namespace) -> int:
     output = args.output.resolve()
     output.mkdir(parents=True, exist_ok=True)
 
-    extractor = PyMuPDFExtractor()
-    chapter = extractor.extract_chapters(
-        pdf_path=pdf_path,
-        subject=subject,
-        grade=args.grade,
-        textbook_id=pdf_path.stem,
-    )
+    # Try OpenDataLoader first (primary), fall back to PyMuPDF
+    chapter = None
+    extractor_name = None
+
+    try:
+        from textbook_pipeline.core.ingestion.opendataloader_extractor import OpenDataLoaderExtractor
+        extractor = OpenDataLoaderExtractor()
+        chapter = extractor.extract(
+            pdf_path=pdf_path,
+            subject=subject,
+            grade=args.grade,
+            textbook_id=pdf_path.stem,
+        )
+        extractor_name = "OpenDataLoader"
+    except ImportError:
+        logger.warning("OpenDataLoader not available, trying PyMuPDF...")
+    except Exception as exc:
+        logger.warning("OpenDataLoader extraction failed: %s", exc)
+
+    if chapter is None:
+        try:
+            from textbook_pipeline.core.ingestion.pymupdf_extractor import PyMuPDFExtractor
+            extractor = PyMuPDFExtractor()
+            chapter = extractor.extract(
+                pdf_path=pdf_path,
+                subject=subject,
+                grade=args.grade,
+                textbook_id=pdf_path.stem,
+            )
+            extractor_name = "PyMuPDF"
+        except ImportError:
+            logger.error("No extractor available. Install open-data-loader or pymupdf.")
+            return 1
+        except Exception as exc:
+            logger.error("PyMuPDF extraction failed: %s", exc)
+            return 1
+
+    logger.info("Extracted using %s", extractor_name)
 
     # Validation
     issues = extractor.validate_extraction(chapter)

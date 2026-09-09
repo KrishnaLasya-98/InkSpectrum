@@ -1,0 +1,1842 @@
+[
+{
+  "id": "scene_sec_001_0",
+  "title": "At the Beach 1",
+  "section_ref": "sec_001",
+  "voiceover_lines": [
+    {
+      "text": "Let us learn about At the Beach 1..",
+      "duration_seconds": 3.2,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Pay attention to At the Beach 1.",
+      "duration_seconds": 2.8,
+      "pause_after": 0.0
+    }
+  ],
+  "scene_steps": [
+    {
+      "type": "title",
+      "text": "At the Beach 1",
+      "at": 0.0,
+      "duration": 1.3333333333333333
+    },
+    {
+      "type": "text",
+      "text": "Let us learn about At the Beach 1..",
+      "at": 2.0,
+      "duration": 2.6666666666666665
+    },
+    {
+      "type": "text",
+      "text": "Pay attention to At the Beach 1.",
+      "at": 5.0,
+      "duration": 2.3333333333333335
+    }
+  ],
+  "duration_seconds": 6.5,
+  "notes": "",
+  "image_prompt": "Educational illustration for grade 1 students: At the Beach 1. Let us learn about At the Beach 1.. Bright, friendly, cartoon style, no text, clean background, suitable for children.",
+  "video_prompt": "Gentle motion for at the beach 1. Smooth character movement and environmental animation. NO camera zoom in or out. Static camera, motion-only. Educational style for children.",
+  "storyboard": [
+    {
+      "time": 0.0,
+      "duration": 3.0,
+      "visual": "Title card: 'At the Beach 1' centered on screen with colorful background",
+      "on_screen_text": "At the Beach 1",
+      "camera_motion": "static",
+      "animation_type": "text_fade_in",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "background:colorful"
+      ]
+    },
+    {
+      "time": 3.0,
+      "duration": 3.2,
+      "visual": "Environmental scene: Let us learn about At the Beach 1..",
+      "on_screen_text": "Let us learn about At the Beach 1..",
+      "camera_motion": "static",
+      "animation_type": "environmental",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "background:beach",
+        "video:ambient"
+      ]
+    },
+    {
+      "time": 6.2,
+      "duration": 3.0,
+      "visual": "Environmental scene: Pay attention to At the Beach 1.",
+      "on_screen_text": "Pay attention to At the Beach 1.",
+      "camera_motion": "static",
+      "animation_type": "environmental",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "background:beach",
+        "video:ambient"
+      ]
+    }
+  ]
+},
+{
+  "id": "scene_sec_002_0",
+  "title": "Lesson",
+  "section_ref": "sec_002",
+  "voiceover_lines": [
+    {
+      "text": "PRINTFILE (2)-pages-2_images/imageFile1.png>).",
+      "duration_seconds": 2.0,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Pay attention to Lesson.",
+      "duration_seconds": 2.0,
+      "pause_after": 0.0
+    }
+  ],
+  "scene_steps": [
+    {
+      "type": "title",
+      "text": "Lesson",
+      "at": 0.0,
+      "duration": 1.0
+    },
+    {
+      "type": "text",
+      "text": "PRINTFILE (2)-pages-2_images/imageFile1.png>).",
+      "at": 2.0,
+      "duration": 1.0
+    },
+    {
+      "type": "text",
+      "text": "Pay attention to Lesson.",
+      "at": 5.0,
+      "duration": 1.3333333333333333
+    }
+  ],
+  "duration_seconds": 4.5,
+  "notes": "",
+  "image_prompt": "Educational illustration for grade 1 students: Lesson. PRINTFILE (2)-pages-2_images/imageFile1.png>). Bright, friendly, cartoon style, no text, clean background, suitable for children.",
+  "video_prompt": "Gentle motion for lesson. Smooth character movement and environmental animation. NO camera zoom in or out. Static camera, motion-only. Educational style for children.",
+  "storyboard": [
+    {
+      "time": 0.0,
+      "duration": 3.0,
+      "visual": "Title card: 'Lesson' centered on screen with colorful background",
+      "on_screen_text": "Lesson",
+      "camera_motion": "static",
+      "animation_type": "text_fade_in",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "background:colorful"
+      ]
+    },
+    {
+      "time": 3.0,
+      "duration": 3.0,
+      "visual": "Narration card with text: PRINTFILE (2)-pages-2_images/imageFile1.png>).",
+      "on_screen_text": "PRINTFILE (2)-pages-2_images/imageFile1.png>).",
+      "camera_motion": "static",
+      "animation_type": "text_idle",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "background:colorful"
+      ]
+    },
+    {
+      "time": 6.0,
+      "duration": 3.0,
+      "visual": "Narration card with text: Pay attention to Lesson.",
+      "on_screen_text": "Pay attention to Lesson.",
+      "camera_motion": "static",
+      "animation_type": "text_idle",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "background:colorful"
+      ]
+    }
+  ]
+},
+{
+  "id": "scene_sec_003_0",
+  "title": "Warm Up",
+  "section_ref": "sec_003",
+  "voiceover_lines": [
+    {
+      "text": "Look at the picture. What do you see? Talk about any 3 of them.",
+      "duration_seconds": 5.6,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Cloud Palm Tree Sea Ball Girl Swimming Ring Sand Starfish Sandcastle.",
+      "duration_seconds": 4.4,
+      "pause_after": 0.0
+    }
+  ],
+  "scene_steps": [
+    {
+      "type": "title",
+      "text": "Warm Up",
+      "at": 0.0,
+      "duration": 1.0
+    },
+    {
+      "type": "text",
+      "text": "Look at the picture. What do you see? Talk about any 3 of them.",
+      "at": 2.0,
+      "duration": 4.666666666666667
+    },
+    {
+      "type": "text",
+      "text": "Cloud Palm Tree Sea Ball Girl Swimming Ring Sand Starfish Sandcastle.",
+      "at": 5.0,
+      "duration": 3.6666666666666665
+    }
+  ],
+  "duration_seconds": 10.5,
+  "notes": "",
+  "image_prompt": "Educational illustration for grade 1 students: Warm Up. Look at the picture. What do you see? Talk about any 3 of them. Cloud Palm Tree Sea Ball Girl Swimming Ring Sand Starfish Sandcastle. Bright, friendly, cartoon style, no text, clean background, suitable for children.",
+  "video_prompt": "Gentle motion for warm up. Smooth character movement and environmental animation. NO camera zoom in or out. Static camera, motion-only. Educational style for children.",
+  "storyboard": [
+    {
+      "time": 0.0,
+      "duration": 3.0,
+      "visual": "Title card: 'Warm Up' centered on screen with colorful background",
+      "on_screen_text": "Warm Up",
+      "camera_motion": "static",
+      "animation_type": "text_fade_in",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "background:colorful"
+      ]
+    },
+    {
+      "time": 3.0,
+      "duration": 5.6,
+      "visual": "Narration card with text: Look at the picture. What do you see? Talk about any 3 of them.",
+      "on_screen_text": "Look at the picture. What do you see? Talk about any 3 of th...",
+      "camera_motion": "static",
+      "animation_type": "text_idle",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "background:colorful"
+      ]
+    },
+    {
+      "time": 8.6,
+      "duration": 4.4,
+      "visual": "Character demonstration: Cloud Palm Tree Sea Ball Girl Swimming Ring Sand Starfish Sandcastle.",
+      "on_screen_text": "Cloud Palm Tree Sea Ball Girl Swimming Ring Sand Starfish Sa...",
+      "camera_motion": "static",
+      "animation_type": "character_action",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "character:fish",
+        "video:swim"
+      ]
+    }
+  ]
+},
+{
+  "id": "scene_sec_004_0",
+  "title": "Read and Enjoy",
+  "section_ref": "sec_004",
+  "voiceover_lines": [
+    {
+      "text": "Let us read what Varun and his sister do when they visit a beach with their family. It is a lovely day.",
+      "duration_seconds": 8.8,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Varun and his sister Vidya are at a beach with their parents. Hey, let us build a sandcastle.",
+      "duration_seconds": 7.2,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Sure! I have a shovel and a bucket too. Varun and Vidya build a castle together. Look, this room is for Grandpa and Grandma.",
+      "duration_seconds": 9.6,
+      "pause_after": 0.0
+    }
+  ],
+  "scene_steps": [
+    {
+      "type": "title",
+      "text": "Read and Enjoy",
+      "at": 0.0,
+      "duration": 1.0
+    },
+    {
+      "type": "text",
+      "text": "Let us read what Varun and his sister do when they visit a beach with their family. It is a lovely day.",
+      "at": 2.0,
+      "duration": 7.333333333333333
+    },
+    {
+      "type": "text",
+      "text": "Varun and his sister Vidya are at a beach with their parents. Hey, let us build a sandcastle.",
+      "at": 5.0,
+      "duration": 6.0
+    },
+    {
+      "type": "word_highlight",
+      "text": "Sure! I have a shovel and a bucket too. Varun and Vidya build a castle together.",
+      "at": 8.0,
+      "duration": 5.333333333333333
+    }
+  ],
+  "duration_seconds": 26.6,
+  "notes": "",
+  "image_prompt": "Educational illustration for grade 1 students: Read and Enjoy. Let us read what Varun and his sister do when they visit a beach with their family. It is a lovely day. Varun and his sister Vidya are at a beach with. Bright, friendly, cartoon style, no text, clean background, suitable for children.",
+  "video_prompt": "Gentle motion for read and enjoy. Smooth character movement and environmental animation. NO camera zoom in or out. Static camera, motion-only. Educational style for children.",
+  "storyboard": [
+    {
+      "time": 0.0,
+      "duration": 3.0,
+      "visual": "Title card: 'Read and Enjoy' centered on screen with colorful background",
+      "on_screen_text": "Read and Enjoy",
+      "camera_motion": "static",
+      "animation_type": "text_fade_in",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "background:colorful"
+      ]
+    },
+    {
+      "time": 3.0,
+      "duration": 8.8,
+      "visual": "Character demonstration: Let us read what Varun and his sister do when they visit a beach with their fami",
+      "on_screen_text": "Let us read what Varun and his sister do when they visit a b...",
+      "camera_motion": "static",
+      "animation_type": "character_action",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "character:varun",
+        "video:run"
+      ]
+    },
+    {
+      "time": 11.8,
+      "duration": 7.2,
+      "visual": "Character demonstration: Varun and his sister Vidya are at a beach with their parents. Hey, let us build ",
+      "on_screen_text": "Varun and his sister Vidya are at a beach with their parents...",
+      "camera_motion": "static",
+      "animation_type": "character_action",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "character:varun",
+        "video:run"
+      ]
+    },
+    {
+      "time": 19.0,
+      "duration": 9.6,
+      "visual": "Character demonstration: Sure! I have a shovel and a bucket too. Varun and Vidya build a castle together.",
+      "on_screen_text": "Sure! I have a shovel and a bucket too. Varun and Vidya buil...",
+      "camera_motion": "static",
+      "animation_type": "character_action",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "character:varun",
+        "video:run"
+      ]
+    }
+  ]
+},
+{
+  "id": "scene_sec_005_0",
+  "title": "Comprehending Ability",
+  "section_ref": "sec_005",
+  "voiceover_lines": [
+    {
+      "text": "Now let us practice. Comprehending Ability.",
+      "duration_seconds": 2.4,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Look at the question carefully: Complete the exercise about Comprehending Ability.",
+      "duration_seconds": 4.4,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Think about your answer before you respond.",
+      "duration_seconds": 2.8,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Great job! Let us check the answer together.",
+      "duration_seconds": 3.2,
+      "pause_after": 0.0
+    }
+  ],
+  "scene_steps": [
+    {
+      "type": "question_card",
+      "text": "Complete the exercise about Comprehending Ability.",
+      "at": 0.0,
+      "duration": 2.0
+    },
+    {
+      "type": "worked_step",
+      "text": "Read the question carefully and think about what it asks.",
+      "at": 2.0,
+      "duration": 3.3333333333333335
+    },
+    {
+      "type": "answer_reveal",
+      "text": "The correct answer depends on the story you just read. Look back and find the clues!",
+      "at": 5.0,
+      "duration": 5.333333333333333
+    }
+  ],
+  "duration_seconds": 14.3,
+  "notes": "",
+  "image_prompt": "Educational worksheet illustration for grade 1: Comprehending Ability. Clean, simple, friendly style, no text, white background, suitable for children.",
+  "video_prompt": "Gentle motion for exercise scene: comprehending ability. Smooth transitions between question and answer elements. NO camera zoom in or out. Static camera, motion-only.",
+  "storyboard": [
+    {
+      "time": 0.0,
+      "duration": 4.0,
+      "visual": "Question card with clean, friendly design",
+      "on_screen_text": "Complete the exercise about Comprehending Ability.",
+      "camera_motion": "static",
+      "animation_type": "text_fade_in",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:question_card",
+        "icon:pencil"
+      ]
+    },
+    {
+      "time": 4.0,
+      "duration": 4.0,
+      "visual": "Step-by-step solution with highlighting",
+      "on_screen_text": "Let's think about this together...",
+      "camera_motion": "static",
+      "animation_type": "highlight_reveal",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:step_indicator",
+        "highlight:key_clue"
+      ]
+    },
+    {
+      "time": 8.0,
+      "duration": 3.0,
+      "visual": "Correct answer with celebration animation",
+      "on_screen_text": "Great job! You got it!",
+      "camera_motion": "static",
+      "animation_type": "celebration",
+      "transition_in": "zoom_in",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:answer_reveal",
+        "particle:stars"
+      ]
+    }
+  ]
+},
+{
+  "id": "scene_sec_006_0",
+  "title": "A. Tick ( ) the correct sentences.",
+  "section_ref": "sec_006",
+  "voiceover_lines": [
+    {
+      "text": "Now let us practice. A. Tick ( ) the correct sentences..",
+      "duration_seconds": 4.4,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Look at the question carefully: PRINTFILE (2)-pages-2_images/imageFile10.png>) - a. Varun and Vidya go to a with their family. ( ) - b. They build a on the beach. ( ) - c. They decorate the with . ( ) - d. Vidya has a and a . ( ) PRINTFILE (2)-pages-2_images/imageFile11.png>) PRINTFILE (2)-pages-2_images/imageFile12.png>) PRINTFILE (2)-pages-2_images/imageFile13.png>) PRINTFILE (2)-pages-2_images/imageFile14.png>) PRINTFILE (2)-pages-2_images/imageFile15.png>)",
+      "duration_seconds": 23.6,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Think about your answer before you respond.",
+      "duration_seconds": 2.8,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Great job! Let us check the answer together.",
+      "duration_seconds": 3.2,
+      "pause_after": 0.0
+    }
+  ],
+  "scene_steps": [
+    {
+      "type": "question_card",
+      "text": "PRINTFILE (2)-pages-2_images/imageFile10.png>) - a. Varun and Vidya go to a with their family. ( ) - b. They build a on the beach. ( ) - c. They decorate the with . ( ) - d. Vidya has a and a . ( ) PRINTFILE (2)-pages-2_images/imageFile11.png>) PRINTFILE (2)-pages-2_images/imageFile12.png>) PRINTFILE (2)-pages-2_images/imageFile13.png>) PRINTFILE (2)-pages-2_images/imageFile14.png>) PRINTFILE (2)-pages-2_images/imageFile15.png>)",
+      "at": 0.0,
+      "duration": 18.0
+    },
+    {
+      "type": "worked_step",
+      "text": "Read the question carefully and think about what it asks.",
+      "at": 2.0,
+      "duration": 3.3333333333333335
+    },
+    {
+      "type": "answer_reveal",
+      "text": "The correct answer depends on the story you just read. Look back and find the clues!",
+      "at": 5.0,
+      "duration": 5.333333333333333
+    }
+  ],
+  "duration_seconds": 35.5,
+  "notes": "",
+  "image_prompt": "Educational worksheet illustration for grade 1: A. Tick ( ) the correct sentences.. Clean, simple, friendly style, no text, white background, suitable for children.",
+  "video_prompt": "Gentle motion for exercise scene: a. tick ( ) the correct sentences.. Smooth transitions between question and answer elements. NO camera zoom in or out. Static camera, motion-only.",
+  "storyboard": [
+    {
+      "time": 0.0,
+      "duration": 4.0,
+      "visual": "Question card with clean, friendly design",
+      "on_screen_text": "PRINTFILE (2)-pages-2_images/imageFile10.png>) - a. Varun and Vidya go to a with their family. ( ) - b. They build a on the beach. ( ) - c. They decorate the with . ( ) - d. Vidya has a and a . ( ) PRINTFILE (2)-pages-2_images/imageFile11.png>) PRINTFILE (2)-pages-2_images/imageFile12.png>) PRINTFILE (2)-pages-2_images/imageFile13.png>) PRINTFILE (2)-pages-2_images/imageFile14.png>) PRINTFILE (2)-pages-2_images/imageFile15.png>)",
+      "camera_motion": "static",
+      "animation_type": "text_fade_in",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:question_card",
+        "icon:pencil"
+      ]
+    },
+    {
+      "time": 4.0,
+      "duration": 4.0,
+      "visual": "Step-by-step solution with highlighting",
+      "on_screen_text": "Let's think about this together...",
+      "camera_motion": "static",
+      "animation_type": "highlight_reveal",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:step_indicator",
+        "highlight:key_clue"
+      ]
+    },
+    {
+      "time": 8.0,
+      "duration": 3.0,
+      "visual": "Correct answer with celebration animation",
+      "on_screen_text": "Great job! You got it!",
+      "camera_motion": "static",
+      "animation_type": "celebration",
+      "transition_in": "zoom_in",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:answer_reveal",
+        "particle:stars"
+      ]
+    }
+  ]
+},
+{
+  "id": "scene_sec_007_0",
+  "title": "B. Tick whether the following statements are true or false.",
+  "section_ref": "sec_007",
+  "voiceover_lines": [
+    {
+      "text": "Now let us practice. B. Tick whether the following statements are true or false..",
+      "duration_seconds": 5.6,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Look at the question carefully: - a. They build a castle with clay. - b. They went to the beach with their parents. - c. Grandpa and Grandma tells us stories.",
+      "duration_seconds": 12.4,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Think about your answer before you respond.",
+      "duration_seconds": 2.8,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Great job! Let us check the answer together.",
+      "duration_seconds": 3.2,
+      "pause_after": 0.0
+    }
+  ],
+  "scene_steps": [
+    {
+      "type": "question_card",
+      "text": "- a. They build a castle with clay. - b. They went to the beach with their parents. - c. Grandpa and Grandma tells us stories.",
+      "at": 0.0,
+      "duration": 8.666666666666666
+    },
+    {
+      "type": "worked_step",
+      "text": "Read the question carefully and think about what it asks.",
+      "at": 2.0,
+      "duration": 3.3333333333333335
+    },
+    {
+      "type": "answer_reveal",
+      "text": "The correct answer depends on the story you just read. Look back and find the clues!",
+      "at": 5.0,
+      "duration": 5.333333333333333
+    }
+  ],
+  "duration_seconds": 25.5,
+  "notes": "",
+  "image_prompt": "Educational worksheet illustration for grade 1: B. Tick whether the following statements are true or false.. Clean, simple, friendly style, no text, white background, suitable for children.",
+  "video_prompt": "Gentle motion for exercise scene: b. tick whether the following statements are true or false.. Smooth transitions between question and answer elements. NO camera zoom in or out. Static camera, motion-only.",
+  "storyboard": [
+    {
+      "time": 0.0,
+      "duration": 4.0,
+      "visual": "Question card with clean, friendly design",
+      "on_screen_text": "- a. They build a castle with clay. - b. They went to the beach with their parents. - c. Grandpa and Grandma tells us stories.",
+      "camera_motion": "static",
+      "animation_type": "text_fade_in",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:question_card",
+        "icon:pencil"
+      ]
+    },
+    {
+      "time": 4.0,
+      "duration": 4.0,
+      "visual": "Step-by-step solution with highlighting",
+      "on_screen_text": "Let's think about this together...",
+      "camera_motion": "static",
+      "animation_type": "highlight_reveal",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:step_indicator",
+        "highlight:key_clue"
+      ]
+    },
+    {
+      "time": 8.0,
+      "duration": 3.0,
+      "visual": "Correct answer with celebration animation",
+      "on_screen_text": "Great job! You got it!",
+      "camera_motion": "static",
+      "animation_type": "celebration",
+      "transition_in": "zoom_in",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:answer_reveal",
+        "particle:stars"
+      ]
+    }
+  ]
+},
+{
+  "id": "scene_sec_008_0",
+  "title": "C. Think and Answer.",
+  "section_ref": "sec_008",
+  "voiceover_lines": [
+    {
+      "text": "Now let us practice. C. Think and Answer..",
+      "duration_seconds": 3.2,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Look at the question carefully: - a. What do Varun and Vidya do on the beach? ________________________________________________________. - b. What do they use to build the sandcastle? ________________________________________________________. - c. Where does the staircase go? ________________________________________________________.",
+      "duration_seconds": 14.4,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Think about your answer before you respond.",
+      "duration_seconds": 2.8,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Great job! Let us check the answer together.",
+      "duration_seconds": 3.2,
+      "pause_after": 0.0
+    }
+  ],
+  "scene_steps": [
+    {
+      "type": "question_card",
+      "text": "- a. What do Varun and Vidya do on the beach? ________________________________________________________. - b. What do they use to build the sandcastle? ________________________________________________________. - c. Where does the staircase go? ________________________________________________________.",
+      "at": 0.0,
+      "duration": 10.333333333333334
+    },
+    {
+      "type": "worked_step",
+      "text": "Read the question carefully and think about what it asks.",
+      "at": 2.0,
+      "duration": 3.3333333333333335
+    },
+    {
+      "type": "answer_reveal",
+      "text": "The correct answer depends on the story you just read. Look back and find the clues!",
+      "at": 5.0,
+      "duration": 5.333333333333333
+    }
+  ],
+  "duration_seconds": 25.1,
+  "notes": "",
+  "image_prompt": "Educational worksheet illustration for grade 1: C. Think and Answer.. Clean, simple, friendly style, no text, white background, suitable for children.",
+  "video_prompt": "Gentle motion for exercise scene: c. think and answer.. Smooth transitions between question and answer elements. NO camera zoom in or out. Static camera, motion-only.",
+  "storyboard": [
+    {
+      "time": 0.0,
+      "duration": 4.0,
+      "visual": "Question card with clean, friendly design",
+      "on_screen_text": "- a. What do Varun and Vidya do on the beach? ________________________________________________________. - b. What do they use to build the sandcastle? ________________________________________________________. - c. Where does the staircase go? ________________________________________________________.",
+      "camera_motion": "static",
+      "animation_type": "text_fade_in",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:question_card",
+        "icon:pencil"
+      ]
+    },
+    {
+      "time": 4.0,
+      "duration": 4.0,
+      "visual": "Step-by-step solution with highlighting",
+      "on_screen_text": "Let's think about this together...",
+      "camera_motion": "static",
+      "animation_type": "highlight_reveal",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:step_indicator",
+        "highlight:key_clue"
+      ]
+    },
+    {
+      "time": 8.0,
+      "duration": 3.0,
+      "visual": "Correct answer with celebration animation",
+      "on_screen_text": "Great job! You got it!",
+      "camera_motion": "static",
+      "animation_type": "celebration",
+      "transition_in": "zoom_in",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:answer_reveal",
+        "particle:stars"
+      ]
+    }
+  ]
+},
+{
+  "id": "scene_sec_009_0",
+  "title": "D. Let’s Discuss Why do we feel happy when we see a beach?",
+  "section_ref": "sec_009",
+  "voiceover_lines": [
+    {
+      "text": "Now let us practice. D. Let’s Discuss Why do we feel happy when we see a beach?.",
+      "duration_seconds": 6.8,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Look at the question carefully: PRINTFILE (2)-pages-2_images/imageFile17.png>)",
+      "duration_seconds": 2.8,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Think about your answer before you respond.",
+      "duration_seconds": 2.8,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Great job! Let us check the answer together.",
+      "duration_seconds": 3.2,
+      "pause_after": 0.0
+    }
+  ],
+  "scene_steps": [
+    {
+      "type": "question_card",
+      "text": "PRINTFILE (2)-pages-2_images/imageFile17.png>)",
+      "at": 0.0,
+      "duration": 1.0
+    },
+    {
+      "type": "worked_step",
+      "text": "Read the question carefully and think about what it asks.",
+      "at": 2.0,
+      "duration": 3.3333333333333335
+    },
+    {
+      "type": "answer_reveal",
+      "text": "The correct answer depends on the story you just read. Look back and find the clues!",
+      "at": 5.0,
+      "duration": 5.333333333333333
+    }
+  ],
+  "duration_seconds": 17.1,
+  "notes": "",
+  "image_prompt": "Educational worksheet illustration for grade 1: D. Let’s Discuss Why do we feel happy when we see a beach?. Clean, simple, friendly style, no text, white background, suitable for children.",
+  "video_prompt": "Gentle motion for exercise scene: d. let’s discuss why do we feel happy when we see a beach?. Smooth transitions between question and answer elements. NO camera zoom in or out. Static camera, motion-only.",
+  "storyboard": [
+    {
+      "time": 0.0,
+      "duration": 4.0,
+      "visual": "Question card with clean, friendly design",
+      "on_screen_text": "PRINTFILE (2)-pages-2_images/imageFile17.png>)",
+      "camera_motion": "static",
+      "animation_type": "text_fade_in",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:question_card",
+        "icon:pencil"
+      ]
+    },
+    {
+      "time": 4.0,
+      "duration": 4.0,
+      "visual": "Step-by-step solution with highlighting",
+      "on_screen_text": "Let's think about this together...",
+      "camera_motion": "static",
+      "animation_type": "highlight_reveal",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:step_indicator",
+        "highlight:key_clue"
+      ]
+    },
+    {
+      "time": 8.0,
+      "duration": 3.0,
+      "visual": "Correct answer with celebration animation",
+      "on_screen_text": "Great job! You got it!",
+      "camera_motion": "static",
+      "animation_type": "celebration",
+      "transition_in": "zoom_in",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:answer_reveal",
+        "particle:stars"
+      ]
+    }
+  ]
+},
+{
+  "id": "scene_sec_010_0",
+  "title": "Speaking Ability",
+  "section_ref": "sec_010",
+  "voiceover_lines": [
+    {
+      "text": "Now let us practice. Speaking Ability.",
+      "duration_seconds": 2.4,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Look at the question carefully: What do you say when you meet someone? How do you introduce yourself?",
+      "duration_seconds": 7.2,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Think about your answer before you respond.",
+      "duration_seconds": 2.8,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Great job! Let us check the answer together.",
+      "duration_seconds": 3.2,
+      "pause_after": 0.0
+    }
+  ],
+  "scene_steps": [
+    {
+      "type": "question_card",
+      "text": "What do you say when you meet someone? How do you introduce yourself?",
+      "at": 0.0,
+      "duration": 4.333333333333333
+    },
+    {
+      "type": "worked_step",
+      "text": "Read the question carefully and think about what it asks.",
+      "at": 2.0,
+      "duration": 3.3333333333333335
+    },
+    {
+      "type": "answer_reveal",
+      "text": "The correct answer depends on the story you just read. Look back and find the clues!",
+      "at": 5.0,
+      "duration": 5.333333333333333
+    }
+  ],
+  "duration_seconds": 17.1,
+  "notes": "",
+  "image_prompt": "Educational worksheet illustration for grade 1: Speaking Ability. Clean, simple, friendly style, no text, white background, suitable for children.",
+  "video_prompt": "Gentle motion for exercise scene: speaking ability. Smooth transitions between question and answer elements. NO camera zoom in or out. Static camera, motion-only.",
+  "storyboard": [
+    {
+      "time": 0.0,
+      "duration": 4.0,
+      "visual": "Question card with clean, friendly design",
+      "on_screen_text": "What do you say when you meet someone? How do you introduce yourself?",
+      "camera_motion": "static",
+      "animation_type": "text_fade_in",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:question_card",
+        "icon:pencil"
+      ]
+    },
+    {
+      "time": 4.0,
+      "duration": 4.0,
+      "visual": "Step-by-step solution with highlighting",
+      "on_screen_text": "Let's think about this together...",
+      "camera_motion": "static",
+      "animation_type": "highlight_reveal",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:step_indicator",
+        "highlight:key_clue"
+      ]
+    },
+    {
+      "time": 8.0,
+      "duration": 3.0,
+      "visual": "Correct answer with celebration animation",
+      "on_screen_text": "Great job! You got it!",
+      "camera_motion": "static",
+      "animation_type": "celebration",
+      "transition_in": "zoom_in",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:answer_reveal",
+        "particle:stars"
+      ]
+    }
+  ]
+},
+{
+  "id": "scene_sec_011_0",
+  "title": "Begin by saying:",
+  "section_ref": "sec_011",
+  "voiceover_lines": [
+    {
+      "text": "Hello, My name is _____. I am ______ years old. I live in _______. My birthday is on ____________..",
+      "duration_seconds": 7.6,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Pay attention to Begin by saying:.",
+      "duration_seconds": 2.4,
+      "pause_after": 0.0
+    }
+  ],
+  "scene_steps": [
+    {
+      "type": "title",
+      "text": "Begin by saying:",
+      "at": 0.0,
+      "duration": 1.0
+    },
+    {
+      "type": "text",
+      "text": "Hello, My name is _____. I am ______ years old. I live in _______. My birthday is on ____________..",
+      "at": 2.0,
+      "duration": 6.333333333333333
+    },
+    {
+      "type": "text",
+      "text": "Pay attention to Begin by saying:.",
+      "at": 5.0,
+      "duration": 2.0
+    }
+  ],
+  "duration_seconds": 10.5,
+  "notes": "",
+  "image_prompt": "Educational illustration for grade 1 students: Begin by saying:. Hello, My name is _____. I am ______ years old. I live in _______. My birthday is on ____________.. Bright, friendly, cartoon style, no text, clean background, suitable for children.",
+  "video_prompt": "Gentle motion for begin by saying:. Smooth character movement and environmental animation. NO camera zoom in or out. Static camera, motion-only. Educational style for children.",
+  "storyboard": [
+    {
+      "time": 0.0,
+      "duration": 3.0,
+      "visual": "Title card: 'Begin by saying:' centered on screen with colorful background",
+      "on_screen_text": "Begin by saying:",
+      "camera_motion": "static",
+      "animation_type": "text_fade_in",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "background:colorful"
+      ]
+    },
+    {
+      "time": 3.0,
+      "duration": 7.6,
+      "visual": "Narration card with text: Hello, My name is _____. I am ______ years old. I live in _______. My birthday i",
+      "on_screen_text": "Hello, My name is _____. I am ______ years old. I live in __...",
+      "camera_motion": "static",
+      "animation_type": "text_idle",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "background:colorful"
+      ]
+    },
+    {
+      "time": 10.6,
+      "duration": 3.0,
+      "visual": "Narration card with text: Pay attention to Begin by saying:.",
+      "on_screen_text": "Pay attention to Begin by saying:.",
+      "camera_motion": "static",
+      "animation_type": "text_idle",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "background:colorful"
+      ]
+    }
+  ]
+},
+{
+  "id": "scene_sec_012_0",
+  "title": "Grammar",
+  "section_ref": "sec_012",
+  "voiceover_lines": [
+    {
+      "text": "Now let us practice. Grammar.",
+      "duration_seconds": 2.0,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Look at the question carefully: Complete the exercise about Grammar.",
+      "duration_seconds": 4.0,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Think about your answer before you respond.",
+      "duration_seconds": 2.8,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Great job! Let us check the answer together.",
+      "duration_seconds": 3.2,
+      "pause_after": 0.0
+    }
+  ],
+  "scene_steps": [
+    {
+      "type": "question_card",
+      "text": "Complete the exercise about Grammar.",
+      "at": 0.0,
+      "duration": 1.6666666666666667
+    },
+    {
+      "type": "worked_step",
+      "text": "Read the question carefully and think about what it asks.",
+      "at": 2.0,
+      "duration": 3.3333333333333335
+    },
+    {
+      "type": "answer_reveal",
+      "text": "The correct answer depends on the story you just read. Look back and find the clues!",
+      "at": 5.0,
+      "duration": 5.333333333333333
+    }
+  ],
+  "duration_seconds": 13.5,
+  "notes": "",
+  "image_prompt": "Educational worksheet illustration for grade 1: Grammar. Clean, simple, friendly style, no text, white background, suitable for children.",
+  "video_prompt": "Gentle motion for exercise scene: grammar. Smooth transitions between question and answer elements. NO camera zoom in or out. Static camera, motion-only.",
+  "storyboard": [
+    {
+      "time": 0.0,
+      "duration": 4.0,
+      "visual": "Question card with clean, friendly design",
+      "on_screen_text": "Complete the exercise about Grammar.",
+      "camera_motion": "static",
+      "animation_type": "text_fade_in",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:question_card",
+        "icon:pencil"
+      ]
+    },
+    {
+      "time": 4.0,
+      "duration": 4.0,
+      "visual": "Step-by-step solution with highlighting",
+      "on_screen_text": "Let's think about this together...",
+      "camera_motion": "static",
+      "animation_type": "highlight_reveal",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:step_indicator",
+        "highlight:key_clue"
+      ]
+    },
+    {
+      "time": 8.0,
+      "duration": 3.0,
+      "visual": "Correct answer with celebration animation",
+      "on_screen_text": "Great job! You got it!",
+      "camera_motion": "static",
+      "animation_type": "celebration",
+      "transition_in": "zoom_in",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:answer_reveal",
+        "particle:stars"
+      ]
+    }
+  ]
+},
+{
+  "id": "scene_sec_013_0",
+  "title": "Vowels and Consonants",
+  "section_ref": "sec_013",
+  "voiceover_lines": [
+    {
+      "text": "There are 26 letters in the English alphabets.",
+      "duration_seconds": 3.2,
+      "pause_after": 0.5
+    },
+    {
+      "text": "These letters can be divided into Z U T O X A B I J W E.",
+      "duration_seconds": 6.8,
+      "pause_after": 0.0
+    }
+  ],
+  "scene_steps": [
+    {
+      "type": "title",
+      "text": "Vowels and Consonants",
+      "at": 0.0,
+      "duration": 1.0
+    },
+    {
+      "type": "text",
+      "text": "There are 26 letters in the English alphabets.",
+      "at": 2.0,
+      "duration": 2.6666666666666665
+    },
+    {
+      "type": "text",
+      "text": "These letters can be divided into Z U T O X A B I J W E.",
+      "at": 5.0,
+      "duration": 5.666666666666667
+    }
+  ],
+  "duration_seconds": 10.5,
+  "notes": "",
+  "image_prompt": "Educational illustration for grade 1 students: Vowels and Consonants. There are 26 letters in the English alphabets. These letters can be divided into Z U T O X A B I J W E. Bright, friendly, cartoon style, no text, clean background, suitable for children.",
+  "video_prompt": "Gentle motion for vowels and consonants. Smooth character movement and environmental animation. NO camera zoom in or out. Static camera, motion-only. Educational style for children.",
+  "storyboard": [
+    {
+      "time": 0.0,
+      "duration": 3.0,
+      "visual": "Title card: 'Vowels and Consonants' centered on screen with colorful background",
+      "on_screen_text": "Vowels and Consonants",
+      "camera_motion": "static",
+      "animation_type": "text_fade_in",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "background:colorful"
+      ]
+    },
+    {
+      "time": 3.0,
+      "duration": 3.2,
+      "visual": "Narration card with text: There are 26 letters in the English alphabets.",
+      "on_screen_text": "There are 26 letters in the English alphabets.",
+      "camera_motion": "static",
+      "animation_type": "text_idle",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "background:colorful"
+      ]
+    },
+    {
+      "time": 6.2,
+      "duration": 6.8,
+      "visual": "Narration card with text: These letters can be divided into Z U T O X A B I J W E.",
+      "on_screen_text": "These letters can be divided into Z U T O X A B I J W E.",
+      "camera_motion": "static",
+      "animation_type": "text_idle",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "background:colorful"
+      ]
+    }
+  ]
+},
+{
+  "id": "scene_sec_014_0",
+  "title": "Vocabulary",
+  "section_ref": "sec_014",
+  "voiceover_lines": [
+    {
+      "text": "Now let us practice. Vocabulary.",
+      "duration_seconds": 2.0,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Look at the question carefully: Word forming Ability: Joined Words Read these words. sandcastle = sand + castle staircase = stair + case Words that are made up of two smaller words are called Joined words. = + + = + = + =",
+      "duration_seconds": 17.6,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Think about your answer before you respond.",
+      "duration_seconds": 2.8,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Great job! Let us check the answer together.",
+      "duration_seconds": 3.2,
+      "pause_after": 0.0
+    }
+  ],
+  "scene_steps": [
+    {
+      "type": "question_card",
+      "text": "Word forming Ability: Joined Words Read these words. sandcastle = sand + castle staircase = stair + case Words that are made up of two smaller words are called Joined words. = + + = + = + =",
+      "at": 0.0,
+      "duration": 13.0
+    },
+    {
+      "type": "worked_step",
+      "text": "Read the question carefully and think about what it asks.",
+      "at": 2.0,
+      "duration": 3.3333333333333335
+    },
+    {
+      "type": "answer_reveal",
+      "text": "The correct answer depends on the story you just read. Look back and find the clues!",
+      "at": 5.0,
+      "duration": 5.333333333333333
+    }
+  ],
+  "duration_seconds": 27.1,
+  "notes": "",
+  "image_prompt": "Educational worksheet illustration for grade 1: Vocabulary. Clean, simple, friendly style, no text, white background, suitable for children.",
+  "video_prompt": "Gentle motion for exercise scene: vocabulary. Smooth transitions between question and answer elements. NO camera zoom in or out. Static camera, motion-only.",
+  "storyboard": [
+    {
+      "time": 0.0,
+      "duration": 4.0,
+      "visual": "Question card with clean, friendly design",
+      "on_screen_text": "Word forming Ability: Joined Words Read these words. sandcastle = sand + castle staircase = stair + case Words that are made up of two smaller words are called Joined words. = + + = + = + =",
+      "camera_motion": "static",
+      "animation_type": "text_fade_in",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:question_card",
+        "icon:pencil"
+      ]
+    },
+    {
+      "time": 4.0,
+      "duration": 4.0,
+      "visual": "Step-by-step solution with highlighting",
+      "on_screen_text": "Let's think about this together...",
+      "camera_motion": "static",
+      "animation_type": "highlight_reveal",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:step_indicator",
+        "highlight:key_clue"
+      ]
+    },
+    {
+      "time": 8.0,
+      "duration": 3.0,
+      "visual": "Correct answer with celebration animation",
+      "on_screen_text": "Great job! You got it!",
+      "camera_motion": "static",
+      "animation_type": "celebration",
+      "transition_in": "zoom_in",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:answer_reveal",
+        "particle:stars"
+      ]
+    }
+  ]
+},
+{
+  "id": "scene_sec_015_0",
+  "title": "Pronunciation",
+  "section_ref": "sec_015",
+  "voiceover_lines": [
+    {
+      "text": "Now let us practice. Pronunciation.",
+      "duration_seconds": 2.0,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Look at the question carefully: Read the words aloud. mat van rat dad nap at have sandcastle These are all words having the short /a/ sound",
+      "duration_seconds": 10.4,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Think about your answer before you respond.",
+      "duration_seconds": 2.8,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Great job! Let us check the answer together.",
+      "duration_seconds": 3.2,
+      "pause_after": 0.0
+    }
+  ],
+  "scene_steps": [
+    {
+      "type": "question_card",
+      "text": "Read the words aloud. mat van rat dad nap at have sandcastle These are all words having the short /a/ sound",
+      "at": 0.0,
+      "duration": 7.0
+    },
+    {
+      "type": "worked_step",
+      "text": "Read the question carefully and think about what it asks.",
+      "at": 2.0,
+      "duration": 3.3333333333333335
+    },
+    {
+      "type": "answer_reveal",
+      "text": "The correct answer depends on the story you just read. Look back and find the clues!",
+      "at": 5.0,
+      "duration": 5.333333333333333
+    }
+  ],
+  "duration_seconds": 19.9,
+  "notes": "",
+  "image_prompt": "Educational worksheet illustration for grade 1: Pronunciation. Clean, simple, friendly style, no text, white background, suitable for children.",
+  "video_prompt": "Gentle motion for exercise scene: pronunciation. Smooth transitions between question and answer elements. NO camera zoom in or out. Static camera, motion-only.",
+  "storyboard": [
+    {
+      "time": 0.0,
+      "duration": 4.0,
+      "visual": "Question card with clean, friendly design",
+      "on_screen_text": "Read the words aloud. mat van rat dad nap at have sandcastle These are all words having the short /a/ sound",
+      "camera_motion": "static",
+      "animation_type": "text_fade_in",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:question_card",
+        "icon:pencil"
+      ]
+    },
+    {
+      "time": 4.0,
+      "duration": 4.0,
+      "visual": "Step-by-step solution with highlighting",
+      "on_screen_text": "Let's think about this together...",
+      "camera_motion": "static",
+      "animation_type": "highlight_reveal",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:step_indicator",
+        "highlight:key_clue"
+      ]
+    },
+    {
+      "time": 8.0,
+      "duration": 3.0,
+      "visual": "Correct answer with celebration animation",
+      "on_screen_text": "Great job! You got it!",
+      "camera_motion": "static",
+      "animation_type": "celebration",
+      "transition_in": "zoom_in",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:answer_reveal",
+        "particle:stars"
+      ]
+    }
+  ]
+},
+{
+  "id": "scene_sec_016_0",
+  "title": "Creative Ability",
+  "section_ref": "sec_016",
+  "voiceover_lines": [
+    {
+      "text": "Now let us practice. Creative Ability.",
+      "duration_seconds": 2.4,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Look at the question carefully: Write about yourself to complete the letter. My Favourite",
+      "duration_seconds": 5.6,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Think about your answer before you respond.",
+      "duration_seconds": 2.8,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Great job! Let us check the answer together.",
+      "duration_seconds": 3.2,
+      "pause_after": 0.0
+    }
+  ],
+  "scene_steps": [
+    {
+      "type": "question_card",
+      "text": "Write about yourself to complete the letter. My Favourite",
+      "at": 0.0,
+      "duration": 3.0
+    },
+    {
+      "type": "worked_step",
+      "text": "Read the question carefully and think about what it asks.",
+      "at": 2.0,
+      "duration": 3.3333333333333335
+    },
+    {
+      "type": "answer_reveal",
+      "text": "The correct answer depends on the story you just read. Look back and find the clues!",
+      "at": 5.0,
+      "duration": 5.333333333333333
+    }
+  ],
+  "duration_seconds": 15.5,
+  "notes": "",
+  "image_prompt": "Educational worksheet illustration for grade 1: Creative Ability. Clean, simple, friendly style, no text, white background, suitable for children.",
+  "video_prompt": "Gentle motion for exercise scene: creative ability. Smooth transitions between question and answer elements. NO camera zoom in or out. Static camera, motion-only.",
+  "storyboard": [
+    {
+      "time": 0.0,
+      "duration": 4.0,
+      "visual": "Question card with clean, friendly design",
+      "on_screen_text": "Write about yourself to complete the letter. My Favourite",
+      "camera_motion": "static",
+      "animation_type": "text_fade_in",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:question_card",
+        "icon:pencil"
+      ]
+    },
+    {
+      "time": 4.0,
+      "duration": 4.0,
+      "visual": "Step-by-step solution with highlighting",
+      "on_screen_text": "Let's think about this together...",
+      "camera_motion": "static",
+      "animation_type": "highlight_reveal",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:step_indicator",
+        "highlight:key_clue"
+      ]
+    },
+    {
+      "time": 8.0,
+      "duration": 3.0,
+      "visual": "Correct answer with celebration animation",
+      "on_screen_text": "Great job! You got it!",
+      "camera_motion": "static",
+      "animation_type": "celebration",
+      "transition_in": "zoom_in",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:answer_reveal",
+        "particle:stars"
+      ]
+    }
+  ]
+},
+{
+  "id": "scene_sec_017_0",
+  "title": "Listening Ability",
+  "section_ref": "sec_017",
+  "voiceover_lines": [
+    {
+      "text": "Now let us practice. Listening Ability.",
+      "duration_seconds": 2.4,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Look at the question carefully: Listen to your teacher and write the new words in your note book",
+      "duration_seconds": 7.2,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Think about your answer before you respond.",
+      "duration_seconds": 2.8,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Great job! Let us check the answer together.",
+      "duration_seconds": 3.2,
+      "pause_after": 0.0
+    }
+  ],
+  "scene_steps": [
+    {
+      "type": "question_card",
+      "text": "Listen to your teacher and write the new words in your note book",
+      "at": 0.0,
+      "duration": 4.333333333333333
+    },
+    {
+      "type": "worked_step",
+      "text": "Read the question carefully and think about what it asks.",
+      "at": 2.0,
+      "duration": 3.3333333333333335
+    },
+    {
+      "type": "answer_reveal",
+      "text": "The correct answer depends on the story you just read. Look back and find the clues!",
+      "at": 5.0,
+      "duration": 5.333333333333333
+    }
+  ],
+  "duration_seconds": 17.1,
+  "notes": "",
+  "image_prompt": "Educational worksheet illustration for grade 1: Listening Ability. Clean, simple, friendly style, no text, white background, suitable for children.",
+  "video_prompt": "Gentle motion for exercise scene: listening ability. Smooth transitions between question and answer elements. NO camera zoom in or out. Static camera, motion-only.",
+  "storyboard": [
+    {
+      "time": 0.0,
+      "duration": 4.0,
+      "visual": "Question card with clean, friendly design",
+      "on_screen_text": "Listen to your teacher and write the new words in your note book",
+      "camera_motion": "static",
+      "animation_type": "text_fade_in",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:question_card",
+        "icon:pencil"
+      ]
+    },
+    {
+      "time": 4.0,
+      "duration": 4.0,
+      "visual": "Step-by-step solution with highlighting",
+      "on_screen_text": "Let's think about this together...",
+      "camera_motion": "static",
+      "animation_type": "highlight_reveal",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:step_indicator",
+        "highlight:key_clue"
+      ]
+    },
+    {
+      "time": 8.0,
+      "duration": 3.0,
+      "visual": "Correct answer with celebration animation",
+      "on_screen_text": "Great job! You got it!",
+      "camera_motion": "static",
+      "animation_type": "celebration",
+      "transition_in": "zoom_in",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:answer_reveal",
+        "particle:stars"
+      ]
+    }
+  ]
+},
+{
+  "id": "scene_sec_018_0",
+  "title": "Life Skills",
+  "section_ref": "sec_018",
+  "voiceover_lines": [
+    {
+      "text": "Now let us practice. Life Skills.",
+      "duration_seconds": 2.4,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Look at the question carefully: Family story time, encourage kids to bring a favourite family story or memory to share with the class.",
+      "duration_seconds": 9.2,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Think about your answer before you respond.",
+      "duration_seconds": 2.8,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Great job! Let us check the answer together.",
+      "duration_seconds": 3.2,
+      "pause_after": 0.0
+    }
+  ],
+  "scene_steps": [
+    {
+      "type": "question_card",
+      "text": "Family story time, encourage kids to bring a favourite family story or memory to share with the class.",
+      "at": 0.0,
+      "duration": 6.0
+    },
+    {
+      "type": "worked_step",
+      "text": "Read the question carefully and think about what it asks.",
+      "at": 2.0,
+      "duration": 3.3333333333333335
+    },
+    {
+      "type": "answer_reveal",
+      "text": "The correct answer depends on the story you just read. Look back and find the clues!",
+      "at": 5.0,
+      "duration": 5.333333333333333
+    }
+  ],
+  "duration_seconds": 19.1,
+  "notes": "",
+  "image_prompt": "Educational worksheet illustration for grade 1: Life Skills. Clean, simple, friendly style, no text, white background, suitable for children.",
+  "video_prompt": "Gentle motion for exercise scene: life skills. Smooth transitions between question and answer elements. NO camera zoom in or out. Static camera, motion-only.",
+  "storyboard": [
+    {
+      "time": 0.0,
+      "duration": 4.0,
+      "visual": "Question card with clean, friendly design",
+      "on_screen_text": "Family story time, encourage kids to bring a favourite family story or memory to share with the class.",
+      "camera_motion": "static",
+      "animation_type": "text_fade_in",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:question_card",
+        "icon:pencil"
+      ]
+    },
+    {
+      "time": 4.0,
+      "duration": 4.0,
+      "visual": "Step-by-step solution with highlighting",
+      "on_screen_text": "Let's think about this together...",
+      "camera_motion": "static",
+      "animation_type": "highlight_reveal",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:step_indicator",
+        "highlight:key_clue"
+      ]
+    },
+    {
+      "time": 8.0,
+      "duration": 3.0,
+      "visual": "Correct answer with celebration animation",
+      "on_screen_text": "Great job! You got it!",
+      "camera_motion": "static",
+      "animation_type": "celebration",
+      "transition_in": "zoom_in",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:answer_reveal",
+        "particle:stars"
+      ]
+    }
+  ]
+},
+{
+  "id": "scene_sec_019_0",
+  "title": "Self Assessment",
+  "section_ref": "sec_019",
+  "voiceover_lines": [
+    {
+      "text": "Now let us practice. Self Assessment.",
+      "duration_seconds": 2.4,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Look at the question carefully: Complete the exercise about Self Assessment.",
+      "duration_seconds": 4.4,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Think about your answer before you respond.",
+      "duration_seconds": 2.8,
+      "pause_after": 0.5
+    },
+    {
+      "text": "Great job! Let us check the answer together.",
+      "duration_seconds": 3.2,
+      "pause_after": 0.0
+    }
+  ],
+  "scene_steps": [
+    {
+      "type": "question_card",
+      "text": "Complete the exercise about Self Assessment.",
+      "at": 0.0,
+      "duration": 2.0
+    },
+    {
+      "type": "worked_step",
+      "text": "Read the question carefully and think about what it asks.",
+      "at": 2.0,
+      "duration": 3.3333333333333335
+    },
+    {
+      "type": "answer_reveal",
+      "text": "The correct answer depends on the story you just read. Look back and find the clues!",
+      "at": 5.0,
+      "duration": 5.333333333333333
+    }
+  ],
+  "duration_seconds": 14.3,
+  "notes": "",
+  "image_prompt": "Educational worksheet illustration for grade 1: Self Assessment. Clean, simple, friendly style, no text, white background, suitable for children.",
+  "video_prompt": "Gentle motion for exercise scene: self assessment. Smooth transitions between question and answer elements. NO camera zoom in or out. Static camera, motion-only.",
+  "storyboard": [
+    {
+      "time": 0.0,
+      "duration": 4.0,
+      "visual": "Question card with clean, friendly design",
+      "on_screen_text": "Complete the exercise about Self Assessment.",
+      "camera_motion": "static",
+      "animation_type": "text_fade_in",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:question_card",
+        "icon:pencil"
+      ]
+    },
+    {
+      "time": 4.0,
+      "duration": 4.0,
+      "visual": "Step-by-step solution with highlighting",
+      "on_screen_text": "Let's think about this together...",
+      "camera_motion": "static",
+      "animation_type": "highlight_reveal",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:step_indicator",
+        "highlight:key_clue"
+      ]
+    },
+    {
+      "time": 8.0,
+      "duration": 3.0,
+      "visual": "Correct answer with celebration animation",
+      "on_screen_text": "Great job! You got it!",
+      "camera_motion": "static",
+      "animation_type": "celebration",
+      "transition_in": "zoom_in",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "ui:answer_reveal",
+        "particle:stars"
+      ]
+    }
+  ]
+},
+{
+  "id": "scene_sec_020_0",
+  "title": "Read these lines. Colour one smiley to show how you feel:",
+  "section_ref": "sec_020",
+  "voiceover_lines": [
+    {
+      "text": "- 1. read and enjoy a text on ‘At the beach’. - 2. Differentiate between vowels and consonants. - 3. Identify the joined words.",
+      "duration_seconds": 9.6,
+      "pause_after": 0.5
+    },
+    {
+      "text": "- 4. I can listen carefully and understand the words. - 5. Know how to introduce yourself..",
+      "duration_seconds": 6.8,
+      "pause_after": 0.0
+    }
+  ],
+  "scene_steps": [
+    {
+      "type": "title",
+      "text": "Read these lines. Colour one smiley to show how you feel:",
+      "at": 0.0,
+      "duration": 3.6666666666666665
+    },
+    {
+      "type": "text",
+      "text": "- 1. read and enjoy a text on ‘At the beach’. - 2. Differentiate between vowels and consonants. - 3. Identify the joined",
+      "at": 2.0,
+      "duration": 7.666666666666667
+    },
+    {
+      "type": "text",
+      "text": "- 4. I can listen carefully and understand the words. - 5. Know how to introduce yourself..",
+      "at": 5.0,
+      "duration": 5.666666666666667
+    }
+  ],
+  "duration_seconds": 16.9,
+  "notes": "",
+  "image_prompt": "Educational illustration for grade 1 students: Read these lines. Colour one smiley to show how you feel:. - 1. read and enjoy a text on ‘At the beach’. - 2. Differentiate between vowels and consonants. - 3. Identify the joined words. - 4. I can listen care. Bright, friendly, cartoon style, no text, clean background, suitable for children.",
+  "video_prompt": "Gentle motion for read these lines. colour one smiley to show how you feel:. Smooth character movement and environmental animation. NO camera zoom in or out. Static camera, motion-only. Educational style for children.",
+  "storyboard": [
+    {
+      "time": 0.0,
+      "duration": 3.0,
+      "visual": "Title card: 'Read these lines. Colour one smiley to show how you feel:' centered on screen with colorful background",
+      "on_screen_text": "Read these lines. Colour one smiley to show how you feel:",
+      "camera_motion": "static",
+      "animation_type": "text_fade_in",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "background:colorful"
+      ]
+    },
+    {
+      "time": 3.0,
+      "duration": 9.6,
+      "visual": "Environmental scene: - 1. read and enjoy a text on ‘At the beach’. - 2. Differentiate between vowels ",
+      "on_screen_text": "- 1. read and enjoy a text on ‘At the beach’. - 2. Different...",
+      "camera_motion": "static",
+      "animation_type": "environmental",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "background:beach",
+        "video:ambient"
+      ]
+    },
+    {
+      "time": 12.6,
+      "duration": 6.8,
+      "visual": "Narration card with text: - 4. I can listen carefully and understand the words. - 5. Know how to introduce",
+      "on_screen_text": "- 4. I can listen carefully and understand the words. - 5. K...",
+      "camera_motion": "static",
+      "animation_type": "text_idle",
+      "transition_in": "fade",
+      "transition_out": "fade",
+      "asset_requirements": [
+        "background:colorful"
+      ]
+    }
+  ]
+}
+]

@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Run the English textbook PDF through the full pipeline: extract → script."""
+"""Run a textbook PDF through the full pipeline: extract → script.
+
+Usage:
+    python run_english_pipeline.py --project english_pipeline_output --pdf "path/to/book.pdf"
+"""
 
 from __future__ import annotations
 
@@ -18,32 +22,37 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 load_dotenv()
 
-ENGLISH_PDF = Path(
-    r"C:\Users\user\Downloads\RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2.pdf"
-)
-ENGLISH_JSON = Path(
-    r"C:\Users\user\Downloads\opendataloader_output\RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2.json"
-)
-OUTPUT_DIR = Path("packages/textbook-pipeline/projects/english_pipeline_output")
-OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+REPO_ROOT = Path(__file__).resolve().parents[3]
 
 
 def main() -> int:
-    if not ENGLISH_PDF.exists():
-        logger.error(f"PDF not found: {ENGLISH_PDF}")
-        return 1
-    if not ENGLISH_JSON.exists():
-        logger.error(f"OpenDataLoader JSON not found: {ENGLISH_JSON}")
+    import argparse
+    parser = argparse.ArgumentParser(description="Run textbook PDF through pipeline")
+    parser.add_argument("--project", default="english_pipeline_output",
+                        help="Project directory name under packages/textbook-pipeline/projects/")
+    parser.add_argument("--pdf", required=True, help="Path to source PDF")
+    parser.add_argument("--subject", default="english", choices=["english", "math", "science", "social"],
+                        help="Subject type")
+    parser.add_argument("--grade", type=int, default=1, help="Grade level")
+    parser.add_argument("--textbook-id", required=True, help="Textbook identifier")
+    args = parser.parse_args()
+
+    pdf_path = Path(args.pdf)
+    if not pdf_path.exists():
+        logger.error(f"PDF not found: {pdf_path}")
         return 1
 
-    # 1. Extract ChapterNode from OpenDataLoader JSON
-    logger.info("Extracting ChapterNode from OpenDataLoader JSON...")
+    output_dir = REPO_ROOT / f"packages/textbook-pipeline/projects/{args.project}"
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    # 1. Extract ChapterNode from PDF
+    logger.info("Extracting ChapterNode from PDF...")
     extractor = OpenDataLoaderExtractor()
     chapter = extractor.extract(
-        pdf_path=ENGLISH_PDF,
-        subject=Subject.ENGLISH,
-        grade=1,
-        textbook_id="english_class1_at_the_beach",
+        pdf_path=pdf_path,
+        subject=Subject(args.subject),
+        grade=args.grade,
+        textbook_id=args.textbook_id,
     )
 
     logger.info(
@@ -54,18 +63,18 @@ def main() -> int:
         chapter.page_range[1],
     )
 
-    chapter_json = OUTPUT_DIR / "chapter.json"
+    chapter_json = output_dir / "chapter.json"
     chapter_json.write_text(chapter.model_dump_json(indent=2), encoding="utf-8")
     logger.info("Chapter saved to %s", chapter_json)
 
-    # 2. Generate scripts via LLM
+    # 2. Generate scripts via AI-driven templates (no LLM API required)
     logger.info("Generating scripts with ScriptWriter...")
     writer = ScriptWriter()
     scenes = writer.generate_chapter_script(chapter)
 
     logger.info("Generated %d script scenes", len(scenes))
 
-    scenes_json = OUTPUT_DIR / "script_scenes.json"
+    scenes_json = output_dir / "script_scenes.json"
     scenes_payload = []
     for scene in scenes:
         d = scene.model_dump(mode="json")

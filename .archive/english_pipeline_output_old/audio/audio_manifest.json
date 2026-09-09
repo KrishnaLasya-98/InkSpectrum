@@ -1,0 +1,597 @@
+{
+  "total_scenes": 20,
+  "total_lines": 67,
+  "generated_files": 67,
+  "scenes": [
+    {
+      "scene_id": "scene_sec_001_0",
+      "scene_title": "At the Beach 1",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "Let us learn about At the Beach 1..",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_001_0_line_1.mp3",
+          "duration_seconds": 3.2,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "Pay attention to At the Beach 1.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_001_0_line_2.mp3",
+          "duration_seconds": 2.8,
+          "pause_after": 0.0
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_sec_002_0",
+      "scene_title": "Lesson",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "![](<RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2_image",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_002_0_line_1.mp3",
+          "duration_seconds": 5.2,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "Pay attention to Lesson.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_002_0_line_2.mp3",
+          "duration_seconds": 1.6,
+          "pause_after": 0.0
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_sec_003_0",
+      "scene_title": "Warm Up",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "Look at the picture. What do you see? Talk about any 3 of them.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_003_0_line_1.mp3",
+          "duration_seconds": 5.6,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "Cloud Palm Tree Sea Ball Girl Swimming Ring Sand Starfish Sandcastle.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_003_0_line_2.mp3",
+          "duration_seconds": 4.4,
+          "pause_after": 0.0
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_sec_004_0",
+      "scene_title": "Read and Enjoy",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "Let us read what Varun and his sister do when they visit a beach with their fami",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_004_0_line_1.mp3",
+          "duration_seconds": 8.8,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "Varun and his sister Vidya are at a beach with their parents. Hey, let us build ",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_004_0_line_2.mp3",
+          "duration_seconds": 7.2,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 2,
+          "text": "Sure! I have a shovel and a bucket too. Varun and Vidya build a castle together.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_004_0_line_3.mp3",
+          "duration_seconds": 9.6,
+          "pause_after": 0.0
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_sec_005_0",
+      "scene_title": "Comprehending Ability",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "Now let us practice. Comprehending Ability.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_005_0_line_1.mp3",
+          "duration_seconds": 2.4,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "Look at the question carefully: Complete the exercise about Comprehending Abilit",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_005_0_line_2.mp3",
+          "duration_seconds": 4.4,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 2,
+          "text": "Think about your answer before you respond.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_005_0_line_3.mp3",
+          "duration_seconds": 2.8,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 3,
+          "text": "Great job! Let us check the answer together.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_005_0_line_4.mp3",
+          "duration_seconds": 3.2,
+          "pause_after": 0.0
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_sec_006_0",
+      "scene_title": "A. Tick ( ) the correct sentences.",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "Now let us practice. A. Tick ( ) the correct sentences..",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_006_0_line_1.mp3",
+          "duration_seconds": 4.4,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "Look at the question carefully: - a. Varun and Vidya go to a with their family. ",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_006_0_line_2.mp3",
+          "duration_seconds": 7.2,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 2,
+          "text": "Think about your answer before you respond.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_006_0_line_3.mp3",
+          "duration_seconds": 2.8,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 3,
+          "text": "Great job! Let us check the answer together.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_006_0_line_4.mp3",
+          "duration_seconds": 3.2,
+          "pause_after": 0.0
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_sec_007_0",
+      "scene_title": "B. Tick whether the following statements are true or false.",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "Now let us practice. B. Tick whether the following statements are true or false.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_007_0_line_1.mp3",
+          "duration_seconds": 5.6,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "Look at the question carefully: - a. They build a castle with clay.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_007_0_line_2.mp3",
+          "duration_seconds": 5.2,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 2,
+          "text": "Think about your answer before you respond.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_007_0_line_3.mp3",
+          "duration_seconds": 2.8,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 3,
+          "text": "Great job! Let us check the answer together.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_007_0_line_4.mp3",
+          "duration_seconds": 3.2,
+          "pause_after": 0.0
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_sec_008_0",
+      "scene_title": "C. Think and Answer.",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "Now let us practice. C. Think and Answer..",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_008_0_line_1.mp3",
+          "duration_seconds": 3.2,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "Look at the question carefully: - a. What do Varun and Vidya do on the beach? __",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_008_0_line_2.mp3",
+          "duration_seconds": 6.8,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 2,
+          "text": "Think about your answer before you respond.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_008_0_line_3.mp3",
+          "duration_seconds": 2.8,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 3,
+          "text": "Great job! Let us check the answer together.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_008_0_line_4.mp3",
+          "duration_seconds": 3.2,
+          "pause_after": 0.0
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_sec_009_0",
+      "scene_title": "D. Let\u2019s Discuss Why do we feel happy when we see a beach?",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "Now let us practice. D. Let\u2019s Discuss Why do we feel happy when we see a beach?.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_009_0_line_1.mp3",
+          "duration_seconds": 6.8,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "Look at the question carefully: ![](<RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_009_0_line_2.mp3",
+          "duration_seconds": 7.2,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 2,
+          "text": "Think about your answer before you respond.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_009_0_line_3.mp3",
+          "duration_seconds": 2.8,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 3,
+          "text": "Great job! Let us check the answer together.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_009_0_line_4.mp3",
+          "duration_seconds": 3.2,
+          "pause_after": 0.0
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_sec_010_0",
+      "scene_title": "Speaking Ability",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "Now let us practice. Speaking Ability.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_010_0_line_1.mp3",
+          "duration_seconds": 2.4,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "Look at the question carefully: What do you say when you meet someone? How do yo",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_010_0_line_2.mp3",
+          "duration_seconds": 7.2,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 2,
+          "text": "Think about your answer before you respond.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_010_0_line_3.mp3",
+          "duration_seconds": 2.8,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 3,
+          "text": "Great job! Let us check the answer together.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_010_0_line_4.mp3",
+          "duration_seconds": 3.2,
+          "pause_after": 0.0
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_sec_011_0",
+      "scene_title": "Begin by saying:",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "Hello, My name is _____. I am ______ years old. I live in _______. My birthday i",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_011_0_line_1.mp3",
+          "duration_seconds": 7.2,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "Pay attention to Begin by saying:.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_011_0_line_2.mp3",
+          "duration_seconds": 2.4,
+          "pause_after": 0.0
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_sec_012_0",
+      "scene_title": "Grammar",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "Now let us practice. Grammar.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_012_0_line_1.mp3",
+          "duration_seconds": 2.0,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "Look at the question carefully: Complete the exercise about Grammar.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_012_0_line_2.mp3",
+          "duration_seconds": 4.0,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 2,
+          "text": "Think about your answer before you respond.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_012_0_line_3.mp3",
+          "duration_seconds": 2.8,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 3,
+          "text": "Great job! Let us check the answer together.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_012_0_line_4.mp3",
+          "duration_seconds": 3.2,
+          "pause_after": 0.0
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_sec_013_0",
+      "scene_title": "Vowels and Consonants",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "There are 26 letters in the English alphabets.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_013_0_line_1.mp3",
+          "duration_seconds": 3.2,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "These letters can be divided into Z U T O X A B I J W E.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_013_0_line_2.mp3",
+          "duration_seconds": 6.8,
+          "pause_after": 0.0
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_sec_014_0",
+      "scene_title": "Vocabulary",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "Now let us practice. Vocabulary.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_014_0_line_1.mp3",
+          "duration_seconds": 2.0,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "Look at the question carefully: Word forming Ability: Joined Words Read these wo",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_014_0_line_2.mp3",
+          "duration_seconds": 14.4,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 2,
+          "text": "Think about your answer before you respond.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_014_0_line_3.mp3",
+          "duration_seconds": 2.8,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 3,
+          "text": "Great job! Let us check the answer together.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_014_0_line_4.mp3",
+          "duration_seconds": 3.2,
+          "pause_after": 0.0
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_sec_015_0",
+      "scene_title": "Pronunciation",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "Now let us practice. Pronunciation.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_015_0_line_1.mp3",
+          "duration_seconds": 2.0,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "Look at the question carefully: Read the words aloud.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_015_0_line_2.mp3",
+          "duration_seconds": 3.6,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 2,
+          "text": "Think about your answer before you respond.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_015_0_line_3.mp3",
+          "duration_seconds": 2.8,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 3,
+          "text": "Great job! Let us check the answer together.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_015_0_line_4.mp3",
+          "duration_seconds": 3.2,
+          "pause_after": 0.0
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_sec_016_0",
+      "scene_title": "Creative Ability",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "Now let us practice. Creative Ability.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_016_0_line_1.mp3",
+          "duration_seconds": 2.4,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "Look at the question carefully: Write about yourself to complete the letter.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_016_0_line_2.mp3",
+          "duration_seconds": 4.8,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 2,
+          "text": "Think about your answer before you respond.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_016_0_line_3.mp3",
+          "duration_seconds": 2.8,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 3,
+          "text": "Great job! Let us check the answer together.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_016_0_line_4.mp3",
+          "duration_seconds": 3.2,
+          "pause_after": 0.0
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_sec_017_0",
+      "scene_title": "Listening Ability",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "Now let us practice. Listening Ability.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_017_0_line_1.mp3",
+          "duration_seconds": 2.4,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "Look at the question carefully: Listen to your teacher and write the new words i",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_017_0_line_2.mp3",
+          "duration_seconds": 7.2,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 2,
+          "text": "Think about your answer before you respond.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_017_0_line_3.mp3",
+          "duration_seconds": 2.8,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 3,
+          "text": "Great job! Let us check the answer together.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_017_0_line_4.mp3",
+          "duration_seconds": 3.2,
+          "pause_after": 0.0
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_sec_018_0",
+      "scene_title": "Life Skills",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "Now let us practice. Life Skills.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_018_0_line_1.mp3",
+          "duration_seconds": 2.4,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "Look at the question carefully: Family story time, encourage kids to bring a fav",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_018_0_line_2.mp3",
+          "duration_seconds": 9.2,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 2,
+          "text": "Think about your answer before you respond.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_018_0_line_3.mp3",
+          "duration_seconds": 2.8,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 3,
+          "text": "Great job! Let us check the answer together.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_018_0_line_4.mp3",
+          "duration_seconds": 3.2,
+          "pause_after": 0.0
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_sec_019_0",
+      "scene_title": "Self Assessment",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "Now let us practice. Self Assessment.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_019_0_line_1.mp3",
+          "duration_seconds": 2.4,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "Look at the question carefully: Complete the exercise about Self Assessment.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_019_0_line_2.mp3",
+          "duration_seconds": 4.4,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 2,
+          "text": "Think about your answer before you respond.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_019_0_line_3.mp3",
+          "duration_seconds": 2.8,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 3,
+          "text": "Great job! Let us check the answer together.",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_019_0_line_4.mp3",
+          "duration_seconds": 3.2,
+          "pause_after": 0.0
+        }
+      ]
+    },
+    {
+      "scene_id": "scene_sec_020_0",
+      "scene_title": "Read these lines. Colour one smiley to show how you feel:",
+      "audio_lines": [
+        {
+          "line_index": 0,
+          "text": "- 1. read and enjoy a text on \u2018At the beach\u2019. - 2. Differentiate between vowels ",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_020_0_line_1.mp3",
+          "duration_seconds": 9.6,
+          "pause_after": 0.5
+        },
+        {
+          "line_index": 1,
+          "text": "- 4. I can listen carefully and understand the words. - 5. Know how to introduce",
+          "audio_file": "D:\\new_video_pip\\packages\\textbook-pipeline\\projects\\english_pipeline_output\\audio\\scene_sec_020_0_line_2.mp3",
+          "duration_seconds": 6.8,
+          "pause_after": 0.0
+        }
+      ]
+    }
+  ],
+  "provider": "edge"
+}

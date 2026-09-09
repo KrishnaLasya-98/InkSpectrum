@@ -1,0 +1,463 @@
+{
+  "source_pdf": "RPS - EVS - CLASS 1 - INDIVIDUAL - B (2026) PRINTFILE-pages-2.pdf",
+  "source_pdf_path": "C:\\Users\\user\\Downloads\\RPS - EVS - CLASS 1 - INDIVIDUAL - B (2026) PRINTFILE-pages-2.pdf",
+  "total_pages": 8,
+  "total_images": 39,
+  "extraction_methods": {
+    "structured_markdown": "OpenDataLoader (markdown + JSON + external PNG images)",
+    "page_by_page": "PyMuPDF (pymupdf) - text, words, blocks, images"
+  },
+  "page_summary": [
+    {
+      "page": 1,
+      "text_chars": 637,
+      "word_count": 109,
+      "image_count": 3,
+      "image_files": [
+        "page_1_img_39.png",
+        "page_1_img_45.png",
+        "page_1_img_47.png"
+      ]
+    },
+    {
+      "page": 2,
+      "text_chars": 419,
+      "word_count": 60,
+      "image_count": 8,
+      "image_files": [
+        "page_2_img_94.png",
+        "page_2_img_96.png",
+        "page_2_img_97.png",
+        "page_2_img_99.png",
+        "page_2_img_101.png",
+        "page_2_img_103.png",
+        "page_2_img_104.png",
+        "page_2_img_45.png"
+      ]
+    },
+    {
+      "page": 3,
+      "text_chars": 413,
+      "word_count": 68,
+      "image_count": 6,
+      "image_files": [
+        "page_3_img_146.png",
+        "page_3_img_148.png",
+        "page_3_img_150.png",
+        "page_3_img_152.png",
+        "page_3_img_45.png",
+        "page_3_img_47.png"
+      ]
+    },
+    {
+      "page": 4,
+      "text_chars": 371,
+      "word_count": 69,
+      "image_count": 3,
+      "image_files": [
+        "page_4_img_167.png",
+        "page_4_img_169.png",
+        "page_4_img_45.png"
+      ]
+    },
+    {
+      "page": 5,
+      "text_chars": 462,
+      "word_count": 84,
+      "image_count": 10,
+      "image_files": [
+        "page_5_img_183.png",
+        "page_5_img_185.png",
+        "page_5_img_187.png",
+        "page_5_img_189.png",
+        "page_5_img_191.png",
+        "page_5_img_193.png",
+        "page_5_img_195.png",
+        "page_5_img_197.png",
+        "page_5_img_45.png",
+        "page_5_img_47.png"
+      ]
+    },
+    {
+      "page": 6,
+      "text_chars": 882,
+      "word_count": 135,
+      "image_count": 4,
+      "image_files": [
+        "page_6_img_222.png",
+        "page_6_img_224.png",
+        "page_6_img_226.png",
+        "page_6_img_45.png"
+      ]
+    },
+    {
+      "page": 7,
+      "text_chars": 920,
+      "word_count": 126,
+      "image_count": 2,
+      "image_files": [
+        "page_7_img_45.png",
+        "page_7_img_47.png"
+      ]
+    },
+    {
+      "page": 8,
+      "text_chars": 192,
+      "word_count": 34,
+      "image_count": 3,
+      "image_files": [
+        "page_8_img_350.png",
+        "page_8_img_352.png",
+        "page_8_img_45.png"
+      ]
+    }
+  ],
+  "section_titles": [
+    "Lesson : 8 Animal Life",
+    "Highlights of the Lesson",
+    "Water animals.",
+    "Land animals.",
+    "Birds",
+    "Insects",
+    "Animal Homes :",
+    "Lions :",
+    "Rabbits :",
+    "Domestic and pet animals are kept in human-made homes. A dog lives in a kennel",
+    "Let’s Recall",
+    "Glossary",
+    "I. Answer the following question.",
+    "II. Fill in the blanks.",
+    "III. Choose the correct answer.",
+    "ACTIVITY",
+    "Draw any animal of your choice and name it."
+  ],
+  "sections": [
+    {
+      "title": "Lesson : 8 Animal Life",
+      "content_preview": "- We Learn -  Do you have any pet animals? _____________________________ - How do you look after you pet animal? _____________________________",
+      "content_length": 142
+    },
+    {
+      "title": "Highlights of the Lesson",
+      "content_preview": "- Animals around us - Land Animals - Water Animals - Birds - Insects - Animal Homes Animals are living beings like us which are found in nature. Animals are found all over the world and they need food",
+      "content_length": 555
+    },
+    {
+      "title": "Water animals.",
+      "content_preview": "Animals that live in water are called “Water Animals or Aquatic Animals”. [IMAGE: ![](<RPS - EVS - CLASS 1 - INDIVIDUAL - B (2026) PRINTFILE-pages-2_images/imageFile4.png>)]",
+      "content_length": 173
+    },
+    {
+      "title": "Land animals.",
+      "content_preview": "Animals that live on land are called “Land Animals”. [IMAGE: ![](<RPS - EVS - CLASS 1 - INDIVIDUAL - B (2026) PRINTFILE-pages-2_images/imageFile5.png>)] [IMAGE: ![](<RPS - EVS - CLASS 1 - INDIVIDUAL -",
+      "content_length": 372
+    },
+    {
+      "title": "Birds",
+      "content_preview": "Birds are the animals with feathers, wings and two-legs and a beak without teeth. [IMAGE: ![](<RPS - EVS - CLASS 1 - INDIVIDUAL - B (2026) PRINTFILE-pages-2_images/imageFile8.png>)] [IMAGE: ![](<RPS -",
+      "content_length": 401
+    },
+    {
+      "title": "Insects",
+      "content_preview": "Very small animals are called “Insects”. They have six legs. Some insects have wings to fly. [IMAGE: ![](<RPS - EVS - CLASS 1 - INDIVIDUAL - B (2026) PRINTFILE-pages-2_images/imageFile12.png>)] [IMAGE",
+      "content_length": 951
+    },
+    {
+      "title": "Animal Homes :",
+      "content_preview": "Animals need home to live and food to grow. Different animals eat different kinds of food and live in different homes. [IMAGE: ![](<RPS - EVS - CLASS 1 - INDIVIDUAL - B (2026) PRINTFILE-pages-2_images",
+      "content_length": 219
+    },
+    {
+      "title": "Lions :",
+      "content_preview": "- Lions live in caves in forests. - These caves are called “Dens”. - They eat flesh of other animals. [IMAGE: ![](<RPS - EVS - CLASS 1 - INDIVIDUAL - B (2026) PRINTFILE-pages-2_images/imageFile21.png>",
+      "content_length": 202
+    },
+    {
+      "title": "Rabbits :",
+      "content_preview": "- They are burrowing animals and live in burrows - They eat vegetables. Birds : - Birds build their own nest. - They eat seeds, berries, fruit, insects, etc. Ants : - They make a hill-like structure u",
+      "content_length": 665
+    },
+    {
+      "title": "Domestic and pet animals are kept in human-made homes. A dog lives in a kennel",
+      "content_preview": "[IMAGE: ![](<RPS - EVS - CLASS 1 - INDIVIDUAL - B (2026) PRINTFILE-pages-2_images/imageFile26.png>)] [IMAGE: ![](<RPS - EVS - CLASS 1 - INDIVIDUAL - B (2026) PRINTFILE-pages-2_images/imageFile27.png>)",
+      "content_length": 451
+    },
+    {
+      "title": "Let’s Recall",
+      "content_preview": "- Animals live both on land and in water. - Animals are of different sizes. - Animals that can fly are called birds. - Very small animals are called insects. - Animals that can be kept at home are dom",
+      "content_length": 439
+    },
+    {
+      "title": "Glossary",
+      "content_preview": "- Birds : Animals that can fly are called birds. - Insects : Very small animals are called insects. - Domestic animals: animals that can be kept at home. - Wild animals : Animals that live in jungle..",
+      "content_length": 344
+    },
+    {
+      "title": "I. Answer the following question.",
+      "content_preview": "- 1. Name any two pet animals. ________________________________________________________________ - 2. Where are dogs kept? ________________________________________________________________ - 3. What do ",
+      "content_length": 281
+    },
+    {
+      "title": "II. Fill in the blanks.",
+      "content_preview": "- 1. Rabbits live in _______________________. - 2. Birds have _______________________ to fly. - 3. Animals that live in water are called _______________________. - 4. Insects have ____________________",
+      "content_length": 265
+    },
+    {
+      "title": "III. Choose the correct answer.",
+      "content_preview": "- 1. Fish live in _______________________. a) water b) land c) both water and land - 2. Animals that live on land are called _______________________ animals. a) land b) water c) none of these - 3. But",
+      "content_length": 532
+    },
+    {
+      "title": "ACTIVITY",
+      "content_preview": "(empty)",
+      "content_length": 0
+    },
+    {
+      "title": "Draw any animal of your choice and name it.",
+      "content_preview": "[IMAGE: ![](<RPS - EVS - CLASS 1 - INDIVIDUAL - B (2026) PRINTFILE-pages-2_images/imageFile38.png>)] Life Skills Animals also have feelings. Do not hurt animals. They will be friendly to us. Protect a",
+      "content_length": 207
+    }
+  ],
+  "images": [
+    {
+      "page": 1,
+      "filename": "page_1_img_39.png",
+      "path": "images/page_1_img_39.png"
+    },
+    {
+      "page": 1,
+      "filename": "page_1_img_45.png",
+      "path": "images/page_1_img_45.png"
+    },
+    {
+      "page": 1,
+      "filename": "page_1_img_47.png",
+      "path": "images/page_1_img_47.png"
+    },
+    {
+      "page": 2,
+      "filename": "page_2_img_94.png",
+      "path": "images/page_2_img_94.png"
+    },
+    {
+      "page": 2,
+      "filename": "page_2_img_96.png",
+      "path": "images/page_2_img_96.png"
+    },
+    {
+      "page": 2,
+      "filename": "page_2_img_97.png",
+      "path": "images/page_2_img_97.png"
+    },
+    {
+      "page": 2,
+      "filename": "page_2_img_99.png",
+      "path": "images/page_2_img_99.png"
+    },
+    {
+      "page": 2,
+      "filename": "page_2_img_101.png",
+      "path": "images/page_2_img_101.png"
+    },
+    {
+      "page": 2,
+      "filename": "page_2_img_103.png",
+      "path": "images/page_2_img_103.png"
+    },
+    {
+      "page": 2,
+      "filename": "page_2_img_104.png",
+      "path": "images/page_2_img_104.png"
+    },
+    {
+      "page": 2,
+      "filename": "page_2_img_45.png",
+      "path": "images/page_2_img_45.png"
+    },
+    {
+      "page": 3,
+      "filename": "page_3_img_146.png",
+      "path": "images/page_3_img_146.png"
+    },
+    {
+      "page": 3,
+      "filename": "page_3_img_148.png",
+      "path": "images/page_3_img_148.png"
+    },
+    {
+      "page": 3,
+      "filename": "page_3_img_150.png",
+      "path": "images/page_3_img_150.png"
+    },
+    {
+      "page": 3,
+      "filename": "page_3_img_152.png",
+      "path": "images/page_3_img_152.png"
+    },
+    {
+      "page": 3,
+      "filename": "page_3_img_45.png",
+      "path": "images/page_3_img_45.png"
+    },
+    {
+      "page": 3,
+      "filename": "page_3_img_47.png",
+      "path": "images/page_3_img_47.png"
+    },
+    {
+      "page": 4,
+      "filename": "page_4_img_167.png",
+      "path": "images/page_4_img_167.png"
+    },
+    {
+      "page": 4,
+      "filename": "page_4_img_169.png",
+      "path": "images/page_4_img_169.png"
+    },
+    {
+      "page": 4,
+      "filename": "page_4_img_45.png",
+      "path": "images/page_4_img_45.png"
+    },
+    {
+      "page": 5,
+      "filename": "page_5_img_183.png",
+      "path": "images/page_5_img_183.png"
+    },
+    {
+      "page": 5,
+      "filename": "page_5_img_185.png",
+      "path": "images/page_5_img_185.png"
+    },
+    {
+      "page": 5,
+      "filename": "page_5_img_187.png",
+      "path": "images/page_5_img_187.png"
+    },
+    {
+      "page": 5,
+      "filename": "page_5_img_189.png",
+      "path": "images/page_5_img_189.png"
+    },
+    {
+      "page": 5,
+      "filename": "page_5_img_191.png",
+      "path": "images/page_5_img_191.png"
+    },
+    {
+      "page": 5,
+      "filename": "page_5_img_193.png",
+      "path": "images/page_5_img_193.png"
+    },
+    {
+      "page": 5,
+      "filename": "page_5_img_195.png",
+      "path": "images/page_5_img_195.png"
+    },
+    {
+      "page": 5,
+      "filename": "page_5_img_197.png",
+      "path": "images/page_5_img_197.png"
+    },
+    {
+      "page": 5,
+      "filename": "page_5_img_45.png",
+      "path": "images/page_5_img_45.png"
+    },
+    {
+      "page": 5,
+      "filename": "page_5_img_47.png",
+      "path": "images/page_5_img_47.png"
+    },
+    {
+      "page": 6,
+      "filename": "page_6_img_222.png",
+      "path": "images/page_6_img_222.png"
+    },
+    {
+      "page": 6,
+      "filename": "page_6_img_224.png",
+      "path": "images/page_6_img_224.png"
+    },
+    {
+      "page": 6,
+      "filename": "page_6_img_226.png",
+      "path": "images/page_6_img_226.png"
+    },
+    {
+      "page": 6,
+      "filename": "page_6_img_45.png",
+      "path": "images/page_6_img_45.png"
+    },
+    {
+      "page": 7,
+      "filename": "page_7_img_45.png",
+      "path": "images/page_7_img_45.png"
+    },
+    {
+      "page": 7,
+      "filename": "page_7_img_47.png",
+      "path": "images/page_7_img_47.png"
+    },
+    {
+      "page": 8,
+      "filename": "page_8_img_350.png",
+      "path": "images/page_8_img_350.png"
+    },
+    {
+      "page": 8,
+      "filename": "page_8_img_352.png",
+      "path": "images/page_8_img_352.png"
+    },
+    {
+      "page": 8,
+      "filename": "page_8_img_45.png",
+      "path": "images/page_8_img_45.png"
+    }
+  ],
+  "document_structure": {
+    "headings": [
+      "# Lesson : 8 Animal Life",
+      "##### Highlights of the Lesson",
+      "###### Water animals.",
+      "###### Land animals.",
+      "###### Birds",
+      "###### Insects",
+      "###### Animal Homes :",
+      "###### Lions :",
+      "###### Rabbits :",
+      "###### Domestic and pet animals are kept in human-made homes. A dog lives in a kennel",
+      "### Let’s Recall",
+      "## Glossary",
+      "###### I. Answer the following question.",
+      "###### II. Fill in the blanks.",
+      "###### III. Choose the correct answer.",
+      "#### ACTIVITY",
+      "###### Draw any animal of your choice and name it."
+    ],
+    "key_sections": [
+      "Lesson : 8 Animal Life",
+      "Highlights of the Lesson",
+      "Water animals.",
+      "Land animals.",
+      "Birds",
+      "Insects",
+      "Animal Homes :",
+      "Lions :",
+      "Rabbits :",
+      "Domestic and pet animals are kept in human-made homes. A dog lives in a kennel",
+      "Let’s Recall",
+      "Glossary",
+      "I. Answer the following question.",
+      "II. Fill in the blanks.",
+      "III. Choose the correct answer.",
+      "ACTIVITY",
+      "Draw any animal of your choice and name it."
+    ]
+  },
+  "odl_output": {
+    "markdown_file": "RPS - EVS - CLASS 1 - INDIVIDUAL - B (2026) PRINTFILE-pages-2.md",
+    "json_file": "RPS - EVS - CLASS 1 - INDIVIDUAL - B (2026) PRINTFILE-pages-2.json",
+    "images_dir": "odl_output/RPS - EVS - CLASS 1 - INDIVIDUAL - B (2026) PRINTFILE-pages-2_images"
+  }
+}

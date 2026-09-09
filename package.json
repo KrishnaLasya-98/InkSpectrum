@@ -1,0 +1,29 @@
+{
+  "name": "new_video_pip",
+  "version": "1.0.0",
+  "description": "```powershell python -m venv .venv ```",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KrishnaLasya-98/InkSpectrum.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/KrishnaLasya-98/InkSpectrum/issues"
+  },
+  "homepage": "https://github.com/KrishnaLasya-98/InkSpectrum#readme",
+  "dependencies": {
+    "@remotion/cli": "^4.0.522",
+    "remotion": "^4.0.522"
+  }
+}

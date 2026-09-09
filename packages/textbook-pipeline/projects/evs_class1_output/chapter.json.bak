@@ -1,0 +1,721 @@
+{
+  "id": "evs_class1_animal_life_ch8",
+  "number": 8,
+  "title": "EVS Chapter 8: Animal Life",
+  "subject": "social",
+  "grade": 1,
+  "textbook_id": "evs_class1_animal_life",
+  "learning_objectives": [],
+  "sections": [
+    {
+      "id": "sec_001",
+      "type": "theoretical",
+      "title": "EVS Class 1 - Lesson 8: Animal Life",
+      "content_text": "**Source PDF:** `RPS - EVS - CLASS 1 - INDIVIDUAL - B (2026) PRINTFILE-pages-2.pdf` **Total Pages:** 8 **Extraction Method:** OpenDataLoader (Markdown+JSON) + PyMuPDF (page-by-page) **Extracted Images:** 39 ---",
+      "page_range": [
+        0,
+        0
+      ],
+      "docling_refs": [],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0,
+      "raw_blocks": null
+    },
+    {
+      "id": "sec_002",
+      "type": "theoretical",
+      "title": "EVS Class 1 - Lesson 8: Animal Life > Document Structure > Sections / Headings",
+      "content_text": "| # | Heading | |---|---------| | 1 | # Lesson : 8 Animal Life | | 2 | ##### Highlights of the Lesson | | 3 | ###### Water animals. | | 4 | ###### Land animals. | | 5 | ###### Birds | | 6 | ###### Insects | | 7 | ###### Animal Homes : | | 8 | ###### Lions : | | 9 | ###### Rabbits : | | 10 | ###### Domestic and pet animals are kept in human-made homes. A dog lives in a kennel | | 11 | ### Let’s Recall | | 12 | ## Glossary | | 13 | ###### I. Answer the following question. | | 14 | ###### II. Fill in the blanks. | | 15 | ###### III. Choose the correct answer. | | 16 | #### ACTIVITY | | 17 | ###### Draw any animal of your choice and name it. |",
+      "page_range": [
+        0,
+        0
+      ],
+      "docling_refs": [],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0,
+      "raw_blocks": null
+    },
+    {
+      "id": "sec_003",
+      "type": "theoretical",
+      "title": "EVS Class 1 - Lesson 8: Animal Life > Document Structure > Key Sections Identified",
+      "content_text": "- **Lesson : 8 Animal Life** - **Highlights of the Lesson** - **Water animals.** - **Land animals.** - **Birds** - **Insects** - **Animal Homes :** - **Lions :** - **Rabbits :** - **Domestic and pet animals are kept in human-made homes. A dog lives in a kennel** - **Let’s Recall** - **Glossary** - **I. Answer the following question.** - **II. Fill in the blanks.** - **III. Choose the correct answer.** - **ACTIVITY** - **Draw any animal of your choice and name it.** ---",
+      "page_range": [
+        0,
+        0
+      ],
+      "docling_refs": [],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0,
+      "raw_blocks": null
+    },
+    {
+      "id": "sec_004",
+      "type": "theoretical",
+      "title": "EVS Class 1 - Lesson 8: Animal Life > Page-by-Page Content > Page 1",
+      "content_text": "- **Text length:** 637 characters - **Word count:** 109 - **Text blocks:** 15 - **Images:** 3 - Image files: - `page_1_img_39.png` (xref: 39) - `page_1_img_45.png` (xref: 45) - `page_1_img_47.png` (xref: 47) **Text content:** ``` Animals are living beings like us which are found in nature. Animals are found all over the world and they need food, shelter, air, and water like other living beings, to grow and survive. Their size, eating habits, body colour, and body covering vary according to the place they are found in. All animals need care and protection. Highlights of the Lesson • Animals around us • Land Animals • Water Animals • Birds • Insects • Animal Homes We Learn • Do you have any pet animals? _____________________________ •How do you look after you pet animal? _____________________________ Lesson : 8 Animal Life 7 Rockland -EVS - Class 1 ``` **Image locations (from text blocks):** - `page_1_img_39.png` - `page_1_img_45.png` - `page_1_img_47.png`",
+      "page_range": [
+        0,
+        0
+      ],
+      "docling_refs": [
+        {
+          "item_id": "page_1_img_39.png",
+          "page_number": 0,
+          "label": "image"
+        },
+        {
+          "item_id": "page_1_img_45.png",
+          "page_number": 0,
+          "label": "image"
+        },
+        {
+          "item_id": "page_1_img_47.png",
+          "page_number": 0,
+          "label": "image"
+        }
+      ],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0,
+      "raw_blocks": null
+    },
+    {
+      "id": "sec_005",
+      "type": "theoretical",
+      "title": "EVS Class 1 - Lesson 8: Animal Life > Page-by-Page Content > Page 2",
+      "content_text": "- **Text length:** 419 characters - **Word count:** 60 - **Text blocks:** 17 - **Images:** 8 - Image files: - `page_2_img_94.png` (xref: 94) - `page_2_img_96.png` (xref: 96) - `page_2_img_97.png` (xref: 97) - `page_2_img_99.png` (xref: 99) - `page_2_img_101.png` (xref: 101) - `page_2_img_103.png` (xref: 103) - `page_2_img_104.png` (xref: 104) - `page_2_img_45.png` (xref: 45) **Text content:** ``` Animals live both on land and in water. Water animals. Animals that live in water are called “Water Animals or Aquatic Animals”. Land animals. Animals that live on land are called “Land Animals”. Lion Elephant Tiger Birds Birds are the animals with feathers, wings and two-legs and a beak without teeth. Duck Pigeon Parrot 8 Rockland -EVS - Class 1 ``` **Image locations (from text blocks):** - `page_2_img_94.png` - `page_2_img_96.png` - `page_2_img_97.png` - `page_2_img_99.png` - `page_2_img_101.png` - `page_2_img_103.png` - `page_2_img_104.png` - `page_2_img_45.png`",
+      "page_range": [
+        0,
+        0
+      ],
+      "docling_refs": [
+        {
+          "item_id": "page_2_img_94.png",
+          "page_number": 0,
+          "label": "image"
+        },
+        {
+          "item_id": "page_2_img_96.png",
+          "page_number": 0,
+          "label": "image"
+        },
+        {
+          "item_id": "page_2_img_97.png",
+          "page_number": 0,
+          "label": "image"
+        },
+        {
+          "item_id": "page_2_img_99.png",
+          "page_number": 0,
+          "label": "image"
+        },
+        {
+          "item_id": "page_2_img_101.png",
+          "page_number": 0,
+          "label": "image"
+        },
+        {
+          "item_id": "page_2_img_103.png",
+          "page_number": 0,
+          "label": "image"
+        },
+        {
+          "item_id": "page_2_img_104.png",
+          "page_number": 0,
+          "label": "image"
+        },
+        {
+          "item_id": "page_2_img_45.png",
+          "page_number": 0,
+          "label": "image"
+        }
+      ],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0,
+      "raw_blocks": null
+    },
+    {
+      "id": "sec_006",
+      "type": "theoretical",
+      "title": "EVS Class 1 - Lesson 8: Animal Life > Page-by-Page Content > Page 3",
+      "content_text": "- **Text length:** 413 characters - **Word count:** 68 - **Text blocks:** 11 - **Images:** 6 - Image files: - `page_3_img_146.png` (xref: 146) - `page_3_img_148.png` (xref: 148) - `page_3_img_150.png` (xref: 150) - `page_3_img_152.png` (xref: 152) - `page_3_img_45.png` (xref: 45) - `page_3_img_47.png` (xref: 47) **Text content:** ``` Insects Very small animals are called “Insects”. They have six legs. Some insects have wings to fly. Butterfly Housefly Grasshopper Domestic Animals: Animals that are kept at home or around our homes are called “Domestic Animals”. They are useful to us. Pet Animals: Some animals like dog, parrot and rabbit are kept as pets. We love them and take care of them. 9 Rockland -EVS - Class 1 ``` **Image locations (from text blocks):** - `page_3_img_146.png` - `page_3_img_148.png` - `page_3_img_150.png` - `page_3_img_152.png` - `page_3_img_45.png` - `page_3_img_47.png`",
+      "page_range": [
+        0,
+        0
+      ],
+      "docling_refs": [
+        {
+          "item_id": "page_3_img_146.png",
+          "page_number": 0,
+          "label": "image"
+        },
+        {
+          "item_id": "page_3_img_148.png",
+          "page_number": 0,
+          "label": "image"
+        },
+        {
+          "item_id": "page_3_img_150.png",
+          "page_number": 0,
+          "label": "image"
+        },
+        {
+          "item_id": "page_3_img_152.png",
+          "page_number": 0,
+          "label": "image"
+        },
+        {
+          "item_id": "page_3_img_45.png",
+          "page_number": 0,
+          "label": "image"
+        },
+        {
+          "item_id": "page_3_img_47.png",
+          "page_number": 0,
+          "label": "image"
+        }
+      ],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0,
+      "raw_blocks": null
+    },
+    {
+      "id": "sec_007",
+      "type": "theoretical",
+      "title": "EVS Class 1 - Lesson 8: Animal Life > Page-by-Page Content > Page 4",
+      "content_text": "- **Text length:** 371 characters - **Word count:** 69 - **Text blocks:** 11 - **Images:** 3 - Image files: - `page_4_img_167.png` (xref: 167) - `page_4_img_169.png` (xref: 169) - `page_4_img_45.png` (xref: 45) **Text content:** ``` Wild Animals : Some animals can be seen only in the forests. They are called “Wild Animals”. Animal Homes : Animals need home to live and food to grow. Different animals eat different kinds of food and live in different homes. Lions : • Lions live in caves in forests. • These caves are called “Dens”. • They eat flesh of other animals. 10 Rockland -EVS - Class 1 ``` **Image locations (from text blocks):** - `page_4_img_167.png` - `page_4_img_169.png` - `page_4_img_45.png`",
+      "page_range": [
+        0,
+        0
+      ],
+      "docling_refs": [
+        {
+          "item_id": "page_4_img_167.png",
+          "page_number": 0,
+          "label": "image"
+        },
+        {
+          "item_id": "page_4_img_169.png",
+          "page_number": 0,
+          "label": "image"
+        },
+        {
+          "item_id": "page_4_img_45.png",
+          "page_number": 0,
+          "label": "image"
+        }
+      ],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0,
+      "raw_blocks": null
+    },
+    {
+      "id": "sec_008",
+      "type": "theoretical",
+      "title": "EVS Class 1 - Lesson 8: Animal Life > Page-by-Page Content > Page 5",
+      "content_text": "- **Text length:** 462 characters - **Word count:** 84 - **Text blocks:** 16 - **Images:** 10 - Image files: - `page_5_img_183.png` (xref: 183) - `page_5_img_185.png` (xref: 185) - `page_5_img_187.png` (xref: 187) - `page_5_img_189.png` (xref: 189) - `page_5_img_191.png` (xref: 191) - `page_5_img_193.png` (xref: 193) - `page_5_img_195.png` (xref: 195) - `page_5_img_197.png` (xref: 197) - `page_5_img_45.png` (xref: 45) - `page_5_img_47.png` (xref: 47) **Text content:** ``` Rabbits : • They are burrowing animals and live in burrows • They eat vegetables. Birds : • Birds build their own nest. • They eat seeds, berries, fruit, insects, etc. Ants : • They make a hill-like structure using sand called “Anthill”. • Ants live in a group like bees. Domestic and pet animals are kept in human-made homes. A dog lives in a kennel A cow lives in a shed A horse lives in a stable 11 Rockland -EVS - Class 1 ``` **Image locations (from text blocks):** - `page_5_img_183.png` - `page_5_img_185.png` - `page_5_img_187.png` - `page_5_img_189.png` - `page_5_img_191.png` - `page_5_img_193.png` - `page_5_img_195.png` - `page_5_img_197.png` - `page_5_img_45.png` - `page_5_img_47.png`",
+      "page_range": [
+        0,
+        0
+      ],
+      "docling_refs": [
+        {
+          "item_id": "page_5_img_183.png",
+          "page_number": 0,
+          "label": "image"
+        },
+        {
+          "item_id": "page_5_img_185.png",
+          "page_number": 0,
+          "label": "image"
+        },
+        {
+          "item_id": "page_5_img_187.png",
+          "page_number": 0,
+          "label": "image"
+        },
+        {
+          "item_id": "page_5_img_189.png",
+          "page_number": 0,
+          "label": "image"
+        },
+        {
+          "item_id": "page_5_img_191.png",
+          "page_number": 0,
+          "label": "image"
+        },
+        {
+          "item_id": "page_5_img_193.png",
+          "page_number": 0,
+          "label": "image"
+        },
+        {
+          "item_id": "page_5_img_195.png",
+          "page_number": 0,
+          "label": "image"
+        },
+        {
+          "item_id": "page_5_img_197.png",
+          "page_number": 0,
+          "label": "image"
+        },
+        {
+          "item_id": "page_5_img_45.png",
+          "page_number": 0,
+          "label": "image"
+        },
+        {
+          "item_id": "page_5_img_47.png",
+          "page_number": 0,
+          "label": "image"
+        }
+      ],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0,
+      "raw_blocks": null
+    },
+    {
+      "id": "sec_009",
+      "type": "theoretical",
+      "title": "EVS Class 1 - Lesson 8: Animal Life > Page-by-Page Content > Page 6",
+      "content_text": "- **Text length:** 882 characters - **Word count:** 135 - **Text blocks:** 21 - **Images:** 4 - Image files: - `page_6_img_222.png` (xref: 222) - `page_6_img_224.png` (xref: 224) - `page_6_img_226.png` (xref: 226) - `page_6_img_45.png` (xref: 45) **Text content:** ``` Assessment • Animals live both on land and in water. • Animals are of different sizes. • Animals that can fly are called birds. • Very small animals are called insects. • Animals that can be kept at home are domestic animals. • Animals that live in jungle are called wild animals. • Different animals live in different homes and eat different foods. Let’s Recall I. Answer the following question. 1. Name any two pet animals. ________________________________________________________________ 2. Where are dogs kept? ________________________________________________________________ • Birds : Animals that can fly are called birds. • Insects : Very small animals are called insects. • Domestic animals: animals that can be kept at home. • Wild animals : Animals that live in jungle.. • Den : Place where lions live. Glossary 12 Rockland -EVS - Class 1 ``` **Image locations (from text blocks):** - `page_6_img_222.png` - `page_6_img_224.png` - `page_6_img_226.png` - `page_6_img_45.png`",
+      "page_range": [
+        0,
+        0
+      ],
+      "docling_refs": [
+        {
+          "item_id": "page_6_img_222.png",
+          "page_number": 0,
+          "label": "image"
+        },
+        {
+          "item_id": "page_6_img_224.png",
+          "page_number": 0,
+          "label": "image"
+        },
+        {
+          "item_id": "page_6_img_226.png",
+          "page_number": 0,
+          "label": "image"
+        },
+        {
+          "item_id": "page_6_img_45.png",
+          "page_number": 0,
+          "label": "image"
+        }
+      ],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0,
+      "raw_blocks": null
+    },
+    {
+      "id": "sec_010",
+      "type": "theoretical",
+      "title": "EVS Class 1 - Lesson 8: Animal Life > Page-by-Page Content > Page 7",
+      "content_text": "- **Text length:** 920 characters - **Word count:** 126 - **Text blocks:** 20 - **Images:** 2 - Image files: - `page_7_img_45.png` (xref: 45) - `page_7_img_47.png` (xref: 47) **Text content:** ``` 3. What do the birds build? ________________________________________________________________ II. Fill in the blanks. 1. Rabbits live in _______________________. 2. Birds have _______________________ to fly. 3. Animals that live in water are called _______________________. 4. Insects have _______________________ legs. 5. Ants live in a group like _______________________. III. Choose the correct answer. 1. Fish live in _______________________. a) water b) land c) both water and land 2. Animals that live on land are called _______________________ animals. a) land b) water c) none of these 3. Butterfly is a _______________________. a) bird b) insect c) none of these 4. Parrot and rabbit are _______________________ animals. a) wild b) pet c) insect 5. Tiger is a _______________________ animal. a) Domestic b) Wild c) Pet 13 Rockland -EVS - Class 1 ``` **Image locations (from text blocks):** - `page_7_img_45.png` - `page_7_img_47.png`",
+      "page_range": [
+        0,
+        0
+      ],
+      "docling_refs": [
+        {
+          "item_id": "page_7_img_45.png",
+          "page_number": 0,
+          "label": "image"
+        },
+        {
+          "item_id": "page_7_img_47.png",
+          "page_number": 0,
+          "label": "image"
+        }
+      ],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0,
+      "raw_blocks": null
+    },
+    {
+      "id": "sec_011",
+      "type": "theoretical",
+      "title": "EVS Class 1 - Lesson 8: Animal Life > Page-by-Page Content > Page 8",
+      "content_text": "- **Text length:** 192 characters - **Word count:** 34 - **Text blocks:** 6 - **Images:** 3 - Image files: - `page_8_img_350.png` (xref: 350) - `page_8_img_352.png` (xref: 352) - `page_8_img_45.png` (xref: 45) **Text content:** ``` ACTIVITY Life Skills Animals also have feelings. Do not hurt animals. They will be friendly to us. Protect animals. Draw any animal of your choice and name it. 14 Rockland -EVS - Class 1 ``` **Image locations (from text blocks):** - `page_8_img_350.png` - `page_8_img_352.png` - `page_8_img_45.png` ---",
+      "page_range": [
+        0,
+        0
+      ],
+      "docling_refs": [
+        {
+          "item_id": "page_8_img_350.png",
+          "page_number": 0,
+          "label": "image"
+        },
+        {
+          "item_id": "page_8_img_352.png",
+          "page_number": 0,
+          "label": "image"
+        },
+        {
+          "item_id": "page_8_img_45.png",
+          "page_number": 0,
+          "label": "image"
+        }
+      ],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0,
+      "raw_blocks": null
+    },
+    {
+      "id": "sec_012",
+      "type": "theoretical",
+      "title": "EVS Class 1 - Lesson 8: Animal Life > Full Structured Content (OpenDataLoader Markdown)",
+      "content_text": "The following is the full markdown output from OpenDataLoader, which preserves headings, paragraphs, lists, and image references:",
+      "page_range": [
+        0,
+        0
+      ],
+      "docling_refs": [],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0,
+      "raw_blocks": null
+    },
+    {
+      "id": "sec_013",
+      "type": "theoretical",
+      "title": "Lesson : 8 Animal Life",
+      "content_text": "- We Learn - Do you have any pet animals? _____________________________ - How do you look after you pet animal? _____________________________",
+      "page_range": [
+        0,
+        0
+      ],
+      "docling_refs": [],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0,
+      "raw_blocks": null
+    },
+    {
+      "id": "sec_014",
+      "type": "theoretical",
+      "title": "Lesson : 8 Animal Life > Highlights of the Lesson",
+      "content_text": "- Animals around us - Land Animals - Water Animals - Birds - Insects - Animal Homes Animals are living beings like us which are found in nature. Animals are found all over the world and they need food, shelter, air, and water like other living beings, to grow and survive. Their size, eating habits, body colour, and body covering vary according to the place they are found in. All animals need care and protection. PRINTFILE-pages-2_images/imageFile1.png>) Animals live both on land and in water.",
+      "page_range": [
+        0,
+        0
+      ],
+      "docling_refs": [],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0,
+      "raw_blocks": null
+    },
+    {
+      "id": "sec_015",
+      "type": "theoretical",
+      "title": "Lesson : 8 Animal Life > Highlights of the Lesson > Water animals.",
+      "content_text": "Animals that live in water are called “Water Animals or Aquatic Animals”. PRINTFILE-pages-2_images/imageFile4.png>)",
+      "page_range": [
+        0,
+        0
+      ],
+      "docling_refs": [],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0,
+      "raw_blocks": null
+    },
+    {
+      "id": "sec_016",
+      "type": "theoretical",
+      "title": "Lesson : 8 Animal Life > Highlights of the Lesson > Water animals. > Land animals.",
+      "content_text": "Animals that live on land are called “Land Animals”. PRINTFILE-pages-2_images/imageFile5.png>) PRINTFILE-pages-2_images/imageFile6.png>) PRINTFILE-pages-2_images/imageFile7.png>) Lion Elephant Tiger",
+      "page_range": [
+        0,
+        0
+      ],
+      "docling_refs": [],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0,
+      "raw_blocks": null
+    },
+    {
+      "id": "sec_017",
+      "type": "theoretical",
+      "title": "Lesson : 8 Animal Life > Highlights of the Lesson > Water animals. > Land animals. > Birds",
+      "content_text": "Birds are the animals with feathers, wings and two-legs and a beak without teeth. PRINTFILE-pages-2_images/imageFile8.png>) PRINTFILE-pages-2_images/imageFile9.png>) PRINTFILE-pages-2_images/imageFile10.png>) Duck Pigeon Parrot",
+      "page_range": [
+        0,
+        0
+      ],
+      "docling_refs": [],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0,
+      "raw_blocks": null
+    },
+    {
+      "id": "sec_018",
+      "type": "theoretical",
+      "title": "Lesson : 8 Animal Life > Highlights of the Lesson > Water animals. > Land animals. > Birds > Insects",
+      "content_text": "Very small animals are called “Insects”. They have six legs. Some insects have wings to fly. PRINTFILE-pages-2_images/imageFile12.png>) PRINTFILE-pages-2_images/imageFile13.png>) PRINTFILE-pages-2_images/imageFile14.png>) Butterfly Housefly Grasshopper Domestic Animals: Animals that are kept at home or around our homes are called “Domestic Animals”. They are useful to us. PRINTFILE-pages-2_images/imageFile15.png>) Pet Animals: Some animals like dog, parrot and rabbit are kept as pets. We love them and take care of them. Wild Animals : Some animals can be seen only in the forests. They are called “Wild Animals”. PRINTFILE-pages-2_images/imageFile18.png>)",
+      "page_range": [
+        0,
+        0
+      ],
+      "docling_refs": [],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0,
+      "raw_blocks": null
+    },
+    {
+      "id": "sec_019",
+      "type": "theoretical",
+      "title": "Lesson : 8 Animal Life > Highlights of the Lesson > Water animals. > Land animals. > Birds > Animal Homes :",
+      "content_text": "Animals need home to live and food to grow. Different animals eat different kinds of food and live in different homes. PRINTFILE-pages-2_images/imageFile19.png>)",
+      "page_range": [
+        0,
+        0
+      ],
+      "docling_refs": [],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0,
+      "raw_blocks": null
+    },
+    {
+      "id": "sec_020",
+      "type": "theoretical",
+      "title": "Lesson : 8 Animal Life > Highlights of the Lesson > Water animals. > Land animals. > Birds > Lions :",
+      "content_text": "- Lions live in caves in forests. - These caves are called “Dens”. - They eat flesh of other animals. PRINTFILE-pages-2_images/imageFile21.png>)",
+      "page_range": [
+        0,
+        0
+      ],
+      "docling_refs": [],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0,
+      "raw_blocks": null
+    },
+    {
+      "id": "sec_021",
+      "type": "theoretical",
+      "title": "Lesson : 8 Animal Life > Highlights of the Lesson > Water animals. > Land animals. > Birds > Rabbits :",
+      "content_text": "- They are burrowing animals and live in burrows - They eat vegetables. Birds : - Birds build their own nest. - They eat seeds, berries, fruit, insects, etc. Ants : - They make a hill-like structure using sand called “Anthill”. - Ants live in a group like bees. PRINTFILE-pages-2_images/imageFile22.png>) PRINTFILE-pages-2_images/imageFile23.png>) PRINTFILE-pages-2_images/imageFile24.png>) PRINTFILE-pages-2_images/imageFile25.png>)",
+      "page_range": [
+        0,
+        0
+      ],
+      "docling_refs": [],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0,
+      "raw_blocks": null
+    },
+    {
+      "id": "sec_022",
+      "type": "theoretical",
+      "title": "Lesson : 8 Animal Life > Highlights of the Lesson > Water animals. > Land animals. > Birds > Domestic and pet animals are kept in human-made homes. A dog lives in a kennel",
+      "content_text": "PRINTFILE-pages-2_images/imageFile26.png>) PRINTFILE-pages-2_images/imageFile27.png>) PRINTFILE-pages-2_images/imageFile28.png>) A cow lives in a shed A horse lives in a stable PRINTFILE-pages-2_images/imageFile31.png>)",
+      "page_range": [
+        0,
+        0
+      ],
+      "docling_refs": [],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0,
+      "raw_blocks": null
+    },
+    {
+      "id": "sec_023",
+      "type": "theoretical",
+      "title": "Lesson : 8 Animal Life > Highlights of the Lesson > Let’s Recall",
+      "content_text": "- Animals live both on land and in water. - Animals are of different sizes. - Animals that can fly are called birds. - Very small animals are called insects. - Animals that can be kept at home are domestic animals. - Animals that live in jungle are called wild animals. - Different animals live in different homes and eat different foods. PRINTFILE-pages-2_images/imageFile32.png>)",
+      "page_range": [
+        0,
+        0
+      ],
+      "docling_refs": [],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0,
+      "raw_blocks": null
+    },
+    {
+      "id": "sec_024",
+      "type": "theoretical",
+      "title": "Lesson : 8 Animal Life > Glossary",
+      "content_text": "- Birds : Animals that can fly are called birds. - Insects : Very small animals are called insects. - Domestic animals: animals that can be kept at home. - Wild animals : Animals that live in jungle.. - Den : Place where lions live. PRINTFILE-pages-2_images/imageFile33.png>) Assessment",
+      "page_range": [
+        0,
+        0
+      ],
+      "docling_refs": [],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0,
+      "raw_blocks": null
+    },
+    {
+      "id": "sec_025",
+      "type": "theoretical",
+      "title": "Lesson : 8 Animal Life > Glossary > I. Answer the following question.",
+      "content_text": "- 1. Name any two pet animals. ________________________________________________________________ - 2. Where are dogs kept? ________________________________________________________________ - 3. What do the birds build? ________________________________________________________________",
+      "page_range": [
+        0,
+        0
+      ],
+      "docling_refs": [],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0,
+      "raw_blocks": null
+    },
+    {
+      "id": "sec_026",
+      "type": "theoretical",
+      "title": "Lesson : 8 Animal Life > Glossary > I. Answer the following question. > II. Fill in the blanks.",
+      "content_text": "- 1. Rabbits live in _______________________. - 2. Birds have _______________________ to fly. - 3. Animals that live in water are called _______________________. - 4. Insects have _______________________ legs. - 5. Ants live in a group like _______________________.",
+      "page_range": [
+        0,
+        0
+      ],
+      "docling_refs": [],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0,
+      "raw_blocks": null
+    },
+    {
+      "id": "sec_027",
+      "type": "theoretical",
+      "title": "Lesson : 8 Animal Life > Glossary > I. Answer the following question. > II. Fill in the blanks. > III. Choose the correct answer.",
+      "content_text": "- 1. Fish live in _______________________. a) water b) land c) both water and land - 2. Animals that live on land are called _______________________ animals. a) land b) water c) none of these - 3. Butterfly is a _______________________. a) bird b) insect c) none of these - 4. Parrot and rabbit are _______________________ animals. a) wild b) pet c) insect - 5. Tiger is a _______________________ animal. a) Domestic b) Wild c) Pet PRINTFILE-pages-2_images/imageFile37.png>)",
+      "page_range": [
+        0,
+        0
+      ],
+      "docling_refs": [],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0,
+      "raw_blocks": null
+    },
+    {
+      "id": "sec_028",
+      "type": "theoretical",
+      "title": "Lesson : 8 Animal Life > Glossary > I. Answer the following question. > ACTIVITY > Draw any animal of your choice and name it.",
+      "content_text": "PRINTFILE-pages-2_images/imageFile38.png>) Life Skills Animals also have feelings. Do not hurt animals. They will be friendly to us. Protect animals. ---",
+      "page_range": [
+        0,
+        0
+      ],
+      "docling_refs": [],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0,
+      "raw_blocks": null
+    },
+    {
+      "id": "sec_029",
+      "type": "theoretical",
+      "title": "Lesson : 8 Animal Life > Section Content Previews",
+      "content_text": "| # | Section Title | Content Preview (first 200 chars) | |---|---|---| | 1 | Lesson : 8 Animal Life | - We Learn - Do you have any pet animals? _____________________________ - How do you look after you pet animal? _____________________________ | | 2 | Highlights of the Lesson | - Animals around us - Land Animals - Water Animals - Birds - Insects - Animal Homes Animals are living beings like us which are found in nature. Animals are found all over the world and they need food | | 3 | Water animals. | Animals that live in water are called “Water Animals or Aquatic Animals”. [IMAGE: PRINTFILE-pages-2_images/imageFile4.png>)] | | 4 | Land animals. | Animals that live on land are called “Land Animals”. [IMAGE: PRINTFILE-pages-2_images/imageFile5.png>)] [IMAGE: ![](<RPS - EVS - CLASS 1 - INDIVIDUAL - | | 5 | Birds | Birds are the animals with feathers, wings and two-legs and a beak without teeth. [IMAGE: PRINTFILE-pages-2_images/imageFile8.png>)] [IMAGE: ![](<RPS - | | 6 | Insects | Very small animals are called “Insects”. They have six legs. Some insects have wings to fly. [IMAGE: PRINTFILE-pages-2_images/imageFile12.png>)] [IMAGE | | 7 | Animal Homes : | Animals need home to live and food to grow. Different animals eat different kinds of food and live in different homes. [IMAGE: PRINTFILE-pages-2_images | | 8 | Lions : | - Lions live in caves in forests. - These caves are called “Dens”. - They eat flesh of other animals. [IMAGE: PRINTFILE-pages-2_images/imageFile21.png> | | 9 | Rabbits : | - They are burrowing animals and live in burrows - They eat vegetables. Birds : - Birds build their own nest. - They eat seeds, berries, fruit, insects, etc. Ants : - They make a hill-like structure u | | 10 | Domestic and pet animals are kept in human-made homes. A dog lives in a kennel | [IMAGE: PRINTFILE-pages-2_images/imageFile26.png>)] [IMAGE: PRINTFILE-pages-2_images/imageFile27.png>) | | 11 | Let’s Recall | - Animals live both on land and in water. - Animals are of different sizes. - Animals that can fly are called birds. - Very small animals are called insects. - Animals that can be kept at home are dom | | 12 | Glossary | - Birds : Animals that can fly are called birds. - Insects : Very small animals are called insects. - Domestic animals: animals that can be kept at home. - Wild animals : Animals that live in jungle.. | | 13 | I. Answer the following question. | - 1. Name any two pet animals. ________________________________________________________________ - 2. Where are dogs kept? ________________________________________________________________ - 3. What do | | 14 | II. Fill in the blanks. | - 1. Rabbits live in _______________________. - 2. Birds have _______________________ to fly. - 3. Animals that live in water are called _______________________. - 4. Insects have ____________________ | | 15 | III. Choose the correct answer. | - 1. Fish live in _______________________. a) water b) land c) both water and land - 2. Animals that live on land are called _______________________ animals. a) land b) water c) none of these - 3. But | | 16 | ACTIVITY | (empty) | | 17 | Draw any animal of your choice and name it. | [IMAGE: PRINTFILE-pages-2_images/imageFile38.png>)] Life Skills Animals also have feelings. Do not hurt animals. They will be friendly to us. Protect a |",
+      "page_range": [
+        0,
+        0
+      ],
+      "docling_refs": [],
+      "equations": [],
+      "tables": [],
+      "figures": [],
+      "exercises": [],
+      "estimated_duration_seconds": 0,
+      "raw_blocks": null
+    }
+  ],
+  "page_range": [
+    1,
+    8
+  ],
+  "source_pdf": "C:\\Users\\user\\Downloads\\RPS - EVS - CLASS 1 - INDIVIDUAL - B (2026) PRINTFILE-pages-2.pdf",
+  "total_estimated_duration_seconds": 0,
+  "metadata": {
+    "total_pages": 8,
+    "total_images": 39,
+    "extraction_methods": {
+      "structured_markdown": "OpenDataLoader (markdown + JSON + external PNG images)",
+      "page_by_page": "PyMuPDF (pymupdf) - text, words, blocks, images"
+    }
+  }
+}

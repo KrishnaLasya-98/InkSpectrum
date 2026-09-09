@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://inkspectrum.dev/schemas/artifacts/scene_plan.schema.json",
+  "title": "ScenePlan",
+  "description": "A deterministic plan for rendering a ScriptScene.",
+  "type": "object",
+  "required": ["scene_count", "scenes"],
+  "properties": {
+    "scene_count": { "type": "integer", "minimum": 1 },
+    "scenes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["scene_id", "title", "layout", "assets_required"],
+        "properties": {
+          "scene_id": { "type": "string" },
+          "title": { "type": "string" },
+          "duration_seconds": { "type": "number", "minimum": 0 },
+          "layout": {
+            "type": "string",
+            "enum": ["title_top", "centered", "split", "fullscreen"]
+          },
+          "assets_required": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "voiceover_lines": { "type": "integer", "minimum": 0 },
+          "scene_steps": { "type": "integer", "minimum": 0 }
+        }
+      }
+    }
+  }
+}

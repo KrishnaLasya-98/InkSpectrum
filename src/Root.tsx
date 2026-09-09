@@ -1,0 +1,1 @@
+import {Composition} from 'remotion'; export const Root = () => { return <Composition id='MyVideo' component={MyComp} durationInFrames={150} fps={30} width={1920} height={1080} />; } const MyComp = () => <div style={{flex: 1, justifyContent: 'center', alignItems: 'center', fontSize: 80, background: 'white'}}>Hello Remotion!</div>;
