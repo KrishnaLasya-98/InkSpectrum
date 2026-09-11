@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "openmontage/artifacts/character_bible",
+  "title": "Character Bible",
+  "description": "Canonical reference images for all characters in a subject — used by h3-minimax-r2v for cross-clip consistency",
+  "type": "object",
+  "required": ["subject", "characters"],
+  "properties": {
+    "subject": {"type": "string", "enum": ["evs", "english", "maths"]},
+    "characters": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["name", "path", "description", "sections", "seed"],
+        "properties": {
+          "name":        {"type": "string"},
+          "path":        {"type": "string", "description": "Local path to reference PNG"},
+          "url":         {"type": "string", "description": "Uploaded URL for API calls"},
+          "description": {"type": "string", "description": "Full visual description used for Flux generation"},
+          "sections":    {"type": "array", "items": {"type": "string"}, "description": "section_ids this character appears in"},
+          "seed":        {"type": "integer", "description": "Fixed seed for deterministic reference generation"}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+# OpenMontage — Core Dependencies
+pyyaml>=6.0
+pydantic>=2.0
+jsonschema>=4.20
+python-dotenv>=1.0
+Pillow>=10.0
+numpy>=1.24
+requests>=2.31
+
+# Google / OpenAI SDKs (used only for image/video generation tools, NOT orchestration)
+google-auth>=2.0
+google-genai>=1.0.0
+openai>=2.44.0
+
+# EduStream Pro additions
+manim>=0.18.0          # ManimCE local animation renderer (ChildrensTheme base class)
+edge-tts>=6.1.9        # Free offline TTS fallback (evs-lesson-8 _gen_narration.py)
+
+# Backlot — local storyboard board server
+fastapi>=0.110
+uvicorn>=0.29
+watchfiles>=0.21
+
+# NOTE: anthropic package NOT required.
+# The AI agent (Claude/Kiro/Cursor/Kilo) IS the orchestrator — no LLM API calls
+# are made from Python for content generation or orchestration decisions.
+# Python tools handle tool calls and persistence only.
+
+# Optional — install for word-level audio alignment (no hard dependency)
+# pip install whisperx torch
+# Without it, NarrationTextSyncer uses proportional linear interpolation.

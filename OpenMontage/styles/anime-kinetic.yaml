@@ -1,0 +1,151 @@
+identity:
+  name: "Anime Kinetic Typography"
+  category: motion-graphics
+  mood: energetic, playful, emphatic, warm
+  pace: moderate
+  best_for: >
+    Animated explainers, educational content, children's videos, social shorts,
+    any narrative with narration where text should feel alive and audio-synced.
+
+visual_language:
+  color_palette:
+    primary: ["#FF6B9D", "#4ECDC4"]
+    accent: ["#FFD93D", "#FF8C42", "#A78BFA"]
+    background: "#0A0A1A"
+    text: "#F5F0E8"
+    muted: "#8B9A7E"
+  composition: centered emphasis, generous negative space, layered text depth
+  texture: soft glows, no hard edges, bokeh-like particle layers
+
+typography:
+  headings:
+    font: "Space Grotesk"
+    weight: 700
+    size_range: [72, 96]
+  key_terms:
+    font: "Zen Kaku Gothic New"
+    weight: 700
+    size_range: [48, 60]
+  body:
+    font: "Noto Sans"
+    weight: 500
+    size_range: [36, 44]
+  caption:
+    font: "Noto Sans"
+    weight: 400
+    size_range: [24, 30]
+  scale_system: major_third
+  weight_matrix:
+    title: 800
+    heading: 700
+    body: 500
+    caption: 400
+
+motion:
+  transitions: [slide-scale-bounce, dissolve, swirl]
+  animation_style: >
+    Spring-heavy with audio-reactive amplitude scaling.
+    Per-word entrance: slide + scale bounce (150ms, d=14, s=180).
+    Per-word exit: fade + slide (200ms, ease-in).
+    Idle: floating (500ms loop) + breathing (1200ms scale 1.0→1.03).
+  pacing_rules:
+    min_word_hold_seconds: 0.3
+    max_words_per_line: 7
+    max_lines_on_screen: 2
+    overlap_ratio: 0.3
+    stagger_delay_ms: 50
+  entrance: slide-scale-bounce (150ms, spring d=14 s=180)
+  exit: fade-slide (200ms, ease-in)
+  idle: floating + breathing + glow-pulse
+
+kinetic_typography:
+  enabled: true
+  max_words_per_line: 7
+  max_lines: 2
+  word_enter_duration_ms: 150
+  word_exit_duration_ms: 200
+  word_highlight_duration_ms: 100
+  stagger_delay_ms: 50
+  overlap_ratio: 0.3
+  amplitude_scale_range: [0, 0.15]
+  consonant_pop_scale: 0.20
+  consonant_pop_duration_ms: 50
+  floating_duration_ms: 500
+  breathing_duration_ms: 1200
+  breathing_scale_range: [1.0, 1.03]
+  speed_lines:
+    enabled: true
+    default_trigger: emphasis
+    default_count: 24
+  particles:
+    enabled: true
+    default_type: sparkles
+    default_count: 10
+  reaction_pops:
+    enabled: true
+    emoji_set: ["😲", "✨", "💡", "🎉", "⭐", "🔥"]
+
+audio:
+  voice_style: energetic, warm, clear articulation with intentional pauses
+  music_mood: upbeat acoustic, gentle electronic, kawaii-pop
+  music_volume: 0.12
+  sfx_style: subtle whooshes, light chimes on emphasis, no harsh impacts
+  ducking_threshold_db: -4
+
+overlays:
+  definition_box:
+    bg: "rgba(78, 205, 196, 0.15)"
+    border: "#4ECDC4"
+    border_width: 2
+    radius: 12
+    padding: "12px 20px"
+  example_box:
+    bg: "rgba(255, 107, 157, 0.1)"
+    border: "#FF6B9D"
+    border_width: 2
+    radius: 8
+    padding: "10px 16px"
+  question_badge:
+    prefix_emoji: "❓"
+    text_color: "#A78BFA"
+    scale: 1.05
+
+quality_rules:
+  - "Maximum 7 words per line, maximum 2 lines visible at once"
+  - "Every word must have deterministic entrance/exit tied to transcript timestamps"
+  - "Audio-reactive scale must use pre-computed RMS envelope (no per-frame audio decode)"
+  - "Plosive detection triggers consonant-pop within ±30ms of word onset"
+  - "Speed lines must fade in/out, never appear/disappear instantly"
+  - "Particle counts capped at 30 per word, 60 per scene to maintain 30fps"
+  - "All animation values must be clamped to [0, 1] before Remotion interpolation"
+  - "No Math.random() or Date.now() — all randomness seeded from word index"
+
+chart_palette:
+  - "#FF6B9D"
+  - "#4ECDC4"
+  - "#FFD93D"
+  - "#FF8C42"
+  - "#A78BFA"
+  - "#F5F0E8"
+
+color_rules:
+  harmony_type: analogous
+  contrast_validation: true
+  colorblind_safe: true
+
+hyperframes_vars:
+  "--color-bg": "#0A0A1A"
+  "--color-fg": "#F5F0E8"
+  "--color-primary": "#FF6B9D"
+  "--color-accent": "#FFD93D"
+  "--color-secondary": "#4ECDC4"
+  "--color-surface": "#1A1A2E"
+  "--color-muted": "#8B9A7E"
+  "--font-heading": "Space Grotesk"
+  "--font-body": "Noto Sans"
+  "--ease-entrance": "cubic-bezier(0.34, 1.56, 0.64, 1)"
+  "--duration-entrance": "150ms"
+  "--duration-exit": "200ms"
+  "--duration-stagger": "50ms"
+  "--duration-float": "500ms"
+  "--duration-breathe": "1200ms"

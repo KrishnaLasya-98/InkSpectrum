@@ -1,0 +1,107 @@
+name: sunshine-classroom
+display_name: Sunshine Classroom
+version: "1.0"
+description: >
+  Child-optimised design system for Class 1 educational videos (ages 5–7).
+  Based on EEG-validated warm palette research (Frontiers 2026) and
+  Blippi/CoComelon/Khan Academy Kids production conventions.
+  All colours are WCAG 4.5:1 contrast-tested against the warm cream background.
+
+# ── Visual language ────────────────────────────────────────────────────────
+visual_language:
+  color_palette:
+    background: "#FFFDF0"     # warm cream — reduces eye strain for young viewers
+    primary:    "#FF8C42"     # energetic orange — highest attention response (EEG)
+    secondary:  "#4ECDC4"     # sky teal — calm complement
+    accent:     "#FFD93D"     # sunflower yellow — numbers, highlights
+    evs_green:  "#6BCB77"     # leaf green — EVS / nature themes
+    english_purple: "#845EC2" # storytelling purple — English narrative
+    qa_reveal:  "#FF6B9D"     # coral pink — answer reveals
+    text:       "#2D2D2D"     # near-black — softer than pure black for children
+    surface:    "#FFFFFF"     # card backgrounds
+    muted_text: "#9CA3AF"     # wrong-answer fades, metadata
+    error:      "#EF4444"     # clear but not scary red
+  mood: warm, energetic, friendly
+  target_age: "5-7"
+
+# ── Typography ─────────────────────────────────────────────────────────────
+typography:
+  heading:
+    font: Nunito
+    weight: ExtraBold
+    size_range: [64, 96]
+    note: Rounded letterforms reduce reading difficulty for early readers
+  body:
+    font: Nunito
+    weight: SemiBold
+    size_range: [44, 56]
+  qa_question:
+    font: Nunito
+    weight: Bold
+    size: 52
+  qa_answer:
+    font: Nunito
+    weight: ExtraBold
+    size: 60
+    color: "#FF6B9D"
+  min_font_size: 38    # never smaller — must be legible on classroom projector
+
+# ── Motion ─────────────────────────────────────────────────────────────────
+motion:
+  pace: slow            # children need slower reveals than adult content
+  spring:
+    damping: 14
+    stiffness: 60
+    mass: 1.2
+  concept_entry: "scale 0→1.15→1 bounce (children respond to bouncy motion)"
+  word_entry: "stagger 80ms per word maximum"
+  answer_reveal: "scale 0.8→1.0 + colour glow 50ms"
+  transition: "circular wipe or slide from character direction"
+  max_concept_hold_seconds: 5    # 6-year-old attention span limit
+  narration_wpm: 120             # slower than adult TTS defaults
+
+# ── Audio ──────────────────────────────────────────────────────────────────
+audio:
+  narration_lufs: -14
+  music_lufs: -18
+  music_ducked_lufs: -28
+  correct_answer_sfx: xylophone chime 200ms
+  wrong_answer_sfx: gentle whoops (no buzzer)
+  chapter_jingle_duration: 2s
+  tts_voice: nova
+  tts_speed: "0.8"
+  tts_model: text-to-speech   # ModelsLab, free/unlimited
+
+# ── Mascot ─────────────────────────────────────────────────────────────────
+mascot:
+  name: Sparky
+  description: Friendly animated star character — consistent across all subjects
+  appears_at:
+    - chapter openings
+    - correct answer reveals
+    - activity prompts
+  implementation: inline SVG (no external asset dependency)
+
+# ── Rendering hints ────────────────────────────────────────────────────────
+rendering:
+  default_runtime: remotion
+  fps: 30
+  resolution: "1920x1080"
+  background_color: "#FFFDF0"
+  font_stack: "Nunito, 'Segoe UI', Arial, sans-serif"
+  border_radius_default: 20px
+  card_shadow: "0 4px 24px rgba(0,0,0,0.08)"
+
+# ── HyperFrames CSS variable mapping ───────────────────────────────────────
+hyperframes_vars:
+  "--color-bg":        "#FFFDF0"
+  "--color-fg":        "#2D2D2D"
+  "--color-primary":   "#FF8C42"
+  "--color-accent":    "#FFD93D"
+  "--color-secondary": "#4ECDC4"
+  "--color-surface":   "#FFFFFF"
+  "--color-muted":     "#9CA3AF"
+  "--font-heading":    "Nunito"
+  "--font-body":       "Nunito"
+  "--ease-entrance":   "cubic-bezier(0.34, 1.56, 0.64, 1)"  # bouncy
+  "--duration-entrance": "0.6s"

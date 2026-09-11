@@ -1,0 +1,271 @@
+name: edustream-pro
+version: "1.0"
+description: >
+  Automated PDF-to-animated-video pipeline for Class 1 primary school students
+  (ages 5–7). Produces one chapter video per subject (EVS / English / Maths)
+  using a LASEV-pattern multi-agent orchestrator, ChildrensTheme Manim,
+  EduQAScene Remotion, HyperFrames title cards, ModelsLab Wan2.2 video
+  generation, and ModelsLab text-to-speech narration.
+
+  The AI agent (Claude / Kiro / Cursor / Kilo) IS the orchestrator.
+  Python tools handle tool calls and persistence only.
+  Entry point: python -m tools.structure.subject_pipeline_runner --subject <evs|english|maths>
+
+category: generated
+stability: production
+default_checkpoint_policy: guided
+extensions:
+  custom_scripts: true
+  custom_playbooks: true
+  custom_skills: true
+  custom_tools: true
+
+# ── Subjects supported ──────────────────────────────────────────────────────
+subjects:
+  evs:
+    chapter: 8
+    title: "Animal Life"
+    subject_type: theory
+    source_md: "RPS - EVS - CLASS 1 - INDIVIDUAL - B (2026) PRINTFILE-pages-2.md"
+  english:
+    chapter: 1
+    title: "At the Beach"
+    subject_type: mixed
+    source_md: "RPS - ENGLISH - CLASS 1 - INDIVIDUAL - A (2026) PRINTFILE (2)-pages-2.md"
+  maths:
+    chapter: 8
+    title: "2-Digit Numbers 51 to 100"
+    subject_type: mathematics
+    source_md: "RPS - MATHS - CLASS 1 - INDIVIDUAL - B (2026) PRINTFILE-pages-2.md"
+
+# ── Required skills ─────────────────────────────────────────────────────────
+required_skills:
+  - edustream/orchestrating-agent
+  - edustream/pipeline-runner
+  - edustream/input-director
+  - edustream/content-director
+  - edustream/scene-director
+  - edustream/voice-director
+  - edustream/manim-director
+  - edustream/compose-director
+  - edustream/qa-director
+  - meta/reviewer
+  - meta/checkpoint-protocol
+
+# ── Orchestration ────────────────────────────────────────────────────────────
+orchestration:
+  mode: executive-producer
+  budget_default_usd: 0.00          # all models free/unlimited on ModelsLab plan
+  max_revisions_per_stage: 3
+  max_send_backs: 3
+  max_wall_time_minutes: 60
+
+# ── Style playbook ───────────────────────────────────────────────────────────
+style_playbook: sunshine-classroom
+compatible_playbooks:
+  recommended:
+    - sunshine-classroom
+  custom_allowed: false             # design system is locked for children's content
+
+# ── Render runtime assignments ───────────────────────────────────────────────
+render_modes:
+  manim:       "Concept diagrams, equations, classification trees, place-value"
+  remotion:    "Q&A, fill-blank, MCQ, glossary, recall summaries"
+  hyperframes: "Chapter title cards and transition bumpers"
+  video_gen:   "Narrative story scenes (English) + EVS animal scenes"
+
+# ── ModelsLab models ─────────────────────────────────────────────────────────
+modelslab:
+  keyframe_image:     flux-dev           # Flux.2 Dev text-to-image (free)
+  image_upscaler:     ImageUpscaler      # pre-animation quality lift (free)
+  video_primary:      wan2.2             # image-to-video (free/unlimited)
+  video_narrative:    h3-minimax-t2v     # text-to-video fallback (free)
+  video_fast:         ltx-2.3           # fast iteration (free)
+  tts_primary:        text-to-speech    # nova voice, speed 0.8 (free/unlimited)
+  tts_qa:             text-to-speech    # sophia voice, speed 0.75
+  tts_recall:         text-to-speech    # bella voice, speed 0.85
+  tts_regional:       eleven_multilingual_v2  # Tamil/regional (check plan)
+  stt_qa:             speech-to-text    # narration QA loop (free)
+  music:              ai-music-generator  # background bed (free)
+  sfx:                SoundEffect        # chimes, jingles (free)
+  background_remove:  RemoveBackground   # compositing prep (free)
+
+# ── Stages ───────────────────────────────────────────────────────────────────
+stages:
+  # ── Stage 0: Input ingestion ───────────────────────────────────────────────
+  - name: input_ingestion
+    skill: edustream/input-director
+    produces:
+      - extracted_content
+      - section_blocks
+    tools_available:
+      - section_parser
+      - hybrid_pdf_extractor
+    checkpoint_required: true
+    human_approval_default: false
+    success_criteria:
+      - section_blocks.json written with ≥4 blocks
+      - block types include concept, qa_item, glossary
+
+  # ── Stage 1: Content structuring ──────────────────────────────────────────
+  - name: content_structuring
+    skill: edustream/content-director
+    required_artifacts_in:
+      - section_blocks
+    produces:
+      - educational_plan
+      - decision_log
+    tools_available:
+      - educational_content_generator
+    checkpoint_required: true
+    human_approval_default: true
+    review_focus:
+      - "All sections have render_mode assigned"
+      - "Narration scripts target 120 WPM (word_count ≈ duration × 2)"
+      - "No sentences longer than 12 words in children's narration"
+      - "Assessment sections assigned render_mode: remotion"
+      - "Maths/concept sections assigned render_mode: manim"
+    success_criteria:
+      - Schema-valid educational_plan with render_mode per section
+      - ≥3 sections with render_mode=manim (Maths) or ≥2 (EVS/English)
+      - ≥1 section with render_mode=hyperframes (title card)
+      - ≥1 section with render_mode=remotion (Q&A)
+
+  # ── Stage 2: Orchestration ─────────────────────────────────────────────────
+  - name: orchestration
+    skill: edustream/orchestrating-agent
+    required_artifacts_in:
+      - educational_plan
+    produces:
+      - evs_script
+      - critique_log
+    tools_available:
+      - edustream_orchestrator
+    checkpoint_required: true
+    human_approval_default: false
+    review_focus:
+      - "Semantic critique passed on all sections (no jargon, simple sentences)"
+      - "Manim code skeletons compile (AST valid, ChildrensTheme inherited)"
+      - "Alignment timeline total_duration matches educational_plan"
+    success_criteria:
+      - evs_script.json written with P, N, A triplet
+      - critique_log first_pass_rate ≥ 0.7
+
+  # ── Stage 3: Render clips ──────────────────────────────────────────────────
+  - name: render_clips
+    skill: edustream/manim-director
+    required_artifacts_in:
+      - evs_script
+    produces:
+      - clip_manifest
+      - render_report
+    tools_available:
+      - manim_generator
+      - render_mode_router
+      - hyperframes_chapter_title
+    checkpoint_required: true
+    human_approval_default: false
+    review_focus:
+      - "All manim clips render without SyntaxError"
+      - "Sunshine Classroom palette used in all Manim scenes"
+      - "Chapter title card (HyperFrames) rendered successfully"
+      - "No video_gen clips have anatomy errors or text watermarks"
+    success_criteria:
+      - clip_manifest.json with ≥80% clips successful
+      - failed_clips = 0 (or acceptable with retry)
+
+  # ── Stage 4: Voice synthesis ───────────────────────────────────────────────
+  - name: voice_synthesis
+    skill: edustream/voice-director
+    required_artifacts_in:
+      - evs_script
+    produces:
+      - narration_manifest
+    tools_available:
+      - voice_synthesis_pipeline
+    checkpoint_required: true
+    human_approval_default: false
+    review_focus:
+      - "All segments synthesised with text-to-speech (nova, free/unlimited)"
+      - "STT QA: word-error-rate < 5% on all segments"
+      - "Animal names / number words pronounced correctly"
+    success_criteria:
+      - narration_manifest.json with all segments
+      - qa_report.qa_issues = [] (or ≤2 minor issues)
+
+  # ── Stage 5: Composition ───────────────────────────────────────────────────
+  - name: composition
+    skill: edustream/compose-director
+    required_artifacts_in:
+      - clip_manifest
+      - narration_manifest
+    produces:
+      - render_report
+      - final_review
+    tools_available:
+      - av_composer
+      - subject_pipeline_runner
+    checkpoint_required: true
+    human_approval_default: false
+    review_focus:
+      - "Chapter title card (3s) is first clip"
+      - "All clips concatenated in section order"
+      - "Narration audio muxed and loudness-normalised at -14 LUFS"
+      - "Subtitles burned (Nunito, 22pt, white with outline)"
+    success_criteria:
+      - {subject}_chapter_final.mp4 exists and passes ffprobe
+      - Duration matches sum of section durations ± 10%
+
+  # ── Stage 4b: Text-audio alignment ───────────────────────────────────────
+  - name: text_audio_alignment
+    skill: edustream/qa-director
+    required_artifacts_in:
+      - narration_manifest
+      - educational_plan
+    produces:
+      - narration_aligned
+      - word_captions
+      - formatted_srt
+      - qa_card_props
+    tools_available:
+      - narration_text_syncer
+    checkpoint_required: false
+    human_approval_default: false
+    review_focus:
+      - "Word-level alignment method: whisperx (preferred) or linear_interpolation"
+      - "formatted_subtitles.srt exists and has >80% coverage"
+      - "qa_card_props.json has reveal timings for all Q&A sections"
+      - "No subtitle block shorter than 400ms"
+    success_criteria:
+      - narration_aligned.json written
+      - formatted_subtitles.srt written with correct timestamps
+      - QA card reveal timings derived from audio (not hardcoded 2.5s)
+
+  # ── Stage 6: Final stage + agent tour ─────────────────────────────────────
+  - name: quality_assurance
+    skill: edustream/qa-director
+    required_artifacts_in:
+      - render_report
+      - final_review
+    produces:
+      - publish_log
+      - agent_tour
+    tools_available:
+      - final_stage_director
+      - quality_assurance
+      - export_bundle
+    checkpoint_required: true
+    human_approval_default: true
+    review_focus:
+      - "Read agent_tour.md before presenting to user"
+      - "Layer 1 technical probe: audio stream present, duration ≥ 5s"
+      - "Layer 2 visual spotcheck: no black frames, 6 frame grabs extracted"
+      - "Layer 3 audio: LUFS between -22 and -8, no clipping"
+      - "Layer 4 subtitles: coverage ≥ 70%, timing drift < 5s"
+      - "Layer 5 content: narration WPM 80–145, no failed clips"
+      - "Layer 6 QA gate: all 5 checks passed"
+    success_criteria:
+      - agent_tour.md written and printed to stdout
+      - final_review.json status = 'pass'
+      - Export bundle written to exports/{subject}/
+      - Frame snapshots written to renders/snapshots/

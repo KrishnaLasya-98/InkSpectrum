@@ -1,0 +1,231 @@
+name: educational-video
+version: "1.0"
+description: >
+  End-to-end pipeline for transforming K-10 PDF textbook chapters into
+  educational videos. Integrates OpenDataLoader/Marker for PDF extraction,
+  EduGen-style pedagogical content structuring, VoiceStudio TTS, and
+  Code2Video-style Manim generation with Critc VLM feedback.
+category: generated
+stability: production
+default_checkpoint_policy: guided
+extensions:
+  custom_scripts: true
+  custom_playbooks: true
+  custom_skills: true
+  custom_tools: true
+required_skills:
+  - edustream/input-director
+  - edustream/content-director
+  - edustream/scene-director
+  - edustream/voice-director
+  - edustream/manim-director
+  - edustream/compose-director
+  - edustream/qa-director
+  - meta/reviewer
+  - meta/checkpoint-protocol
+orchestration:
+  mode: executive-producer
+  budget_default_usd: 5.00
+  max_revisions_per_stage: 3
+  max_send_backs: 3
+  max_wall_time_minutes: 45
+compatible_playbooks:
+  recommended:
+    - clean-professional
+    - minimalist-diagram
+  also_works:
+    - flat-motion-graphics
+  custom_allowed: true
+stages:
+  # ── Stage 0: Input Ingestion ──────────────────────────────────────
+  - name: input_ingestion
+    skill: edustream/input-director
+    produces:
+      - extracted_content
+    required_tools: []
+    optional_tools:
+      - opendataloader_pdf
+      - marker_pdf
+    tools_available:
+      - hybrid_pdf_extractor
+    checkpoint_required: true
+    human_approval_default: false
+    review_focus:
+      - "PDF extraction completeness: at least 90% of pages extracted"
+      - "Mathematical content preserved with LaTeX or MathML tags"
+      - "Reading order and section hierarchy preserved"
+      - "Tables and figures captured with bounding boxes"
+    success_criteria:
+      - Schema-valid extracted_content artifact
+      - extraction_confidence_score >= 0.85
+      - all_formula_blocks identified and tagged
+  # ── Stage 1: Content Structuring ──────────────────────────────────
+  - name: content_structuring
+    skill: edustream/content-director
+    required_artifacts_in:
+      - extracted_content
+    produces:
+      - educational_plan
+      - decision_log
+    required_tools: []
+    tools_available: []
+    checkpoint_required: true
+    human_approval_default: true
+    review_focus:
+      - "Learning objectives are age-appropriate for K-10 level"
+      - "Educational breakdown covers all source material sections"
+      - "Narration scripts are conversational and grade-appropriate"
+      - "Math content is explained step-by-step with proper LaTeX"
+      - "Assessment questions are aligned with learning objectives"
+    success_criteria:
+      - Schema-valid educational_plan artifact
+      - At least 3 educational sections generated
+      - Narration scripts cover 100% of plan duration
+      - approval.status is "approved" or "approved_with_changes" before proceeding
+  # ── Stage 2: Scene Plan & Assets ──────────────────────────────────
+  - name: scene_plan
+    skill: edustream/scene-director
+    required_artifacts_in:
+      - educational_plan
+    produces:
+      - scene_plan
+    required_tools:
+      - image_selector
+      - diagram_gen
+    optional_tools:
+      - video_selector
+      - math_animate
+      - code_snippet
+    tools_available:
+      - image_selector
+      - diagram_gen
+      - video_selector
+      - math_animate
+      - code_snippet
+    checkpoint_required: true
+    human_approval_default: false
+    review_focus:
+      - "All educational_plan sections mapped to scenes"
+      - "At least 3 different scene types used"
+      - "6x6 grid positioning specified for all visual elements"
+      - "Math animation requirements identified and tagged"
+      - "Required assets traceable to generation tools"
+    success_criteria:
+      - Schema-valid scene_plan artifact
+      - All narrative beats covered with no gaps
+      - required_assets traceable to tool capabilities
+  # ── Stage 3: Voice Synthesis ─────────────────────────────────────
+  - name: voice_synthesis
+    skill: edustream/voice-director
+    required_artifacts_in:
+      - educational_plan
+      - scene_plan
+    produces:
+      - narration_manifest
+    required_tools:
+      - tts_selector
+    tools_available:
+      - tts_selector
+      - elevenlabs_tts
+      - google_tts
+      - azure_tts
+      - piper_tts
+    checkpoint_required: true
+    human_approval_default: false
+    review_focus:
+      - "All narration scripts synthesized to audio"
+      - "Child-friendly voice selected for K-10 content"
+      - "SSML delivery cues applied (pace, emphasis, pauses)"
+      - "Audio levels normalized (-14 LUFS target)"
+      - "Multi-language support for ESL audiences"
+    success_criteria:
+      - Schema-valid narration_manifest artifact
+      - All audio files exist and are playable
+      - Total audio duration matches script timing within 5%
+  # ── Stage 4: Manim Generation ─────────────────────────────────────
+  - name: manim_generation
+    skill: edustream/manim-director
+    required_artifacts_in:
+      - educational_plan
+      - scene_plan
+      - narration_manifest
+    produces:
+      - render_report
+    required_tools:
+      - manim_render
+    optional_tools:
+      - manim_fix
+      - gemini_vlm
+    tools_available:
+      - manim_render
+      - manim_fix
+      - gemini_vlm
+    checkpoint_required: true
+    human_approval_default: false
+    review_focus:
+      - "All sections rendered to MP4 successfully"
+      - "Math equations rendered correctly via MathTex"
+      - "6x6 grid layout adheres to scene_plan positioning"
+      - "Self-healing loops did not exceed max retry limits"
+      - "Critic VLM feedback loop completed"
+    success_criteria:
+      - Schema-valid render_report artifact
+      - All section videos exist and pass ffprobe validation
+      - slideshow_risk_score.average < 0.6
+  # ── Stage 5: Composition ───────────────────────────────────────────
+  - name: composition
+    skill: edustream/compose-director
+    required_artifacts_in:
+      - scene_plan
+      - asset_manifest
+      - narration_manifest
+      - render_report
+    produces:
+      - render_report
+      - final_review
+    required_tools:
+      - video_compose
+      - audio_mixer
+    optional_tools:
+      - background_remove
+      - color_grade
+    tools_available:
+      - video_compose
+      - audio_mixer
+      - background_remove
+      - color_grade
+    checkpoint_required: true
+    human_approval_default: false
+    review_focus:
+      - "Final video duration matches target within 5%"
+      - "Audio-video sync within 100ms tolerance"
+      - "Background music ducked during narration"
+      - "No visual artifacts or encoding issues"
+    success_criteria:
+      - Schema-valid render_report with output paths
+      - Output file exists and passes ffprobe validation
+      - render_runtime matches proposal_packet selection
+  # ── Stage 6: Quality Assurance & Publish ─────────────────────────
+  - name: quality_assurance
+    skill: edustream/qa-director
+    required_artifacts_in:
+      - render_report
+      - final_review
+    produces:
+      - publish_log
+    required_tools: []
+    tools_available:
+      - export_bundle
+      - youtube_upload
+    checkpoint_required: true
+    human_approval_default: true
+    review_focus:
+      - "LLM-as-judge fidelity: video matches educational_plan"
+      - "VLM evaluation: all 5 dimensions score >= 15/20"
+      - "Audio quality: clear narration, balanced music"
+      - "Educational accuracy: math formulas rendered correctly"
+      - "Export package contains video, metadata, and thumbnails"
+    success_criteria:
+      - Schema-valid publish_log artifact
+      - Quality scores passed all thresholds
+      - Export bundle verified with all required files

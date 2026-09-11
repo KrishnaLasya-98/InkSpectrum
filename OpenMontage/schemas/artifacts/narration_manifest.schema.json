@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "openmontage/artifacts/narration_manifest",
+  "title": "Narration Manifest",
+  "description": "Inventory of synthesized narration audio segments",
+  "type": "object",
+  "required": ["version", "engine_used", "voice_name", "segments", "total_duration_seconds"],
+  "properties": {
+    "version": {"const": "1.0", "type": "string"},
+    "engine_used": {"type": "string"},
+    "voice_name": {"type": "string"},
+    "voice_characteristics": {
+      "type": "object",
+      "properties": {
+        "child_friendly": {"type": "boolean"},
+        "gender": {"type": "string"},
+        "accent": {"type": "string"},
+        "pace": {"type": "string"},
+        "energy": {"type": "string"}
+      }
+    },
+    "segments": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["section_id", "text", "audio_path", "duration_seconds"],
+        "properties": {
+          "section_id": {"type": "string"},
+          "text": {"type": "string"},
+          "audio_path": {"type": "string"},
+          "duration_seconds": {"type": "number", "minimum": 0},
+          "delivery_cues_applied": {"type": "object"},
+          "cost_usd": {"type": "number", "minimum": 0}
+        }
+      }
+    },
+    "total_duration_seconds": {"type": "number", "minimum": 0},
+    "total_cost_usd": {"type": "number", "minimum": 0},
+    "metadata": {"type": "object"}
+  },
+  "additionalProperties": false
+}

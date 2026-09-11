@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "openmontage/artifacts/educational_plan",
+  "title": "Educational Plan",
+  "description": "Pedagogically structured content plan for K-10 educational video (EduStream Pro v2)",
+  "type": "object",
+  "required": ["version", "title", "subject_classification", "complexity_level", "total_duration_seconds", "sections"],
+  "properties": {
+    "version":                {"const": "1.0", "type": "string"},
+    "title":                  {"type": "string"},
+    "subject_classification": {"type": "string", "enum": ["theory", "mathematics", "mixed"]},
+    "domain":                 {"type": "string"},
+    "complexity_level":       {"type": "string", "enum": ["elementary", "middle_school", "high_school"]},
+    "target_audience":        {"type": "string"},
+    "total_duration_seconds": {"type": "number", "minimum": 30, "maximum": 3600},
+    "learning_objectives":    {"type": "array", "items": {"type": "string"}},
+    "sections": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": ["section_id", "title", "description", "narration_script", "duration_seconds", "equations", "render_mode"],
+        "properties": {
+          "section_id":        {"type": "string"},
+          "title":             {"type": "string"},
+          "description":       {"type": "string"},
+          "narration_script":  {"type": "string"},
+          "duration_seconds":  {"type": "number", "minimum": 3},
+          "equations":         {"type": "array", "items": {"type": "string"}},
+          "key_concepts":      {"type": "array", "items": {"type": "string"}},
+          "source_block_type": {
+            "type": "string",
+            "enum": ["intro", "concept", "worked_example", "story_section", "qa_item", "activity", "glossary", "recall"]
+          },
+          "render_mode": {
+            "type": "string",
+            "enum": ["manim", "remotion", "hyperframes", "video_gen"],
+            "description": "Which renderer produces this section's video clip"
+          },
+          "visual_elements": {
+            "type": "object",
+            "properties": {
+              "diagrams":     {"type": "array", "items": {"type": "string"}},
+              "animations":   {"type": "array", "items": {"type": "string"}},
+              "color_scheme": {"type": "array", "items": {"type": "string"}}
+            }
+          },
+          "transition_to_next": {"type": "string"}
+        }
+      }
+    },
+    "assessment": {
+      "type": "object",
+      "properties": {
+        "quiz_questions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["question", "type", "correct_answer"],
+            "properties": {
+              "question":       {"type": "string"},
+              "type":           {"type": "string", "enum": ["short_answer", "fill_blank", "mcq", "true_false"]},
+              "choices":        {"type": "array", "items": {"type": "string"}},
+              "correct_answer": {"type": "string"},
+              "explanation":    {"type": "string"}
+            }
+          }
+        },
+        "thought_experiments": {"type": "array", "items": {"type": "string"}},
+        "interactive_elements": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "metadata": {"type": "object"}
+  },
+  "additionalProperties": false
+}
