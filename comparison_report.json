@@ -1,0 +1,110 @@
+{
+  "files_analyzed": [
+    "D:\\InkSpectrum\\OpenMontage\\projects\\evs-lesson-8\\_compose1.py",
+    "D:\\InkSpectrum\\build_final.py",
+    "D:\\InkSpectrum\\OpenMontage\\projects\\evs-lesson-8\\_compose2.py"
+  ],
+  "pilot_file_exists": false,
+  "pilot_path_checked": "D:\\InkSpectrum\\OpenMontage\\projects\\evs-lesson-8\\renders\\pilot\\s01-water-animals-h3.mp4",
+  "bugs_in_compose1": [
+    "No fallback mechanism for missing clips - fails hard with RuntimeError if clips don't exist or are corrupt",
+    "No pilot fallback (build_final.py has this but PILOT file doesn't exist anyway)",
+    "No cover card generation fallback",
+    "CLIP_DURATION_S = 10 hardcoded assumption; clips_for_section derives clip count from target/10 without verifying those clips exist on disk first",
+    "Does not validate that the derived clip files actually exist before probe_ok (probe_ok catches it but error message could be clearer)",
+    "Resumable skip logic uses target - 1.0 tolerance which may skip segments that are slightly short"
+  ],
+  "bugs_in_build_final": [
+    "PILOT fallback at line 62 is dead code - PILOT file does not exist",
+    "clips_for() only checks file size > 100KB, not actual video validity/duration",
+    "Arbitrary limit of 3 clips per section (found[:3]) discards additional clips",
+    "norm_long() loops clips to fill duration - introduces quality loss from re-encoding loop and potential timing drift",
+    "Assertion at line 67 (abs(d-target)<1.0) may fail for norm_long path due to loop/trim imprecision; 1s tolerance is tight for looped content",
+    "Hardcoded Windows font path (C:/Windows/Fonts/arialbd.ttf) - not portable",
+    "No pre-processing integrity probe on clips before ffmpeg work",
+    "Lower encoding quality: crf 20, veryfast preset vs _compose1's crf 18, medium preset",
+    "SRT path not escaped for Windows in subtitles filter - will fail on Windows with spaces/colons in path",
+    "anullsrc base track created but narration placement uses adelay on each track - correct but _compose2 fixes amix to properly include base track",
+    "Monolithic single file - harder to maintain/test"
+  ],
+  "key_divergences": {
+    "architecture": {
+      "_compose1": "Split into two modules (_compose1.py + _compose2.py) with clean separation: video assembly vs audio/subtitles/final encode",
+      "build_final": "Single monolithic 102-line script doing everything"
+    },
+    "video_processing": {
+      "_compose1": "Direct trim per clip: each clip trimmed to target_dur/n_clips, scaled/cropped individually, then concat. No re-encoding loops. Higher quality (crf 18, medium). Pre-probes every clip for integrity (>=4s).",
+      "build_final": "norm_long(): normalize clip -> loop n times -> trim to target. Re-encodes twice. Lower quality (crf 20, veryfast). Takes max 3 clips. No pre-probe."
+    },
+    "clip_selection": {
+      "_compose1": "Derives clip count from target_duration / 10s, expects clips named {sid}-0.mp4, {sid}-1.mp4, etc. Uses ALL derived clips.",
+      "build_final": "Discovers clips on disk with glob, filters by size > 100KB, takes FIRST 3 only."
+    },
+    "fallback_strategy": {
+      "_compose1": "None - requires all clips to exist and be valid",
+      "build_final": "Three-tier: real clips (max 3) -> PILOT (dead, file missing) -> generated cover card (PIL)"
+    },
+    "audio_handling": {
+      "_compose1": "Delegates to _compose2.add_audio_and_mix(): creates silent base from script.total_duration_seconds, places each narration at section start_seconds via adelay, amix includes base track correctly (fixed in _compose2). loudnorm applied.",
+      "build_final": "Similar approach inline. Creates silent base from script.total_duration_seconds, adelay per narration, amix. loudnorm applied. _compose2 has the fix for amix input count."
+    },
+    "srt_handling": {
+      "_compose1": "Delegates to _compose2.build_subtitles(): uses section start_seconds/end_seconds and section text. Properly escapes Windows paths for subtitles filter (_escape_subtitle_path).",
+      "build_final": "Inline SRT generation using same timing/text. NO Windows path escaping - will fail on Windows if path has spaces or drive letter colon."
+    },
+    "cover_card_fallback": {
+      "_compose1": "None",
+      "build_final": "Generates colored card with PIL: section ID, label, and text wrapped. Uses hardcoded font and color palette."
+    },
+    "pilot_fallback": {
+      "_compose1": "None",
+      "build_final": "Present at line 62-63 but PILOT file does not exist - dead code"
+    },
+    "encoding_quality": {
+      "_compose1": "crf 18, preset medium, pix_fmt yuv420p",
+      "build_final": "crf 20, preset veryfast, pix_fmt yuv420p"
+    },
+    "error_handling": {
+      "_compose1": "Probes every clip before ffmpeg work; clear error messages with remediation hint",
+      "build_final": "Only checks file size; generic error messages"
+    },
+    "reporting": {
+      "_compose1": "Detailed render_report.json with per-section actual vs target, spec, subtitles path",
+      "build_final": "Similar report but less detail"
+    }
+  },
+  "assertion_line_67_analysis": {
+    "line": "assert abs(d-target)<1.0, (sid,d,target)",
+    "will_it_pass_for_all_sections": "UNLIKELY - norm_long's loop+trim approach introduces timing variance. For cover card path it will pass (exact duration). For real clips path, the double re-encode (normalize -> loop -> trim) and concat copy can drift. 1 second tolerance is tight for 10-30s sections.",
+    "risk_sections": "Sections using norm_long with real clips (most sections if clips exist)"
+  },
+  "srt_approach_in_compose1": {
+    "method": "Delegated to _compose2.build_subtitles()",
+    "source": "script.json sections array",
+    "timing": "Uses section.start_seconds and section.end_seconds directly",
+    "text": "Uses section.text",
+    "format": "Standard SRT with 1-based index, HH:MM:SS,mmm --> HH:MM:SS,mmm, text, blank line",
+    "windows_escape": "YES - _escape_subtitle_path() handles drive letter colon and spaces"
+  },
+  "recommended_standard": "_compose1.py + _compose2.py",
+  "reasoning": [
+    "Clean modular architecture (separation of concerns)",
+    "Pre-flight integrity probe on every clip prevents silent corruption",
+    "Higher encoding quality (crf 18, medium preset)",
+    "Proper Windows path escaping for subtitles filter (critical for Windows)",
+    "Correct amix filter graph including base track (fixed in _compose2)",
+    "Resumable builds with valid segment detection",
+    "Detailed render report with per-section metrics",
+    "Uses script.total_duration_seconds not hardcoded 480s",
+    "No dead code (unlike build_final's missing PILOT)"
+  ],
+  "recommended_fix_for_chosen_composer": {
+    "add_fallback_mechanism": "Add a cover card generator to _compose1/_compose2 (or new _compose3) that activates when clips_for_section returns missing/corrupt clips. Use PIL similar to build_final.card() but make font path configurable via env var or config file.",
+    "make_clip_discovery_robust": "Modify clips_for_section to glob actual files on disk (like build_final.clips_for) but KEEP the integrity probe. Derive clip list from existing files, not from target_duration/10 assumption.",
+    "handle_missing_clips_gracefully": "In build_section_segment, if clips list is empty or all clips fail probe, generate cover card segment instead of raising RuntimeError.",
+    "optional_pilot_fallback": "If PILOT file exists, use it as last resort before cover card. Keep the check but don't assume it exists.",
+    "unify_srt_path": "Ensure _compose2._escape_subtitle_path is used (already done).",
+    "configurable_encoding": "Move crf/preset to constants at top for easy tuning.",
+    "remove_dead_code": "No PILOT fallback needed unless file is actually provided."
+  }
+}
