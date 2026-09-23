@@ -1,0 +1,51 @@
+id: hyperframes-educational-v1
+version: 1.0.0
+status: locked
+runtime: hyperframes
+presentation_contract: source-faithful-book-v1
+
+canvas:
+  aspect_ratio: "16:9"
+  resolution: "1920x1080"
+  safe_margin_px: 56
+
+palette:
+  cream: "#FFF9ED"
+  ink: "#123247"
+  teaching_accent: "#A83C2D"
+  highlight_active: "#B64132"
+  highlight_inactive: "#AAB5BA"
+
+layout:
+  section_badge: "small cream panel at top-left"
+  learning_panel: "compact cream panel at top-right"
+  subtitle_lane: "stable cream lane inside bottom safe area"
+  background: "full-frame animated video for story and explanation"
+  reading_screen: "single centered source-faithful panel with subtle motion"
+
+opening_sequence:
+  - animated chapter image or video with source lesson title
+  - source We Learn questions when present
+  - source lesson highlights when present
+  - first textbook concept without a filler transition card
+
+section_modes:
+  explanation: "continuous relevant 3D animated footage plus current source sentence"
+  recall: "one exact source bullet at a time"
+  glossary: "one exact term and definition at a time"
+  assessment: "one exact question or blank with all source options"
+  activity: "exact source instruction"
+  life_skills: "complete exact source statement"
+
+locked_constraints:
+  - no empty narration screens
+  - no invented labels or decorative copy
+  - no duplicate narration paragraphs
+  - no embedded text or watermarks in generated media
+  - no clip reuse or visible looping by default
+  - all audio, visual cues, cards, and word highlights share one timing map
+  - source order and source wording are preserved for teaching and assessment content
+
+change_control:
+  policy: "Create a new template ID; never mutate this contract during a chapter."
+  approval: "Explicit user approval is required for a new template version."

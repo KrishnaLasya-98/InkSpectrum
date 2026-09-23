@@ -1,0 +1,19 @@
+---
+description: Locks the approved HyperFrames educational UI and textbook presentation contract
+alwaysApply: true
+---
+
+# Educational Template Lock
+
+- For PDF-to-video work, use `hyperframes-educational-v1` and `source-faithful-book-v1`.
+- Treat `styles/hyperframes-educational-v1.yaml` as the visual and presentation contract.
+- Content, grade pacing, subject pedagogy, and media prompts are dynamic; layout primitives are not.
+- Do not redesign colors, panel positions, subtitle lane, type hierarchy, or assessment layout inside a chapter.
+- Start narration over relevant animated footage; never use an empty title canvas.
+- Show source `We Learn` and lesson highlights only when present in the book.
+- Present textbook sections in source order with one current teaching idea at a time.
+- Use motion-first visuals for explanations and stable source-faithful screens for reading or assessment sections.
+- Keep word-highlight subtitles on the authoritative narration timing map.
+- Do not invent headings, decorative slogans, duplicate paragraphs, summaries, or filler cards.
+- Preserve recall, glossary, questions, blanks, options, activities, and life skills exactly.
+- A deliberate redesign requires a new template ID and explicit user approval.

@@ -30,6 +30,9 @@
           "text": {"type": "string"},
           "audio_path": {"type": "string"},
           "duration_seconds": {"type": "number", "minimum": 0},
+          "start_seconds": {"type": "number", "minimum": 0},
+          "end_seconds": {"type": "number", "minimum": 0},
+          "timeline_source": {"type": "string"},
           "delivery_cues_applied": {"type": "object"},
           "cost_usd": {"type": "number", "minimum": 0}
         }

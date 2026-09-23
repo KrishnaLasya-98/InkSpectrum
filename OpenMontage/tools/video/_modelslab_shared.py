@@ -6,12 +6,50 @@ file stays thin and consistent.
 
 from __future__ import annotations
 
+import base64
 import os
+import mimetypes
 import time
 from pathlib import Path
 from typing import Any
 
 from tools.base_tool import ToolResult
+
+
+def upload_modelslab_media(
+    media_path: str | Path,
+    api_key: str,
+    *,
+    timeout: int = 120,
+) -> str:
+    """Upload a local reference asset to ModelsLab and return its public URL."""
+    path = Path(media_path).resolve()
+    if not path.is_file() or path.stat().st_size == 0:
+        raise FileNotFoundError(f"ModelsLab upload source is missing or empty: {path}")
+
+    import requests  # noqa: PLC0415
+
+    mime_type = mimetypes.guess_type(path.name)[0] or "application/octet-stream"
+    with path.open("rb") as handle:
+        response = requests.post(
+            "https://modelslab.com/api/v6/realtime/upload",
+            data={"key": api_key},
+            files={"file": (path.name, handle, mime_type)},
+            timeout=timeout,
+        )
+    response.raise_for_status()
+    data = response.json()
+    url = data.get("url") or data.get("output")
+    if isinstance(url, list):
+        url = url[0] if url else None
+    if isinstance(url, str) and url:
+        return url
+
+    # ModelsLab's current SDK contract accepts base64 file inputs, while the
+    # legacy realtime upload route may be disabled for non-enterprise keys.
+    # Returning a data URI keeps local image-to-video generation self-contained.
+    encoded = base64.b64encode(path.read_bytes()).decode("ascii")
+    return f"data:{mime_type};base64,{encoded}"
 
 
 def poll_modelslab(

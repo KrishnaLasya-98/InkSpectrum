@@ -190,7 +190,9 @@ stages:
       - Narration covers all script sections
       - Narration assets apply the approved voice performance plan and sample settings
       - Total cost within approved budget from proposal_packet
-      - Image style consistency across all generated visuals
+      - Motion clips are preferred for all content visuals
+      - Images are fallback-only and are not used behind title cards
+      - Every title card is graphics-only and rendered by HyperFrames
     success_criteria:
       - Schema-valid asset_manifest with all required assets generated
       - All file paths resolve to existing files
@@ -208,7 +210,9 @@ stages:
     checkpoint_required: true
     human_approval_default: false
     review_focus:
-      - All cuts reference valid assets from manifest
+      - All cuts reference valid motion assets from manifest
+      - Content cards preserve textbook wording and punctuation
+      - Content screens contain no more than three source lines, excluding title
       - Subtitles enabled with playbook-compatible styling
       - Music configured with ducking parameters
       - No timeline gaps or overlaps

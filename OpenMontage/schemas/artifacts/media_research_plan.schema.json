@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "openmontage/artifacts/media_research_plan",
+  "title": "Educational Media Research Plan",
+  "type": "object",
+  "required": ["version", "subject", "subject_family", "scenes", "search_scene_count", "selection_policy"],
+  "properties": {
+    "version": {"const": "1.0", "type": "string"},
+    "subject": {"type": "string", "minLength": 1},
+    "subject_family": {"type": "string"},
+    "search_scene_count": {"type": "integer", "minimum": 0},
+    "selection_policy": {"type": "object"},
+    "scenes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["scene_id", "subject_family", "recommended_treatment", "search_required", "queries", "preferred_sources", "fallback_strategy", "rationale", "selection_status"],
+        "properties": {
+          "scene_id": {"type": "string"},
+          "subject_family": {"type": "string"},
+          "recommended_treatment": {"type": "string"},
+          "search_required": {"type": "boolean"},
+          "queries": {"type": "array", "items": {"type": "string"}},
+          "preferred_sources": {"type": "array", "items": {"type": "string"}},
+          "fallback_strategy": {"type": "string"},
+          "rationale": {"type": "string"},
+          "selection_status": {"enum": ["pending_review", "not_required"]}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

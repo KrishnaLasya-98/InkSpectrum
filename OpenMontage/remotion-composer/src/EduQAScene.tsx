@@ -280,9 +280,9 @@ const MCQCard: React.FC<{ card: QACard; fps: number }> = ({ card, fps }) => {
             ? spring({ frame: frame - revealDelay, fps, config: { damping: 8, stiffness: 260 }, from: 0.9, to: 1.08 })
             : 1;
 
-          let bg    = `${SC.SECONDARY}18`;
-          let border = SC.SECONDARY;
-          let textColor = SC.TEXT;
+          let bg: string    = `${SC.SECONDARY}18`;
+          let border: string = SC.SECONDARY;
+          let textColor: string = SC.TEXT;
           if (revealed && isCorrect) {
             bg     = `${SC.CORRECT}33`;
             border = SC.CORRECT;

@@ -103,13 +103,22 @@ try:
     }
     
     test_extracted = {
-        'version': '1.0',
+        'version': '1.1',
         'title': 'Test Chapter',
         'source_pdf': '/fake/path.pdf',
         'extraction_tool_used': 'opendataloader_local',
         'confidence_score': 0.92,
         'total_pages': 10,
-        'sections': [],
+        'pages_extracted': 10,
+        'sections': [
+            {
+                'section_id': 's1',
+                'title': 'Introduction',
+                'content': 'Sample extracted body text for the chapter.',
+                'content_preview': 'Sample extracted body text for the chapter.',
+                'content_type': 'theory',
+            }
+        ],
         'metadata': {}
     }
     

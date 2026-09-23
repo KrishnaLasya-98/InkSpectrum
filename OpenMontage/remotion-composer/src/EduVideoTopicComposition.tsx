@@ -30,8 +30,7 @@ export interface SceneData {
   lighting_to?: string;
   camera_motion?: CameraMotion;
   narration_url?: string;
-  word_alignment_path?: string;
-  word_alignment?: TranscriptData;
+  word_alignment_data?: any;
   video_clip?: string;
   assessment_type?: string;
   glossary_terms?: Array<{ term: string; definition: string; start: number; end: number }>;
@@ -42,6 +41,9 @@ export interface ScenePlanData {
   version: string;
   style_playbook?: string;
   scenes: SceneData[];
+  total_frames?: number;
+  fps?: number;
+  resolution?: { width: number; height: number };
 }
 
 export interface EduVideoTopicCompositionProps {
@@ -55,41 +57,14 @@ function topicKey(scene: SceneData): string {
   return scene.id.replace(/\d+.*$/, "") || scene.type;
 }
 
-function loadTranscript(input?: string | TranscriptData): TranscriptData {
+function loadTranscript(input?: any): TranscriptData {
   if (!input) {
     return { word_timestamps: [], sentences: [], audio_metadata: { duration_seconds: 0, rms_amplitude: [] } };
   }
   if (typeof input === "object" && Array.isArray((input as any).word_timestamps)) {
     return input as TranscriptData;
   }
-  const path = input as string;
-  try {
-    const raw = require(path);
-    const words = (raw.words || []).map((w: any, i: number) => ({
-      word: w.word || w.text || "",
-      start: w.start ?? 0,
-      end: w.end ?? 0,
-      index: i,
-      isPlosive: /[ptkbdg]/i.test(w.word || w.text || ""),
-      isEmphasis: false,
-      amplitude: 0,
-      pauseAfterMs: 0,
-    }));
-    const fullText = words.map((w) => w.word).join(" ");
-    return {
-      word_timestamps: words.map((w) => ({ word: w.word, start: w.start, end: w.end })),
-      sentences: [
-        {
-          text: fullText,
-          start: words[0]?.start ?? 0,
-          end: words[words.length - 1]?.end ?? 0,
-        },
-      ],
-      audio_metadata: { duration_seconds: words[words.length - 1]?.end ?? 0, rms_amplitude: [] },
-    };
-  } catch {
-    return { word_timestamps: [], sentences: [], audio_metadata: { duration_seconds: 0, rms_amplitude: [] } };
-  }
+  return { word_timestamps: [], sentences: [], audio_metadata: { duration_seconds: 0, rms_amplitude: [] } };
 }
 
 const CameraMotion: React.FC<{ motion: CameraMotion; children: React.ReactNode }> = ({
@@ -236,23 +211,12 @@ const SceneLayer: React.FC<{ scene: SceneData; theme: ThemeConfig }> = ({
     <AbsoluteFill style={{ background: theme.backgroundColor }}>
       {scene.video_clip ? (
         <Sequence from={0} durationInFrames={durationInFrames}>
-          {scene.loop_required ? (
-            <Sequence from={0} durationInFrames={durationInFrames} loop>
-              <CameraMotion motion={camera}>
-                <OffthreadVideo
-                  src={resolveAsset(scene.video_clip)}
-                  style={{ width: "100%", height: "100%", objectFit: "cover" }}
-                />
-              </CameraMotion>
-            </Sequence>
-          ) : (
-            <CameraMotion motion={camera}>
-              <OffthreadVideo
-                src={resolveAsset(scene.video_clip)}
-                style={{ width: "100%", height: "100%", objectFit: "cover" }}
-              />
-            </CameraMotion>
-          )}
+          <CameraMotion motion={camera}>
+            <OffthreadVideo
+              src={resolveAsset(scene.video_clip)}
+              style={{ width: "100%", height: "100%", objectFit: "cover" }}
+            />
+          </CameraMotion>
         </Sequence>
       ) : (
         <AnimeScene
@@ -276,7 +240,7 @@ const SceneLayer: React.FC<{ scene: SceneData; theme: ThemeConfig }> = ({
       {scene.narration_url && (
         <Sequence from={0} durationInFrames={durationInFrames}>
           <KineticTypography
-            transcript={loadTranscript(scene.word_alignment || scene.word_alignment_path)}
+            transcript={loadTranscript(scene.word_alignment_data)}
             currentTime={frame / fps}
             config={{
               textColor: theme.textColor,
@@ -341,7 +305,7 @@ export const EduVideoTopicComposition: React.FC<EduVideoTopicCompositionProps> =
             i < topics.length - 1 ? (
               <TransitionSeries.Transition
                 key={`t-${t.key}`}
-                timing={springTiming({ fps: 30, config: { damping: 20, stiffness: 80 } })}
+                timing={springTiming({ config: { damping: 20, stiffness: 80 } })}
                 presentation={fade()}
               />
             ) : null;

@@ -216,7 +216,7 @@ class EducationalContentGenerator(BaseTool):
     tier = ToolTier.CORE
     capability = "content_generation"
     provider = "openmontage"
-    stability = ToolStability.STABLE
+    stability = ToolStability.PRODUCTION
     execution_mode = ExecutionMode.SYNC
     determinism = Determinism.SEEDED
     runtime = ToolRuntime.LOCAL     # local only — no API calls

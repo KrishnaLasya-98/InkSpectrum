@@ -332,7 +332,7 @@ export const Root: React.FC = () => {
       />
       <Composition
         id="EduQAScene"
-        component={EduQAScene}
+        component={EduQAScene as any}
         durationInFrames={30 * 60}
         fps={30}
         width={1920}
@@ -372,7 +372,7 @@ export const Root: React.FC = () => {
       />
       <Composition
         id="EduVideoTopic"
-        component={EduVideoTopicComposition}
+        component={EduVideoTopicComposition as any}
         durationInFrames={30 * 480}
         fps={30}
         width={1920}

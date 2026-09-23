@@ -112,7 +112,7 @@ class AVComposer(BaseTool):
     tier = ToolTier.CORE
     capability = "av_composition"
     provider = "openmontage"
-    stability = ToolStability.STABLE
+    stability = ToolStability.PRODUCTION
     execution_mode = ExecutionMode.SYNC
     determinism = Determinism.DETERMINISTIC
     runtime = ToolRuntime.LOCAL

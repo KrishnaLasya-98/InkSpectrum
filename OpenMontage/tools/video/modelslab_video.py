@@ -30,6 +30,7 @@ from tools.video._modelslab_shared import (
     estimate_modelslab_runtime,
     poll_modelslab,
     submit_modelslab,
+    upload_modelslab_media,
 )
 
 
@@ -86,6 +87,10 @@ class ModelsLabVideo(BaseTool):
         "required": ["prompt"],
         "properties": {
             "prompt": {"type": "string"},
+            "negative_prompt": {
+                "type": "string",
+                "description": "Visual and motion artifacts the provider should avoid",
+            },
             "operation": {
                 "type": "string",
                 "enum": [
@@ -149,8 +154,20 @@ class ModelsLabVideo(BaseTool):
             },
             "resolution": {
                 "type": "string",
-                "enum": ["480p", "720p", "1080p"],
+                "enum": ["480p", "720p", "768P", "1080p"],
                 "default": "720p",
+            },
+            "fps": {
+                "type": "integer",
+                "minimum": 16,
+                "maximum": 25,
+                "description": "Output frame rate for models that expose FPS controls",
+            },
+            "num_frames": {
+                "type": "integer",
+                "minimum": 81,
+                "maximum": 122,
+                "description": "Frame count for ModelsLab Wan 2.2 variants",
             },
             "generate_audio": {
                 "type": "boolean",
@@ -218,6 +235,11 @@ class ModelsLabVideo(BaseTool):
                 "description": "Optional seed for reproducibility",
             },
             "output_path": {"type": "string"},
+            "submit_only": {
+                "type": "boolean",
+                "default": False,
+                "description": "Return the provider request ID without waiting for completion",
+            },
         },
     }
 
@@ -279,7 +301,29 @@ class ModelsLabVideo(BaseTool):
             "h3-minimax-start-end-frame",
             "h3-minimax-r2v",
         )
-        if is_h3_minimax:
+        is_wan22_t2v = model_id in {"wan2.2", "wan-2.2-t2v"}
+        is_wan22_i2v = model_id == "wan-2.2-i2v"
+        is_wan22 = is_wan22_t2v or is_wan22_i2v
+        if is_wan22_t2v:
+            if operation != "text_to_video":
+                return ToolResult(
+                    success=False,
+                    error=(
+                        f"ModelsLab {model_id} supports text_to_video through "
+                        "the verified v6 adapter route"
+                    ),
+                )
+            url = "https://modelslab.com/api/v6/video/text2video_ultra"
+        elif is_wan22_i2v:
+            if operation != "image_to_video":
+                return ToolResult(
+                    success=False,
+                    error=(
+                        "ModelsLab wan-2.2-i2v requires operation=image_to_video"
+                    ),
+                )
+            url = "https://modelslab.com/api/v6/video/img2video_ultra"
+        elif is_h3_minimax:
             if operation == "text_to_video":
                 url = "https://modelslab.com/api/v6/video/text2video"
             elif operation == "image_to_video":
@@ -313,10 +357,26 @@ class ModelsLabVideo(BaseTool):
 
         if inputs.get("prompt"):
             payload["prompt"] = inputs["prompt"]
+        if inputs.get("negative_prompt"):
+            payload["negative_prompt"] = inputs["negative_prompt"]
         payload["model_id"] = model_id
 
         # h3-minimax models have strict param requirements per docs
-        if is_h3_minimax:
+        if is_wan22_t2v:
+            payload["fps"] = max(16, min(25, int(inputs.get("fps", 24))))
+            payload["num_frames"] = max(
+                81, min(120, int(inputs.get("num_frames", 120)))
+            )
+            payload["portrait"] = False
+            payload["output_type"] = "mp4"
+        elif is_wan22_i2v:
+            payload["fps"] = max(16, min(20, int(inputs.get("fps", 18))))
+            payload["num_frames"] = max(
+                82, min(122, int(inputs.get("num_frames", 90)))
+            )
+            payload["resolution"] = "480"
+            payload["output_type"] = "mp4"
+        elif is_h3_minimax:
             # duration: required, string, 5-15
             raw_duration = inputs.get("duration", 5)
             try:
@@ -326,10 +386,14 @@ class ModelsLabVideo(BaseTool):
             dur = max(5, min(15, dur))
             payload["duration"] = str(dur)
 
-            # resolution: optional, only "768P" supported
+            # The current H3 v6 endpoint validates this as a numeric value.
+            # The public model page still shows a JSON string in examples, but
+            # the live API rejects "768P" with "must be a number".
             res = inputs.get("resolution", "768P")
             if res in ("768P", "768p", "768"):
-                payload["resolution"] = "768P"
+                payload["resolution"] = 768
+            elif res == 768:
+                payload["resolution"] = 768
 
             # NO aspect_ratio for h3-minimax
             # NO end_image for h3-minimax-start-end-frame
@@ -342,7 +406,7 @@ class ModelsLabVideo(BaseTool):
             if inputs.get("resolution"):
                 payload["resolution"] = inputs["resolution"]
 
-        if "generate_audio" in inputs and not is_h3_minimax:
+        if "generate_audio" in inputs and not is_h3_minimax and not is_wan22:
             payload["generate_audio"] = inputs["generate_audio"]
         if inputs.get("seed") is not None:
             payload["seed"] = inputs["seed"]
@@ -352,28 +416,46 @@ class ModelsLabVideo(BaseTool):
             if inputs.get("image_url"):
                 init_images.append(inputs["image_url"])
             elif inputs.get("image_path"):
-                from tools.video._shared import upload_image_fal
-                init_images.append(upload_image_fal(inputs["image_path"]))
+                init_images.append(upload_modelslab_media(inputs["image_path"], api_key))
             # h3-minimax-start-end-frame does NOT support end_image
             if inputs.get("end_image_url") and model_id != "h3-minimax-start-end-frame":
                 init_images.append(inputs["end_image_url"])
             if init_images:
-                payload["init_image"] = init_images
+                uses_base64 = any(str(image).startswith("data:") for image in init_images)
+                if is_h3_minimax and uses_base64:
+                    init_images = [
+                        str(image).split(",", 1)[1]
+                        if str(image).startswith("data:")
+                        else image
+                        for image in init_images
+                    ]
+                payload["init_image"] = init_images[0] if is_wan22_i2v else init_images
+                if uses_base64:
+                    payload["base64"] = True
 
         if operation == "reference_to_video":
             ref_image_urls = list(inputs.get("reference_image_urls") or [])
             for local_path in inputs.get("reference_image_paths") or []:
-                from tools.video._shared import upload_image_fal
-                ref_image_urls.append(upload_image_fal(local_path))
+                ref_image_urls.append(upload_modelslab_media(local_path, api_key))
             if is_h3_minimax:
                 if ref_image_urls:
+                    uses_base64 = any(
+                        str(image).startswith("data:") for image in ref_image_urls
+                    )
+                    if uses_base64:
+                        ref_image_urls = [
+                            str(image).split(",", 1)[1]
+                            if str(image).startswith("data:")
+                            else image
+                            for image in ref_image_urls
+                        ]
                     payload["init_image"] = ref_image_urls
+                    if uses_base64:
+                        payload["base64"] = True
                 ref_video_urls = list(inputs.get("reference_video_urls") or [])
-                if ref_video_urls:
-                    payload["init_video"] = ref_video_urls
+                payload["init_video"] = ref_video_urls
                 ref_audio_urls = list(inputs.get("reference_audio_urls") or [])
-                if ref_audio_urls:
-                    payload["init_audio"] = ref_audio_urls
+                payload["init_audio"] = ref_audio_urls
             elif ref_image_urls:
                 payload["reference_image_urls"] = ref_image_urls
 
@@ -406,7 +488,23 @@ class ModelsLabVideo(BaseTool):
                 )
 
             # Use correct poll endpoint based on model family
-            poll_endpoint = "video" if is_h3_minimax else "video-fusion"
+            poll_endpoint = "video" if (is_h3_minimax or is_wan22) else "video-fusion"
+            if inputs.get("submit_only"):
+                return ToolResult(
+                    success=True,
+                    data={
+                        "provider": "modelslab",
+                        "model": model_id,
+                        "operation": operation,
+                        "status": "processing",
+                        "request_id": str(request_id),
+                        "poll_endpoint": poll_endpoint,
+                        "output_path": str(inputs.get("output_path", "modelslab_output.mp4")),
+                    },
+                    cost_usd=self.estimate_cost(inputs),
+                    duration_seconds=round(time.time() - start, 2),
+                    model=model_id,
+                )
             result = poll_modelslab(request_id, api_key, endpoint=poll_endpoint)
 
             output_path = Path(inputs.get("output_path", "modelslab_output.mp4"))
@@ -428,7 +526,7 @@ class ModelsLabVideo(BaseTool):
                 "model": model_id,
                 "operation": operation,
                 "prompt": inputs.get("prompt", ""),
-                "aspect_ratio": inputs.get("aspect_ratio") if not is_h3_minimax else None,
+                "aspect_ratio": inputs.get("aspect_ratio") if not (is_h3_minimax or is_wan22) else None,
                 "resolution": inputs.get("resolution"),
                 "generate_audio": inputs.get("generate_audio") if not is_h3_minimax else None,
                 "seed": inputs.get("seed"),

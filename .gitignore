@@ -27,3 +27,9 @@ htmlcov/
 
 # Generated outputs
 output/
+
+# Rebuildable local caches and temporary tool data
+.cache/
+.tmp/
+tmp/
+.remotion/

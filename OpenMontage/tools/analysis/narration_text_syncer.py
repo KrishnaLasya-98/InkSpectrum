@@ -41,6 +41,7 @@ import json
 import re
 import sys
 import time
+from difflib import SequenceMatcher
 from pathlib import Path
 from typing import Any
 
@@ -92,6 +93,8 @@ _HIGHLIGHT_COLOURS = {
     "default":     "#FF8C42",   # orange — standard primary highlight
 }
 
+_FASTER_WHISPER_MODEL: Any | None = None
+
 
 # ---------------------------------------------------------------------------
 # Step 1 & 2: Word-level timestamp extraction
@@ -123,6 +126,75 @@ def _align_with_whisperx(audio_path: Path) -> list[dict[str, Any]] | None:
                 "end_ms":   int(round(seg.get("end",   0) * 1000)),
             })
         return words if words else None
+    except Exception:
+        return None
+
+
+def _normalise_word(value: str) -> str:
+    return re.sub(r"[^a-z0-9']+", "", value.lower())
+
+
+def _align_with_faster_whisper(
+    audio_path: Path,
+    reference_text: str,
+) -> list[dict[str, Any]] | None:
+    """Transcribe real speech and project timestamps onto the exact script words."""
+    global _FASTER_WHISPER_MODEL
+    try:
+        from faster_whisper import WhisperModel
+
+        if _FASTER_WHISPER_MODEL is None:
+            _FASTER_WHISPER_MODEL = WhisperModel(
+                "small.en", device="cpu", compute_type="int8"
+            )
+        segments, _ = _FASTER_WHISPER_MODEL.transcribe(
+            str(audio_path), language="en", beam_size=5, vad_filter=False,
+            word_timestamps=True, condition_on_previous_text=False,
+        )
+        heard = [
+            {
+                "word": item.word.strip(),
+                "token": _normalise_word(item.word),
+                "start_ms": int(round(item.start * 1000)),
+                "end_ms": int(round(item.end * 1000)),
+            }
+            for segment in segments
+            for item in (segment.words or [])
+            if _normalise_word(item.word)
+        ]
+        reference = reference_text.split()
+        if not heard or not reference:
+            return None
+        output = [{"word": word} for word in reference]
+        matcher = SequenceMatcher(
+            None,
+            [_normalise_word(word) for word in reference],
+            [word["token"] for word in heard],
+            autojunk=False,
+        )
+        for block in matcher.get_matching_blocks():
+            for offset in range(block.size):
+                source = heard[block.b + offset]
+                output[block.a + offset].update(
+                    start_ms=source["start_ms"], end_ms=source["end_ms"]
+                )
+        known = [index for index, word in enumerate(output) if "start_ms" in word]
+        anchors = [(-1, 0)] + [(i, output[i]["start_ms"]) for i in known]
+        final_end = heard[-1]["end_ms"]
+        anchors.append((len(output), final_end))
+        for (left_i, left_t), (right_i, right_t) in zip(anchors, anchors[1:]):
+            missing = right_i - left_i - 1
+            if missing <= 0:
+                continue
+            step = max(60, (right_t - left_t) / (missing + 1))
+            for offset in range(1, missing + 1):
+                index = left_i + offset
+                start = int(round(left_t + step * offset))
+                output[index].update(start_ms=start, end_ms=int(round(start + step * .86)))
+        for index, word in enumerate(output):
+            next_start = output[index + 1]["start_ms"] if index + 1 < len(output) else final_end
+            word["end_ms"] = max(word["start_ms"] + 60, min(word["end_ms"], next_start))
+        return output
     except Exception:
         return None
 
@@ -165,21 +237,31 @@ def _get_word_timestamps(
     text: str,
     duration_ms: float,
     start_offset_ms: float = 0.0,
-) -> list[dict[str, Any]]:
-    """Get word timestamps, trying WhisperX first then falling back to linear."""
+) -> tuple[list[dict[str, Any]], str]:
+    """Get speech-derived word timestamps before permitting interpolation."""
     if audio_path.exists() and audio_path.stat().st_size > 0:
         aligned = _align_with_whisperx(audio_path)
         if aligned:
             # Offset all timestamps by the section's start position in the video
-            return [
+            return ([
                 {
                     "word":     w["word"],
                     "start_ms": w["start_ms"] + int(start_offset_ms),
                     "end_ms":   w["end_ms"]   + int(start_offset_ms),
                 }
                 for w in aligned
-            ]
-    return _align_linear(text, duration_ms, start_offset_ms)
+            ], "whisperx")
+        aligned = _align_with_faster_whisper(audio_path, text)
+        if aligned:
+            return ([
+                {
+                    "word": w["word"],
+                    "start_ms": w["start_ms"] + int(start_offset_ms),
+                    "end_ms": w["end_ms"] + int(start_offset_ms),
+                }
+                for w in aligned
+            ], "faster_whisper")
+    return _align_linear(text, duration_ms, start_offset_ms), "linear_interpolation"
 
 
 # ---------------------------------------------------------------------------
@@ -459,7 +541,7 @@ class NarrationTextSyncer(BaseTool):
         out_dir.mkdir(parents=True, exist_ok=True)
 
         aligned_segments: list[dict[str, Any]] = []
-        used_whisperx = False
+        alignment_methods: set[str] = set()
         qa_card_map: dict[str, list[dict[str, Any]]] = {}
 
         for seg in segments:
@@ -479,11 +561,8 @@ class NarrationTextSyncer(BaseTool):
             if dry_run:
                 words = _align_linear(text, dur_ms, start_ms)
             else:
-                words = _get_word_timestamps(audio_path, text, dur_ms, start_ms)
-                if not used_whisperx and audio_path.exists():
-                    test = _align_with_whisperx(audio_path)
-                    if test:
-                        used_whisperx = True
+                words, method = _get_word_timestamps(audio_path, text, dur_ms, start_ms)
+                alignment_methods.add(method)
 
             section_data = sections.get(sid, {})
             btype = section_data.get("source_block_type", "concept")
@@ -511,7 +590,11 @@ class NarrationTextSyncer(BaseTool):
         # Build outputs
         word_captions  = _build_word_captions(aligned_segments)
         formatted_srt  = _build_formatted_srt(aligned_segments)
-        alignment_method = "whisperx" if used_whisperx else "linear_interpolation"
+        alignment_method = (
+            next(iter(alignment_methods))
+            if len(alignment_methods) == 1
+            else "+".join(sorted(alignment_methods)) or "linear_interpolation"
+        )
 
         # Write artifacts
         (out_dir / "narration_aligned.json").write_text(

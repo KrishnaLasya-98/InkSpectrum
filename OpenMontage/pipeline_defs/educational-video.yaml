@@ -8,15 +8,22 @@ description: >
 category: generated
 stability: production
 default_checkpoint_policy: guided
+metadata:
+  preferred_render_runtime: hyperframes
+  preferred_runtime_reason: "User-selected for educational videos; preserves the approved HyperFrames UI and HTML/CSS/GSAP workflow."
+  runtime_selection_policy: "Record HyperFrames as selected when the user has approved it; still retain all available alternatives in render_runtime_selection."
 extensions:
   custom_scripts: true
   custom_playbooks: true
   custom_skills: true
   custom_tools: true
 required_skills:
+  - edustream/research-director
   - edustream/input-director
+  - edustream/proposal-director
   - edustream/content-director
   - edustream/scene-director
+  - edustream/media-research-director
   - edustream/voice-director
   - edustream/manim-director
   - edustream/compose-director
@@ -37,6 +44,23 @@ compatible_playbooks:
     - flat-motion-graphics
   custom_allowed: true
 stages:
+  # ── Stage -1: Research ─────────────────────────────────────────────
+  - name: research
+    skill: edustream/research-director
+    produces:
+      - research_brief
+    required_tools: []
+    tools_available: []
+    checkpoint_required: false
+    human_approval_default: false
+    review_focus:
+      - "All chapter factual claims verified against reliable sources"
+      - "At least 3 common misconceptions collected with corrections"
+      - "Every key concept has concrete, child-familiar examples"
+      - "At least 3 existing explanations surveyed, 1 underserved gap named"
+    success_criteria:
+      - Schema-valid research_brief artifact
+      - data_points closed fact set with source URLs
   # ── Stage 0: Input Ingestion ──────────────────────────────────────
   - name: input_ingestion
     skill: edustream/input-director
@@ -59,6 +83,26 @@ stages:
       - Schema-valid extracted_content artifact
       - extraction_confidence_score >= 0.85
       - all_formula_blocks identified and tagged
+  # ── Stage 0b: Production Proposal ────────────────────────────────
+  - name: proposal
+    skill: edustream/proposal-director
+    required_artifacts_in:
+      - extracted_content
+    produces:
+      - proposal_packet
+      - decision_log
+    required_tools: []
+    tools_available: []
+    checkpoint_required: true
+    human_approval_default: true
+    review_focus:
+      - "Audience, learning goal, duration, budget, and risks are explicit"
+      - "Both feasible composition runtimes are presented"
+      - "render_runtime_selection is recorded in the decision log"
+    success_criteria:
+      - Schema-valid proposal_packet artifact
+      - render_runtime is explicitly selected
+      - Paid or licensed asset use is approved before acquisition
   # ── Stage 1: Content Structuring ──────────────────────────────────
   - name: content_structuring
     skill: edustream/content-director
@@ -114,6 +158,78 @@ stages:
       - Schema-valid scene_plan artifact
       - All narrative beats covered with no gaps
       - required_assets traceable to tool capabilities
+  # ── Stage 2b: Subject-Aware Media Research ────────────────────────
+  - name: media_research
+    skill: edustream/media-research-director
+    required_artifacts_in:
+      - educational_plan
+      - scene_plan
+    produces:
+      - media_research_plan
+    required_tools:
+      - educational_media_research_planner
+    optional_tools:
+      - direct_clip_search
+      - pexels_video
+      - pixabay_video
+      - pexels_image
+      - pixabay_image
+    tools_available:
+      - educational_media_research_planner
+      - direct_clip_search
+      - pexels_video
+      - pixabay_video
+      - pexels_image
+      - pixabay_image
+    checkpoint_required: true
+    human_approval_default: false
+    review_focus:
+      - "Search policy is appropriate for the detected subject family"
+      - "Stock candidates are evidence-backed and license-attributed"
+      - "Math, grammar, and computing scenes avoid unnecessary stock footage"
+      - "Every rejected and shortlisted candidate remains auditable"
+    success_criteria:
+      - Schema-valid media_research_plan artifact
+      - Every stock-search scene has a query, preferred sources, and fallback
+      - Candidate media is visually reviewed before selection
+  # ── Stage 2c: Asset Strategy & Acquisition ────────────────────────
+  - name: assets
+    skill: edustream/scene-director
+    required_artifacts_in:
+      - scene_plan
+      - media_research_plan
+    optional_artifacts_in:
+      - extracted_content
+      - educational_plan
+    produces:
+      - asset_manifest
+      - decision_log
+    required_tools:
+      - hybrid_asset_router
+    optional_tools:
+      - pexels_video
+      - pixabay_video
+      - image_selector
+      - video_selector
+      - diagram_gen
+    tools_available:
+      - hybrid_asset_router
+      - pexels_video
+      - pixabay_video
+      - image_selector
+      - video_selector
+      - diagram_gen
+    checkpoint_required: true
+    human_approval_default: true
+    review_focus:
+      - "Every scene has an explicit existing/stock/generated/diagram decision"
+      - "Factual footage prefers reviewed source or licensed stock"
+      - "Generated media is used only where stock cannot meet continuity or specificity"
+      - "All selected assets include provenance, license, provider, and scene mapping"
+    success_criteria:
+      - Schema-valid asset_manifest artifact
+      - No blocked scene decisions
+      - Paid generation approvals recorded before execution
   # ── Stage 3: Voice Synthesis ─────────────────────────────────────
   - name: voice_synthesis
     skill: edustream/voice-director
@@ -142,21 +258,44 @@ stages:
       - Schema-valid narration_manifest artifact
       - All audio files exist and are playable
       - Total audio duration matches script timing within 5%
+  # ── Stage 3b: Text-Audio Alignment ────────────────────────────────
+  - name: text_audio_alignment
+    skill: edustream/qa-director
+    required_artifacts_in:
+      - narration_manifest
+      - scene_plan
+    produces:
+      - narration_aligned
+      - word_captions
+      - formatted_srt
+      - qa_card_props
+    required_tools:
+      - narration_text_syncer
+    tools_available:
+      - narration_text_syncer
+    checkpoint_required: true
+    human_approval_default: false
+    review_focus:
+      - "Subtitle and answer-reveal offsets derive from word timing"
+    success_criteria:
+      - Subtitle cues are non-overlapping and cover at least 90% of narration
   # ── Stage 4: Manim Generation ─────────────────────────────────────
-  - name: manim_generation
+  - name: render_clips
     skill: edustream/manim-director
     required_artifacts_in:
       - educational_plan
       - scene_plan
       - narration_manifest
+      - asset_manifest
     produces:
       - render_report
     required_tools:
-      - manim_render
+      - render_mode_router
     optional_tools:
       - manim_fix
       - gemini_vlm
     tools_available:
+      - render_mode_router
       - manim_render
       - manim_fix
       - gemini_vlm
@@ -164,6 +303,7 @@ stages:
     human_approval_default: false
     review_focus:
       - "All sections rendered to MP4 successfully"
+      - "Renderer choice follows the approved asset strategy"
       - "Math equations rendered correctly via MathTex"
       - "6x6 grid layout adheres to scene_plan positioning"
       - "Self-healing loops did not exceed max retry limits"
@@ -172,6 +312,27 @@ stages:
       - Schema-valid render_report artifact
       - All section videos exist and pass ffprobe validation
       - slideshow_risk_score.average < 0.6
+  # ── Stage 4b: Authoritative Multimedia Synchronization ────────────
+  - name: multimedia_synchronization
+    skill: edustream/compose-director
+    required_artifacts_in:
+      - narration_manifest
+      - render_report
+    produces:
+      - multimedia_sync_plan
+    required_tools:
+      - multimedia_sync_planner
+    tools_available:
+      - multimedia_sync_planner
+    checkpoint_required: true
+    human_approval_default: false
+    review_focus:
+      - "Measured narration duration is the single timing authority"
+      - "Title offsets are applied exactly once"
+      - "Every visual has an explicit trim, loop, or hold policy"
+    success_criteria:
+      - No missing clips in multimedia sync plan
+      - Audio-video sync tolerance <= 100ms at all hard boundaries
   # ── Stage 5: Composition ───────────────────────────────────────────
   - name: composition
     skill: edustream/compose-director
@@ -180,6 +341,7 @@ stages:
       - asset_manifest
       - narration_manifest
       - render_report
+      - multimedia_sync_plan
     produces:
       - render_report
       - final_review
@@ -187,10 +349,12 @@ stages:
       - video_compose
       - audio_mixer
     optional_tools:
+      - hyperframes_compose
       - background_remove
       - color_grade
     tools_available:
       - video_compose
+      - hyperframes_compose
       - audio_mixer
       - background_remove
       - color_grade
@@ -201,6 +365,8 @@ stages:
       - "Audio-video sync within 100ms tolerance"
       - "Background music ducked during narration"
       - "No visual artifacts or encoding issues"
+      - "When HyperFrames is selected, lint and validate/check pass before render"
+      - "No silent substitution to Remotion or FFmpeg"
     success_criteria:
       - Schema-valid render_report with output paths
       - Output file exists and passes ffprobe validation

@@ -167,6 +167,25 @@
       }
     },
     "metadata": { "type": "object" },
+    "subjects": {
+      "type": "object",
+      "description": "Optional named chapter presets for educational pipelines",
+      "additionalProperties": { "type": "object" }
+    },
+    "style_playbook": {
+      "type": "string",
+      "description": "Locked default style playbook for a specialized pipeline"
+    },
+    "render_modes": {
+      "type": "object",
+      "description": "Human-readable render-mode responsibilities",
+      "additionalProperties": { "type": "string" }
+    },
+    "modelslab": {
+      "type": "object",
+      "description": "Optional ModelsLab model aliases used by a specialized pipeline",
+      "additionalProperties": { "type": "string" }
+    },
     "orchestration": {
       "type": "object",
       "description": "Executive Producer orchestration config",

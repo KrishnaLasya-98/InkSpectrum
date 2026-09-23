@@ -110,7 +110,7 @@ _HTML_TEMPLATE = """\
     font-weight: 700;
     color: {accent};
     letter-spacing: 0.12em;
-    text-transform: uppercase;
+     text-transform: none;
     opacity: 0; transform: translateY(20px);
   }}
 
@@ -138,9 +138,9 @@ _HTML_TEMPLATE = """\
 </style>
 </head>
 <body>
-<div class="bg-gradient"></div>
+<div class="bg-gradient" data-media-policy="graphics-only"></div>
 
-<div class="card"
+<div class="card" data-card-role="title" data-media-policy="graphics-only" data-display-case="Tt"
      data-timing-in="0" data-timing-duration="0.6"
      data-gsap-from='{{"scale":0,"opacity":0}}'
      data-gsap-to='{{"scale":1,"opacity":1,"ease":"back.out(1.8)"}}'>
@@ -214,6 +214,7 @@ class HyperFramesChapterTitle(BaseTool):
             "chapter":     {"type": "integer", "default": 1},
             "title":       {"type": "string"},
             "lesson_label": {"type": "string"},
+            "display_case": {"type": "string", "enum": ["Tt"], "default": "Tt"},
             "output_dir":  {"type": "string"},
             "duration_seconds": {"type": "number", "default": 3.0},
             "dry_run":     {"type": "boolean", "default": False},
@@ -239,6 +240,7 @@ class HyperFramesChapterTitle(BaseTool):
         chapter: int,
         title: str,
         lesson_label: str,
+        display_case: str = "Tt",
     ) -> str:
         # Load sunshine-classroom playbook for CSS vars
         playbook_path = _ROOT / "styles" / "sunshine-classroom.yaml"
@@ -262,7 +264,9 @@ class HyperFramesChapterTitle(BaseTool):
 
         accent = _SUBJECT_ACCENT.get(subject, "#FF8C42")
         icon   = _SUBJECT_ICON.get(subject, "⭐")
-        sub_label = subject.upper()
+        if display_case != "Tt":
+            raise ValueError("Title cards support only display_case='Tt'.")
+        sub_label = subject.capitalize()
 
         return _HTML_TEMPLATE.format(
             css_vars      = css_vars_str,
@@ -278,6 +282,7 @@ class HyperFramesChapterTitle(BaseTool):
         chapter   = inputs.get("chapter", 1)
         title     = inputs["title"]
         lesson_lb = inputs.get("lesson_label", f"Chapter {chapter}")
+        display_case = inputs.get("display_case", "Tt")
         out_dir   = Path(inputs.get("output_dir", f"renders/titles"))
         duration  = inputs.get("duration_seconds", 3.0)
         dry_run   = inputs.get("dry_run", False)
@@ -287,7 +292,7 @@ class HyperFramesChapterTitle(BaseTool):
         slug      = f"{subject}_ch{chapter:02d}"
         out_mp4   = out_dir / f"{slug}_title.mp4"
 
-        html = self._build_html(subject, chapter, title, lesson_lb)
+        html = self._build_html(subject, chapter, title, lesson_lb, display_case)
 
         if dry_run:
             ws_path = out_dir / f"{slug}_workspace"

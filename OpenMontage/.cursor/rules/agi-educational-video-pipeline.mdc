@@ -1,0 +1,23 @@
+---
+description: Safe autonomous operation rules for PDF-to-video educational productions
+alwaysApply: true
+---
+
+# Educational Video Automation Contract
+
+- Treat source PDF/extracted text as the factual authority; preserve provenance to page/section.
+- Use `educational-video` for new PDF chapters and follow its declared stage order.
+- Initialize a project workspace and write `in_progress` checkpoints before long stages.
+- Never bypass a manifest human gate. Stop after writing `awaiting_human`.
+- Use measured narration duration as the authoritative timeline; apply title offsets once.
+- Run `hybrid_asset_router` before selecting or generating final visuals and record every scene decision.
+- Run subject-aware media research first; stock-search results are candidates until visually reviewed.
+- Prefer reviewed project assets, then licensed stock for factual subjects.
+- Use generated video only for justified continuity/specificity gaps and within approved budget.
+- Never silently switch provider, model, runtime, or stock/generated treatment.
+- The user's selected educational-video composition runtime is HyperFrames. Preserve it unless a project-specific blocker is surfaced and a new runtime decision is approved.
+- Record license, source URL, provider/model, prompt, seed, cost, and scene mapping.
+- Validate artifacts against schemas before checkpointing.
+- Do not publish unless encoded-video QA and `final_review.status == "pass"`.
+- Destructive filesystem changes, paid calls above policy, publishing, and external messages require approval.
+- Keep every output under `projects/<project-id>/`; preserve prior versions and checkpoint history.

@@ -1,5 +1,12 @@
 import { staticFile } from "remotion";
 
+const ASSET_SERVER_BASE = "http://localhost:18940/";
+
+const VIDEO_AUDIO_EXTENSIONS = [".mp4", ".webm", ".ogg", ".wav", ".mp3", ".m4a"];
+
+const isVideoAudio = (src: string): boolean =>
+  VIDEO_AUDIO_EXTENSIONS.some((ext) => src.toLowerCase().endsWith(ext));
+
 const isRemoteAsset = (src: string): boolean =>
   src.startsWith("http://") ||
   src.startsWith("https://") ||
@@ -8,7 +15,6 @@ const isRemoteAsset = (src: string): boolean =>
 const isWindowsAbsolutePath = (src: string): boolean =>
   /^[A-Za-z]:[\\/]/.test(src);
 
-/** Resolve public assets and absolute filesystem paths consistently. */
 export function resolveAsset(src: string): string {
   if (isRemoteAsset(src)) {
     return src;
@@ -18,6 +24,11 @@ export function resolveAsset(src: string): string {
   const clean = /^\/[A-Za-z]:[\\/]/.test(withoutScheme)
     ? withoutScheme.slice(1)
     : withoutScheme;
+
+  if (isVideoAudio(clean)) {
+    const posix = clean.replace(/\\/g, "/").replace(/^[.\/]+/, "");
+    return `${ASSET_SERVER_BASE}${posix}`;
+  }
 
   if (clean.startsWith("/") || isWindowsAbsolutePath(clean)) {
     const posix = clean.replace(/\\/g, "/");

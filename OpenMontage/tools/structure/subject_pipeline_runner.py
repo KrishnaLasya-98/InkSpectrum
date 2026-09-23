@@ -5,12 +5,16 @@ Chains all EduStream Pro stages for one subject:
   Stage 0  SectionParser           markdown → ContentBlock[]
   Stage 1  EducationalContentGenerator  blocks → educational_plan
   Stage 2  EduStreamOrchestrator    plan → enriched EVS script
-  Stage 3  RenderModeRouter        script → clip per section
-  Stage 4  VoiceSynthesisPipeline  script → narration audio + STT QA
-  Stage 5  AVComposer              clips + audio + subtitles → chapter_final.mp4
-  Stage 6  QualityAssurance        pacing / sync / contrast / WPM / slideshow checks
+  Stage 3  VoiceSynthesisPipeline  script → narration audio + STT QA
+  Stage 4  NarrationTextSyncer     audio → word captions + Q&A timing
+  Stage 5  RenderModeRouter        timed script → clip per section
+  Stage 6  MultimediaSyncPlanner   measured audio + clips → authoritative timeline
+  Stage 7  AVComposer              clips + audio + subtitles → chapter_final.mp4
+  Stage 8  QualityAssurance        pacing / sync / contrast / WPM / slideshow checks
 
-All stages are checkpoint-resumable via lib/checkpoint.py.
+This compatibility runner executes in one process and is not checkpoint-resumable.
+For agent-managed resumable production, use the manifest-driven
+`educational-video` pipeline and `lib/checkpoint.py`.
 Running with dry_run=True exercises every stage without API calls or renders.
 
 Usage
@@ -22,6 +26,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import subprocess
 import sys
@@ -33,7 +38,6 @@ _ROOT = Path(__file__).resolve().parents[2]
 if str(_ROOT) not in sys.path:
     sys.path.insert(0, str(_ROOT))
 
-from lib.checkpoint import write_checkpoint, read_checkpoint, get_next_stage  # noqa: E402
 from tools.base_tool import (  # noqa: E402
     BaseTool,
     Determinism,
@@ -44,9 +48,11 @@ from tools.base_tool import (  # noqa: E402
     ToolTier,
 )
 from tools.extract.section_parser import SectionParser  # noqa: E402
+from tools.structure.source_fidelity import write_source_manifest  # noqa: E402
 from tools.structure.educational_generator import EducationalContentGenerator  # noqa: E402
 from tools.structure.edustream_orchestrator import EduStreamOrchestrator  # noqa: E402
 from tools.structure.subject_registry import get_subject, md_path as _md_path  # noqa: E402
+from tools.structure.chapter_config import load_chapter_config, registry_view  # noqa: E402
 from tools.video.render_mode_router import RenderModeRouter  # noqa: E402
 from tools.voice.voice_synthesis_pipeline import VoiceSynthesisPipeline  # noqa: E402
 from tools.video.av_composer import AVComposer  # noqa: E402
@@ -91,6 +97,9 @@ class SubjectPipelineRunner(BaseTool):
             "quality":    {"type": "string", "default": "medium"},
             "seed":       {"type": "integer"},
             "output_dir": {"type": "string"},
+            "educational_plan": {"type": "object"},
+            "educational_plan_path": {"type": "string"},
+            "chapter_config_path": {"type": "string"},
         },
     }
     output_schema = {
@@ -112,16 +121,31 @@ class SubjectPipelineRunner(BaseTool):
         subject   = inputs["subject"]
         dry_run   = inputs.get("dry_run", False)
         seed      = inputs.get("seed")
-        out_root  = Path(inputs.get("output_dir", str(_ROOT / "projects" / subject)))
         start     = time.monotonic()
 
         # Load subject metadata from registry (raises KeyError for unknown subjects)
-        try:
-            reg = get_subject(subject)
-        except KeyError as exc:
-            return ToolResult(success=False, error=str(exc))
+        chapter_config_path = inputs.get("chapter_config_path")
+        if chapter_config_path:
+            try:
+                chapter_config = load_chapter_config(chapter_config_path)
+                reg = registry_view(chapter_config)
+                subject = chapter_config["subject"]
+            except (OSError, ValueError, json.JSONDecodeError) as exc:
+                return ToolResult(success=False, error=f"Invalid chapter config: {exc}")
+            subject_md_path = Path(reg["source_markdown"])
+        else:
+            try:
+                reg = get_subject(subject)
+            except KeyError as exc:
+                return ToolResult(success=False, error=str(exc))
+            subject_md_path = _md_path(subject)
 
-        subject_md_path   = _md_path(subject)
+        default_project_id = (
+            chapter_config.get("project_id", subject)
+            if chapter_config_path
+            else subject
+        )
+        out_root = Path(inputs.get("output_dir", str(_ROOT / "projects" / default_project_id)))
         subject_type      = reg["subject_type"]
         chapter_num       = reg["chapter"]
         chapter_title     = reg["title"]
@@ -151,15 +175,32 @@ class SubjectPipelineRunner(BaseTool):
         if not parser_res.success:
             return ToolResult(success=False, error=f"Stage 0 failed: {parser_res.error}")
         blocks     = parser_res.data["blocks"]
+        source_manifest_path = arts_dir / "source_text_manifest.json"
+        source_manifest = write_source_manifest(subject_md_path, source_manifest_path)
         block_text = "\n\n".join(
             f"## {b['heading']}\n{b['body_text'][:500]}" for b in blocks
         )
-        summary["stage_0"] = {"blocks": parser_res.data["block_count"]}
+        summary["stage_0"] = {
+            "blocks": parser_res.data["block_count"],
+            "source_text_manifest": str(source_manifest_path),
+            "source_cards": source_manifest["validation"]["card_count"],
+            "max_content_lines": source_manifest["validation"]["max_content_lines"],
+        }
         print(f"  ✓ {parser_res.data['block_count']} blocks")
 
         # ── Stage 1: Educational Plan ────────────────────────────────────────
         print(f"[Stage 1] Generating educational plan...")
+        provided_plan = inputs.get("educational_plan")
+        if not provided_plan and inputs.get("educational_plan_path"):
+            try:
+                provided_plan = json.loads(
+                    Path(inputs["educational_plan_path"]).read_text(encoding="utf-8")
+                )
+            except (OSError, json.JSONDecodeError) as exc:
+                return ToolResult(success=False, error=f"Invalid educational_plan_path: {exc}")
+
         plan_res = EducationalContentGenerator().execute({
+            "educational_plan":        provided_plan,
             "source_content":          block_text,
             "subject_type":            subject_type,
             "complexity_level":        reg.get("complexity", "elementary"),
@@ -331,6 +372,39 @@ class SubjectPipelineRunner(BaseTool):
         print(f"  ✓ {router_res.data['total_clips']} clips"
               f" ({router_res.data['skipped_clips']} skipped)")
 
+        # ── Stage 4c: Authoritative multimedia synchronization ───────────────
+        # Reconcile measured narration and rendered clip durations before
+        # composition.  This is the only place that assigns global start/end
+        # positions; title offsets must never be added again downstream.
+        print("[Stage 4c] Building authoritative multimedia timeline...")
+        from tools.analysis.multimedia_sync_planner import MultimediaSyncPlanner
+        sync_plan_res = MultimediaSyncPlanner().execute({
+            "narration_manifest": narration_manifest,
+            "clip_manifest": clip_manifest,
+            "title_offset_seconds": 3.0 if (title_clip and Path(title_clip).exists()) else 0.0,
+            "sync_tolerance_seconds": 0.1,
+        })
+        sync_plan = sync_plan_res.data.get("sync_plan", {})
+        (arts_dir / "multimedia_sync_plan.json").write_text(
+            json.dumps(sync_plan, indent=2), encoding="utf-8"
+        )
+        sync_by_section = {
+            item["section_id"]: item for item in sync_plan.get("timeline", [])
+        }
+        for segment in narration_manifest.get("segments", []):
+            timing = sync_by_section.get(segment.get("section_id"))
+            if timing:
+                segment["start_seconds"] = timing["start_seconds"]
+                segment["end_seconds"] = timing["end_seconds"]
+                segment["timeline_source"] = timing["timeline_source"]
+        if not sync_plan_res.success:
+            return ToolResult(success=False, error=f"Stage 4c failed: {sync_plan_res.error}")
+        summary["stage_4c"] = {
+            "status": sync_plan.get("status"),
+            "total_duration_seconds": sync_plan.get("total_duration_seconds"),
+            "issues": len(sync_plan.get("issues", [])),
+        }
+
         # ── Stage 5: Compose video ───────────────────────────────────────────
         print(f"[Stage 5] Composing final video...")
         # Collect ordered clip paths (title card first, then content clips)
@@ -345,12 +419,8 @@ class SubjectPipelineRunner(BaseTool):
         if not ordered_clips:
             return ToolResult(success=False, error="No rendered clips available for composition")
 
-        # ── Resolve narration start_seconds from alignment timeline ──────────
-        # alignment_timeline was already built in Stage 4 above — reuse it.
-        # title_offset was already baked into start_seconds in Stage 4 via
-        # NarrationTextSyncer (title_offset_seconds param). Do NOT add it again
-        # here or every segment will be shifted forward by 3s a second time.
-        # Stage 5 just passes the manifest as-is to AVComposer.
+        # The authoritative multimedia planner assigned start/end positions.
+        # Do not add the title offset again downstream.
 
         composed_path = final_dir / f"{subject}_chapter.mp4"
 
@@ -459,23 +529,29 @@ def _cli() -> None:
     from tools.structure.subject_registry import all_subject_ids
     ap = argparse.ArgumentParser(description="EduStream Pro — subject pipeline runner.")
     ap.add_argument(
-        "--subject", required=True,
+        "--subject",
         choices=all_subject_ids(),
         help=f"Subject to process. Registered: {', '.join(all_subject_ids())}. "
              "Add new subjects to tools/structure/subject_registry.py.",
     )
+    ap.add_argument("--chapter-config", dest="chapter_config_path")
     ap.add_argument("--dry-run", dest="dry_run", action="store_true")
     ap.add_argument("--output-dir", dest="output_dir")
     ap.add_argument("--quality", default="medium")
     args = ap.parse_args()
 
+    if not args.subject and not args.chapter_config_path:
+        ap.error("provide either --subject or --chapter-config")
+
     inp: dict[str, Any] = {
-        "subject":  args.subject,
+        "subject":  args.subject or "dynamic-chapter",
         "dry_run":  args.dry_run,
         "quality":  args.quality,
     }
     if args.output_dir:
         inp["output_dir"] = args.output_dir
+    if args.chapter_config_path:
+        inp["chapter_config_path"] = args.chapter_config_path
 
     res = SubjectPipelineRunner().execute(inp)
     if res.success:

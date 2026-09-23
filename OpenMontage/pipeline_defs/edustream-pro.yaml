@@ -40,9 +40,11 @@ subjects:
 
 # ── Required skills ─────────────────────────────────────────────────────────
 required_skills:
+  - edustream/research-director
   - edustream/orchestrating-agent
   - edustream/pipeline-runner
   - edustream/input-director
+  - edustream/proposal-director
   - edustream/content-director
   - edustream/scene-director
   - edustream/voice-director
@@ -92,6 +94,19 @@ modelslab:
 
 # ── Stages ───────────────────────────────────────────────────────────────────
 stages:
+  # ── Stage -1: Research ─────────────────────────────────────────────────────
+  - name: research
+    skill: edustream/research-director
+    produces:
+      - research_brief
+    tools_available: []
+    checkpoint_required: false
+    human_approval_default: false
+    success_criteria:
+      - research_brief.json written and schema-valid
+      - data_points closed fact set with source URLs
+      - ≥3 misconceptions with corrections collected
+
   # ── Stage 0: Input ingestion ───────────────────────────────────────────────
   - name: input_ingestion
     skill: edustream/input-director
@@ -106,6 +121,26 @@ stages:
     success_criteria:
       - section_blocks.json written with ≥4 blocks
       - block types include concept, qa_item, glossary
+
+  # ── Stage 0b: Production proposal ─────────────────────────────────────────
+  - name: proposal
+    skill: edustream/proposal-director
+    required_artifacts_in:
+      - extracted_content
+    produces:
+      - proposal_packet
+      - decision_log
+    tools_available: []
+    checkpoint_required: true
+    human_approval_default: true
+    review_focus:
+      - "Sunshine Classroom constraints and Class 1 audience are explicit"
+      - "Both feasible composition runtimes are presented"
+      - "render_runtime_selection is recorded in the decision log"
+    success_criteria:
+      - proposal_packet.json written
+      - render_runtime is explicitly selected
+      - Paid or licensed asset use is approved before acquisition
 
   # ── Stage 1: Content structuring ──────────────────────────────────────────
   - name: content_structuring
@@ -151,30 +186,7 @@ stages:
       - evs_script.json written with P, N, A triplet
       - critique_log first_pass_rate ≥ 0.7
 
-  # ── Stage 3: Render clips ──────────────────────────────────────────────────
-  - name: render_clips
-    skill: edustream/manim-director
-    required_artifacts_in:
-      - evs_script
-    produces:
-      - clip_manifest
-      - render_report
-    tools_available:
-      - manim_generator
-      - render_mode_router
-      - hyperframes_chapter_title
-    checkpoint_required: true
-    human_approval_default: false
-    review_focus:
-      - "All manim clips render without SyntaxError"
-      - "Sunshine Classroom palette used in all Manim scenes"
-      - "Chapter title card (HyperFrames) rendered successfully"
-      - "No video_gen clips have anatomy errors or text watermarks"
-    success_criteria:
-      - clip_manifest.json with ≥80% clips successful
-      - failed_clips = 0 (or acceptable with retry)
-
-  # ── Stage 4: Voice synthesis ───────────────────────────────────────────────
+  # ── Stage 3: Voice synthesis ───────────────────────────────────────────────
   - name: voice_synthesis
     skill: edustream/voice-director
     required_artifacts_in:
@@ -193,30 +205,7 @@ stages:
       - narration_manifest.json with all segments
       - qa_report.qa_issues = [] (or ≤2 minor issues)
 
-  # ── Stage 5: Composition ───────────────────────────────────────────────────
-  - name: composition
-    skill: edustream/compose-director
-    required_artifacts_in:
-      - clip_manifest
-      - narration_manifest
-    produces:
-      - render_report
-      - final_review
-    tools_available:
-      - av_composer
-      - subject_pipeline_runner
-    checkpoint_required: true
-    human_approval_default: false
-    review_focus:
-      - "Chapter title card (3s) is first clip"
-      - "All clips concatenated in section order"
-      - "Narration audio muxed and loudness-normalised at -14 LUFS"
-      - "Subtitles burned (Nunito, 22pt, white with outline)"
-    success_criteria:
-      - {subject}_chapter_final.mp4 exists and passes ffprobe
-      - Duration matches sum of section durations ± 10%
-
-  # ── Stage 4b: Text-audio alignment ───────────────────────────────────────
+  # ── Stage 4: Text-audio alignment ─────────────────────────────────────────
   - name: text_audio_alignment
     skill: edustream/qa-director
     required_artifacts_in:
@@ -241,7 +230,77 @@ stages:
       - formatted_subtitles.srt written with correct timestamps
       - QA card reveal timings derived from audio (not hardcoded 2.5s)
 
-  # ── Stage 6: Final stage + agent tour ─────────────────────────────────────
+  # ── Stage 5: Render clips ──────────────────────────────────────────────────
+  - name: render_clips
+    skill: edustream/manim-director
+    required_artifacts_in:
+      - evs_script
+      - qa_card_props
+    produces:
+      - clip_manifest
+      - render_report
+    tools_available:
+      - manim_generator
+      - render_mode_router
+      - hyperframes_chapter_title
+    checkpoint_required: true
+    human_approval_default: false
+    review_focus:
+      - "All manim clips render without SyntaxError"
+      - "Sunshine Classroom palette used in all Manim scenes"
+      - "Chapter title card (HyperFrames) rendered successfully"
+      - "No video_gen clips have anatomy errors or text watermarks"
+    success_criteria:
+      - clip_manifest.json with ≥80% clips successful
+      - failed_clips = 0 (or acceptable with retry)
+
+  # ── Stage 6: Authoritative multimedia synchronization ─────────────────────
+  - name: multimedia_synchronization
+    skill: edustream/compose-director
+    required_artifacts_in:
+      - clip_manifest
+      - narration_manifest
+    produces:
+      - multimedia_sync_plan
+    tools_available:
+      - multimedia_sync_planner
+    checkpoint_required: true
+    human_approval_default: false
+    review_focus:
+      - "Narration duration is the authoritative section duration"
+      - "Title offset is applied exactly once"
+      - "Each clip has an explicit trim, loop, or hold policy"
+      - "No section starts before the prior section ends"
+    success_criteria:
+      - multimedia_sync_plan.json written
+      - missing_clips = 0
+      - maximum unhandled drift = 0 seconds
+
+  # ── Stage 7: Composition ───────────────────────────────────────────────────
+  - name: composition
+    skill: edustream/compose-director
+    required_artifacts_in:
+      - clip_manifest
+      - narration_manifest
+      - multimedia_sync_plan
+    produces:
+      - render_report
+      - final_review
+    tools_available:
+      - av_composer
+      - subject_pipeline_runner
+    checkpoint_required: true
+    human_approval_default: false
+    review_focus:
+      - "Chapter title card (3s) is first clip"
+      - "All clips concatenated in section order"
+      - "Narration audio muxed and loudness-normalised at -14 LUFS"
+      - "Subtitles burned (Nunito, 22pt, white with outline)"
+    success_criteria:
+      - "{subject}_chapter_final.mp4 exists and passes ffprobe"
+      - Duration matches authoritative multimedia sync plan ± 0.1 seconds
+
+  # ── Stage 8: Final stage + agent tour ─────────────────────────────────────
   - name: quality_assurance
     skill: edustream/qa-director
     required_artifacts_in:

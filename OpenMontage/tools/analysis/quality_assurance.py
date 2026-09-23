@@ -218,7 +218,7 @@ class QualityAssurance(BaseTool):
     tier = ToolTier.ANALYZE
     capability = "quality_assessment"
     provider = "openmontage"
-    stability = ToolStability.STABLE
+    stability = ToolStability.PRODUCTION
     execution_mode = ExecutionMode.SYNC
     determinism = Determinism.DETERMINISTIC
     runtime = ToolRuntime.LOCAL

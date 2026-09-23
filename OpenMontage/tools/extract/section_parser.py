@@ -167,7 +167,7 @@ class SectionParser(BaseTool):
     tier = ToolTier.SOURCE
     capability = "content_parsing"
     provider = "openmontage"
-    stability = ToolStability.STABLE
+    stability = ToolStability.PRODUCTION
     execution_mode = ExecutionMode.SYNC
     determinism = Determinism.DETERMINISTIC
     runtime = ToolRuntime.LOCAL
@@ -181,7 +181,7 @@ class SectionParser(BaseTool):
         "type": "object",
         "required": ["subject"],
         "properties": {
-            "subject":    {"type": "string", "enum": ["evs", "english", "maths"]},
+            "subject":    {"type": "string", "minLength": 1},
             "md_path":    {"type": "string"},
             "output_dir": {"type": "string"},
         },
@@ -258,10 +258,18 @@ class SectionParser(BaseTool):
 
     def execute(self, inputs: dict[str, Any]) -> ToolResult:
         subject = inputs["subject"]
-        md_path = (
-            Path(inputs["md_path"]) if inputs.get("md_path")
-            else _ODL_DIR / _SUBJECT_MD[subject]
-        )
+        if inputs.get("md_path"):
+            md_path = Path(inputs["md_path"])
+        elif subject in _SUBJECT_MD:
+            md_path = _ODL_DIR / _SUBJECT_MD[subject]
+        else:
+            return ToolResult(
+                success=False,
+                error=(
+                    f"No default markdown is registered for subject {subject!r}. "
+                    "Provide md_path for chapter-agnostic ingestion."
+                ),
+            )
         out_dir = (
             Path(inputs["output_dir"]) if inputs.get("output_dir")
             else _ROOT / "projects" / subject / "artifacts"
@@ -306,7 +314,11 @@ class SectionParser(BaseTool):
 # ---------------------------------------------------------------------------
 def _cli() -> None:
     ap = argparse.ArgumentParser(description="Parse opendataloader markdown.")
-    ap.add_argument("--subject", required=True, choices=["evs", "english", "maths"])
+    ap.add_argument(
+        "--subject",
+        required=True,
+        help="Subject label. New subjects must also provide --md-path.",
+    )
     ap.add_argument("--md-path", dest="md_path")
     ap.add_argument("--output-dir", dest="output_dir")
     args = ap.parse_args()

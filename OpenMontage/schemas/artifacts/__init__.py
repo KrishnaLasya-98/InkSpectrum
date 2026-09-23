@@ -1,4 +1,4 @@
-﻿"""Artifact schema loading and validation utilities."""
+"""Artifact schema loading and validation utilities."""
 
 from __future__ import annotations
 
@@ -34,6 +34,7 @@ ARTIFACT_NAMES = [
     "extracted_content",
     "educational_plan",
     "narration_manifest",
+    "media_research_plan",
 ]
 
 

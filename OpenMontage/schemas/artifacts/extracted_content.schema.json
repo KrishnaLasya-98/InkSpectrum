@@ -4,24 +4,26 @@
   "title": "Extracted PDF Content",
   "description": "PDF content extracted via hybrid OpenDataLoader + Marker pipeline",
   "type": "object",
-  "required": ["version", "title", "extraction_tool_used", "confidence_score", "sections"],
-  "properties": {
-    "version": {"const": "1.0", "type": "string"},
-    "title": {"type": "string"},
-    "source_pdf": {"type": "string"},
-    "extraction_tool_used": {"type": "string", "enum": ["opendataloader_local", "opendataloader_hybrid", "marker_balanced", "hybrid_merge"]},
-    "confidence_score": {"type": "number", "minimum": 0, "maximum": 1},
-    "total_pages": {"type": "integer", "minimum": 1},
+    "required": ["version", "title", "extraction_tool_used", "confidence_score", "sections"],
+    "properties": {
+        "version": {"type": "string"},
+        "title": {"type": "string"},
+        "source_pdf": {"type": "string"},
+        "extraction_tool_used": {"type": "string", "enum": ["opendataloader_local", "opendataloader_hybrid", "marker_balanced", "hybrid_merge"]},
+        "confidence_score": {"type": "number", "minimum": 0, "maximum": 1},
+        "total_pages": {"type": "integer", "minimum": 1},
+        "pages_extracted": {"type": "integer", "minimum": 0},
     "sections": {
       "type": "array",
       "items": {
         "type": "object",
         "required": ["section_id", "title", "content", "content_type"],
         "properties": {
-          "section_id": {"type": "string"},
-          "title": {"type": "string"},
-          "content": {"type": "string"},
-          "content_type": {"type": "string", "enum": ["theory", "mathematics", "mixed"]},
+            "section_id": {"type": "string"},
+            "title": {"type": "string"},
+            "content": {"type": "string"},
+            "content_preview": {"type": "string"},
+            "content_type": {"type": "string", "enum": ["theory", "mathematics", "mixed"]},
           "page_start": {"type": "integer"},
           "page_end": {"type": "integer"},
           "equations": {
