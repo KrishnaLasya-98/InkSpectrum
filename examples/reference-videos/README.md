@@ -16,6 +16,9 @@ Extract each archive to obtain the corresponding MP4:
 - `english-class1-at-the-beach-final-v7.zip`
 - `evs-lesson-8-3d-synced-final.zip`
 - `maths-class1-two-digit-numbers-final-v4.zip`
+- `social-class5-chapter01-latitudes-and-longitudes.zip`
+- `social-class5-chapter02-earth-movement.zip`
+- `social-class5-chapter03-worlds-weather-and-climate.zip`
 
 Generated project workspaces, textbook PDFs, credentials, browser profiles,
 personal agent histories, and provider caches are intentionally excluded from
