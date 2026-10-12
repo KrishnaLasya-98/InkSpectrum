@@ -1,0 +1,9 @@
+providers:
+  audio:
+    provider: huggingface-kokoro
+    model_id: hexgrad/Kokoro-82M
+    voice_id: af_heart
+    language: en-us
+    speed: 0.82
+    lock_voice: true
+    enable_stt_qa: false

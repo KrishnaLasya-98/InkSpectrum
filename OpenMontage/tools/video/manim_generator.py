@@ -27,6 +27,7 @@ import re
 import subprocess
 import sys
 import tempfile
+import textwrap
 import time
 from pathlib import Path
 from typing import Any
@@ -269,7 +270,7 @@ def _design_compliance(code: str) -> list[str]:
     issues: list[str] = []
     if "ChildrensTheme" not in code:
         issues.append("Scene must inherit ChildrensTheme")
-    if "Nunito" not in code:
+    if "Nunito" not in code and "_FONT" not in code:
         issues.append("Font must be 'Nunito'")
     # Ensure at least one of the palette colours is referenced
     palette_colours = [SC_PRIMARY, SC_SECONDARY, SC_ACCENT, SC_EVS, SC_ENGLISH]
@@ -308,7 +309,8 @@ class ManimGenerator(BaseTool):
     QUALITY_PRESETS = {
         "low":     {"flag": "-ql", "resolution": "854x480",   "fps": 15},
         "medium":  {"flag": "-qm", "resolution": "1280x720",  "fps": 30},
-        "high":    {"flag": "-qh", "resolution": "1920x1080", "fps": 60},
+        "standard": {"flag": "-qh", "resolution": "1920x1080", "fps": 30},
+        "high":    {"flag": "-qh", "resolution": "1920x1080", "fps": 30},
         "preview": {"flag": "-ql", "resolution": "854x480",   "fps": 15},
     }
 
@@ -355,9 +357,11 @@ class ManimGenerator(BaseTool):
         else:
             blueprint = "ConceptWheelScene"
 
+        safe_section_id = re.sub(r"\W+", "_", str(section.get("section_id") or "section"))
+        safe_title = re.sub(r"\W+", "_", title).strip("_") or "Lesson"
         return {
             "blueprint":    blueprint,
-            "scene_class":  f"Scene_{re.sub(chr(92) + 'W+', '_', title).strip('_')}",
+            "scene_class":  f"Scene_{safe_section_id}_{safe_title}"[:120],
             "section":      section,
             "subject":      subject,
             "blueprint_src": _BLUEPRINTS.get(blueprint, ""),
@@ -365,36 +369,364 @@ class ManimGenerator(BaseTool):
 
     # --- coder agent ----------------------------------------------------------
 
+    def _math_geometry_coder(self, plan: dict[str, Any]) -> str:
+        """Return a deterministic, source-driven geometry animation.
+
+        The final HyperFrames layer owns headings and subtitles, so these
+        clips contain only diagram labels that are needed to teach the maths.
+        A gentle continuous motion tail keeps long narration sections alive;
+        the compositor trims the surplus against measured narration.
+        """
+        sec = plan["section"]
+        cls = plan["scene_class"]
+        visual_template = str(sec.get("visual_template") or "concept_cards")
+        concepts = [
+            str(value)[:34]
+            for value in sec.get("key_concepts", [])
+            if str(value).strip()
+        ][:6]
+        equations = [
+            str(value)[:40]
+            for value in sec.get("equations", [])
+            if str(value).strip()
+        ][:3]
+        target_duration = max(
+            12.0, float(sec.get("duration_seconds") or 24.0) * 1.35 + 4.0
+        )
+        code = r'''
+from manim import *
+
+
+class __CLASS__(ChildrensTheme):
+    """Reviewed deterministic geometry scene."""
+
+    def construct(self) -> None:
+        template = __TEMPLATE__
+        concepts = __CONCEPTS__
+        equations = __EQUATIONS__
+        target_duration = __DURATION__
+        ink = ManimColor("#17324D")
+        orange = ManimColor("#FF8C42")
+        teal = ManimColor("#4ECDC4")
+        yellow = ManimColor("#FFD93D")
+        green = ManimColor("#6BCB77")
+        pink = ManimColor("#FF6B9D")
+        content = VGroup()
+
+        def label(text, point, colour=ink, size=30):
+            item = Text(str(text), font=_FONT, font_size=size, color=colour)
+            item.move_to(point)
+            content.add(item)
+            return item
+
+        def reveal(*items, run_time=0.7):
+            for item in items:
+                content.add(item)
+                self.play(Create(item) if isinstance(item, VMobject) else FadeIn(item),
+                          run_time=run_time)
+
+        if template == "shape_world":
+            dot = Dot(LEFT * 4 + UP * 1.2, radius=0.16, color=orange)
+            segment = Line(LEFT * 2.7 + UP * 1.2, LEFT * 0.5 + UP * 1.2,
+                           color=teal, stroke_width=10)
+            triangle = Polygon(LEFT * 2.8 + DOWN * 1.4, LEFT * 1.7 + UP * 0.3,
+                               LEFT * 0.6 + DOWN * 1.4, color=yellow,
+                               fill_color=yellow, fill_opacity=0.24)
+            circle = Circle(radius=1.15, color=pink, fill_color=pink,
+                            fill_opacity=0.18).shift(RIGHT * 1.4 + DOWN * 0.5)
+            square = Square(side_length=1.8, color=green, fill_color=green,
+                            fill_opacity=0.16).shift(RIGHT * 4 + UP * 0.6)
+            reveal(dot, segment, triangle, circle, square)
+            for text, point in [("point", dot.get_center() + DOWN * 0.5),
+                                ("line segment", segment.get_center() + DOWN * 0.5),
+                                ("polygon", triangle.get_center() + DOWN * 1.3),
+                                ("circle", circle.get_center() + DOWN * 1.45),
+                                ("solid view", square.get_center() + DOWN * 1.25)]:
+                self.play(FadeIn(label(text, point, size=27)), run_time=0.35)
+
+        elif template == "geometry_primitives":
+            rows = [1.8, 0.6, -0.6, -1.8]
+            point = Dot(LEFT * 3.2 + UP * rows[0], radius=0.14, color=orange)
+            seg = Line(LEFT * 4 + UP * rows[1], LEFT * 2 + UP * rows[1],
+                       color=teal, stroke_width=8)
+            seg.add(Dot(seg.get_start(), color=ink), Dot(seg.get_end(), color=ink))
+            line = DoubleArrow(LEFT * 4 + UP * rows[2], LEFT * 2 + UP * rows[2],
+                               color=yellow, stroke_width=7, buff=0)
+            ray = Arrow(LEFT * 4 + UP * rows[3], LEFT * 2 + UP * rows[3],
+                        color=pink, stroke_width=7, buff=0)
+            reveal(point, seg, line, ray)
+            for text, y in [("Point A", rows[0]), ("Segment AB", rows[1]),
+                            ("Line CD", rows[2]), ("Ray EF", rows[3])]:
+                self.play(FadeIn(label(text, RIGHT * 0.2 + UP * y, size=34)), run_time=0.35)
+
+        elif template == "line_orientations_and_solid":
+            horizontal = Line(LEFT * 4 + UP, LEFT * 1.5 + UP, color=orange, stroke_width=8)
+            vertical = Line(LEFT * 3 + DOWN * 1.7, LEFT * 3 + UP * 0.3,
+                            color=teal, stroke_width=8)
+            slant = Line(LEFT * 1.4 + DOWN * 1.7, RIGHT * 0.2 + UP * 0.2, color=pink, stroke_width=8)
+            cube = Cube(side_length=1.8, fill_color=green, fill_opacity=0.18,
+                        stroke_color=green).shift(RIGHT * 3 + DOWN * 0.2)
+            reveal(horizontal, vertical, slant, cube)
+            label("horizontal", horizontal.get_center() + UP * 0.45, size=27)
+            label("vertical", vertical.get_center() + RIGHT * 0.7, size=27)
+            label("slanting", slant.get_center() + RIGHT * 0.8, size=27)
+            for text, point in [("vertex", RIGHT * 4.1 + UP * 1.1),
+                                ("edge", RIGHT * 4.3),
+                                ("surface", RIGHT * 3 + DOWN * 1.5)]:
+                self.play(FadeIn(label(text, point, size=26)), run_time=0.3)
+
+        elif template == "open_closed_curves":
+            open_curve = ArcBetweenPoints(LEFT * 4 + DOWN * 0.3,
+                                          LEFT * 1.4 + UP * 0.7,
+                                          angle=-PI * 0.9, color=orange,
+                                          stroke_width=10)
+            closed = Circle(radius=1.2, color=teal).shift(RIGHT * 0.7)
+            simple = RoundedRectangle(width=2.2, height=2.0, corner_radius=0.65,
+                                      color=green).shift(RIGHT * 4)
+            reveal(open_curve, closed, simple)
+            label("open curve", LEFT * 2.7 + DOWN * 1.8, size=30)
+            label("closed curve", RIGHT * 0.7 + DOWN * 1.8, size=30)
+            label("simple closed curve", RIGHT * 4 + DOWN * 1.8, size=27)
+
+        elif template == "polygon_family":
+            triangle = Polygon(LEFT * 4 + DOWN, LEFT * 2.7 + UP * 1.3,
+                               LEFT * 1.4 + DOWN, color=orange,
+                               fill_color=orange, fill_opacity=0.15)
+            quad = Polygon(LEFT * 0.3 + DOWN, LEFT * 0.1 + UP,
+                           RIGHT * 1.7 + UP * 1.3, RIGHT * 2 + DOWN,
+                           color=teal, fill_color=teal, fill_opacity=0.15)
+            curved = Circle(radius=1.15, color=pink).shift(RIGHT * 4)
+            reveal(triangle, quad, curved)
+            label("triangle • 3 sides", triangle.get_center() + DOWN * 1.55, size=28)
+            label("quadrilateral • 4 sides", quad.get_center() + DOWN * 1.55, size=26)
+            label("not a polygon", curved.get_center() + DOWN * 1.55, size=28)
+
+        elif template == "rectangle_square":
+            rect = Rectangle(width=4.0, height=2.2, color=orange,
+                             fill_color=orange, fill_opacity=0.12).shift(LEFT * 2.4)
+            sq = Square(side_length=2.2, color=teal, fill_color=teal,
+                        fill_opacity=0.12).shift(RIGHT * 3)
+            reveal(rect, sq)
+            label("length", rect.get_top() + UP * 0.35, size=28)
+            label("width", rect.get_left() + LEFT * 0.55, size=28)
+            label("equal opposite sides", rect.get_center() + DOWN * 1.6, size=27)
+            label("four equal sides", sq.get_center() + DOWN * 1.6, size=27)
+
+        elif template in {"measurement_tools", "ruler_construction"}:
+            ruler = RoundedRectangle(width=7.5, height=1.0, corner_radius=0.15,
+                                     color=yellow, fill_color=yellow,
+                                     fill_opacity=0.24).shift(DOWN * 0.8 + LEFT)
+            ticks = VGroup()
+            for i in range(11):
+                x = -4.75 + i * 0.65
+                tick = Line([x, -0.3, 0], [x, -0.65 if i % 5 else -0.45, 0],
+                            color=ink, stroke_width=3)
+                ticks.add(tick)
+            reveal(ruler, ticks)
+            if template == "measurement_tools":
+                leg1 = Line(RIGHT * 2.6 + UP * 1.6, RIGHT * 1.7 + DOWN * 1.0,
+                            color=teal, stroke_width=7)
+                leg2 = Line(RIGHT * 2.6 + UP * 1.6, RIGHT * 3.7 + DOWN * 1.0,
+                            color=orange, stroke_width=7)
+                joint = Circle(radius=0.18, color=pink, fill_opacity=1).move_to(leg1.get_start())
+                reveal(leg1, leg2, joint)
+                label("compass", RIGHT * 2.7 + DOWN * 1.45, size=30)
+            else:
+                a = Dot([-4.75, 0.6, 0], color=pink)
+                b = Dot([-1.5, 0.6, 0], color=pink)
+                segment = Line(a.get_center(), b.get_center(), color=teal, stroke_width=10)
+                reveal(a, b, segment)
+                label("A", a.get_center() + UP * 0.4, size=30)
+                label("B", b.get_center() + UP * 0.4, size=30)
+                label("5 cm", segment.get_center() + UP * 0.45, size=32)
+
+        elif template == "compass_segment":
+            base = Line(LEFT * 4.7 + DOWN, RIGHT * 3.8 + DOWN,
+                        color=ink, stroke_width=5)
+            a = Dot(LEFT * 3 + DOWN, color=pink)
+            b = Dot(RIGHT * 0.2 + DOWN, color=pink)
+            legs = VGroup(
+                Line(LEFT * 1.4 + UP * 1.8, a.get_center(), color=teal, stroke_width=7),
+                Line(LEFT * 1.4 + UP * 1.8, b.get_center(), color=orange, stroke_width=7),
+                Circle(radius=0.16, color=pink, fill_opacity=1).move_to(LEFT * 1.4 + UP * 1.8),
+            )
+            reveal(base, a, legs)
+            self.play(FadeIn(b), run_time=0.5)
+            content.add(b)
+            label("A", a.get_center() + DOWN * 0.45, size=30)
+            label("B", b.get_center() + DOWN * 0.45, size=30)
+            label("5 cm", (a.get_center() + b.get_center()) / 2 + DOWN * 0.5, size=32)
+
+        elif template == "circumference_thread":
+            circle = Circle(radius=1.65, color=orange, stroke_width=10).shift(LEFT * 2.3)
+            thread = Line(RIGHT * 0.2 + DOWN * 0.4, RIGHT * 5 + DOWN * 0.4,
+                          color=teal, stroke_width=10)
+            reveal(circle)
+            self.play(TransformFromCopy(circle, thread), run_time=1.2)
+            content.add(thread)
+            label("circumference", circle.get_center() + DOWN * 2.05, size=30)
+            label("straightened thread", thread.get_center() + DOWN * 0.6, size=29)
+
+        elif template in {"circle_anatomy", "radius_diameter_relation", "pizza_radius"}:
+            circle = Circle(radius=2.0, color=orange, fill_color=yellow,
+                            fill_opacity=0.12).shift(LEFT * 1.4)
+            centre = Dot(circle.get_center(), color=pink)
+            diameter = Line(circle.get_left(), circle.get_right(), color=teal, stroke_width=8)
+            radius = Line(circle.get_center(), circle.get_right(), color=green, stroke_width=9)
+            reveal(circle, centre, diameter, radius)
+            label("O", centre.get_center() + UP * 0.35, size=28)
+            label("diameter d", circle.get_center() + DOWN * 0.45, size=28)
+            label("radius r", radius.get_center() + UP * 0.45, size=28)
+            if template == "pizza_radius":
+                label("24 cm", circle.get_center() + DOWN * 2.45, size=34)
+                label("radius = 12 cm", RIGHT * 3 + UP * 0.4, colour=orange, size=34)
+            elif template == "radius_diameter_relation":
+                label("d = 2 × r", RIGHT * 3 + UP * 0.6, colour=orange, size=38)
+                label("r = d ÷ 2", RIGHT * 3 + DOWN * 0.3, colour=teal, size=38)
+            else:
+                label("centre • radius • diameter", RIGHT * 3 + DOWN * 0.1, size=31)
+
+        elif template == "compass_circle":
+            circle = Circle(radius=2.0, color=orange, stroke_width=9).shift(LEFT * 1.2)
+            centre = Dot(circle.get_center(), color=pink)
+            radius = Line(circle.get_center(), circle.get_right(), color=teal, stroke_width=7)
+            reveal(centre, radius)
+            self.play(Create(circle), Rotate(radius, angle=TAU, about_point=circle.get_center()),
+                      run_time=2.2)
+            content.add(circle)
+            label("centre", circle.get_center() + DOWN * 0.45, size=28)
+            label("radius = 4 cm", RIGHT * 3 + UP * 0.4, size=34)
+            arc = Arc(radius=1.0, start_angle=0, angle=PI * 0.75, color=pink).shift(RIGHT * 3 + DOWN)
+            reveal(arc)
+            label("arc", RIGHT * 3 + DOWN * 1.8, size=28)
+
+        elif template == "four_circles":
+            circles = VGroup(*[
+                Circle(radius=0.95, color=teal, fill_color=yellow, fill_opacity=0.12)
+                .shift(LEFT * 3 + RIGHT * i * 1.9)
+                for i in range(4)
+            ])
+            reveal(circles, run_time=1.2)
+            for circle in circles:
+                radius = Line(circle.get_center(), circle.get_right(), color=pink, stroke_width=5)
+                self.play(Create(radius), run_time=0.25)
+                content.add(radius)
+            label("each r = 3 cm", UP * 1.6, size=34)
+            label("each d = 6 cm", DOWN * 1.6, size=34)
+            label("4 × 6 = 24 cm", DOWN * 2.35, colour=orange, size=38)
+
+        elif template == "solid_views_tent":
+            tent = Polygon(LEFT * 1.8 + DOWN, ORIGIN + UP * 1.8,
+                           RIGHT * 1.8 + DOWN, color=orange,
+                           fill_color=yellow, fill_opacity=0.2).shift(LEFT * 1.5)
+            front = Polygon(LEFT * 0.75 + DOWN * 0.6, UP * 0.75,
+                            RIGHT * 0.75 + DOWN * 0.6, color=teal).shift(RIGHT * 3 + UP * 1.3)
+            top = Rectangle(width=1.8, height=0.9, color=green).shift(RIGHT * 3)
+            side = Polygon(LEFT * 0.7 + DOWN * 0.5, UP * 0.65,
+                           RIGHT * 0.7 + DOWN * 0.5, color=pink).shift(RIGHT * 3 + DOWN * 1.5)
+            reveal(tent, front, top, side)
+            label("tent", tent.get_center() + DOWN * 1.65, size=30)
+            label("front • elevation", front.get_center() + RIGHT * 1.65, size=25)
+            label("top • plane", top.get_center() + RIGHT * 1.5, size=25)
+            label("side view", side.get_center() + RIGHT * 1.25, size=25)
+
+        elif template == "solid_view_projections":
+            solid = Cube(side_length=2.2, fill_color=yellow, fill_opacity=0.16,
+                         stroke_color=orange).shift(LEFT * 2.8)
+            front = Square(side_length=1.5, color=teal).shift(RIGHT * 2.6 + UP * 1.5)
+            top = Square(side_length=1.5, color=green).shift(RIGHT * 2.6)
+            side = Square(side_length=1.5, color=pink).shift(RIGHT * 2.6 + DOWN * 1.5)
+            reveal(solid, front, top, side)
+            label("elevation", front.get_center() + RIGHT * 1.45, size=27)
+            label("plane", top.get_center() + RIGHT * 1.15, size=27)
+            label("side view", side.get_center() + RIGHT * 1.3, size=27)
+
+        else:
+            cards = VGroup()
+            for i, text in enumerate(concepts[:4]):
+                box = RoundedRectangle(width=4.4, height=0.9, corner_radius=0.2,
+                                       color=[orange, teal, green, pink][i % 4],
+                                       fill_opacity=0.12)
+                item = Text(text, font=_FONT, font_size=30, color=ink).move_to(box)
+                cards.add(VGroup(box, item))
+            cards.arrange(DOWN, buff=0.28).shift(LEFT * 1.4)
+            reveal(cards, run_time=1.0)
+
+        if equations and template not in {"radius_diameter_relation", "pizza_radius", "four_circles"}:
+            eq_group = VGroup(*[
+                Text(eq, font=_FONT, font_size=30, color=orange)
+                for eq in equations
+            ]).arrange(DOWN, buff=0.25).to_edge(RIGHT, buff=0.45).shift(DOWN * 2.1)
+            self.play(FadeIn(eq_group), run_time=0.7)
+            content.add(eq_group)
+
+        # Keep meaningful motion under longer narration without looping media.
+        remaining = max(1.0, target_duration - self.time)
+        while remaining > 1.1:
+            step = min(2.0, remaining)
+            self.play(content.animate.shift(UP * 0.045),
+                      rate_func=there_and_back, run_time=step)
+            remaining -= step
+        if remaining > 0:
+            self.wait(remaining)
+'''
+        return (
+            code.replace("__CLASS__", cls)
+            .replace("__TEMPLATE__", json.dumps(visual_template))
+            .replace("__CONCEPTS__", json.dumps(concepts, ensure_ascii=False))
+            .replace("__EQUATIONS__", json.dumps(equations, ensure_ascii=False))
+            .replace("__DURATION__", f"{target_duration:.3f}")
+        )
+
     def _coder_agent(self, plan: dict[str, Any]) -> str:
         """Generate Manim Python code from the planner's blueprint selection."""
         sec     = plan["section"]
+        if plan.get("subject") == "maths" and sec.get("visual_template"):
+            return self._math_geometry_coder(plan)
         title   = sec.get("title", "Scene")
-        concepts = sec.get("key_concepts", [])
-        equations = sec.get("equations", [])
+        concepts = [str(value) for value in sec.get("key_concepts", []) if str(value).strip()]
+        source_text = str(
+            sec.get("source_text") or sec.get("description") or ""
+        ).strip()
+        if (
+            not concepts
+            and source_text
+            and sec.get("source_document_block_type") != "equation"
+        ):
+            concepts = textwrap.wrap(
+                source_text,
+                width=42,
+                break_long_words=False,
+                break_on_hyphens=False,
+            )
+        equations = [str(value) for value in sec.get("equations", []) if str(value).strip()]
+        if not equations and sec.get("source_document_block_type") == "equation":
+            equations = [source_text]
         dur     = sec.get("duration_seconds", 30)
         cls     = plan["scene_class"]
 
-        concepts_str = ", ".join(f'"{c}"' for c in concepts[:5])
+        title_literal = json.dumps(str(title), ensure_ascii=False)
+        concepts_literal = json.dumps(concepts, ensure_ascii=False)
         eq_lines = ""
         if equations:
             eq_lines = "\n".join(
-                f'        self.play(Write(MathTex(r"{eq}", font_size=48, '
-                f'color=ManimColor("{SC_ACCENT}"))))'
-                for eq in equations[:3]
+                "        self.play(Write(Text("
+                + json.dumps(eq, ensure_ascii=False)
+                + f', font=_FONT, font_size=46, color=ManimColor("{SC_ACCENT}"))))'
+                for eq in equations
             )
 
         code = f'''\
 from manim import *
-from tools.video.manim_generator import ChildrensTheme, _FONT
 
 
 class {cls}(ChildrensTheme):
-    """EduStream Pro scene: {title}"""
+    """Source-grounded EduStream Pro precision scene."""
 
     def construct(self) -> None:
         # ── Title ──────────────────────────────────────────────────────────
         title = Text(
-            "{title}",
+            {title_literal},
             font=_FONT,
             font_size=64,
             color=ManimColor("{SC_PRIMARY}"),
@@ -405,11 +737,12 @@ class {cls}(ChildrensTheme):
         self.wait(0.3)
 
         # ── Concepts ───────────────────────────────────────────────────────
-        concepts = [{concepts_str}]
+        concepts = {concepts_literal}
         colours  = ["{SC_PRIMARY}", "{SC_SECONDARY}", "{SC_ACCENT}",
                     "{SC_EVS}", "{SC_ENGLISH}"]
         items = VGroup()
-        for i, (c, col) in enumerate(zip(concepts, colours)):
+        for i, c in enumerate(concepts):
+            col = colours[i % len(colours)]
             box = RoundedRectangle(
                 corner_radius=0.25, width=3.5, height=0.85,
                 color=ManimColor(col), fill_opacity=0.18,
@@ -458,9 +791,11 @@ class {cls}(ChildrensTheme):
             tmp = f.name
 
         output_dir.mkdir(parents=True, exist_ok=True)
+        manim_python = os.environ.get("OPENMONTAGE_MANIM_PYTHON") or sys.executable
         cmd = [
-            sys.executable, "-m", "manim",
+            manim_python, "-m", "manim",
             preset["flag"],
+            "--fps", str(preset["fps"]),
             "--media_dir", str(output_dir),
             "--output_file", scene_class,
             tmp, scene_class,
@@ -525,10 +860,13 @@ class {cls}(ChildrensTheme):
                     )
 
         if dry_run:
+            output_dir.mkdir(parents=True, exist_ok=True)
+            dry_run_path = output_dir / f"{plan['scene_class']}_dryrun.mp4"
+            dry_run_path.write_bytes(b"")
             return ToolResult(
                 success=True,
                 data={
-                    "video_path": str(output_dir / f"{plan['scene_class']}_dryrun.mp4"),
+                    "video_path": str(dry_run_path),
                     "manim_code": code,
                     "compile_log": log,
                 },

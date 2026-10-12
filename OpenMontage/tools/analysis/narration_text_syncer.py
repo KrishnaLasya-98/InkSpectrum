@@ -38,10 +38,13 @@ Output files (per project/subject/artifacts/)
 from __future__ import annotations
 
 import json
+import math
 import re
 import sys
 import time
+from copy import deepcopy
 from difflib import SequenceMatcher
+from functools import lru_cache
 from pathlib import Path
 from typing import Any
 
@@ -100,6 +103,18 @@ _FASTER_WHISPER_MODEL: Any | None = None
 # Step 1 & 2: Word-level timestamp extraction
 # ---------------------------------------------------------------------------
 
+@lru_cache(maxsize=1)
+def _whisperx_model(device):
+    import whisperx
+    return whisperx.load_model("base", device)
+
+
+@lru_cache(maxsize=1)
+def _whisperx_aligner(language, device):
+    import whisperx
+    return whisperx.load_align_model(language_code=language, device=device)
+
+
 def _align_with_whisperx(audio_path: Path) -> list[dict[str, Any]] | None:
     """Try WhisperX forced alignment. Returns word list or None if unavailable."""
     try:
@@ -107,14 +122,12 @@ def _align_with_whisperx(audio_path: Path) -> list[dict[str, Any]] | None:
         import torch
 
         device = "cuda" if torch.cuda.is_available() else "cpu"
-        model  = whisperx.load_model("base", device)
+        model  = _whisperx_model(device)
         audio  = whisperx.load_audio(str(audio_path))
         result = model.transcribe(audio)
 
         # Forced alignment
-        align_model, metadata = whisperx.load_align_model(
-            language_code=result["language"], device=device
-        )
+        align_model, metadata = _whisperx_aligner(result["language"], device)
         aligned = whisperx.align(
             result["segments"], align_model, metadata, audio, device
         )
@@ -132,6 +145,24 @@ def _align_with_whisperx(audio_path: Path) -> list[dict[str, Any]] | None:
 
 def _normalise_word(value: str) -> str:
     return re.sub(r"[^a-z0-9']+", "", value.lower())
+
+
+def _restore_script_typography(words, reference_text):
+    """Restore script typography only for an exact lexical match.
+
+    Never hide missing/replaced spoken words behind corrected subtitle text.
+    A mismatch leaves the caller to try the next alignment backend.
+    """
+    reference = reference_text.split()
+    def lexical(value):
+        # Preserve decimal points: 3.5 and 35 are different spoken values.
+        return "".join(re.findall(r"(?<=\d)\.(?=\d)|[^\W_]", value.casefold()))
+    if len(reference) != len(words) or not reference:
+        return None
+    if any(not lexical(text) or lexical(text) != lexical(word["word"])
+           for text, word in zip(reference, words)):
+        return None
+    return [{**word, "word": text} for word, text in zip(words, reference)]
 
 
 def _align_with_faster_whisper(
@@ -242,6 +273,8 @@ def _get_word_timestamps(
     if audio_path.exists() and audio_path.stat().st_size > 0:
         aligned = _align_with_whisperx(audio_path)
         if aligned:
+            aligned = _restore_script_typography(aligned, text)
+        if aligned:
             # Offset all timestamps by the section's start position in the video
             return ([
                 {
@@ -269,7 +302,7 @@ def _get_word_timestamps(
 # ---------------------------------------------------------------------------
 
 # Sentence-ending punctuation — always break after these
-_SENTENCE_END = re.compile(r"[.!?]$")
+_SENTENCE_END = re.compile(r"[.!?][\"'\u2019\u201d)\]]*$")
 # Clause breaks — prefer breaking after these when approaching max width
 _CLAUSE_BREAK = re.compile(r"[,;:]$")
 
@@ -357,6 +390,51 @@ def _build_word_captions(
     return captions
 
 
+def rebase_alignment_to_timeline(
+    aligned_segments: list[dict[str, Any]],
+    timeline: list[dict[str, Any]],
+) -> dict[str, Any]:
+    """Rebase section-local speech timings onto the measured global timeline.
+
+    Alignment is performed against each narration file, while the multimedia
+    planner owns the chapter-wide cursor. Applying the measured cursor here,
+    once, prevents word captions and teaching reveals from retaining stale
+    planned offsets after audio durations have been measured.
+    """
+
+    timing_by_section = {
+        str(item.get("section_id")): item for item in timeline
+    }
+    rebased = deepcopy(aligned_segments)
+    missing: list[str] = []
+    for segment in rebased:
+        section_id = str(segment.get("section_id", ""))
+        timing = timing_by_section.get(section_id)
+        if timing is None:
+            missing.append(section_id)
+            continue
+        target_start_ms = int(round(float(timing["start_seconds"]) * 1000))
+        current_start_ms = int(segment.get("start_ms", 0))
+        delta_ms = target_start_ms - current_start_ms
+        segment["start_ms"] = target_start_ms
+        segment["end_ms"] = int(round(float(timing["end_seconds"]) * 1000))
+        for word in segment.get("words", []):
+            word["start_ms"] = int(word["start_ms"]) + delta_ms
+            word["end_ms"] = int(word["end_ms"]) + delta_ms
+
+    if missing:
+        raise ValueError(
+            "Measured multimedia timeline is missing aligned section(s): "
+            + ", ".join(missing)
+        )
+
+    return {
+        "narration_aligned": rebased,
+        "word_captions": _build_word_captions(rebased),
+        "formatted_srt": _build_formatted_srt(rebased),
+    }
+
+
 def _ts(ms: int) -> str:
     """Format ms as SRT timestamp HH:MM:SS,mmm."""
     h, r = divmod(ms, 3_600_000)
@@ -430,29 +508,62 @@ def _build_qa_card_props(
     for seg in aligned_segments:
         all_words.extend(seg.get("words", []))
 
+    def tokens(text):
+        # Preserve mathematical punctuation and decimal values while ignoring
+        # sentence punctuation around a spoken token.
+        return [w.casefold().strip('.,!?;:\"\u201c\u201d()') for w in text.split()]
+
+    spoken = [tokens(w["word"])[0] if tokens(w["word"]) else "" for w in all_words]
+    cursor = 0
+
+    def locate(text, start):
+        target = tokens(text)
+        if not target:
+            raise ValueError("Exercise question and answer must be nonempty")
+        for index in range(start, len(spoken) - len(target) + 1):
+            if spoken[index:index + len(target)] == target:
+                return index, index + len(target)
+        raise ValueError("Exercise phrase is absent from ordered aligned narration: " + text)
+
     for i, pair in enumerate(qa_pairs):
         question = pair.get("question", "")
-        answer   = pair.get("answer_hint", "") or pair.get("answer_text", "")
+        answer   = pair.get("answer", "") or pair.get("answer_text", "") or pair.get("answer_hint", "")
         fmt      = pair.get("qa_format", "short_answer")
-
-        # Find the word in the aligned transcript that best matches
-        # the beginning of the answer text
-        answer_first_word = answer.split()[0].lower().rstrip(".,?!") if answer else ""
-        reveal_ms = section_start_ms + 2500  # default 2.5s
-
-        if answer_first_word:
-            for w in all_words:
-                if w["word"].lower().rstrip(".,?!") == answer_first_word:
-                    reveal_ms = w["start_ms"]
-                    break
-
-        reveal_delay_s = max(1.0, (reveal_ms - section_start_ms) / 1000)
+        q_start, q_end = locate(question, cursor)
+        a_start, a_end = locate(answer, q_end)
+        reveal_ms = all_words[a_start]["start_ms"]
+        question_end = all_words[q_end - 1]["end_ms"]
+        pause = float(pair.get("thinking_pause_seconds", 0))
+        if not math.isfinite(pause) or not 0 <= pause <= 60:
+            raise ValueError("Exercise thinking pause must be between 0 and 60 seconds")
+        # Thinking time must be actual silence immediately after the question,
+        # not explanation spoken before the answer.
+        silence_end = all_words[q_end]["start_ms"]
+        if silence_end - question_end < pause * 1000 - 1:
+            raise ValueError("Exercise narration is missing its requested thinking pause")
+        if reveal_ms < question_end or all_words[q_start]["start_ms"] < section_start_ms:
+            raise ValueError("Exercise alignment contains invalid timing order")
+        reveal_delay_s = (reveal_ms - section_start_ms) / 1000
+        step_cursor = q_end
+        solution_beats = []
+        for step in pair.get("solution_steps", []) or []:
+            step_start, step_end = locate(step, step_cursor)
+            solution_beats.append({"text": step,
+                "start_seconds": (all_words[step_start]["start_ms"] - section_start_ms) / 1000})
+            step_cursor = step_end
+        cursor = max(a_end, step_cursor)
 
         card: dict[str, Any] = {
             "card_id":              f"qa_{i}_{pair.get('number', i)}",
             "format":               fmt,
             "question":             question,
             "reveal_delay_seconds": round(reveal_delay_s, 2),
+            "question_start_seconds": (all_words[q_start]["start_ms"] - section_start_ms) / 1000,
+            "thinking_start_seconds": (question_end - section_start_ms) / 1000,
+            "thinking_end_seconds": (question_end - section_start_ms) / 1000 + pause,
+            "timing_basis": "ordered_aligned_phrases",
+            "answer_text": answer,
+            "solution_beats": solution_beats,
         }
 
         if fmt == "mcq":
@@ -581,11 +692,12 @@ class NarrationTextSyncer(BaseTool):
 
             # Build QA card props for any section that has qa_pairs,
             # regardless of block type (qa_item, fill_blank, mcq, recall all apply).
-            qa_pairs = section_data.get("qa_pairs", [])
+            qa_pairs = (section_data.get("teaching_contract") or {}).get("questions") or section_data.get("qa_pairs", [])
             if qa_pairs:
-                qa_card_map[sid] = _build_qa_card_props(
-                    [aligned_seg], qa_pairs, start_ms
-                )
+                try:
+                    qa_card_map[sid] = _build_qa_card_props([aligned_seg], qa_pairs, start_ms)
+                except ValueError as exc:
+                    return ToolResult(success=False, error=f"Exercise timing needs repair in {sid}: {exc}")
 
         # Build outputs
         word_captions  = _build_word_captions(aligned_segments)

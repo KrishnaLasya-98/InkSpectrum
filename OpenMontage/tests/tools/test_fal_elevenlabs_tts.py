@@ -25,6 +25,7 @@ def test_contract_models_and_cost(monkeypatch):
     assert tool.estimate_cost({"text": "a" * 1000, "model_id": "eleven-v3"}) == 0.1
     assert tool.estimate_cost({"text": "a" * 1000, "model_id": "multilingual-v2"}) == 0.1
     assert tool.estimate_cost({"text": "a" * 1000, "model_id": "turbo-v2.5"}) == 0.05
+    assert tool.estimate_cost({"text": "a" * 1000, "model_id": "eleven_v4"}) == 0.08
 
 
 def test_registry_discovers_fal_tts(monkeypatch):
@@ -119,6 +120,31 @@ def test_invalid_model_does_not_submit(monkeypatch):
     assert result.success is False
     assert "model_id must be one of" in result.error
     mock_post.assert_not_called()
+
+
+def test_v4_uses_exact_endpoint_without_unsupported_speed_or_style(tmp_path, monkeypatch):
+    monkeypatch.setenv("FAL_KEY", "test-key")
+    tool = FalElevenLabsTTS()
+    tool._POLL_INTERVAL_SECONDS = 0
+    with (
+        patch("requests.post", return_value=_response(json_data={
+            "status_url": "https://queue.example/status",
+            "response_url": "https://queue.example/result",
+        })) as mock_post,
+        patch("requests.get", side_effect=[
+            _response(json_data={"status": "COMPLETED"}),
+            _response(json_data={"audio": {"url": "https://media.example/speech.mp3"}}),
+            _response(content=b"fake-mp3"),
+        ]),
+    ):
+        result = tool.execute({"text": "Hello, class.", "voice_id": "selected-voice",
+                               "model_id": "eleven_v4",
+                               "output_path": str(tmp_path / "speech.mp3")})
+    assert result.success
+    assert mock_post.call_args.args[0].endswith("/elevenlabs/tts/eleven-v4")
+    assert mock_post.call_args.kwargs["json"]["voice"] == "selected-voice"
+    assert "speed" not in mock_post.call_args.kwargs["json"]
+    assert "style" not in mock_post.call_args.kwargs["json"]
 
 
 def test_error_redacts_fal_key(monkeypatch):

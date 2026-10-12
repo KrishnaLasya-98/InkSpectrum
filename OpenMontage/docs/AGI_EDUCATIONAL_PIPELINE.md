@@ -78,13 +78,30 @@ The production agent may create reversible artifacts, call approved local tools,
 
 1. Place the PDF somewhere readable inside the workspace or provide its absolute path.
 2. Supply project ID, audience/grade, subject type, language, and target duration if known.
-3. Run registry preflight.
-4. Initialize the project:
+3. Run a no-cost structural pass through the portable controller:
 
    ```powershell
-   python -c "from lib.checkpoint import init_project; init_project('<project-id>', title='<Chapter title>', pipeline_type='educational-video')"
+   python -m tools.structure.educational_agent_cli run "C:\path\chapter.pdf" `
+     --project-id <project-id> --subject <subject> --grade <grade> --dry-run
    ```
 
-5. Have the educational-video orchestrator execute each manifest stage and stop at declared approval gates.
+4. Start guided production without `--dry-run`. The runner writes the project
+   marker, checkpoints, Backlot events, cost snapshots, and artifacts, then
+   stops at each manifest approval gate.
+5. Inspect or approve a stage with `educational_agent_cli status` and
+   `educational_agent_cli approve`, then rerun the same production command.
+6. Use `--full-run-preauthorized` only after the user has explicitly approved
+   creative direction, provider spending, and final delivery.
 
-The project-specific agent configuration is `.cursor/agents/educational-video-orchestrator.md`; persistent operating constraints are `.cursor/rules/agi-educational-video-pipeline.mdc`.
+The canonical cross-agent package is
+`.agents/skills/openmontage-educational-video/SKILL.md`. Codex, Claude, Cursor,
+and Hermes adapters delegate to this file; the executable integration boundary
+is `tools.structure.educational_agent_cli`, not a vendor-specific agent API.
+
+## Backlot state contract
+
+Every run writes `project.json`, manifest-ordered `checkpoint_*.json` files,
+`events.jsonl`, cost snapshots, and `artifacts/agent_status.json`. Backlot and
+external agents therefore observe the same state. A dry run verifies schemas,
+routing, and orchestration only; it does not validate cloud media quality or an
+encoded final video.

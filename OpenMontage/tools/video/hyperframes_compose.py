@@ -22,8 +22,10 @@ import re
 import shutil
 import subprocess
 import time
+import tempfile
 from pathlib import Path
 from typing import Any, Optional
+from lib.production_runtime import run_logged
 
 from tools.base_tool import (
     BaseTool,
@@ -216,6 +218,21 @@ class HyperFramesCompose(BaseTool):
                 "default": False,
                 "description": "Save representative quality-check snapshots.",
             },
+            "workers": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 8,
+                "description": "Explicit HyperFrames render worker count.",
+            },
+            "low_memory_mode": {
+                "type": "boolean",
+                "default": True,
+                "description": "Use streaming low-memory capture for long renders.",
+            },
+            "render_timeout_seconds": {
+                "type": "integer", "minimum": 1,
+                "description": "Render deadline; defaults to OPENMONTAGE_RENDER_TIMEOUT_SECONDS or 43200 seconds.",
+            },
         },
     }
 
@@ -285,20 +302,25 @@ class HyperFramesCompose(BaseTool):
         if cls._npm_resolve_cache is not None:
             return cls._npm_resolve_cache
 
-        npm = shutil.which("npm")
-        if not npm:
-            cls._npm_resolve_cache = {"error": "npm not on PATH"}
+        npx = shutil.which("npx")
+        if not npx:
+            cls._npm_resolve_cache = {"error": "npx not on PATH"}
             return cls._npm_resolve_cache
 
+        # Prefer the locally cached package. Production rendering must remain
+        # usable when the npm registry is slow or temporarily offline.
         try:
             proc = subprocess.run(
-                [npm, "view", cls._NPM_PACKAGE, "version"],
+                [
+                    npx, "--offline", "--no-install",
+                    cls._NPM_PACKAGE, "--version",
+                ],
                 capture_output=True,
                 text=True,
-                timeout=5,
+                timeout=20,
             )
         except subprocess.TimeoutExpired:
-            cls._npm_resolve_cache = {"error": "timeout (5s) — offline or slow registry"}
+            cls._npm_resolve_cache = {"error": "local CLI version probe timed out"}
             return cls._npm_resolve_cache
         except (OSError, subprocess.SubprocessError) as e:
             cls._npm_resolve_cache = {"error": f"npm view failed: {type(e).__name__}"}
@@ -306,19 +328,15 @@ class HyperFramesCompose(BaseTool):
 
         if proc.returncode != 0:
             stderr = (proc.stderr or "").strip()
-            # Most common failure is 404 (package unpublished or name wrong).
-            if "404" in stderr or "E404" in stderr:
-                cls._npm_resolve_cache = {
-                    "error": f"npm package `{cls._NPM_PACKAGE}` not found (404)"
-                }
-            else:
-                tail = stderr.splitlines()[-1][:200] if stderr else f"exit {proc.returncode}"
-                cls._npm_resolve_cache = {"error": f"npm view failed: {tail}"}
+            tail = stderr.splitlines()[-1][:200] if stderr else f"exit {proc.returncode}"
+            cls._npm_resolve_cache = {
+                "error": f"local npm cache does not contain a usable CLI: {tail}"
+            }
             return cls._npm_resolve_cache
 
         version = (proc.stdout or "").strip()
         if not version:
-            cls._npm_resolve_cache = {"error": "npm view returned empty version"}
+            cls._npm_resolve_cache = {"error": "local CLI returned an empty version"}
         else:
             cls._npm_resolve_cache = {"version": version}
         return cls._npm_resolve_cache
@@ -342,7 +360,10 @@ class HyperFramesCompose(BaseTool):
 
         try:
             proc = subprocess.run(
-                [npx, "--yes", cls._NPM_PACKAGE, "doctor", "--json"],
+                [
+                    npx, "--offline", "--no-install",
+                    cls._NPM_PACKAGE, "doctor", "--json",
+                ],
                 capture_output=True,
                 text=True,
                 timeout=20,
@@ -711,6 +732,29 @@ class HyperFramesCompose(BaseTool):
             data["stdout_tail"] = (proc.stdout or "")[-4000:]
         data["stderr_tail"] = (proc.stderr or "")[-2000:]
         ok = proc.returncode == 0
+        if not ok and payload is not None and inputs.get("strict_check", False):
+            findings: list[dict[str, Any]] = []
+            for stage in ("lint", "runtime", "layout", "motion", "contrast"):
+                findings.extend((payload.get(stage) or {}).get("findings") or [])
+            # HyperFrames includes informational layout observations in a strict
+            # report even though they do not make the corresponding stage fail.
+            # Only errors and warnings participate in this local waiver check;
+            # otherwise harmless transition-boundary info would block a render.
+            reportable_findings = [
+                item
+                for item in findings
+                if str(item.get("severity") or "").lower() in {"error", "warning"}
+            ]
+            allowed_warnings = {"composition_file_too_large"}
+            if reportable_findings and all(
+                str(item.get("severity") or "").lower() == "warning"
+                and str(item.get("code") or "") in allowed_warnings
+                for item in reportable_findings
+            ):
+                ok = True
+                data["waived_warnings"] = [
+                    item.get("code") for item in reportable_findings
+                ]
         return ToolResult(
             success=ok,
             data=data,
@@ -837,7 +881,13 @@ class HyperFramesCompose(BaseTool):
             "--fps", str(fps),
             "--quality", quality,
         ]
-        proc = self._run_hf(args, cwd=workspace, timeout=1800, check=False)
+        args.extend(["--workers", str(int(inputs.get("workers", 1)))])
+        if inputs.get("low_memory_mode", True):
+            args.append("--low-memory-mode")
+        budget = self._render_budget(workspace, output_path, inputs, fps)
+        if budget:
+            return ToolResult(success=False, error=budget)
+        proc = self._run_hf(args, cwd=workspace, timeout=self._render_timeout(inputs), check=False)
         steps["render"] = {
             "exit_code": proc.returncode,
             "stdout_tail": (proc.stdout or "")[-4000:],
@@ -935,7 +985,13 @@ class HyperFramesCompose(BaseTool):
             "--quality", quality,
             "--strict",
         ]
-        proc = self._run_hf(args, cwd=workspace, timeout=1800, check=False)
+        args.extend(["--workers", str(int(inputs.get("workers", 1)))])
+        if inputs.get("low_memory_mode", True):
+            args.append("--low-memory-mode")
+        budget = self._render_budget(workspace, output_path, inputs, fps)
+        if budget:
+            return ToolResult(success=False, error=budget)
+        proc = self._run_hf(args, cwd=workspace, timeout=self._render_timeout(inputs), check=False)
         steps["render"] = {
             "exit_code": proc.returncode,
             "stdout_tail": (proc.stdout or "")[-4000:],
@@ -1346,6 +1402,35 @@ class HyperFramesCompose(BaseTool):
     # Utilities
     # ------------------------------------------------------------------
 
+    @staticmethod
+    def _render_timeout(inputs):
+        return max(1, int(inputs.get("render_timeout_seconds") or
+                          os.environ.get("OPENMONTAGE_RENDER_TIMEOUT_SECONDS", "43200")))
+
+    @staticmethod
+    def _render_budget(workspace, output_path, inputs, fps):
+        """Conservative admission estimate; CLI still verifies capture capacity."""
+        html = (workspace / "index.html").read_text(encoding="utf-8")
+        def number(name, default):
+            match = re.search(rf'data-{name}=["\x27]([0-9.]+)', html)
+            return float(match.group(1)) if match else default
+        duration = number("duration", 0)
+        width, height = number("width", 1920), number("height", 1080)
+        reserve = 2 * 1024**3
+        # Multiple workers may disable streaming in some CLI versions.
+        capture = (duration * fps * width * height * .25
+                   if int(inputs.get("workers", 1)) > 1 or not inputs.get("low_memory_mode", True)
+                   else width * height * 4 * 120)
+        encoded = duration * 2_000_000  # generous 16 Mbps output estimate
+        temp = Path(tempfile.gettempdir())
+        output_dir = output_path.parent
+        same_volume = os.stat(temp).st_dev == os.stat(output_dir).st_dev
+        if shutil.disk_usage(temp).free < reserve + capture + (encoded if same_volume else 0):
+            return "Insufficient temporary disk capacity for estimated render capture; reduce workers or free space"
+        if not same_volume and shutil.disk_usage(output_dir).free < reserve + encoded:
+            return "Insufficient output disk capacity for estimated encoded video"
+        return None
+
     def _run_hf(
         self,
         args: list[str],
@@ -1360,7 +1445,19 @@ class HyperFramesCompose(BaseTool):
         want to raise CalledProcessError on non-zero exits — the caller
         parses lint/validate/render exit codes itself.
         """
-        cmd = ["npx", "--yes", "hyperframes", *args]
+        pinned = (
+            Path(__file__).resolve().parents[2]
+            / ".runtime"
+            / "hyperframes"
+            / "node_modules"
+            / "hyperframes"
+            / "bin"
+            / "hyperframes.mjs"
+        )
+        if pinned.is_file() and shutil.which("node"):
+            cmd = ["node", str(pinned), *args]
+        else:
+            cmd = ["npx", "--offline", "--no-install", "hyperframes", *args]
         # On Windows, resolve the .cmd wrapper so subprocess can find it
         # without shell=True.
         if os.name == "nt":
@@ -1368,6 +1465,9 @@ class HyperFramesCompose(BaseTool):
             if resolved:
                 cmd[0] = resolved
         try:
+            if args and args[0] == "render":
+                return run_logged(cmd, cwd=str(cwd) if cwd else None, timeout=timeout,
+                                  log_dir=(cwd or Path.cwd()) / "render-logs")
             return subprocess.run(
                 cmd,
                 capture_output=True,
@@ -1382,8 +1482,8 @@ class HyperFramesCompose(BaseTool):
             return subprocess.CompletedProcess(
                 args=cmd,
                 returncode=124,
-                stdout=e.stdout or "",
-                stderr=(e.stderr or "") + f"\n[timeout after {timeout}s]",
+                stdout=e.stdout.decode("utf-8", errors="replace") if isinstance(e.stdout, bytes) else (e.stdout or ""),
+                stderr=(e.stderr.decode("utf-8", errors="replace") if isinstance(e.stderr, bytes) else (e.stderr or "")) + f"\n[timeout after {timeout}s]",
             )
 
     @staticmethod

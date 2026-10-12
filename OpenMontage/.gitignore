@@ -103,5 +103,8 @@ venv/
 # used by blender_world). These are checksum-verified but never committed.
 .runtime/
 
+# Local package/model caches used by OCR and media generation.
+.cache/
+
 # Local Wan / diffusers GPU environment
 .venv-wan/

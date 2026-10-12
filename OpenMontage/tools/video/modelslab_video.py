@@ -7,9 +7,15 @@ Seedance, Wan, Veo, Sora, Kling, and Hailuo via a single API key.
 from __future__ import annotations
 
 import os
+import hashlib
+import json
+import shutil
+import subprocess
 import time
 from pathlib import Path
 from typing import Any
+
+from dotenv import load_dotenv
 
 from tools.base_tool import (
     BaseTool,
@@ -32,11 +38,87 @@ from tools.video._modelslab_shared import (
     submit_modelslab,
     upload_modelslab_media,
 )
+from tools.video.modelslab_capabilities import (
+    DEFAULT_MODELS_BY_OPERATION,
+    resolve_modelslab_video_contract,
+)
+
+
+_RECOVERABLE_JOB_STATES = {"submitted", "processing", "timed_out", "poll_error"}
+
+
+def _job_state_path(output_path: Path) -> Path:
+    return output_path.with_suffix(output_path.suffix + ".modelslab-job.json")
+
+
+def _request_fingerprint(model_id: str, operation: str, payload: dict[str, Any]) -> str:
+    safe = {key: value for key, value in payload.items() if key != "key"}
+    raw = json.dumps({"model_id": model_id, "operation": operation, "payload": safe},
+                     sort_keys=True, ensure_ascii=False, separators=(",", ":"))
+    return hashlib.sha256(raw.encode("utf-8")).hexdigest()
+
+
+def _read_job_state(path: Path) -> dict[str, Any] | None:
+    try:
+        value = json.loads(path.read_text(encoding="utf-8"))
+        return value if isinstance(value, dict) else None
+    except (OSError, json.JSONDecodeError):
+        return None
+
+
+def _write_job_state(path: Path, state: dict[str, Any]) -> None:
+    """Atomically persist a provider handle. Never store credentials."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = path.with_suffix(path.suffix + ".tmp")
+    temporary.write_text(json.dumps(state, indent=2), encoding="utf-8")
+    os.replace(temporary, path)
+
+
+def _strip_audio_track(output_path: Path) -> None:
+    """Make a downloaded educational clip physically silent.
+
+    Provider flags are not a sufficient guarantee across model families.  The
+    final local file is therefore remuxed with ``-an`` before it can enter an
+    educational composition.
+    """
+
+    if not output_path.is_file():
+        return
+    ffmpeg = shutil.which("ffmpeg")
+    if not ffmpeg:
+        raise RuntimeError(
+            "ffmpeg is required to enforce silent educational video outputs"
+        )
+    silent_path = output_path.with_name(f"{output_path.stem}.silent{output_path.suffix}")
+    completed = subprocess.run(
+        [
+            ffmpeg,
+            "-y",
+            "-i",
+            str(output_path),
+            "-map",
+            "0:v:0",
+            "-c:v",
+            "copy",
+            "-an",
+            str(silent_path),
+        ],
+        capture_output=True,
+        text=True,
+        timeout=120,
+    )
+    if completed.returncode != 0 or not silent_path.is_file():
+        silent_path.unlink(missing_ok=True)
+        raise RuntimeError(
+            "Could not remove generated audio from educational clip: "
+            f"{completed.stderr[-500:]}"
+        )
+    silent_path.replace(output_path)
 
 
 class ModelsLabVideo(BaseTool):
     name = "modelslab_video"
-    version = "0.1.0"
+    version = "0.2.0"
     tier = ToolTier.GENERATE
     capability = "video_generation"
     provider = "modelslab"
@@ -84,7 +166,7 @@ class ModelsLabVideo(BaseTool):
 
     input_schema = {
         "type": "object",
-        "required": ["prompt"],
+        "anyOf": [{"required": ["prompt"]}, {"required": ["resume_request_id"]}],
         "properties": {
             "prompt": {"type": "string"},
             "negative_prompt": {
@@ -174,6 +256,14 @@ class ModelsLabVideo(BaseTool):
                 "default": True,
                 "description": "Generate synchronized audio",
             },
+            "educational_mode": {
+                "type": "boolean",
+                "default": False,
+                "description": (
+                    "Force provider audio off and strip any audio track after "
+                    "download; approved narration remains authoritative"
+                ),
+            },
             "image_url": {
                 "type": "string",
                 "description": "Start frame image URL for image_to_video",
@@ -240,6 +330,12 @@ class ModelsLabVideo(BaseTool):
                 "default": False,
                 "description": "Return the provider request ID without waiting for completion",
             },
+            "resume_request_id": {
+                "type": "string",
+                "description": "Poll/download an already submitted request without creating another paid job",
+            },
+            "poll_endpoint": {"type": "string"},
+            "job_state_path": {"type": "string"},
         },
     }
 
@@ -255,6 +351,8 @@ class ModelsLabVideo(BaseTool):
         "operation",
         "duration",
         "seed",
+        "generate_audio",
+        "educational_mode",
     ]
     side_effects = ["writes video file to output_path", "calls ModelsLab API"]
     user_visible_verification = [
@@ -262,6 +360,10 @@ class ModelsLabVideo(BaseTool):
     ]
 
     def _get_api_key(self) -> str | None:
+        # Keep video generation consistent with the narration adapter: a
+        # chapter run may be launched from any working directory, so load the
+        # repository-scoped ignored environment file explicitly.
+        load_dotenv(Path(__file__).resolve().parents[2] / ".env")
         return os.environ.get("MODELSLAB_API_KEY")
 
     def get_status(self) -> ToolStatus:
@@ -288,70 +390,44 @@ class ModelsLabVideo(BaseTool):
             )
 
         start = time.time()
+        if not inputs.get("prompt") and not inputs.get("resume_request_id"):
+            return ToolResult(success=False, error="prompt or resume_request_id is required")
         operation = inputs.get("operation", "text_to_video")
-        model_id = inputs.get("model_id") or {
-            "image_to_video": "seedance-i2v",
-            "video_to_video": "wan2.1",
-            "lip_sync": "lipsync-2",
-        }.get(operation, "seedance-t2v")
-
-        # h3-minimax models require v6 endpoint and strict params
-        is_h3_minimax = model_id in (
-            "h3-minimax-t2v",
-            "h3-minimax-start-end-frame",
-            "h3-minimax-r2v",
+        model_id = inputs.get("model_id") or DEFAULT_MODELS_BY_OPERATION.get(
+            operation, "seedance-t2v"
         )
-        is_wan22_t2v = model_id in {"wan2.2", "wan-2.2-t2v"}
-        is_wan22_i2v = model_id == "wan-2.2-i2v"
-        is_wan22 = is_wan22_t2v or is_wan22_i2v
-        if is_wan22_t2v:
-            if operation != "text_to_video":
-                return ToolResult(
-                    success=False,
-                    error=(
-                        f"ModelsLab {model_id} supports text_to_video through "
-                        "the verified v6 adapter route"
-                    ),
-                )
-            url = "https://modelslab.com/api/v6/video/text2video_ultra"
-        elif is_wan22_i2v:
-            if operation != "image_to_video":
-                return ToolResult(
-                    success=False,
-                    error=(
-                        "ModelsLab wan-2.2-i2v requires operation=image_to_video"
-                    ),
-                )
-            url = "https://modelslab.com/api/v6/video/img2video_ultra"
-        elif is_h3_minimax:
-            if operation == "text_to_video":
-                url = "https://modelslab.com/api/v6/video/text2video"
-            elif operation == "image_to_video":
-                url = "https://modelslab.com/api/v6/video/img2video"
-            elif operation == "reference_to_video":
-                url = "https://modelslab.com/api/v6/video/img2video"
-            elif operation == "video_to_video":
-                url = "https://modelslab.com/api/v6/video/img2video"
-            elif operation == "lip_sync":
-                url = "https://modelslab.com/api/v6/video/img2video"
-            else:
-                return ToolResult(success=False, error=f"Unsupported operation for {model_id}: {operation}")
-        else:
-            if operation == "text_to_video":
-                url = "https://modelslab.com/api/v7/video-fusion/text-to-video"
-            elif operation == "image_to_video":
-                url = "https://modelslab.com/api/v7/video-fusion/image-to-video"
-            elif operation == "reference_to_video":
-                url = "https://modelslab.com/api/v7/video-fusion/text-to-video"
-            elif operation == "video_to_video":
-                url = "https://modelslab.com/api/v7/video-fusion/video-to-video"
-            elif operation == "lip_sync":
-                url = "https://modelslab.com/api/v7/video-fusion/lip-sync"
-            else:
-                return ToolResult(
-                    success=False,
-                    error=f"Unsupported operation: {operation}",
-                )
+        try:
+            contract = resolve_modelslab_video_contract(model_id, operation)
+            url = contract.endpoint_for(operation)
+        except ValueError as exc:
+            return ToolResult(success=False, error=str(exc))
+
+        profile = contract.parameter_profile
+        is_h3_minimax = profile == "h3_minimax"
+        is_wan22_t2v = profile == "wan22_t2v"
+        is_wan22_i2v = profile == "wan22_i2v"
+        is_wan22 = profile in {"wan22_t2v", "wan22_i2v"}
+        educational_mode = bool(inputs.get("educational_mode", False))
+
+        # Never accept a continuity constraint and silently drop its end frame.
+        # Wan's documented contract is a single init_image. H3's public page
+        # lists an image array but does not define start/end ordering; its name
+        # alone is not evidence for a two-frame request contract.
+        if (
+            operation == "image_to_video"
+            and inputs.get("end_image_url")
+            and not inputs.get("resume_request_id")
+            and (is_wan22_i2v or model_id == "h3-minimax-start-end-frame")
+        ):
+            return ToolResult(
+                success=False,
+                data={"production_state": "contract_blocked", "job_created": False},
+                error=(
+                    f"End-frame control is not verified for {model_id}; refusing "
+                    "to discard end_image_url. Verify the provider's two-frame "
+                    "contract before submitting a continuity-constrained shot."
+                ),
+            )
 
         payload: dict[str, Any] = {"key": api_key}
 
@@ -372,7 +448,7 @@ class ModelsLabVideo(BaseTool):
         elif is_wan22_i2v:
             payload["fps"] = max(16, min(20, int(inputs.get("fps", 18))))
             payload["num_frames"] = max(
-                82, min(122, int(inputs.get("num_frames", 90)))
+                82, min(120, int(inputs.get("num_frames", 90)))
             )
             payload["resolution"] = "480"
             payload["output_type"] = "mp4"
@@ -396,7 +472,7 @@ class ModelsLabVideo(BaseTool):
                 payload["resolution"] = 768
 
             # NO aspect_ratio for h3-minimax
-            # NO end_image for h3-minimax-start-end-frame
+            # H3 start/end image ordering is not defined by its public llms.txt.
         else:
             # v7 models use broader params
             if inputs.get("duration"):
@@ -406,8 +482,10 @@ class ModelsLabVideo(BaseTool):
             if inputs.get("resolution"):
                 payload["resolution"] = inputs["resolution"]
 
-        if "generate_audio" in inputs and not is_h3_minimax and not is_wan22:
-            payload["generate_audio"] = inputs["generate_audio"]
+        if contract.accepts_generate_audio:
+            payload["generate_audio"] = (
+                False if educational_mode else inputs.get("generate_audio", True)
+            )
         if inputs.get("seed") is not None:
             payload["seed"] = inputs["seed"]
 
@@ -417,8 +495,7 @@ class ModelsLabVideo(BaseTool):
                 init_images.append(inputs["image_url"])
             elif inputs.get("image_path"):
                 init_images.append(upload_modelslab_media(inputs["image_path"], api_key))
-            # h3-minimax-start-end-frame does NOT support end_image
-            if inputs.get("end_image_url") and model_id != "h3-minimax-start-end-frame":
+            if inputs.get("end_image_url"):
                 init_images.append(inputs["end_image_url"])
             if init_images:
                 uses_base64 = any(str(image).startswith("data:") for image in init_images)
@@ -478,17 +555,42 @@ class ModelsLabVideo(BaseTool):
             elif inputs.get("audio_path"):
                 payload["init_audio"] = inputs["audio_path"]
 
-        try:
-            submit_resp = submit_modelslab(url, api_key, payload, timeout=30)
-            request_id = submit_resp.get("id") or submit_resp.get("request_id")
-            if not request_id:
+        output_path = Path(inputs.get("output_path", "modelslab_output.mp4")).resolve()
+        job_path = Path(inputs.get("job_state_path") or _job_state_path(output_path)).resolve()
+        poll_endpoint = str(inputs.get("poll_endpoint") or contract.poll_endpoint)
+        fingerprint = _request_fingerprint(model_id, operation, payload)
+        existing = _read_job_state(job_path)
+        request_id = str(inputs.get("resume_request_id") or "")
+        resumed = bool(request_id)
+        if not request_id and existing and existing.get("status") in _RECOVERABLE_JOB_STATES:
+            if existing.get("request_fingerprint") != fingerprint:
                 return ToolResult(
                     success=False,
-                    error=f"ModelsLab did not return a request ID: {submit_resp}",
+                    data={"recoverable": True, "job_state_path": str(job_path),
+                          "request_id": existing.get("request_id")},
+                    error="A recoverable ModelsLab job exists for different content; reconcile or archive it before submitting paid work.",
                 )
+            request_id = str(existing.get("request_id") or "")
+            poll_endpoint = str(existing.get("poll_endpoint") or poll_endpoint)
+            resumed = bool(request_id)
 
-            # Use correct poll endpoint based on model family
-            poll_endpoint = "video" if (is_h3_minimax or is_wan22) else "video-fusion"
+        try:
+            if not request_id:
+                submit_resp = submit_modelslab(url, api_key, payload, timeout=30)
+                request_id = str(submit_resp.get("id") or submit_resp.get("request_id") or "")
+                if not request_id:
+                    return ToolResult(
+                        success=False,
+                        error=f"ModelsLab did not return a request ID: {submit_resp}",
+                    )
+                _write_job_state(job_path, {
+                    "version": "1.0", "provider": "modelslab", "status": "submitted",
+                    "request_id": request_id, "request_fingerprint": fingerprint,
+                    "poll_endpoint": poll_endpoint, "model_id": model_id,
+                    "operation": operation, "output_path": str(output_path),
+                    "estimated_runtime_seconds": self.estimate_runtime(inputs),
+                    "submitted_at_unix": time.time(),
+                })
             if inputs.get("submit_only"):
                 return ToolResult(
                     success=True,
@@ -499,21 +601,49 @@ class ModelsLabVideo(BaseTool):
                         "status": "processing",
                         "request_id": str(request_id),
                         "poll_endpoint": poll_endpoint,
+                        "provider_contract": contract.name,
+                        "audio_policy": "silent" if educational_mode else "provider_default",
                         "output_path": str(inputs.get("output_path", "modelslab_output.mp4")),
+                        "job_state_path": str(job_path),
+                        "resumed": resumed,
                     },
-                    cost_usd=self.estimate_cost(inputs),
+                    cost_usd=0.0 if resumed else self.estimate_cost(inputs),
                     duration_seconds=round(time.time() - start, 2),
                     model=model_id,
                 )
+            state = _read_job_state(job_path) or {}
+            _write_job_state(job_path, {**state, "status": "processing", "last_poll_at_unix": time.time()})
             result = poll_modelslab(request_id, api_key, endpoint=poll_endpoint)
-
-            output_path = Path(inputs.get("output_path", "modelslab_output.mp4"))
             download_modelslab_output(result, output_path)
-
+            if educational_mode:
+                _strip_audio_track(output_path)
+            state = _read_job_state(job_path) or {}
+            _write_job_state(job_path, {**state, "status": "success",
+                                       "completed_at_unix": time.time(),
+                                       "output_path": str(output_path)})
+        except TimeoutError as exc:
+            state = _read_job_state(job_path) or {}
+            _write_job_state(job_path, {**state, "status": "timed_out",
+                                       "last_error": str(exc)[:500]})
+            return ToolResult(success=False, data={"recoverable": True,
+                "request_id": request_id, "poll_endpoint": poll_endpoint,
+                "job_state_path": str(job_path), "output_path": str(output_path)},
+                error=f"ModelsLab job timed out but remains resumable: {exc}",
+                cost_usd=0.0 if resumed else self.estimate_cost(inputs), model=model_id)
         except Exception as e:
+            if request_id:
+                state = _read_job_state(job_path) or {}
+                terminal = "generation failed:" in str(e).casefold()
+                _write_job_state(job_path, {**state,
+                    "status": "terminal_failed" if terminal else "poll_error",
+                    "last_error": str(e)[:500]})
             return ToolResult(
                 success=False,
+                data={"recoverable": bool(request_id) and not terminal,
+                      "request_id": request_id, "poll_endpoint": poll_endpoint,
+                      "job_state_path": str(job_path), "output_path": str(output_path)},
                 error=f"ModelsLab video generation failed: {e}",
+                cost_usd=0.0 if resumed else self.estimate_cost(inputs), model=model_id,
             )
 
         from tools.video._shared import probe_output
@@ -525,18 +655,30 @@ class ModelsLabVideo(BaseTool):
                 "provider": "modelslab",
                 "model": model_id,
                 "operation": operation,
+                "provider_contract": contract.name,
+                "educational_mode": educational_mode,
+                "audio_policy": "silent" if educational_mode else "provider_default",
                 "prompt": inputs.get("prompt", ""),
                 "aspect_ratio": inputs.get("aspect_ratio") if not (is_h3_minimax or is_wan22) else None,
                 "resolution": inputs.get("resolution"),
-                "generate_audio": inputs.get("generate_audio") if not is_h3_minimax else None,
+                "generate_audio": (
+                    False
+                    if educational_mode
+                    else inputs.get("generate_audio")
+                    if contract.accepts_generate_audio
+                    else None
+                ),
                 "seed": inputs.get("seed"),
                 "output": str(output_path),
                 "output_path": str(output_path),
+                "request_id": request_id,
+                "job_state_path": str(job_path),
+                "resumed": resumed,
                 "format": "mp4",
                 **probed,
             },
             artifacts=[str(output_path)],
-            cost_usd=self.estimate_cost(inputs),
+            cost_usd=0.0 if resumed else self.estimate_cost(inputs),
             duration_seconds=round(time.time() - start, 2),
             model=model_id,
         )

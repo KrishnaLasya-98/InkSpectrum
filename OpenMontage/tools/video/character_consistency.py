@@ -5,17 +5,18 @@ across all video_gen clips within a subject.
 
 How it works
 ------------
-1. CharacterBible  — generates canonical reference images for each character
-   using Flux.2 Dev at a fixed seed. Written once per subject, reused for
-   every video_gen call.
+1. CharacterBible — generates canonical reference images for recurring
+   characters discovered from the current chapter. The dynamic pipeline stores
+   them in the chapter workspace and reuses them only while their source
+   fingerprint remains unchanged.
 
 2. CharacterConsistencyManager  — wraps every video_gen API call with
    h3-minimax-r2v instead of wan2.2, injecting reference images so the model
    sees "Image 1 = this character" before every scene.
 
-3. Reference registry  — projects/{subject}/artifacts/character_bible.json
-   maps character_id → local reference image path. Loaded by RenderModeRouter
-   automatically when render_mode = "video_gen".
+3. Reference registry — projects/{project}/artifacts/character_bible.json maps
+   character_id to a local ModelsLab reference image. RenderModeRouter receives
+   matching paths explicitly when render_mode = "video_gen".
 
 h3-minimax-r2v API contract (from llms.txt)
 -------------------------------------------
@@ -54,7 +55,9 @@ Usage
 from __future__ import annotations
 
 import json
+import hashlib
 import os
+import re
 import time
 from pathlib import Path
 from typing import Any
@@ -199,18 +202,190 @@ CHARACTER_REGISTRY: dict[str, list[dict[str, Any]]] = {
 }
 
 
-def _subject_bible_path(subject: str) -> Path:
+def _subject_bible_path(subject: str, project_dir: Path | None = None) -> Path:
     """Return the path to the character bible JSON for a subject."""
+    if project_dir is not None:
+        return Path(project_dir) / "artifacts" / "character_bible.json"
     from pathlib import Path as P
     root = P(__file__).resolve().parents[2]
     return root / "projects" / subject / "artifacts" / "character_bible.json"
 
 
-def _subject_ref_dir(subject: str) -> Path:
+def _subject_ref_dir(subject: str, project_dir: Path | None = None) -> Path:
     """Return the directory where reference images are stored for a subject."""
+    if project_dir is not None:
+        return Path(project_dir) / "assets" / "characters"
     from pathlib import Path as P
     root = P(__file__).resolve().parents[2]
     return root / "projects" / subject / "assets" / "characters"
+
+
+_NAME_STOPWORDS = {
+    "A", "An", "And", "Answer", "Chapter", "Choose", "Class", "Complete",
+    "Brain", "Colour", "Consonants", "Cross", "Different", "Do", "English",
+    "Exercise", "Fill", "Find", "For", "From", "GK", "Gym", "Hello",
+    "How", "In", "Lesson", "Let", "Maths", "Match", "Name", "Read",
+    "Look", "Number", "Plants", "Put", "Recall", "Science", "Some", "The", "They",
+    "These", "This", "True", "We", "What", "When", "Where", "Which",
+    "Who", "Why", "Write",
+}
+
+
+def discover_recurring_characters(
+    sections: list[dict[str, Any]],
+    *,
+    chapter_title: str,
+    visual_style: str,
+    max_characters: int = 6,
+) -> list[dict[str, Any]]:
+    """Build chapter-specific character specs without a subject registry.
+
+    Structured character/entity metadata wins. As a zero-shot fallback, proper
+    names that occur in at least two different motion sections are treated as
+    recurring story characters. Descriptions contain only source context plus
+    the approved chapter style; traits are not invented.
+    """
+    candidates: dict[str, dict[str, Any]] = {}
+
+    def add(
+        name: str,
+        section: dict[str, Any],
+        description: str = "",
+        *,
+        structured: bool = False,
+        occurrence_count: int = 1,
+        non_initial_count: int = 0,
+    ) -> None:
+        clean_name = " ".join(str(name or "").split()).strip(" .,:;!?()[]{}")
+        if (
+            not clean_name
+            or clean_name in _NAME_STOPWORDS
+            or any(part in _NAME_STOPWORDS for part in clean_name.split())
+        ):
+            return
+        key = re.sub(r"[^a-z0-9]+", "-", clean_name.casefold()).strip("-")
+        if not key:
+            return
+        item = candidates.setdefault(key, {
+            "id": key,
+            "name": clean_name,
+            "contexts": [],
+            "sections": [],
+            "source_blocks": [],
+            "occurrence_count": 0,
+            "non_initial_count": 0,
+            "structured": False,
+        })
+        sid = str(section.get("section_id") or "")
+        if sid and sid not in item["sections"]:
+            item["sections"].append(sid)
+        source_ids = [
+            str(value) for value in section.get("source_block_ids") or []
+            if str(value)
+        ] or [sid]
+        for source_id in source_ids:
+            if source_id and source_id not in item["source_blocks"]:
+                item["source_blocks"].append(source_id)
+        item["occurrence_count"] += max(1, occurrence_count)
+        item["non_initial_count"] += max(0, non_initial_count)
+        item["structured"] = bool(item["structured"] or structured)
+        context = " ".join(
+            str(description or section.get("source_text") or section.get("description") or "").split()
+        )
+        if context and context not in item["contexts"]:
+            item["contexts"].append(context[:500])
+
+    processed_source_blocks: set[tuple[str, ...]] = set()
+    motion_sections = [
+        section for section in sections if section.get("render_mode") == "video_gen"
+    ]
+    for section in motion_sections:
+        structured = (
+            section.get("characters")
+            or section.get("recurring_entities")
+            or section.get("visual_entities")
+            or []
+        )
+        if isinstance(structured, (str, dict)):
+            structured = [structured]
+        for entity in structured:
+            if isinstance(entity, dict):
+                add(
+                    str(entity.get("name") or entity.get("label") or entity.get("id") or ""),
+                    section,
+                    str(entity.get("description") or ""),
+                    structured=True,
+                )
+            else:
+                add(str(entity), section, structured=True)
+
+        text = str(section.get("source_text") or section.get("description") or "")
+        source_key = tuple(
+            sorted(str(value) for value in section.get("source_block_ids") or [] if value)
+        ) or (str(section.get("section_id") or ""),)
+        if source_key in processed_source_blocks:
+            continue
+        processed_source_blocks.add(source_key)
+        matches = list(
+            re.finditer(r"\b[A-Z][a-z]{2,}(?:\s+[A-Z][a-z]{2,})?\b", text)
+        )
+        grouped: dict[str, list[re.Match[str]]] = {}
+        for match in matches:
+            grouped.setdefault(match.group(0), []).append(match)
+        for name, name_matches in grouped.items():
+            non_initial = 0
+            for match in name_matches:
+                prefix = text[:match.start()].rstrip()
+                if prefix and not prefix.endswith((".", "?", "!", "\n", "•")):
+                    non_initial += 1
+            add(
+                name,
+                section,
+                occurrence_count=len(name_matches),
+                non_initial_count=non_initial,
+            )
+
+    recurring = [
+        value for value in candidates.values()
+        if value["structured"]
+        or len(value["source_blocks"]) >= 2
+        or (
+            value["occurrence_count"] >= 2
+            and value["non_initial_count"] >= 1
+        )
+    ]
+    recurring.sort(key=lambda item: (-len(item["sections"]), item["id"]))
+    result: list[dict[str, Any]] = []
+    for item in recurring[:max_characters]:
+        contexts = " ".join(item.pop("contexts")[:2]).strip()
+        for internal_key in (
+            "source_blocks", "occurrence_count", "non_initial_count", "structured"
+        ):
+            item.pop(internal_key, None)
+        name_pattern = re.compile(rf"\b{re.escape(item['name'])}\b")
+        matched_sections = [
+            str(section.get("section_id"))
+            for section in motion_sections
+            if name_pattern.search(
+                str(section.get("source_text") or section.get("description") or "")
+            )
+        ]
+        item["sections"] = list(dict.fromkeys(item["sections"] + matched_sections))
+        description = (
+            f"Recurring character {item['name']} from {chapter_title}. "
+            f"Source context: {contexts}. Style: {visual_style}. "
+            "Single full-body character reference, neutral pose, plain background, "
+            "polished child-friendly 3D animation, no text, no logo."
+        )
+        seed_bytes = hashlib.sha256(
+            f"{chapter_title}|{item['id']}".encode("utf-8")
+        ).digest()
+        result.append({
+            **item,
+            "description": description,
+            "seed": int.from_bytes(seed_bytes[:4], "big") & 0x7FFFFFFF,
+        })
+    return result
 
 
 # ---------------------------------------------------------------------------
@@ -225,24 +400,65 @@ class CharacterBible:
         subject: str,
         dry_run: bool = False,
         force: bool = False,
+        *,
+        characters: list[dict[str, Any]] | None = None,
+        project_dir: str | Path | None = None,
+        image_model_id: str = "flux",
     ) -> dict[str, Any]:
         """Generate reference images for all characters.
 
         Returns the bible dict {character_id: {"path": ..., "url": ...}}.
         If bible already exists and force=False, loads and returns it.
         """
-        bible_path = _subject_bible_path(subject)
+        project_path = Path(project_dir) if project_dir is not None else None
+        bible_path = _subject_bible_path(subject, project_path)
+        characters = (
+            CHARACTER_REGISTRY.get(subject, [])
+            if characters is None
+            else list(characters)
+        )
+        spec_fingerprint = hashlib.sha256(
+            json.dumps(
+                {
+                    "subject": subject,
+                    "image_model_id": image_model_id,
+                    "characters": characters,
+                },
+                ensure_ascii=False,
+                sort_keys=True,
+                separators=(",", ":"),
+            ).encode("utf-8")
+        ).hexdigest()
         if bible_path.exists() and not force:
-            return json.loads(bible_path.read_text(encoding="utf-8"))
+            existing = json.loads(bible_path.read_text(encoding="utf-8"))
+            if existing.get("source_fingerprint") == spec_fingerprint:
+                references = list((existing.get("characters") or {}).values())
+                reusable = all(
+                    Path(str(item.get("path") or "")).is_file()
+                    and Path(str(item.get("path") or "")).stat().st_size > 0
+                    for item in references
+                )
+                if dry_run or reusable:
+                    return existing
 
-        characters = CHARACTER_REGISTRY.get(subject, [])
         if not characters:
-            return {}
+            bible = {
+                "subject": subject,
+                "source_fingerprint": spec_fingerprint,
+                "characters": {},
+            }
+            bible_path.parent.mkdir(parents=True, exist_ok=True)
+            bible_path.write_text(json.dumps(bible, indent=2), encoding="utf-8")
+            return bible
 
-        ref_dir = _subject_ref_dir(subject)
+        ref_dir = _subject_ref_dir(subject, project_path)
         ref_dir.mkdir(parents=True, exist_ok=True)
 
-        bible: dict[str, Any] = {"subject": subject, "characters": {}}
+        bible: dict[str, Any] = {
+            "subject": subject,
+            "source_fingerprint": spec_fingerprint,
+            "characters": {},
+        }
 
         if dry_run:
             for char in characters:
@@ -270,24 +486,11 @@ class CharacterBible:
             cid = char["id"]
             out_path = ref_dir / f"{cid}_ref.png"
 
-            if out_path.exists():
-                # Already generated — load existing
-                bible["characters"][cid] = {
-                    "name":        char["name"],
-                    "path":        str(out_path),
-                    "url":         "",
-                    "description": char["description"],
-                    "sections":    char["sections"],
-                    "seed":        char["seed"],
-                }
-                print(f"  [character bible] {cid} — loaded existing reference")
-                continue
-
             print(f"  [character bible] Generating reference for: {cid}...", end=" ", flush=True)
 
             payload = {
                 "key":             api_key,
-                "model_id":        "flux-dev",
+                "model_id":        image_model_id,
                 "prompt":          char["description"],
                 "negative_prompt": "text, watermark, logo, blurry, distorted anatomy, extra limbs",
                 "width":           768,

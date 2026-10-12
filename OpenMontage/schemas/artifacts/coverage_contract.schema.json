@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "openmontage/artifacts/coverage_contract",
+  "title": "Educational Source Coverage Contract",
+  "type": "object",
+  "required": ["version", "source_document_sha256", "source_document_path", "entries", "summary"],
+  "properties": {
+    "version": {"const": "1.0"},
+    "source_document_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "source_document_path": {"type": "string", "minLength": 1},
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source_block_id", "page_number", "block_type", "semantic_role", "source_text_sha256", "required", "status", "mappings", "omission_reason"],
+        "properties": {
+          "source_block_id": {"type": "string", "minLength": 1},
+          "page_number": {"type": "integer", "minimum": 1},
+          "block_type": {"type": "string", "minLength": 1},
+          "semantic_role": {"type": "string", "minLength": 1},
+          "source_text_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "required": {"type": "boolean"},
+          "status": {"enum": ["pending", "mapped", "omitted"]},
+          "mappings": {
+            "type": "object",
+            "required": ["narration_segment_ids", "screen_ids", "visual_cue_ids"],
+            "properties": {
+              "narration_segment_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+              "screen_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+              "visual_cue_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+            },
+            "additionalProperties": false
+          },
+          "omission_reason": {"type": ["string", "null"]}
+        },
+        "additionalProperties": false
+      }
+    },
+    "summary": {
+      "type": "object",
+      "required": ["total_blocks", "required_blocks", "mapped_blocks", "pending_blocks", "omitted_required_blocks", "coverage_ratio", "render_ready", "blocking_source_block_ids"],
+      "properties": {
+        "total_blocks": {"type": "integer", "minimum": 0},
+        "required_blocks": {"type": "integer", "minimum": 0},
+        "mapped_blocks": {"type": "integer", "minimum": 0},
+        "pending_blocks": {"type": "integer", "minimum": 0},
+        "omitted_required_blocks": {"type": "integer", "minimum": 0},
+        "coverage_ratio": {"type": "number", "minimum": 0, "maximum": 1},
+        "render_ready": {"type": "boolean"},
+        "blocking_source_block_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import json
 import re
+import time
 from functools import lru_cache
 from pathlib import Path
 from typing import Any, Optional
@@ -173,6 +174,24 @@ def _build_stage_rail(
                 + ([{"status": cp.get("status"), "timestamp": cp.get("timestamp")}] if cp else [])
             ),
         }
+        metadata = (cp.get("metadata") or {}) if cp else {}
+        estimate = metadata.get("estimated_duration_seconds")
+        started = metadata.get("stage_started_at_unix")
+        partial = entry["partial_progress"] or {}
+        done_values = partial.get("completed_scene_ids") or partial.get("completed_item_ids") or []
+        done = len(done_values) if isinstance(done_values, list) else int(partial.get("completed_items") or 0)
+        total = int(partial.get("total_items") or partial.get("total_scenes") or 0)
+        if entry["status"] == "completed":
+            entry.update(progress_percent=100.0, eta_seconds=0.0)
+        elif entry["status"] == "in_progress":
+            elapsed = max(0.0, time.time() - float(started)) if started else 0.0
+            progress = min(1.0, done / total) if total else (
+                min(0.99, elapsed / float(estimate)) if estimate else 0.0)
+            eta = (elapsed * (total - done) / done) if total and done else (
+                max(0.0, float(estimate) - elapsed) if estimate else None)
+            entry.update(progress_percent=round(progress * 100, 1),
+                         eta_seconds=round(eta, 1) if eta is not None else None,
+                         eta_basis="observed-throughput" if total and done else "stage-estimate")
         # Gate audit: a gated stage that completed without ever passing
         # through awaiting_human (current or archived) was gate-skipped.
         if (
@@ -623,7 +642,6 @@ def load_board_state(project_dir: Path) -> dict[str, Any]:
         if total is not None:
             cost = {"total_spent_usd": total}
 
-    import time
     last_activity = _last_activity(project_dir)
     now = time.time()
 
@@ -653,6 +671,17 @@ def load_board_state(project_dir: Path) -> dict[str, Any]:
         "cost": cost,
         "last_activity": last_activity,
         "live": bool(last_activity and (now - last_activity) < LIVE_WINDOW_SECONDS),
+    }
+    declared = [stage for stage in stages if not stage.get("undeclared")]
+    progress_units = sum(1.0 if stage["status"] == "completed" else
+                         float(stage.get("progress_percent") or 0) / 100
+                         for stage in declared)
+    active = next((stage for stage in declared if stage["status"] == "in_progress"), None)
+    state["progress"] = {
+        "percent": round(100 * progress_units / len(declared), 1) if declared else 0.0,
+        "active_stage": active.get("name") if active else None,
+        "eta_seconds": active.get("eta_seconds") if active else 0.0,
+        "eta_basis": active.get("eta_basis") if active else None,
     }
     state["poster"] = _find_poster(project_dir, state)
     return state

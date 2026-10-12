@@ -1,0 +1,87 @@
+version: "1.0"
+default_profile: general_theory
+
+profiles:
+  mathematics:
+    aliases: [math, maths, mathematics, arithmetic, geometry, algebra]
+    subject_type: mathematics
+    concept_family: mathematics
+    default_render_mode: manim
+    paragraph_block_type: worked_example
+    render_modes:
+      intro: manim
+      concept: manim
+      worked_example: manim
+      story_section: video_gen
+      table: hyperframes
+    visual_style: polished child-friendly 3D learning environment with precise objects and numerals
+
+  language_english:
+    aliases: [english, english language, grammar, phonics, reading, literature]
+    subject_type: mixed
+    concept_family: language
+    default_render_mode: video_gen
+    paragraph_block_type: story_section
+    render_modes:
+      intro: video_gen
+      concept: video_gen
+      story_section: video_gen
+      worked_example: hyperframes
+      table: hyperframes
+    visual_style: polished child-friendly 3D animated story with expressive consistent characters
+
+  natural_science:
+    aliases: [science, environmental science, environmental studies, evs, biology, chemistry, physics]
+    subject_type: theory
+    concept_family: natural_science
+    default_render_mode: video_gen
+    paragraph_block_type: concept
+    render_modes:
+      intro: video_gen
+      concept: video_gen
+      story_section: video_gen
+      worked_example: manim
+      table: hyperframes
+    visual_style: polished child-friendly 3D scientific animation with accurate objects, habitats, and processes
+
+  social_science:
+    aliases: [social studies, social science, social-studies, history, geography, civics]
+    subject_type: theory
+    concept_family: social_science
+    default_render_mode: video_gen
+    paragraph_block_type: concept
+    render_modes:
+      intro: video_gen
+      concept: video_gen
+      story_section: video_gen
+      worked_example: hyperframes
+      table: hyperframes
+    visual_style: polished child-friendly 3D educational story with culturally and geographically accurate settings
+
+  general_knowledge:
+    aliases: [general knowledge, gk, knowledge kids]
+    subject_type: mixed
+    concept_family: general_knowledge
+    default_render_mode: video_gen
+    paragraph_block_type: concept
+    render_modes:
+      intro: video_gen
+      concept: video_gen
+      story_section: video_gen
+      worked_example: hyperframes
+      table: hyperframes
+    visual_style: polished child-friendly 3D educational animation with clear recognizable subjects
+
+  general_theory:
+    aliases: [general, theory]
+    subject_type: theory
+    concept_family: general_theory
+    default_render_mode: video_gen
+    paragraph_block_type: concept
+    render_modes:
+      intro: video_gen
+      concept: video_gen
+      story_section: video_gen
+      worked_example: hyperframes
+      table: hyperframes
+    visual_style: polished child-friendly 3D educational animation with accurate, uncluttered scenes

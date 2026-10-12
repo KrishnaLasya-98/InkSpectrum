@@ -1,0 +1,9 @@
+# Optional isolated precision renderer; set OPENMONTAGE_MANIM_PYTHON afterward.
+name: openmontage-manim
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11
+  - manim>=0.18
+  - ffmpeg

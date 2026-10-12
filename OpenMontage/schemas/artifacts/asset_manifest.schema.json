@@ -31,7 +31,12 @@
           "quality_score": { "type": "number", "minimum": 0, "maximum": 1 },
           "subtype": { "type": "string", "description": "Sub-classification (e.g. 'background', 'stock', 'generated')" },
           "generation_summary": { "type": "string", "description": "Brief summary of how the asset was generated or sourced" },
-          "provider": { "type": "string", "description": "Provider name (e.g. pixabay, google_imagen)" },
+          "provider": { "type": ["string", "null"], "description": "Provider name (e.g. pixabay, google_imagen)" },
+          "source_block_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+          "strategy": {"enum": ["generated_3d_video", "precision_animation", "stable_teaching_ui", "blocked"]},
+          "status": {"enum": ["planned", "ready", "failed", "blocked"]},
+          "qa_status": {"type": "string"},
+          "content_fingerprint": {"type": "string"},
           "license": { "type": "string", "description": "License type (e.g. Pixabay License, CC0)" },
           "original_url": { "type": "string", "description": "Source URL if downloaded from a stock service" },
           "voice_performance": {
@@ -56,6 +61,7 @@
       }
     },
     "total_cost_usd": { "type": "number", "minimum": 0 },
+    "ready": {"type": "boolean"},
     "metadata": { "type": "object" }
   },
   "additionalProperties": false

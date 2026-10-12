@@ -1,0 +1,14 @@
+# Portable specification, NOT a platform-resolved lockfile.
+# HyperFrames/browser, fonts and any required LaTeX remain preflight checks.
+name: openmontage-educational
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11
+  - pip
+  - ffmpeg
+  - nodejs=22
+  - libsndfile
+  - pip:
+      - -r requirements-educational.txt

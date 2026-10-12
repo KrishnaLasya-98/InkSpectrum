@@ -74,7 +74,12 @@ function card(p) {
 }
 
 async function render() {
-  const projects = await getJSON("/api/projects");
+  const [projects, collections] = await Promise.all([getJSON("/api/projects"), getJSON("/api/collections")]);
+  const collectionBar = document.getElementById("collections");
+  collectionBar.replaceChildren(...collections.map((c) => el("a", {
+    href: `/c/${encodeURIComponent(c.id)}`,
+    style: "display:inline-block;margin:0 12px 18px 0;padding:10px 14px;border:1px solid var(--border,#657);border-radius:10px;color:inherit;text-decoration:none",
+  }, `${c.id.replaceAll("-", " ")} · ${c.chapter_count} chapters`)));
   document.getElementById("count").textContent = `${projects.length} projects`;
   const liveCount = projects.filter((p) => p.live).length;
   const badge = document.getElementById("liveBadge");

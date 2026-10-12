@@ -1,0 +1,3248 @@
+{
+  "version": "1.0",
+  "scope": "all project HyperFrames HTML files excluding node_modules",
+  "limitation": "Authored-source inventory; historical render-to-source identity and encoded appearance require separate verification.",
+  "compositions": [
+    {
+      "path": "class-4-maths-part-2-chapter-7-basic-shapes/hyperframes-final/.hyperframes/preview/39f8889662597d560d9b6c133f7b4e4e.html",
+      "sha256": "febaf326a842ea179f189bf26a1d725c2531b46e930dea81d0c2334738f5fc1e",
+      "lines": 3947,
+      "compositions": [
+        {
+          "data-composition-id": "educational-main",
+          "data-width": "1920",
+          "data-height": "1080",
+          "data-duration": "584",
+          "data-template-id": "hyperframes-educational-v1",
+          "data-template-version": "1.0.3"
+        }
+      ],
+      "static_media_counts": {
+        "video": 17,
+        "audio": 29
+      },
+      "static_media": [
+        {
+          "tag": "video",
+          "src": "assets/video/001-s01-opening.mp4",
+          "start": "0",
+          "duration": "15.445",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/001-s01-opening.wav",
+          "start": "0",
+          "duration": "15.445",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/002-s02-we-learn.wav",
+          "start": "15.445",
+          "duration": "15.712",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/003-s03-highlights.wav",
+          "start": "31.157",
+          "duration": "19.893",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/004-s04-points-lines-rays.mp4",
+          "start": "50.5",
+          "duration": "19.345",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/004-s04-points-lines-rays.wav",
+          "start": "51.05",
+          "duration": "18.795",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/005-s05-lines-and-shapes.mp4",
+          "start": "69.295",
+          "duration": "21.009",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/005-s05-lines-and-shapes.wav",
+          "start": "69.845",
+          "duration": "20.459",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/006-s06-open-closed-curves.mp4",
+          "start": "89.754",
+          "duration": "18.555",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/006-s06-open-closed-curves.wav",
+          "start": "90.304",
+          "duration": "18.005",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/007-s07-polygons.mp4",
+          "start": "107.759",
+          "duration": "17.809",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/007-s07-polygons.wav",
+          "start": "108.309",
+          "duration": "17.259",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/008-s08-rectangle-square.mp4",
+          "start": "125.018",
+          "duration": "16.977",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/008-s08-rectangle-square.wav",
+          "start": "125.568",
+          "duration": "16.427",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/009-s09-lets-do-polygons.wav",
+          "start": "141.995",
+          "duration": "26.976",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/010-s10-line-segment-tools.mp4",
+          "start": "168.421",
+          "duration": "17.723",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/010-s10-line-segment-tools.wav",
+          "start": "168.971",
+          "duration": "17.173",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/011-s11-ruler-construction.mp4",
+          "start": "185.594",
+          "duration": "20.454",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/011-s11-ruler-construction.wav",
+          "start": "186.144",
+          "duration": "19.904",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/012-s12-compass-transfer.mp4",
+          "start": "205.498",
+          "duration": "20.155",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/012-s12-compass-transfer.wav",
+          "start": "206.048",
+          "duration": "19.605",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/013-s13-circles-circumference.mp4",
+          "start": "225.103",
+          "duration": "17.51",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/013-s13-circles-circumference.wav",
+          "start": "225.653",
+          "duration": "16.96",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/014-s14-circle-parts.mp4",
+          "start": "242.063",
+          "duration": "22.182",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/014-s14-circle-parts.wav",
+          "start": "242.613",
+          "duration": "21.632",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/015-s15-construct-circle.mp4",
+          "start": "263.695",
+          "duration": "20.198",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/015-s15-construct-circle.wav",
+          "start": "264.245",
+          "duration": "19.648",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/016-s16-brain-gym-construction.wav",
+          "start": "283.893",
+          "duration": "22.304",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/017-s17-circle-designs.wav",
+          "start": "306.197",
+          "duration": "26.635",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/018-s18-radius-diameter.mp4",
+          "start": "332.282",
+          "duration": "16.23",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/018-s18-radius-diameter.wav",
+          "start": "332.832",
+          "duration": "15.68",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/019-s19-pizza-example.mp4",
+          "start": "347.962",
+          "duration": "17.318",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/019-s19-pizza-example.wav",
+          "start": "348.512",
+          "duration": "16.768",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/020-s20-four-circles-example.mp4",
+          "start": "364.73",
+          "duration": "20.795",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/020-s20-four-circles-example.wav",
+          "start": "365.28",
+          "duration": "20.245",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/021-s21-radius-diameter-practice.wav",
+          "start": "385.525",
+          "duration": "25.717",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/022-s22-fill-blanks.wav",
+          "start": "411.242",
+          "duration": "20.384",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/023-s23-think-solve.wav",
+          "start": "431.626",
+          "duration": "23.819",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/024-s24-integrated-learning.wav",
+          "start": "455.445",
+          "duration": "20.683",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/025-s25-solid-views.mp4",
+          "start": "475.578",
+          "duration": "19.771",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/025-s25-solid-views.wav",
+          "start": "476.128",
+          "duration": "19.221",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/026-s26-view-examples.mp4",
+          "start": "494.799",
+          "duration": "18.321",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/026-s26-view-examples.wav",
+          "start": "495.349",
+          "duration": "17.771",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/027-s27-view-practice.wav",
+          "start": "513.12",
+          "duration": "22.091",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/028-s28-lab-activity.wav",
+          "start": "535.211",
+          "duration": "25.376",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/029-s29-recap.wav",
+          "start": "560.587",
+          "duration": "23.413",
+          "muted": false,
+          "loop": false
+        }
+      ],
+      "missing_static_media": [
+        "assets/audio/001-s01-opening.wav",
+        "assets/audio/002-s02-we-learn.wav",
+        "assets/audio/003-s03-highlights.wav",
+        "assets/audio/004-s04-points-lines-rays.wav",
+        "assets/audio/005-s05-lines-and-shapes.wav",
+        "assets/audio/006-s06-open-closed-curves.wav",
+        "assets/audio/007-s07-polygons.wav",
+        "assets/audio/008-s08-rectangle-square.wav",
+        "assets/audio/009-s09-lets-do-polygons.wav",
+        "assets/audio/010-s10-line-segment-tools.wav",
+        "assets/audio/011-s11-ruler-construction.wav",
+        "assets/audio/012-s12-compass-transfer.wav",
+        "assets/audio/013-s13-circles-circumference.wav",
+        "assets/audio/014-s14-circle-parts.wav",
+        "assets/audio/015-s15-construct-circle.wav",
+        "assets/audio/016-s16-brain-gym-construction.wav",
+        "assets/audio/017-s17-circle-designs.wav",
+        "assets/audio/018-s18-radius-diameter.wav",
+        "assets/audio/019-s19-pizza-example.wav",
+        "assets/audio/020-s20-four-circles-example.wav",
+        "assets/audio/021-s21-radius-diameter-practice.wav",
+        "assets/audio/022-s22-fill-blanks.wav",
+        "assets/audio/023-s23-think-solve.wav",
+        "assets/audio/024-s24-integrated-learning.wav",
+        "assets/audio/025-s25-solid-views.wav",
+        "assets/audio/026-s26-view-examples.wav",
+        "assets/audio/027-s27-view-practice.wav",
+        "assets/audio/028-s28-lab-activity.wav",
+        "assets/audio/029-s29-recap.wav",
+        "assets/video/001-s01-opening.mp4",
+        "assets/video/004-s04-points-lines-rays.mp4",
+        "assets/video/005-s05-lines-and-shapes.mp4",
+        "assets/video/006-s06-open-closed-curves.mp4",
+        "assets/video/007-s07-polygons.mp4",
+        "assets/video/008-s08-rectangle-square.mp4",
+        "assets/video/010-s10-line-segment-tools.mp4",
+        "assets/video/011-s11-ruler-construction.mp4",
+        "assets/video/012-s12-compass-transfer.mp4",
+        "assets/video/013-s13-circles-circumference.mp4",
+        "assets/video/014-s14-circle-parts.mp4",
+        "assets/video/015-s15-construct-circle.mp4",
+        "assets/video/018-s18-radius-diameter.mp4",
+        "assets/video/019-s19-pizza-example.mp4",
+        "assets/video/020-s20-four-circles-example.mp4",
+        "assets/video/025-s25-solid-views.mp4",
+        "assets/video/026-s26-view-examples.mp4"
+      ],
+      "all_literal_media_references": [
+        "assets/audio/001-s01-opening.wav",
+        "assets/audio/002-s02-we-learn.wav",
+        "assets/audio/003-s03-highlights.wav",
+        "assets/audio/004-s04-points-lines-rays.wav",
+        "assets/audio/005-s05-lines-and-shapes.wav",
+        "assets/audio/006-s06-open-closed-curves.wav",
+        "assets/audio/007-s07-polygons.wav",
+        "assets/audio/008-s08-rectangle-square.wav",
+        "assets/audio/009-s09-lets-do-polygons.wav",
+        "assets/audio/010-s10-line-segment-tools.wav",
+        "assets/audio/011-s11-ruler-construction.wav",
+        "assets/audio/012-s12-compass-transfer.wav",
+        "assets/audio/013-s13-circles-circumference.wav",
+        "assets/audio/014-s14-circle-parts.wav",
+        "assets/audio/015-s15-construct-circle.wav",
+        "assets/audio/016-s16-brain-gym-construction.wav",
+        "assets/audio/017-s17-circle-designs.wav",
+        "assets/audio/018-s18-radius-diameter.wav",
+        "assets/audio/019-s19-pizza-example.wav",
+        "assets/audio/020-s20-four-circles-example.wav",
+        "assets/audio/021-s21-radius-diameter-practice.wav",
+        "assets/audio/022-s22-fill-blanks.wav",
+        "assets/audio/023-s23-think-solve.wav",
+        "assets/audio/024-s24-integrated-learning.wav",
+        "assets/audio/025-s25-solid-views.wav",
+        "assets/audio/026-s26-view-examples.wav",
+        "assets/audio/027-s27-view-practice.wav",
+        "assets/audio/028-s28-lab-activity.wav",
+        "assets/audio/029-s29-recap.wav",
+        "assets/video/001-s01-opening.mp4",
+        "assets/video/004-s04-points-lines-rays.mp4",
+        "assets/video/005-s05-lines-and-shapes.mp4",
+        "assets/video/006-s06-open-closed-curves.mp4",
+        "assets/video/007-s07-polygons.mp4",
+        "assets/video/008-s08-rectangle-square.mp4",
+        "assets/video/010-s10-line-segment-tools.mp4",
+        "assets/video/011-s11-ruler-construction.mp4",
+        "assets/video/012-s12-compass-transfer.mp4",
+        "assets/video/013-s13-circles-circumference.mp4",
+        "assets/video/014-s14-circle-parts.mp4",
+        "assets/video/015-s15-construct-circle.mp4",
+        "assets/video/018-s18-radius-diameter.mp4",
+        "assets/video/019-s19-pizza-example.mp4",
+        "assets/video/020-s20-four-circles-example.mp4",
+        "assets/video/025-s25-solid-views.mp4",
+        "assets/video/026-s26-view-examples.mp4"
+      ],
+      "classes": {
+        "caption-group": 316,
+        "caption-word": 1222,
+        "media-clip": 17,
+        "narration-clip": 29,
+        "opening-card": 1,
+        "panel-body": 26,
+        "panel-content": 29,
+        "panel-heading": 27,
+        "panel-list": 8,
+        "panel-rule": 29,
+        "scene": 29,
+        "section-label": 29,
+        "stable-teaching": 12,
+        "subtitle-lane": 1,
+        "teaching-panel": 28
+      },
+      "modes": {
+        "hyperframes-educational-v1": 1,
+        "opening": 1,
+        "we_learn": 1,
+        "lesson_highlights": 1,
+        "concept": 9,
+        "activity": 8,
+        "worked_example": 7,
+        "fill_blank": 1,
+        "recall": 1
+      },
+      "local_scripts_read": [],
+      "dynamic_dom": true,
+      "gsap_timeline": true,
+      "word_highlight_indicators": [
+        "caption-word"
+      ],
+      "unmuted_video_count": 0,
+      "looped_video_count": 0
+    },
+    {
+      "path": "class-4-maths-part-2-chapter-7-basic-shapes/hyperframes-final/index.html",
+      "sha256": "8e8fa79e2d35322d7f0ad09aa5a05205a090837da0e9dd79a54a4681ab57eaac",
+      "lines": 3928,
+      "compositions": [
+        {
+          "data-composition-id": "educational-main",
+          "data-width": "1920",
+          "data-height": "1080",
+          "data-duration": "584",
+          "data-template-id": "hyperframes-educational-v1",
+          "data-template-version": "1.0.3"
+        }
+      ],
+      "static_media_counts": {
+        "video": 17,
+        "audio": 29
+      },
+      "static_media": [
+        {
+          "tag": "video",
+          "src": "assets/video/001-s01-opening.mp4",
+          "start": "0",
+          "duration": "15.445",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/001-s01-opening.wav",
+          "start": "0",
+          "duration": "15.445",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/002-s02-we-learn.wav",
+          "start": "15.445",
+          "duration": "15.712",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/003-s03-highlights.wav",
+          "start": "31.157",
+          "duration": "19.893",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/004-s04-points-lines-rays.mp4",
+          "start": "50.5",
+          "duration": "19.345",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/004-s04-points-lines-rays.wav",
+          "start": "51.05",
+          "duration": "18.795",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/005-s05-lines-and-shapes.mp4",
+          "start": "69.295",
+          "duration": "21.009",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/005-s05-lines-and-shapes.wav",
+          "start": "69.845",
+          "duration": "20.459",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/006-s06-open-closed-curves.mp4",
+          "start": "89.754",
+          "duration": "18.555",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/006-s06-open-closed-curves.wav",
+          "start": "90.304",
+          "duration": "18.005",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/007-s07-polygons.mp4",
+          "start": "107.759",
+          "duration": "17.809",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/007-s07-polygons.wav",
+          "start": "108.309",
+          "duration": "17.259",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/008-s08-rectangle-square.mp4",
+          "start": "125.018",
+          "duration": "16.977",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/008-s08-rectangle-square.wav",
+          "start": "125.568",
+          "duration": "16.427",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/009-s09-lets-do-polygons.wav",
+          "start": "141.995",
+          "duration": "26.976",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/010-s10-line-segment-tools.mp4",
+          "start": "168.421",
+          "duration": "17.723",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/010-s10-line-segment-tools.wav",
+          "start": "168.971",
+          "duration": "17.173",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/011-s11-ruler-construction.mp4",
+          "start": "185.594",
+          "duration": "20.454",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/011-s11-ruler-construction.wav",
+          "start": "186.144",
+          "duration": "19.904",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/012-s12-compass-transfer.mp4",
+          "start": "205.498",
+          "duration": "20.155",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/012-s12-compass-transfer.wav",
+          "start": "206.048",
+          "duration": "19.605",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/013-s13-circles-circumference.mp4",
+          "start": "225.103",
+          "duration": "17.51",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/013-s13-circles-circumference.wav",
+          "start": "225.653",
+          "duration": "16.96",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/014-s14-circle-parts.mp4",
+          "start": "242.063",
+          "duration": "22.182",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/014-s14-circle-parts.wav",
+          "start": "242.613",
+          "duration": "21.632",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/015-s15-construct-circle.mp4",
+          "start": "263.695",
+          "duration": "20.198",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/015-s15-construct-circle.wav",
+          "start": "264.245",
+          "duration": "19.648",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/016-s16-brain-gym-construction.wav",
+          "start": "283.893",
+          "duration": "22.304",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/017-s17-circle-designs.wav",
+          "start": "306.197",
+          "duration": "26.635",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/018-s18-radius-diameter.mp4",
+          "start": "332.282",
+          "duration": "16.23",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/018-s18-radius-diameter.wav",
+          "start": "332.832",
+          "duration": "15.68",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/019-s19-pizza-example.mp4",
+          "start": "347.962",
+          "duration": "17.318",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/019-s19-pizza-example.wav",
+          "start": "348.512",
+          "duration": "16.768",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/020-s20-four-circles-example.mp4",
+          "start": "364.73",
+          "duration": "20.795",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/020-s20-four-circles-example.wav",
+          "start": "365.28",
+          "duration": "20.245",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/021-s21-radius-diameter-practice.wav",
+          "start": "385.525",
+          "duration": "25.717",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/022-s22-fill-blanks.wav",
+          "start": "411.242",
+          "duration": "20.384",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/023-s23-think-solve.wav",
+          "start": "431.626",
+          "duration": "23.819",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/024-s24-integrated-learning.wav",
+          "start": "455.445",
+          "duration": "20.683",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/025-s25-solid-views.mp4",
+          "start": "475.578",
+          "duration": "19.771",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/025-s25-solid-views.wav",
+          "start": "476.128",
+          "duration": "19.221",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/026-s26-view-examples.mp4",
+          "start": "494.799",
+          "duration": "18.321",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/026-s26-view-examples.wav",
+          "start": "495.349",
+          "duration": "17.771",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/027-s27-view-practice.wav",
+          "start": "513.12",
+          "duration": "22.091",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/028-s28-lab-activity.wav",
+          "start": "535.211",
+          "duration": "25.376",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/029-s29-recap.wav",
+          "start": "560.587",
+          "duration": "23.413",
+          "muted": false,
+          "loop": false
+        }
+      ],
+      "missing_static_media": [],
+      "all_literal_media_references": [
+        "assets/audio/001-s01-opening.wav",
+        "assets/audio/002-s02-we-learn.wav",
+        "assets/audio/003-s03-highlights.wav",
+        "assets/audio/004-s04-points-lines-rays.wav",
+        "assets/audio/005-s05-lines-and-shapes.wav",
+        "assets/audio/006-s06-open-closed-curves.wav",
+        "assets/audio/007-s07-polygons.wav",
+        "assets/audio/008-s08-rectangle-square.wav",
+        "assets/audio/009-s09-lets-do-polygons.wav",
+        "assets/audio/010-s10-line-segment-tools.wav",
+        "assets/audio/011-s11-ruler-construction.wav",
+        "assets/audio/012-s12-compass-transfer.wav",
+        "assets/audio/013-s13-circles-circumference.wav",
+        "assets/audio/014-s14-circle-parts.wav",
+        "assets/audio/015-s15-construct-circle.wav",
+        "assets/audio/016-s16-brain-gym-construction.wav",
+        "assets/audio/017-s17-circle-designs.wav",
+        "assets/audio/018-s18-radius-diameter.wav",
+        "assets/audio/019-s19-pizza-example.wav",
+        "assets/audio/020-s20-four-circles-example.wav",
+        "assets/audio/021-s21-radius-diameter-practice.wav",
+        "assets/audio/022-s22-fill-blanks.wav",
+        "assets/audio/023-s23-think-solve.wav",
+        "assets/audio/024-s24-integrated-learning.wav",
+        "assets/audio/025-s25-solid-views.wav",
+        "assets/audio/026-s26-view-examples.wav",
+        "assets/audio/027-s27-view-practice.wav",
+        "assets/audio/028-s28-lab-activity.wav",
+        "assets/audio/029-s29-recap.wav",
+        "assets/images/gpt-basic-shapes-intro-v1.png",
+        "assets/video/001-s01-opening.mp4",
+        "assets/video/004-s04-points-lines-rays.mp4",
+        "assets/video/005-s05-lines-and-shapes.mp4",
+        "assets/video/006-s06-open-closed-curves.mp4",
+        "assets/video/007-s07-polygons.mp4",
+        "assets/video/008-s08-rectangle-square.mp4",
+        "assets/video/010-s10-line-segment-tools.mp4",
+        "assets/video/011-s11-ruler-construction.mp4",
+        "assets/video/012-s12-compass-transfer.mp4",
+        "assets/video/013-s13-circles-circumference.mp4",
+        "assets/video/014-s14-circle-parts.mp4",
+        "assets/video/015-s15-construct-circle.mp4",
+        "assets/video/018-s18-radius-diameter.mp4",
+        "assets/video/019-s19-pizza-example.mp4",
+        "assets/video/020-s20-four-circles-example.mp4",
+        "assets/video/025-s25-solid-views.mp4",
+        "assets/video/026-s26-view-examples.mp4"
+      ],
+      "classes": {
+        "caption-group": 316,
+        "caption-word": 1222,
+        "media-clip": 17,
+        "narration-clip": 29,
+        "opening-card": 1,
+        "panel-body": 26,
+        "panel-content": 29,
+        "panel-heading": 27,
+        "panel-list": 7,
+        "panel-rule": 29,
+        "scene": 29,
+        "section-label": 29,
+        "stable-teaching": 12,
+        "subtitle-lane": 1,
+        "teaching-panel": 28
+      },
+      "modes": {
+        "hyperframes-educational-v1": 1,
+        "opening": 1,
+        "we_learn": 1,
+        "lesson_highlights": 1,
+        "concept": 9,
+        "activity": 8,
+        "worked_example": 7,
+        "fill_blank": 1,
+        "recall": 1
+      },
+      "local_scripts_read": [],
+      "dynamic_dom": false,
+      "gsap_timeline": true,
+      "word_highlight_indicators": [
+        "caption-word"
+      ],
+      "unmuted_video_count": 0,
+      "looped_video_count": 0
+    },
+    {
+      "path": "english-class1-lesson1-at-the-beach/hyperframes-final/index.html",
+      "sha256": "b27f73125ab87e3e3181f41f68ece7882c41284a0e78ae3ed46a1d4fbb55549d",
+      "lines": 73,
+      "compositions": [
+        {
+          "data-composition-id": "english-class1-at-the-beach-final",
+          "data-width": "1920",
+          "data-height": "1080",
+          "data-duration": "484.058"
+        }
+      ],
+      "static_media_counts": {
+        "video": 27,
+        "audio": 26
+      },
+      "static_media": [
+        {
+          "tag": "video",
+          "src": "assets/video/story-v6/s01-beach-arrival-v1.mp4",
+          "start": "0",
+          "duration": "4.967",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story-v6/s01c-arrival-continuation-v5.mp4",
+          "start": "4.807",
+          "duration": "3.674",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story-v6/s01b-beach-welcome-v1.mp4",
+          "start": "8.161",
+          "duration": "3.365",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story-v6/s02a-beach-objects-v1.mp4",
+          "start": "11.206",
+          "duration": "4.967",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story-v6/s02f-discovery-continuation-v5.mp4",
+          "start": "16.013",
+          "duration": "4.45",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story-v6/s02c-cloud-palm-sea-v1.mp4",
+          "start": "20.143",
+          "duration": "3.24",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story-v6/s02d-ball-ring-v1.mp4",
+          "start": "23.063",
+          "duration": "2.88",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story-v6/s02e-sandcastle-starfish-v1-paced-v6b.mp4",
+          "start": "25.623",
+          "duration": "5.636",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story-v6/s02b-point-and-name-v1.mp4",
+          "start": "30.939",
+          "duration": "3.697",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story-v6/s03a-family-lovely-day-v1.mp4",
+          "start": "34.316",
+          "duration": "3.87",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story-v6/s03c-family-together-v1.mp4",
+          "start": "37.866",
+          "duration": "1.967",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story-v6/s03d-family-settles-v1.mp4",
+          "start": "39.513",
+          "duration": "2.587",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story-v6/s03b-children-notice-sand-v1.mp4",
+          "start": "41.78",
+          "duration": "4.658",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story-v6/s04-build-start-v1.mp4",
+          "start": "46.118",
+          "duration": "3.757",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story-v6/s04b-dig-and-fill-v1.mp4",
+          "start": "49.555",
+          "duration": "3.515",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story-v6/s04c-first-tower-v1.mp4",
+          "start": "52.75",
+          "duration": "3.857",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story-v6/s05b-grandparents-room-v1.mp4",
+          "start": "56.287",
+          "duration": "4.215",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story-v6/s05a-castle-growing-v1.mp4",
+          "start": "60.182",
+          "duration": "3.449",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story-v6/s05c-big-castle-v1.mp4",
+          "start": "63.311",
+          "duration": "4.105",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story-v6/s06a-family-room-v1.mp4",
+          "start": "67.096",
+          "duration": "3.057",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story-v6/s06b-playroom-v1-paced-v6b.mp4",
+          "start": "69.953",
+          "duration": "5.815",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story-v6/s07a-staircase-v1.mp4",
+          "start": "75.568",
+          "duration": "3.593",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story-v6/s07b-basement-hide-and-seek-v1.mp4",
+          "start": "78.841",
+          "duration": "4.966",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story-v6/s07c-hide-and-seek-continuation-v5.mp4",
+          "start": "83.647",
+          "duration": "2.73",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story-v6/s08a-parents-call-v1.mp4",
+          "start": "86.057",
+          "duration": "2.717",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story-v6/s08-leave-beach-v1.mp4",
+          "start": "88.454",
+          "duration": "4.966",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story-v6/s08b-leaving-continuation-v5.mp4",
+          "start": "93.26",
+          "duration": "1.904",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/narration-indian-qwen-v6/S01.wav",
+          "start": "0",
+          "duration": "11.366",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/narration-indian-qwen-v6/S02.wav",
+          "start": "11.366",
+          "duration": "23.11",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/narration-indian-qwen-v6/S03.wav",
+          "start": "34.476",
+          "duration": "11.801",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/narration-indian-qwen-v6/S04.wav",
+          "start": "46.278",
+          "duration": "10.169",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/narration-indian-qwen-v6/S05.wav",
+          "start": "56.447",
+          "duration": "10.809",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/narration-indian-qwen-v6/S06.wav",
+          "start": "67.256",
+          "duration": "8.412",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/narration-indian-qwen-v6/S07.wav",
+          "start": "75.668",
+          "duration": "10.549",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/narration-indian-qwen-v6/S08.wav",
+          "start": "86.217",
+          "duration": "8.787",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/narration-indian-qwen-v6/S09.wav",
+          "start": "95.004",
+          "duration": "17.824",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/narration-indian-qwen-v6/S10.wav",
+          "start": "112.828",
+          "duration": "33.68",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/narration-indian-qwen-v6/S11.wav",
+          "start": "146.508",
+          "duration": "23.861",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/narration-indian-qwen-v6/S12.wav",
+          "start": "170.369",
+          "duration": "27.124",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/narration-indian-qwen-v6/S13.wav",
+          "start": "197.493",
+          "duration": "15.358",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/narration-indian-qwen-v6/S14.wav",
+          "start": "212.851",
+          "duration": "21.874",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/narration-indian-qwen-v6/S15.wav",
+          "start": "234.725",
+          "duration": "23.431",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/narration-indian-qwen-v6/S16.wav",
+          "start": "258.156",
+          "duration": "22.542",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/narration-indian-qwen-v6/S17.wav",
+          "start": "280.699",
+          "duration": "20.654",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/narration-indian-qwen-v6/S18.wav",
+          "start": "301.353",
+          "duration": "9.616",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/narration-indian-qwen-v6/S19.wav",
+          "start": "310.969",
+          "duration": "17.764",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/narration-indian-qwen-v6/S20.wav",
+          "start": "328.733",
+          "duration": "28.765",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/narration-indian-qwen-v6/S21.wav",
+          "start": "357.499",
+          "duration": "38.018",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/narration-indian-qwen-v6/S22.wav",
+          "start": "395.517",
+          "duration": "22.786",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/narration-indian-qwen-v6/S23.wav",
+          "start": "418.303",
+          "duration": "28.03",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/narration-indian-qwen-v6/S24.wav",
+          "start": "446.333",
+          "duration": "4.567",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/narration-indian-qwen-v6/S25.wav",
+          "start": "450.9",
+          "duration": "6.944",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/narration-indian-qwen-v6/S26.wav",
+          "start": "457.844",
+          "duration": "26.214",
+          "muted": false,
+          "loop": false
+        }
+      ],
+      "missing_static_media": [],
+      "all_literal_media_references": [
+        "assets/audio/narration-indian-qwen-v6/S01.wav",
+        "assets/audio/narration-indian-qwen-v6/S02.wav",
+        "assets/audio/narration-indian-qwen-v6/S03.wav",
+        "assets/audio/narration-indian-qwen-v6/S04.wav",
+        "assets/audio/narration-indian-qwen-v6/S05.wav",
+        "assets/audio/narration-indian-qwen-v6/S06.wav",
+        "assets/audio/narration-indian-qwen-v6/S07.wav",
+        "assets/audio/narration-indian-qwen-v6/S08.wav",
+        "assets/audio/narration-indian-qwen-v6/S09.wav",
+        "assets/audio/narration-indian-qwen-v6/S10.wav",
+        "assets/audio/narration-indian-qwen-v6/S11.wav",
+        "assets/audio/narration-indian-qwen-v6/S12.wav",
+        "assets/audio/narration-indian-qwen-v6/S13.wav",
+        "assets/audio/narration-indian-qwen-v6/S14.wav",
+        "assets/audio/narration-indian-qwen-v6/S15.wav",
+        "assets/audio/narration-indian-qwen-v6/S16.wav",
+        "assets/audio/narration-indian-qwen-v6/S17.wav",
+        "assets/audio/narration-indian-qwen-v6/S18.wav",
+        "assets/audio/narration-indian-qwen-v6/S19.wav",
+        "assets/audio/narration-indian-qwen-v6/S20.wav",
+        "assets/audio/narration-indian-qwen-v6/S21.wav",
+        "assets/audio/narration-indian-qwen-v6/S22.wav",
+        "assets/audio/narration-indian-qwen-v6/S23.wav",
+        "assets/audio/narration-indian-qwen-v6/S24.wav",
+        "assets/audio/narration-indian-qwen-v6/S25.wav",
+        "assets/audio/narration-indian-qwen-v6/S26.wav",
+        "assets/video/story-v6/s01-beach-arrival-v1.mp4",
+        "assets/video/story-v6/s01b-beach-welcome-v1.mp4",
+        "assets/video/story-v6/s01c-arrival-continuation-v5.mp4",
+        "assets/video/story-v6/s02a-beach-objects-v1.mp4",
+        "assets/video/story-v6/s02b-point-and-name-v1.mp4",
+        "assets/video/story-v6/s02c-cloud-palm-sea-v1.mp4",
+        "assets/video/story-v6/s02d-ball-ring-v1.mp4",
+        "assets/video/story-v6/s02e-sandcastle-starfish-v1-paced-v6b.mp4",
+        "assets/video/story-v6/s02f-discovery-continuation-v5.mp4",
+        "assets/video/story-v6/s03a-family-lovely-day-v1.mp4",
+        "assets/video/story-v6/s03b-children-notice-sand-v1.mp4",
+        "assets/video/story-v6/s03c-family-together-v1.mp4",
+        "assets/video/story-v6/s03d-family-settles-v1.mp4",
+        "assets/video/story-v6/s04-build-start-v1.mp4",
+        "assets/video/story-v6/s04b-dig-and-fill-v1.mp4",
+        "assets/video/story-v6/s04c-first-tower-v1.mp4",
+        "assets/video/story-v6/s05a-castle-growing-v1.mp4",
+        "assets/video/story-v6/s05b-grandparents-room-v1.mp4",
+        "assets/video/story-v6/s05c-big-castle-v1.mp4",
+        "assets/video/story-v6/s06a-family-room-v1.mp4",
+        "assets/video/story-v6/s06b-playroom-v1-paced-v6b.mp4",
+        "assets/video/story-v6/s07a-staircase-v1.mp4",
+        "assets/video/story-v6/s07b-basement-hide-and-seek-v1.mp4",
+        "assets/video/story-v6/s07c-hide-and-seek-continuation-v5.mp4",
+        "assets/video/story-v6/s08-leave-beach-v1.mp4",
+        "assets/video/story-v6/s08a-parents-call-v1.mp4",
+        "assets/video/story-v6/s08b-leaving-continuation-v5.mp4"
+      ],
+      "classes": {
+        "clip": 53,
+        "eyebrow": 1,
+        "lesson-number": 1,
+        "media": 27,
+        "video-cue": 27
+      },
+      "modes": {},
+      "local_scripts_read": [
+        {
+          "path": "english-class1-lesson1-at-the-beach/hyperframes-final/vendor/gsap.min.js",
+          "sha256": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+          "lines": 11
+        },
+        {
+          "path": "english-class1-lesson1-at-the-beach/hyperframes-final/production-data.js",
+          "sha256": "108155aa296c73257cec688c8edf98afb1b5f5ebfc68aa60af437812c8959167",
+          "lines": 1
+        },
+        {
+          "path": "english-class1-lesson1-at-the-beach/hyperframes-final/teaching-ui.js",
+          "sha256": "2a99d422fb715bc72fc00b3cde5ee0e440bcb6f24b59d2caf0e9011b4f63494e",
+          "lines": 99
+        }
+      ],
+      "dynamic_dom": true,
+      "gsap_timeline": true,
+      "word_highlight_indicators": [
+        "caption-word",
+        "word.start",
+        "word.end"
+      ],
+      "unmuted_video_count": 0,
+      "looped_video_count": 0
+    },
+    {
+      "path": "evs-lesson-8/full-hyperframes/index.html",
+      "sha256": "a1b070f6701eaa57398d14e6e676135dfcc7fa40a10ee314d5ee892b8e2e3201",
+      "lines": 297,
+      "compositions": [
+        {
+          "data-composition-id": "root",
+          "data-duration": "402.404",
+          "data-width": "1920",
+          "data-height": "1080"
+        }
+      ],
+      "static_media_counts": {},
+      "static_media": [],
+      "missing_static_media": [],
+      "all_literal_media_references": [
+        ".norm.wav"
+      ],
+      "classes": {
+        "activity": 1,
+        "activity-inner": 1,
+        "animal-name": 3,
+        "answer": 1,
+        "caption-card": 1,
+        "closing-card": 1,
+        "corner": 1,
+        "drawing-area": 1,
+        "exercise": 1,
+        "exercise-inner": 1,
+        "exercise-kind": 1,
+        "exercise-option": 3,
+        "exercise-options": 1,
+        "exercise-prompt": 1,
+        "footer-card": 1,
+        "footer-inner": 1,
+        "glossary-grid": 1,
+        "graphics-bg": 1,
+        "highlight-lines": 1,
+        "highlights-box": 1,
+        "line": 6,
+        "main-title": 1,
+        "opening-rule": 2,
+        "option-box": 3,
+        "option-label": 3,
+        "pause-dots": 1,
+        "prediction": 1,
+        "section-label": 1,
+        "source-card": 1,
+        "study-panel": 2,
+        "title-card": 1,
+        "title-card-inner": 1,
+        "title-subtitle": 1,
+        "wash": 1
+      },
+      "modes": {},
+      "local_scripts_read": [
+        {
+          "path": "evs-lesson-8/full-hyperframes/vendor/gsap.min.js",
+          "sha256": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+          "lines": 11
+        },
+        {
+          "path": "evs-lesson-8/full-hyperframes/timeline-data.js",
+          "sha256": "e529241aa0a3a958db2fde569ebec2518d570f57684d0b9154557b13f5d4dcdd",
+          "lines": 1
+        },
+        {
+          "path": "evs-lesson-8/full-hyperframes/schedule-data.js",
+          "sha256": "e5ca03abfb477576afd29a4c0a920fd21499ada0082c234f4b44889b59643ecf",
+          "lines": 1
+        },
+        {
+          "path": "evs-lesson-8/full-hyperframes/style-data.js",
+          "sha256": "9f62212450f923df15ba100ca4204384aa6ef67e7a1a09a2b05e12a4a4448ccd",
+          "lines": 1
+        }
+      ],
+      "dynamic_dom": true,
+      "gsap_timeline": true,
+      "word_highlight_indicators": [],
+      "unmuted_video_count": 0,
+      "looped_video_count": 0
+    },
+    {
+      "path": "evs-lesson-8/hyperframes-agnes-final/index.html",
+      "sha256": "eaa340833991f5c5ecb411ad46af89e62bd7a88e6456efc401cb2ed69bb7bc95",
+      "lines": 57,
+      "compositions": [
+        {
+          "data-composition-id": "evs8-agnes-final",
+          "data-width": "1920",
+          "data-height": "1080",
+          "data-duration": "288.047"
+        }
+      ],
+      "static_media_counts": {
+        "img": 1,
+        "video": 44,
+        "audio": 16
+      },
+      "static_media": [
+        {
+          "tag": "img",
+          "src": "assets/image/intro-animal-life-v2.png",
+          "start": null,
+          "duration": null,
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s01-story-1.mp4",
+          "start": "5.86",
+          "duration": "2.08",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s01-story-2.mp4",
+          "start": "7.7",
+          "duration": "2.46",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s01-story-3.mp4",
+          "start": "9.92",
+          "duration": "5.48",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s01-story-4.mp4",
+          "start": "15.16",
+          "duration": "2.96",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s01-story-5.mp4",
+          "start": "17.88",
+          "duration": "4.853",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s02-story-1.mp4",
+          "start": "22.613",
+          "duration": "3.5",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s02-story-2.mp4",
+          "start": "25.873",
+          "duration": "4.12",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s02-story-3.mp4",
+          "start": "29.753",
+          "duration": "4.18",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s02-story-4.mp4",
+          "start": "33.693",
+          "duration": "2.1",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s02-story-5.mp4",
+          "start": "35.553",
+          "duration": "4.82",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s02-story-6.mp4",
+          "start": "40.133",
+          "duration": "2.3",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s02-story-7.mp4",
+          "start": "42.193",
+          "duration": "2.727",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s03-story-1.mp4",
+          "start": "44.8",
+          "duration": "5.24",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s03-story-2.mp4",
+          "start": "49.8",
+          "duration": "4.86",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s03-story-3.mp4",
+          "start": "54.42",
+          "duration": "4.38",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s03-story-4.mp4",
+          "start": "58.56",
+          "duration": "3.639",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s04-story-1.mp4",
+          "start": "62.079",
+          "duration": "4.1",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s04-story-2.mp4",
+          "start": "65.939",
+          "duration": "2.78",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s04-story-3.mp4",
+          "start": "68.479",
+          "duration": "4.247",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s05-story-1.mp4",
+          "start": "72.606",
+          "duration": "3.4",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s05-story-2.mp4",
+          "start": "75.766",
+          "duration": "5.6",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s05-story-3.mp4",
+          "start": "81.126",
+          "duration": "4.58",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s05-story-4.mp4",
+          "start": "85.466",
+          "duration": "4.241",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s06-story-1.mp4",
+          "start": "89.587",
+          "duration": "5.28",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s06-story-2.mp4",
+          "start": "94.627",
+          "duration": "2.62",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s06-story-3.mp4",
+          "start": "97.007",
+          "duration": "3.72",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s06-story-4.mp4",
+          "start": "100.487",
+          "duration": "4.324",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s07-story-1.mp4",
+          "start": "104.691",
+          "duration": "4.32",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s07-story-2.mp4",
+          "start": "108.771",
+          "duration": "5.227",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s08-story-1.mp4",
+          "start": "113.878",
+          "duration": "4.44",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s08-story-2.mp4",
+          "start": "118.078",
+          "duration": "4.039",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s09-story-1.mp4",
+          "start": "121.997",
+          "duration": "4.1",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s09-story-2.mp4",
+          "start": "125.857",
+          "duration": "2.8",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s09-story-3.mp4",
+          "start": "128.417",
+          "duration": "4.12",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s09-story-4.mp4",
+          "start": "132.297",
+          "duration": "2.64",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s09-story-5.mp4",
+          "start": "134.697",
+          "duration": "4.145",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s10-story-1.mp4",
+          "start": "138.722",
+          "duration": "3.44",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s10-story-2.mp4",
+          "start": "141.922",
+          "duration": "4",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s10-story-3.mp4",
+          "start": "145.682",
+          "duration": "2.42",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s10-story-4.mp4",
+          "start": "147.862",
+          "duration": "5",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s10-story-5.mp4",
+          "start": "152.622",
+          "duration": "2.063",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s11-story-1.mp4",
+          "start": "154.565",
+          "duration": "4.74",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s11-story-2.mp4",
+          "start": "159.065",
+          "duration": "3.16",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/story/s11-story-3.mp4",
+          "start": "161.985",
+          "duration": "4.539",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/s01.wav",
+          "start": "0",
+          "duration": "22.613",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/s02.wav",
+          "start": "22.613",
+          "duration": "22.187",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/s03.wav",
+          "start": "44.8",
+          "duration": "17.279",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/s04.wav",
+          "start": "62.079",
+          "duration": "10.527",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/s05.wav",
+          "start": "72.606",
+          "duration": "16.981",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/s06.wav",
+          "start": "89.587",
+          "duration": "15.104",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/s07.wav",
+          "start": "104.691",
+          "duration": "9.187",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/s08.wav",
+          "start": "113.878",
+          "duration": "8.119",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/s09.wav",
+          "start": "121.997",
+          "duration": "16.725",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/s10.wav",
+          "start": "138.722",
+          "duration": "15.843",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/s11.wav",
+          "start": "154.565",
+          "duration": "11.959",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/s12.wav",
+          "start": "166.524",
+          "duration": "27.575",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/s13.wav",
+          "start": "194.099",
+          "duration": "18.429",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/s14.wav",
+          "start": "212.528",
+          "duration": "27.221",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/s15.wav",
+          "start": "239.749",
+          "duration": "33.109",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/s16.wav",
+          "start": "272.858",
+          "duration": "15.189",
+          "muted": false,
+          "loop": false
+        }
+      ],
+      "missing_static_media": [],
+      "all_literal_media_references": [
+        "assets/audio/s01.wav",
+        "assets/audio/s02.wav",
+        "assets/audio/s03.wav",
+        "assets/audio/s04.wav",
+        "assets/audio/s05.wav",
+        "assets/audio/s06.wav",
+        "assets/audio/s07.wav",
+        "assets/audio/s08.wav",
+        "assets/audio/s09.wav",
+        "assets/audio/s10.wav",
+        "assets/audio/s11.wav",
+        "assets/audio/s12.wav",
+        "assets/audio/s13.wav",
+        "assets/audio/s14.wav",
+        "assets/audio/s15.wav",
+        "assets/audio/s16.wav",
+        "assets/image/intro-animal-life-v2.png",
+        "assets/video/story/s01-story-1.mp4",
+        "assets/video/story/s01-story-2.mp4",
+        "assets/video/story/s01-story-3.mp4",
+        "assets/video/story/s01-story-4.mp4",
+        "assets/video/story/s01-story-5.mp4",
+        "assets/video/story/s02-story-1.mp4",
+        "assets/video/story/s02-story-2.mp4",
+        "assets/video/story/s02-story-3.mp4",
+        "assets/video/story/s02-story-4.mp4",
+        "assets/video/story/s02-story-5.mp4",
+        "assets/video/story/s02-story-6.mp4",
+        "assets/video/story/s02-story-7.mp4",
+        "assets/video/story/s03-story-1.mp4",
+        "assets/video/story/s03-story-2.mp4",
+        "assets/video/story/s03-story-3.mp4",
+        "assets/video/story/s03-story-4.mp4",
+        "assets/video/story/s04-story-1.mp4",
+        "assets/video/story/s04-story-2.mp4",
+        "assets/video/story/s04-story-3.mp4",
+        "assets/video/story/s05-story-1.mp4",
+        "assets/video/story/s05-story-2.mp4",
+        "assets/video/story/s05-story-3.mp4",
+        "assets/video/story/s05-story-4.mp4",
+        "assets/video/story/s06-story-1.mp4",
+        "assets/video/story/s06-story-2.mp4",
+        "assets/video/story/s06-story-3.mp4",
+        "assets/video/story/s06-story-4.mp4",
+        "assets/video/story/s07-story-1.mp4",
+        "assets/video/story/s07-story-2.mp4",
+        "assets/video/story/s08-story-1.mp4",
+        "assets/video/story/s08-story-2.mp4",
+        "assets/video/story/s09-story-1.mp4",
+        "assets/video/story/s09-story-2.mp4",
+        "assets/video/story/s09-story-3.mp4",
+        "assets/video/story/s09-story-4.mp4",
+        "assets/video/story/s09-story-5.mp4",
+        "assets/video/story/s10-story-1.mp4",
+        "assets/video/story/s10-story-2.mp4",
+        "assets/video/story/s10-story-3.mp4",
+        "assets/video/story/s10-story-4.mp4",
+        "assets/video/story/s10-story-5.mp4",
+        "assets/video/story/s11-story-1.mp4",
+        "assets/video/story/s11-story-2.mp4",
+        "assets/video/story/s11-story-3.mp4"
+      ],
+      "classes": {
+        "ambient": 1,
+        "eyebrow": 1,
+        "hill": 2,
+        "intro-copy": 1,
+        "intro-shade": 1,
+        "intro-video": 1,
+        "lesson-number": 1,
+        "one": 1,
+        "opening-badge": 1,
+        "opening-card": 2,
+        "two": 1,
+        "video-cue": 44,
+        "video-story": 44
+      },
+      "modes": {},
+      "local_scripts_read": [
+        {
+          "path": "evs-lesson-8/hyperframes-agnes-final/vendor/gsap.min.js",
+          "sha256": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+          "lines": 11
+        },
+        {
+          "path": "evs-lesson-8/hyperframes-agnes-final/production-data.js",
+          "sha256": "4c1440d00e22a6a262edebf3ab610891e40446501af0df166b294081868d8e8a",
+          "lines": 1
+        }
+      ],
+      "dynamic_dom": true,
+      "gsap_timeline": true,
+      "word_highlight_indicators": [],
+      "unmuted_video_count": 0,
+      "looped_video_count": 0
+    },
+    {
+      "path": "evs-lesson-8/hyperframes-preview/index.html",
+      "sha256": "92f510fef085127edba72ed6ce10333c19da724111512c5946a5cdc1ad61bbf6",
+      "lines": 71,
+      "compositions": [
+        {
+          "data-composition-id": "root",
+          "data-width": "1920",
+          "data-height": "1080",
+          "data-duration": "30"
+        }
+      ],
+      "static_media_counts": {
+        "video": 3,
+        "audio": 1
+      },
+      "static_media": [
+        {
+          "tag": "video",
+          "src": "assets/video/s01-0.mp4",
+          "start": "0",
+          "duration": "10",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/s01-1.mp4",
+          "start": "10",
+          "duration": "10",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/s01-2.mp4",
+          "start": "20",
+          "duration": "10",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/s01.norm.wav",
+          "start": "0",
+          "duration": "30",
+          "muted": false,
+          "loop": false
+        }
+      ],
+      "missing_static_media": [],
+      "all_literal_media_references": [
+        "assets/audio/s01.norm.wav",
+        "assets/video/s01-0.mp4",
+        "assets/video/s01-1.mp4",
+        "assets/video/s01-2.mp4"
+      ],
+      "classes": {
+        "bullet": 6,
+        "clip": 4,
+        "corner": 1,
+        "highlights": 1,
+        "intro": 1,
+        "intro-main": 1,
+        "intro-question": 1,
+        "item": 6,
+        "panel": 2,
+        "pill": 1,
+        "sun": 1,
+        "tag": 1,
+        "title": 1,
+        "video-wrap": 3,
+        "wash": 1
+      },
+      "modes": {},
+      "local_scripts_read": [],
+      "dynamic_dom": false,
+      "gsap_timeline": true,
+      "word_highlight_indicators": [],
+      "unmuted_video_count": 0,
+      "looped_video_count": 0
+    },
+    {
+      "path": "evs-lesson-8/hyperframes-professional-v1/index.html",
+      "sha256": "667a914d47b4921e07f78e77b2b4ecb99534b0613f610ac6e6033a362de599a6",
+      "lines": 43,
+      "compositions": [
+        {
+          "data-composition-id": "evs8-3d-prototype",
+          "data-width": "1920",
+          "data-height": "1080",
+          "data-duration": "41"
+        }
+      ],
+      "static_media_counts": {
+        "img": 1,
+        "video": 10,
+        "audio": 2
+      },
+      "static_media": [
+        {
+          "tag": "img",
+          "src": "assets/images/animal-life-intro-v2.png",
+          "start": null,
+          "duration": null,
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/generated/prototype-3d/proto-g02-water-need.mp4",
+          "start": "3",
+          "duration": "4.5",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/generated/prototype-3d/proto-g01-pet-care.mp4",
+          "start": "7.5",
+          "duration": "5.175",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/existing/animals-around-us-rabbit.mp4",
+          "start": "12.675",
+          "duration": "1.865",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/generated/prototype-3d/proto-g04-land-animal.mp4",
+          "start": "14.54",
+          "duration": "5.175",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/generated/style-test-fish-3d.mp4",
+          "start": "19.715",
+          "duration": "4.693",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/generated/style-test-fish-3d.mp4",
+          "start": "24.908",
+          "duration": "5.175",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/generated/prototype-3d/proto-g04-land-animal.mp4",
+          "start": "24.908",
+          "duration": "5.175",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/generated/style-test-fish-3d.mp4",
+          "start": "30.208",
+          "duration": "4.44",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/generated/prototype-3d/proto-g04-land-animal.mp4",
+          "start": "34.648",
+          "duration": "5.175",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/existing/land-animal-tiger.mp4",
+          "start": "39.823",
+          "duration": "1.177",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/s01.norm.wav",
+          "start": "3",
+          "duration": "21.408",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/s03.norm.wav",
+          "start": "27.908",
+          "duration": "13.08",
+          "muted": false,
+          "loop": false
+        }
+      ],
+      "missing_static_media": [],
+      "all_literal_media_references": [
+        "assets/audio/s01.norm.wav",
+        "assets/audio/s03.norm.wav",
+        "assets/images/animal-life-intro-v2.png",
+        "assets/video/existing/animals-around-us-rabbit.mp4",
+        "assets/video/existing/land-animal-tiger.mp4",
+        "assets/video/generated/prototype-3d/proto-g01-pet-care.mp4",
+        "assets/video/generated/prototype-3d/proto-g02-water-need.mp4",
+        "assets/video/generated/prototype-3d/proto-g04-land-animal.mp4",
+        "assets/video/generated/style-test-fish-3d.mp4"
+      ],
+      "classes": {
+        "box-copy": 6,
+        "box-line": 2,
+        "box-title": 8,
+        "boxed-story": 8,
+        "brand": 4,
+        "caption-lane": 1,
+        "clip": 10,
+        "compare-grid": 1,
+        "compare-pane": 2,
+        "definition-panel": 5,
+        "dot": 16,
+        "eyebrow": 1,
+        "intro-image": 1,
+        "lesson-badge": 1,
+        "lesson-box": 8,
+        "media": 10,
+        "on": 4,
+        "pane-label": 2,
+        "progress": 4,
+        "section-tab": 8,
+        "shade": 8,
+        "title-copy": 1,
+        "topbar": 4,
+        "video-scene": 9
+      },
+      "modes": {},
+      "local_scripts_read": [
+        {
+          "path": "evs-lesson-8/hyperframes-professional-v1/vendor/gsap.min.js",
+          "sha256": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+          "lines": 11
+        },
+        {
+          "path": "evs-lesson-8/hyperframes-professional-v1/timeline-data.js",
+          "sha256": "e529241aa0a3a958db2fde569ebec2518d570f57684d0b9154557b13f5d4dcdd",
+          "lines": 1
+        }
+      ],
+      "dynamic_dom": true,
+      "gsap_timeline": true,
+      "word_highlight_indicators": [
+        "caption-word"
+      ],
+      "unmuted_video_count": 0,
+      "looped_video_count": 0
+    },
+    {
+      "path": "evs-lesson-8/hyperframes-v3-subtitled/index.html",
+      "sha256": "ea7f273346aa6362fdae9e85d1a216879c4476607d5cae18cc053906396e5305",
+      "lines": 24,
+      "compositions": [
+        {
+          "data-composition-id": "evs8-v3-subtitled",
+          "data-width": "1920",
+          "data-height": "1080",
+          "data-duration": "474.5"
+        }
+      ],
+      "static_media_counts": {
+        "video": 1,
+        "audio": 1
+      },
+      "static_media": [
+        {
+          "tag": "video",
+          "src": "assets/lesson-8-animal-life-final-v3.mp4",
+          "start": "0",
+          "duration": "474.5",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/lesson-8-animal-life-final-v3.m4a",
+          "start": "0",
+          "duration": "474.5",
+          "muted": false,
+          "loop": false
+        }
+      ],
+      "missing_static_media": [],
+      "all_literal_media_references": [
+        "assets/lesson-8-animal-life-final-v3.mp4"
+      ],
+      "classes": {
+        "reference": 1
+      },
+      "modes": {},
+      "local_scripts_read": [
+        {
+          "path": "evs-lesson-8/hyperframes-v3-subtitled/vendor/gsap.min.js",
+          "sha256": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+          "lines": 11
+        },
+        {
+          "path": "evs-lesson-8/hyperframes-v3-subtitled/caption-data.js",
+          "sha256": "84ccf97b91d09ed4fcb65164cb23e673a9c3433b56b3d12d42771db8883ea717",
+          "lines": 1
+        }
+      ],
+      "dynamic_dom": true,
+      "gsap_timeline": true,
+      "word_highlight_indicators": [
+        "word.start"
+      ],
+      "unmuted_video_count": 0,
+      "looped_video_count": 0
+    },
+    {
+      "path": "evs-lesson-8/one-minute-preview/hyperframes/index.html",
+      "sha256": "573b9be8830d48fd0239428dbf8d7dcb5bbfdc442cf75af009fa78473f070a85",
+      "lines": 180,
+      "compositions": [
+        {
+          "data-composition-id": "root",
+          "data-duration": "60",
+          "data-width": "1920",
+          "data-height": "1080"
+        }
+      ],
+      "static_media_counts": {
+        "video": 11,
+        "audio": 3
+      },
+      "static_media": [
+        {
+          "tag": "video",
+          "src": "assets/video/s01-0.mp4",
+          "start": "3",
+          "duration": "5",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/s01-1.mp4",
+          "start": "8",
+          "duration": "1.9",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/s01-2.mp4",
+          "start": "9.9",
+          "duration": "2.22",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/s01-1.mp4",
+          "start": "12.12",
+          "duration": "12.288",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/s02-0.mp4",
+          "start": "24.408",
+          "duration": "6.792",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/s02-1.mp4",
+          "start": "31.2",
+          "duration": "6.792",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/s02-2.mp4",
+          "start": "37.992",
+          "duration": "6.792",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/s03-0.mp4",
+          "start": "44.784",
+          "duration": "2.94",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/s03-1.mp4",
+          "start": "44.784",
+          "duration": "2.94",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/s03-0.mp4",
+          "start": "47.724",
+          "duration": "4.24",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/s03-1.mp4",
+          "start": "51.964",
+          "duration": "5.9",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/s01.norm.wav",
+          "start": "3",
+          "duration": "21.408",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/s02.norm.wav",
+          "start": "24.408",
+          "duration": "20.376",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/s03.norm.wav",
+          "start": "44.784",
+          "duration": "13.08",
+          "muted": false,
+          "loop": false
+        }
+      ],
+      "missing_static_media": [],
+      "all_literal_media_references": [
+        "assets/audio/s01.norm.wav",
+        "assets/audio/s02.norm.wav",
+        "assets/audio/s03.norm.wav",
+        "assets/video/s01-0.mp4",
+        "assets/video/s01-1.mp4",
+        "assets/video/s01-2.mp4",
+        "assets/video/s02-0.mp4",
+        "assets/video/s02-1.mp4",
+        "assets/video/s02-2.mp4",
+        "assets/video/s03-0.mp4",
+        "assets/video/s03-1.mp4"
+      ],
+      "classes": {
+        "caption-card": 1,
+        "clip": 14,
+        "corner": 1,
+        "footer-card": 1,
+        "footer-inner": 1,
+        "graphics-bg": 1,
+        "highlights-box": 1,
+        "land": 4,
+        "main-title": 1,
+        "motion": 11,
+        "opening-rule": 1,
+        "right": 1,
+        "section-label": 2,
+        "small": 3,
+        "split-motion": 2,
+        "title-card": 1,
+        "title-card-inner": 1,
+        "topic-card": 5,
+        "wash": 1,
+        "water": 1
+      },
+      "modes": {},
+      "local_scripts_read": [
+        {
+          "path": "evs-lesson-8/one-minute-preview/hyperframes/timeline-data.js",
+          "sha256": "20749899e5d84a337b122d23c162fdccc2dacce71d471edd3e6771261c37571a",
+          "lines": 1
+        }
+      ],
+      "dynamic_dom": true,
+      "gsap_timeline": true,
+      "word_highlight_indicators": [
+        "caption-word",
+        "word.end"
+      ],
+      "unmuted_video_count": 0,
+      "looped_video_count": 0
+    },
+    {
+      "path": "gk-class1-chapter6-plants-herbs/hyperframes-final/index.html",
+      "sha256": "0baed68c466498a6a0900ac0dfede78af4110f10491c871eddc217785bebb089",
+      "lines": 33,
+      "compositions": [
+        {
+          "data-composition-id": "gk-class1-chapter6-plants-herbs",
+          "data-width": "1920",
+          "data-height": "1080",
+          "data-duration": "317.1455"
+        }
+      ],
+      "static_media_counts": {
+        "video": 10,
+        "audio": 1
+      },
+      "static_media": [
+        {
+          "tag": "video",
+          "src": "assets/video/bed-s01.mp4",
+          "start": "0.0000",
+          "duration": "19.9394",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/bed-s02.mp4",
+          "start": "19.9394",
+          "duration": "19.6574",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/bed-s03.mp4",
+          "start": "39.5968",
+          "duration": "13.8453",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/bed-s04.mp4",
+          "start": "53.4421",
+          "duration": "15.5778",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/bed-s05.mp4",
+          "start": "69.0199",
+          "duration": "13.4738",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/bed-s06.mp4",
+          "start": "82.4937",
+          "duration": "13.5809",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/bed-s07.mp4",
+          "start": "96.0746",
+          "duration": "17.5497",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/bed-s08.mp4",
+          "start": "113.6243",
+          "duration": "18.1639",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/bed-s09.mp4",
+          "start": "131.7882",
+          "duration": "21.2245",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/bed-s12.mp4",
+          "start": "294.1305",
+          "duration": "22.6150",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/chapter-review.wav",
+          "start": "0",
+          "duration": "317.1455",
+          "muted": false,
+          "loop": false
+        }
+      ],
+      "missing_static_media": [],
+      "all_literal_media_references": [
+        "assets/audio/chapter-review.wav",
+        "assets/images/herbs/a-amla.png",
+        "assets/images/herbs/b-mint.png",
+        "assets/images/herbs/c-neem.png",
+        "assets/images/herbs/d-turmeric.png",
+        "assets/images/herbs/e-tulsi.png",
+        "assets/video/bed-s01.mp4",
+        "assets/video/bed-s02.mp4",
+        "assets/video/bed-s03.mp4",
+        "assets/video/bed-s04.mp4",
+        "assets/video/bed-s05.mp4",
+        "assets/video/bed-s06.mp4",
+        "assets/video/bed-s07.mp4",
+        "assets/video/bed-s08.mp4",
+        "assets/video/bed-s09.mp4",
+        "assets/video/bed-s12.mp4",
+        "bed-s01.mp4",
+        "bed-s02.mp4",
+        "bed-s03.mp4",
+        "bed-s04.mp4",
+        "bed-s05.mp4",
+        "bed-s06.mp4",
+        "bed-s07.mp4",
+        "bed-s08.mp4",
+        "bed-s09.mp4",
+        "bed-s12.mp4"
+      ],
+      "classes": {
+        "clip": 1,
+        "eyebrow": 1,
+        "lesson": 1,
+        "mote": 6,
+        "video-cue": 10
+      },
+      "modes": {},
+      "local_scripts_read": [
+        {
+          "path": "gk-class1-chapter6-plants-herbs/hyperframes-final/vendor/gsap.min.js",
+          "sha256": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+          "lines": 11
+        }
+      ],
+      "dynamic_dom": true,
+      "gsap_timeline": true,
+      "word_highlight_indicators": [
+        "capStart"
+      ],
+      "unmuted_video_count": 0,
+      "looped_video_count": 0
+    },
+    {
+      "path": "maths-class1-chapter8-two-digit-numbers/hyperframes-final/index.html",
+      "sha256": "4ac0d6882bfbce1bd30ab95f82814c6aeb4294d940b057f5661ff732c082bb2e",
+      "lines": 33,
+      "compositions": [
+        {
+          "data-composition-id": "maths-class1-chapter8-two-digit-numbers",
+          "data-width": "1920",
+          "data-height": "1080",
+          "data-duration": "583.2125"
+        }
+      ],
+      "static_media_counts": {
+        "video": 5,
+        "audio": 19
+      },
+      "static_media": [
+        {
+          "tag": "video",
+          "src": "assets/video/m01-number-adventure-v2.mp4",
+          "start": "0.0000",
+          "duration": "5.0667",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/m01-continuation-01.mp4",
+          "start": "5.0667",
+          "duration": "4.8797",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/S01.wav",
+          "start": "0.0000",
+          "duration": "38.2530",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/S02.wav",
+          "start": "38.6530",
+          "duration": "24.3565",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/S03.wav",
+          "start": "63.4095",
+          "duration": "20.7856",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/S04.wav",
+          "start": "84.5952",
+          "duration": "20.8209",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/S05.wav",
+          "start": "105.8161",
+          "duration": "25.8083",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/S06.wav",
+          "start": "132.0244",
+          "duration": "39.1522",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/S07.wav",
+          "start": "171.5766",
+          "duration": "33.4805",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/S08.wav",
+          "start": "205.4571",
+          "duration": "25.7976",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/S09.wav",
+          "start": "231.6547",
+          "duration": "28.6178",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/S10.wav",
+          "start": "260.6725",
+          "duration": "18.3136",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/S11.wav",
+          "start": "279.3861",
+          "duration": "30.5440",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/S12.wav",
+          "start": "310.3301",
+          "duration": "35.9174",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/S13.wav",
+          "start": "346.6475",
+          "duration": "26.2107",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/S14.wav",
+          "start": "373.2582",
+          "duration": "38.0323",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/S15.wav",
+          "start": "411.6905",
+          "duration": "35.4343",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/S16.wav",
+          "start": "447.5249",
+          "duration": "27.8405",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/S17.wav",
+          "start": "475.7654",
+          "duration": "38.7613",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/S18.wav",
+          "start": "514.9267",
+          "duration": "30.9535",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "audio",
+          "src": "assets/audio/S19.wav",
+          "start": "546.2802",
+          "duration": "36.5323",
+          "muted": false,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/skip-count-by-2-v2.mp4",
+          "start": "349.9026",
+          "duration": "6.8890",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/skip-count-by-3-and-4-v2.mp4",
+          "start": "373.4582",
+          "duration": "23.1536",
+          "muted": true,
+          "loop": false
+        },
+        {
+          "tag": "video",
+          "src": "assets/video/place-value-expanded-form-v2.mp4",
+          "start": "456.2601",
+          "duration": "17.8053",
+          "muted": true,
+          "loop": false
+        }
+      ],
+      "missing_static_media": [],
+      "all_literal_media_references": [
+        "assets/audio/S01.wav",
+        "assets/audio/S02.wav",
+        "assets/audio/S03.wav",
+        "assets/audio/S04.wav",
+        "assets/audio/S05.wav",
+        "assets/audio/S06.wav",
+        "assets/audio/S07.wav",
+        "assets/audio/S08.wav",
+        "assets/audio/S09.wav",
+        "assets/audio/S10.wav",
+        "assets/audio/S11.wav",
+        "assets/audio/S12.wav",
+        "assets/audio/S13.wav",
+        "assets/audio/S14.wav",
+        "assets/audio/S15.wav",
+        "assets/audio/S16.wav",
+        "assets/audio/S17.wav",
+        "assets/audio/S18.wav",
+        "assets/audio/S19.wav",
+        "assets/video/m01-continuation-01.mp4",
+        "assets/video/m01-number-adventure-v2.mp4",
+        "assets/video/place-value-expanded-form-v2.mp4",
+        "assets/video/skip-count-by-2-v2.mp4",
+        "assets/video/skip-count-by-3-and-4-v2.mp4"
+      ],
+      "classes": {
+        "clip": 24,
+        "media": 5,
+        "precision-cue": 3,
+        "video-cue": 5
+      },
+      "modes": {},
+      "local_scripts_read": [
+        {
+          "path": "maths-class1-chapter8-two-digit-numbers/hyperframes-final/vendor/gsap.min.js",
+          "sha256": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+          "lines": 11
+        },
+        {
+          "path": "maths-class1-chapter8-two-digit-numbers/hyperframes-final/production-data.js",
+          "sha256": "aea29991f12e773206f546b884854a7335d5f259d17d683b4a987606394f0961",
+          "lines": 1
+        },
+        {
+          "path": "maths-class1-chapter8-two-digit-numbers/hyperframes-final/maths-ui-v3.js",
+          "sha256": "a2117f105f2d096512f3e3b3dd6fa2edf919fd5426497b3507c06f8a71f9f4f5",
+          "lines": 111
+        }
+      ],
+      "dynamic_dom": true,
+      "gsap_timeline": false,
+      "word_highlight_indicators": [],
+      "unmuted_video_count": 0,
+      "looped_video_count": 0
+    },
+    {
+      "path": "maths-class1-chapter8-two-digit-numbers/scripts/hyperframes-template-v2.html",
+      "sha256": "1fbf0bcfd3d80524e4a7ab0b23669fe66a37acac81369c97e3d59d9e00659aa4",
+      "lines": 12,
+      "compositions": [
+        {
+          "data-composition-id": "maths-class1-chapter8-two-digit-numbers",
+          "data-width": "1920",
+          "data-height": "1080",
+          "data-duration": "__DURATION__"
+        }
+      ],
+      "static_media_counts": {},
+      "static_media": [],
+      "missing_static_media": [],
+      "all_literal_media_references": [],
+      "classes": {},
+      "modes": {},
+      "local_scripts_read": [
+        {
+          "path": "maths-class1-chapter8-two-digit-numbers/scripts/maths-ui-v2.js",
+          "sha256": "36008fd873d49981b28f28d5dee32a02f9800706a5bc28373bdbfecf811ca2dc",
+          "lines": 90
+        }
+      ],
+      "dynamic_dom": true,
+      "gsap_timeline": false,
+      "word_highlight_indicators": [],
+      "unmuted_video_count": 0,
+      "looped_video_count": 0
+    },
+    {
+      "path": "maths-class1-chapter8-two-digit-numbers/scripts/hyperframes-template-v3.html",
+      "sha256": "4400b470b8442494354d70c5b8dcaec7345845211e753106e960f379087d3825",
+      "lines": 12,
+      "compositions": [
+        {
+          "data-composition-id": "maths-class1-chapter8-two-digit-numbers",
+          "data-width": "1920",
+          "data-height": "1080",
+          "data-duration": "__DURATION__"
+        }
+      ],
+      "static_media_counts": {},
+      "static_media": [],
+      "missing_static_media": [],
+      "all_literal_media_references": [],
+      "classes": {},
+      "modes": {},
+      "local_scripts_read": [
+        {
+          "path": "maths-class1-chapter8-two-digit-numbers/scripts/maths-ui-v3.js",
+          "sha256": "a2117f105f2d096512f3e3b3dd6fa2edf919fd5426497b3507c06f8a71f9f4f5",
+          "lines": 111
+        }
+      ],
+      "dynamic_dom": true,
+      "gsap_timeline": false,
+      "word_highlight_indicators": [],
+      "unmuted_video_count": 0,
+      "looped_video_count": 0
+    },
+    {
+      "path": "maths-class1-chapter8-two-digit-numbers/scripts/hyperframes-template.html",
+      "sha256": "d664ef9b570cb887425bb6f645979dd631d68ef1ea5f0d877ce95e4b139be07e",
+      "lines": 70,
+      "compositions": [
+        {
+          "data-composition-id": "maths-class1-chapter8-two-digit-numbers",
+          "data-width": "1920",
+          "data-height": "1080",
+          "data-duration": "__DURATION__"
+        }
+      ],
+      "static_media_counts": {},
+      "static_media": [],
+      "missing_static_media": [],
+      "all_literal_media_references": [],
+      "classes": {
+        "float-shape": 4
+      },
+      "modes": {},
+      "local_scripts_read": [],
+      "dynamic_dom": true,
+      "gsap_timeline": true,
+      "word_highlight_indicators": [],
+      "unmuted_video_count": 0,
+      "looped_video_count": 0
+    }
+  ],
+  "errors": []
+}

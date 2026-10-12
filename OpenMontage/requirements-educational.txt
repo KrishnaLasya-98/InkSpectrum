@@ -1,0 +1,24 @@
+# OpenMontage educational PDF-to-video production profile.
+#
+# This is the canonical pip/venv entry point for the complete educational
+# pipeline. It records direct dependencies, not every transitive wheel and not
+# a cross-platform lockfile. Platform-specific GPU and Manim dependencies stay
+# in their dedicated manifests.
+
+# API clients, orchestration, Backlot, media probing, PDF geometry and audio.
+-r requirements-educational-core.txt
+
+# Structured PDF extraction plus the local Docling OCR backend. Version 2.5.7
+# is pinned because it is the version validated against the existing EVS,
+# English and Maths OpenDataLoader JSON/Markdown artifacts.
+opendataloader-pdf[hybrid]==2.5.7
+
+# Lightweight narration fallback used by existing educational projects.
+edge-tts>=6.1.9,<7
+
+# Optional profiles are deliberately not installed here:
+# - Development/tests: requirements-dev.txt
+# - CUDA/GPU runtimes: requirements-gpu.txt
+# - Deterministic Maths/Science animation: environment-manim.yml
+# - WhisperX/local alignment: install only when selected and record it in
+#   docs/INSTALLATION_GUIDE.md before installation.

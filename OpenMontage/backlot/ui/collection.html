@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Backlot · Textbook collection</title>
+  <style>
+    :root{font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:#183549;background:#f4f0e7}
+    *{box-sizing:border-box}body{margin:0}main{max-width:1060px;margin:auto;padding:32px 20px 64px}
+    a{color:#a34833}header{display:flex;justify-content:space-between;align-items:center;gap:20px}
+    h1{font:700 clamp(2rem,4vw,3.3rem)/1.1 Georgia,serif;margin:32px 0 10px}
+    .meta{color:#536a75;margin:0 0 26px}.progress{height:10px;background:#ddd9ce;border-radius:10px;overflow:hidden}
+    .progress>span{display:block;height:100%;background:#4b978a;transition:width .3s}
+    .cards{display:grid;gap:12px;margin-top:25px}.card{background:#fffcf6;border:1px solid #dbd3c5;border-radius:16px;padding:18px 20px;display:grid;grid-template-columns:55px 1fr auto;gap:15px;align-items:center}
+    .num{font:700 1.8rem Georgia,serif;color:#a34833}.title{font-weight:750;font-size:1.07rem}.detail{color:#5e7179;margin-top:5px;font-size:.93rem}.actions{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:8px}
+    .badge{padding:6px 10px;border-radius:99px;background:#e6e3da;color:#364c58;font-size:.8rem;font-weight:750;white-space:nowrap}
+    .completed .badge{background:#d7efe4;color:#24654c}.in_progress .badge{background:#fff0c6;color:#77520e}
+    .ready .badge{background:#dcecf5;color:#205675}footer{margin-top:25px;color:#647783;font-size:.9rem}
+    @media(max-width:650px){.card{grid-template-columns:40px 1fr}.badge{grid-column:2;justify-self:start}}
+  </style>
+</head>
+<body><main>
+  <header><a href="/">← Backlot library</a><span id="updated">Loading…</span></header>
+  <h1 id="title">Textbook collection</h1>
+  <p class="meta" id="summary"></p>
+  <div class="progress"><span id="bar"></span></div>
+  <section class="cards" id="chapters" aria-label="Chapters"></section>
+  <footer>Only an encoded video with recorded QA evidence is marked complete. This view refreshes every 15 seconds.</footer>
+</main><script type="module" src="/ui/collection.js"></script></body>
+</html>

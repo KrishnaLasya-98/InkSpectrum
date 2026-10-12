@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "files": [
+    {
+      "id": "english-15",
+      "path": "tests/fixtures/educational-reference/frames/english-15.jpg",
+      "sha256": "0af6f8df5794328b7a06b1053362678cb1ce364173bd404dcae427961269ffb4"
+    },
+    {
+      "id": "english-180",
+      "path": "tests/fixtures/educational-reference/frames/english-180.jpg",
+      "sha256": "0764df14e5dbd51660fa95bbdcd66de05e0f4e556ff7739f71b2729d8ccf6582"
+    },
+    {
+      "id": "english-2",
+      "path": "tests/fixtures/educational-reference/frames/english-2.jpg",
+      "sha256": "52c4e52a82cff31a91e4bcfa7603d3859f32da2d353f994505e6692d70288b95"
+    },
+    {
+      "id": "evs-15",
+      "path": "tests/fixtures/educational-reference/frames/evs-15.jpg",
+      "sha256": "167370ee3fb8c9a5874beb497b900e6c65322b3f01057737e6dec81a053d1a79"
+    },
+    {
+      "id": "evs-180",
+      "path": "tests/fixtures/educational-reference/frames/evs-180.jpg",
+      "sha256": "22f1d01dccaaa27323ea8166f8cf2b09b7b8c36187b6d7f141b00a78903054db"
+    },
+    {
+      "id": "evs-2",
+      "path": "tests/fixtures/educational-reference/frames/evs-2.jpg",
+      "sha256": "09ff36561c7e8f51821484bde48b3ef42e89ce558e60b0efddb6155a51a82010"
+    },
+    {
+      "id": "mathematics-15",
+      "path": "tests/fixtures/educational-reference/frames/mathematics-15.jpg",
+      "sha256": "dca5ac49fb7a580a477f05144292cacfe81f09b1f4f69313fad136bc3fd90aa5"
+    },
+    {
+      "id": "mathematics-180",
+      "path": "tests/fixtures/educational-reference/frames/mathematics-180.jpg",
+      "sha256": "7893f3c771fc4c55bc34ed8febc4b1591f6c1698142982b915ab93a8f4ec425b"
+    },
+    {
+      "id": "mathematics-2",
+      "path": "tests/fixtures/educational-reference/frames/mathematics-2.jpg",
+      "sha256": "87c0addd9e18623d16526992ba0b96118612f64aaf6a06326c07562917e1a269"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "portable_package": "tests/fixtures/educational-reference/manifest.json",
+  "approved_by": "user-selected reference videos",
+  "references": [
+    {"id":"english","path":"projects/english-class1-lesson1-at-the-beach/hyperframes-final/renders/english-class1-at-the-beach-final-v7.mp4","sha256":"7aa2e4737d76348a66a38c19d54b3851aa7e340faadf4a5153c6b836314c6625"},
+    {"id":"evs","path":"projects/evs-lesson-8/hyperframes-agnes-final/renders/evs-lesson-8-3d-synced-final.mp4","sha256":"b7c804560329b2a873a000e4ca1f79794d3bbc520ecbad8cfc93589370b732e7"},
+    {"id":"mathematics","path":"projects/maths-class1-chapter8-two-digit-numbers/hyperframes-final/renders/maths-class1-chapter8-two-digit-numbers-final-v4.mp4","sha256":"2938f54c39d3b0107ed5a666a3fa0bc97be7eb83d3ed9e7b72f9ea344b2b8e74"}
+  ],
+  "presentation_contract": {
+    "canonical_appearance": "english",
+    "reuse": "presentation rules only; no cross-chapter media reuse without approval",
+    "source_authority": "input PDF",
+    "ui": ["cream section labels", "readable textbook boxes", "stable bottom subtitle lane", "question and answer reveal"],
+    "subtitles": "punctuated, speech-aligned word highlighting",
+    "newer_user_overrides": {
+      "narration_speed": 0.85,
+      "spoken_title_and_subtitle_pause_seconds": 2,
+      "heading_pause_display": "title-only",
+      "topic_end_pause_seconds": 2,
+      "detailed_explanations": "maths problems and worked examples"
+    },
+    "regression_review": ["source coverage", "titles and textbook boxes", "subtitle safe area and timing", "question thinking pause and answer", "matching visuals", "encoded-output audio and transitions"]
+  }
+}

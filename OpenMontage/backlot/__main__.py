@@ -22,9 +22,22 @@ from backlot import DEFAULT_PORT
 
 def _port() -> int:
     try:
-        return int(os.environ.get("BACKLOT_PORT", DEFAULT_PORT))
+        return int(os.environ.get("BACKLOT_PORT") or os.environ.get("PORT") or DEFAULT_PORT)
     except ValueError:
         return DEFAULT_PORT
+
+
+def _host() -> str:
+    return os.environ.get("BACKLOT_HOST", "127.0.0.1").strip() or "127.0.0.1"
+
+
+def _public_bind_requires_auth(host: str) -> bool:
+    """Return whether a non-loopback bind is missing Backlot credentials."""
+
+    loopback_hosts = {"127.0.0.1", "localhost", "::1"}
+    if host.strip().lower() in loopback_hosts:
+        return False
+    return not os.environ.get("BACKLOT_AUTH_PASSWORD")
 
 
 def _server_alive(port: int) -> bool:
@@ -79,10 +92,18 @@ def cmd_open(project_id: str | None) -> int:
     return 0
 
 
-def cmd_serve(port: int) -> int:
+def cmd_serve(port: int, host: str | None = None) -> int:
     import uvicorn
 
-    uvicorn.run("backlot.server:app", host="127.0.0.1", port=port, log_level="warning")
+    bind_host = host or _host()
+    if _public_bind_requires_auth(bind_host):
+        print(
+            "backlot: refusing a public bind without BACKLOT_AUTH_PASSWORD; "
+            "set BACKLOT_AUTH_USERNAME optionally (default: openmontage)",
+            file=sys.stderr,
+        )
+        return 2
+    uvicorn.run("backlot.server:app", host=bind_host, port=port, log_level="warning")
     return 0
 
 
@@ -95,12 +116,13 @@ def main(argv: list[str] | None = None) -> int:
 
     p_serve = sub.add_parser("serve", help="run the Backlot server in the foreground")
     p_serve.add_argument("--port", type=int, default=_port())
+    p_serve.add_argument("--host", default=_host())
 
     args = parser.parse_args(argv)
     if args.command == "open":
         return cmd_open(args.project_id)
     if args.command == "serve":
-        return cmd_serve(args.port)
+        return cmd_serve(args.port, args.host)
     parser.print_help()
     return 2
 

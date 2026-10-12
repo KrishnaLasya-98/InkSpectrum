@@ -24,16 +24,24 @@ OpenMontage is a video editing/montage platform focused on educational video pro
 7. Keep UI minimal and consistent: small cream section label, compact cream learning panel, clear visual hierarchy, and a stable bottom subtitle lane. Avoid duplicate labels and unnecessary text.
 8. Generated-video audio must be muted. The approved narration track is authoritative.
 9. Word-highlight subtitles must follow the aligned narration timestamps and remain inside the safe area.
+10. After each spoken title or subtitle, leave two seconds total before the next spoken content word, counting any natural pause already in the approved voice. Keep the heading in the normal scene layout over relevant visuals; do not add a duplicate full-screen title card. For failure examples and the encoded QA checklist, see `OpenMontage/docs/CHAPTER_TITLE_TIMING_FAILURES.md`.
 
 ## 3D Animation Standard
 - Use `OpenMontage/projects/evs-lesson-8/_demo_3d.py` as the current reference implementation for generating 3D animated footage through the ModelsLab adapter.
 - Generalize its prompt, output directory, subject, grade, chapter, scene description, duration, and model selection through project configuration; do not copy EVS Lesson 8 values into future chapters.
-- The canonical appearance reference is `OpenMontage/projects/evs-lesson-8/hyperframes-professional-v1/renders/hyperframes-professional-v1_2026-09-17_17-37-17.mp4`.
+- The canonical appearance reference is `OpenMontage/projects/english-class1-lesson1-at-the-beach/hyperframes-final/renders/english-class1-at-the-beach-final-v7.mp4`.
 - Future EVS, English, Mathematics, Science, and Social Studies chapters should preserve that reference's professional animated-story quality while adapting scenes and teaching UI to the subject.
 - Generate clean clips without visible text, logos, watermarks, embedded subtitles, looping, replay, stutter, camera jumps, or malformed characters.
 - Maintain character and environment consistency across adjacent story scenes when the lesson uses recurring characters.
 - Create a fresh asset manifest for every chapter. Do not import video, images, narration, or generated media from an older chapter/render unless the user explicitly requests reuse.
 - Use each story clip once by default. If narration is longer than the available motion, generate another relevant clip or retime the clip gently; do not visibly loop or replay it.
+
+## Precision Animation Standard
+- Use Manim as an optional precision-animation engine for Mathematics and advanced Science topics when exact diagrams, number lines, place value, skip-counting paths, geometry, graphs, equations, vectors, circuits, or scientific processes communicate the concept better than generative footage.
+- Keep the supplied PDF and approved educational plan as the content authority. Do not let a topic-to-script generator replace PDF extraction, source coverage, narration approval, or exercise auditing.
+- Prefer reviewed, deterministic Manim templates populated from validated scene data. Do not execute unrestricted LLM-generated Python in the main OpenMontage environment.
+- Run Manim in a separate environment with resource and time limits. Render silent 1920x1080, 30 fps clips, then register them as static timed media in HyperFrames.
+- Use Manim for exact teaching visualizations and child-friendly 3D video for story, context, and engagement. Blend both through the canonical English reference's UI, pacing, subtitle lane, and transition language.
 
 ## Teaching Mode by Section
 - Story, introduction, and explanation sections use continuously changing 3D animated footage synchronized to the exact narration concept.
@@ -58,6 +66,12 @@ OpenMontage is a video editing/montage platform focused on educational video pro
 ## Credentials
 - Store provider keys only in ignored environment files or secret stores.
 - Never print, commit, document, or repeat API keys supplied by the user. Recommend rotation when a key was exposed in chat.
+
+## Dependency and Installation Records
+- Treat `OpenMontage/requirements-educational.txt` and `OpenMontage/docs/INSTALLATION_GUIDE.md` as the educational pipeline installation contract.
+- Before installing, removing, or upgrading any Python, Conda, Node, system, model, browser, font, or renderer dependency, update the appropriate manifest and add an entry to the installation ledger in the guide.
+- After installation, record the resolved version, environment, reason, command category, and verification result. Never leave an unrecorded manual dependency as a hidden requirement.
+- Keep credentials and secret values out of requirements files, documentation, commands, and installation logs.
 
 ## Getting Started
 1. Check git status before making changes

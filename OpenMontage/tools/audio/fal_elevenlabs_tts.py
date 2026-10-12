@@ -68,11 +68,13 @@ class FalElevenLabsTTS(BaseTool):
     ]
 
     _MODELS = {
+        "eleven-v4": "elevenlabs/tts/eleven-v4",
         "eleven-v3": "fal-ai/elevenlabs/tts/eleven-v3",
         "multilingual-v2": "fal-ai/elevenlabs/tts/multilingual-v2",
         "turbo-v2.5": "fal-ai/elevenlabs/tts/turbo-v2.5",
     }
     _MODEL_ALIASES = {
+        "eleven_v4": "eleven-v4",
         "eleven_v3": "eleven-v3",
         "eleven_multilingual_v2": "multilingual-v2",
         "multilingual_v2": "multilingual-v2",
@@ -81,6 +83,7 @@ class FalElevenLabsTTS(BaseTool):
         **{value: key for key, value in _MODELS.items()},
     }
     _PRICE_PER_CHARACTER = {
+        "eleven-v4": 0.00008,
         "eleven-v3": 0.0001,
         "multilingual-v2": 0.0001,
         "turbo-v2.5": 0.00005,
@@ -255,8 +258,10 @@ class FalElevenLabsTTS(BaseTool):
                 success=False,
                 error="stability and similarity_boost must be between 0 and 1",
             )
-        if not 0.7 <= speed <= 1.2:
+        if model_name != "eleven-v4" and not 0.7 <= speed <= 1.2:
             return ToolResult(success=False, error="speed must be between 0.7 and 1.2")
+        if model_name == "eleven-v4" and ("speed" in inputs or "style" in inputs):
+            return ToolResult(success=False, error="Eleven v4 does not support speed or style settings")
 
         output_format = inputs.get("output_format", "mp3_44100_128")
         voice = inputs.get("voice") or inputs.get("voice_id") or "Rachel"
@@ -265,11 +270,12 @@ class FalElevenLabsTTS(BaseTool):
             "voice": voice,
             "stability": stability,
             "similarity_boost": similarity_boost,
-            "speed": speed,
             "timestamps": bool(inputs.get("timestamps", False)),
             "apply_text_normalization": inputs.get("apply_text_normalization", "auto"),
             "output_format": output_format,
         }
+        if model_name != "eleven-v4":
+            payload["speed"] = speed
         for optional in ("language_code", "seed", "style"):
             if inputs.get(optional) is not None:
                 payload[optional] = inputs[optional]
@@ -342,7 +348,7 @@ class FalElevenLabsTTS(BaseTool):
             "text_length": len(text),
             "stability": stability,
             "similarity_boost": similarity_boost,
-            "speed": speed,
+            "speed": speed if model_name != "eleven-v4" else None,
             "output": str(output_path),
             "format": output_format,
         }

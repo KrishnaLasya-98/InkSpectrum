@@ -55,6 +55,7 @@ function renderSlate(s) {
       ? el("span", { class: "chip" }, `${board.scenes.length} scenes · ${fmtDuration(board.total_duration_seconds)}`)
       : null,
     s.style_playbook ? el("span", { class: "chip" }, s.style_playbook) : null,
+    s.progress ? el("span", { class: "chip" }, `${s.progress.percent}% complete${s.progress.eta_seconds ? ` · stage ETA ${fmtDuration(s.progress.eta_seconds)}` : ""}`) : null,
   ];
 
   const awaiting = s.stages.find((x) => x.status === "awaiting_human");
@@ -114,10 +115,10 @@ function stageSub(st) {
   }
   if (st.status === "in_progress" && st.partial_progress) {
     const done = st.partial_progress.completed_scene_ids;
-    if (Array.isArray(done)) return `${done.length} scene${done.length === 1 ? "" : "s"} done`;
+    if (Array.isArray(done)) return `${done.length} scene${done.length === 1 ? "" : "s"} done${st.eta_seconds ? ` · ETA ${fmtDuration(st.eta_seconds)}` : ""}`;
     return "in progress";
   }
-  if (st.status === "in_progress") return "in progress";
+  if (st.status === "in_progress") return `in progress${st.progress_percent != null ? ` · ${st.progress_percent}%` : ""}${st.eta_seconds ? ` · ETA ${fmtDuration(st.eta_seconds)}` : ""}`;
   if (st.status === "failed") return st.error ? String(st.error).slice(0, 60) : "failed";
   if (st.timestamp) {
     const approved = st.gated && st.human_approved ? " · approved" : "";

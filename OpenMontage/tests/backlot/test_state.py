@@ -155,6 +155,24 @@ class TestBoardState:
         idea = next(x for x in s["stages"] if x["name"] == "idea")
         assert idea.get("undeclared") is True
 
+    def test_progress_and_eta_are_derived_from_partial_work(self, projects_root, monkeypatch):
+        p = _make_project(projects_root, "eta")
+        _write(p / "project.json", {"title": "ETA", "pipeline_type": "educational-video"})
+        monkeypatch.setattr(state_mod.time, "time", lambda: 140.0)
+        _write(p / "checkpoint_input_ingestion.json", {
+            "stage": "input_ingestion", "status": "in_progress", "timestamp": "2026-01-01T00:00:00Z",
+            "artifacts": {}, "metadata": {"stage_started_at_unix": 100.0,
+                "estimated_duration_seconds": 100.0,
+                "partial_progress": {"completed_scene_ids": ["s1", "s2"], "total_items": 4}},
+        })
+        state = load_board_state(p)
+        stage = state["stages"][0]
+        assert stage["progress_percent"] == 50.0
+        assert stage["eta_seconds"] == 40.0
+        assert stage["eta_basis"] == "observed-throughput"
+        assert state["progress"]["active_stage"] == "input_ingestion"
+        assert state["progress"]["percent"] > 0
+
 
 class TestLibrary:
     def test_list_projects_sorts_live_first(self, projects_root):

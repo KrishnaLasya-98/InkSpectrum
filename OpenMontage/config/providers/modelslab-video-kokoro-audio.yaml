@@ -1,0 +1,22 @@
+providers:
+  audio:
+    provider: huggingface-kokoro
+    model_id: hexgrad/Kokoro-82M
+    voice_id: af_heart
+    language: en-us
+    speed: 0.85
+    lock_voice: true
+    enable_stt_qa: false
+  video:
+    provider: modelslab
+    model_id: wan2.2
+    image_model_id: wan-2.2-i2v
+    reference_model_id: h3-minimax-r2v
+    reference_image_model_id: flux
+    fallback_model_id: h3-minimax-t2v
+    max_generation_attempts: 3
+    semantic_qa:
+      required: true
+      model: clip
+      max_frames: 5
+      minimum_match_ratio: 0.4

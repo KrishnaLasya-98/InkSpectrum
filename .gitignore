@@ -10,6 +10,8 @@ __pycache__/
 dist/
 build/
 .venv/
+.venv-educational/
+.conda-educational/
 venv/
 
 # IDE / OS
@@ -33,3 +35,14 @@ output/
 .tmp/
 tmp/
 .remotion/
+node_modules/
+
+# Private/local agent sessions and browser automation state
+**/.playwright-cli/
+
+# Generated OpenMontage production state (not portable source)
+OpenMontage/artifacts/
+OpenMontage/work/
+OpenMontage/media/
+OpenMontage/final-videos/
+OpenMontage/textbook-collections/

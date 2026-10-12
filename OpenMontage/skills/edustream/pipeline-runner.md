@@ -1,109 +1,87 @@
-# EduStream Pro — Pipeline Runner Skill
+# Educational Video Pipeline Runner
 
-## Overview
+## Purpose
 
-This skill teaches the AI agent (Claude / Kiro / Cursor / Kilo) how to invoke
-the full EduStream Pro pipeline for any Class 1 subject.
+This skill covers the compatibility runner behind the manifest-driven
+`educational-video` pipeline. It supports PDF, Markdown, text, and DOCX chapter
+inputs, records Backlot state, composes with the locked HyperFrames educational
+template, and performs encoded-output QA.
 
-**Entry point:**
-```bash
-python -m tools.structure.subject_pipeline_runner --subject <evs|english|maths>
-python -m tools.structure.subject_pipeline_runner --subject evs --dry-run   # test run
+The canonical cross-agent instructions are in
+`.agents/skills/openmontage-educational-video/SKILL.md`.
+
+## Entry points
+
+Preferred, agent-neutral controller:
+
+```powershell
+python -m tools.structure.educational_agent_cli run "C:\path\chapter.pdf" `
+  --project-id class1-chapter --subject evs --grade 1 --dry-run
 ```
 
-The pipeline is defined in `pipeline_defs/edustream-pro.yaml`.
-All stages are resumable — if a run is interrupted, re-running picks up from
-the last completed checkpoint.
+Lower-level runners:
 
-## Prerequisites
-
-1. `.env` has `MODELSLAB_API_KEY` set (all TTS + video models are free/unlimited)
-2. `ffmpeg` and `ffprobe` are on PATH (`winget install FFmpeg` on Windows)
-3. `manim` installed: `pip install manim`
-4. `hyperframes` CLI installed: `npm install -g hyperframes`
-5. `npx remotion` available: `cd remotion-composer && npm install`
-
-## Triggering from Natural Language
-
-When the user says any of:
-- "Generate an EduStream Pro video for EVS"
-- "Make the Class 1 Animal Life chapter video"
-- "Run the pipeline for Maths Chapter 8"
-- "Build educational video for English Lesson 1"
-
-→ Read `pipeline_defs/edustream-pro.yaml` first, then invoke the pipeline runner.
-
-## Stage Summary
-
-| Stage | Tool | Cost |
-|---|---|---|
-| 0 Input ingestion | `section_parser` | $0 |
-| 1 Content structuring | `educational_content_generator` | $0 (dry_run) or ~$0.05 |
-| 2 Orchestration | `edustream_orchestrator` | $0 |
-| 3 Render clips | `render_mode_router` → Manim/Remotion/HyperFrames/ModelsLab | $0 |
-| 4 Voice synthesis | `voice_synthesis_pipeline` (ModelsLab text-to-speech) | $0 |
-| 5 Composition | `av_composer` + subtitle burn | $0 |
-| 6 QA + export | `quality_assurance` + `export_bundle` | $0 |
-| **Total** | | **$0** |
-
-## Dry-Run Mode
-
-Always run with `--dry-run` first to verify the pipeline completes without errors:
-```bash
-python -m tools.structure.subject_pipeline_runner --subject evs --dry-run
+```powershell
+python -m tools.structure.pdf_to_video_pipeline "C:\path\chapter.pdf" --dry-run
+python -m tools.structure.subject_pipeline_runner --chapter-config projects\class1-chapter\chapter_config.json --dry-run
 ```
 
-Dry-run exercises all stages, writes checkpoint files, and produces a cost
-estimate — but skips all API calls and renders. Takes ~5 seconds.
+## Checkpoint behavior
 
-## Output Files
+The one-process compatibility runner emits the same manifest-ordered
+checkpoints and Backlot events as an agent-managed run. It does not skip work
+solely because a checkpoint is complete, but the media renderer can reuse a
+previous clip only when its content fingerprint and semantic QA are valid.
 
-After a successful run, the following files are written to
-`projects/{subject}/`:
+Guided production stops at `proposal`, `content_structuring`, `assets`, and
+`quality_assurance`. Approve and inspect them with:
 
-```
-artifacts/
-  section_blocks.json        ← ContentBlock[] from SectionParser
-  educational_plan.json      ← EduGen 6-step plan with render_mode
-  evs_script.json            ← LASEV EVS triplet (P, N, A)
-  narration_manifest.json    ← TTS segments + STT QA results
-  cost_log.json              ← per-stage cost breakdown
-
-renders/
-  clips/
-    s00_title.mp4            ← HyperFrames chapter title card
-    s01.mp4 s02.mp4 ...      ← per-section clips
-    clip_manifest.json       ← router results
-  audio/
-    s01.wav s02.wav ...      ← narration audio per section
-  {subject}_chapter.mp4      ← composed video (no subtitles)
-  {subject}_chapter_final.mp4 ← final video with subtitles burned
-  {subject}_chapter.srt      ← subtitle file
+```powershell
+python -m tools.structure.educational_agent_cli status projects\class1-chapter --write
+python -m tools.structure.educational_agent_cli approve projects\class1-chapter proposal
 ```
 
-## Running All Three Subjects
+Use `--full-run-preauthorized` only when the user has already approved creative
+direction, paid generation, and final delivery. Dry-run mode uses this flow
+internally because it makes no provider calls or renders.
 
-```bash
-# Run sequentially
-python -m tools.structure.subject_pipeline_runner --subject evs
-python -m tools.structure.subject_pipeline_runner --subject english
-python -m tools.structure.subject_pipeline_runner --subject maths
-```
+## Dependencies
 
-## Troubleshooting
+1. `MODELSLAB_API_KEY` for production narration and generated motion assets.
+2. FFmpeg and ffprobe on `PATH`.
+3. HyperFrames/Node.js for composition and rendering.
+4. Manim for deterministic mathematics/science teaching animations when the
+   selected scene strategy calls for it.
 
-**"MODELSLAB_API_KEY not set"** → set in `.env` and reload environment
+ModelsLab is not assumed to be free or unlimited. Cost and quota are
+account/model dependent; preflight and the proposal gate must run before paid
+generation.
 
-**"HyperFrames CLI not found"** → `npm install -g hyperframes`
-(non-fatal: chapter title card skipped, rest of pipeline continues)
+## Stage contract
 
-**"Manim render timed out"** → Reduce section `duration_seconds` or
-lower quality with `--quality low`
+1. Input ingestion and source/coverage artifacts.
+2. Proposal and decision log.
+3. Educational content structure and chapter-faithful narration.
+4. Scene plan and subject-aware media research.
+5. Asset strategy/approval and fresh media acquisition.
+6. One locked narrator voice, punctuation-aware delivery, and STT QA.
+7. Speech-derived word alignment and subtitle generation.
+8. Clip rendering with animation-first policy.
+9. Measured-audio authoritative multimedia synchronization.
+10. HyperFrames composition with the locked educational UI package.
+11. Encoded-output visual/audio/subtitle/source-fidelity QA and local export.
 
-**"X clips failed to render"** → Check `renders/clips/clip_manifest.json`
-for error messages per section_id. Fix the section in `educational_plan.json`
-and re-run (already-rendered clips are skipped automatically)
+## Outputs
 
-**Stage 1 produces sections without render_mode** → The LLM didn't assign
-render_mode. The `_infer_render_mode()` heuristic in `educational_generator.py`
-fills them automatically based on source_block_type and keywords.
+The chapter project contains:
+
+- `project.json`, `events.jsonl`, and `checkpoint_*.json` for Backlot.
+- `decision_log.json` and `artifacts/agent_status.json` for any agent.
+- Extracted source, chapter document, coverage contract, educational plan,
+  scene plan, media research plan, and asset manifest.
+- Narration manifest, word captions, SRT, and multimedia sync plan.
+- Clip manifest, HyperFrames workspace, render report, final review, and
+  publish log.
+
+Never present a dry-run placeholder or a render with `final_review.status`
+other than `pass` as the completed final video.

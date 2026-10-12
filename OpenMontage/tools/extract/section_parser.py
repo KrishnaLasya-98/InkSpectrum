@@ -105,8 +105,8 @@ class ContentBlock:
 # ---------------------------------------------------------------------------
 # Classifiers
 # ---------------------------------------------------------------------------
-_RECALL_RE   = re.compile(r"let.?s recall|summary", re.I)
-_GLOSSARY_RE = re.compile(r"glossary|vocabulary|word\s+form", re.I)
+_RECALL_RE   = re.compile(r"(?:let.?s\s+)?recall|let.?s\s+remember|summary", re.I)
+_GLOSSARY_RE = re.compile(r"glossary|vocabulary|word\s+form|word\s+bank", re.I)
 _ACTIVITY_RE = re.compile(r"activity|draw|life\s+skills|self\s*assess|creative\s+abil", re.I)
 _QA_RE       = re.compile(
     r"answer\s+the\s+following|fill\s+in\s+the\s+blank|choose\s+the\s+correct"
@@ -214,6 +214,13 @@ class SectionParser(BaseTool):
     # --- core -----------------------------------------------------------------
 
     def _parse(self, text: str, subject: str) -> list[ContentBlock]:
+        # Page markers belong to the source-layout contract, not narration.
+        text = re.sub(
+            r"(?m)^<!--\s*(?:page|page_number)\s*[:=]\s*\d+\s*-->\s*$",
+            "",
+            text,
+            flags=re.I,
+        )
         parts = re.split(r"^(#{1,6}\s+.+)$", text, flags=re.M)
         blocks: list[ContentBlock] = []
         idx = 0

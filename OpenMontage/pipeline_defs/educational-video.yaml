@@ -1,10 +1,10 @@
 name: educational-video
 version: "1.0"
 description: >
-  End-to-end pipeline for transforming K-10 PDF textbook chapters into
-  educational videos. Integrates OpenDataLoader/Marker for PDF extraction,
-  EduGen-style pedagogical content structuring, VoiceStudio TTS, and
-  Code2Video-style Manim generation with Critc VLM feedback.
+  End-to-end pipeline for transforming source-grounded textbook chapters into
+  educational videos. ModelsLab is the primary provider for narration and 3D
+  animated media; deterministic Manim teaching visuals and HyperFrames UI are
+  used where generated footage would reduce instructional precision.
 category: generated
 stability: production
 default_checkpoint_policy: guided
@@ -12,13 +12,22 @@ metadata:
   preferred_render_runtime: hyperframes
   preferred_runtime_reason: "User-selected for educational videos; preserves the approved HyperFrames UI and HTML/CSS/GSAP workflow."
   runtime_selection_policy: "Record HyperFrames as selected when the user has approved it; still retain all available alternatives in render_runtime_selection."
+template_contract:
+  id: hyperframes-educational-v1
+  version: 1.0.3
+  status: locked
+  runtime: hyperframes
+  presentation_contract: source-faithful-book-v1
+  path: styles/hyperframes-educational-v1.yaml
+  sha256: 75eed8d0e813ef1b6523d247b6b6c49b46cc209930ebdab02a595d24627757fb
+  package_sha256: 3a2db835b642c19b4231ad00f8117101e8d9878990fb66fd075c9ce0ef8ea3f5
+  override_policy: content-slots-only
 extensions:
   custom_scripts: true
   custom_playbooks: true
   custom_skills: true
   custom_tools: true
 required_skills:
-  - edustream/research-director
   - edustream/input-director
   - edustream/proposal-director
   - edustream/content-director
@@ -44,23 +53,9 @@ compatible_playbooks:
     - flat-motion-graphics
   custom_allowed: true
 stages:
-  # ── Stage -1: Research ─────────────────────────────────────────────
-  - name: research
-    skill: edustream/research-director
-    produces:
-      - research_brief
-    required_tools: []
-    tools_available: []
-    checkpoint_required: false
-    human_approval_default: false
-    review_focus:
-      - "All chapter factual claims verified against reliable sources"
-      - "At least 3 common misconceptions collected with corrections"
-      - "Every key concept has concrete, child-familiar examples"
-      - "At least 3 existing explanations surveyed, 1 underserved gap named"
-    success_criteria:
-      - Schema-valid research_brief artifact
-      - data_points closed fact set with source URLs
+  # Textbook content is the factual authority. External research is optional
+  # enrichment performed inside planning/media research when explicitly
+  # requested; it is not a prerequisite that can block source ingestion.
   # ── Stage 0: Input Ingestion ──────────────────────────────────────
   - name: input_ingestion
     skill: edustream/input-director
@@ -239,13 +234,9 @@ stages:
     produces:
       - narration_manifest
     required_tools:
-      - tts_selector
+      - voice_synthesis_pipeline
     tools_available:
-      - tts_selector
-      - elevenlabs_tts
-      - google_tts
-      - azure_tts
-      - piper_tts
+      - voice_synthesis_pipeline
     checkpoint_required: true
     human_approval_default: false
     review_focus:
@@ -258,6 +249,7 @@ stages:
       - Schema-valid narration_manifest artifact
       - All audio files exist and are playable
       - Total audio duration matches script timing within 5%
+      - One ModelsLab narrator identity is locked for the complete chapter
   # ── Stage 3b: Text-Audio Alignment ────────────────────────────────
   - name: text_audio_alignment
     skill: edustream/qa-director
@@ -303,6 +295,8 @@ stages:
     human_approval_default: false
     review_focus:
       - "All sections rendered to MP4 successfully"
+      - "Generated story and explanation footage comes from the configured ModelsLab model"
+      - "Generated clips contain no audio stream before composition"
       - "Renderer choice follows the approved asset strategy"
       - "Math equations rendered correctly via MathTex"
       - "6x6 grid layout adheres to scene_plan positioning"
@@ -329,7 +323,7 @@ stages:
     review_focus:
       - "Measured narration duration is the single timing authority"
       - "Title offsets are applied exactly once"
-      - "Every visual has an explicit trim, loop, or hold policy"
+      - "Every visual has an explicit trim, stable-screen hold, or motion-regeneration policy; generated motion is never looped"
     success_criteria:
       - No missing clips in multimedia sync plan
       - Audio-video sync tolerance <= 100ms at all hard boundaries
@@ -346,18 +340,10 @@ stages:
       - render_report
       - final_review
     required_tools:
-      - video_compose
-      - audio_mixer
-    optional_tools:
       - hyperframes_compose
-      - background_remove
-      - color_grade
     tools_available:
-      - video_compose
       - hyperframes_compose
       - audio_mixer
-      - background_remove
-      - color_grade
     checkpoint_required: true
     human_approval_default: false
     review_focus:
@@ -367,6 +353,7 @@ stages:
       - "No visual artifacts or encoding issues"
       - "When HyperFrames is selected, lint and validate/check pass before render"
       - "No silent substitution to Remotion or FFmpeg"
+      - "Word-highlight captions, narration, visuals, and teaching UI share the authoritative timeline"
     success_criteria:
       - Schema-valid render_report with output paths
       - Output file exists and passes ffprobe validation

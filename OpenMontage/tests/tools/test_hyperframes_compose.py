@@ -395,6 +395,7 @@ def test_hyperframes_render_resolves_relative_output_path_once(tmp_path, monkeyp
     monkeypatch.chdir(tmp_path)
     monkeypatch.setattr(tool, "_runtime_check", lambda: {"runtime_available": True})
     monkeypatch.setattr(tool, "_scaffold", lambda inputs: ToolResult(success=True, data={}))
+    (workspace / "index.html").write_text('<div data-duration="1"></div>', encoding="utf-8")
     monkeypatch.setattr(tool, "_lint", lambda inputs: ToolResult(success=True, data={}))
     monkeypatch.setattr(tool, "_validate", lambda inputs: ToolResult(success=True, data={}))
 

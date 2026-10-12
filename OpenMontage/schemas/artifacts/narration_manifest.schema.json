@@ -40,7 +40,10 @@
     },
     "total_duration_seconds": {"type": "number", "minimum": 0},
     "total_cost_usd": {"type": "number", "minimum": 0},
-    "metadata": {"type": "object"}
+    "metadata": {"type": "object"},
+    "generation_complete": {"type": "boolean"},
+    "pronunciation_qa_status": {"type": "string", "enum": ["pending", "passed", "failed", "unverified"]},
+    "word_alignment_status": {"type": "string", "enum": ["pending", "passed", "failed", "unverified"]}
   },
   "additionalProperties": false
 }

@@ -702,9 +702,34 @@ OpenMontage works with any AI coding assistant that can read files and execute P
 | **Cursor** | `CURSOR.md` + `.cursor/rules/` |
 | **GitHub Copilot** | `COPILOT.md` + `.github/copilot-instructions.md` |
 | **Codex** | `CODEX.md` |
+| **Hermes / generic shell agents** | `HERMES.md` + `.agents/skills/openmontage-educational-video/SKILL.md` |
 | **Windsurf** | `.windsurfrules` |
 
 All platform files point to the shared `AGENT_GUIDE.md` (operating guide and agent contract) and `PROJECT_CONTEXT.md` (architecture reference).
+
+The educational PDF-to-video workflow also exposes an agent-neutral JSON CLI:
+
+```bash
+python -m tools.structure.educational_agent_cli --help
+```
+
+It provides guided/full-run execution, durable Backlot status, explicit gate
+approval, and legacy educational-project migration without requiring a Codex,
+Claude, Cursor, or Hermes SDK.
+
+Complete textbooks use the same portable interface:
+
+```bash
+python -m tools.structure.educational_agent_cli book /data/textbook.pdf
+```
+
+The first pass emits a reviewable chapter map. Approved execution creates one
+source-grounded HyperFrames project per chapter and a collection index, with
+workspace and delivery roots configurable for cloud-mounted storage.
+
+See [`docs/EDUCATIONAL_PORTABILITY_VALIDATION.md`](docs/EDUCATIONAL_PORTABILITY_VALIDATION.md)
+for the current real-PDF EVS, English, Maths, and GK validation matrix and its
+production-validation boundary.
 
 > **Coming soon:** Local LLM support via **Ollama** and **LM Studio** — run the full production pipeline without any cloud LLM.
 

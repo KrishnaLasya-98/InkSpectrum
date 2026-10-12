@@ -8,17 +8,24 @@ refetch state. The server never writes to project directories.
 from __future__ import annotations
 
 import asyncio
+import base64
+import binascii
+import hmac
 import json
+import os
+import re
 import time
+import uuid
 from contextlib import asynccontextmanager, suppress
 from pathlib import Path
 from typing import Optional
 
 from fastapi import FastAPI, HTTPException, Request
-from fastapi.responses import FileResponse, HTMLResponse, StreamingResponse
+from fastapi.responses import FileResponse, HTMLResponse, PlainTextResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
 
 from backlot.state import PROJECTS_DIR, REPO_ROOT, list_projects, load_board_state, summarize_project
+from backlot.collections import COLLECTIONS_DIR, list_collections, load_collection_state
 
 UI_DIR = Path(__file__).resolve().parent / "ui"
 THUMB_CACHE_DIR = REPO_ROOT / ".backlot" / "thumbs"
@@ -28,6 +35,29 @@ THUMB_WIDTHS = (320, 640, 960)
 _IGNORE_PARTS = {"node_modules", ".git", "__pycache__", ".cache"}
 
 SSE_HEARTBEAT_SECONDS = 15
+SAFE_UPLOAD_NAME = re.compile(r"^[a-zA-Z0-9][a-zA-Z0-9_.-]{0,127}\.pdf$", re.IGNORECASE)
+
+
+def _basic_auth_valid(request: Request) -> bool:
+    """Validate optional HTTP Basic credentials without logging secrets."""
+
+    expected_password = os.environ.get("BACKLOT_AUTH_PASSWORD")
+    if not expected_password:
+        return True
+    expected_username = os.environ.get("BACKLOT_AUTH_USERNAME", "openmontage")
+    scheme, _, encoded = request.headers.get("Authorization", "").partition(" ")
+    if scheme.lower() != "basic" or not encoded:
+        return False
+    try:
+        decoded = base64.b64decode(encoded, validate=True).decode("utf-8")
+    except (binascii.Error, UnicodeDecodeError):
+        return False
+    username, separator, password = decoded.partition(":")
+    if not separator:
+        return False
+    return hmac.compare_digest(username, expected_username) and hmac.compare_digest(
+        password, expected_password
+    )
 
 
 def _ui_html(name: str, assets: tuple[str, ...]) -> HTMLResponse:
@@ -165,6 +195,18 @@ async def _lifespan(app: FastAPI):
 def create_app() -> FastAPI:
     app = FastAPI(title="Backlot", docs_url=None, redoc_url=None, lifespan=_lifespan)
 
+    @app.middleware("http")
+    async def basic_auth(request: Request, call_next):
+        # Railway needs an unauthenticated deployment healthcheck. All board,
+        # API, event-stream, thumbnail, and media routes remain protected.
+        if request.url.path != "/api/health" and not _basic_auth_valid(request):
+            return PlainTextResponse(
+                "Authentication required",
+                status_code=401,
+                headers={"WWW-Authenticate": 'Basic realm="OpenMontage Backlot"'},
+            )
+        return await call_next(request)
+
     # ---- API ----------------------------------------------------------
 
     @app.get("/api/health")
@@ -174,6 +216,66 @@ def create_app() -> FastAPI:
     @app.get("/api/projects")
     async def projects() -> list:
         return await asyncio.to_thread(_cached_summaries)
+
+    @app.get("/api/collections")
+    async def collections() -> list:
+        return await asyncio.to_thread(list_collections, COLLECTIONS_DIR)
+
+    @app.get("/api/collections/{collection_id}")
+    async def collection_state(collection_id: str) -> dict:
+        if not re.fullmatch(r"[a-zA-Z0-9][a-zA-Z0-9_-]{0,127}", collection_id):
+            raise HTTPException(status_code=400, detail="invalid collection id")
+        folder = COLLECTIONS_DIR / collection_id
+        if not folder.is_dir():
+            raise HTTPException(status_code=404, detail="collection not found")
+        try:
+            return await asyncio.to_thread(load_collection_state, folder, PROJECTS_DIR)
+        except FileNotFoundError as exc:
+            raise HTTPException(status_code=404, detail=str(exc)) from exc
+
+    @app.put("/api/jobs/input/{filename}")
+    async def upload_job_input(filename: str, request: Request) -> dict:
+        """Store one authenticated PDF atomically on the persistent volume."""
+
+        if not SAFE_UPLOAD_NAME.fullmatch(filename):
+            raise HTTPException(status_code=400, detail="filename must be a safe .pdf name")
+        maximum = int(os.environ.get("OPENMONTAGE_MAX_UPLOAD_BYTES", str(100 * 1024 * 1024)))
+        declared = request.headers.get("content-length")
+        if declared:
+            try:
+                if int(declared) > maximum:
+                    raise HTTPException(status_code=413, detail="source PDF is too large")
+            except ValueError as exc:
+                raise HTTPException(status_code=400, detail="invalid content length") from exc
+        content = await request.body()
+        if not content or len(content) > maximum:
+            raise HTTPException(status_code=413, detail="source PDF is empty or too large")
+        if not content.startswith(b"%PDF-"):
+            raise HTTPException(status_code=400, detail="source is not a PDF")
+        from tools.structure.educational_job_worker import input_root
+
+        root = input_root()
+        root.mkdir(parents=True, exist_ok=True)
+        target = root / filename
+        temporary = root / f".{filename}.{uuid.uuid4().hex}.tmp"
+        await asyncio.to_thread(temporary.write_bytes, content)
+        await asyncio.to_thread(temporary.replace, target)
+        return {"ok": True, "source": filename, "bytes": len(content)}
+
+    @app.post("/api/jobs")
+    async def submit_job(request: Request) -> dict:
+        """Validate and atomically publish a reviewed educational pipeline job."""
+
+        try:
+            payload = await request.json()
+            if not isinstance(payload, dict):
+                raise ValueError("job body must be a JSON object")
+            from tools.structure.educational_job_worker import enqueue
+
+            queued = await asyncio.to_thread(enqueue, payload)
+        except (json.JSONDecodeError, ValueError, TypeError) as exc:
+            raise HTTPException(status_code=400, detail=str(exc)) from exc
+        return {"ok": True, "status": "pending", "job": queued.name}
 
     @app.get("/api/project/{project_id}/state")
     async def project_state(project_id: str) -> dict:
@@ -289,6 +391,14 @@ def create_app() -> FastAPI:
     async def library_page() -> HTMLResponse:
         return _ui_html("index.html", ("board.css", "library.js"))
 
+    @app.get("/c/{collection_id}")
+    async def collection_page(collection_id: str) -> HTMLResponse:
+        if not re.fullmatch(r"[a-zA-Z0-9][a-zA-Z0-9_-]{0,127}", collection_id):
+            raise HTTPException(status_code=400, detail="invalid collection id")
+        if not (COLLECTIONS_DIR / collection_id / "artifacts" / "video_production_plan.json").is_file():
+            raise HTTPException(status_code=404, detail="collection not found")
+        return _ui_html("collection.html", ("collection.js",))
+
     if UI_DIR.is_dir():
         app.mount("/ui", StaticFiles(directory=UI_DIR), name="ui")
 
@@ -300,7 +410,7 @@ def create_app() -> FastAPI:
     async def ui_no_cache(request, call_next):
         response = await call_next(request)
         path = request.url.path
-        if path == "/" or path.startswith("/ui") or path.startswith("/p/"):
+        if path == "/" or path.startswith("/ui") or path.startswith("/p/") or path.startswith("/c/"):
             response.headers["Cache-Control"] = "no-cache"
         return response
 

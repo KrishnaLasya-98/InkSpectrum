@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "openmontage/artifacts/asset_strategy",
+  "title": "Educational Asset Strategy",
+  "type": "object",
+  "required": ["version", "policy", "decisions", "blocked_scene_ids"],
+  "properties": {
+    "version": {"const": "1.0"},
+    "policy": {"type": "string", "minLength": 1},
+    "decisions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["scene_id", "selected_strategy", "provider", "model_candidates", "reason", "fresh_asset_required", "stock_search_required", "status"],
+        "properties": {
+          "scene_id": {"type": "string", "minLength": 1},
+          "selected_strategy": {"enum": ["generated_3d_video", "precision_animation", "stable_teaching_ui", "blocked"]},
+          "provider": {"type": ["string", "null"]},
+          "model_candidates": {"type": "array", "items": {"type": "string"}},
+          "reason": {"type": "string", "minLength": 1},
+          "fresh_asset_required": {"type": "boolean"},
+          "stock_search_required": {"type": "boolean"},
+          "status": {"enum": ["planned", "blocked"]}
+        },
+        "additionalProperties": false
+      }
+    },
+    "blocked_scene_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+  },
+  "additionalProperties": false
+}

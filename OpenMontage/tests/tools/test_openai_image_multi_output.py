@@ -45,6 +45,7 @@ def openai_tool(monkeypatch):
     fake.OpenAI = _FakeClient
     monkeypatch.setitem(sys.modules, "openai", fake)
     monkeypatch.setenv("OPENAI_API_KEY", "test-key")
+    monkeypatch.setenv("OPENAI_IMAGE_WRAPPER_ACCESS", "verified")
     from tools.graphics.openai_image import OpenAIImage
 
     return OpenAIImage()

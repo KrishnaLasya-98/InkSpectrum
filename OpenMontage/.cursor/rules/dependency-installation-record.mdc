@@ -1,0 +1,14 @@
+---
+description: Keep every OpenMontage dependency installation reproducible and documented
+alwaysApply: true
+---
+
+# Dependency Installation Record
+
+- Read `docs/INSTALLATION_GUIDE.md` before installing, removing, or upgrading anything.
+- Update the correct requirements, Conda, Node, or system-dependency manifest before installation.
+- Add an installation-ledger entry with date, dependency, requested constraint, target environment, reason, and planned verification.
+- After installation, record the resolved version and verification outcome.
+- Update `educational_agent_cli setup` or another preflight when the dependency is production-required.
+- Never make a manual install the only source of truth.
+- Never write API keys, tokens, passwords, or secret values into manifests, guides, logs, or commands.

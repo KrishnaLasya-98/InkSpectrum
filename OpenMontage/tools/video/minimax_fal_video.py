@@ -70,6 +70,10 @@ class MiniMaxFalVideo(BaseTool):
                 "default": "16:9",
             },
             "image_url": {"type": "string"},
+            "image_path": {
+                "type": "string",
+                "description": "Local start-frame path; uploaded to fal.ai storage.",
+            },
             "end_image_url": {"type": "string"},
             "reference_image_urls": {"type": "array", "items": {"type": "string"}},
             "reference_video_urls": {"type": "array", "items": {"type": "string"}},
@@ -118,11 +122,16 @@ class MiniMaxFalVideo(BaseTool):
         if operation != "image_to_video":
             payload["aspect_ratio"] = inputs.get("aspect_ratio", "16:9")
         if operation == "image_to_video":
-            if not inputs.get("image_url"):
+            image_url = inputs.get("image_url")
+            if not image_url and inputs.get("image_path"):
+                from tools.video._shared import upload_image_fal
+
+                image_url = upload_image_fal(str(inputs["image_path"]))
+            if not image_url:
                 return ToolResult(
-                    success=False, error="image_to_video requires image_url"
+                    success=False, error="image_to_video requires image_url or image_path"
                 )
-            payload["image_url"] = inputs["image_url"]
+            payload["image_url"] = image_url
             if inputs.get("end_image_url"):
                 payload["end_image_url"] = inputs["end_image_url"]
         elif operation == "reference_to_video":

@@ -111,7 +111,8 @@ class OpenAIImage(BaseTool):
         return [base.parent / f"{base.name}_{idx + 1}{suffix}" for idx in range(count)]
 
     def get_status(self) -> ToolStatus:
-        if os.environ.get("OPENAI_API_KEY"):
+        if (os.environ.get("OPENAI_API_KEY")
+                and os.environ.get("OPENAI_IMAGE_WRAPPER_ACCESS") == "verified"):
             return ToolStatus.AVAILABLE
         return ToolStatus.UNAVAILABLE
 
@@ -123,11 +124,42 @@ class OpenAIImage(BaseTool):
         cost_map = {"low": 0.006, "medium": 0.053, "high": 0.211, "auto": 0.053}
         return cost_map.get(quality, 0.053) * n
 
+    @staticmethod
+    def _failure_details(error: Exception) -> dict[str, Any]:
+        """Classify provider rejection separately from indeterminate transport.
+
+        Authentication, permission, moderation, validation, and other explicit
+        HTTP responses mean no image output was accepted. Connection/time-out
+        failures remain indeterminate because the request may have crossed the
+        network boundary before the client lost the response.
+        """
+        error_type = type(error).__name__
+        status_code = getattr(error, "status_code", None)
+        request_id = getattr(error, "request_id", None)
+        transport_unknown = error_type in {
+            "APITimeoutError", "APIConnectionError", "TimeoutError",
+            "ConnectionError", "ReadTimeout", "ConnectTimeout",
+        }
+        disposition = "submission_unknown" if transport_unknown else "provider_rejected"
+        return {
+            "failure_disposition": disposition,
+            "error_type": error_type,
+            "status_code": status_code,
+            "request_id": request_id,
+        }
+
     def execute(self, inputs: dict[str, Any]) -> ToolResult:
         if not os.environ.get("OPENAI_API_KEY"):
             return ToolResult(
                 success=False,
                 error="OPENAI_API_KEY not set. " + self.install_instructions,
+            )
+        if os.environ.get("OPENAI_IMAGE_WRAPPER_ACCESS") != "verified":
+            return ToolResult(
+                success=False,
+                data={"failure_disposition": "provider_access_unverified", "cost_usd": 0.0},
+                error=("Local OpenAI image wrapper access is not verified. Use the native Codex "
+                       "image tool and import its result, or explicitly verify this provider route."),
             )
 
         from openai import OpenAI
@@ -164,7 +196,12 @@ class OpenAIImage(BaseTool):
                 outputs.append(str(out_path))
 
         except Exception as e:
-            return ToolResult(success=False, error=f"OpenAI image generation failed: {e}")
+            details = self._failure_details(e)
+            return ToolResult(
+                success=False,
+                data=details,
+                error=f"OpenAI image generation failed: {e}",
+            )
 
         return ToolResult(
             success=True,

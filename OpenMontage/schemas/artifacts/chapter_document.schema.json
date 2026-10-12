@@ -1,0 +1,165 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "openmontage/artifacts/chapter_document",
+  "title": "Normalized Educational Chapter Document",
+  "type": "object",
+  "required": ["version", "source", "layout_fidelity", "pages", "blocks", "validation"],
+  "properties": {
+    "version": {"const": "1.0"},
+    "source": {
+      "type": "object",
+      "required": ["path", "format", "text_artifact", "text_sha256"],
+      "properties": {
+        "path": {"type": "string", "minLength": 1},
+        "format": {"type": "string", "minLength": 1},
+        "text_artifact": {"type": "string", "minLength": 1},
+        "text_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "extraction_artifact": {"type": ["string", "null"]}
+      },
+      "additionalProperties": false
+    },
+    "layout_fidelity": {
+      "type": "object",
+      "required": ["reading_order", "tables", "geometry", "text_boxes", "requires_visual_pdf_audit"],
+      "properties": {
+        "reading_order": {"type": "string"},
+        "tables": {"type": "string"},
+        "geometry": {"type": "string"},
+        "text_boxes": {"type": "string"},
+        "requires_visual_pdf_audit": {"type": "boolean"}
+      },
+      "additionalProperties": false
+    },
+    "pages": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["page_number", "block_ids"],
+        "properties": {
+          "page_number": {"type": "integer", "minimum": 1},
+          "width": {"type": "number", "exclusiveMinimum": 0},
+          "height": {"type": "number", "exclusiveMinimum": 0},
+          "unit": {"enum": ["points", "pixels", "normalized", "unknown"]},
+          "block_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+        },
+        "additionalProperties": false
+      }
+    },
+    "blocks": {"type": "array", "items": {"$ref": "#/$defs/block"}},
+    "validation": {
+      "type": "object",
+      "required": ["block_count", "required_block_count", "page_count_represented", "semantic_roles", "duplicate_block_ids", "recovered_layout_blocks"],
+      "properties": {
+        "block_count": {"type": "integer", "minimum": 0},
+        "required_block_count": {"type": "integer", "minimum": 0},
+        "page_count_represented": {"type": "integer", "minimum": 1},
+        "semantic_roles": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "duplicate_block_ids": {"type": "boolean"},
+        "recovered_layout_blocks": {"type": "integer", "minimum": 0}
+      },
+      "additionalProperties": false
+    }
+  },
+  "$defs": {
+    "bbox": {
+      "type": "array", "items": {"type": "number"}, "minItems": 4, "maxItems": 4
+    },
+    "text_style": {
+      "type": "object",
+      "required": ["text", "font", "size", "color", "bold", "italic"],
+      "properties": {
+        "text": {"type": "string"},
+        "font": {"type": "string"},
+        "size": {"type": "number", "minimum": 0},
+        "color": {"type": "integer", "minimum": 0},
+        "bold": {"type": "boolean"},
+        "italic": {"type": "boolean"}
+      },
+      "additionalProperties": false
+    },
+    "source_layout": {
+      "type": "object",
+      "required": ["kind", "reading_order", "bbox", "normalized_bbox", "page_width", "page_height", "unit", "text_styles"],
+      "properties": {
+        "kind": {"enum": ["text", "image", "table"]},
+        "reading_order": {"type": "integer", "minimum": 1},
+        "bbox": {"$ref": "#/$defs/bbox"},
+        "normalized_bbox": {
+          "type": "array", "items": {"type": "number", "minimum": 0, "maximum": 1}, "minItems": 0, "maxItems": 4
+        },
+        "page_width": {"type": "number", "minimum": 0},
+        "page_height": {"type": "number", "minimum": 0},
+        "unit": {"enum": ["points", "pixels", "normalized", "unknown"]},
+        "text_styles": {"type": "array", "items": {"$ref": "#/$defs/text_style"}}
+      },
+      "additionalProperties": false
+    },
+    "cell": {
+      "type": "object",
+      "required": ["row", "column", "text", "row_span", "column_span", "is_header"],
+      "properties": {
+        "row": {"type": "integer", "minimum": 0},
+        "column": {"type": "integer", "minimum": 0},
+        "text": {"type": "string"},
+        "row_span": {"type": "integer", "minimum": 1},
+        "column_span": {"type": "integer", "minimum": 1},
+        "is_header": {"type": "boolean"},
+        "bbox": {"$ref": "#/$defs/bbox"}
+      },
+      "additionalProperties": false
+    },
+    "block": {
+      "type": "object",
+      "required": ["block_id", "page_number", "reading_order", "block_type", "semantic_role", "source_text", "required_for_coverage", "provenance"],
+      "properties": {
+        "block_id": {"type": "string", "minLength": 1},
+        "page_number": {"type": "integer", "minimum": 1},
+        "reading_order": {"type": "integer", "minimum": 1},
+        "block_type": {
+          "enum": ["chapter_title", "section_heading", "paragraph", "bullet", "table", "figure", "caption", "callout", "recall", "glossary", "assessment", "mcq", "fill_blank", "true_false", "matching", "activity", "life_skill", "equation", "decorative"]
+        },
+        "semantic_role": {"type": "string", "minLength": 1},
+        "source_text": {"type": "string"},
+        "required_for_coverage": {"type": "boolean"},
+        "heading": {"type": "string"},
+        "heading_level": {"type": "integer", "minimum": 1, "maximum": 6},
+        "list_ordinal": {"type": "string"},
+        "bbox": {"$ref": "#/$defs/bbox"},
+        "source_layout": {"$ref": "#/$defs/source_layout"},
+        "table": {
+          "type": "object",
+          "required": ["row_count", "column_count", "header_rows", "cells"],
+          "properties": {
+            "row_count": {"type": "integer", "minimum": 0},
+            "column_count": {"type": "integer", "minimum": 0},
+            "header_rows": {"type": "integer", "minimum": 0},
+            "cells": {"type": "array", "items": {"$ref": "#/$defs/cell"}}
+          },
+          "additionalProperties": false
+        },
+        "media": {
+          "type": "object",
+          "required": ["source", "alt_text"],
+          "properties": {
+            "source": {"type": "string", "minLength": 1},
+            "alt_text": {"type": "string"}
+          },
+          "additionalProperties": false
+        },
+        "provenance": {
+          "type": "object",
+          "required": ["source_line_start", "source_line_end", "extraction_mode"],
+          "properties": {
+            "source_line_start": {"type": "integer", "minimum": 1},
+            "source_line_end": {"type": "integer", "minimum": 1},
+            "extraction_mode": {"type": "string", "minLength": 1}
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

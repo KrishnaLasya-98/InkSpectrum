@@ -10,6 +10,7 @@ from __future__ import annotations
 import io
 import json
 import time
+from base64 import b64encode
 from pathlib import Path
 
 import pytest
@@ -90,6 +91,46 @@ class TestBacklotServerApi:
         response = client.get("/api/health")
         assert response.status_code == 200
         assert response.json() == {"ok": True, "app": "backlot"}
+
+    def test_optional_basic_auth_protects_board_but_not_health(
+        self, client, monkeypatch
+    ):
+        monkeypatch.setenv("BACKLOT_AUTH_USERNAME", "producer")
+        monkeypatch.setenv("BACKLOT_AUTH_PASSWORD", "test-secret")
+
+        assert client.get("/api/health").status_code == 200
+        unauthorized = client.get("/")
+        assert unauthorized.status_code == 401
+        assert unauthorized.headers["www-authenticate"].startswith("Basic")
+
+        token = b64encode(b"producer:test-secret").decode("ascii")
+        authorized = client.get("/", headers={"Authorization": f"Basic {token}"})
+        assert authorized.status_code == 200
+
+    def test_authenticated_job_upload_and_enqueue(self, client, tmp_path, monkeypatch):
+        monkeypatch.setenv("OPENMONTAGE_JOB_INPUT_DIR", str(tmp_path / "inbox"))
+        monkeypatch.setenv("OPENMONTAGE_JOB_QUEUE_DIR", str(tmp_path / "jobs"))
+
+        upload = client.put(
+            "/api/jobs/input/lesson.pdf",
+            content=b"%PDF-1.4 test",
+            headers={"content-type": "application/pdf"},
+        )
+        assert upload.status_code == 200
+        assert (tmp_path / "inbox" / "lesson.pdf").read_bytes() == b"%PDF-1.4 test"
+
+        queued = client.post(
+            "/api/jobs",
+            json={
+                "id": "lesson-dry-run",
+                "approved": True,
+                "source": "lesson.pdf",
+                "project_id": "lesson-dry-run",
+                "dry_run": True,
+            },
+        )
+        assert queued.status_code == 200
+        assert (tmp_path / "jobs" / "pending" / "lesson-dry-run.json").is_file()
 
     def test_projects_shape_and_state(self, client, projects_root):
         _make_project(projects_root, "film")

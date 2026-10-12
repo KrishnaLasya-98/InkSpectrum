@@ -14,6 +14,18 @@ from pathlib import Path
 from typing import Any
 
 from tools.base_tool import ToolResult
+from lib.paths import REPO_ROOT
+from lib.production_runtime import atomic_json
+
+
+def _record_provider_throttle(retry_seconds: int, *, remaining: str | None, source: str) -> None:
+    now = time.time()
+    atomic_json(REPO_ROOT / "work" / "modelslab-motion-budget" / "provider-throttle.json", {
+        "version": "1.0", "observed_at_unix": now,
+        "not_before_unix": now + max(1, retry_seconds),
+        "retry_after_seconds": max(1, retry_seconds),
+        "remaining": remaining, "source": source,
+    })
 
 
 def upload_modelslab_media(
@@ -110,6 +122,15 @@ def poll_modelslab(
                     f"ModelsLab poll failed after 5 consecutive errors: {poll_err}"
                 ) from poll_err
 
+        # A transport failure can exhaust the deadline before the retry loop
+        # exhausts its attempts. In that case there is no response to inspect
+        # (or `data` still belongs to the previous polling round). Preserve the
+        # resumable timeout instead of raising UnboundLocalError or reusing it.
+        if poll_err is not None:
+            raise TimeoutError(
+                f"ModelsLab request {request_id} timed out after {timeout}s"
+            ) from poll_err
+
         status = data.get("status", "")
         if status == "success":
             return data
@@ -152,8 +173,39 @@ def submit_modelslab(
 
     body = {"key": api_key, **payload}
     response = requests.post(url, json=body, timeout=timeout)
+    retry_value = response.headers.get("Retry-After")
+    remaining_value = response.headers.get("X-RateLimit-Remaining")
+    if retry_value or remaining_value == "0":
+        try:
+            retry_seconds = max(1, int(float(retry_value or 60)))
+        except ValueError:
+            retry_seconds = 60
+        _record_provider_throttle(
+            retry_seconds, remaining=remaining_value,
+            source="authoritative_provider_response_headers",
+        )
     response.raise_for_status()
-    return response.json()
+    result = response.json()
+    body_status = str(result.get("status") or "").casefold()
+    body_code = str(result.get("code") or result.get("error_code") or "").casefold()
+    body_message = str(result.get("message") or result.get("error") or "").casefold()
+    if "rate_limit" in body_code or "rate limit" in body_message or (
+        body_status == "error" and "limit" in body_message
+    ):
+        raw_retry = result.get("retry_after") or result.get("retry_after_seconds") or 60
+        try:
+            body_retry = max(1, int(float(raw_retry)))
+        except (TypeError, ValueError):
+            body_retry = 60
+        _record_provider_throttle(
+            body_retry, remaining="0", source="authoritative_provider_response_body"
+        )
+        result["_rate_limit"] = {
+            "retry_after": str(body_retry), "remaining": "0", "source": "body"
+        }
+    if retry_value or remaining_value is not None:
+        result["_rate_limit"] = {"retry_after": retry_value, "remaining": remaining_value}
+    return result
 
 
 def download_modelslab_output(
@@ -181,11 +233,8 @@ def download_modelslab_output(
 
     import requests  # noqa: PLC0415
 
-    response = requests.get(output_url, timeout=timeout)
-    response.raise_for_status()
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    output_path.write_bytes(response.content)
-    return output_path
+    from lib.media_download import download_atomic
+    return download_atomic(output_url, output_path, timeout=timeout)
 
 
 def estimate_modelslab_cost(

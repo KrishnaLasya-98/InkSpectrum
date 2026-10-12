@@ -1,5 +1,5 @@
 id: hyperframes-educational-v1
-version: 1.0.0
+version: 1.0.3
 status: locked
 runtime: hyperframes
 presentation_contract: source-faithful-book-v1
@@ -7,6 +7,9 @@ presentation_contract: source-faithful-book-v1
 canvas:
   aspect_ratio: "16:9"
   resolution: "1920x1080"
+  width_px: 1920
+  height_px: 1080
+  frame_rate: 30
   safe_margin_px: 56
 
 palette:
@@ -14,7 +17,7 @@ palette:
   ink: "#123247"
   teaching_accent: "#A83C2D"
   highlight_active: "#B64132"
-  highlight_inactive: "#AAB5BA"
+  highlight_inactive: "#526B78"
 
 layout:
   section_badge: "small cream panel at top-left"
@@ -22,6 +25,45 @@ layout:
   subtitle_lane: "stable cream lane inside bottom safe area"
   background: "full-frame animated video for story and explanation"
   reading_screen: "single centered source-faithful panel with subtle motion"
+
+component_contract:
+  opening_frame:
+    required_slots: [chapter_title, subject_label, grade_label]
+    optional_slots: [chapter_number]
+    background_slot: animated_video
+  we_learn:
+    required_slots: [section_label, source_questions]
+    max_source_questions: 3
+    panel_position: top-right
+  lesson_highlights:
+    required_slots: [section_label, source_topics]
+    max_source_topics: 7
+    panel_position: top-right
+  concept_card:
+    required_slots: [source_heading, current_source_idea]
+    max_body_lines: 3
+    panel_position: top-right
+  recall:
+    required_slots: [source_heading, current_source_item]
+    presentation: one-source-item-at-a-time
+  glossary:
+    required_slots: [source_term, source_definition]
+    presentation: one-source-entry-at-a-time
+  assessment:
+    required_slots: [source_heading, source_prompt]
+    optional_slots: [source_options, answer_reveal, source_illustration]
+    presentation: source-faithful-stable-reading-screen
+  subtitle_lane:
+    required_slots: [spoken_words, active_word_index]
+    max_lines: 2
+    timing_source: measured-narration-word-alignment
+
+override_policy:
+  chapter_css_overrides: false
+  chapter_layout_overrides: false
+  chapter_palette_overrides: false
+  subject_content_renderer_allowed: true
+  rule: "Subject adapters may populate content slots but may not move, resize, recolor, or replace locked UI components."
 
 opening_sequence:
   - animated chapter image or video with source lesson title

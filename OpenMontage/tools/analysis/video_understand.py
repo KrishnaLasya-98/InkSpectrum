@@ -36,6 +36,9 @@ SCENE_CATEGORIES = [
 
 
 class VideoUnderstand(BaseTool):
+    # Reusing the same evaluator across a chapter avoids reloading multi-GB
+    # model weights for every generated scene.
+    _model_cache: dict[str, tuple[Any, Any, str]] = {}
     name = "video_understand"
     version = "0.1.0"
     tier = ToolTier.ANALYZE
@@ -393,6 +396,10 @@ class VideoUnderstand(BaseTool):
 
     def _load_model(self, model_name: str):
         """Load the requested vision-language model and processor."""
+        cached = self._model_cache.get(model_name)
+        if cached is not None:
+            return cached
+
         import torch
         from transformers import (
             CLIPProcessor,
@@ -411,7 +418,9 @@ class VideoUnderstand(BaseTool):
             model_id = "openai/clip-vit-base-patch32"
             processor = CLIPProcessor.from_pretrained(model_id)
             model = CLIPModel.from_pretrained(model_id).to(device)
-            return model, processor, device
+            loaded = (model, processor, device)
+            self._model_cache[model_name] = loaded
+            return loaded
 
         if model_name == "blip2":
             model_id = "Salesforce/blip2-opt-2.7b"
@@ -419,7 +428,9 @@ class VideoUnderstand(BaseTool):
             model = Blip2ForConditionalGeneration.from_pretrained(
                 model_id, torch_dtype=torch.float16 if device == "cuda" else torch.float32
             ).to(device)
-            return model, processor, device
+            loaded = (model, processor, device)
+            self._model_cache[model_name] = loaded
+            return loaded
 
         if model_name == "llava":
             model_id = "llava-hf/llava-1.5-7b-hf"
@@ -427,7 +438,9 @@ class VideoUnderstand(BaseTool):
             model = AutoModelForCausalLM.from_pretrained(
                 model_id, torch_dtype=torch.float16 if device == "cuda" else torch.float32
             ).to(device)
-            return model, processor, device
+            loaded = (model, processor, device)
+            self._model_cache[model_name] = loaded
+            return loaded
 
         raise ValueError(f"Unknown model: {model_name}")
 

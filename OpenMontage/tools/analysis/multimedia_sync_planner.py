@@ -47,7 +47,16 @@ def build_sync_plan(
         elif abs(drift or 0.0) <= sync_tolerance_seconds:
             visual_policy = "as_is"
         elif clip_duration < audio_duration:
-            visual_policy = "loop_or_hold_last_frame"
+            if (clip or {}).get("render_mode") in {"remotion", "hyperframes"}:
+                visual_policy = "hold_stable_teaching_screen"
+            else:
+                visual_policy = "regenerate_motion_coverage"
+                issues.append({
+                    "section_id": section_id,
+                    "severity": "critical",
+                    "code": "insufficient_motion_coverage",
+                    "missing_seconds": round(audio_duration - clip_duration, 3),
+                })
         else:
             visual_policy = "trim_to_audio"
 

@@ -348,12 +348,23 @@ def _layer_content(
         for fc in failed_clips[:3]:
             issues.append(f"Clip failed: {fc['section_id']} ({fc.get('error','')[:60]})")
 
+    unverified_generated = [
+        clip for clip in clip_manifest
+        if clip.get("render_mode") == "video_gen"
+        and (clip.get("qa_report") or {}).get("status") != "pass"
+    ]
+    for clip in unverified_generated[:5]:
+        issues.append(
+            f"Generated clip lacks passing semantic/motion QA: {clip.get('section_id', 'unknown')}"
+        )
+
     return {
         "section_count": len(sections),
         "narration_segment_count": len(segments),
         "render_mode_distribution": render_mode_counts,
         "narration_wpm_stats": wpm_stats,
         "failed_clip_count": len(failed_clips),
+        "unverified_generated_clip_count": len(unverified_generated),
         "issues": issues,
     }
 
@@ -604,6 +615,7 @@ class FinalStageDirector(BaseTool):
             "evs_alignment":       {"type": "object", "default": {}},
             "scenes":              {"type": "array",  "default": []},
             "title_offset_seconds": {"type": "number", "default": 0.0},
+            "render_runtime":       {"type": "string", "default": "hyperframes"},
             "output_dir":          {"type": "string"},
             "dry_run":             {"type": "boolean", "default": False},
         },
@@ -636,6 +648,7 @@ class FinalStageDirector(BaseTool):
         evs_alignment = inputs.get("evs_alignment", {})
         scenes        = inputs.get("scenes", edu_plan.get("sections", []))
         title_offset  = float(inputs.get("title_offset_seconds", 0.0))
+        render_runtime = str(inputs.get("render_runtime", "hyperframes"))
         dry_run       = inputs.get("dry_run", False)
         start         = time.monotonic()
 
@@ -649,13 +662,19 @@ class FinalStageDirector(BaseTool):
         arts_dir.mkdir(parents=True, exist_ok=True)
 
         if dry_run:
-            review = {"version": "1.0", "status": "pass", "checks": {},
-                      "issues_found": [], "recommended_action": "present_to_user"}
+            review = {
+                "version": "1.0",
+                "status": "not_evaluated",
+                "checks": {},
+                "issues_found": [],
+                "recommended_action": "render_then_evaluate",
+            }
             return ToolResult(
                 success=True,
                 data={"final_review": review, "agent_tour_path": "",
-                      "export_path": str(exports_dir), "all_passed": True},
-                artifacts=["final_review", "publish_log"],
+                      "export_path": "", "all_passed": False,
+                      "status": "not_evaluated", "action": "render_then_evaluate"},
+                artifacts=["final_review"],
                 cost_usd=0.0,
             )
 
@@ -701,13 +720,19 @@ class FinalStageDirector(BaseTool):
         for r in qa_checks.values():
             all_issues.extend(r.get("issues", []))
 
-        critical = (
+        required_gate_failed = (
             not tech.get("valid_container")
             or not tech.get("has_audio")
+            or not sub.get("subtitles_present")
+            or vis.get("black_frames_detected", False)
+            or vis.get("frames_sampled", 0) < 4
+            or aud.get("unexpected_silence", False)
+            or content.get("failed_clip_count", 0) > 0
+            or content.get("unverified_generated_clip_count", 0) > 0
         )
         has_warnings = len(all_issues) > 0
 
-        if critical:
+        if required_gate_failed:
             status = "fail"
             action = "re_render"
         elif not qa_passed:
@@ -732,9 +757,9 @@ class FinalStageDirector(BaseTool):
                 "audio_spotcheck":    aud,
                 "subtitle_check":     sub,
                 "promise_preservation": {
-                    "delivery_promise_honored": not critical,
+                    "delivery_promise_honored": not required_gate_failed,
                     "renderer_family_used":    "edustream-pro",
-                    "render_runtime_used":     "remotion",
+                    "render_runtime_used":     render_runtime,
                     "runtime_swap_detected":   False,
                     "runtime_swap_check":      "ok — runtime not swapped",
                     "motion_ratio_actual":     0.0,
@@ -765,46 +790,53 @@ class FinalStageDirector(BaseTool):
         )
 
         # ── Export bundle ─────────────────────────────────────────────────────
-        print("  [final] Building export bundle...")
-        from tools.publishers.export_bundle import ExportBundle  # noqa: PLC0415
-        chapters_for_export = [
-            {
-                "start_seconds": t.get("start_seconds", 0),
-                "title": next(
-                    (s.get("title", t["section_id"])
-                     for s in edu_plan.get("sections", [])
-                     if s["section_id"] == t["section_id"]),
-                    t["section_id"],
+        # A failed or revision-required file is a QA artifact, not a publishable
+        # deliverable. Keep it in renders and refuse to package it as final.
+        export_path = ""
+        if status == "pass":
+            print("  [final] Building export bundle...")
+            from tools.publishers.export_bundle import ExportBundle  # noqa: PLC0415
+            chapters_for_export = [
+                {
+                    "start_seconds": t.get("start_seconds", 0),
+                    "title": next(
+                        (s.get("title", t["section_id"])
+                         for s in edu_plan.get("sections", [])
+                         if s["section_id"] == t["section_id"]),
+                        t["section_id"],
+                    ),
+                }
+                for t in evs_alignment.get("timeline", [])
+            ]
+            eb_inputs: dict[str, Any] = {
+                "video_path":     str(video_path),
+                "title":          f"{subject.upper()} — {chapter_title}",
+                "project_name":   f"edustream-{subject}",
+                "export_dir":     str(exports_dir),
+                "description":    (
+                    f"Class 1 {subject.upper()} — {chapter_title}. "
+                    "Automated educational video for primary school students."
                 ),
+                "tags":       ["Class1", "EduStream", subject.upper(), chapter_title],
+                "chapters":   chapters_for_export,
+                "platform":   "local",
+                "visibility": "private",
             }
-            for t in evs_alignment.get("timeline", [])
-        ]
-        eb_inputs: dict[str, Any] = {
-            "video_path":     str(video_path),
-            "title":          f"{subject.upper()} — {chapter_title}",
-            "project_name":   f"edustream-{subject}",
-            "export_dir":     str(exports_dir),
-            "description":    (
-                f"Class 1 {subject.upper()} — {chapter_title}. "
-                "Automated educational video for primary school students."
-            ),
-            "tags":       ["Class1", "EduStream", subject.upper(), chapter_title],
-            "chapters":   chapters_for_export,
-            "platform":   "local",
-            "visibility": "private",
-        }
-        if srt_path and srt_path.exists():
-            eb_inputs["subtitles_path"] = str(srt_path)
+            if srt_path and srt_path.exists():
+                eb_inputs["subtitles_path"] = str(srt_path)
 
         # Include frame snapshots in the bundle
-        snapshot_dir_dest = exports_dir / "snapshots"
-        if snapshots_dir.exists():
-            if snapshot_dir_dest.exists():
-                shutil.rmtree(snapshot_dir_dest)
-            shutil.copytree(str(snapshots_dir), str(snapshot_dir_dest))
+            snapshot_dir_dest = exports_dir / "snapshots"
+            if snapshots_dir.exists():
+                if snapshot_dir_dest.exists():
+                    shutil.rmtree(snapshot_dir_dest)
+                shutil.copytree(str(snapshots_dir), str(snapshot_dir_dest))
 
-        eb_res = ExportBundle().execute(eb_inputs)
-        export_path = eb_res.data.get("export_path", str(exports_dir)) if eb_res.success else str(exports_dir)
+            eb_res = ExportBundle().execute(eb_inputs)
+            export_path = (
+                eb_res.data.get("export_path", str(exports_dir))
+                if eb_res.success else ""
+            )
 
         # ── Agent tour report ─────────────────────────────────────────────────
         print("  [final] Writing agent tour report...")

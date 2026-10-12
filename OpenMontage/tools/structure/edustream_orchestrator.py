@@ -73,6 +73,8 @@ class EduStreamOrchestrator(BaseTool):
         "properties": {
             "educational_plan": {"type": "object"},
             "subject":          {"type": "string", "default": "evs"},
+            "target_audience":  {"type": "string"},
+            "delivery_profile": {"type": "object"},
             "dry_run":          {"type": "boolean", "default": False},
             "seed":             {"type": "integer"},
         },
@@ -89,9 +91,13 @@ class EduStreamOrchestrator(BaseTool):
     # ── working agents ────────────────────────────────────────────────────────
 
     def _solution_agent(
-        self, section: dict[str, Any], feedback: str = ""
+        self,
+        section: dict[str, Any],
+        feedback: str = "",
+        delivery_profile: dict[str, Any] | None = None,
     ) -> dict[str, Any]:
         """Enrich section with step-by-step reasoning trace."""
+        del delivery_profile
         steps: list[str] = []
         for concept in section.get("key_concepts", []):
             steps.append(f"Introduce '{concept}' with a concrete real-world example.")
@@ -105,9 +111,13 @@ class EduStreamOrchestrator(BaseTool):
         return {**section, "solution_steps": steps}
 
     def _illustration_agent(
-        self, section: dict[str, Any], feedback: str = ""
+        self,
+        section: dict[str, Any],
+        feedback: str = "",
+        delivery_profile: dict[str, Any] | None = None,
     ) -> dict[str, Any]:
         """Generate Manim animation plan or visual spec for the section."""
+        del delivery_profile
         rm = section.get("render_mode", "remotion")
         if rm != "manim":
             return {**section, "animation_plan": None, "manim_code": None}
@@ -164,35 +174,50 @@ class EduStreamOrchestrator(BaseTool):
         return {**section, "animation_plan": animation_plan, "manim_code": manim_code}
 
     def _narration_agent(
-        self, section: dict[str, Any], feedback: str = ""
+        self,
+        section: dict[str, Any],
+        feedback: str = "",
+        delivery_profile: dict[str, Any] | None = None,
     ) -> dict[str, Any]:
-        """Validate and normalise narration script for 120 WPM children delivery."""
+        """Preserve narration and reserve grade-appropriate delivery time."""
         script = section.get("narration_script", "")
-        duration = section.get("duration_seconds", 30)
-
-        # Target word count = duration × 2 (120 WPM)
-        target_words = int(duration * 2)
+        duration = float(section.get("duration_seconds", 30))
         words = script.split()
-
-        if len(words) > target_words + 10:
-            # Trim: keep first target_words words, end at sentence boundary
-            trimmed = " ".join(words[:target_words])
-            last_period = max(trimmed.rfind("."), trimmed.rfind("?"), trimmed.rfind("!"))
-            if last_period > 0:
-                trimmed = trimmed[:last_period + 1]
-            script = trimmed
+        delivery = dict(delivery_profile or {})
+        wpm_min = max(1.0, float(delivery.get("wpm_min", 105)))
+        wpm_max = max(wpm_min, float(delivery.get("wpm_max", 125)))
+        wpm_target = (wpm_min + wpm_max) / 2.0
+        punctuation_pause = (
+            len(re.findall(r"[.!?]", script)) * 0.4
+            + len(re.findall(r"[,;:]", script)) * 0.18
+        )
+        required_duration = len(words) / max(wpm_target / 60.0, 0.01)
+        required_duration += punctuation_pause
+        duration = max(duration, round(required_duration, 2))
 
         if feedback:
             # feedback is advisory; append as a comment for the agent
             section = {**section, "_narration_feedback": feedback}
 
-        return {**section, "narration_script": script,
-                "narration_word_count": len(script.split()),
-                "narration_wpm_estimate": round(len(script.split()) / max(duration / 60, 0.01))}
+        return {
+            **section,
+            "narration_script": script,
+            "duration_seconds": duration,
+            "narration_word_count": len(words),
+            "narration_wpm_target": round(wpm_target),
+            "narration_wpm_estimate": round(
+                len(words) / max(duration / 60, 0.01)
+            ),
+            "narration_source_preserved": True,
+        }
 
     # ── critique layers ───────────────────────────────────────────────────────
 
-    def _semantic_critique(self, section: dict[str, Any]) -> tuple[bool, list[str]]:
+    def _semantic_critique(
+        self,
+        section: dict[str, Any],
+        delivery_profile: dict[str, Any] | None = None,
+    ) -> tuple[bool, list[str]]:
         """LLM-as-judge for pedagogical correctness. Returns (pass, issues)."""
         # In production this calls Claude. Here we run the heuristic version
         # so the pipeline works without API keys during development.
@@ -200,10 +225,14 @@ class EduStreamOrchestrator(BaseTool):
         script = section.get("narration_script", "")
 
         # Sentence length check
+        sentence_words_target = int(
+            (delivery_profile or {}).get("sentence_words_target", 12)
+        )
+        sentence_word_limit = max(sentence_words_target + 2, sentence_words_target)
         sentences = re.split(r"[.!?]", script)
         for s in sentences:
             wc = len(s.split())
-            if wc > 14:
+            if wc > sentence_word_limit:
                 issues.append(f"Sentence too long ({wc} words): '{s.strip()[:60]}'")
 
         # Abstract jargon without concrete example
@@ -249,14 +278,20 @@ class EduStreamOrchestrator(BaseTool):
     # ── critique-revision loop ────────────────────────────────────────────────
 
     def _critique_loop(
-        self, section: dict[str, Any], agent_fn: Any, tag: str
+        self,
+        section: dict[str, Any],
+        agent_fn: Any,
+        tag: str,
+        delivery_profile: dict[str, Any] | None = None,
     ) -> tuple[dict[str, Any], list[dict[str, Any]]]:
         """Run agent → 3-tier critique → revise up to _MAX_RETRIES times."""
         log: list[dict[str, Any]] = []
         feedback = ""
         for attempt in range(1, _MAX_RETRIES + 1):
-            section = agent_fn(section, feedback)
-            sem_ok,  sem_issues  = self._semantic_critique(section)
+            section = agent_fn(section, feedback, delivery_profile)
+            sem_ok,  sem_issues  = self._semantic_critique(
+                section, delivery_profile
+            )
             tool_ok, tool_issues = self._tool_critique(section)
             rule_ok, rule_issues = self._rule_critique(section)
             all_ok = sem_ok and tool_ok and rule_ok
@@ -342,6 +377,7 @@ class Scene_{safe}(ChildrensTheme):
     def execute(self, inputs: dict[str, Any]) -> ToolResult:
         plan    = inputs.get("educational_plan", {})
         subject = inputs.get("subject", "evs")
+        delivery_profile = dict(inputs.get("delivery_profile") or {})
         dry     = inputs.get("dry_run", False)
         seed    = inputs.get("seed")
         start   = time.monotonic()
@@ -358,13 +394,25 @@ class Scene_{safe}(ChildrensTheme):
 
             if dry:
                 # In dry-run skip LLM agents; just validate structure
-                sec, sol_log = self._critique_loop(sec, self._solution_agent,   "solution")
-                sec, ill_log = self._critique_loop(sec, self._illustration_agent, "illustration")
-                sec, nar_log = self._critique_loop(sec, self._narration_agent,  "narration")
+                sec, sol_log = self._critique_loop(
+                    sec, self._solution_agent, "solution", delivery_profile
+                )
+                sec, ill_log = self._critique_loop(
+                    sec, self._illustration_agent, "illustration", delivery_profile
+                )
+                sec, nar_log = self._critique_loop(
+                    sec, self._narration_agent, "narration", delivery_profile
+                )
             else:
-                sec, sol_log = self._critique_loop(sec, self._solution_agent,   "solution")
-                sec, ill_log = self._critique_loop(sec, self._illustration_agent, "illustration")
-                sec, nar_log = self._critique_loop(sec, self._narration_agent,  "narration")
+                sec, sol_log = self._critique_loop(
+                    sec, self._solution_agent, "solution", delivery_profile
+                )
+                sec, ill_log = self._critique_loop(
+                    sec, self._illustration_agent, "illustration", delivery_profile
+                )
+                sec, nar_log = self._critique_loop(
+                    sec, self._narration_agent, "narration", delivery_profile
+                )
 
             enriched.append(sec)
             all_logs.extend(sol_log + ill_log + nar_log)

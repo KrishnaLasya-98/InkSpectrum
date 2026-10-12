@@ -1,0 +1,6 @@
+# Optional local forced alignment profile; existing environment reused on 2026-10-06.
+# Model: facebook/wav2vec2-base-960h, cached under .cache/alignment (public model).
+torch>=2.6
+transformers>=4.46
+numpy>=1.26
+soundfile>=0.12
