@@ -1,0 +1,3 @@
+# Repository-root bootstrap for the complete educational production runtime.
+# The canonical dependency declarations live beside the OpenMontage source.
+-r OpenMontage/requirements-educational.txt

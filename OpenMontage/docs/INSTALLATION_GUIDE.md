@@ -24,6 +24,7 @@ must never appear in this guide or a requirements file.
 
 | Profile | Manifest | Purpose |
 | --- | --- | --- |
+| Repository-root bootstrap | `../requirements.txt` | Installs the complete educational profile from the repository root for generic Git, VM and PaaS workflows |
 | Complete educational production | `requirements-educational.txt` | Orchestration, scanned/digital PDF extraction, OCR, narration fallback, Backlot and media processing |
 | Core cloud production | `requirements-educational-core.txt` | Lightweight API-driven pipeline without the local OCR/model stack |
 | Conda production environment | `environment.yml` | Python 3.11, FFmpeg, Node.js, libsndfile and the complete educational pip profile |
@@ -204,6 +205,7 @@ replace `planned` with the resolved version and verification result.
 | 2026-09-30 | Record Java 25.0.4.1, Node 24.19.0 and FFmpeg 9.0.1 | Current workstation | Document validated system-tool snapshot | System tools | Existing installations verified with version commands |
 | 2026-09-30 | Declare Railway Linux container runtime: Node 22, Python 3, Java 17, FFmpeg, Chromium, fonts and libsndfile | Root `Dockerfile` | Persistent Backlot and educational queue-worker deployment | `Dockerfile`, `.dockerignore`, `.railway/railway.ts` | Declared only; local unit tests validate server/worker behavior. A Railway image build and dry-run deployment are still required before portability is confirmed. |
 | 2026-09-30 | Install `railway@3.12.0` | Repository root `node_modules` | Evaluate and validate Railway Infrastructure as Code | Root `package.json`, `package-lock.json` | Installed 6 packages; npm audit reported 0 vulnerabilities. `esbuild@0.28.2` postinstall remained blocked by npm allow-scripts policy; IaC plan verification is recorded separately. |
+| 2026-10-12 | Add repository-root Python requirements bootstrap | Repository root | Ensure Git, VM and PaaS installs resolve the same complete educational dependency profile | Root `requirements.txt` delegates to `OpenMontage/requirements-educational.txt` | Manifest-only change; dependency graph validation and import smoke checks required before deployment. |
 
 | 2026-10-06 | Download public `facebook/wav2vec2-base-960h` alignment weights; reuse installed packages | Existing Python 3.14; model cache `.cache/alignment` on D: | Replace guessed word timestamps with local CTC forced alignment after ElevenLabs alignment returned HTTP 401 | `requirements-alignment-ctc.txt` | Model downloaded; no package installation or upgrade. Chapter 2 `align_ctc_v5.py` completed all 15 audio segments, including spelled-number normalization. Three low-confidence word endings remain explicitly flagged in `artifacts/alignment-ctc-v5/audit-all.json`; successful alignment alone is not semantic or encoded-video QA. |
 
