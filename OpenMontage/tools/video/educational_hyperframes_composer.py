@@ -63,6 +63,7 @@ _REQUIRED_COMPONENTS = {
     "subtitle_lane",
 }
 _STABLE_TYPES = {
+    "concept_card",
     "recall",
     "glossary",
     "qa_item",
@@ -1305,6 +1306,7 @@ class EducationalHyperFramesComposer(BaseTool):
                     "path": target.relative_to(workspace).as_posix(),
                     "sha256": _sha256_file(target),
                     "authored_caption": str(figure.get("authored_caption") or "Original textbook figure").strip(),
+                    "display_kind": "source_icon" if figure.get("display_kind") == "source_icon" else "figure",
                     "start_seconds": round(start + offset, 3),
                     "end_seconds": round(start + offset + figure_duration, 3),
                 })
@@ -1491,7 +1493,8 @@ A warm, source-faithful classroom film for young learners. Full-frame motion car
                 else ""
             )
             figures_html = "".join(
-                f'<figure id="source-figure-{sid}-{figure_index}" class="source-figure">'
+                f'<figure id="source-figure-{sid}-{figure_index}" class="source-figure'
+                f'{" source-icon" if figure.get("display_kind") == "source_icon" else ""}">'
                 f'<img src="{html.escape(figure["path"], quote=True)}" '
                 f'alt="{html.escape(figure["authored_caption"], quote=True)}" />'
                 f'<figcaption class="source-figure-caption">'
@@ -1522,7 +1525,7 @@ A warm, source-faithful classroom film for young learners. Full-frame motion car
                 fragments = plan_sections.get(section["section_id"], {}).get("source_fragments") or []
                 reading_lines = []
                 for fragment in fragments:
-                    if fragment.get("block_type") == "section_heading":
+                    if fragment.get("block_type") in {"section_heading", "figure"}:
                         continue
                     value = str(fragment.get("source_text") or "").strip()
                     if not value:
@@ -1924,6 +1927,9 @@ A warm, source-faithful classroom film for young learners. Full-frame motion car
     .source-figure {{ position:absolute; left:62px; top:140px; z-index:2; width:1040px; height:680px; margin:0; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:8px; padding:20px; border-radius:22px; background:{palette['cream']}; box-shadow:0 20px 55px rgba(0,0,0,.22); opacity:0; }}
     .source-figure img {{ display:block; width:100%; height:calc(100% - 46px); object-fit:contain; }}
     .source-figure-caption {{ flex:0 0 auto; max-width:100%; height:38px; overflow:hidden; color:#332b20; font-family:Nunito,sans-serif; font-size:24px; font-weight:700; line-height:38px; text-align:center; white-space:nowrap; }}
+    .source-figure.source-icon {{ left:120px; top:152px; width:156px; height:156px; padding:4px; border-radius:0; background:transparent; box-shadow:none; gap:0; }}
+    .source-figure.source-icon img {{ width:100%; height:100%; object-fit:contain; }}
+    .source-figure.source-icon .source-figure-caption {{ display:none; }}
     .panel-body.text-medium {{ font-size:29px; }}
     .panel-body.text-long {{ font-size:26px; line-height:1.28; }}
     .stable-teaching .panel-body {{ font-size:39px; line-height:1.32; }}

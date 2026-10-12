@@ -55,6 +55,10 @@ def parse_source_markdown(path: Path) -> dict[str, Any]:
         line = raw_line.strip()
         if not line:
             continue
+        # Source-contract page markers are metadata for page mapping, not
+        # textbook lines to display or narrate.
+        if line.startswith("<!--") and line.endswith("-->"):
+            continue
 
         image_match = _IMAGE_RE.match(line)
         if image_match:

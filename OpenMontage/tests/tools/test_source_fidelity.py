@@ -39,3 +39,12 @@ def test_title_cards_are_graphics_only_and_content_cards_have_three_lines_max(tm
 
     assert title_cards[0]["media_policy"] == "graphics_only"
     assert all(card["line_count"] <= 3 for card in content_cards)
+
+
+def test_page_markers_are_not_teaching_text(tmp_path: Path):
+    source = tmp_path / "source.md"
+    source.write_text("<!-- page: 2 -->\n# Formation\n\nThe Constitution was drafted.\n", encoding="utf-8")
+    manifest = parse_source_markdown(source)
+    assert [item["source_text"] for item in manifest["items"]] == [
+        "Formation", "The Constitution was drafted.",
+    ]

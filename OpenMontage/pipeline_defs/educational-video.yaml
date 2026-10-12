@@ -20,7 +20,7 @@ template_contract:
   presentation_contract: source-faithful-book-v1
   path: styles/hyperframes-educational-v1.yaml
   sha256: 75eed8d0e813ef1b6523d247b6b6c49b46cc209930ebdab02a595d24627757fb
-  package_sha256: 3a2db835b642c19b4231ad00f8117101e8d9878990fb66fd075c9ce0ef8ea3f5
+  package_sha256: 1544c9a82d1d4e6f4afb90b8e9723f3480b6cacef9685c3fb3aec4ad055cca1d
   override_policy: content-slots-only
 extensions:
   custom_scripts: true
