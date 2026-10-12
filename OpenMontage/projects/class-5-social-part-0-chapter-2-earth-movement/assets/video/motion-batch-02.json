@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "scope": "Controlled replacements for rejected Chapter 2 shots",
+  "provider": "modelslab",
+  "model_id": "wan-2.2-i2v",
+  "operation": "image_to_video",
+  "shots": [
+    {
+      "shot_id": "earth-opening-clean-i2v-02",
+      "section_id": "s01-title",
+      "narration_cue": "Lesson 2: Earth Movement",
+      "reference_image": "assets/images/gpt-reference-v1/earth-opening.png",
+      "prompt": "Animate the supplied single-Earth reference frame into a continuous five-second polished child-friendly 3D shot. Preserve the exact one-Earth composition, continent silhouette, color and clear empty DARK LEFT title area. The Earth rotates gently while cloud bands move subtly and a soft sun rim brightens. Camera drifts forward smoothly without changing the framing. Do not introduce or draw ANY letters, words, numbers, subtitles, symbols, country names, logos, panels, other planets or objects. Educational title text will be authored separately."
+    },
+    {
+      "shot_id": "startup-plain-ball-i2v-02",
+      "section_id": "s03-startup",
+      "narration_cue": "Take a ball and spin it",
+      "reference_image": "assets/images/gpt-reference-v1/startup-ball.png",
+      "prompt": "Animate the supplied classroom reference frame into a continuous five-second child-friendly 3D shot. Preserve EXACTLY ONE plain blue ball with a uniform unmarked surface; it is not a globe and must never gain continents, maps, stripes, writing or symbols. The child's finger gives the ball one gentle spin, then withdraws. The ball rotates visibly in place with believable moving highlights and stable contact shadow while the camera stays smooth. Preserve the warm wooden desk and open upper-right panel space. No extra ball, no words, captions, labels, logo or watermark."
+    }
+  ]
+}

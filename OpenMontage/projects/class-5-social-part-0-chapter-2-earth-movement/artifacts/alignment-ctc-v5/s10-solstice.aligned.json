@@ -1,0 +1,855 @@
+{
+  "section_id": "s10-solstice",
+  "text": "What is Solstice and When Does It Occur? A solstice is a day, when the sun shines vertically over a Tropic (both cancer and Capricorn) in the afternoon and the day is the longest in that hemisphere. On the twenty-second of December, the rays of the sun fall directly over the Tropic of Capricorn. This is the longest day in Southern Hemisphere (summer season), while in the Northern Hemisphere, it is the shortest day (winter season). This is called 'Winter Solstice. On the twenty-first of June, sunlight falls vertically over the Tropic of Cancer. This is the longest day in Northern Hemisphere and hence it is called 'Summer Solstice', while in the Southern Hemisphere, it is the shortest day.",
+  "start_ms": 241234,
+  "end_ms": 292292,
+  "words": [
+    {
+      "word": "What",
+      "start_ms": 241294,
+      "end_ms": 241434,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0007
+    },
+    {
+      "word": "is",
+      "start_ms": 241554,
+      "end_ms": 241594,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "Solstice",
+      "start_ms": 241714,
+      "end_ms": 242294,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.2238
+    },
+    {
+      "word": "and",
+      "start_ms": 242735,
+      "end_ms": 242815,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "When",
+      "start_ms": 242935,
+      "end_ms": 243095,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0272
+    },
+    {
+      "word": "Does",
+      "start_ms": 243155,
+      "end_ms": 243315,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0119
+    },
+    {
+      "word": "It",
+      "start_ms": 243375,
+      "end_ms": 243415,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0318
+    },
+    {
+      "word": "Occur?",
+      "start_ms": 243575,
+      "end_ms": 243815,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -1.5456
+    },
+    {
+      "word": "A",
+      "start_ms": 245936,
+      "end_ms": 245956,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0011
+    },
+    {
+      "word": "solstice",
+      "start_ms": 246056,
+      "end_ms": 246616,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1951
+    },
+    {
+      "word": "is",
+      "start_ms": 246796,
+      "end_ms": 246856,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0092
+    },
+    {
+      "word": "a",
+      "start_ms": 246956,
+      "end_ms": 246976,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1181
+    },
+    {
+      "word": "day,",
+      "start_ms": 247036,
+      "end_ms": 247216,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1964
+    },
+    {
+      "word": "when",
+      "start_ms": 247756,
+      "end_ms": 247876,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0007
+    },
+    {
+      "word": "the",
+      "start_ms": 247936,
+      "end_ms": 248016,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0006
+    },
+    {
+      "word": "sun",
+      "start_ms": 248096,
+      "end_ms": 248276,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0075
+    },
+    {
+      "word": "shines",
+      "start_ms": 248397,
+      "end_ms": 248737,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0874
+    },
+    {
+      "word": "vertically",
+      "start_ms": 248897,
+      "end_ms": 249457,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0722
+    },
+    {
+      "word": "over",
+      "start_ms": 249637,
+      "end_ms": 249817,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0067
+    },
+    {
+      "word": "a",
+      "start_ms": 249917,
+      "end_ms": 249937,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0017
+    },
+    {
+      "word": "Tropic",
+      "start_ms": 249997,
+      "end_ms": 250377,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0009
+    },
+    {
+      "word": "(both",
+      "start_ms": 250997,
+      "end_ms": 251198,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0175
+    },
+    {
+      "word": "cancer",
+      "start_ms": 251278,
+      "end_ms": 251718,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0681
+    },
+    {
+      "word": "and",
+      "start_ms": 251918,
+      "end_ms": 252018,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1208
+    },
+    {
+      "word": "Capricorn)",
+      "start_ms": 252098,
+      "end_ms": 252638,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.6271
+    },
+    {
+      "word": "in",
+      "start_ms": 253178,
+      "end_ms": 253238,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "the",
+      "start_ms": 253298,
+      "end_ms": 253398,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0376
+    },
+    {
+      "word": "afternoon",
+      "start_ms": 253518,
+      "end_ms": 253958,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0546
+    },
+    {
+      "word": "and",
+      "start_ms": 254639,
+      "end_ms": 254719,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0012
+    },
+    {
+      "word": "the",
+      "start_ms": 254759,
+      "end_ms": 254859,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0305
+    },
+    {
+      "word": "day",
+      "start_ms": 254919,
+      "end_ms": 255139,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0127
+    },
+    {
+      "word": "is",
+      "start_ms": 255299,
+      "end_ms": 255379,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.013
+    },
+    {
+      "word": "the",
+      "start_ms": 255459,
+      "end_ms": 255539,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "longest",
+      "start_ms": 255699,
+      "end_ms": 256159,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0162
+    },
+    {
+      "word": "in",
+      "start_ms": 256299,
+      "end_ms": 256339,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "that",
+      "start_ms": 256419,
+      "end_ms": 256559,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0004
+    },
+    {
+      "word": "hemisphere.",
+      "start_ms": 256619,
+      "end_ms": 257160,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0242
+    },
+    {
+      "word": "On",
+      "start_ms": 258060,
+      "end_ms": 258100,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "the",
+      "start_ms": 258160,
+      "end_ms": 258240,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "twenty-second",
+      "start_ms": 258300,
+      "end_ms": 259000,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0416
+    },
+    {
+      "word": "of",
+      "start_ms": 259080,
+      "end_ms": 259120,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "December,",
+      "start_ms": 259200,
+      "end_ms": 259680,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0044
+    },
+    {
+      "word": "the",
+      "start_ms": 260261,
+      "end_ms": 260361,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0311
+    },
+    {
+      "word": "rays",
+      "start_ms": 260421,
+      "end_ms": 260661,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0232
+    },
+    {
+      "word": "of",
+      "start_ms": 260741,
+      "end_ms": 260801,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0006
+    },
+    {
+      "word": "the",
+      "start_ms": 260881,
+      "end_ms": 260961,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "sun",
+      "start_ms": 261041,
+      "end_ms": 261241,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0074
+    },
+    {
+      "word": "fall",
+      "start_ms": 261441,
+      "end_ms": 261661,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "directly",
+      "start_ms": 261761,
+      "end_ms": 262321,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0122
+    },
+    {
+      "word": "over",
+      "start_ms": 262461,
+      "end_ms": 262602,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "the",
+      "start_ms": 262662,
+      "end_ms": 262742,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.008
+    },
+    {
+      "word": "Tropic",
+      "start_ms": 262802,
+      "end_ms": 263102,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0166
+    },
+    {
+      "word": "of",
+      "start_ms": 263202,
+      "end_ms": 263242,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "Capricorn.",
+      "start_ms": 263342,
+      "end_ms": 263882,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.6538
+    },
+    {
+      "word": "This",
+      "start_ms": 264682,
+      "end_ms": 264862,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0005
+    },
+    {
+      "word": "is",
+      "start_ms": 265082,
+      "end_ms": 265142,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "the",
+      "start_ms": 265222,
+      "end_ms": 265322,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0356
+    },
+    {
+      "word": "longest",
+      "start_ms": 265483,
+      "end_ms": 265903,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0614
+    },
+    {
+      "word": "day",
+      "start_ms": 265963,
+      "end_ms": 266143,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0058
+    },
+    {
+      "word": "in",
+      "start_ms": 266283,
+      "end_ms": 266323,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "Southern",
+      "start_ms": 266463,
+      "end_ms": 266803,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0404
+    },
+    {
+      "word": "Hemisphere",
+      "start_ms": 266843,
+      "end_ms": 267363,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0307
+    },
+    {
+      "word": "(summer",
+      "start_ms": 267843,
+      "end_ms": 268103,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0286
+    },
+    {
+      "word": "season),",
+      "start_ms": 268183,
+      "end_ms": 268524,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0435
+    },
+    {
+      "word": "while",
+      "start_ms": 269024,
+      "end_ms": 269204,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0949
+    },
+    {
+      "word": "in",
+      "start_ms": 269264,
+      "end_ms": 269324,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0113
+    },
+    {
+      "word": "the",
+      "start_ms": 269364,
+      "end_ms": 269444,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0004
+    },
+    {
+      "word": "Northern",
+      "start_ms": 269524,
+      "end_ms": 269864,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1013
+    },
+    {
+      "word": "Hemisphere,",
+      "start_ms": 269904,
+      "end_ms": 270424,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0136
+    },
+    {
+      "word": "it",
+      "start_ms": 270864,
+      "end_ms": 270904,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "is",
+      "start_ms": 270984,
+      "end_ms": 271044,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0948
+    },
+    {
+      "word": "the",
+      "start_ms": 271125,
+      "end_ms": 271205,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.2132
+    },
+    {
+      "word": "shortest",
+      "start_ms": 271285,
+      "end_ms": 271705,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.048
+    },
+    {
+      "word": "day",
+      "start_ms": 271765,
+      "end_ms": 271925,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.007
+    },
+    {
+      "word": "(winter",
+      "start_ms": 272425,
+      "end_ms": 272725,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0799
+    },
+    {
+      "word": "season).",
+      "start_ms": 272785,
+      "end_ms": 273125,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0006
+    },
+    {
+      "word": "This",
+      "start_ms": 273785,
+      "end_ms": 273966,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "is",
+      "start_ms": 274226,
+      "end_ms": 274286,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0037
+    },
+    {
+      "word": "called",
+      "start_ms": 274366,
+      "end_ms": 274646,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0025
+    },
+    {
+      "word": "'Winter",
+      "start_ms": 274906,
+      "end_ms": 275226,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -2.4976
+    },
+    {
+      "word": "Solstice.",
+      "start_ms": 275306,
+      "end_ms": 275866,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.2501
+    },
+    {
+      "word": "On",
+      "start_ms": 276706,
+      "end_ms": 276746,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "the",
+      "start_ms": 276807,
+      "end_ms": 276887,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0279
+    },
+    {
+      "word": "twenty-first",
+      "start_ms": 276927,
+      "end_ms": 277567,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0544
+    },
+    {
+      "word": "of",
+      "start_ms": 277647,
+      "end_ms": 277707,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0023
+    },
+    {
+      "word": "June,",
+      "start_ms": 277807,
+      "end_ms": 278087,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0069
+    },
+    {
+      "word": "sunlight",
+      "start_ms": 278727,
+      "end_ms": 279167,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.005
+    },
+    {
+      "word": "falls",
+      "start_ms": 279247,
+      "end_ms": 279527,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0027
+    },
+    {
+      "word": "vertically",
+      "start_ms": 279648,
+      "end_ms": 280228,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0275
+    },
+    {
+      "word": "over",
+      "start_ms": 280368,
+      "end_ms": 280508,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0005
+    },
+    {
+      "word": "the",
+      "start_ms": 280568,
+      "end_ms": 280648,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0617
+    },
+    {
+      "word": "Tropic",
+      "start_ms": 280708,
+      "end_ms": 281008,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0107
+    },
+    {
+      "word": "of",
+      "start_ms": 281108,
+      "end_ms": 281148,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "Cancer.",
+      "start_ms": 281248,
+      "end_ms": 281708,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0825
+    },
+    {
+      "word": "This",
+      "start_ms": 282368,
+      "end_ms": 282549,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "is",
+      "start_ms": 282769,
+      "end_ms": 282829,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0039
+    },
+    {
+      "word": "the",
+      "start_ms": 282909,
+      "end_ms": 282989,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "longest",
+      "start_ms": 283169,
+      "end_ms": 283569,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "day",
+      "start_ms": 283649,
+      "end_ms": 283829,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0609
+    },
+    {
+      "word": "in",
+      "start_ms": 283969,
+      "end_ms": 284029,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "Northern",
+      "start_ms": 284149,
+      "end_ms": 284509,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0631
+    },
+    {
+      "word": "Hemisphere",
+      "start_ms": 284549,
+      "end_ms": 285069,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0648
+    },
+    {
+      "word": "and",
+      "start_ms": 285570,
+      "end_ms": 285650,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "hence",
+      "start_ms": 285750,
+      "end_ms": 286030,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "it",
+      "start_ms": 286490,
+      "end_ms": 286530,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "is",
+      "start_ms": 286630,
+      "end_ms": 286690,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "called",
+      "start_ms": 286770,
+      "end_ms": 287030,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.033
+    },
+    {
+      "word": "'Summer",
+      "start_ms": 287290,
+      "end_ms": 287590,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -2.4216
+    },
+    {
+      "word": "Solstice',",
+      "start_ms": 287650,
+      "end_ms": 288211,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -1.3175
+    },
+    {
+      "word": "while",
+      "start_ms": 288731,
+      "end_ms": 288911,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0063
+    },
+    {
+      "word": "in",
+      "start_ms": 288951,
+      "end_ms": 289011,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0327
+    },
+    {
+      "word": "the",
+      "start_ms": 289051,
+      "end_ms": 289131,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0947
+    },
+    {
+      "word": "Southern",
+      "start_ms": 289211,
+      "end_ms": 289531,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.01
+    },
+    {
+      "word": "Hemisphere,",
+      "start_ms": 289571,
+      "end_ms": 290071,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0586
+    },
+    {
+      "word": "it",
+      "start_ms": 290471,
+      "end_ms": 290511,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "is",
+      "start_ms": 290611,
+      "end_ms": 290671,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1968
+    },
+    {
+      "word": "the",
+      "start_ms": 290731,
+      "end_ms": 290811,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "shortest",
+      "start_ms": 290911,
+      "end_ms": 291312,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0732
+    },
+    {
+      "word": "day.",
+      "start_ms": 291392,
+      "end_ms": 291552,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0063
+    }
+  ],
+  "format_spec": {
+    "font_size": 64,
+    "highlight_color": "#FF8C42",
+    "background_color": "rgba(255,253,240,0.90)",
+    "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+    "font_weight": "700",
+    "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+    "key_terms": [
+      "winter solstice. on the twenty-first of june, sunlight falls vertically over the tropic of cancer. this is the longest day in northern hemisphere and hence it is called "
+    ],
+    "words_per_page": 6
+  },
+  "source_block_type": "concept",
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

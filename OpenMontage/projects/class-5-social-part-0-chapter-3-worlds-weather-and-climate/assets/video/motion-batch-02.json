@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "shots": [
+    {
+      "shot_id": "humid-coast",
+      "section_id": "s12-humidity",
+      "prompt": "A lush green tropical coast, visibly moving warm sea waves and soft mist drifting between palm trees, droplets on broad leaves, leafy branches sway gently. Wide composed landscape, upper right free for teaching card. Polished child-friendly 3D animated film, coherent continuous object motion throughout, no captions, no labels, no logos, no watermark, not a still image."
+    },
+    {
+      "shot_id": "rainforest-canopy",
+      "section_id": "s14-rainforest-fact",
+      "prompt": "A rich tropical rainforest canopy with many broad green leaves, rain drops fall and drip from foliage while mist moves slowly through tall trees, sunlight softly filters through moving leaves. No people or text. Polished child-friendly 3D animated film, coherent continuous object motion throughout, no captions, no labels, no logos, no watermark, not a still image."
+    },
+    {
+      "shot_id": "monsoon-rain",
+      "section_id": "s16-monsoon",
+      "prompt": "An Indian tropical landscape during seasonal heavy rainfall, lush trees sway moderately, strong rain falls visibly into a stream with rippling water, a small safe rural house in the distance. No flooding or people. Polished child-friendly 3D animated film, coherent continuous object motion throughout, no captions, no labels, no logos, no watermark, not a still image."
+    },
+    {
+      "shot_id": "equatorial-rain",
+      "section_id": "s17-equatorial",
+      "prompt": "A dense equatorial forest with a winding stream, continuous falling rain and droplets on broad leaves, low mist drifts between trunks, warm overcast light. Camera glides slowly beside the stream. Polished child-friendly 3D animated film, coherent continuous object motion throughout, no captions, no labels, no logos, no watermark, not a still image."
+    },
+    {
+      "shot_id": "tundra-wind",
+      "section_id": "s19-tundra",
+      "prompt": "An open extremely cold tundra landscape with sparse low vegetation and distant snow covered ridges, wind visibly moves small frost covered grass patches and fine snow dust near ground, pale readable sky. No forests or large animals. Polished child-friendly 3D animated film, coherent continuous object motion throughout, no captions, no labels, no logos, no watermark, not a still image."
+    },
+    {
+      "shot_id": "antarctic-wind",
+      "section_id": "s20-antarctica-fact",
+      "prompt": "An uninhabited Antarctic ice plain with rugged distant ice cliffs, fine drifting snow blows across the surface and soft clouds move through a pale blue sky, continuously moving safe natural wind scene, no rain or animals. Polished child-friendly 3D animated film, coherent continuous object motion throughout, no captions, no labels, no logos, no watermark, not a still image."
+    }
+  ]
+}

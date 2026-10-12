@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188345667",
+  "request_fingerprint": "14836437256570d2dd5de7207bf6128859a3c5c698a088fd269776192c1f9160",
+  "poll_endpoint": "video",
+  "model_id": "wan-2.2-i2v",
+  "operation": "image_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-09\\bicycle-stop-inertia-i2v-09.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1790914550.0858235,
+  "last_poll_at_unix": 1790914773.0849555,
+  "completed_at_unix": 1790914774.9379659
+}

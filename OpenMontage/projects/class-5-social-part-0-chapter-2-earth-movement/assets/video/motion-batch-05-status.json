@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "batch": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-05.json",
+  "shots": [
+    {
+      "shot_id": "ship-horizon-natural-05",
+      "section_id": "s04-spherical-earth",
+      "status": "submitted",
+      "request_id": "188302621",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-05\\ship-horizon-natural-05.mp4",
+      "error": null
+    },
+    {
+      "shot_id": "bicycle-inertia-05",
+      "section_id": "s11-inertia",
+      "status": "submitted",
+      "request_id": "188302622",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-05\\bicycle-inertia-05.mp4",
+      "error": null
+    },
+    {
+      "shot_id": "spring-park-05",
+      "section_id": "s08-revolution",
+      "status": "submitted",
+      "request_id": "188302623",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-05\\spring-park-05.mp4",
+      "error": null
+    }
+  ],
+  "complete": false
+}

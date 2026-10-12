@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "alignment_method": "faster_whisper",
+  "sections": 15,
+  "words": 872,
+  "duration_seconds": 461.24,
+  "pronunciation_review": "pending",
+  "encoded_video_review": "pending"
+}

@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188618082",
+  "request_fingerprint": "4730a8053909cf9ae309f68035aaf06ed6806913a2b4a2bdbc2438a586f236de",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-02\\tundra-wind.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791283804.541198,
+  "last_poll_at_unix": 1791284124.1905935,
+  "completed_at_unix": 1791284125.6882246
+}

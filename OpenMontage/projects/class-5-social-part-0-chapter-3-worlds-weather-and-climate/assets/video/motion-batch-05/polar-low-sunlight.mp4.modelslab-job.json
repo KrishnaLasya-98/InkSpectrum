@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188662855",
+  "request_fingerprint": "8fa8cbf2acf193ae6945bfb0a9820aa7c6ff25f81439cdcaffd6e95bf096c8c5",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\polar-low-sunlight.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791351157.1679256,
+  "last_poll_at_unix": 1791352545.0049462,
+  "completed_at_unix": 1791352546.6732304
+}

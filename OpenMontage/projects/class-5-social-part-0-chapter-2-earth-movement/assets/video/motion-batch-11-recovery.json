@@ -1,0 +1,37 @@
+{
+  "version": "1.0",
+  "checked_at": "2026-10-02T04:35:02.767790+00:00",
+  "batch": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-11.json",
+  "new_submissions": 0,
+  "jobs": [
+    {
+      "shot_id": "solstice-bright-summer-11",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-11\\solstice-bright-summer-11.mp4",
+      "new_submission": false,
+      "request_id": "188346427",
+      "http_status": 200,
+      "status": "recovered",
+      "output_bytes": 1026002
+    },
+    {
+      "shot_id": "solstice-calm-winter-11",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-11\\solstice-calm-winter-11.mp4",
+      "new_submission": false,
+      "request_id": "188346429",
+      "http_status": 200,
+      "status": "recovered",
+      "output_bytes": 405460
+    },
+    {
+      "shot_id": "equinox-spring-meadow-11",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-11\\equinox-spring-meadow-11.mp4",
+      "new_submission": false,
+      "request_id": "188346430",
+      "http_status": 200,
+      "status": "recovered",
+      "output_bytes": 839939
+    }
+  ],
+  "downloaded": 3,
+  "total": 3
+}

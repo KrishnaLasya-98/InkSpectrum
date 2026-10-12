@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188662864",
+  "request_fingerprint": "281387254bb525ed1e94dc9843b03a8fb6ed9761b9e1f619edd20a4f4efb956c",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\earth-equator-to-poles.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791351165.307835,
+  "last_poll_at_unix": 1791352649.463528,
+  "completed_at_unix": 1791352651.1532772
+}

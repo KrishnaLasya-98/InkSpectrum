@@ -1,0 +1,332 @@
+{
+  "section_id": "s28-wordbank",
+  "text": "Word Bank. Word. Meaning. Humidity. The amount of water vapor in the air. Altitude. The height of a place above sea level. Equator. An imaginary line dividing the Earth into two halves. Monsoon. Seasonal winds that bring heavy rain. Tundra. A cold region with little vegetation.",
+  "start_ms": 464800,
+  "end_ms": 492320,
+  "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\audio\\narration-elevenlabs-v1\\s28-wordbank.wav",
+  "words": [
+    {
+      "word": "Word",
+      "start_ms": 464840,
+      "end_ms": 465080,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0082
+    },
+    {
+      "word": "Bank.",
+      "start_ms": 465180,
+      "end_ms": 465400,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.001
+    },
+    {
+      "word": "Word.",
+      "start_ms": 466501,
+      "end_ms": 466821,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.003
+    },
+    {
+      "word": "Meaning.",
+      "start_ms": 467682,
+      "end_ms": 468042,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0099
+    },
+    {
+      "word": "Humidity.",
+      "start_ms": 468943,
+      "end_ms": 469543,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0026
+    },
+    {
+      "word": "The",
+      "start_ms": 470344,
+      "end_ms": 470424,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "amount",
+      "start_ms": 470544,
+      "end_ms": 470864,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0291
+    },
+    {
+      "word": "of",
+      "start_ms": 470984,
+      "end_ms": 471025,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "water",
+      "start_ms": 471165,
+      "end_ms": 471465,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0005
+    },
+    {
+      "word": "vapor",
+      "start_ms": 471525,
+      "end_ms": 471885,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0036
+    },
+    {
+      "word": "in",
+      "start_ms": 472085,
+      "end_ms": 472145,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0981
+    },
+    {
+      "word": "the",
+      "start_ms": 472225,
+      "end_ms": 472325,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0531
+    },
+    {
+      "word": "air.",
+      "start_ms": 472526,
+      "end_ms": 472626,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0007
+    },
+    {
+      "word": "Altitude.",
+      "start_ms": 473666,
+      "end_ms": 474207,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0113
+    },
+    {
+      "word": "The",
+      "start_ms": 474807,
+      "end_ms": 474907,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.021
+    },
+    {
+      "word": "height",
+      "start_ms": 474987,
+      "end_ms": 475228,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0469
+    },
+    {
+      "word": "of",
+      "start_ms": 475308,
+      "end_ms": 475348,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "a",
+      "start_ms": 475468,
+      "end_ms": 475488,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0072
+    },
+    {
+      "word": "place",
+      "start_ms": 475548,
+      "end_ms": 475868,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0334
+    },
+    {
+      "word": "above",
+      "start_ms": 476168,
+      "end_ms": 476408,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "sea",
+      "start_ms": 476529,
+      "end_ms": 476709,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0021
+    },
+    {
+      "word": "level.",
+      "start_ms": 476769,
+      "end_ms": 477049,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "Equator.",
+      "start_ms": 478010,
+      "end_ms": 478550,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0491
+    },
+    {
+      "word": "An",
+      "start_ms": 479170,
+      "end_ms": 479230,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0571
+    },
+    {
+      "word": "imaginary",
+      "start_ms": 479391,
+      "end_ms": 480011,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0018
+    },
+    {
+      "word": "line",
+      "start_ms": 480111,
+      "end_ms": 480391,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "dividing",
+      "start_ms": 480712,
+      "end_ms": 481192,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0589
+    },
+    {
+      "word": "the",
+      "start_ms": 481272,
+      "end_ms": 481372,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0245
+    },
+    {
+      "word": "Earth",
+      "start_ms": 481512,
+      "end_ms": 481712,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.002
+    },
+    {
+      "word": "into",
+      "start_ms": 481952,
+      "end_ms": 482153,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0007
+    },
+    {
+      "word": "two",
+      "start_ms": 482273,
+      "end_ms": 482433,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0017
+    },
+    {
+      "word": "halves.",
+      "start_ms": 482573,
+      "end_ms": 482953,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0387
+    },
+    {
+      "word": "Monsoon.",
+      "start_ms": 483934,
+      "end_ms": 484474,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1716
+    },
+    {
+      "word": "Seasonal",
+      "start_ms": 485195,
+      "end_ms": 485675,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.2406
+    },
+    {
+      "word": "winds",
+      "start_ms": 485795,
+      "end_ms": 486095,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0177
+    },
+    {
+      "word": "that",
+      "start_ms": 486376,
+      "end_ms": 486496,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0094
+    },
+    {
+      "word": "bring",
+      "start_ms": 486576,
+      "end_ms": 486776,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.027
+    },
+    {
+      "word": "heavy",
+      "start_ms": 486936,
+      "end_ms": 487216,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0032
+    },
+    {
+      "word": "rain.",
+      "start_ms": 487316,
+      "end_ms": 487557,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0977
+    },
+    {
+      "word": "Tundra.",
+      "start_ms": 488497,
+      "end_ms": 488918,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.21
+    },
+    {
+      "word": "A",
+      "start_ms": 489518,
+      "end_ms": 489538,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0005
+    },
+    {
+      "word": "cold",
+      "start_ms": 489678,
+      "end_ms": 489938,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "region",
+      "start_ms": 490058,
+      "end_ms": 490459,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0059
+    },
+    {
+      "word": "with",
+      "start_ms": 490759,
+      "end_ms": 490899,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0035
+    },
+    {
+      "word": "little",
+      "start_ms": 491039,
+      "end_ms": 491319,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0024
+    },
+    {
+      "word": "vegetation.",
+      "start_ms": 491379,
+      "end_ms": 492080,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -2.5136
+    }
+  ],
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

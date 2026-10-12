@@ -1,0 +1,986 @@
+{
+  "version": "1.0",
+  "source": {
+    "path": "D:\\InkSpectrum\\OpenMontage\\textbook-collections\\class-5-social\\source-chapters\\chapter-02-earth-movement.pdf",
+    "format": "pdf",
+    "text_artifact": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\artifacts\\extracted_content.md",
+    "text_sha256": "b08c5e1a12ee7eb0e44e4f05c3293d9fc2bf0d6bfc6b80fcc7928362fcb58615",
+    "extraction_artifact": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\artifacts\\extracted_content.json"
+  },
+  "layout_fidelity": {
+    "reading_order": "preserved",
+    "tables": "structured_when_markdown_table_present",
+    "geometry": "unavailable",
+    "text_boxes": "semantic_heading_inference_only",
+    "requires_visual_pdf_audit": true
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "block_ids": [
+        "p0001-b0001",
+        "p0001-b0002",
+        "p0001-b0003",
+        "p0001-b0004",
+        "p0001-b0005",
+        "p0001-b0006",
+        "p0001-b0007",
+        "p0001-b0008",
+        "p0001-b0009",
+        "p0001-b0010",
+        "p0001-b0011",
+        "p0001-b0012",
+        "p0001-b0013",
+        "p0001-b0014"
+      ]
+    },
+    {
+      "page_number": 2,
+      "block_ids": [
+        "p0002-b0001",
+        "p0002-b0002",
+        "p0002-b0003",
+        "p0002-b0004",
+        "p0002-b0005",
+        "p0002-b0006",
+        "p0002-b0007",
+        "p0002-b0008",
+        "p0002-b0009",
+        "p0002-b0010",
+        "p0002-b0011",
+        "p0002-b0012",
+        "p0002-b0013",
+        "p0002-b0014",
+        "p0002-b0015"
+      ]
+    },
+    {
+      "page_number": 3,
+      "block_ids": [
+        "p0003-b0001",
+        "p0003-b0002",
+        "p0003-b0003",
+        "p0003-b0004",
+        "p0003-b0005",
+        "p0003-b0006",
+        "p0003-b0007",
+        "p0003-b0008",
+        "p0003-b0009",
+        "p0003-b0010",
+        "p0003-b0011",
+        "p0003-b0012"
+      ]
+    },
+    {
+      "page_number": 4,
+      "block_ids": [
+        "p0004-b0001",
+        "p0004-b0002",
+        "p0004-b0003",
+        "p0004-b0004",
+        "p0004-b0005",
+        "p0004-b0006",
+        "p0004-b0007",
+        "p0004-b0008",
+        "p0004-b0009"
+      ]
+    },
+    {
+      "page_number": 5,
+      "block_ids": [
+        "p0005-b0001",
+        "p0005-b0002",
+        "p0005-b0003",
+        "p0005-b0004",
+        "p0005-b0005",
+        "p0005-b0006"
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "block_id": "p0001-b0001",
+      "page_number": 1,
+      "reading_order": 1,
+      "block_type": "chapter_title",
+      "semantic_role": "lesson_content",
+      "source_text": "Lesson 2: Earth Movement",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 3,
+        "source_line_end": 3,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 1,
+      "heading": "Lesson 2: Earth Movement"
+    },
+    {
+      "block_id": "p0001-b0002",
+      "page_number": 1,
+      "reading_order": 2,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text": "Learning Objectives",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 5,
+        "source_line_end": 5,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Learning Objectives"
+    },
+    {
+      "block_id": "p0001-b0003",
+      "page_number": 1,
+      "reading_order": 3,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "By the end of this chapter, learners will be able to",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 7,
+        "source_line_end": 7,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Learning Objectives"
+    },
+    {
+      "block_id": "p0001-b0004",
+      "page_number": 1,
+      "reading_order": 4,
+      "block_type": "bullet",
+      "semantic_role": "lesson_content",
+      "source_text": "Understand that the Earth is spherical.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 9,
+        "source_line_end": 9,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Learning Objectives"
+    },
+    {
+      "block_id": "p0001-b0005",
+      "page_number": 1,
+      "reading_order": 5,
+      "block_type": "bullet",
+      "semantic_role": "lesson_content",
+      "source_text": "Identify the two types of movements of the Earth.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 10,
+        "source_line_end": 10,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Learning Objectives"
+    },
+    {
+      "block_id": "p0001-b0006",
+      "page_number": 1,
+      "reading_order": 6,
+      "block_type": "bullet",
+      "semantic_role": "lesson_content",
+      "source_text": "Explain rotation and its effects.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 11,
+        "source_line_end": 11,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Learning Objectives"
+    },
+    {
+      "block_id": "p0001-b0007",
+      "page_number": 1,
+      "reading_order": 7,
+      "block_type": "bullet",
+      "semantic_role": "lesson_content",
+      "source_text": "Understand revolution and its effects.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 12,
+        "source_line_end": 12,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Learning Objectives"
+    },
+    {
+      "block_id": "p0001-b0008",
+      "page_number": 1,
+      "reading_order": 8,
+      "block_type": "bullet",
+      "semantic_role": "lesson_content",
+      "source_text": "Learn about different seasons caused by revolution.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 13,
+        "source_line_end": 13,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Learning Objectives"
+    },
+    {
+      "block_id": "p0001-b0009",
+      "page_number": 1,
+      "reading_order": 9,
+      "block_type": "bullet",
+      "semantic_role": "lesson_content",
+      "source_text": "Define solstices and equinoxes and when they occur.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 14,
+        "source_line_end": 14,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Learning Objectives"
+    },
+    {
+      "block_id": "p0001-b0010",
+      "page_number": 1,
+      "reading_order": 10,
+      "block_type": "section_heading",
+      "semantic_role": "activity",
+      "source_text": "Start-Up Activity",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 16,
+        "source_line_end": 16,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Start-Up Activity"
+    },
+    {
+      "block_id": "p0001-b0011",
+      "page_number": 1,
+      "reading_order": 11,
+      "block_type": "activity",
+      "semantic_role": "activity",
+      "source_text": "Take a ball and spin it. Notice how it moves. Imagine this is the Earth moving in space. The Earth moves in two ways—let's explore these movements and their effects!",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 18,
+        "source_line_end": 18,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Start-Up Activity"
+    },
+    {
+      "block_id": "p0001-b0012",
+      "page_number": 1,
+      "reading_order": 12,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text": "Who proved that the earth is spherical?",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 20,
+        "source_line_end": 20,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Who proved that the earth is spherical?"
+    },
+    {
+      "block_id": "p0001-b0013",
+      "page_number": 1,
+      "reading_order": 13,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "Many ancient civilizations believed that the Earth was flat. However, Greek philosopher Pythagoras was one of the first to suggest that the Earth is spherical. Later, Aristotle provided evidence by observing how ships disappear over the horizon and how the Earth's shadow on the Moon is curved during a lunar eclipse. Ferdinand Magellan's voyage around the world further confirmed that the Earth is round.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 22,
+        "source_line_end": 22,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Who proved that the earth is spherical?"
+    },
+    {
+      "block_id": "p0001-b0014",
+      "page_number": 1,
+      "reading_order": 14,
+      "block_type": "figure",
+      "semantic_role": "lesson_content",
+      "source_text": "Textbook spherical Earth illustration",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 24,
+        "source_line_end": 24,
+        "extraction_mode": "markdown_fallback"
+      },
+      "media": {
+        "source": "images/imageFile3.png",
+        "alt_text": "Textbook spherical Earth illustration"
+      },
+      "heading": "Who proved that the earth is spherical?"
+    },
+    {
+      "block_id": "p0002-b0001",
+      "page_number": 2,
+      "reading_order": 15,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text": "The Two Movements of the Earth",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 28,
+        "source_line_end": 28,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "The Two Movements of the Earth"
+    },
+    {
+      "block_id": "p0002-b0002",
+      "page_number": 2,
+      "reading_order": 16,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "The Earth moves in two ways:",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 30,
+        "source_line_end": 30,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "The Two Movements of the Earth"
+    },
+    {
+      "block_id": "p0002-b0003",
+      "page_number": 2,
+      "reading_order": 17,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "Rotation – The Earth spins on its axis around itself.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 32,
+        "source_line_end": 32,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "The Two Movements of the Earth"
+    },
+    {
+      "block_id": "p0002-b0004",
+      "page_number": 2,
+      "reading_order": 18,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "Revolution – The Earth moves around the Sun.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 34,
+        "source_line_end": 34,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "The Two Movements of the Earth"
+    },
+    {
+      "block_id": "p0002-b0005",
+      "page_number": 2,
+      "reading_order": 19,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text": "Rotation",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 36,
+        "source_line_end": 36,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Rotation"
+    },
+    {
+      "block_id": "p0002-b0006",
+      "page_number": 2,
+      "reading_order": 20,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "Rotation is the movement of the Earth around its own axis is called Rotation.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 38,
+        "source_line_end": 38,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Rotation"
+    },
+    {
+      "block_id": "p0002-b0007",
+      "page_number": 2,
+      "reading_order": 21,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "The earth rotates from west to east. It completes one full rotation in 24 hours. The speed of rotation is faster at the equator and slower at the poles. The axis is tilted at an angle of 23.5°. As the Earth is spherical in shape, only one half of the Earth receives sunlight at a time. Thus, the side of the Earth facing the Sun experience day. On the other hand, the other half, or the part away from the sun, experiences night. As the Earth rotates, the lighted part moves into the darkness. Rotation causes day and night.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 40,
+        "source_line_end": 40,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Rotation"
+    },
+    {
+      "block_id": "p0002-b0008",
+      "page_number": 2,
+      "reading_order": 22,
+      "block_type": "figure",
+      "semantic_role": "lesson_content",
+      "source_text": "Textbook Earth axis and orbital plane diagram with labels",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 42,
+        "source_line_end": 42,
+        "extraction_mode": "markdown_fallback"
+      },
+      "media": {
+        "source": "images/imageFile4.png",
+        "alt_text": "Textbook Earth axis and orbital plane diagram with labels"
+      },
+      "heading": "Rotation"
+    },
+    {
+      "block_id": "p0002-b0009",
+      "page_number": 2,
+      "reading_order": 23,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text": "Do You Know?",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 44,
+        "source_line_end": 44,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Do You Know?"
+    },
+    {
+      "block_id": "p0002-b0010",
+      "page_number": 2,
+      "reading_order": 24,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "The Earth rotates at a speed of 1,670 kilometers per hour at the equator, but we don’t feel it because we’re moving along with it!",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 46,
+        "source_line_end": 46,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Do You Know?"
+    },
+    {
+      "block_id": "p0002-b0011",
+      "page_number": 2,
+      "reading_order": 25,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text": "Revolution",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 48,
+        "source_line_end": 48,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Revolution"
+    },
+    {
+      "block_id": "p0002-b0012",
+      "page_number": 2,
+      "reading_order": 26,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "Revolution is the movement of the Earth around the Sun in a fixed path called an orbit. The Earth revolves around the Sun in an elliptical orbit. It takes 365¼ days (one year) to complete one revolution. The tilt of the Earth's axis remains the same during revolution. Revolution causes seasonal changes.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 50,
+        "source_line_end": 50,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Revolution"
+    },
+    {
+      "block_id": "p0002-b0013",
+      "page_number": 2,
+      "reading_order": 27,
+      "block_type": "figure",
+      "semantic_role": "lesson_content",
+      "source_text": "Textbook rotation and revolution comparison diagram",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 52,
+        "source_line_end": 52,
+        "extraction_mode": "markdown_fallback"
+      },
+      "media": {
+        "source": "images/imageFile6.png",
+        "alt_text": "Textbook rotation and revolution comparison diagram"
+      },
+      "heading": "Revolution"
+    },
+    {
+      "block_id": "p0002-b0014",
+      "page_number": 2,
+      "reading_order": 28,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "The revolution of the Earth and the tilt of its axis cause different seasons:",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 54,
+        "source_line_end": 54,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Revolution"
+    },
+    {
+      "block_id": "p0002-b0015",
+      "page_number": 2,
+      "reading_order": 29,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "Summer – The hemisphere tilted towards the Sun experiences summer.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 56,
+        "source_line_end": 56,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Revolution"
+    },
+    {
+      "block_id": "p0003-b0001",
+      "page_number": 3,
+      "reading_order": 30,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "Winter – The hemisphere tilted away from the Sun experiences winter.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 60,
+        "source_line_end": 60,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Revolution"
+    },
+    {
+      "block_id": "p0003-b0002",
+      "page_number": 3,
+      "reading_order": 31,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "Spring – Occurs between winter and summer when the temperature starts rising.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 62,
+        "source_line_end": 62,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Revolution"
+    },
+    {
+      "block_id": "p0003-b0003",
+      "page_number": 3,
+      "reading_order": 32,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "Autumn – Occurs between summer and winter when the temperature starts dropping.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 64,
+        "source_line_end": 64,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Revolution"
+    },
+    {
+      "block_id": "p0003-b0004",
+      "page_number": 3,
+      "reading_order": 33,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text": "Let's Learn More",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 66,
+        "source_line_end": 66,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Let's Learn More"
+    },
+    {
+      "block_id": "p0003-b0005",
+      "page_number": 3,
+      "reading_order": 34,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "A day on Earth is actually 23 hours, 56 minutes, not exactly 24 hours, but we round it off to 24 hours because it’s easier to keep track of time.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 68,
+        "source_line_end": 68,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Let's Learn More"
+    },
+    {
+      "block_id": "p0003-b0006",
+      "page_number": 3,
+      "reading_order": 35,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text": "What is Solstice and When Does It Occur?",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 70,
+        "source_line_end": 70,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "What is Solstice and When Does It Occur?"
+    },
+    {
+      "block_id": "p0003-b0007",
+      "page_number": 3,
+      "reading_order": 36,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "A solstice is a day, when the sun shines vertically over a Tropic (both cancer and Capricorn) in the afternoon and the day is the longest in that hemisphere. On 22 December, the rays of the sun fall directly over the Tropic of Capricorn. This is the longest day in Southern Hemisphere (summer season), while in the Northern Hemisphere, it is the shortest day (winter season). This is called 'Winter Solstice. On 21 June, sunlight falls vertically over the Tropic of Cancer. This is the longest day in Northern Hemisphere and hence it is called 'Summer Solstice', while in the Southern Hemisphere, it is the shortest day.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 72,
+        "source_line_end": 72,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "What is Solstice and When Does It Occur?"
+    },
+    {
+      "block_id": "p0003-b0008",
+      "page_number": 3,
+      "reading_order": 37,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text": "Let's Learn More",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 74,
+        "source_line_end": 74,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Let's Learn More"
+    },
+    {
+      "block_id": "p0003-b0009",
+      "page_number": 3,
+      "reading_order": 38,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "Earth keeps rotating due to inertia, the same reason you continue moving forward when you stop a bike suddenly. This movement doesn’t stop because there’s no friction in space to slow it down!",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 76,
+        "source_line_end": 76,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Let's Learn More"
+    },
+    {
+      "block_id": "p0003-b0010",
+      "page_number": 3,
+      "reading_order": 39,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text": "What is Equinox and When Does It Occur?",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 78,
+        "source_line_end": 78,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "What is Equinox and When Does It Occur?"
+    },
+    {
+      "block_id": "p0003-b0011",
+      "page_number": 3,
+      "reading_order": 40,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "The sun falls directly on the equator two times in a year. During this period there is equal length of day and night all over the world.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 80,
+        "source_line_end": 80,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "What is Equinox and When Does It Occur?"
+    },
+    {
+      "block_id": "p0003-b0012",
+      "page_number": 3,
+      "reading_order": 41,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "In Northern Hemisphere, the March Equinox is called the Vernal or Spring Equinox while September Equinox is called Autumnal Equinox. Spring Equinox (March 21st) marks the beginning of spring. Autumn Equinox (September 23rd) marks the beginning of autumn.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 82,
+        "source_line_end": 82,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "What is Equinox and When Does It Occur?"
+    },
+    {
+      "block_id": "p0004-b0001",
+      "page_number": 4,
+      "reading_order": 42,
+      "block_type": "figure",
+      "semantic_role": "lesson_content",
+      "source_text": "Textbook solstice and equinox orbit diagram with date labels",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 86,
+        "source_line_end": 86,
+        "extraction_mode": "markdown_fallback"
+      },
+      "media": {
+        "source": "images/imageFile9.png",
+        "alt_text": "Textbook solstice and equinox orbit diagram with date labels"
+      },
+      "heading": "What is Equinox and When Does It Occur?"
+    },
+    {
+      "block_id": "p0004-b0002",
+      "page_number": 4,
+      "reading_order": 43,
+      "block_type": "section_heading",
+      "semantic_role": "recall",
+      "source_text": "Recall",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 88,
+        "source_line_end": 88,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Recall"
+    },
+    {
+      "block_id": "p0004-b0003",
+      "page_number": 4,
+      "reading_order": 44,
+      "block_type": "recall",
+      "semantic_role": "recall",
+      "source_text": "The Earth's movements, rotation and revolution, have significant affects on our lives. Rotation causes day and night, while revolution leads to the change of seasons. Solstices and equinoxes mark the shift in seasons, playing an essential role in our climate and timekeeping.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 90,
+        "source_line_end": 90,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Recall"
+    },
+    {
+      "block_id": "p0004-b0004",
+      "page_number": 4,
+      "reading_order": 45,
+      "block_type": "section_heading",
+      "semantic_role": "recall",
+      "source_text": "Let's Remember",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 92,
+        "source_line_end": 92,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Let's Remember"
+    },
+    {
+      "block_id": "p0004-b0005",
+      "page_number": 4,
+      "reading_order": 46,
+      "block_type": "recall",
+      "semantic_role": "recall",
+      "source_text": "The Earth moves in two ways: rotation and revolution.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 94,
+        "source_line_end": 94,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Let's Remember"
+    },
+    {
+      "block_id": "p0004-b0006",
+      "page_number": 4,
+      "reading_order": 47,
+      "block_type": "recall",
+      "semantic_role": "recall",
+      "source_text": "Rotation causes day and night, while revolution causes seasons.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 96,
+        "source_line_end": 96,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Let's Remember"
+    },
+    {
+      "block_id": "p0004-b0007",
+      "page_number": 4,
+      "reading_order": 48,
+      "block_type": "recall",
+      "semantic_role": "recall",
+      "source_text": "The Earth completes one rotation in 24 hours and one revolution in 365¼ days.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 98,
+        "source_line_end": 98,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Let's Remember"
+    },
+    {
+      "block_id": "p0004-b0008",
+      "page_number": 4,
+      "reading_order": 49,
+      "block_type": "recall",
+      "semantic_role": "recall",
+      "source_text": "Solstices occur in June and December, marking the longest and shortest days.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 100,
+        "source_line_end": 100,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Let's Remember"
+    },
+    {
+      "block_id": "p0004-b0009",
+      "page_number": 4,
+      "reading_order": 50,
+      "block_type": "recall",
+      "semantic_role": "recall",
+      "source_text": "Equinoxes occur in March and September, when day and night are equal.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 102,
+        "source_line_end": 102,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Let's Remember"
+    },
+    {
+      "block_id": "p0005-b0001",
+      "page_number": 5,
+      "reading_order": 51,
+      "block_type": "section_heading",
+      "semantic_role": "glossary",
+      "source_text": "Word Bank",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 106,
+        "source_line_end": 106,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Word Bank"
+    },
+    {
+      "block_id": "p0005-b0002",
+      "page_number": 5,
+      "reading_order": 52,
+      "block_type": "glossary",
+      "semantic_role": "glossary",
+      "source_text": "Rotation – Spinning of the Earth on its axis.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 108,
+        "source_line_end": 108,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Word Bank"
+    },
+    {
+      "block_id": "p0005-b0003",
+      "page_number": 5,
+      "reading_order": 53,
+      "block_type": "glossary",
+      "semantic_role": "glossary",
+      "source_text": "Revolution – Movement of the Earth around the Sun.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 110,
+        "source_line_end": 110,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Word Bank"
+    },
+    {
+      "block_id": "p0005-b0004",
+      "page_number": 5,
+      "reading_order": 54,
+      "block_type": "glossary",
+      "semantic_role": "glossary",
+      "source_text": "Orbit – The path of the Earth around the Sun.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 112,
+        "source_line_end": 112,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Word Bank"
+    },
+    {
+      "block_id": "p0005-b0005",
+      "page_number": 5,
+      "reading_order": 55,
+      "block_type": "glossary",
+      "semantic_role": "glossary",
+      "source_text": "Solstice – When the Sun is at its farthest point north or south.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 114,
+        "source_line_end": 114,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Word Bank"
+    },
+    {
+      "block_id": "p0005-b0006",
+      "page_number": 5,
+      "reading_order": 56,
+      "block_type": "glossary",
+      "semantic_role": "glossary",
+      "source_text": "Equinox – When day and night are equal.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 116,
+        "source_line_end": 116,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Word Bank"
+    }
+  ],
+  "validation": {
+    "block_count": 56,
+    "required_block_count": 56,
+    "page_count_represented": 5,
+    "semantic_roles": [
+      "activity",
+      "glossary",
+      "lesson_content",
+      "recall"
+    ],
+    "duplicate_block_ids": false,
+    "recovered_layout_blocks": 0
+  }
+}

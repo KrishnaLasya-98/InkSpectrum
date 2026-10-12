@@ -1,0 +1,37 @@
+{
+  "version": "1.0",
+  "checked_at": "2026-10-01T12:35:52.547157+00:00",
+  "batch": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-05.json",
+  "new_submissions": 0,
+  "jobs": [
+    {
+      "shot_id": "ship-horizon-natural-05",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-05\\ship-horizon-natural-05.mp4",
+      "new_submission": false,
+      "request_id": "188302621",
+      "http_status": 200,
+      "status": "recovered",
+      "output_bytes": 405889
+    },
+    {
+      "shot_id": "bicycle-inertia-05",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-05\\bicycle-inertia-05.mp4",
+      "new_submission": false,
+      "request_id": "188302622",
+      "http_status": 200,
+      "status": "recovered",
+      "output_bytes": 397603
+    },
+    {
+      "shot_id": "spring-park-05",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-05\\spring-park-05.mp4",
+      "new_submission": false,
+      "request_id": "188302623",
+      "http_status": 200,
+      "status": "recovered",
+      "output_bytes": 585630
+    }
+  ],
+  "downloaded": 3,
+  "total": 3
+}

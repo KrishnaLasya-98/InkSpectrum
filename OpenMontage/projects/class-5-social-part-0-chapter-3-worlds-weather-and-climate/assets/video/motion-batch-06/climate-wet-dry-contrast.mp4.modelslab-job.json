@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188664293",
+  "request_fingerprint": "c58354a2739f41a39c164f792e601ed9b8d0e8927579d01a53a5473c30bbad9e",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-06\\climate-wet-dry-contrast.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791353163.5645962,
+  "last_poll_at_unix": 1791353248.801076,
+  "completed_at_unix": 1791353250.5637705
+}

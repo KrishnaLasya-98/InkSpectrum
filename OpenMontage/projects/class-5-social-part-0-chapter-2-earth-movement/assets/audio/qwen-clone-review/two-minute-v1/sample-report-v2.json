@@ -1,0 +1,20 @@
+{
+  "status": "review_sample_not_approved_for_chapter",
+  "model_id": "qwen-tts",
+  "section_ids": [
+    "s01-title",
+    "s02-objectives",
+    "s03-startup",
+    "s04-spherical-earth",
+    "s05-two-movements",
+    "s06-rotation",
+    "s07-do-you-know",
+    "s08-revolution"
+  ],
+  "passages": 4,
+  "words": 357,
+  "duration_seconds": 119.014,
+  "pace_target_wpm": 180,
+  "sample_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\qwen-clone-review\\two-minute-v1\\qwen-chapter2-two-minute-180wpm-v2.mp3",
+  "script_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\qwen-clone-review\\two-minute-v1\\spoken-script-v2.txt"
+}

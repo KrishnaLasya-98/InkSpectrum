@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "batch": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-02.json",
+  "shots": [
+    {
+      "shot_id": "earth-opening-clean-i2v-02",
+      "section_id": "s01-title",
+      "status": "submitted",
+      "request_id": "188299543",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-02\\earth-opening-clean-i2v-02.mp4",
+      "error": null
+    },
+    {
+      "shot_id": "startup-plain-ball-i2v-02",
+      "section_id": "s03-startup",
+      "status": "submitted",
+      "request_id": "188299552",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-02\\startup-plain-ball-i2v-02.mp4",
+      "error": null
+    }
+  ],
+  "complete": false
+}

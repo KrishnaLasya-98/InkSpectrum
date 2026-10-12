@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "scope": "New one-use motion for spherical Earth and Magellan narration; scientific spin and orbit use exact authored geometry",
+  "provider": "modelslab",
+  "model_id": "wan-2.2-i2v",
+  "operation": "image_to_video",
+  "shots": [
+    {
+      "shot_id": "voyage-ship-12",
+      "section_id": "s04-spherical-earth",
+      "narration_cue": "Ferdinand Magellan's voyage around the world",
+      "reference_image": "assets/images/gpt-reference-v1/voyage-ship-v5.png",
+      "prompt": "Animate the supplied child-friendly 3D sailing ship in one continuous shot for five seconds. The same wooden ship sails steadily forward across the blue ocean. Its cream canvas sails billow gently, rigging remains coherent, the hull rises softly over waves, and white foam trails behind it. Track alongside from this three-quarter view, preserving the silhouette, open sky and clear horizon. Keep only this single ship. No map, lettering, captions, logos, flags, sudden camera jumps or cuts."
+    },
+    {
+      "shot_id": "spherical-earth-context-12",
+      "section_id": "s04-spherical-earth",
+      "narration_cue": "the Earth is spherical",
+      "reference_image": "assets/images/gpt-reference-v1/earth-opening.png",
+      "prompt": "One continuous child-friendly 3D animated view of the supplied single spherical Earth in space for five seconds. Camera moves gently sideways to reveal the round contour and depth. Clouds move slowly above oceans, preserving the geographical shapes and consistent lighting of the reference. Keep the full round silhouette inside the frame. The shot illustrates spherical shape only. No lettering, numbers, symbols, labels, logos, additional planets, cuts, freeze or sudden zoom."
+    }
+  ]
+}

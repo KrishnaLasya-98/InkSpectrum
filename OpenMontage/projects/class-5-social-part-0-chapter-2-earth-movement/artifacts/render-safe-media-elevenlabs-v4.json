@@ -1,0 +1,186 @@
+{
+  "status": "prepared_for_draft_review",
+  "records": [
+    {
+      "section_id": "s01-title",
+      "segment_index": 1,
+      "original_path": "assets/video/motion-batch-04/earth-opening-natural-i2v-04.mp4",
+      "render_safe_path": "assets/video/retimed-elevenlabs-v4/s01-title-01.mp4",
+      "original_duration_seconds": 5.0625,
+      "render_safe_duration_seconds": 7.3,
+      "retime_factor": 1.45875
+    },
+    {
+      "section_id": "s02-objectives",
+      "segment_index": 1,
+      "original_path": "assets/video/motion-batch-07/classroom-earth-globe-07.mp4",
+      "render_safe_path": "assets/video/retimed-elevenlabs-v4/s02-objectives-01.mp4",
+      "original_duration_seconds": 5.0625,
+      "render_safe_duration_seconds": 5.733333,
+      "retime_factor": 1.144342
+    },
+    {
+      "section_id": "s03-startup",
+      "segment_index": 1,
+      "original_path": "assets/video/motion-batch-02/startup-plain-ball-i2v-02.mp4",
+      "render_safe_path": "assets/video/retimed-elevenlabs-v4/s03-startup-01.mp4",
+      "original_duration_seconds": 5.0625,
+      "render_safe_duration_seconds": 6.566667,
+      "retime_factor": 1.309934
+    },
+    {
+      "section_id": "s03-startup",
+      "segment_index": 2,
+      "original_path": "assets/video/motion-batch-08/startup-spinning-ball-08.mp4",
+      "render_safe_path": "assets/video/retimed-elevenlabs-v4/s03-startup-02.mp4",
+      "original_duration_seconds": 5.0625,
+      "render_safe_duration_seconds": 6.566667,
+      "retime_factor": 1.309934
+    },
+    {
+      "section_id": "s04-spherical-earth",
+      "segment_index": 1,
+      "original_path": "assets/video/motion-batch-05/ship-horizon-natural-05.mp4",
+      "render_safe_path": "assets/video/retimed-elevenlabs-v4/s04-spherical-earth-01.mp4",
+      "original_duration_seconds": 5.0625,
+      "render_safe_duration_seconds": 5.566667,
+      "retime_factor": 1.10955
+    },
+    {
+      "section_id": "s04-spherical-earth",
+      "segment_index": 2,
+      "original_path": "assets/video/motion-batch-07/moon-curved-shadow-07.mp4",
+      "render_safe_path": "assets/video/retimed-elevenlabs-v4/s04-spherical-earth-02.mp4",
+      "original_duration_seconds": 5.0625,
+      "render_safe_duration_seconds": 5.566016,
+      "retime_factor": 1.109408
+    },
+    {
+      "section_id": "s05-two-movements",
+      "segment_index": 1,
+      "original_path": "assets/video/precision-earth-v1-final/videos/precision_earth_v1/1080p30/TwoMovementsContrast-1080p.mp4",
+      "render_safe_path": "assets/video/retimed-elevenlabs-v4/s05-two-movements-01.mp4",
+      "original_duration_seconds": 12.0,
+      "render_safe_duration_seconds": 16.2,
+      "retime_factor": 1.356583
+    },
+    {
+      "section_id": "s06-rotation",
+      "segment_index": 1,
+      "original_path": "assets/video/precision-earth-v1-rotation-recovery/videos/precision_earth_v1/1080p30/RotationDayNight-1080p.mp4",
+      "render_safe_path": "assets/video/retimed-elevenlabs-v4/s06-rotation-01.mp4",
+      "original_duration_seconds": 10.0,
+      "render_safe_duration_seconds": 11.733333,
+      "retime_factor": 1.1809
+    },
+    {
+      "section_id": "s06-rotation",
+      "segment_index": 2,
+      "original_path": "assets/video/motion-batch-10/classroom-lamp-globe-day-night-10.mp4",
+      "render_safe_path": "assets/video/retimed-elevenlabs-v4/s06-rotation-02.mp4",
+      "original_duration_seconds": 5.0625,
+      "render_safe_duration_seconds": 5.9,
+      "retime_factor": 1.177303
+    },
+    {
+      "section_id": "s06-rotation",
+      "segment_index": 3,
+      "original_path": "assets/video/motion-batch-10/sunny-school-morning-10.mp4",
+      "render_safe_path": "assets/video/retimed-elevenlabs-v4/s06-rotation-03.mp4",
+      "original_duration_seconds": 5.0625,
+      "render_safe_duration_seconds": 5.9,
+      "retime_factor": 1.177303
+    },
+    {
+      "section_id": "s06-rotation",
+      "segment_index": 4,
+      "original_path": "assets/video/motion-batch-10/peaceful-school-night-10.mp4",
+      "render_safe_path": "assets/video/retimed-elevenlabs-v4/s06-rotation-04.mp4",
+      "original_duration_seconds": 5.0625,
+      "render_safe_duration_seconds": 5.9,
+      "retime_factor": 1.177303
+    },
+    {
+      "section_id": "s06-rotation",
+      "segment_index": 5,
+      "original_path": "assets/video/motion-batch-01/earth-day-night-01.mp4",
+      "render_safe_path": "assets/video/retimed-elevenlabs-v4/s06-rotation-05.mp4",
+      "original_duration_seconds": 5.0625,
+      "render_safe_duration_seconds": 5.9,
+      "retime_factor": 1.177303
+    },
+    {
+      "section_id": "s08-revolution",
+      "segment_index": 1,
+      "original_path": "assets/video/precision-earth-v1-final/videos/precision_earth_v1/1080p30/RevolutionOrbit-1080p.mp4",
+      "render_safe_path": "assets/video/retimed-elevenlabs-v4/s08-revolution-01.mp4",
+      "original_duration_seconds": 12.0,
+      "render_safe_duration_seconds": 14.233333,
+      "retime_factor": 1.1915
+    },
+    {
+      "section_id": "s08-revolution",
+      "segment_index": 2,
+      "original_path": "assets/video/motion-batch-06/summer-park-06.mp4",
+      "render_safe_path": "assets/video/retimed-elevenlabs-v4/s08-revolution-02.mp4",
+      "original_duration_seconds": 5.0625,
+      "render_safe_duration_seconds": 5.966016,
+      "retime_factor": 1.189539
+    },
+    {
+      "section_id": "s08-revolution",
+      "segment_index": 3,
+      "original_path": "assets/video/motion-batch-06/winter-park-06.mp4",
+      "render_safe_path": "assets/video/retimed-elevenlabs-v4/s08-revolution-03.mp4",
+      "original_duration_seconds": 5.0625,
+      "render_safe_duration_seconds": 5.966016,
+      "retime_factor": 1.189539
+    },
+    {
+      "section_id": "s08-revolution",
+      "segment_index": 4,
+      "original_path": "assets/video/motion-batch-05/spring-park-05.mp4",
+      "render_safe_path": "assets/video/retimed-elevenlabs-v4/s08-revolution-04.mp4",
+      "original_duration_seconds": 5.0625,
+      "render_safe_duration_seconds": 5.966667,
+      "retime_factor": 1.189692
+    },
+    {
+      "section_id": "s08-revolution",
+      "segment_index": 5,
+      "original_path": "assets/video/motion-batch-06/autumn-park-06.mp4",
+      "render_safe_path": "assets/video/retimed-elevenlabs-v4/s08-revolution-05.mp4",
+      "original_duration_seconds": 5.0625,
+      "render_safe_duration_seconds": 5.966016,
+      "retime_factor": 1.189539
+    },
+    {
+      "section_id": "s10-solstice",
+      "segment_index": 1,
+      "original_path": "assets/video/motion-batch-11/solstice-calm-winter-11.mp4",
+      "render_safe_path": "assets/video/retimed-elevenlabs-v4/s10-solstice-01.mp4",
+      "original_duration_seconds": 5.0625,
+      "render_safe_duration_seconds": 6.066016,
+      "retime_factor": 1.209868
+    },
+    {
+      "section_id": "s11-inertia",
+      "segment_index": 1,
+      "original_path": "assets/video/precision-inertia-v1-final/videos/precision_inertia_v1/1080p30/BicycleStopInertia-1080p.mp4",
+      "render_safe_path": "assets/video/retimed-elevenlabs-v4/s11-inertia-01.mp4",
+      "original_duration_seconds": 4.266667,
+      "render_safe_duration_seconds": 5.133333,
+      "retime_factor": 1.215
+    },
+    {
+      "section_id": "s12-equinox",
+      "segment_index": 1,
+      "original_path": "assets/video/motion-batch-11/equinox-spring-meadow-11.mp4",
+      "render_safe_path": "assets/video/retimed-elevenlabs-v4/s12-equinox-01.mp4",
+      "original_duration_seconds": 5.0625,
+      "render_safe_duration_seconds": 5.966667,
+      "retime_factor": 1.188355
+    }
+  ],
+  "retiming_policy": "one-use optical-flow interpolation; no loops or still-frame holds"
+}

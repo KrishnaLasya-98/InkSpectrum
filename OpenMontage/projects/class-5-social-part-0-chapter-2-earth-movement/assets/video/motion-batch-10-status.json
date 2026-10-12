@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "batch": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-10.json",
+  "shots": [
+    {
+      "shot_id": "classroom-lamp-globe-day-night-10",
+      "section_id": "s06-rotation",
+      "status": "submitted",
+      "request_id": "188346073",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-10\\classroom-lamp-globe-day-night-10.mp4",
+      "error": null
+    },
+    {
+      "shot_id": "sunny-school-morning-10",
+      "section_id": "s06-rotation",
+      "status": "submitted",
+      "request_id": "188346074",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-10\\sunny-school-morning-10.mp4",
+      "error": null
+    },
+    {
+      "shot_id": "peaceful-school-night-10",
+      "section_id": "s06-rotation",
+      "status": "submitted",
+      "request_id": "188346077",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-10\\peaceful-school-night-10.mp4",
+      "error": null
+    }
+  ],
+  "complete": false
+}

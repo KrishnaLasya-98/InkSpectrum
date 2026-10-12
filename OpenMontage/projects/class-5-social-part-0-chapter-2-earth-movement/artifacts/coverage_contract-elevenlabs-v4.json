@@ -1,0 +1,1193 @@
+{
+  "version": "1.0",
+  "source_document_sha256": "b08c5e1a12ee7eb0e44e4f05c3293d9fc2bf0d6bfc6b80fcc7928362fcb58615",
+  "source_document_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\artifacts\\extracted_content.md",
+  "entries": [
+    {
+      "source_block_id": "p0001-b0001",
+      "page_number": 1,
+      "block_type": "chapter_title",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "71f1db6343c4f333d8b38ac354e34fb9d9f0b5406b27f80aa1e2ff65fd2d0734",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s01-title"
+        ],
+        "screen_ids": [
+          "s01-title"
+        ],
+        "visual_cue_ids": [
+          "s01-title"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0001-b0002",
+      "page_number": 1,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "301b843724f10ba740cee6f3a1c67ec9828e73e12f9f84017b8188ec6115541d",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s02-objectives"
+        ],
+        "screen_ids": [
+          "s02-objectives"
+        ],
+        "visual_cue_ids": [
+          "s02-objectives"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0001-b0003",
+      "page_number": 1,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "2126a5b8b47ea823056298e79cee704da466274601bafcd91e37ebff4dfecfa7",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s02-objectives"
+        ],
+        "screen_ids": [
+          "s02-objectives"
+        ],
+        "visual_cue_ids": [
+          "s02-objectives"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0001-b0004",
+      "page_number": 1,
+      "block_type": "bullet",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "9188ca53b6735903941e4dda97e8b49e11ade92947544a8b924ee3136e8696fe",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s02-objectives"
+        ],
+        "screen_ids": [
+          "s02-objectives"
+        ],
+        "visual_cue_ids": [
+          "s02-objectives"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0001-b0005",
+      "page_number": 1,
+      "block_type": "bullet",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "7676d088a28339c32a168c9c830e7f4ec0296c3085a134c8c5d52b98ac3df7ea",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s02-objectives"
+        ],
+        "screen_ids": [
+          "s02-objectives"
+        ],
+        "visual_cue_ids": [
+          "s02-objectives"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0001-b0006",
+      "page_number": 1,
+      "block_type": "bullet",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "102e740bf06ebedeab952885c345a4b7071eab366960aabb7025a461967fb05d",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s02-objectives"
+        ],
+        "screen_ids": [
+          "s02-objectives"
+        ],
+        "visual_cue_ids": [
+          "s02-objectives"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0001-b0007",
+      "page_number": 1,
+      "block_type": "bullet",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "0d4a37b429333068b17ed05981338ce44d04a04da9ef93e5dc63cb230a5f5417",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s02-objectives"
+        ],
+        "screen_ids": [
+          "s02-objectives"
+        ],
+        "visual_cue_ids": [
+          "s02-objectives"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0001-b0008",
+      "page_number": 1,
+      "block_type": "bullet",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "2630ee89de02e02ff090bd4cdfbe671bad1274a2087d872aa4810c22f65813f4",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s02-objectives"
+        ],
+        "screen_ids": [
+          "s02-objectives"
+        ],
+        "visual_cue_ids": [
+          "s02-objectives"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0001-b0009",
+      "page_number": 1,
+      "block_type": "bullet",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "3069dc56a2e8931e6e00d600dc0829235185fb70571e658451c11d1b455ebe25",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s02-objectives"
+        ],
+        "screen_ids": [
+          "s02-objectives"
+        ],
+        "visual_cue_ids": [
+          "s02-objectives"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0001-b0010",
+      "page_number": 1,
+      "block_type": "section_heading",
+      "semantic_role": "activity",
+      "source_text_sha256": "ea91cb32cce48241b410a0aa2fbeb9219b222730f1fc44ee84db5e7760594f2a",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s03-startup"
+        ],
+        "screen_ids": [
+          "s03-startup"
+        ],
+        "visual_cue_ids": [
+          "s03-startup"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0001-b0011",
+      "page_number": 1,
+      "block_type": "activity",
+      "semantic_role": "activity",
+      "source_text_sha256": "1c21f6d42d35695d6e0f109d73cf28c679f66a41963149e8d7de8e4f2e048ad8",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s03-startup"
+        ],
+        "screen_ids": [
+          "s03-startup"
+        ],
+        "visual_cue_ids": [
+          "s03-startup"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0001-b0012",
+      "page_number": 1,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "e5c7953237fd5044ea320a6c0c6da0155eec8bb9eb6a69c3033263c26ac15bdb",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s04-spherical-earth"
+        ],
+        "screen_ids": [
+          "s04-spherical-earth"
+        ],
+        "visual_cue_ids": [
+          "s04-spherical-earth"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0001-b0013",
+      "page_number": 1,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "41903947b99763919f49264f9c7d88d0a8893cd3ed532f24aeb46886660ec592",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s04-spherical-earth"
+        ],
+        "screen_ids": [
+          "s04-spherical-earth"
+        ],
+        "visual_cue_ids": [
+          "s04-spherical-earth"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0001-b0014",
+      "page_number": 1,
+      "block_type": "figure",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "eaae676dd4440a6ed62948264a2e8c429da292e121342f4749000d7fe303aabc",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s04-spherical-earth"
+        ],
+        "screen_ids": [
+          "s04-spherical-earth"
+        ],
+        "visual_cue_ids": [
+          "s04-spherical-earth"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0002-b0001",
+      "page_number": 2,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "c17eebdc84c8f5a8418152d9e60a0ce2327ee1a8fb86620cda6aefb303cded93",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s05-two-movements"
+        ],
+        "screen_ids": [
+          "s05-two-movements"
+        ],
+        "visual_cue_ids": [
+          "s05-two-movements"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0002-b0002",
+      "page_number": 2,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "48a103126cd7f39df41668b5abda6d61c57cd4e68adb1648a905d52dfa29266e",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s05-two-movements"
+        ],
+        "screen_ids": [
+          "s05-two-movements"
+        ],
+        "visual_cue_ids": [
+          "s05-two-movements"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0002-b0003",
+      "page_number": 2,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "d301406b73f71e830ee87fe840a9052f8a1e386393f4b1908400e09ad6341971",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s05-two-movements"
+        ],
+        "screen_ids": [
+          "s05-two-movements"
+        ],
+        "visual_cue_ids": [
+          "s05-two-movements"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0002-b0004",
+      "page_number": 2,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "cdeef62f69b0b25f83287324c7778ad7219002ecc6ab937befd52f2844a16c95",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s05-two-movements"
+        ],
+        "screen_ids": [
+          "s05-two-movements"
+        ],
+        "visual_cue_ids": [
+          "s05-two-movements"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0002-b0005",
+      "page_number": 2,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "57b5e2fc1bba18bb4f54084af57ffe86b3bb3d925c281043e84a05eb4b19317c",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s06-rotation"
+        ],
+        "screen_ids": [
+          "s06-rotation"
+        ],
+        "visual_cue_ids": [
+          "s06-rotation"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0002-b0006",
+      "page_number": 2,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "9e4faa90fc87c66929897fb9e475014faa07dd85b0e839458013688327ba498c",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s06-rotation"
+        ],
+        "screen_ids": [
+          "s06-rotation"
+        ],
+        "visual_cue_ids": [
+          "s06-rotation"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0002-b0007",
+      "page_number": 2,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "91888f24b10ff4369c56f4cc0ed8db6a824cb02f88f687f418e13c8fbeba5408",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s06-rotation"
+        ],
+        "screen_ids": [
+          "s06-rotation"
+        ],
+        "visual_cue_ids": [
+          "s06-rotation"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0002-b0008",
+      "page_number": 2,
+      "block_type": "figure",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "62f6a94f2b7d0e2d835f1cf88e3ca6e332a95830ffcebe305e6117b507cb1ef6",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s06-rotation"
+        ],
+        "screen_ids": [
+          "s06-rotation"
+        ],
+        "visual_cue_ids": [
+          "s06-rotation"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0002-b0009",
+      "page_number": 2,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "7ab0ff6db7716a1e429b3bb8f2f5c611810bcd8f1d4781b2d2ab8c70ebe20ba9",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s07-do-you-know"
+        ],
+        "screen_ids": [
+          "s07-do-you-know"
+        ],
+        "visual_cue_ids": [
+          "s07-do-you-know"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0002-b0010",
+      "page_number": 2,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "4e8cffee6327a1bec3aa06dad536934bc9040015b131e63f6a962067f1abd29a",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s07-do-you-know"
+        ],
+        "screen_ids": [
+          "s07-do-you-know"
+        ],
+        "visual_cue_ids": [
+          "s07-do-you-know"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0002-b0011",
+      "page_number": 2,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "8a3cac5eb9a58436c7a13f5a8ee39f42eeefb1d8b5d0f7ae1b4574faf5ce96f3",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s08-revolution"
+        ],
+        "screen_ids": [
+          "s08-revolution"
+        ],
+        "visual_cue_ids": [
+          "s08-revolution"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0002-b0012",
+      "page_number": 2,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "7b2f79cb38b8ad7eb6180e2ad12258c901a6a0eb9f5b48786fa161aeaa64a35b",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s08-revolution"
+        ],
+        "screen_ids": [
+          "s08-revolution"
+        ],
+        "visual_cue_ids": [
+          "s08-revolution"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0002-b0013",
+      "page_number": 2,
+      "block_type": "figure",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "b29659998df98339d2fe71685538d5d38990bbb05343ab6a4c95177b1c35cbc8",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s08-revolution"
+        ],
+        "screen_ids": [
+          "s08-revolution"
+        ],
+        "visual_cue_ids": [
+          "s08-revolution"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0002-b0014",
+      "page_number": 2,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "cb503e2571936e32a4de867c071c0cbe5f50fd106430e46bc499f7d62b763042",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s08-revolution"
+        ],
+        "screen_ids": [
+          "s08-revolution"
+        ],
+        "visual_cue_ids": [
+          "s08-revolution"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0002-b0015",
+      "page_number": 2,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "407aef3f8df94f548e45a40abcc2fd42f1ddc9835d0a864221d14af4c88c03ce",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s08-revolution"
+        ],
+        "screen_ids": [
+          "s08-revolution"
+        ],
+        "visual_cue_ids": [
+          "s08-revolution"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0003-b0001",
+      "page_number": 3,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "1c2d0ddce2bf6d2a1f82be0bc14151d13a3884a006fcf532be10de7e32775a07",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s08-revolution"
+        ],
+        "screen_ids": [
+          "s08-revolution"
+        ],
+        "visual_cue_ids": [
+          "s08-revolution"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0003-b0002",
+      "page_number": 3,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "cd8e6d94c4142aca759df78f6b4b4799d352902b2349cb7613ac4fa62316b2ba",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s08-revolution"
+        ],
+        "screen_ids": [
+          "s08-revolution"
+        ],
+        "visual_cue_ids": [
+          "s08-revolution"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0003-b0003",
+      "page_number": 3,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "73e3459e58e41194d57c09cdaa30af0ad10184b26c9c83f23b2056ed302de39c",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s08-revolution"
+        ],
+        "screen_ids": [
+          "s08-revolution"
+        ],
+        "visual_cue_ids": [
+          "s08-revolution"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0003-b0004",
+      "page_number": 3,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "c5eb426bb193361f83d21ac220363467b83e22ffabac29849dbb5a191452e4f5",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s09-day-length"
+        ],
+        "screen_ids": [
+          "s09-day-length"
+        ],
+        "visual_cue_ids": [
+          "s09-day-length"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0003-b0005",
+      "page_number": 3,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "67b4a20f5ca26a364af529388983a06bfaeb3513f11c8f2508b99ab02fb0c4a9",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s09-day-length"
+        ],
+        "screen_ids": [
+          "s09-day-length"
+        ],
+        "visual_cue_ids": [
+          "s09-day-length"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0003-b0006",
+      "page_number": 3,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "f94c659260e9d38111a70371766d03ec1d385e1f5e3c3ff7ebe9a29c66d4014c",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s10-solstice"
+        ],
+        "screen_ids": [
+          "s10-solstice"
+        ],
+        "visual_cue_ids": [
+          "s10-solstice"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0003-b0007",
+      "page_number": 3,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "c22f66150a072ea7fa0895612ba22479a2139ccd3cd877db6835a2af69eb30af",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s10-solstice"
+        ],
+        "screen_ids": [
+          "s10-solstice"
+        ],
+        "visual_cue_ids": [
+          "s10-solstice"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0003-b0008",
+      "page_number": 3,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "c5eb426bb193361f83d21ac220363467b83e22ffabac29849dbb5a191452e4f5",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s11-inertia"
+        ],
+        "screen_ids": [
+          "s11-inertia"
+        ],
+        "visual_cue_ids": [
+          "s11-inertia"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0003-b0009",
+      "page_number": 3,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "4a9896367fb08848c10ae92c56640c66a8ec5c8970e7314e6f1ef3e3d6abf25c",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s11-inertia"
+        ],
+        "screen_ids": [
+          "s11-inertia"
+        ],
+        "visual_cue_ids": [
+          "s11-inertia"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0003-b0010",
+      "page_number": 3,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "49a1b5358c0f63cc426f0fbbd895e19c32b4c4de51b617817f12a3f6c2b67c3e",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s12-equinox"
+        ],
+        "screen_ids": [
+          "s12-equinox"
+        ],
+        "visual_cue_ids": [
+          "s12-equinox"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0003-b0011",
+      "page_number": 3,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "09c48bec7cd154d4baca129863cc1406f4e851216e0f9cd2c19f2107b224e68e",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s12-equinox"
+        ],
+        "screen_ids": [
+          "s12-equinox"
+        ],
+        "visual_cue_ids": [
+          "s12-equinox"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0003-b0012",
+      "page_number": 3,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "ba6c9d5f121baa808a9fd9c1bf6d979e12e96f1423cb16f2476450b10251a90d",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s12-equinox"
+        ],
+        "screen_ids": [
+          "s12-equinox"
+        ],
+        "visual_cue_ids": [
+          "s12-equinox"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0004-b0001",
+      "page_number": 4,
+      "block_type": "figure",
+      "semantic_role": "lesson_content",
+      "source_text_sha256": "eac50a6a47d9a25cc0a7257ad5d446ff646a2183cc7b64fafab107ac3ec856df",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s12-equinox"
+        ],
+        "screen_ids": [
+          "s12-equinox"
+        ],
+        "visual_cue_ids": [
+          "s12-equinox"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0004-b0002",
+      "page_number": 4,
+      "block_type": "section_heading",
+      "semantic_role": "recall",
+      "source_text_sha256": "71e2046e4c01f20a72081a8dc83202405da38fa75c2e4549fbb51c9daddbe207",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s13-recall"
+        ],
+        "screen_ids": [
+          "s13-recall"
+        ],
+        "visual_cue_ids": [
+          "s13-recall"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0004-b0003",
+      "page_number": 4,
+      "block_type": "recall",
+      "semantic_role": "recall",
+      "source_text_sha256": "31bdbc0097319f699c08c1b7ce93b4f25c201455e9ea8fe6e8420edcfc438e21",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s13-recall"
+        ],
+        "screen_ids": [
+          "s13-recall"
+        ],
+        "visual_cue_ids": [
+          "s13-recall"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0004-b0004",
+      "page_number": 4,
+      "block_type": "section_heading",
+      "semantic_role": "recall",
+      "source_text_sha256": "d6e3a21bc9ec82850927d7df90c6f585ea1574142d77b131cce527f3bc48d97e",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s14-remember"
+        ],
+        "screen_ids": [
+          "s14-remember"
+        ],
+        "visual_cue_ids": [
+          "s14-remember"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0004-b0005",
+      "page_number": 4,
+      "block_type": "recall",
+      "semantic_role": "recall",
+      "source_text_sha256": "3f7b0dbd3e2d23581b93059d1f26d8481bee57efa6e2d68f099a56dbae084e01",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s14-remember"
+        ],
+        "screen_ids": [
+          "s14-remember"
+        ],
+        "visual_cue_ids": [
+          "s14-remember"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0004-b0006",
+      "page_number": 4,
+      "block_type": "recall",
+      "semantic_role": "recall",
+      "source_text_sha256": "df5586a1d19c1f3c2c10edfab40caf29edc5013e8f3be08764d79a2665027b9a",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s14-remember"
+        ],
+        "screen_ids": [
+          "s14-remember"
+        ],
+        "visual_cue_ids": [
+          "s14-remember"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0004-b0007",
+      "page_number": 4,
+      "block_type": "recall",
+      "semantic_role": "recall",
+      "source_text_sha256": "271330e4281a595cf27a8f9b93d7eff9d8141ba538698312f56e3856ddfac6bf",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s14-remember"
+        ],
+        "screen_ids": [
+          "s14-remember"
+        ],
+        "visual_cue_ids": [
+          "s14-remember"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0004-b0008",
+      "page_number": 4,
+      "block_type": "recall",
+      "semantic_role": "recall",
+      "source_text_sha256": "f11876da42a945b4d6ef161d3acd452c3bbd7d311adae935af4ea217069bd38d",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s14-remember"
+        ],
+        "screen_ids": [
+          "s14-remember"
+        ],
+        "visual_cue_ids": [
+          "s14-remember"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0004-b0009",
+      "page_number": 4,
+      "block_type": "recall",
+      "semantic_role": "recall",
+      "source_text_sha256": "fb1e6091d0279aa753e6060dd91f473afd563b27fafa7243af1fc3e4f9ad6a6b",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s14-remember"
+        ],
+        "screen_ids": [
+          "s14-remember"
+        ],
+        "visual_cue_ids": [
+          "s14-remember"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0005-b0001",
+      "page_number": 5,
+      "block_type": "section_heading",
+      "semantic_role": "glossary",
+      "source_text_sha256": "d83a0467c449ec4d6d788d1ebf2973b9d0a3c2536bac973777f289f43dae5d7d",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s15-wordbank"
+        ],
+        "screen_ids": [
+          "s15-wordbank"
+        ],
+        "visual_cue_ids": [
+          "s15-wordbank"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0005-b0002",
+      "page_number": 5,
+      "block_type": "glossary",
+      "semantic_role": "glossary",
+      "source_text_sha256": "812bf8712dfa6714cf4b3ab4b0ce7e476ea5dabbc7fdd063e6f201cb55a5a3ad",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s15-wordbank"
+        ],
+        "screen_ids": [
+          "s15-wordbank"
+        ],
+        "visual_cue_ids": [
+          "s15-wordbank"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0005-b0003",
+      "page_number": 5,
+      "block_type": "glossary",
+      "semantic_role": "glossary",
+      "source_text_sha256": "4a094e44ef410efc714742be163a0cbae886fa73ae8d8c688045a6d4634ebf6b",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s15-wordbank"
+        ],
+        "screen_ids": [
+          "s15-wordbank"
+        ],
+        "visual_cue_ids": [
+          "s15-wordbank"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0005-b0004",
+      "page_number": 5,
+      "block_type": "glossary",
+      "semantic_role": "glossary",
+      "source_text_sha256": "6e145442fff872a903337ecb72875fadced4506264673d03f281e8345efcc0e1",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s15-wordbank"
+        ],
+        "screen_ids": [
+          "s15-wordbank"
+        ],
+        "visual_cue_ids": [
+          "s15-wordbank"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0005-b0005",
+      "page_number": 5,
+      "block_type": "glossary",
+      "semantic_role": "glossary",
+      "source_text_sha256": "cdb74ce5f2d2fb3116da8bf5f2226af1f8adc12db736f21e31c692047c9a5df5",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s15-wordbank"
+        ],
+        "screen_ids": [
+          "s15-wordbank"
+        ],
+        "visual_cue_ids": [
+          "s15-wordbank"
+        ]
+      },
+      "omission_reason": null
+    },
+    {
+      "source_block_id": "p0005-b0006",
+      "page_number": 5,
+      "block_type": "glossary",
+      "semantic_role": "glossary",
+      "source_text_sha256": "a8e67225fa1c0c2944557df42869e480d2376aa7391bd9ac66d7e3408b4a5e9d",
+      "required": true,
+      "status": "mapped",
+      "mappings": {
+        "narration_segment_ids": [
+          "s15-wordbank"
+        ],
+        "screen_ids": [
+          "s15-wordbank"
+        ],
+        "visual_cue_ids": [
+          "s15-wordbank"
+        ]
+      },
+      "omission_reason": null
+    }
+  ],
+  "summary": {
+    "total_blocks": 56,
+    "required_blocks": 56,
+    "mapped_blocks": 56,
+    "pending_blocks": 0,
+    "omitted_required_blocks": 0,
+    "coverage_ratio": 1.0,
+    "render_ready": true,
+    "blocking_source_block_ids": []
+  }
+}

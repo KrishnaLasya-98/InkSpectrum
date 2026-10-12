@@ -1,0 +1,116 @@
+{
+  "version": "1.0",
+  "checked_at": "2026-10-07T06:04:38.004662+00:00",
+  "batch": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05.json",
+  "new_submissions": 0,
+  "jobs": [
+    {
+      "shot_id": "lut-heat-shimmer",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\lut-heat-shimmer.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "lut-scorched-ridges",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\lut-scorched-ridges.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "climate-factors-landscape",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\climate-factors-landscape.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "climate-factors-globe",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\climate-factors-globe.mp4",
+      "new_submission": false,
+      "request_id": "188662851",
+      "http_status": 200,
+      "status": "failed"
+    },
+    {
+      "shot_id": "equator-strong-sunlight",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\equator-strong-sunlight.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "polar-low-sunlight",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\polar-low-sunlight.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "monsoon-wind-from-sea",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\monsoon-wind-from-sea.mp4",
+      "new_submission": false,
+      "request_id": "188662857",
+      "http_status": 200,
+      "status": "failed"
+    },
+    {
+      "shot_id": "dry-wind-from-desert",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\dry-wind-from-desert.mp4",
+      "new_submission": false,
+      "request_id": "188662859",
+      "http_status": 200,
+      "status": "failed"
+    },
+    {
+      "shot_id": "climate-types-montage",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\climate-types-montage.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "earth-equator-to-poles",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\earth-equator-to-poles.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "torrid-tropical-sun",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\torrid-tropical-sun.mp4",
+      "new_submission": false,
+      "request_id": "188662866",
+      "http_status": 200,
+      "status": "failed"
+    },
+    {
+      "shot_id": "torrid-warm-river-valley",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\torrid-warm-river-valley.mp4",
+      "new_submission": false,
+      "request_id": "188662868",
+      "http_status": 200,
+      "status": "failed"
+    },
+    {
+      "shot_id": "tundra-reindeer-context",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\tundra-reindeer-context.mp4",
+      "new_submission": false,
+      "request_id": "188662873",
+      "http_status": 200,
+      "status": "failed"
+    },
+    {
+      "shot_id": "antarctica-dry-windy-ice",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\antarctica-dry-windy-ice.mp4",
+      "new_submission": false,
+      "request_id": "188662874",
+      "http_status": 200,
+      "status": "failed"
+    },
+    {
+      "shot_id": "frigid-frozen-coast",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\frigid-frozen-coast.mp4",
+      "new_submission": false,
+      "request_id": "188662875",
+      "http_status": 200,
+      "status": "failed"
+    }
+  ],
+  "downloaded": 7,
+  "total": 15
+}

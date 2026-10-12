@@ -1,0 +1,37 @@
+{
+  "version": "1.0",
+  "checked_at": "2026-10-02T04:29:08.231772+00:00",
+  "batch": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-10.json",
+  "new_submissions": 0,
+  "jobs": [
+    {
+      "shot_id": "classroom-lamp-globe-day-night-10",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-10\\classroom-lamp-globe-day-night-10.mp4",
+      "new_submission": false,
+      "request_id": "188346073",
+      "http_status": 200,
+      "status": "recovered",
+      "output_bytes": 157556
+    },
+    {
+      "shot_id": "sunny-school-morning-10",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-10\\sunny-school-morning-10.mp4",
+      "new_submission": false,
+      "request_id": "188346074",
+      "http_status": 200,
+      "status": "recovered",
+      "output_bytes": 687510
+    },
+    {
+      "shot_id": "peaceful-school-night-10",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-10\\peaceful-school-night-10.mp4",
+      "new_submission": false,
+      "request_id": "188346077",
+      "http_status": 200,
+      "status": "recovered",
+      "output_bytes": 348191
+    }
+  ],
+  "downloaded": 3,
+  "total": 3
+}

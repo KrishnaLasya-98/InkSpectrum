@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188346427",
+  "request_fingerprint": "1b5d5be6cc3bc69d28a82e1ba5f878175bdd2d87e1c823732779ceef92ce08aa",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-11\\solstice-bright-summer-11.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1790915603.8829236,
+  "last_poll_at_unix": 1790915694.1736603,
+  "completed_at_unix": 1790915696.7284286
+}

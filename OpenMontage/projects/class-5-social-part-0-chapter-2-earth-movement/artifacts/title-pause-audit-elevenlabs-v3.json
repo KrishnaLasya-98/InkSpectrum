@@ -1,0 +1,137 @@
+[
+  {
+    "section_id": "s01-title",
+    "heading_end_seconds": 5.0,
+    "first_body_word_seconds": 5.0,
+    "natural_pause_seconds": 0.44,
+    "inserted_pause_seconds": 1.56,
+    "edit_point_seconds": 5.44,
+    "total_pause_seconds": 2.0
+  },
+  {
+    "section_id": "s02-objectives",
+    "heading_end_seconds": 1.32,
+    "first_body_word_seconds": 3.32,
+    "natural_pause_seconds": 0.0,
+    "inserted_pause_seconds": 2.0,
+    "edit_point_seconds": 1.32,
+    "total_pause_seconds": 2.0
+  },
+  {
+    "section_id": "s03-startup",
+    "heading_end_seconds": 1.18,
+    "first_body_word_seconds": 3.18,
+    "natural_pause_seconds": 1.02,
+    "inserted_pause_seconds": 0.98,
+    "edit_point_seconds": 1.69,
+    "total_pause_seconds": 2.0
+  },
+  {
+    "section_id": "s04-spherical-earth",
+    "heading_end_seconds": 2.18,
+    "first_body_word_seconds": 4.18,
+    "natural_pause_seconds": 1.16,
+    "inserted_pause_seconds": 0.84,
+    "edit_point_seconds": 2.76,
+    "total_pause_seconds": 2.0
+  },
+  {
+    "section_id": "s05-two-movements",
+    "heading_end_seconds": 1.92,
+    "first_body_word_seconds": 3.92,
+    "natural_pause_seconds": 1.02,
+    "inserted_pause_seconds": 0.98,
+    "edit_point_seconds": 2.43,
+    "total_pause_seconds": 2.0
+  },
+  {
+    "section_id": "s06-rotation",
+    "heading_end_seconds": 0.46,
+    "first_body_word_seconds": 2.46,
+    "natural_pause_seconds": 0.0,
+    "inserted_pause_seconds": 2.0,
+    "edit_point_seconds": 0.46,
+    "total_pause_seconds": 2.0
+  },
+  {
+    "section_id": "s07-do-you-know",
+    "heading_end_seconds": 0.68,
+    "first_body_word_seconds": 2.68,
+    "natural_pause_seconds": 0.64,
+    "inserted_pause_seconds": 1.36,
+    "edit_point_seconds": 1.0,
+    "total_pause_seconds": 2.0
+  },
+  {
+    "section_id": "s08-revolution",
+    "heading_end_seconds": 0.88,
+    "first_body_word_seconds": 2.88,
+    "natural_pause_seconds": 0.0,
+    "inserted_pause_seconds": 2.0,
+    "edit_point_seconds": 0.88,
+    "total_pause_seconds": 2.0
+  },
+  {
+    "section_id": "s09-day-length",
+    "heading_end_seconds": 1.02,
+    "first_body_word_seconds": 3.02,
+    "natural_pause_seconds": 0.92,
+    "inserted_pause_seconds": 1.08,
+    "edit_point_seconds": 1.48,
+    "total_pause_seconds": 2.0
+  },
+  {
+    "section_id": "s10-solstice",
+    "heading_end_seconds": 2.56,
+    "first_body_word_seconds": 4.56,
+    "natural_pause_seconds": 0.78,
+    "inserted_pause_seconds": 1.22,
+    "edit_point_seconds": 2.95,
+    "total_pause_seconds": 2.0
+  },
+  {
+    "section_id": "s11-inertia",
+    "heading_end_seconds": 1.04,
+    "first_body_word_seconds": 3.04,
+    "natural_pause_seconds": 1.18,
+    "inserted_pause_seconds": 0.82,
+    "edit_point_seconds": 1.63,
+    "total_pause_seconds": 2.0
+  },
+  {
+    "section_id": "s12-equinox",
+    "heading_end_seconds": 2.52,
+    "first_body_word_seconds": 4.52,
+    "natural_pause_seconds": 0.74,
+    "inserted_pause_seconds": 1.26,
+    "edit_point_seconds": 2.89,
+    "total_pause_seconds": 2.0
+  },
+  {
+    "section_id": "s13-recall",
+    "heading_end_seconds": 0.48,
+    "first_body_word_seconds": 2.48,
+    "natural_pause_seconds": 0.74,
+    "inserted_pause_seconds": 1.26,
+    "edit_point_seconds": 0.85,
+    "total_pause_seconds": 2.0
+  },
+  {
+    "section_id": "s14-remember",
+    "heading_end_seconds": 0.84,
+    "first_body_word_seconds": 2.84,
+    "natural_pause_seconds": 0.62,
+    "inserted_pause_seconds": 1.38,
+    "edit_point_seconds": 1.15,
+    "total_pause_seconds": 2.0
+  },
+  {
+    "section_id": "s15-wordbank",
+    "heading_end_seconds": 0.68,
+    "first_body_word_seconds": 2.68,
+    "natural_pause_seconds": 0.86,
+    "inserted_pause_seconds": 1.14,
+    "edit_point_seconds": 1.11,
+    "total_pause_seconds": 2.0
+  }
+]

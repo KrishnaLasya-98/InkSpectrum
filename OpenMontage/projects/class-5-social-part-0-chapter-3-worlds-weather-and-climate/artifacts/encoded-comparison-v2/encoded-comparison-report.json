@@ -1,0 +1,1296 @@
+{
+  "version": "1.0",
+  "candidate": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\hyperframes-final\\renders\\class-5-social-chapter-03-worlds-weather-and-climate-review-v1.mp4",
+  "candidate_sha256": "339761ef44dd38b8658c0e9adb8a3aa3ebe3abe6803271b00485310fad5c4771",
+  "candidate_probe": {
+    "duration_seconds": 548.267,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30.0,
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "has_audio": true,
+    "audio_sample_rate": 48000,
+    "bytes": 257383244
+  },
+  "source": {
+    "pdf": "D:\\InkSpectrum\\OpenMontage\\textbook-collections\\class-5-social\\source-chapters\\chapter-03-world-s-weather-and-climate.pdf",
+    "pdf_sha256": "dd2ee6c7fc148a9d5b949fb88d349f055f17a89ae9263587734910d10768bbcd",
+    "source_audit": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\encoded-source-audit-v2.json",
+    "textbook_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "source_topic_coverage": [
+    {
+      "topic": "Lesson 3: Worlds Weather and Climate",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "climate",
+        "lesson",
+        "weather",
+        "worlds"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Learning Objectives",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "learning",
+        "objectives"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "By the end of this chapter, learners will be able to:",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "able",
+        "chapter",
+        "end",
+        "learners",
+        "will"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Explain the difference between weather and climate.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "between",
+        "climate",
+        "difference",
+        "explain",
+        "weather"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Identify and describe the factors affecting climate.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "affecting",
+        "climate",
+        "describe",
+        "factors",
+        "identify"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Understand the different types of climate found in the world.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "climate",
+        "different",
+        "found",
+        "types",
+        "understand",
+        "world"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Recognize the climatic zones of the Earth.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "climatic",
+        "earth",
+        "recognize",
+        "zones"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Explain how climate affects human life and the environment.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "affects",
+        "climate",
+        "environment",
+        "explain",
+        "how",
+        "human",
+        "life"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Start-Up",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "start",
+        "up"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Look outside the window! Is it sunny, cloudy, or rainy? Have you ever noticed how the weather changes throughout the day? Some places are always warm, while others are cold. Why does this happen? In this chapter, we will explore the differences between weather and climate and understand the factors that influence them.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "always",
+        "between",
+        "changes",
+        "chapter",
+        "climate",
+        "cloudy",
+        "cold",
+        "day",
+        "differences",
+        "does",
+        "ever",
+        "explore",
+        "factors",
+        "happen",
+        "how",
+        "influence",
+        "look",
+        "noticed",
+        "others",
+        "outside",
+        "places",
+        "rainy",
+        "sunny",
+        "throughout",
+        "understand",
+        "warm",
+        "weather",
+        "while",
+        "why",
+        "will",
+        "window",
+        "you"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Weather",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "weather"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Weather is the condition of the atmosphere at a particular place and time. It includes temperature, wind, rainfall, humidity, and cloud cover. Weather can change from hour to hour or day to day. For example, one morning, it may be sunny and by afternoon it could rain.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "afternoon",
+        "atmosphere",
+        "can",
+        "change",
+        "cloud",
+        "condition",
+        "could",
+        "cover",
+        "day",
+        "example",
+        "hour",
+        "humidity",
+        "includes",
+        "may",
+        "morning",
+        "particular",
+        "place",
+        "rain",
+        "rainfall",
+        "sunny",
+        "temperature",
+        "time",
+        "weather",
+        "wind"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Do You Know?",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "do",
+        "know",
+        "you"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "The hottest place on Earth is the Lut Desert in Iran, where temperatures have been recorded as high as 159.3\u00b0F (70.7\u00b0C)! Imagine how hot it must be to have that much heat!",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "159",
+        "70",
+        "been",
+        "desert",
+        "earth",
+        "heat",
+        "high",
+        "hot",
+        "hottest",
+        "how",
+        "imagine",
+        "iran",
+        "lut",
+        "much",
+        "must",
+        "place",
+        "recorded",
+        "temperatures",
+        "where"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Climate",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "climate"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Climate is the average weather condition of a place over a long period, usually 30 years or more. It tells us whether a place is generally hot, cold, wet, or dry. For example, the climate of the Sahara Desert is hot and dry, while the climate of the Amazon Rainforest is warm and rainy.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "30",
+        "amazon",
+        "average",
+        "climate",
+        "cold",
+        "condition",
+        "desert",
+        "dry",
+        "example",
+        "generally",
+        "hot",
+        "long",
+        "over",
+        "period",
+        "place",
+        "rainforest",
+        "rainy",
+        "sahara",
+        "tells",
+        "usually",
+        "warm",
+        "weather",
+        "wet",
+        "whether",
+        "while",
+        "years"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Factors Affecting Climate",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "affecting",
+        "climate",
+        "factors"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Several factors influence the climate of a place. Let us explore them one by one.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "climate",
+        "explore",
+        "factors",
+        "influence",
+        "let",
+        "place",
+        "several"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Distance from the Equator (Latitudes)",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "distance",
+        "equator",
+        "latitudes"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "The Earth is divided into imaginary lines called latitudes. Places near the equator receive direct sunlight throughout the year, making them hot. As we move towards the poles, sunlight spreads out, making these areas cooler. This is why tropical regions are warm, while polar regions are cold.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "areas",
+        "called",
+        "cold",
+        "cooler",
+        "direct",
+        "divided",
+        "earth",
+        "equator",
+        "hot",
+        "imaginary",
+        "into",
+        "latitudes",
+        "lines",
+        "making",
+        "move",
+        "near",
+        "out",
+        "places",
+        "polar",
+        "poles",
+        "receive",
+        "regions",
+        "spreads",
+        "sunlight",
+        "these",
+        "throughout",
+        "towards",
+        "tropical",
+        "warm",
+        "while",
+        "why",
+        "year"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Altitude",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "altitude"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Altitude is the height of a place above sea level. Higher altitudes have cooler temperatures because the air is thinner and cannot hold much heat. For example, mountains are colder than plains at the same latitude.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "above",
+        "air",
+        "altitude",
+        "altitudes",
+        "because",
+        "cannot",
+        "colder",
+        "cooler",
+        "example",
+        "heat",
+        "height",
+        "higher",
+        "hold",
+        "latitude",
+        "level",
+        "mountains",
+        "much",
+        "place",
+        "plains",
+        "same",
+        "sea",
+        "temperatures",
+        "than",
+        "thinner"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Distance from the Sea (Sea Breeze and Land Breeze)",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "breeze",
+        "distance",
+        "land",
+        "sea"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Oceans and seas influence the climate of coastal areas. Water heats up and cools down more slowly than land. During the day, land heats up faster than water, causing a sea breeze to blow from the sea to the land. At night, the land cools down quickly, and a land breeze blows from land to the sea. This keeps coastal areas cooler in summer and warmer in winter compared to inland regions.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "areas",
+        "blow",
+        "blows",
+        "breeze",
+        "causing",
+        "climate",
+        "coastal",
+        "compared",
+        "cooler",
+        "cools",
+        "day",
+        "down",
+        "during",
+        "faster",
+        "heats",
+        "influence",
+        "inland",
+        "keeps",
+        "land",
+        "night",
+        "oceans",
+        "quickly",
+        "regions",
+        "sea",
+        "seas",
+        "slowly",
+        "summer",
+        "than",
+        "up",
+        "warmer",
+        "water",
+        "winter"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Direction of the Wind",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "direction",
+        "wind"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Winds carry heat and moisture from one place to another. Winds coming from the sea bring rain, while winds from deserts bring dry weather. For example, the monsoon winds bring heavy rainfall to India.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "another",
+        "bring",
+        "carry",
+        "coming",
+        "deserts",
+        "dry",
+        "example",
+        "heat",
+        "heavy",
+        "india",
+        "moisture",
+        "monsoon",
+        "place",
+        "rain",
+        "rainfall",
+        "sea",
+        "weather",
+        "while",
+        "winds"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Humidity",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "humidity"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Humidity is the amount of water vapour in the air. Places with high humidity receive more rainfall, while dry areas have less humidity. For example, coastal areas have higher humidity than deserts.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "air",
+        "amount",
+        "areas",
+        "coastal",
+        "deserts",
+        "dry",
+        "example",
+        "high",
+        "higher",
+        "humidity",
+        "less",
+        "places",
+        "rainfall",
+        "receive",
+        "than",
+        "vapour",
+        "water",
+        "while"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Ocean Currents",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "currents",
+        "ocean"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Ocean currents are large movements of water in the oceans. Warm ocean currents make coastal areas warmer, while cold currents bring cool temperatures. For example, the Gulf Stream warms Europe, while the cold Labrador Current cools Canada.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "areas",
+        "bring",
+        "canada",
+        "coastal",
+        "cold",
+        "cool",
+        "cools",
+        "current",
+        "currents",
+        "europe",
+        "example",
+        "gulf",
+        "labrador",
+        "large",
+        "make",
+        "movements",
+        "ocean",
+        "oceans",
+        "stream",
+        "temperatures",
+        "warm",
+        "warmer",
+        "warms",
+        "water",
+        "while"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Let's Learn More!",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "learn",
+        "let"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Rainforests receive about 80 inches of rain each year and they are so important because they provide oxygen and food to the world. Without them, our planet would be very different!",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "80",
+        "about",
+        "because",
+        "different",
+        "each",
+        "food",
+        "important",
+        "inches",
+        "our",
+        "oxygen",
+        "planet",
+        "provide",
+        "rain",
+        "rainforests",
+        "receive",
+        "so",
+        "very",
+        "without",
+        "world",
+        "would",
+        "year"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Types of Climate",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "climate",
+        "types"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Different parts of the world have different types of climate. Let's look at some major types.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "climate",
+        "different",
+        "let",
+        "look",
+        "major",
+        "parts",
+        "types",
+        "world"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Monsoon or Tropical Climate",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "climate",
+        "monsoon",
+        "tropical"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Found in South Asia, Southeast Asia, and some parts of Africa.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "africa",
+        "asia",
+        "found",
+        "parts",
+        "south",
+        "southeast"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "It has hot summers and receives heavy rainfall during the monsoon season.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "during",
+        "heavy",
+        "hot",
+        "monsoon",
+        "rainfall",
+        "receives",
+        "season",
+        "summers"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Equatorial Climate",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "climate",
+        "equatorial"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Found near the equator, such as in the Amazon Rainforest and Congo Basin.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "amazon",
+        "basin",
+        "congo",
+        "equator",
+        "found",
+        "near",
+        "rainforest"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "It is hot and humid throughout the year with heavy rainfall.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "heavy",
+        "hot",
+        "humid",
+        "rainfall",
+        "throughout",
+        "year"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Desert Climate",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "climate",
+        "desert"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Found in places like the Sahara Desert and the Thar Desert.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "desert",
+        "found",
+        "like",
+        "places",
+        "sahara",
+        "thar"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "It has very little rainfall, hot days, and cold nights.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "cold",
+        "days",
+        "hot",
+        "little",
+        "nights",
+        "rainfall",
+        "very"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Tundra Climate",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "climate",
+        "tundra"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Found near the poles, such as in Greenland and Antarctica. It is extremely cold with little or no vegetation.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "antarctica",
+        "cold",
+        "extremely",
+        "found",
+        "greenland",
+        "little",
+        "near",
+        "no",
+        "poles",
+        "vegetation"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Do You Know?",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "do",
+        "know",
+        "you"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Antarctica is the driest, coldest, and windiest continent on Earth. It hasn\u2019t rained there in millions of years, but it\u2019s still considered a desert because of the lack of precipitation.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "antarctica",
+        "because",
+        "coldest",
+        "considered",
+        "continent",
+        "desert",
+        "driest",
+        "earth",
+        "hasn",
+        "lack",
+        "millions",
+        "precipitation",
+        "rained",
+        "still",
+        "there",
+        "windiest",
+        "years"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Climatic Zones of the Earth",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "climatic",
+        "earth",
+        "zones"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "The Earth is divided into three main climatic zones based on latitude.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "based",
+        "climatic",
+        "divided",
+        "earth",
+        "into",
+        "latitude",
+        "main",
+        "three",
+        "zones"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Torrid Zone",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "torrid",
+        "zone"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Located between the Tropic of Cancer and the Tropic of Capricorn.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "between",
+        "cancer",
+        "capricorn",
+        "located",
+        "tropic"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "It is the hottest zone as it receives direct sunlight.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "direct",
+        "hottest",
+        "receives",
+        "sunlight",
+        "zone"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Temperate Zone",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "temperate",
+        "zone"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Found between the tropics and the polar circles.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "between",
+        "circles",
+        "found",
+        "polar",
+        "tropics"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "It has moderate temperatures with distinct seasons.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "distinct",
+        "moderate",
+        "seasons",
+        "temperatures"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Do you know?",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "do",
+        "know",
+        "you"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "There are different types of clouds that can tell you about the weather? For example, cumulus clouds are fluffy and show fair weather, while nimbostratus clouds bring rain or snow.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "about",
+        "bring",
+        "can",
+        "clouds",
+        "cumulus",
+        "different",
+        "example",
+        "fair",
+        "fluffy",
+        "nimbostratus",
+        "rain",
+        "show",
+        "snow",
+        "tell",
+        "there",
+        "types",
+        "weather",
+        "while",
+        "you"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Frigid Zone",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "frigid",
+        "zone"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Located near the poles.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "located",
+        "near",
+        "poles"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "It is the coldest zone with ice-covered lands.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "coldest",
+        "covered",
+        "ice",
+        "lands",
+        "zone"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Recall",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "recall"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Weather and climate are essential aspects of our environment. Many factors, such as latitude, altitude, wind, and ocean currents, influence climate. Different regions experience different types of climates, affecting the way people live, the food they grow and the clothes they wear.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "affecting",
+        "altitude",
+        "aspects",
+        "climate",
+        "climates",
+        "clothes",
+        "currents",
+        "different",
+        "environment",
+        "essential",
+        "experience",
+        "factors",
+        "food",
+        "grow",
+        "influence",
+        "latitude",
+        "live",
+        "many",
+        "ocean",
+        "our",
+        "people",
+        "regions",
+        "types",
+        "way",
+        "wear",
+        "weather",
+        "wind"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Let's Remember",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "let",
+        "remember"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Weather is the daily atmospheric condition of a place.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "atmospheric",
+        "condition",
+        "daily",
+        "place",
+        "weather"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Climate is the average weather over a long period.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "average",
+        "climate",
+        "long",
+        "over",
+        "period",
+        "weather"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Latitude, altitude, distance from the sea, and winds influence climate.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "altitude",
+        "climate",
+        "distance",
+        "influence",
+        "latitude",
+        "sea",
+        "winds"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "The world has different types of climate, including tropical, desert, and tundra.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "climate",
+        "desert",
+        "different",
+        "including",
+        "tropical",
+        "tundra",
+        "types",
+        "world"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "The Earth has three climatic zones: torrid, temperate, and frigid.",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "climatic",
+        "earth",
+        "frigid",
+        "temperate",
+        "three",
+        "torrid",
+        "zones"
+      ],
+      "status": "pass"
+    },
+    {
+      "topic": "Word Bank",
+      "keyword_coverage": 1.0,
+      "matched_keywords": [
+        "bank",
+        "word"
+      ],
+      "status": "pass"
+    }
+  ],
+  "caption_word_timing": {
+    "status": "review",
+    "caption_count": 226,
+    "issues": [
+      "caption-0005: missing terminal punctuation",
+      "caption-0007: missing terminal punctuation",
+      "caption-0009: missing terminal punctuation",
+      "caption-0011: missing terminal punctuation",
+      "caption-0013: missing terminal punctuation",
+      "caption-0015: missing terminal punctuation",
+      "caption-0020: missing terminal punctuation",
+      "caption-0022: missing terminal punctuation",
+      "caption-0025: missing terminal punctuation",
+      "caption-0026: missing terminal punctuation",
+      "caption-0027: missing terminal punctuation",
+      "caption-0030: missing terminal punctuation",
+      "caption-0031: missing terminal punctuation",
+      "caption-0033: missing terminal punctuation",
+      "caption-0035: missing terminal punctuation",
+      "caption-0037: missing terminal punctuation",
+      "caption-0038: missing terminal punctuation",
+      "caption-0041: missing terminal punctuation",
+      "caption-0042: missing terminal punctuation",
+      "caption-0043: missing terminal punctuation",
+      "caption-0044: missing terminal punctuation",
+      "caption-0046: missing terminal punctuation",
+      "caption-0049: missing terminal punctuation",
+      "caption-0050: missing terminal punctuation",
+      "caption-0051: missing terminal punctuation",
+      "caption-0053: missing terminal punctuation",
+      "caption-0054: missing terminal punctuation",
+      "caption-0056: missing terminal punctuation",
+      "caption-0057: missing terminal punctuation",
+      "caption-0058: missing terminal punctuation",
+      "caption-0061: missing terminal punctuation",
+      "caption-0063: missing terminal punctuation",
+      "caption-0066: missing terminal punctuation",
+      "caption-0068: missing terminal punctuation",
+      "caption-0069: missing terminal punctuation",
+      "caption-0071: missing terminal punctuation",
+      "caption-0072: missing terminal punctuation",
+      "caption-0074: missing terminal punctuation",
+      "caption-0077: missing terminal punctuation",
+      "caption-0079: missing terminal punctuation",
+      "caption-0080: missing terminal punctuation",
+      "caption-0082: missing terminal punctuation",
+      "caption-0084: missing terminal punctuation",
+      "caption-0086: missing terminal punctuation",
+      "caption-0088: missing terminal punctuation",
+      "caption-0090: missing terminal punctuation",
+      "caption-0091: missing terminal punctuation",
+      "caption-0092: missing terminal punctuation",
+      "caption-0094: missing terminal punctuation",
+      "caption-0095: missing terminal punctuation",
+      "caption-0097: missing terminal punctuation",
+      "caption-0098: missing terminal punctuation",
+      "caption-0101: missing terminal punctuation",
+      "caption-0103: missing terminal punctuation",
+      "caption-0104: missing terminal punctuation",
+      "caption-0105: missing terminal punctuation",
+      "caption-0107: missing terminal punctuation",
+      "caption-0110: missing terminal punctuation",
+      "caption-0112: missing terminal punctuation",
+      "caption-0113: missing terminal punctuation",
+      "caption-0115: missing terminal punctuation",
+      "caption-0116: missing terminal punctuation",
+      "caption-0119: missing terminal punctuation",
+      "caption-0121: missing terminal punctuation",
+      "caption-0122: missing terminal punctuation",
+      "caption-0124: missing terminal punctuation",
+      "caption-0125: missing terminal punctuation",
+      "caption-0128: missing terminal punctuation",
+      "caption-0129: missing terminal punctuation",
+      "caption-0130: missing terminal punctuation",
+      "caption-0131: missing terminal punctuation",
+      "caption-0133: missing terminal punctuation",
+      "caption-0136: missing terminal punctuation",
+      "caption-0140: missing terminal punctuation",
+      "caption-0142: missing terminal punctuation",
+      "caption-0145: missing terminal punctuation",
+      "caption-0146: missing terminal punctuation",
+      "caption-0148: missing terminal punctuation",
+      "caption-0151: missing terminal punctuation",
+      "caption-0153: missing terminal punctuation",
+      "caption-0156: missing terminal punctuation",
+      "caption-0158: missing terminal punctuation",
+      "caption-0161: missing terminal punctuation",
+      "caption-0163: missing terminal punctuation",
+      "caption-0164: missing terminal punctuation",
+      "caption-0165: missing terminal punctuation",
+      "caption-0168: missing terminal punctuation",
+      "caption-0171: missing terminal punctuation",
+      "caption-0173: missing terminal punctuation",
+      "caption-0176: missing terminal punctuation",
+      "caption-0178: missing terminal punctuation",
+      "caption-0181: missing terminal punctuation",
+      "caption-0182: missing terminal punctuation",
+      "caption-0184: missing terminal punctuation",
+      "caption-0185: missing terminal punctuation",
+      "caption-0189: missing terminal punctuation",
+      "caption-0192: missing terminal punctuation",
+      "caption-0194: missing terminal punctuation",
+      "caption-0196: missing terminal punctuation",
+      "caption-0197: missing terminal punctuation",
+      "caption-0198: missing terminal punctuation",
+      "caption-0201: missing terminal punctuation",
+      "caption-0203: missing terminal punctuation",
+      "caption-0205: missing terminal punctuation",
+      "caption-0207: missing terminal punctuation",
+      "caption-0215: missing terminal punctuation",
+      "caption-0218: missing terminal punctuation",
+      "caption-0221: missing terminal punctuation"
+    ]
+  },
+  "reference_videos": [
+    {
+      "id": "english",
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\english-class1-lesson1-at-the-beach\\hyperframes-final\\renders\\english-class1-at-the-beach-final-v7.mp4",
+      "exists": true,
+      "sha256_matches": true,
+      "probe": {
+        "duration_seconds": 484.067,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30.0,
+        "video_codec": "h264",
+        "audio_codec": "aac",
+        "has_audio": true,
+        "audio_sample_rate": 48000,
+        "bytes": 112814429
+      }
+    },
+    {
+      "id": "evs",
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\evs-lesson-8\\hyperframes-agnes-final\\renders\\evs-lesson-8-3d-synced-final.mp4",
+      "exists": true,
+      "sha256_matches": true,
+      "probe": {
+        "duration_seconds": 288.067,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30.0,
+        "video_codec": "h264",
+        "audio_codec": "aac",
+        "has_audio": true,
+        "audio_sample_rate": 48000,
+        "bytes": 235945743
+      }
+    },
+    {
+      "id": "mathematics",
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\maths-class1-chapter8-two-digit-numbers\\hyperframes-final\\renders\\maths-class1-chapter8-two-digit-numbers-final-v4.mp4",
+      "exists": true,
+      "sha256_matches": true,
+      "probe": {
+        "duration_seconds": 583.233,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30.0,
+        "video_codec": "h264",
+        "audio_codec": "aac",
+        "has_audio": true,
+        "audio_sample_rate": 48000,
+        "bytes": 46174349
+      }
+    }
+  ],
+  "presentation_contract": {
+    "canonical_appearance": "english",
+    "reuse": "presentation rules only; no cross-chapter media reuse without approval",
+    "source_authority": "input PDF",
+    "ui": [
+      "cream section labels",
+      "readable textbook boxes",
+      "stable bottom subtitle lane",
+      "question and answer reveal"
+    ],
+    "subtitles": "punctuated, speech-aligned word highlighting",
+    "newer_user_overrides": {
+      "narration_speed": 0.85,
+      "spoken_title_and_subtitle_pause_seconds": 2,
+      "heading_pause_display": "title-only",
+      "topic_end_pause_seconds": 2,
+      "detailed_explanations": "maths problems and worked examples"
+    },
+    "regression_review": [
+      "source coverage",
+      "titles and textbook boxes",
+      "subtitle safe area and timing",
+      "question thinking pause and answer",
+      "matching visuals",
+      "encoded-output audio and transitions"
+    ]
+  },
+  "contact_sheet": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\encoded-comparison-v2\\encoded-contact-sheet.jpg",
+  "sampled_frames": [
+    "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\encoded-comparison-v2\\encoded-contact-sheet-frames\\frame-01.jpg",
+    "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\encoded-comparison-v2\\encoded-contact-sheet-frames\\frame-02.jpg",
+    "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\encoded-comparison-v2\\encoded-contact-sheet-frames\\frame-03.jpg",
+    "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\encoded-comparison-v2\\encoded-contact-sheet-frames\\frame-04.jpg",
+    "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\encoded-comparison-v2\\encoded-contact-sheet-frames\\frame-05.jpg",
+    "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\encoded-comparison-v2\\encoded-contact-sheet-frames\\frame-06.jpg",
+    "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\encoded-comparison-v2\\encoded-contact-sheet-frames\\frame-07.jpg",
+    "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\encoded-comparison-v2\\encoded-contact-sheet-frames\\frame-08.jpg",
+    "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\encoded-comparison-v2\\encoded-contact-sheet-frames\\frame-09.jpg",
+    "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\encoded-comparison-v2\\encoded-contact-sheet-frames\\frame-10.jpg",
+    "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\encoded-comparison-v2\\encoded-contact-sheet-frames\\frame-11.jpg",
+    "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\encoded-comparison-v2\\encoded-contact-sheet-frames\\frame-12.jpg"
+  ],
+  "automated_status": "review",
+  "gates": {
+    "encoded_technical": true,
+    "reference_integrity": true,
+    "source_topics": true,
+    "caption_timing_and_punctuation": false,
+    "contact_sheet_created": true
+  },
+  "evidence_boundary": "Automation verifies the encoded container, source-topic evidence, caption timing, and approved reference integrity. A human or VLM must still inspect the generated contact sheet for semantic visual matching and aesthetic continuity."
+}

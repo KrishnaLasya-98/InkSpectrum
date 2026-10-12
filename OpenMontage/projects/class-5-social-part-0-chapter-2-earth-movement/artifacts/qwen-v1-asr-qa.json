@@ -1,0 +1,206 @@
+{
+  "status": "review_required",
+  "model": "faster-whisper-small.en",
+  "sections": [
+    {
+      "section_id": "s01-title",
+      "lexical_similarity": 1.0,
+      "expected_words": 8,
+      "heard_words": 8,
+      "mismatches": [],
+      "asr_transcript": "Social Studies, Class 5, Lesson 2, Earth Movement."
+    },
+    {
+      "section_id": "s02-objectives",
+      "lexical_similarity": 1.0,
+      "expected_words": 53,
+      "heard_words": 53,
+      "mismatches": [],
+      "asr_transcript": "Learning Objectives By the end of this chapter, learners will be able to understand that the earth is spherical, identify the two types of movements of the earth, explain rotation and its effects, understand revolution and its effects, learn about different seasons caused by revolution, define solstices and equinoxes and when they occur."
+    },
+    {
+      "section_id": "s03-startup",
+      "lexical_similarity": 1.0,
+      "expected_words": 35,
+      "heard_words": 35,
+      "mismatches": [],
+      "asr_transcript": "start up activity, take a ball and spin it. Notice how it moves. Imagine this is the earth moving in space. The earth moves in two ways. Let's explore these movements and their effects."
+    },
+    {
+      "section_id": "s04-spherical-earth",
+      "lexical_similarity": 0.9932,
+      "expected_words": 73,
+      "heard_words": 74,
+      "mismatches": [
+        {
+          "operation": "insert",
+          "expected": "",
+          "heard": "the"
+        }
+      ],
+      "asr_transcript": "who proved that the Earth is spherical. Many ancient civilizations believed that the Earth was flat. However, Greek philosopher Pythagoras was one of the first to suggest that the Earth is spherical. Later, Aristotle provided evidence by observing how ships disappear over the horizon and how the Earth's shadow on the moon is curved during a lunar eclipse. Ferdinand Magellan's voyage around the the world, further confirmed that the Earth is round."
+    },
+    {
+      "section_id": "s05-two-movements",
+      "lexical_similarity": 1.0,
+      "expected_words": 28,
+      "heard_words": 28,
+      "mismatches": [],
+      "asr_transcript": "The two movements of the Earth, the Earth moves in two ways. Rotation, the Earth spins on its axis around itself. Revolution, the Earth moves around the Sun."
+    },
+    {
+      "section_id": "s06-rotation",
+      "lexical_similarity": 0.9826,
+      "expected_words": 115,
+      "heard_words": 115,
+      "mismatches": [
+        {
+          "operation": "delete",
+          "expected": "rotation",
+          "heard": ""
+        },
+        {
+          "operation": "insert",
+          "expected": "",
+          "heard": "degrees"
+        },
+        {
+          "operation": "replace",
+          "expected": "side",
+          "heard": "sight"
+        }
+      ],
+      "asr_transcript": "Rotation is the movement of the Earth around its own axis is called rotation. The Earth rotates from west to east. It completes one full rotation in 24 hours. The speed of rotation is faster at the equator and slower at the poles. The axis is tilted at an angle of 23.5 degrees. As the Earth is spherical in shape, only one half of the Earth receives sunlight at a time. Thus, the sight of the earth facing the sun experience day. On the other hand, the other half, or the part away from the sun, experiences night. As the earth rotates, the lighted part moves into the darkness. Rotation causes day and night."
+    },
+    {
+      "section_id": "s07-do-you-know",
+      "lexical_similarity": 0.8852,
+      "expected_words": 31,
+      "heard_words": 30,
+      "mismatches": [
+        {
+          "operation": "replace",
+          "expected": "1 670 kilometers",
+          "heard": "1670 km"
+        },
+        {
+          "operation": "replace",
+          "expected": "re",
+          "heard": "are"
+        }
+      ],
+      "asr_transcript": "Do you know? The earth rotates at a speed of 1670 km per hour at the equator. But we don't feel it because we are moving along with it."
+    },
+    {
+      "section_id": "s08-revolution",
+      "lexical_similarity": 0.9864,
+      "expected_words": 109,
+      "heard_words": 112,
+      "mismatches": [
+        {
+          "operation": "insert",
+          "expected": "",
+          "heard": "lew by the"
+        }
+      ],
+      "asr_transcript": "Revolution Revolution is the movement of the earth around the sun in a fixed path called an orbit. The earth revolves around the sun in an elliptical orbit. It takes 365 lew by the days, one year, to complete one revolution. The tilt of the earth's axis remains the same during revolution. Revolution causes seasonal changes. The revolution of the earth and the tilt of its axis cause different seasons. Summer, the hemisphere tilted towards the sun, experiences summer. Winter, the hemisphere tilted away from the sun experiences winter. Spring occurs between winter and summer when the temperature starts rising. Autumn occurs between summer and winter when the temperature starts dropping."
+    },
+    {
+      "section_id": "s09-day-length",
+      "lexical_similarity": 1.0,
+      "expected_words": 35,
+      "heard_words": 35,
+      "mismatches": [],
+      "asr_transcript": "Let's learn more. A day on Earth is actually 23 hours, 56 minutes, not exactly 24 hours, but we round it off to 24 hours because it's easier to keep track of time."
+    },
+    {
+      "section_id": "s10-solstice",
+      "lexical_similarity": 0.9697,
+      "expected_words": 115,
+      "heard_words": 116,
+      "mismatches": [
+        {
+          "operation": "replace",
+          "expected": "22",
+          "heard": "20th of"
+        },
+        {
+          "operation": "replace",
+          "expected": "21 june",
+          "heard": "21th jund"
+        }
+      ],
+      "asr_transcript": "What is solstice and when does it occur? A solstice is a day, when the sun shines vertically over a tropic, both Cancer and Capricorn, in the afternoon and the day is the longest in that hemisphere. On 20th of December, the rays of the sun fall directly over the tropic of Capricorn. This is the longest day in southern hemisphere, summer season, while in the northern hemisphere, it is the shortest day, winter season. This is called winter solstice. On 21th jund, sunlight falls vertically over the tropic of cancer. This is the longest day in northern hemisphere and hence it is called summer solstice, while in the southern hemisphere, it is the shortest day."
+    },
+    {
+      "section_id": "s11-inertia",
+      "lexical_similarity": 1.0,
+      "expected_words": 39,
+      "heard_words": 39,
+      "mismatches": [],
+      "asr_transcript": "Let's learn more. Earth keeps rotating due to inertia, the same reason you continue moving forward when you stop a bike suddenly. This movement doesn't stop because there's no friction in space to slow it down."
+    },
+    {
+      "section_id": "s12-equinox",
+      "lexical_similarity": 0.9655,
+      "expected_words": 73,
+      "heard_words": 72,
+      "mismatches": [
+        {
+          "operation": "replace",
+          "expected": "21st",
+          "heard": "21"
+        },
+        {
+          "operation": "delete",
+          "expected": "autumn",
+          "heard": ""
+        },
+        {
+          "operation": "replace",
+          "expected": "23rd",
+          "heard": "23"
+        }
+      ],
+      "asr_transcript": "What is equinox and when does it occur? The sun falls directly on the equator two times in a year. During this period, there is equal length of day and night all over the world. In northern hemisphere, the March equinox is called the vernal or spring equinox while September equinox is called autumnal equinox. Spring equinox March 21 marks the beginning of spring. Equinox, September 23, marks the beginning of autumn."
+    },
+    {
+      "section_id": "s13-recall",
+      "lexical_similarity": 0.9773,
+      "expected_words": 44,
+      "heard_words": 44,
+      "mismatches": [
+        {
+          "operation": "replace",
+          "expected": "affects",
+          "heard": "effects"
+        }
+      ],
+      "asr_transcript": "Recall, the Earth's movements, rotation and revolution, have significant effects on our lives. Rotation causes day and night, while revolution leads to the change of seasons. Solstices and equinoxes mark the shift in seasons, playing an essential role in our climate and timekeeping."
+    },
+    {
+      "section_id": "s14-remember",
+      "lexical_similarity": 0.9833,
+      "expected_words": 59,
+      "heard_words": 61,
+      "mismatches": [
+        {
+          "operation": "insert",
+          "expected": "",
+          "heard": "dot bulls"
+        }
+      ],
+      "asr_transcript": "Let's remember, the Earth moves in two ways, rotation and revolution. Rotation causes day and night, while revolution causes seasons. The Earth completes one rotation in 24 hours and one revolution in 365 dot bulls days. Solstices occur in June and December, marking the longest and shortest days. Equinoxes occur in March and September, when day and night are equal."
+    },
+    {
+      "section_id": "s15-wordbank",
+      "lexical_similarity": 1.0,
+      "expected_words": 46,
+      "heard_words": 46,
+      "mismatches": [],
+      "asr_transcript": "word bank, rotation spinning of the earth on its axis, revolution movement of the earth around the sun, orbit, the path of the earth around the sun, solstice when the sun is at its farthest point north or south, equinox when day and night are equal."
+    }
+  ],
+  "minimum_similarity": 0.8852,
+  "overall_similarity": 0.982
+}

@@ -1,0 +1,8 @@
+{
+  "status": "audio_received",
+  "fingerprint": "501a4587f78228b0395fcd14992d903431e61b3604c1619e7a669b0836571726",
+  "voice_id": "zJrRUu1KEcKH8qdpNaPJ",
+  "model": "eleven_v4",
+  "characters": 198,
+  "sha256": "aea3afc3520e008040467ffe351aac90fc91a7cf3bbdcc66f886094ae887ede5"
+}

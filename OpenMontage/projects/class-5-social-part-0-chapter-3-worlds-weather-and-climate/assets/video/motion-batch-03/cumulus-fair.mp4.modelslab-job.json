@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188618991",
+  "request_fingerprint": "7bd268041f146303c90bc542cfb555db31ba83b9e16b480b2637cf245ce23925",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-03\\cumulus-fair.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791284929.6038296,
+  "last_poll_at_unix": 1791285315.8724444,
+  "completed_at_unix": 1791285317.7336373
+}

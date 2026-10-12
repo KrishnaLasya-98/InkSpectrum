@@ -1,0 +1,171 @@
+{
+  "section_id": "s22-torrid",
+  "text": "Torrid Zone. Located between the Tropic of Cancer and the Tropic of Capricorn. It is the hottest zone as it receives direct sunlight.",
+  "start_ms": 370880,
+  "end_ms": 381760,
+  "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\audio\\narration-elevenlabs-v1\\s22-torrid.wav",
+  "words": [
+    {
+      "word": "Torrid",
+      "start_ms": 370920,
+      "end_ms": 371301,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1734
+    },
+    {
+      "word": "Zone.",
+      "start_ms": 371381,
+      "end_ms": 371661,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.4227
+    },
+    {
+      "word": "Located",
+      "start_ms": 372463,
+      "end_ms": 372924,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "between",
+      "start_ms": 373064,
+      "end_ms": 373385,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1525
+    },
+    {
+      "word": "the",
+      "start_ms": 373465,
+      "end_ms": 373525,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0009
+    },
+    {
+      "word": "Tropic",
+      "start_ms": 373605,
+      "end_ms": 373926,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.041
+    },
+    {
+      "word": "of",
+      "start_ms": 374006,
+      "end_ms": 374066,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1014
+    },
+    {
+      "word": "Cancer",
+      "start_ms": 374146,
+      "end_ms": 374647,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1007
+    },
+    {
+      "word": "and",
+      "start_ms": 375028,
+      "end_ms": 375128,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0029
+    },
+    {
+      "word": "the",
+      "start_ms": 375188,
+      "end_ms": 375248,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0017
+    },
+    {
+      "word": "Tropic",
+      "start_ms": 375308,
+      "end_ms": 375629,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0141
+    },
+    {
+      "word": "of",
+      "start_ms": 375709,
+      "end_ms": 375749,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "Capricorn.",
+      "start_ms": 375869,
+      "end_ms": 376430,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.6568
+    },
+    {
+      "word": "It",
+      "start_ms": 377252,
+      "end_ms": 377292,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "is",
+      "start_ms": 377392,
+      "end_ms": 377452,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0141
+    },
+    {
+      "word": "the",
+      "start_ms": 377512,
+      "end_ms": 377592,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "hottest",
+      "start_ms": 377733,
+      "end_ms": 378133,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0698
+    },
+    {
+      "word": "zone",
+      "start_ms": 378234,
+      "end_ms": 378514,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.3877
+    },
+    {
+      "word": "as",
+      "start_ms": 378995,
+      "end_ms": 379055,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0915
+    },
+    {
+      "word": "it",
+      "start_ms": 379155,
+      "end_ms": 379195,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "receives",
+      "start_ms": 379275,
+      "end_ms": 379696,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0018
+    },
+    {
+      "word": "direct",
+      "start_ms": 379836,
+      "end_ms": 380217,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.034
+    },
+    {
+      "word": "sunlight.",
+      "start_ms": 380337,
+      "end_ms": 380798,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0019
+    }
+  ],
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

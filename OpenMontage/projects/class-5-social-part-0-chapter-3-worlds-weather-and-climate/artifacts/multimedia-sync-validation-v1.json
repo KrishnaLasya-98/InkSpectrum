@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "sections": 28,
+  "visual_segments": 72,
+  "unique_visual_paths": 72,
+  "duration_seconds": 548.234,
+  "maximum_boundary_error_seconds": 0.001,
+  "stable_card_sections": [
+    "s02-objectives",
+    "s26-recall",
+    "s27-remember",
+    "s28-wordbank"
+  ],
+  "new_provider_submissions": 0
+}

@@ -1,0 +1,138 @@
+{
+  "version": "1.0",
+  "title": "Earth Movement",
+  "subject_classification": "theory",
+  "domain": "social-studies",
+  "complexity_level": "elementary",
+  "target_audience": "Class 5, ages 9-11",
+  "learning_objectives": [
+    "Understand that the Earth is spherical.",
+    "Identify the two types of movements of the Earth.",
+    "Explain rotation and its effects.",
+    "Understand revolution and its effects.",
+    "Learn about different seasons caused by revolution.",
+    "Define solstices and equinoxes and when they occur."
+  ],
+  "metadata": {
+    "subject": "social-studies",
+    "subject_label": "Social Studies",
+    "grade": 5,
+    "chapter": 2,
+    "narration_speed": 0.85,
+    "delivery_policy": {
+      "estimated_wpm": 120,
+      "heading_pause_seconds": 2,
+      "topic_pause_seconds": 1.5
+    },
+    "production_scope": {
+      "user_approved": true,
+      "start_section_id": "s01-title",
+      "end_section_id": "s15-wordbank",
+      "exclude_assessments": true,
+      "description": "Opening through Word Bank inclusive; nothing after Word Bank."
+    },
+    "source_audit": "D:/InkSpectrum/OpenMontage/textbook-collections/class-5-social/reviewed/chapter-02/audits/source-audit.json"
+  },
+  "section_defaults": {
+    "source_delivery": true,
+    "render_mode": "video_gen",
+    "transition_to_next": "crossfade",
+    "animation_action": "Advance topic-matched moving footage at the spoken cue; show the exact textbook lines in the compact teaching panel without covering the subtitle lane."
+  },
+  "sections": [
+    {
+      "section_id": "s01-title",
+      "title": "Lesson 2: Earth Movement",
+      "description": "Open immediately on a child-friendly 3D Earth turning in a bright classroom-to-space setting; show only Social Studies, Class 5 and the exact lesson title in the approved title-card layout.",
+      "narration_prefix": "Social Studies, Class 5.",
+      "source_selectors": [{"page": 1, "start": 1, "end": 1}]
+    },
+    {
+      "section_id": "s02-objectives",
+      "title": "Learning Objectives",
+      "description": "Keep the moving Earth visible behind a compact source-faithful objectives box; reveal each of the six original objectives as it is read.",
+      "source_selectors": [{"page": 1, "start": 2, "end": 9}]
+    },
+    {
+      "section_id": "s03-startup",
+      "title": "Start-Up Activity",
+      "description": "Show one child spinning one ball on a table, then transform the ball into a rotating Earth in space; no duplicate ball or irrelevant action.",
+      "source_selectors": [{"page": 1, "start": 10, "end": 11}]
+    },
+    {
+      "section_id": "s04-spherical-earth",
+      "title": "Who proved that the earth is spherical?",
+      "description": "Use the original spherical Earth figure plus distinct animated beats of a ship disappearing over the horizon, curved Earth shadow at lunar eclipse, and a circumnavigation route; labels remain authored, not AI-generated.",
+      "source_selectors": [{"page": 1, "start": 12, "end": 14}]
+    },
+    {
+      "section_id": "s05-two-movements",
+      "title": "The Two Movements of the Earth",
+      "description": "Contrast a spinning 3D Earth with the same Earth travelling around a Sun, with the two textbook terms shown side by side in the cream teaching box.",
+      "source_selectors": [{"page": 2, "start": 1, "end": 4}]
+    },
+    {
+      "section_id": "s06-rotation",
+      "title": "Rotation",
+      "description": "Animate west-to-east Earth spin and the advancing day-night boundary; insert the exact textbook axial-tilt figure with legible original equator, axis and 23.45-degree diagram labels while the body text's 23.5-degree value is read.",
+      "source_selectors": [{"page": 2, "start": 5, "end": 8}]
+    },
+    {
+      "section_id": "s07-do-you-know",
+      "title": "Do You Know?",
+      "description": "Keep rotating 3D Earth motion behind the original highlighted fact box; emphasize 1,670 kilometres per hour without fabricated speed graphics.",
+      "source_selectors": [{"page": 2, "start": 9, "end": 10}]
+    },
+    {
+      "section_id": "s08-revolution",
+      "title": "Revolution",
+      "description": "Show a continuous 3D tilted Earth orbit around the Sun with changing daylight; use the exact rotation-versus-revolution textbook figure and distinct summer, winter, spring and autumn visual beats when each season is spoken.",
+      "source_selectors": [{"page": 2, "start": 11, "end": 15}, {"page": 3, "start": 1, "end": 3}]
+    },
+    {
+      "section_id": "s09-day-length",
+      "title": "Let's Learn More",
+      "description": "Use one moving Earth and a precise animated clock to compare textbook 23 hours 56 minutes with the rounded 24-hour day; preserve the yellow textbook callout treatment.",
+      "source_selectors": [{"page": 3, "start": 4, "end": 5}]
+    },
+    {
+      "section_id": "s10-solstice",
+      "title": "What is Solstice and When Does It Occur?",
+      "description": "Show the tilted Earth and Sun at December and June positions; keep December 22, June 21, Tropic of Capricorn and Tropic of Cancer as precise authored labels synchronized to the narration.",
+      "source_selectors": [{"page": 3, "start": 6, "end": 7}]
+    },
+    {
+      "section_id": "s11-inertia",
+      "title": "Let's Learn More",
+      "description": "Use a child-friendly short bicycle stopping demonstration and then return to steady Earth rotation; maintain the original blue fact-box wording.",
+      "source_selectors": [{"page": 3, "start": 8, "end": 9}]
+    },
+    {
+      "section_id": "s12-equinox",
+      "title": "What is Equinox and When Does It Occur?",
+      "description": "Show equal illuminated and dark Earth halves, then the complete original four-position solstice/equinox source diagram; keep all four date captions readable and correctly placed.",
+      "source_selectors": [{"page": 3, "start": 10, "end": 12}, {"page": 4, "start": 1, "end": 1}]
+    },
+    {
+      "section_id": "s13-recall",
+      "title": "Recall",
+      "description": "Deliberately stable cream reading card with the complete original Recall paragraph; subtle Earth motion behind it, word-highlight subtitles synchronized to reading.",
+      "render_mode": "hyperframes",
+      "source_selectors": [{"page": 4, "start": 2, "end": 3}]
+    },
+    {
+      "section_id": "s14-remember",
+      "title": "Let's Remember",
+      "description": "One stable, paginated teaching card presenting all five original summary lines in order, with an active line highlight and the relevant rotating globe/orbit visual in the free area.",
+      "render_mode": "hyperframes",
+      "source_selectors": [{"page": 4, "start": 4, "end": 9}]
+    },
+    {
+      "section_id": "s15-wordbank",
+      "title": "Word Bank",
+      "description": "A structured five-row original glossary card: Rotation, Revolution, Orbit, Solstice and Equinox, each exact textbook definition read with synchronized active-row and word highlights; end immediately after the last definition.",
+      "render_mode": "hyperframes",
+      "source_selectors": [{"page": 5, "start": 1, "end": 6}]
+    }
+  ]
+}

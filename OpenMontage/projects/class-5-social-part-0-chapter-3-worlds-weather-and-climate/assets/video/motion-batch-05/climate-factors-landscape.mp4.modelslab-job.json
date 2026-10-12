@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188662849",
+  "request_fingerprint": "42be0d2a2bef0ff61a00ecd4d6d8c9311aa85448cea1bd197fa2097321645400",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\climate-factors-landscape.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791351152.195305,
+  "last_poll_at_unix": 1791352539.1151695,
+  "completed_at_unix": 1791352540.74987
+}

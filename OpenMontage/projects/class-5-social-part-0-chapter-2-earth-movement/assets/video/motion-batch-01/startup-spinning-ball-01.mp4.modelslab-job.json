@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188298909",
+  "request_fingerprint": "398139b37dc2a7ff901a934dee6c30e6c2bd95d004665810972474709925fc2b",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-01\\startup-spinning-ball-01.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1790853588.6918936,
+  "last_poll_at_unix": 1790853960.3562577,
+  "completed_at_unix": 1790853962.2106583
+}

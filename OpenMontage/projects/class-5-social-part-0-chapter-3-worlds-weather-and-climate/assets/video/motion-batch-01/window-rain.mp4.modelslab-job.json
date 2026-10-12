@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188617446",
+  "request_fingerprint": "44ca7fc2ffffed7e037df8e5ac6f18beedc4d2480fe3d455aad1e0057e769462",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-01\\window-rain.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791283035.6996357,
+  "last_poll_at_unix": 1791283138.9600155,
+  "completed_at_unix": 1791283140.8750784
+}

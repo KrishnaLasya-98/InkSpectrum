@@ -1,0 +1,395 @@
+{
+  "section_id": "s06-climate",
+  "text": "Climate. Climate is the average weather condition of a place over a long period, usually 30 years or more. It tells us whether a place is generally hot, cold, wet, or dry. For example, the climate of the Sahara Desert is hot and dry, while the climate of the Amazon Rainforest is warm and rainy.",
+  "start_ms": 99440,
+  "end_ms": 124480,
+  "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\audio\\narration-elevenlabs-v1\\s06-climate.wav",
+  "words": [
+    {
+      "word": "Climate.",
+      "start_ms": 99480,
+      "end_ms": 99940,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0126
+    },
+    {
+      "word": "Climate",
+      "start_ms": 100861,
+      "end_ms": 101342,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0415
+    },
+    {
+      "word": "is",
+      "start_ms": 101602,
+      "end_ms": 101662,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "the",
+      "start_ms": 101722,
+      "end_ms": 101822,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0034
+    },
+    {
+      "word": "average",
+      "start_ms": 102042,
+      "end_ms": 102382,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0226
+    },
+    {
+      "word": "weather",
+      "start_ms": 102442,
+      "end_ms": 102703,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0423
+    },
+    {
+      "word": "condition",
+      "start_ms": 102763,
+      "end_ms": 103203,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0008
+    },
+    {
+      "word": "of",
+      "start_ms": 103383,
+      "end_ms": 103423,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "a",
+      "start_ms": 103543,
+      "end_ms": 103563,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0017
+    },
+    {
+      "word": "place",
+      "start_ms": 103643,
+      "end_ms": 103944,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0011
+    },
+    {
+      "word": "over",
+      "start_ms": 104204,
+      "end_ms": 104404,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1592
+    },
+    {
+      "word": "a",
+      "start_ms": 104484,
+      "end_ms": 104504,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0009
+    },
+    {
+      "word": "long",
+      "start_ms": 104624,
+      "end_ms": 104864,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.091
+    },
+    {
+      "word": "period,",
+      "start_ms": 104984,
+      "end_ms": 105345,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0142
+    },
+    {
+      "word": "usually",
+      "start_ms": 106045,
+      "end_ms": 106406,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0085
+    },
+    {
+      "word": "30",
+      "start_ms": 106526,
+      "end_ms": 106866,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0377
+    },
+    {
+      "word": "years",
+      "start_ms": 106946,
+      "end_ms": 107226,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0601
+    },
+    {
+      "word": "or",
+      "start_ms": 107386,
+      "end_ms": 107446,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0062
+    },
+    {
+      "word": "more.",
+      "start_ms": 107526,
+      "end_ms": 107707,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0535
+    },
+    {
+      "word": "It",
+      "start_ms": 108707,
+      "end_ms": 108767,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0163
+    },
+    {
+      "word": "tells",
+      "start_ms": 108848,
+      "end_ms": 109108,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0014
+    },
+    {
+      "word": "us",
+      "start_ms": 109248,
+      "end_ms": 109308,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "whether",
+      "start_ms": 109428,
+      "end_ms": 109688,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.003
+    },
+    {
+      "word": "a",
+      "start_ms": 109788,
+      "end_ms": 109808,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0006
+    },
+    {
+      "word": "place",
+      "start_ms": 109868,
+      "end_ms": 110149,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0015
+    },
+    {
+      "word": "is",
+      "start_ms": 110289,
+      "end_ms": 110349,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0048
+    },
+    {
+      "word": "generally",
+      "start_ms": 110429,
+      "end_ms": 110869,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0224
+    },
+    {
+      "word": "hot,",
+      "start_ms": 111009,
+      "end_ms": 111229,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0167
+    },
+    {
+      "word": "cold,",
+      "start_ms": 111910,
+      "end_ms": 112230,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0223
+    },
+    {
+      "word": "wet,",
+      "start_ms": 112831,
+      "end_ms": 113051,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0107
+    },
+    {
+      "word": "or",
+      "start_ms": 113551,
+      "end_ms": 113611,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "dry.",
+      "start_ms": 113691,
+      "end_ms": 113932,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0158
+    },
+    {
+      "word": "For",
+      "start_ms": 114892,
+      "end_ms": 114992,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "example,",
+      "start_ms": 115093,
+      "end_ms": 115573,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0088
+    },
+    {
+      "word": "the",
+      "start_ms": 116133,
+      "end_ms": 116213,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0134
+    },
+    {
+      "word": "climate",
+      "start_ms": 116273,
+      "end_ms": 116694,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0242
+    },
+    {
+      "word": "of",
+      "start_ms": 116734,
+      "end_ms": 116794,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.2265
+    },
+    {
+      "word": "the",
+      "start_ms": 116854,
+      "end_ms": 116914,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.001
+    },
+    {
+      "word": "Sahara",
+      "start_ms": 116994,
+      "end_ms": 117414,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0017
+    },
+    {
+      "word": "Desert",
+      "start_ms": 117514,
+      "end_ms": 117875,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0119
+    },
+    {
+      "word": "is",
+      "start_ms": 118095,
+      "end_ms": 118155,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0122
+    },
+    {
+      "word": "hot",
+      "start_ms": 118315,
+      "end_ms": 118535,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0086
+    },
+    {
+      "word": "and",
+      "start_ms": 118755,
+      "end_ms": 118856,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0627
+    },
+    {
+      "word": "dry,",
+      "start_ms": 118916,
+      "end_ms": 119176,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.124
+    },
+    {
+      "word": "while",
+      "start_ms": 119796,
+      "end_ms": 119956,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0019
+    },
+    {
+      "word": "the",
+      "start_ms": 119996,
+      "end_ms": 120076,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0078
+    },
+    {
+      "word": "climate",
+      "start_ms": 120117,
+      "end_ms": 120517,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1578
+    },
+    {
+      "word": "of",
+      "start_ms": 120557,
+      "end_ms": 120597,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "the",
+      "start_ms": 120657,
+      "end_ms": 120757,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0015
+    },
+    {
+      "word": "Amazon",
+      "start_ms": 120917,
+      "end_ms": 121277,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0601
+    },
+    {
+      "word": "Rainforest",
+      "start_ms": 121358,
+      "end_ms": 121978,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0295
+    },
+    {
+      "word": "is",
+      "start_ms": 122318,
+      "end_ms": 122358,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "warm",
+      "start_ms": 122498,
+      "end_ms": 122779,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0154
+    },
+    {
+      "word": "and",
+      "start_ms": 123059,
+      "end_ms": 123159,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0281
+    },
+    {
+      "word": "rainy.",
+      "start_ms": 123239,
+      "end_ms": 123579,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.011
+    }
+  ],
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

@@ -1,0 +1,1363 @@
+{
+  "version": "1.0",
+  "title": "Earth Movement",
+  "subject_classification": "theory",
+  "domain": "social-studies",
+  "complexity_level": "elementary",
+  "target_audience": "Class 5, ages 9-11",
+  "learning_objectives": [
+    "Understand that the Earth is spherical.",
+    "Identify the two types of movements of the Earth.",
+    "Explain rotation and its effects.",
+    "Understand revolution and its effects.",
+    "Learn about different seasons caused by revolution.",
+    "Define solstices and equinoxes and when they occur."
+  ],
+  "metadata": {
+    "subject": "social-studies",
+    "subject_label": "Social Studies",
+    "grade": 5,
+    "chapter": 2,
+    "narration_speed": 0.85,
+    "delivery_policy": {
+      "estimated_wpm": 120,
+      "heading_pause_seconds": 2,
+      "topic_pause_seconds": 1.5
+    },
+    "production_scope": {
+      "user_approved": true,
+      "start_section_id": "s01-title",
+      "end_section_id": "s15-wordbank",
+      "exclude_assessments": true,
+      "description": "Opening through Word Bank inclusive; nothing after Word Bank."
+    },
+    "source_audit": "D:/InkSpectrum/OpenMontage/textbook-collections/class-5-social/reviewed/chapter-02/audits/source-audit.json",
+    "plan_origin": "reviewed-curated-source-contract",
+    "source_block_count": 56,
+    "required_source_block_count": 56,
+    "mapped_required_source_block_count": 56
+  },
+  "sections": [
+    {
+      "render_mode": "video_gen",
+      "transition_to_next": "crossfade",
+      "section_id": "s01-title",
+      "title": "Lesson 2: Earth Movement",
+      "description": "Open immediately on a child-friendly 3D Earth turning in a bright classroom-to-space setting; show only Social Studies, Class 5 and the exact lesson title in the approved title-card layout.",
+      "narration_script": "Social Studies, Class 5. Lesson 2: Earth Movement.",
+      "teaching_contract": {
+        "source_excerpts": [
+          {
+            "block_id": "p0001-b0001",
+            "verbatim_text": "Lesson 2: Earth Movement",
+            "display_text": "Lesson 2: Earth Movement",
+            "narrate_verbatim": true
+          }
+        ],
+        "explanations": [],
+        "questions": [],
+        "animation_beats": [
+          {
+            "cue_text": "Social Studies, Class 5. Lesson 2:",
+            "visual": "Open immediately on a child-friendly 3D Earth turning in a bright classroom-to-space setting; show only Social Studies, Class 5 and the exact lesson title in the approved title-card layout.",
+            "action": "Advance topic-matched moving footage at the spoken cue; show the exact textbook lines in the compact teaching panel without covering the subtitle lane."
+          }
+        ]
+      },
+      "equations": [],
+      "duration_seconds": 10,
+      "source_block_ids": [
+        "p0001-b0001"
+      ],
+      "source_text": "Lesson 2: Earth Movement",
+      "source_document_block_type": "chapter_title",
+      "source_semantic_role": "lesson_content",
+      "source_page_number": 1,
+      "source_bbox": [],
+      "source_fragments": [
+        {
+          "block_id": "p0001-b0001",
+          "page_number": 1,
+          "block_type": "chapter_title",
+          "semantic_role": "lesson_content",
+          "source_text": "Lesson 2: Earth Movement",
+          "bbox": []
+        }
+      ]
+    },
+    {
+      "render_mode": "video_gen",
+      "transition_to_next": "crossfade",
+      "section_id": "s02-objectives",
+      "title": "Learning Objectives",
+      "description": "Keep the moving Earth visible behind a compact source-faithful objectives box; reveal each of the six original objectives as it is read.",
+      "narration_script": "Learning Objectives. By the end of this chapter, learners will be able to: Understand that the Earth is spherical. Identify the two types of movements of the Earth. Explain rotation and its effects. Understand revolution and its effects. Learn about different seasons caused by revolution. Define solstices and equinoxes and when they occur.",
+      "teaching_contract": {
+        "source_excerpts": [
+          {
+            "block_id": "p0001-b0002",
+            "verbatim_text": "Learning Objectives",
+            "display_text": "Learning Objectives",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0001-b0003",
+            "verbatim_text": "By the end of this chapter, learners will be able to",
+            "display_text": "By the end of this chapter, learners will be able to",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0001-b0004",
+            "verbatim_text": "Understand that the Earth is spherical.",
+            "display_text": "Understand that the Earth is spherical.",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0001-b0005",
+            "verbatim_text": "Identify the two types of movements of the Earth.",
+            "display_text": "Identify the two types of movements of the Earth.",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0001-b0006",
+            "verbatim_text": "Explain rotation and its effects.",
+            "display_text": "Explain rotation and its effects.",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0001-b0007",
+            "verbatim_text": "Understand revolution and its effects.",
+            "display_text": "Understand revolution and its effects.",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0001-b0008",
+            "verbatim_text": "Learn about different seasons caused by revolution.",
+            "display_text": "Learn about different seasons caused by revolution.",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0001-b0009",
+            "verbatim_text": "Define solstices and equinoxes and when they occur.",
+            "display_text": "Define solstices and equinoxes and when they occur.",
+            "narrate_verbatim": true
+          }
+        ],
+        "explanations": [],
+        "questions": [],
+        "animation_beats": [
+          {
+            "cue_text": "Learning Objectives. By the end of",
+            "visual": "Keep the moving Earth visible behind a compact source-faithful objectives box; reveal each of the six original objectives as it is read.",
+            "action": "Advance topic-matched moving footage at the spoken cue; show the exact textbook lines in the compact teaching panel without covering the subtitle lane."
+          }
+        ]
+      },
+      "equations": [],
+      "duration_seconds": 32,
+      "source_block_ids": [
+        "p0001-b0002",
+        "p0001-b0003",
+        "p0001-b0004",
+        "p0001-b0005",
+        "p0001-b0006",
+        "p0001-b0007",
+        "p0001-b0008",
+        "p0001-b0009"
+      ],
+      "source_text": "Learning Objectives\nBy the end of this chapter, learners will be able to\nUnderstand that the Earth is spherical.\nIdentify the two types of movements of the Earth.\nExplain rotation and its effects.\nUnderstand revolution and its effects.\nLearn about different seasons caused by revolution.\nDefine solstices and equinoxes and when they occur.",
+      "source_document_block_type": "section_heading",
+      "source_semantic_role": "lesson_content",
+      "source_page_number": 1,
+      "source_bbox": [],
+      "source_fragments": [
+        {
+          "block_id": "p0001-b0002",
+          "page_number": 1,
+          "block_type": "section_heading",
+          "semantic_role": "lesson_content",
+          "source_text": "Learning Objectives",
+          "bbox": []
+        },
+        {
+          "block_id": "p0001-b0003",
+          "page_number": 1,
+          "block_type": "paragraph",
+          "semantic_role": "lesson_content",
+          "source_text": "By the end of this chapter, learners will be able to",
+          "bbox": []
+        },
+        {
+          "block_id": "p0001-b0004",
+          "page_number": 1,
+          "block_type": "bullet",
+          "semantic_role": "lesson_content",
+          "source_text": "Understand that the Earth is spherical.",
+          "bbox": []
+        },
+        {
+          "block_id": "p0001-b0005",
+          "page_number": 1,
+          "block_type": "bullet",
+          "semantic_role": "lesson_content",
+          "source_text": "Identify the two types of movements of the Earth.",
+          "bbox": []
+        },
+        {
+          "block_id": "p0001-b0006",
+          "page_number": 1,
+          "block_type": "bullet",
+          "semantic_role": "lesson_content",
+          "source_text": "Explain rotation and its effects.",
+          "bbox": []
+        },
+        {
+          "block_id": "p0001-b0007",
+          "page_number": 1,
+          "block_type": "bullet",
+          "semantic_role": "lesson_content",
+          "source_text": "Understand revolution and its effects.",
+          "bbox": []
+        },
+        {
+          "block_id": "p0001-b0008",
+          "page_number": 1,
+          "block_type": "bullet",
+          "semantic_role": "lesson_content",
+          "source_text": "Learn about different seasons caused by revolution.",
+          "bbox": []
+        },
+        {
+          "block_id": "p0001-b0009",
+          "page_number": 1,
+          "block_type": "bullet",
+          "semantic_role": "lesson_content",
+          "source_text": "Define solstices and equinoxes and when they occur.",
+          "bbox": []
+        }
+      ]
+    },
+    {
+      "render_mode": "video_gen",
+      "transition_to_next": "crossfade",
+      "section_id": "s03-startup",
+      "title": "Start-Up Activity",
+      "description": "Show one child spinning one ball on a table, then transform the ball into a rotating Earth in space; no duplicate ball or irrelevant action.",
+      "narration_script": "Start-Up Activity. Take a ball and spin it. Notice how it moves. Imagine this is the Earth moving in space. The Earth moves in two ways—let's explore these movements and their effects!",
+      "teaching_contract": {
+        "source_excerpts": [
+          {
+            "block_id": "p0001-b0010",
+            "verbatim_text": "Start-Up Activity",
+            "display_text": "Start-Up Activity",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0001-b0011",
+            "verbatim_text": "Take a ball and spin it. Notice how it moves. Imagine this is the Earth moving in space. The Earth moves in two ways—let's explore these movements and their effects!",
+            "display_text": "Take a ball and spin it. Notice how it moves. Imagine this is the Earth moving in space. The Earth moves in two ways—let's explore these movements and their effects!",
+            "narrate_verbatim": true
+          }
+        ],
+        "explanations": [],
+        "questions": [],
+        "animation_beats": [
+          {
+            "cue_text": "Start-Up Activity. Take a ball and",
+            "visual": "Show one child spinning one ball on a table, then transform the ball into a rotating Earth in space; no duplicate ball or irrelevant action.",
+            "action": "Advance topic-matched moving footage at the spoken cue; show the exact textbook lines in the compact teaching panel without covering the subtitle lane."
+          }
+        ]
+      },
+      "equations": [],
+      "duration_seconds": 22,
+      "source_block_ids": [
+        "p0001-b0010",
+        "p0001-b0011"
+      ],
+      "source_text": "Start-Up Activity\nTake a ball and spin it. Notice how it moves. Imagine this is the Earth moving in space. The Earth moves in two ways—let's explore these movements and their effects!",
+      "source_document_block_type": "section_heading",
+      "source_semantic_role": "activity",
+      "source_page_number": 1,
+      "source_bbox": [],
+      "source_fragments": [
+        {
+          "block_id": "p0001-b0010",
+          "page_number": 1,
+          "block_type": "section_heading",
+          "semantic_role": "activity",
+          "source_text": "Start-Up Activity",
+          "bbox": []
+        },
+        {
+          "block_id": "p0001-b0011",
+          "page_number": 1,
+          "block_type": "activity",
+          "semantic_role": "activity",
+          "source_text": "Take a ball and spin it. Notice how it moves. Imagine this is the Earth moving in space. The Earth moves in two ways—let's explore these movements and their effects!",
+          "bbox": []
+        }
+      ]
+    },
+    {
+      "render_mode": "video_gen",
+      "transition_to_next": "crossfade",
+      "section_id": "s04-spherical-earth",
+      "title": "Who proved that the earth is spherical?",
+      "description": "Use the original spherical Earth figure plus distinct animated beats of a ship disappearing over the horizon, curved Earth shadow at lunar eclipse, and a circumnavigation route; labels remain authored, not AI-generated.",
+      "narration_script": "Who proved that the earth is spherical? Many ancient civilizations believed that the Earth was flat. However, Greek philosopher Pythagoras was one of the first to suggest that the Earth is spherical. Later, Aristotle provided evidence by observing how ships disappear over the horizon and how the Earth's shadow on the Moon is curved during a lunar eclipse. Ferdinand Magellan's voyage around the world further confirmed that the Earth is round.",
+      "teaching_contract": {
+        "source_excerpts": [
+          {
+            "block_id": "p0001-b0012",
+            "verbatim_text": "Who proved that the earth is spherical?",
+            "display_text": "Who proved that the earth is spherical?",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0001-b0013",
+            "verbatim_text": "Many ancient civilizations believed that the Earth was flat. However, Greek philosopher Pythagoras was one of the first to suggest that the Earth is spherical. Later, Aristotle provided evidence by observing how ships disappear over the horizon and how the Earth's shadow on the Moon is curved during a lunar eclipse. Ferdinand Magellan's voyage around the world further confirmed that the Earth is round.",
+            "display_text": "Many ancient civilizations believed that the Earth was flat. However, Greek philosopher Pythagoras was one of the first to suggest that the Earth is spherical. Later, Aristotle provided evidence by observing how ships disappear over the horizon and how the Earth's shadow on the Moon is curved during a lunar eclipse. Ferdinand Magellan's voyage around the world further confirmed that the Earth is round.",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0001-b0014",
+            "verbatim_text": "Textbook spherical Earth illustration",
+            "display_text": "Textbook spherical Earth illustration",
+            "narrate_verbatim": false
+          }
+        ],
+        "explanations": [],
+        "questions": [],
+        "animation_beats": [
+          {
+            "cue_text": "Who proved that the earth is",
+            "visual": "Use the original spherical Earth figure plus distinct animated beats of a ship disappearing over the horizon, curved Earth shadow at lunar eclipse, and a circumnavigation route; labels remain authored, not AI-generated.",
+            "action": "Advance topic-matched moving footage at the spoken cue; show the exact textbook lines in the compact teaching panel without covering the subtitle lane."
+          }
+        ]
+      },
+      "equations": [],
+      "duration_seconds": 41,
+      "source_block_ids": [
+        "p0001-b0012",
+        "p0001-b0013",
+        "p0001-b0014"
+      ],
+      "source_text": "Who proved that the earth is spherical?\nMany ancient civilizations believed that the Earth was flat. However, Greek philosopher Pythagoras was one of the first to suggest that the Earth is spherical. Later, Aristotle provided evidence by observing how ships disappear over the horizon and how the Earth's shadow on the Moon is curved during a lunar eclipse. Ferdinand Magellan's voyage around the world further confirmed that the Earth is round.\nTextbook spherical Earth illustration",
+      "source_document_block_type": "section_heading",
+      "source_semantic_role": "lesson_content",
+      "source_page_number": 1,
+      "source_bbox": [],
+      "source_fragments": [
+        {
+          "block_id": "p0001-b0012",
+          "page_number": 1,
+          "block_type": "section_heading",
+          "semantic_role": "lesson_content",
+          "source_text": "Who proved that the earth is spherical?",
+          "bbox": []
+        },
+        {
+          "block_id": "p0001-b0013",
+          "page_number": 1,
+          "block_type": "paragraph",
+          "semantic_role": "lesson_content",
+          "source_text": "Many ancient civilizations believed that the Earth was flat. However, Greek philosopher Pythagoras was one of the first to suggest that the Earth is spherical. Later, Aristotle provided evidence by observing how ships disappear over the horizon and how the Earth's shadow on the Moon is curved during a lunar eclipse. Ferdinand Magellan's voyage around the world further confirmed that the Earth is round.",
+          "bbox": []
+        },
+        {
+          "block_id": "p0001-b0014",
+          "page_number": 1,
+          "block_type": "figure",
+          "semantic_role": "lesson_content",
+          "source_text": "Textbook spherical Earth illustration",
+          "bbox": []
+        }
+      ]
+    },
+    {
+      "render_mode": "video_gen",
+      "transition_to_next": "crossfade",
+      "section_id": "s05-two-movements",
+      "title": "The Two Movements of the Earth",
+      "description": "Contrast a spinning 3D Earth with the same Earth travelling around a Sun, with the two textbook terms shown side by side in the cream teaching box.",
+      "narration_script": "The Two Movements of the Earth. The Earth moves in two ways: Rotation – The Earth spins on its axis around itself. Revolution – The Earth moves around the Sun.",
+      "teaching_contract": {
+        "source_excerpts": [
+          {
+            "block_id": "p0002-b0001",
+            "verbatim_text": "The Two Movements of the Earth",
+            "display_text": "The Two Movements of the Earth",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0002-b0002",
+            "verbatim_text": "The Earth moves in two ways:",
+            "display_text": "The Earth moves in two ways:",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0002-b0003",
+            "verbatim_text": "Rotation – The Earth spins on its axis around itself.",
+            "display_text": "Rotation – The Earth spins on its axis around itself.",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0002-b0004",
+            "verbatim_text": "Revolution – The Earth moves around the Sun.",
+            "display_text": "Revolution – The Earth moves around the Sun.",
+            "narrate_verbatim": true
+          }
+        ],
+        "explanations": [],
+        "questions": [],
+        "animation_beats": [
+          {
+            "cue_text": "The Two Movements of the Earth.",
+            "visual": "Contrast a spinning 3D Earth with the same Earth travelling around a Sun, with the two textbook terms shown side by side in the cream teaching box.",
+            "action": "Advance topic-matched moving footage at the spoken cue; show the exact textbook lines in the compact teaching panel without covering the subtitle lane."
+          }
+        ]
+      },
+      "equations": [],
+      "duration_seconds": 21,
+      "source_block_ids": [
+        "p0002-b0001",
+        "p0002-b0002",
+        "p0002-b0003",
+        "p0002-b0004"
+      ],
+      "source_text": "The Two Movements of the Earth\nThe Earth moves in two ways:\nRotation – The Earth spins on its axis around itself.\nRevolution – The Earth moves around the Sun.",
+      "source_document_block_type": "section_heading",
+      "source_semantic_role": "lesson_content",
+      "source_page_number": 2,
+      "source_bbox": [],
+      "source_fragments": [
+        {
+          "block_id": "p0002-b0001",
+          "page_number": 2,
+          "block_type": "section_heading",
+          "semantic_role": "lesson_content",
+          "source_text": "The Two Movements of the Earth",
+          "bbox": []
+        },
+        {
+          "block_id": "p0002-b0002",
+          "page_number": 2,
+          "block_type": "paragraph",
+          "semantic_role": "lesson_content",
+          "source_text": "The Earth moves in two ways:",
+          "bbox": []
+        },
+        {
+          "block_id": "p0002-b0003",
+          "page_number": 2,
+          "block_type": "paragraph",
+          "semantic_role": "lesson_content",
+          "source_text": "Rotation – The Earth spins on its axis around itself.",
+          "bbox": []
+        },
+        {
+          "block_id": "p0002-b0004",
+          "page_number": 2,
+          "block_type": "paragraph",
+          "semantic_role": "lesson_content",
+          "source_text": "Revolution – The Earth moves around the Sun.",
+          "bbox": []
+        }
+      ]
+    },
+    {
+      "render_mode": "video_gen",
+      "transition_to_next": "crossfade",
+      "section_id": "s06-rotation",
+      "title": "Rotation",
+      "description": "Animate west-to-east Earth spin and the advancing day-night boundary; insert the exact textbook axial-tilt figure with legible original equator, axis and 23.45-degree diagram labels while the body text's 23.5-degree value is read.",
+      "narration_script": "Rotation. Rotation is the movement of the Earth around its own axis is called Rotation. The earth rotates from west to east. It completes one full rotation in 24 hours. The speed of rotation is faster at the equator and slower at the poles. The axis is tilted at an angle of 23.5°. As the Earth is spherical in shape, only one half of the Earth receives sunlight at a time. Thus, the side of the Earth facing the Sun experience day. On the other hand, the other half, or the part away from the sun, experiences night. As the Earth rotates, the lighted part moves into the darkness. Rotation causes day and night.",
+      "teaching_contract": {
+        "source_excerpts": [
+          {
+            "block_id": "p0002-b0005",
+            "verbatim_text": "Rotation",
+            "display_text": "Rotation",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0002-b0006",
+            "verbatim_text": "Rotation is the movement of the Earth around its own axis is called Rotation.",
+            "display_text": "Rotation is the movement of the Earth around its own axis is called Rotation.",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0002-b0007",
+            "verbatim_text": "The earth rotates from west to east. It completes one full rotation in 24 hours. The speed of rotation is faster at the equator and slower at the poles. The axis is tilted at an angle of 23.5°. As the Earth is spherical in shape, only one half of the Earth receives sunlight at a time. Thus, the side of the Earth facing the Sun experience day. On the other hand, the other half, or the part away from the sun, experiences night. As the Earth rotates, the lighted part moves into the darkness. Rotation causes day and night.",
+            "display_text": "The earth rotates from west to east. It completes one full rotation in 24 hours. The speed of rotation is faster at the equator and slower at the poles. The axis is tilted at an angle of 23.5°. As the Earth is spherical in shape, only one half of the Earth receives sunlight at a time. Thus, the side of the Earth facing the Sun experience day. On the other hand, the other half, or the part away from the sun, experiences night. As the Earth rotates, the lighted part moves into the darkness. Rotation causes day and night.",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0002-b0008",
+            "verbatim_text": "Textbook Earth axis and orbital plane diagram with labels",
+            "display_text": "Textbook Earth axis and orbital plane diagram with labels",
+            "narrate_verbatim": false
+          }
+        ],
+        "explanations": [],
+        "questions": [],
+        "animation_beats": [
+          {
+            "cue_text": "Rotation. Rotation is the movement of",
+            "visual": "Animate west-to-east Earth spin and the advancing day-night boundary; insert the exact textbook axial-tilt figure with legible original equator, axis and 23.45-degree diagram labels while the body text's 23.5-degree value is read.",
+            "action": "Advance topic-matched moving footage at the spoken cue; show the exact textbook lines in the compact teaching panel without covering the subtitle lane."
+          }
+        ]
+      },
+      "equations": [],
+      "duration_seconds": 63,
+      "source_block_ids": [
+        "p0002-b0005",
+        "p0002-b0006",
+        "p0002-b0007",
+        "p0002-b0008"
+      ],
+      "source_text": "Rotation\nRotation is the movement of the Earth around its own axis is called Rotation.\nThe earth rotates from west to east. It completes one full rotation in 24 hours. The speed of rotation is faster at the equator and slower at the poles. The axis is tilted at an angle of 23.5°. As the Earth is spherical in shape, only one half of the Earth receives sunlight at a time. Thus, the side of the Earth facing the Sun experience day. On the other hand, the other half, or the part away from the sun, experiences night. As the Earth rotates, the lighted part moves into the darkness. Rotation causes day and night.\nTextbook Earth axis and orbital plane diagram with labels",
+      "source_document_block_type": "section_heading",
+      "source_semantic_role": "lesson_content",
+      "source_page_number": 2,
+      "source_bbox": [],
+      "source_fragments": [
+        {
+          "block_id": "p0002-b0005",
+          "page_number": 2,
+          "block_type": "section_heading",
+          "semantic_role": "lesson_content",
+          "source_text": "Rotation",
+          "bbox": []
+        },
+        {
+          "block_id": "p0002-b0006",
+          "page_number": 2,
+          "block_type": "paragraph",
+          "semantic_role": "lesson_content",
+          "source_text": "Rotation is the movement of the Earth around its own axis is called Rotation.",
+          "bbox": []
+        },
+        {
+          "block_id": "p0002-b0007",
+          "page_number": 2,
+          "block_type": "paragraph",
+          "semantic_role": "lesson_content",
+          "source_text": "The earth rotates from west to east. It completes one full rotation in 24 hours. The speed of rotation is faster at the equator and slower at the poles. The axis is tilted at an angle of 23.5°. As the Earth is spherical in shape, only one half of the Earth receives sunlight at a time. Thus, the side of the Earth facing the Sun experience day. On the other hand, the other half, or the part away from the sun, experiences night. As the Earth rotates, the lighted part moves into the darkness. Rotation causes day and night.",
+          "bbox": []
+        },
+        {
+          "block_id": "p0002-b0008",
+          "page_number": 2,
+          "block_type": "figure",
+          "semantic_role": "lesson_content",
+          "source_text": "Textbook Earth axis and orbital plane diagram with labels",
+          "bbox": []
+        }
+      ]
+    },
+    {
+      "render_mode": "video_gen",
+      "transition_to_next": "crossfade",
+      "section_id": "s07-do-you-know",
+      "title": "Do You Know?",
+      "description": "Keep rotating 3D Earth motion behind the original highlighted fact box; emphasize 1,670 kilometres per hour without fabricated speed graphics.",
+      "narration_script": "Do You Know? The Earth rotates at a speed of 1,670 kilometers per hour at the equator, but we don’t feel it because we’re moving along with it!",
+      "teaching_contract": {
+        "source_excerpts": [
+          {
+            "block_id": "p0002-b0009",
+            "verbatim_text": "Do You Know?",
+            "display_text": "Do You Know?",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0002-b0010",
+            "verbatim_text": "The Earth rotates at a speed of 1,670 kilometers per hour at the equator, but we don’t feel it because we’re moving along with it!",
+            "display_text": "The Earth rotates at a speed of 1,670 kilometers per hour at the equator, but we don’t feel it because we’re moving along with it!",
+            "narrate_verbatim": true
+          }
+        ],
+        "explanations": [],
+        "questions": [],
+        "animation_beats": [
+          {
+            "cue_text": "Do You Know? The Earth rotates",
+            "visual": "Keep rotating 3D Earth motion behind the original highlighted fact box; emphasize 1,670 kilometres per hour without fabricated speed graphics.",
+            "action": "Advance topic-matched moving footage at the spoken cue; show the exact textbook lines in the compact teaching panel without covering the subtitle lane."
+          }
+        ]
+      },
+      "equations": [],
+      "duration_seconds": 20,
+      "source_block_ids": [
+        "p0002-b0009",
+        "p0002-b0010"
+      ],
+      "source_text": "Do You Know?\nThe Earth rotates at a speed of 1,670 kilometers per hour at the equator, but we don’t feel it because we’re moving along with it!",
+      "source_document_block_type": "section_heading",
+      "source_semantic_role": "lesson_content",
+      "source_page_number": 2,
+      "source_bbox": [],
+      "source_fragments": [
+        {
+          "block_id": "p0002-b0009",
+          "page_number": 2,
+          "block_type": "section_heading",
+          "semantic_role": "lesson_content",
+          "source_text": "Do You Know?",
+          "bbox": []
+        },
+        {
+          "block_id": "p0002-b0010",
+          "page_number": 2,
+          "block_type": "paragraph",
+          "semantic_role": "lesson_content",
+          "source_text": "The Earth rotates at a speed of 1,670 kilometers per hour at the equator, but we don’t feel it because we’re moving along with it!",
+          "bbox": []
+        }
+      ]
+    },
+    {
+      "render_mode": "video_gen",
+      "transition_to_next": "crossfade",
+      "section_id": "s08-revolution",
+      "title": "Revolution",
+      "description": "Show a continuous 3D tilted Earth orbit around the Sun with changing daylight; use the exact rotation-versus-revolution textbook figure and distinct summer, winter, spring and autumn visual beats when each season is spoken.",
+      "narration_script": "Revolution. Revolution is the movement of the Earth around the Sun in a fixed path called an orbit. The Earth revolves around the Sun in an elliptical orbit. It takes 365¼ days (one year) to complete one revolution. The tilt of the Earth's axis remains the same during revolution. Revolution causes seasonal changes. The revolution of the Earth and the tilt of its axis cause different seasons: Summer – The hemisphere tilted towards the Sun experiences summer. Winter – The hemisphere tilted away from the Sun experiences winter. Spring – Occurs between winter and summer when the temperature starts rising. Autumn – Occurs between summer and winter when the temperature starts dropping.",
+      "teaching_contract": {
+        "source_excerpts": [
+          {
+            "block_id": "p0002-b0011",
+            "verbatim_text": "Revolution",
+            "display_text": "Revolution",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0002-b0012",
+            "verbatim_text": "Revolution is the movement of the Earth around the Sun in a fixed path called an orbit. The Earth revolves around the Sun in an elliptical orbit. It takes 365¼ days (one year) to complete one revolution. The tilt of the Earth's axis remains the same during revolution. Revolution causes seasonal changes.",
+            "display_text": "Revolution is the movement of the Earth around the Sun in a fixed path called an orbit. The Earth revolves around the Sun in an elliptical orbit. It takes 365¼ days (one year) to complete one revolution. The tilt of the Earth's axis remains the same during revolution. Revolution causes seasonal changes.",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0002-b0013",
+            "verbatim_text": "Textbook rotation and revolution comparison diagram",
+            "display_text": "Textbook rotation and revolution comparison diagram",
+            "narrate_verbatim": false
+          },
+          {
+            "block_id": "p0002-b0014",
+            "verbatim_text": "The revolution of the Earth and the tilt of its axis cause different seasons:",
+            "display_text": "The revolution of the Earth and the tilt of its axis cause different seasons:",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0002-b0015",
+            "verbatim_text": "Summer – The hemisphere tilted towards the Sun experiences summer.",
+            "display_text": "Summer – The hemisphere tilted towards the Sun experiences summer.",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0003-b0001",
+            "verbatim_text": "Winter – The hemisphere tilted away from the Sun experiences winter.",
+            "display_text": "Winter – The hemisphere tilted away from the Sun experiences winter.",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0003-b0002",
+            "verbatim_text": "Spring – Occurs between winter and summer when the temperature starts rising.",
+            "display_text": "Spring – Occurs between winter and summer when the temperature starts rising.",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0003-b0003",
+            "verbatim_text": "Autumn – Occurs between summer and winter when the temperature starts dropping.",
+            "display_text": "Autumn – Occurs between summer and winter when the temperature starts dropping.",
+            "narrate_verbatim": true
+          }
+        ],
+        "explanations": [],
+        "questions": [],
+        "animation_beats": [
+          {
+            "cue_text": "Revolution. Revolution is the movement of",
+            "visual": "Show a continuous 3D tilted Earth orbit around the Sun with changing daylight; use the exact rotation-versus-revolution textbook figure and distinct summer, winter, spring and autumn visual beats when each season is spoken.",
+            "action": "Advance topic-matched moving footage at the spoken cue; show the exact textbook lines in the compact teaching panel without covering the subtitle lane."
+          }
+        ]
+      },
+      "equations": [],
+      "duration_seconds": 62,
+      "source_block_ids": [
+        "p0002-b0011",
+        "p0002-b0012",
+        "p0002-b0013",
+        "p0002-b0014",
+        "p0002-b0015",
+        "p0003-b0001",
+        "p0003-b0002",
+        "p0003-b0003"
+      ],
+      "source_text": "Revolution\nRevolution is the movement of the Earth around the Sun in a fixed path called an orbit. The Earth revolves around the Sun in an elliptical orbit. It takes 365¼ days (one year) to complete one revolution. The tilt of the Earth's axis remains the same during revolution. Revolution causes seasonal changes.\nTextbook rotation and revolution comparison diagram\nThe revolution of the Earth and the tilt of its axis cause different seasons:\nSummer – The hemisphere tilted towards the Sun experiences summer.\nWinter – The hemisphere tilted away from the Sun experiences winter.\nSpring – Occurs between winter and summer when the temperature starts rising.\nAutumn – Occurs between summer and winter when the temperature starts dropping.",
+      "source_document_block_type": "section_heading",
+      "source_semantic_role": "lesson_content",
+      "source_page_number": 2,
+      "source_bbox": [],
+      "source_fragments": [
+        {
+          "block_id": "p0002-b0011",
+          "page_number": 2,
+          "block_type": "section_heading",
+          "semantic_role": "lesson_content",
+          "source_text": "Revolution",
+          "bbox": []
+        },
+        {
+          "block_id": "p0002-b0012",
+          "page_number": 2,
+          "block_type": "paragraph",
+          "semantic_role": "lesson_content",
+          "source_text": "Revolution is the movement of the Earth around the Sun in a fixed path called an orbit. The Earth revolves around the Sun in an elliptical orbit. It takes 365¼ days (one year) to complete one revolution. The tilt of the Earth's axis remains the same during revolution. Revolution causes seasonal changes.",
+          "bbox": []
+        },
+        {
+          "block_id": "p0002-b0013",
+          "page_number": 2,
+          "block_type": "figure",
+          "semantic_role": "lesson_content",
+          "source_text": "Textbook rotation and revolution comparison diagram",
+          "bbox": []
+        },
+        {
+          "block_id": "p0002-b0014",
+          "page_number": 2,
+          "block_type": "paragraph",
+          "semantic_role": "lesson_content",
+          "source_text": "The revolution of the Earth and the tilt of its axis cause different seasons:",
+          "bbox": []
+        },
+        {
+          "block_id": "p0002-b0015",
+          "page_number": 2,
+          "block_type": "paragraph",
+          "semantic_role": "lesson_content",
+          "source_text": "Summer – The hemisphere tilted towards the Sun experiences summer.",
+          "bbox": []
+        },
+        {
+          "block_id": "p0003-b0001",
+          "page_number": 3,
+          "block_type": "paragraph",
+          "semantic_role": "lesson_content",
+          "source_text": "Winter – The hemisphere tilted away from the Sun experiences winter.",
+          "bbox": []
+        },
+        {
+          "block_id": "p0003-b0002",
+          "page_number": 3,
+          "block_type": "paragraph",
+          "semantic_role": "lesson_content",
+          "source_text": "Spring – Occurs between winter and summer when the temperature starts rising.",
+          "bbox": []
+        },
+        {
+          "block_id": "p0003-b0003",
+          "page_number": 3,
+          "block_type": "paragraph",
+          "semantic_role": "lesson_content",
+          "source_text": "Autumn – Occurs between summer and winter when the temperature starts dropping.",
+          "bbox": []
+        }
+      ]
+    },
+    {
+      "render_mode": "video_gen",
+      "transition_to_next": "crossfade",
+      "section_id": "s09-day-length",
+      "title": "Let's Learn More",
+      "description": "Use one moving Earth and a precise animated clock to compare textbook 23 hours 56 minutes with the rounded 24-hour day; preserve the yellow textbook callout treatment.",
+      "narration_script": "Let's Learn More. A day on Earth is actually 23 hours, 56 minutes, not exactly 24 hours, but we round it off to 24 hours because it’s easier to keep track of time.",
+      "teaching_contract": {
+        "source_excerpts": [
+          {
+            "block_id": "p0003-b0004",
+            "verbatim_text": "Let's Learn More",
+            "display_text": "Let's Learn More",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0003-b0005",
+            "verbatim_text": "A day on Earth is actually 23 hours, 56 minutes, not exactly 24 hours, but we round it off to 24 hours because it’s easier to keep track of time.",
+            "display_text": "A day on Earth is actually 23 hours, 56 minutes, not exactly 24 hours, but we round it off to 24 hours because it’s easier to keep track of time.",
+            "narrate_verbatim": true
+          }
+        ],
+        "explanations": [],
+        "questions": [],
+        "animation_beats": [
+          {
+            "cue_text": "Let's Learn More. A day on",
+            "visual": "Use one moving Earth and a precise animated clock to compare textbook 23 hours 56 minutes with the rounded 24-hour day; preserve the yellow textbook callout treatment.",
+            "action": "Advance topic-matched moving footage at the spoken cue; show the exact textbook lines in the compact teaching panel without covering the subtitle lane."
+          }
+        ]
+      },
+      "equations": [],
+      "duration_seconds": 22,
+      "source_block_ids": [
+        "p0003-b0004",
+        "p0003-b0005"
+      ],
+      "source_text": "Let's Learn More\nA day on Earth is actually 23 hours, 56 minutes, not exactly 24 hours, but we round it off to 24 hours because it’s easier to keep track of time.",
+      "source_document_block_type": "section_heading",
+      "source_semantic_role": "lesson_content",
+      "source_page_number": 3,
+      "source_bbox": [],
+      "source_fragments": [
+        {
+          "block_id": "p0003-b0004",
+          "page_number": 3,
+          "block_type": "section_heading",
+          "semantic_role": "lesson_content",
+          "source_text": "Let's Learn More",
+          "bbox": []
+        },
+        {
+          "block_id": "p0003-b0005",
+          "page_number": 3,
+          "block_type": "paragraph",
+          "semantic_role": "lesson_content",
+          "source_text": "A day on Earth is actually 23 hours, 56 minutes, not exactly 24 hours, but we round it off to 24 hours because it’s easier to keep track of time.",
+          "bbox": []
+        }
+      ]
+    },
+    {
+      "render_mode": "video_gen",
+      "transition_to_next": "crossfade",
+      "section_id": "s10-solstice",
+      "title": "What is Solstice and When Does It Occur?",
+      "description": "Show the tilted Earth and Sun at December and June positions; keep December 22, June 21, Tropic of Capricorn and Tropic of Cancer as precise authored labels synchronized to the narration.",
+      "narration_script": "What is Solstice and When Does It Occur? A solstice is a day, when the sun shines vertically over a Tropic (both cancer and Capricorn) in the afternoon and the day is the longest in that hemisphere. On 22 December, the rays of the sun fall directly over the Tropic of Capricorn. This is the longest day in Southern Hemisphere (summer season), while in the Northern Hemisphere, it is the shortest day (winter season). This is called 'Winter Solstice. On 21 June, sunlight falls vertically over the Tropic of Cancer. This is the longest day in Northern Hemisphere and hence it is called 'Summer Solstice', while in the Southern Hemisphere, it is the shortest day.",
+      "teaching_contract": {
+        "source_excerpts": [
+          {
+            "block_id": "p0003-b0006",
+            "verbatim_text": "What is Solstice and When Does It Occur?",
+            "display_text": "What is Solstice and When Does It Occur?",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0003-b0007",
+            "verbatim_text": "A solstice is a day, when the sun shines vertically over a Tropic (both cancer and Capricorn) in the afternoon and the day is the longest in that hemisphere. On 22 December, the rays of the sun fall directly over the Tropic of Capricorn. This is the longest day in Southern Hemisphere (summer season), while in the Northern Hemisphere, it is the shortest day (winter season). This is called 'Winter Solstice. On 21 June, sunlight falls vertically over the Tropic of Cancer. This is the longest day in Northern Hemisphere and hence it is called 'Summer Solstice', while in the Southern Hemisphere, it is the shortest day.",
+            "display_text": "A solstice is a day, when the sun shines vertically over a Tropic (both cancer and Capricorn) in the afternoon and the day is the longest in that hemisphere. On 22 December, the rays of the sun fall directly over the Tropic of Capricorn. This is the longest day in Southern Hemisphere (summer season), while in the Northern Hemisphere, it is the shortest day (winter season). This is called 'Winter Solstice. On 21 June, sunlight falls vertically over the Tropic of Cancer. This is the longest day in Northern Hemisphere and hence it is called 'Summer Solstice', while in the Southern Hemisphere, it is the shortest day.",
+            "narrate_verbatim": true
+          }
+        ],
+        "explanations": [],
+        "questions": [],
+        "animation_beats": [
+          {
+            "cue_text": "What is Solstice and When Does",
+            "visual": "Show the tilted Earth and Sun at December and June positions; keep December 22, June 21, Tropic of Capricorn and Tropic of Cancer as precise authored labels synchronized to the narration.",
+            "action": "Advance topic-matched moving footage at the spoken cue; show the exact textbook lines in the compact teaching panel without covering the subtitle lane."
+          }
+        ]
+      },
+      "equations": [],
+      "duration_seconds": 63,
+      "source_block_ids": [
+        "p0003-b0006",
+        "p0003-b0007"
+      ],
+      "source_text": "What is Solstice and When Does It Occur?\nA solstice is a day, when the sun shines vertically over a Tropic (both cancer and Capricorn) in the afternoon and the day is the longest in that hemisphere. On 22 December, the rays of the sun fall directly over the Tropic of Capricorn. This is the longest day in Southern Hemisphere (summer season), while in the Northern Hemisphere, it is the shortest day (winter season). This is called 'Winter Solstice. On 21 June, sunlight falls vertically over the Tropic of Cancer. This is the longest day in Northern Hemisphere and hence it is called 'Summer Solstice', while in the Southern Hemisphere, it is the shortest day.",
+      "source_document_block_type": "section_heading",
+      "source_semantic_role": "lesson_content",
+      "source_page_number": 3,
+      "source_bbox": [],
+      "source_fragments": [
+        {
+          "block_id": "p0003-b0006",
+          "page_number": 3,
+          "block_type": "section_heading",
+          "semantic_role": "lesson_content",
+          "source_text": "What is Solstice and When Does It Occur?",
+          "bbox": []
+        },
+        {
+          "block_id": "p0003-b0007",
+          "page_number": 3,
+          "block_type": "paragraph",
+          "semantic_role": "lesson_content",
+          "source_text": "A solstice is a day, when the sun shines vertically over a Tropic (both cancer and Capricorn) in the afternoon and the day is the longest in that hemisphere. On 22 December, the rays of the sun fall directly over the Tropic of Capricorn. This is the longest day in Southern Hemisphere (summer season), while in the Northern Hemisphere, it is the shortest day (winter season). This is called 'Winter Solstice. On 21 June, sunlight falls vertically over the Tropic of Cancer. This is the longest day in Northern Hemisphere and hence it is called 'Summer Solstice', while in the Southern Hemisphere, it is the shortest day.",
+          "bbox": []
+        }
+      ]
+    },
+    {
+      "render_mode": "video_gen",
+      "transition_to_next": "crossfade",
+      "section_id": "s11-inertia",
+      "title": "Let's Learn More",
+      "description": "Use a child-friendly short bicycle stopping demonstration and then return to steady Earth rotation; maintain the original blue fact-box wording.",
+      "narration_script": "Let's Learn More. Earth keeps rotating due to inertia, the same reason you continue moving forward when you stop a bike suddenly. This movement doesn’t stop because there’s no friction in space to slow it down!",
+      "teaching_contract": {
+        "source_excerpts": [
+          {
+            "block_id": "p0003-b0008",
+            "verbatim_text": "Let's Learn More",
+            "display_text": "Let's Learn More",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0003-b0009",
+            "verbatim_text": "Earth keeps rotating due to inertia, the same reason you continue moving forward when you stop a bike suddenly. This movement doesn’t stop because there’s no friction in space to slow it down!",
+            "display_text": "Earth keeps rotating due to inertia, the same reason you continue moving forward when you stop a bike suddenly. This movement doesn’t stop because there’s no friction in space to slow it down!",
+            "narrate_verbatim": true
+          }
+        ],
+        "explanations": [],
+        "questions": [],
+        "animation_beats": [
+          {
+            "cue_text": "Let's Learn More. Earth keeps rotating",
+            "visual": "Use a child-friendly short bicycle stopping demonstration and then return to steady Earth rotation; maintain the original blue fact-box wording.",
+            "action": "Advance topic-matched moving footage at the spoken cue; show the exact textbook lines in the compact teaching panel without covering the subtitle lane."
+          }
+        ]
+      },
+      "equations": [],
+      "duration_seconds": 24,
+      "source_block_ids": [
+        "p0003-b0008",
+        "p0003-b0009"
+      ],
+      "source_text": "Let's Learn More\nEarth keeps rotating due to inertia, the same reason you continue moving forward when you stop a bike suddenly. This movement doesn’t stop because there’s no friction in space to slow it down!",
+      "source_document_block_type": "section_heading",
+      "source_semantic_role": "lesson_content",
+      "source_page_number": 3,
+      "source_bbox": [],
+      "source_fragments": [
+        {
+          "block_id": "p0003-b0008",
+          "page_number": 3,
+          "block_type": "section_heading",
+          "semantic_role": "lesson_content",
+          "source_text": "Let's Learn More",
+          "bbox": []
+        },
+        {
+          "block_id": "p0003-b0009",
+          "page_number": 3,
+          "block_type": "paragraph",
+          "semantic_role": "lesson_content",
+          "source_text": "Earth keeps rotating due to inertia, the same reason you continue moving forward when you stop a bike suddenly. This movement doesn’t stop because there’s no friction in space to slow it down!",
+          "bbox": []
+        }
+      ]
+    },
+    {
+      "render_mode": "video_gen",
+      "transition_to_next": "crossfade",
+      "section_id": "s12-equinox",
+      "title": "What is Equinox and When Does It Occur?",
+      "description": "Show equal illuminated and dark Earth halves, then the complete original four-position solstice/equinox source diagram; keep all four date captions readable and correctly placed.",
+      "narration_script": "What is Equinox and When Does It Occur? The sun falls directly on the equator two times in a year. During this period there is equal length of day and night all over the world. In Northern Hemisphere, the March Equinox is called the Vernal or Spring Equinox while September Equinox is called Autumnal Equinox. Spring Equinox (March 21st) marks the beginning of spring. Autumn Equinox (September 23rd) marks the beginning of autumn.",
+      "teaching_contract": {
+        "source_excerpts": [
+          {
+            "block_id": "p0003-b0010",
+            "verbatim_text": "What is Equinox and When Does It Occur?",
+            "display_text": "What is Equinox and When Does It Occur?",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0003-b0011",
+            "verbatim_text": "The sun falls directly on the equator two times in a year. During this period there is equal length of day and night all over the world.",
+            "display_text": "The sun falls directly on the equator two times in a year. During this period there is equal length of day and night all over the world.",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0003-b0012",
+            "verbatim_text": "In Northern Hemisphere, the March Equinox is called the Vernal or Spring Equinox while September Equinox is called Autumnal Equinox. Spring Equinox (March 21st) marks the beginning of spring. Autumn Equinox (September 23rd) marks the beginning of autumn.",
+            "display_text": "In Northern Hemisphere, the March Equinox is called the Vernal or Spring Equinox while September Equinox is called Autumnal Equinox. Spring Equinox (March 21st) marks the beginning of spring. Autumn Equinox (September 23rd) marks the beginning of autumn.",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0004-b0001",
+            "verbatim_text": "Textbook solstice and equinox orbit diagram with date labels",
+            "display_text": "Textbook solstice and equinox orbit diagram with date labels",
+            "narrate_verbatim": false
+          }
+        ],
+        "explanations": [],
+        "questions": [],
+        "animation_beats": [
+          {
+            "cue_text": "What is Equinox and When Does",
+            "visual": "Show equal illuminated and dark Earth halves, then the complete original four-position solstice/equinox source diagram; keep all four date captions readable and correctly placed.",
+            "action": "Advance topic-matched moving footage at the spoken cue; show the exact textbook lines in the compact teaching panel without covering the subtitle lane."
+          }
+        ]
+      },
+      "equations": [],
+      "duration_seconds": 42,
+      "source_block_ids": [
+        "p0003-b0010",
+        "p0003-b0011",
+        "p0003-b0012",
+        "p0004-b0001"
+      ],
+      "source_text": "What is Equinox and When Does It Occur?\nThe sun falls directly on the equator two times in a year. During this period there is equal length of day and night all over the world.\nIn Northern Hemisphere, the March Equinox is called the Vernal or Spring Equinox while September Equinox is called Autumnal Equinox. Spring Equinox (March 21st) marks the beginning of spring. Autumn Equinox (September 23rd) marks the beginning of autumn.\nTextbook solstice and equinox orbit diagram with date labels",
+      "source_document_block_type": "section_heading",
+      "source_semantic_role": "lesson_content",
+      "source_page_number": 3,
+      "source_bbox": [],
+      "source_fragments": [
+        {
+          "block_id": "p0003-b0010",
+          "page_number": 3,
+          "block_type": "section_heading",
+          "semantic_role": "lesson_content",
+          "source_text": "What is Equinox and When Does It Occur?",
+          "bbox": []
+        },
+        {
+          "block_id": "p0003-b0011",
+          "page_number": 3,
+          "block_type": "paragraph",
+          "semantic_role": "lesson_content",
+          "source_text": "The sun falls directly on the equator two times in a year. During this period there is equal length of day and night all over the world.",
+          "bbox": []
+        },
+        {
+          "block_id": "p0003-b0012",
+          "page_number": 3,
+          "block_type": "paragraph",
+          "semantic_role": "lesson_content",
+          "source_text": "In Northern Hemisphere, the March Equinox is called the Vernal or Spring Equinox while September Equinox is called Autumnal Equinox. Spring Equinox (March 21st) marks the beginning of spring. Autumn Equinox (September 23rd) marks the beginning of autumn.",
+          "bbox": []
+        },
+        {
+          "block_id": "p0004-b0001",
+          "page_number": 4,
+          "block_type": "figure",
+          "semantic_role": "lesson_content",
+          "source_text": "Textbook solstice and equinox orbit diagram with date labels",
+          "bbox": []
+        }
+      ]
+    },
+    {
+      "render_mode": "hyperframes",
+      "transition_to_next": "crossfade",
+      "section_id": "s13-recall",
+      "title": "Recall",
+      "description": "Deliberately stable cream reading card with the complete original Recall paragraph; subtle Earth motion behind it, word-highlight subtitles synchronized to reading.",
+      "narration_script": "Recall. The Earth's movements, rotation and revolution, have significant affects on our lives. Rotation causes day and night, while revolution leads to the change of seasons. Solstices and equinoxes mark the shift in seasons, playing an essential role in our climate and timekeeping.",
+      "teaching_contract": {
+        "source_excerpts": [
+          {
+            "block_id": "p0004-b0002",
+            "verbatim_text": "Recall",
+            "display_text": "Recall",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0004-b0003",
+            "verbatim_text": "The Earth's movements, rotation and revolution, have significant affects on our lives. Rotation causes day and night, while revolution leads to the change of seasons. Solstices and equinoxes mark the shift in seasons, playing an essential role in our climate and timekeeping.",
+            "display_text": "The Earth's movements, rotation and revolution, have significant affects on our lives. Rotation causes day and night, while revolution leads to the change of seasons. Solstices and equinoxes mark the shift in seasons, playing an essential role in our climate and timekeeping.",
+            "narrate_verbatim": true
+          }
+        ],
+        "explanations": [],
+        "questions": [],
+        "animation_beats": [
+          {
+            "cue_text": "Recall. The Earth's movements, rotation and",
+            "visual": "Deliberately stable cream reading card with the complete original Recall paragraph; subtle Earth motion behind it, word-highlight subtitles synchronized to reading.",
+            "action": "Advance topic-matched moving footage at the spoken cue; show the exact textbook lines in the compact teaching panel without covering the subtitle lane."
+          }
+        ]
+      },
+      "equations": [],
+      "duration_seconds": 27,
+      "source_block_ids": [
+        "p0004-b0002",
+        "p0004-b0003"
+      ],
+      "source_text": "Recall\nThe Earth's movements, rotation and revolution, have significant affects on our lives. Rotation causes day and night, while revolution leads to the change of seasons. Solstices and equinoxes mark the shift in seasons, playing an essential role in our climate and timekeeping.",
+      "source_document_block_type": "section_heading",
+      "source_semantic_role": "recall",
+      "source_page_number": 4,
+      "source_bbox": [],
+      "source_fragments": [
+        {
+          "block_id": "p0004-b0002",
+          "page_number": 4,
+          "block_type": "section_heading",
+          "semantic_role": "recall",
+          "source_text": "Recall",
+          "bbox": []
+        },
+        {
+          "block_id": "p0004-b0003",
+          "page_number": 4,
+          "block_type": "recall",
+          "semantic_role": "recall",
+          "source_text": "The Earth's movements, rotation and revolution, have significant affects on our lives. Rotation causes day and night, while revolution leads to the change of seasons. Solstices and equinoxes mark the shift in seasons, playing an essential role in our climate and timekeeping.",
+          "bbox": []
+        }
+      ]
+    },
+    {
+      "render_mode": "hyperframes",
+      "transition_to_next": "crossfade",
+      "section_id": "s14-remember",
+      "title": "Let's Remember",
+      "description": "One stable, paginated teaching card presenting all five original summary lines in order, with an active line highlight and the relevant rotating globe/orbit visual in the free area.",
+      "narration_script": "Let's Remember. The Earth moves in two ways: rotation and revolution. Rotation causes day and night, while revolution causes seasons. The Earth completes one rotation in 24 hours and one revolution in 365¼ days. Solstices occur in June and December, marking the longest and shortest days. Equinoxes occur in March and September, when day and night are equal.",
+      "teaching_contract": {
+        "source_excerpts": [
+          {
+            "block_id": "p0004-b0004",
+            "verbatim_text": "Let's Remember",
+            "display_text": "Let's Remember",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0004-b0005",
+            "verbatim_text": "The Earth moves in two ways: rotation and revolution.",
+            "display_text": "The Earth moves in two ways: rotation and revolution.",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0004-b0006",
+            "verbatim_text": "Rotation causes day and night, while revolution causes seasons.",
+            "display_text": "Rotation causes day and night, while revolution causes seasons.",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0004-b0007",
+            "verbatim_text": "The Earth completes one rotation in 24 hours and one revolution in 365¼ days.",
+            "display_text": "The Earth completes one rotation in 24 hours and one revolution in 365¼ days.",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0004-b0008",
+            "verbatim_text": "Solstices occur in June and December, marking the longest and shortest days.",
+            "display_text": "Solstices occur in June and December, marking the longest and shortest days.",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0004-b0009",
+            "verbatim_text": "Equinoxes occur in March and September, when day and night are equal.",
+            "display_text": "Equinoxes occur in March and September, when day and night are equal.",
+            "narrate_verbatim": true
+          }
+        ],
+        "explanations": [],
+        "questions": [],
+        "animation_beats": [
+          {
+            "cue_text": "Let's Remember. The Earth moves in",
+            "visual": "One stable, paginated teaching card presenting all five original summary lines in order, with an active line highlight and the relevant rotating globe/orbit visual in the free area.",
+            "action": "Advance topic-matched moving footage at the spoken cue; show the exact textbook lines in the compact teaching panel without covering the subtitle lane."
+          }
+        ]
+      },
+      "equations": [],
+      "duration_seconds": 35,
+      "source_block_ids": [
+        "p0004-b0004",
+        "p0004-b0005",
+        "p0004-b0006",
+        "p0004-b0007",
+        "p0004-b0008",
+        "p0004-b0009"
+      ],
+      "source_text": "Let's Remember\nThe Earth moves in two ways: rotation and revolution.\nRotation causes day and night, while revolution causes seasons.\nThe Earth completes one rotation in 24 hours and one revolution in 365¼ days.\nSolstices occur in June and December, marking the longest and shortest days.\nEquinoxes occur in March and September, when day and night are equal.",
+      "source_document_block_type": "section_heading",
+      "source_semantic_role": "recall",
+      "source_page_number": 4,
+      "source_bbox": [],
+      "source_fragments": [
+        {
+          "block_id": "p0004-b0004",
+          "page_number": 4,
+          "block_type": "section_heading",
+          "semantic_role": "recall",
+          "source_text": "Let's Remember",
+          "bbox": []
+        },
+        {
+          "block_id": "p0004-b0005",
+          "page_number": 4,
+          "block_type": "recall",
+          "semantic_role": "recall",
+          "source_text": "The Earth moves in two ways: rotation and revolution.",
+          "bbox": []
+        },
+        {
+          "block_id": "p0004-b0006",
+          "page_number": 4,
+          "block_type": "recall",
+          "semantic_role": "recall",
+          "source_text": "Rotation causes day and night, while revolution causes seasons.",
+          "bbox": []
+        },
+        {
+          "block_id": "p0004-b0007",
+          "page_number": 4,
+          "block_type": "recall",
+          "semantic_role": "recall",
+          "source_text": "The Earth completes one rotation in 24 hours and one revolution in 365¼ days.",
+          "bbox": []
+        },
+        {
+          "block_id": "p0004-b0008",
+          "page_number": 4,
+          "block_type": "recall",
+          "semantic_role": "recall",
+          "source_text": "Solstices occur in June and December, marking the longest and shortest days.",
+          "bbox": []
+        },
+        {
+          "block_id": "p0004-b0009",
+          "page_number": 4,
+          "block_type": "recall",
+          "semantic_role": "recall",
+          "source_text": "Equinoxes occur in March and September, when day and night are equal.",
+          "bbox": []
+        }
+      ]
+    },
+    {
+      "render_mode": "hyperframes",
+      "transition_to_next": "crossfade",
+      "section_id": "s15-wordbank",
+      "title": "Word Bank",
+      "description": "A structured five-row original glossary card: Rotation, Revolution, Orbit, Solstice and Equinox, each exact textbook definition read with synchronized active-row and word highlights; end immediately after the last definition.",
+      "narration_script": "Word Bank. Rotation – Spinning of the Earth on its axis. Revolution – Movement of the Earth around the Sun. Orbit – The path of the Earth around the Sun. Solstice – When the Sun is at its farthest point north or south. Equinox – When day and night are equal.",
+      "teaching_contract": {
+        "source_excerpts": [
+          {
+            "block_id": "p0005-b0001",
+            "verbatim_text": "Word Bank",
+            "display_text": "Word Bank",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0005-b0002",
+            "verbatim_text": "Rotation – Spinning of the Earth on its axis.",
+            "display_text": "Rotation – Spinning of the Earth on its axis.",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0005-b0003",
+            "verbatim_text": "Revolution – Movement of the Earth around the Sun.",
+            "display_text": "Revolution – Movement of the Earth around the Sun.",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0005-b0004",
+            "verbatim_text": "Orbit – The path of the Earth around the Sun.",
+            "display_text": "Orbit – The path of the Earth around the Sun.",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0005-b0005",
+            "verbatim_text": "Solstice – When the Sun is at its farthest point north or south.",
+            "display_text": "Solstice – When the Sun is at its farthest point north or south.",
+            "narrate_verbatim": true
+          },
+          {
+            "block_id": "p0005-b0006",
+            "verbatim_text": "Equinox – When day and night are equal.",
+            "display_text": "Equinox – When day and night are equal.",
+            "narrate_verbatim": true
+          }
+        ],
+        "explanations": [],
+        "questions": [],
+        "animation_beats": [
+          {
+            "cue_text": "Word Bank. Rotation – Spinning of",
+            "visual": "A structured five-row original glossary card: Rotation, Revolution, Orbit, Solstice and Equinox, each exact textbook definition read with synchronized active-row and word highlights; end immediately after the last definition.",
+            "action": "Advance topic-matched moving footage at the spoken cue; show the exact textbook lines in the compact teaching panel without covering the subtitle lane."
+          }
+        ]
+      },
+      "equations": [],
+      "duration_seconds": 31,
+      "source_block_ids": [
+        "p0005-b0001",
+        "p0005-b0002",
+        "p0005-b0003",
+        "p0005-b0004",
+        "p0005-b0005",
+        "p0005-b0006"
+      ],
+      "source_text": "Word Bank\nRotation – Spinning of the Earth on its axis.\nRevolution – Movement of the Earth around the Sun.\nOrbit – The path of the Earth around the Sun.\nSolstice – When the Sun is at its farthest point north or south.\nEquinox – When day and night are equal.",
+      "source_document_block_type": "section_heading",
+      "source_semantic_role": "glossary",
+      "source_page_number": 5,
+      "source_bbox": [],
+      "source_fragments": [
+        {
+          "block_id": "p0005-b0001",
+          "page_number": 5,
+          "block_type": "section_heading",
+          "semantic_role": "glossary",
+          "source_text": "Word Bank",
+          "bbox": []
+        },
+        {
+          "block_id": "p0005-b0002",
+          "page_number": 5,
+          "block_type": "glossary",
+          "semantic_role": "glossary",
+          "source_text": "Rotation – Spinning of the Earth on its axis.",
+          "bbox": []
+        },
+        {
+          "block_id": "p0005-b0003",
+          "page_number": 5,
+          "block_type": "glossary",
+          "semantic_role": "glossary",
+          "source_text": "Revolution – Movement of the Earth around the Sun.",
+          "bbox": []
+        },
+        {
+          "block_id": "p0005-b0004",
+          "page_number": 5,
+          "block_type": "glossary",
+          "semantic_role": "glossary",
+          "source_text": "Orbit – The path of the Earth around the Sun.",
+          "bbox": []
+        },
+        {
+          "block_id": "p0005-b0005",
+          "page_number": 5,
+          "block_type": "glossary",
+          "semantic_role": "glossary",
+          "source_text": "Solstice – When the Sun is at its farthest point north or south.",
+          "bbox": []
+        },
+        {
+          "block_id": "p0005-b0006",
+          "page_number": 5,
+          "block_type": "glossary",
+          "semantic_role": "glossary",
+          "source_text": "Equinox – When day and night are equal.",
+          "bbox": []
+        }
+      ]
+    }
+  ],
+  "total_duration_seconds": 515.0
+}

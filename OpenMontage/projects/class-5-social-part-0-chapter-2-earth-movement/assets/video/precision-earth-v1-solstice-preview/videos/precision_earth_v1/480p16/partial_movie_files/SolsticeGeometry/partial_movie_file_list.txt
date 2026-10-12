@@ -1,0 +1,2 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/InkSpectrum/OpenMontage/projects/class-5-social-part-0-chapter-2-earth-movement/assets/video/precision-earth-v1-solstice-preview/videos/precision_earth_v1/480p16/partial_movie_files/SolsticeGeometry/1608668540_387214238_3943939344.mp4'

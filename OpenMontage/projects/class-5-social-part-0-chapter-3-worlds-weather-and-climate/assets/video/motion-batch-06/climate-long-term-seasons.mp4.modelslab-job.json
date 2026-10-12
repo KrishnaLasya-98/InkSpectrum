@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188664289",
+  "request_fingerprint": "7315d6f6a8d1af01b95354010e56f4d336236bd16f90b3458937917b0a423ef7",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-06\\climate-long-term-seasons.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791353162.1198642,
+  "last_poll_at_unix": 1791353245.1469336,
+  "completed_at_unix": 1791353246.820569
+}

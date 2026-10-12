@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "scope": "Bicycle inertia repair using a new GPT-generated, reviewed reference frame",
+  "provider": "modelslab",
+  "model_id": "wan-2.2-i2v",
+  "operation": "image_to_video",
+  "shots": [
+    {
+      "shot_id": "bicycle-stop-inertia-i2v-09",
+      "section_id": "s11-inertia",
+      "narration_cue": "you continue moving forward when you stop a bike suddenly",
+      "reference_image": "assets/images/gpt-reference-v1/bicycle-inertia-reference-v1.png",
+      "prompt": "Animate the supplied side-view child-friendly 3D reference frame as one continuous five-second shot. The helmeted child rides the small blue bicycle forward slowly for one second, squeezes both brake levers, and the two wheels stop visibly. The child's upper body continues gently forward, then settles safely with one foot on the ground. Preserve the same child's face, clothing, bicycle geometry, park path and camera side view. Make the stop-then-forward-motion inertia action unmistakable. No fall, collision, extra limbs, extra bicycles, text, labels, logos, camera cuts or frozen frames."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188617458",
+  "request_fingerprint": "3322b2bac23a9120808dfecbbbeb34a2468ddc5c778a50a2b14c8185fa34b27f",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-01\\amazon-rain.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791283041.8411376,
+  "last_poll_at_unix": 1791283434.5827782,
+  "completed_at_unix": 1791283436.3904543
+}

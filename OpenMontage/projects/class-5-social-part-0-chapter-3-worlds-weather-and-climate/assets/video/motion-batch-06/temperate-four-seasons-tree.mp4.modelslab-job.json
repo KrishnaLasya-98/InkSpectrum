@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188664312",
+  "request_fingerprint": "743b409aa2d84e520189eccdb5879d213312b4b271aaaee5ea0fb5c0da227e0b",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-06\\temperate-four-seasons-tree.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791353177.9798825,
+  "last_poll_at_unix": 1791353403.4751248,
+  "completed_at_unix": 1791353405.355714
+}

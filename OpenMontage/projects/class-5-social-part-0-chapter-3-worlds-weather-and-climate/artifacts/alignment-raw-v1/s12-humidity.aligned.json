@@ -1,0 +1,241 @@
+{
+  "section_id": "s12-humidity",
+  "text": "Humidity. Humidity is the amount of water vapour in the air. Places with high humidity receive more rainfall, while dry areas have less humidity. For example, coastal areas have higher humidity than deserts.",
+  "start_ms": 233200,
+  "end_ms": 252080,
+  "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\audio\\narration-elevenlabs-v1\\s12-humidity.wav",
+  "words": [
+    {
+      "word": "Humidity.",
+      "start_ms": 233260,
+      "end_ms": 233841,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0243
+    },
+    {
+      "word": "Humidity",
+      "start_ms": 234842,
+      "end_ms": 235422,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0103
+    },
+    {
+      "word": "is",
+      "start_ms": 235743,
+      "end_ms": 235803,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "the",
+      "start_ms": 235863,
+      "end_ms": 235963,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1215
+    },
+    {
+      "word": "amount",
+      "start_ms": 236063,
+      "end_ms": 236403,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0443
+    },
+    {
+      "word": "of",
+      "start_ms": 236503,
+      "end_ms": 236544,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "water",
+      "start_ms": 236704,
+      "end_ms": 237024,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0587
+    },
+    {
+      "word": "vapour",
+      "start_ms": 237084,
+      "end_ms": 237444,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1264
+    },
+    {
+      "word": "in",
+      "start_ms": 237605,
+      "end_ms": 237685,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1012
+    },
+    {
+      "word": "the",
+      "start_ms": 237745,
+      "end_ms": 237845,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0044
+    },
+    {
+      "word": "air.",
+      "start_ms": 238065,
+      "end_ms": 238145,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "Places",
+      "start_ms": 239146,
+      "end_ms": 239567,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0563
+    },
+    {
+      "word": "with",
+      "start_ms": 239667,
+      "end_ms": 239787,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "high",
+      "start_ms": 239927,
+      "end_ms": 240147,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1067
+    },
+    {
+      "word": "humidity",
+      "start_ms": 240227,
+      "end_ms": 240768,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0073
+    },
+    {
+      "word": "receive",
+      "start_ms": 241208,
+      "end_ms": 241549,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0725
+    },
+    {
+      "word": "more",
+      "start_ms": 241709,
+      "end_ms": 241929,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0067
+    },
+    {
+      "word": "rainfall,",
+      "start_ms": 241989,
+      "end_ms": 242550,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0679
+    },
+    {
+      "word": "while",
+      "start_ms": 243191,
+      "end_ms": 243391,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0897
+    },
+    {
+      "word": "dry",
+      "start_ms": 243471,
+      "end_ms": 243691,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "areas",
+      "start_ms": 243891,
+      "end_ms": 244272,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0179
+    },
+    {
+      "word": "have",
+      "start_ms": 244472,
+      "end_ms": 244632,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "less",
+      "start_ms": 244752,
+      "end_ms": 244972,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0239
+    },
+    {
+      "word": "humidity.",
+      "start_ms": 245033,
+      "end_ms": 245553,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0675
+    },
+    {
+      "word": "For",
+      "start_ms": 246254,
+      "end_ms": 246354,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "example,",
+      "start_ms": 246454,
+      "end_ms": 246935,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.066
+    },
+    {
+      "word": "coastal",
+      "start_ms": 247595,
+      "end_ms": 248016,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1472
+    },
+    {
+      "word": "areas",
+      "start_ms": 248216,
+      "end_ms": 248596,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0415
+    },
+    {
+      "word": "have",
+      "start_ms": 248716,
+      "end_ms": 248877,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0834
+    },
+    {
+      "word": "higher",
+      "start_ms": 249017,
+      "end_ms": 249317,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0383
+    },
+    {
+      "word": "humidity",
+      "start_ms": 249377,
+      "end_ms": 249898,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0762
+    },
+    {
+      "word": "than",
+      "start_ms": 250198,
+      "end_ms": 250338,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0013
+    },
+    {
+      "word": "deserts.",
+      "start_ms": 250458,
+      "end_ms": 250939,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0755
+    }
+  ],
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

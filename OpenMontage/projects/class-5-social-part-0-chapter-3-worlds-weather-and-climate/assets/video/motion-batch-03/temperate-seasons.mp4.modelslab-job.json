@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188618990",
+  "request_fingerprint": "600d299de9a9037416386c4f92fa8d56892fcbb25bbbb57c59d2e8d4c1a17a9c",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-03\\temperate-seasons.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791284927.7917287,
+  "last_poll_at_unix": 1791285161.59727,
+  "completed_at_unix": 1791285163.3229604
+}

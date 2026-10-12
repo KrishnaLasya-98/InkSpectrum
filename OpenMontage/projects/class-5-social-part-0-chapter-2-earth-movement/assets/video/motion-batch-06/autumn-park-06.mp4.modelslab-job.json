@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188302686",
+  "request_fingerprint": "0b49bba412f63732e051883672d0bdeb3f37d4d5dbd898b84294b04c1e1cf411",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-06\\autumn-park-06.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1790857748.0120463,
+  "last_poll_at_unix": 1790858157.9078085,
+  "completed_at_unix": 1790858159.6737278
+}

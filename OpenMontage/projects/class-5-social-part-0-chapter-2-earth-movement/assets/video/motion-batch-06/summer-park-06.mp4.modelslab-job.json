@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188302684",
+  "request_fingerprint": "14cdc4751a2e3a4c9857f27ee256f011b45f9d51b26d79e23318a861e5ecc179",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-06\\summer-park-06.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1790857747.1084802,
+  "last_poll_at_unix": 1790858155.4802625,
+  "completed_at_unix": 1790858157.4035237
+}

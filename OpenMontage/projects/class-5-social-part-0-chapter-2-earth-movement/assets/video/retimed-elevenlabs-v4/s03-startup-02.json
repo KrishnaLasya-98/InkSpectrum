@@ -1,0 +1,8 @@
+{
+  "identity": {
+    "source_sha256": "edb76fb8b4c35b73cd80a14c18f44fcc1513a07740742e79474d95f4f2ef5823",
+    "requested_seconds": 6.517,
+    "filter": "setpts+minterpolate-mci-30fps"
+  },
+  "duration_seconds": 6.566667
+}

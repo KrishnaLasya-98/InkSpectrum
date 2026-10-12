@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188618993",
+  "request_fingerprint": "534fa8bbe5d8d7be70accf0f389e388fb5343ced8a313a03c465a23add8ee1bb",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-03\\nimbostratus-rain.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791284930.498739,
+  "last_poll_at_unix": 1791285318.2439947,
+  "completed_at_unix": 1791285319.963969
+}

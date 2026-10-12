@@ -1,0 +1,10 @@
+{
+  "voice_id": "zJrRUu1KEcKH8qdpNaPJ",
+  "model_id": "eleven_v4",
+  "text_sha256": "726141f35e9a1ff5c8ae8487a45fd7a0989a62a182bb9f26b3f96ef937f30432",
+  "context_sha256": "ef4eb74a385e2fe4f9c900320123536fc1568ee099e4e4b1e9336b8ebc1560f2",
+  "settings_sha256": "6bfc8618847cf92c46b254c69cac40b6f667d59384825fd01f919eae5dd46a57",
+  "characters": 728,
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-elevenlabs-zJrRUu1KEcKH8qdpNaPJ-v1\\s08-revolution.mp3",
+  "status": "audio_received"
+}

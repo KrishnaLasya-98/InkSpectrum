@@ -1,0 +1,5 @@
+{
+  "voice_id": "social-chapter2-two-minut",
+  "model": "qwen-tts",
+  "reference_excerpt_seconds": 10
+}

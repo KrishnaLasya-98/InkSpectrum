@@ -1,0 +1,46 @@
+{
+  "version": "1.0",
+  "status": "preview_only",
+  "source": "precision_earth_v1.py",
+  "scenes": [
+    {
+      "scene": "OpeningEarth",
+      "status": "fallback_candidate",
+      "evidence": "qa-previews/precision-opening-corrected-contact.jpg",
+      "note": "Corrected eight-second preview has a text-free dark title-safe left side and continuous globe rotation. Its simple geometric look is weaker than the approved 3D story reference, so keep only as a contingency behind an authored title overlay; prefer a clean Wan opening if batch-03 passes. Needs final-resolution and overlay review."
+    },
+    {
+      "scene": "RevolutionOrbit",
+      "status": "full_resolution_teaching_inset_candidate",
+      "evidence": "qa-previews/precision-revolution-1080p-contact.jpg",
+      "file": "precision-earth-v1-final/videos/precision_earth_v1/1080p30/RevolutionOrbit-1080p.mp4",
+      "note": "The first preview was rejected because its axial tilt rotated with the orbit. The corrected 1920x1080, 30 fps, 12-second H.264 render shows one Earth traveling around one Sun on a clear orbit, with source code preserving axial orientation. It is a geometric teaching inset only: the globe is too small to communicate axial tilt alone and the exact textbook comparison/solstice figures and authored labels must accompany it. Final composition QA is still pending."
+    },
+    {
+      "scene": "RotationDayNight",
+      "status": "rotation_inset_candidate_only",
+      "evidence": "qa-previews/precision-rotation-daynight-contact.jpg",
+      "note": "Ten-second preview shows a clear finite Earth spin with one Sun and no lettering. It does not clearly show a moving day/night boundary or geographic reference point, so do not use it by itself for the day/night explanation. Pair with the accepted short Wan day/night cue and the exact textbook axis figure."
+    },
+    {
+      "scene": "AroundTheWorld",
+      "status": "teaching_inset_candidate",
+      "evidence": "qa-previews/precision-around-world-contact.jpg",
+      "note": "Nine-second temporal contact sheet shows one traveler marker completing a round-world route with no fabricated country label. This is generic geometry, not Magellan's historical route; present only beside the source-faithful sentence and original spherical Earth figure."
+    },
+    {
+      "scene": "TwoMovementsContrast",
+      "status": "full_resolution_teaching_inset_candidate",
+      "evidence": "qa-previews/precision-two-movements-1080p-contact.jpg",
+      "file": "precision-earth-v1-final/videos/precision_earth_v1/1080p30/TwoMovementsContrast-1080p.mp4",
+      "note": "Original 1920x1080, 30 fps, 12-second H.264 scene: left globe spins in place while right globe travels around one Sun with fixed axial orientation. Its simple model and large cream negative space are intended for separately authored Rotation and Revolution labels plus exact source text. Preview and full-resolution temporal contact sheets show distinct correct motions; final overlay and source-caption review remain pending."
+    },
+    {
+      "scene": "SolsticeGeometry",
+      "status": "rejected_freeze_like_preview",
+      "evidence": "qa-previews/precision-solstice-v3-contact.jpg",
+      "note": "A 12-second preview was tested after correcting parallel visible axes and removing physically misleading renderer lighting. Its uniform Earth surfaces now show almost no perceptible rotation across six samples; it would look frozen and fail the continuous-motion bar. Do not full-render or use this scene. Present the exact four-position textbook figure with active authored date/Tropic labels and separately verified chapter-specific moving footage instead."
+    }
+  ],
+  "production_approval": false
+}

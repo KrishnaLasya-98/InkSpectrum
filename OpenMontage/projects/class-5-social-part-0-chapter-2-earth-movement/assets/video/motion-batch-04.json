@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "scope": "Last bounded Wan 2.2 opening retry after text hallucination in batches 02 and 03",
+  "provider": "modelslab",
+  "model_id": "wan-2.2-i2v",
+  "operation": "image_to_video",
+  "shots": [
+    {
+      "shot_id": "earth-opening-natural-i2v-04",
+      "section_id": "s01-title",
+      "narration_cue": "Lesson 2: Earth Movement",
+      "reference_image": "assets/images/gpt-reference-v1/earth-opening.png",
+      "prompt": "One beautiful child-friendly 3D Earth slowly rotates against a deep blue cosmic sky. Soft white clouds drift above the ocean and visible continents. Warm sunlight glows from the upper-right edge. The camera glides forward gently while preserving a continuous natural view of the same single planet for five seconds. Keep the existing stars and the geographic shapes visually stable."
+    }
+  ]
+}

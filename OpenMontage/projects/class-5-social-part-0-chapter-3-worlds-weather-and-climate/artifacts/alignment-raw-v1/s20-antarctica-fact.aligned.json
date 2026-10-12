@@ -1,0 +1,241 @@
+{
+  "section_id": "s20-antarctica-fact",
+  "text": "Do You Know? Antarctica is the driest, coldest, and windiest continent on Earth. It hasn’t rained there in millions of years, but it’s still considered a desert because of the lack of precipitation.",
+  "start_ms": 346800,
+  "end_ms": 362560,
+  "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\audio\\narration-elevenlabs-v1\\s20-antarctica-fact.wav",
+  "words": [
+    {
+      "word": "Do",
+      "start_ms": 346880,
+      "end_ms": 346960,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "You",
+      "start_ms": 347040,
+      "end_ms": 347160,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0067
+    },
+    {
+      "word": "Know?",
+      "start_ms": 347241,
+      "end_ms": 347401,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0513
+    },
+    {
+      "word": "Antarctica",
+      "start_ms": 348202,
+      "end_ms": 348903,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.3171
+    },
+    {
+      "word": "is",
+      "start_ms": 349163,
+      "end_ms": 349203,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0005
+    },
+    {
+      "word": "the",
+      "start_ms": 349303,
+      "end_ms": 349383,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "driest,",
+      "start_ms": 349483,
+      "end_ms": 350064,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0447
+    },
+    {
+      "word": "coldest,",
+      "start_ms": 350485,
+      "end_ms": 351025,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0052
+    },
+    {
+      "word": "and",
+      "start_ms": 351486,
+      "end_ms": 351546,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "windiest",
+      "start_ms": 351746,
+      "end_ms": 352267,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0243
+    },
+    {
+      "word": "continent",
+      "start_ms": 352387,
+      "end_ms": 352888,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0866
+    },
+    {
+      "word": "on",
+      "start_ms": 353068,
+      "end_ms": 353108,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0008
+    },
+    {
+      "word": "Earth.",
+      "start_ms": 353288,
+      "end_ms": 353488,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0062
+    },
+    {
+      "word": "It",
+      "start_ms": 354390,
+      "end_ms": 354450,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0165
+    },
+    {
+      "word": "hasn’t",
+      "start_ms": 354530,
+      "end_ms": 354850,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1156
+    },
+    {
+      "word": "rained",
+      "start_ms": 354930,
+      "end_ms": 355231,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.221
+    },
+    {
+      "word": "there",
+      "start_ms": 355311,
+      "end_ms": 355531,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0538
+    },
+    {
+      "word": "in",
+      "start_ms": 355691,
+      "end_ms": 355731,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "millions",
+      "start_ms": 355952,
+      "end_ms": 356392,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0733
+    },
+    {
+      "word": "of",
+      "start_ms": 356472,
+      "end_ms": 356512,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "years,",
+      "start_ms": 356592,
+      "end_ms": 356873,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0075
+    },
+    {
+      "word": "but",
+      "start_ms": 357754,
+      "end_ms": 357914,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0399
+    },
+    {
+      "word": "it’s",
+      "start_ms": 358174,
+      "end_ms": 358295,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -2.1795
+    },
+    {
+      "word": "still",
+      "start_ms": 358355,
+      "end_ms": 358615,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0239
+    },
+    {
+      "word": "considered",
+      "start_ms": 358715,
+      "end_ms": 359216,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0282
+    },
+    {
+      "word": "a",
+      "start_ms": 359276,
+      "end_ms": 359296,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0008
+    },
+    {
+      "word": "desert",
+      "start_ms": 359376,
+      "end_ms": 359776,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0786
+    },
+    {
+      "word": "because",
+      "start_ms": 360097,
+      "end_ms": 360357,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0534
+    },
+    {
+      "word": "of",
+      "start_ms": 360417,
+      "end_ms": 360457,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "the",
+      "start_ms": 360517,
+      "end_ms": 360598,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0235
+    },
+    {
+      "word": "lack",
+      "start_ms": 360678,
+      "end_ms": 360858,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.001
+    },
+    {
+      "word": "of",
+      "start_ms": 360938,
+      "end_ms": 360978,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "precipitation.",
+      "start_ms": 361078,
+      "end_ms": 361939,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -2.3977
+    }
+  ],
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

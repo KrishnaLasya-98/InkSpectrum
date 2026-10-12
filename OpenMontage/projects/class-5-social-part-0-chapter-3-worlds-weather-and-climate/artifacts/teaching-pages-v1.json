@@ -1,0 +1,91 @@
+{
+  "s03-startup": [
+    {
+      "text": "Look outside the window! Is it sunny, cloudy, or rainy? Have you ever noticed how the weather changes throughout the day? Some places are always warm, while others are cold.",
+      "start_offset_seconds": 0.0,
+      "end_offset_seconds": 16.158
+    },
+    {
+      "text": "Why does this happen? In this chapter, we will explore the differences between weather and climate and understand the factors that influence them.",
+      "start_offset_seconds": 16.158,
+      "end_offset_seconds": 27.085
+    }
+  ],
+  "s04-weather": [
+    {
+      "text": "Weather is the condition of the atmosphere at a particular place and time. It includes temperature, wind, rainfall, humidity, and cloud cover.",
+      "start_offset_seconds": 0.0,
+      "end_offset_seconds": 14.33
+    },
+    {
+      "text": "Weather can change from hour to hour or day to day. For example, one morning, it may be sunny and by afternoon it could rain.",
+      "start_offset_seconds": 14.33,
+      "end_offset_seconds": 25.038
+    }
+  ],
+  "s06-climate": [
+    {
+      "text": "Climate is the average weather condition of a place over a long period, usually 30 years or more. It tells us whether a place is generally hot, cold, wet, or dry.",
+      "start_offset_seconds": 0.0,
+      "end_offset_seconds": 16.66
+    },
+    {
+      "text": "For example, the climate of the Sahara Desert is hot and dry, while the climate of the Amazon Rainforest is warm and rainy.",
+      "start_offset_seconds": 16.66,
+      "end_offset_seconds": 26.847
+    }
+  ],
+  "s08-latitude": [
+    {
+      "text": "The Earth is divided into imaginary lines called latitudes. Places near the equator receive direct sunlight throughout the year, making them hot.",
+      "start_offset_seconds": 0.0,
+      "end_offset_seconds": 17.242
+    },
+    {
+      "text": "As we move towards the poles, sunlight spreads out, making these areas cooler. This is why tropical regions are warm, while polar regions are cold.",
+      "start_offset_seconds": 17.242,
+      "end_offset_seconds": 29.97
+    }
+  ],
+  "s10-sea-land-breeze": [
+    {
+      "text": "Oceans and seas influence the climate of coastal areas. Water heats up and cools down more slowly than land.",
+      "start_offset_seconds": 0.0,
+      "end_offset_seconds": 15.055
+    },
+    {
+      "text": "During the day, land heats up faster than water, causing a sea breeze to blow from the sea to the land.",
+      "start_offset_seconds": 15.055,
+      "end_offset_seconds": 22.799
+    },
+    {
+      "text": "At night, the land cools down quickly, and a land breeze blows from land to the sea. This keeps coastal areas cooler in summer and warmer in winter compared to inland regions.",
+      "start_offset_seconds": 22.799,
+      "end_offset_seconds": 37.007
+    }
+  ],
+  "s13-currents": [
+    {
+      "text": "Ocean currents are large movements of water in the oceans. Warm ocean currents make coastal areas warmer, while cold currents bring cool temperatures.",
+      "start_offset_seconds": 0.0,
+      "end_offset_seconds": 15.083
+    },
+    {
+      "text": "For example, the Gulf Stream warms Europe, while the cold Labrador Current cools Canada.",
+      "start_offset_seconds": 15.083,
+      "end_offset_seconds": 22.949
+    }
+  ],
+  "s26-recall": [
+    {
+      "text": "Weather and climate are essential aspects of our environment. Many factors, such as latitude, altitude, wind, and ocean currents, influence climate.",
+      "start_offset_seconds": 0.0,
+      "end_offset_seconds": 15.769
+    },
+    {
+      "text": "Different regions experience different types of climates, affecting the way people live, the food they grow and the clothes they wear.",
+      "start_offset_seconds": 15.769,
+      "end_offset_seconds": 25.416
+    }
+  ]
+}

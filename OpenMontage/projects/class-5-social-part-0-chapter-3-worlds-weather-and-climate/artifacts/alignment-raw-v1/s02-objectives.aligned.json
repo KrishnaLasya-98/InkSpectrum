@@ -1,0 +1,381 @@
+{
+  "section_id": "s02-objectives",
+  "text": "Learning Objectives. By the end of this chapter, learners will be able to: Explain the difference between weather and climate. Identify and describe the factors affecting climate. Understand the different types of climate found in the world. Recognize the climatic zones of the Earth. Explain how climate affects human life and the environment.",
+  "start_ms": 6480,
+  "end_ms": 32480,
+  "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\audio\\narration-elevenlabs-v1\\s02-objectives.wav",
+  "words": [
+    {
+      "word": "Learning",
+      "start_ms": 6540,
+      "end_ms": 6900,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0957
+    },
+    {
+      "word": "Objectives.",
+      "start_ms": 7000,
+      "end_ms": 7621,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0099
+    },
+    {
+      "word": "By",
+      "start_ms": 8642,
+      "end_ms": 8742,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "the",
+      "start_ms": 8822,
+      "end_ms": 8922,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0711
+    },
+    {
+      "word": "end",
+      "start_ms": 9042,
+      "end_ms": 9162,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.129
+    },
+    {
+      "word": "of",
+      "start_ms": 9242,
+      "end_ms": 9282,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "this",
+      "start_ms": 9342,
+      "end_ms": 9482,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0538
+    },
+    {
+      "word": "chapter,",
+      "start_ms": 9582,
+      "end_ms": 10003,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0659
+    },
+    {
+      "word": "learners",
+      "start_ms": 10603,
+      "end_ms": 11003,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0145
+    },
+    {
+      "word": "will",
+      "start_ms": 11044,
+      "end_ms": 11224,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.006
+    },
+    {
+      "word": "be",
+      "start_ms": 11264,
+      "end_ms": 11364,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.2656
+    },
+    {
+      "word": "able",
+      "start_ms": 11504,
+      "end_ms": 11704,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "to:",
+      "start_ms": 11784,
+      "end_ms": 11904,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "Explain",
+      "start_ms": 12965,
+      "end_ms": 13385,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.011
+    },
+    {
+      "word": "the",
+      "start_ms": 13505,
+      "end_ms": 13585,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0719
+    },
+    {
+      "word": "difference",
+      "start_ms": 13646,
+      "end_ms": 14086,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0428
+    },
+    {
+      "word": "between",
+      "start_ms": 14206,
+      "end_ms": 14546,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0544
+    },
+    {
+      "word": "weather",
+      "start_ms": 14646,
+      "end_ms": 14967,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0074
+    },
+    {
+      "word": "and",
+      "start_ms": 15207,
+      "end_ms": 15287,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "climate.",
+      "start_ms": 15387,
+      "end_ms": 15847,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0581
+    },
+    {
+      "word": "Identify",
+      "start_ms": 16688,
+      "end_ms": 17368,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0894
+    },
+    {
+      "word": "and",
+      "start_ms": 17589,
+      "end_ms": 17669,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1452
+    },
+    {
+      "word": "describe",
+      "start_ms": 17729,
+      "end_ms": 18229,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0197
+    },
+    {
+      "word": "the",
+      "start_ms": 18309,
+      "end_ms": 18369,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.003
+    },
+    {
+      "word": "factors",
+      "start_ms": 18469,
+      "end_ms": 18970,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0697
+    },
+    {
+      "word": "affecting",
+      "start_ms": 19150,
+      "end_ms": 19630,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0024
+    },
+    {
+      "word": "climate.",
+      "start_ms": 19690,
+      "end_ms": 20110,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0584
+    },
+    {
+      "word": "Understand",
+      "start_ms": 20871,
+      "end_ms": 21391,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0603
+    },
+    {
+      "word": "the",
+      "start_ms": 21492,
+      "end_ms": 21572,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0019
+    },
+    {
+      "word": "different",
+      "start_ms": 21652,
+      "end_ms": 22012,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0733
+    },
+    {
+      "word": "types",
+      "start_ms": 22092,
+      "end_ms": 22352,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0826
+    },
+    {
+      "word": "of",
+      "start_ms": 22432,
+      "end_ms": 22472,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "climate",
+      "start_ms": 22592,
+      "end_ms": 23013,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0243
+    },
+    {
+      "word": "found",
+      "start_ms": 23173,
+      "end_ms": 23433,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0889
+    },
+    {
+      "word": "in",
+      "start_ms": 23493,
+      "end_ms": 23533,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0012
+    },
+    {
+      "word": "the",
+      "start_ms": 23613,
+      "end_ms": 23693,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1047
+    },
+    {
+      "word": "world.",
+      "start_ms": 23733,
+      "end_ms": 24034,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0125
+    },
+    {
+      "word": "Recognize",
+      "start_ms": 24874,
+      "end_ms": 25455,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1024
+    },
+    {
+      "word": "the",
+      "start_ms": 25535,
+      "end_ms": 25615,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0023
+    },
+    {
+      "word": "climatic",
+      "start_ms": 25675,
+      "end_ms": 26195,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "zones",
+      "start_ms": 26315,
+      "end_ms": 26636,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0217
+    },
+    {
+      "word": "of",
+      "start_ms": 26776,
+      "end_ms": 26816,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "the",
+      "start_ms": 26916,
+      "end_ms": 27016,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0008
+    },
+    {
+      "word": "Earth.",
+      "start_ms": 27136,
+      "end_ms": 27336,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.007
+    },
+    {
+      "word": "Explain",
+      "start_ms": 28197,
+      "end_ms": 28617,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "how",
+      "start_ms": 28757,
+      "end_ms": 28857,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "climate",
+      "start_ms": 28997,
+      "end_ms": 29418,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0756
+    },
+    {
+      "word": "affects",
+      "start_ms": 29518,
+      "end_ms": 29858,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0825
+    },
+    {
+      "word": "human",
+      "start_ms": 29978,
+      "end_ms": 30298,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0571
+    },
+    {
+      "word": "life",
+      "start_ms": 30378,
+      "end_ms": 30619,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0068
+    },
+    {
+      "word": "and",
+      "start_ms": 30879,
+      "end_ms": 30979,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.002
+    },
+    {
+      "word": "the",
+      "start_ms": 31039,
+      "end_ms": 31119,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1388
+    },
+    {
+      "word": "environment.",
+      "start_ms": 31199,
+      "end_ms": 31779,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.034
+    }
+  ],
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

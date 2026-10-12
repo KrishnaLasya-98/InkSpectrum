@@ -1,0 +1,129 @@
+{
+  "section_id": "s21-zones",
+  "text": "Climatic Zones of the Earth. The Earth is divided into three main climatic zones based on latitude.",
+  "start_ms": 362560,
+  "end_ms": 370880,
+  "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\audio\\narration-elevenlabs-v1\\s21-zones.wav",
+  "words": [
+    {
+      "word": "Climatic",
+      "start_ms": 362620,
+      "end_ms": 363161,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0085
+    },
+    {
+      "word": "Zones",
+      "start_ms": 363302,
+      "end_ms": 363663,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0963
+    },
+    {
+      "word": "of",
+      "start_ms": 363823,
+      "end_ms": 363863,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0004
+    },
+    {
+      "word": "the",
+      "start_ms": 363963,
+      "end_ms": 364064,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0258
+    },
+    {
+      "word": "Earth.",
+      "start_ms": 364204,
+      "end_ms": 364404,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1213
+    },
+    {
+      "word": "The",
+      "start_ms": 365487,
+      "end_ms": 365607,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1063
+    },
+    {
+      "word": "Earth",
+      "start_ms": 365748,
+      "end_ms": 365928,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0756
+    },
+    {
+      "word": "is",
+      "start_ms": 366028,
+      "end_ms": 366088,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1572
+    },
+    {
+      "word": "divided",
+      "start_ms": 366149,
+      "end_ms": 366630,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0043
+    },
+    {
+      "word": "into",
+      "start_ms": 366810,
+      "end_ms": 366991,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0026
+    },
+    {
+      "word": "three",
+      "start_ms": 367131,
+      "end_ms": 367412,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0119
+    },
+    {
+      "word": "main",
+      "start_ms": 367532,
+      "end_ms": 367752,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -1.471
+    },
+    {
+      "word": "climatic",
+      "start_ms": 367853,
+      "end_ms": 368354,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.003
+    },
+    {
+      "word": "zones",
+      "start_ms": 368474,
+      "end_ms": 368815,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0027
+    },
+    {
+      "word": "based",
+      "start_ms": 369176,
+      "end_ms": 369457,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0011
+    },
+    {
+      "word": "on",
+      "start_ms": 369557,
+      "end_ms": 369597,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "latitude.",
+      "start_ms": 369717,
+      "end_ms": 370238,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0707
+    }
+  ],
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

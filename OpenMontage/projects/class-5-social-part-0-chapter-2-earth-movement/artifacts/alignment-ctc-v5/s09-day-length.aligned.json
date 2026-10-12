@@ -1,0 +1,251 @@
+{
+  "section_id": "s09-day-length",
+  "text": "Let's Learn More. A day on Earth is actually 23 hours, 56 minutes, not exactly 24 hours, but we round it off to 24 hours because it’s easier to keep track of time.",
+  "start_ms": 225384,
+  "end_ms": 241234,
+  "words": [
+    {
+      "word": "Let's",
+      "start_ms": 225464,
+      "end_ms": 225704,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0529
+    },
+    {
+      "word": "Learn",
+      "start_ms": 225804,
+      "end_ms": 226024,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0138
+    },
+    {
+      "word": "More.",
+      "start_ms": 226144,
+      "end_ms": 226385,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "A",
+      "start_ms": 228546,
+      "end_ms": 228566,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0004
+    },
+    {
+      "word": "day",
+      "start_ms": 228666,
+      "end_ms": 228846,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0034
+    },
+    {
+      "word": "on",
+      "start_ms": 228986,
+      "end_ms": 229026,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "Earth",
+      "start_ms": 229246,
+      "end_ms": 229446,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0395
+    },
+    {
+      "word": "is",
+      "start_ms": 229747,
+      "end_ms": 229787,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "actually",
+      "start_ms": 229987,
+      "end_ms": 230347,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "23",
+      "start_ms": 230487,
+      "end_ms": 231087,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0312
+    },
+    {
+      "word": "hours,",
+      "start_ms": 231127,
+      "end_ms": 231508,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0779
+    },
+    {
+      "word": "56",
+      "start_ms": 231828,
+      "end_ms": 232368,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0685
+    },
+    {
+      "word": "minutes,",
+      "start_ms": 232528,
+      "end_ms": 232849,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0019
+    },
+    {
+      "word": "not",
+      "start_ms": 233549,
+      "end_ms": 233709,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0211
+    },
+    {
+      "word": "exactly",
+      "start_ms": 233829,
+      "end_ms": 234349,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0064
+    },
+    {
+      "word": "24",
+      "start_ms": 234429,
+      "end_ms": 234950,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0351
+    },
+    {
+      "word": "hours,",
+      "start_ms": 234990,
+      "end_ms": 235330,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0466
+    },
+    {
+      "word": "but",
+      "start_ms": 235970,
+      "end_ms": 236070,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "we",
+      "start_ms": 236131,
+      "end_ms": 236211,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "round",
+      "start_ms": 236331,
+      "end_ms": 236571,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0643
+    },
+    {
+      "word": "it",
+      "start_ms": 236651,
+      "end_ms": 236691,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0306
+    },
+    {
+      "word": "off",
+      "start_ms": 236791,
+      "end_ms": 236931,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.003
+    },
+    {
+      "word": "to",
+      "start_ms": 236991,
+      "end_ms": 237051,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0005
+    },
+    {
+      "word": "24",
+      "start_ms": 237131,
+      "end_ms": 237651,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0462
+    },
+    {
+      "word": "hours",
+      "start_ms": 237691,
+      "end_ms": 238032,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0125
+    },
+    {
+      "word": "because",
+      "start_ms": 238372,
+      "end_ms": 238632,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0532
+    },
+    {
+      "word": "it’s",
+      "start_ms": 238692,
+      "end_ms": 238832,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0723
+    },
+    {
+      "word": "easier",
+      "start_ms": 239012,
+      "end_ms": 239312,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0714
+    },
+    {
+      "word": "to",
+      "start_ms": 239372,
+      "end_ms": 239453,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1578
+    },
+    {
+      "word": "keep",
+      "start_ms": 239513,
+      "end_ms": 239673,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "track",
+      "start_ms": 239753,
+      "end_ms": 239973,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "of",
+      "start_ms": 240053,
+      "end_ms": 240093,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "time.",
+      "start_ms": 240173,
+      "end_ms": 240493,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -4.16
+    }
+  ],
+  "format_spec": {
+    "font_size": 64,
+    "highlight_color": "#FF8C42",
+    "background_color": "rgba(255,253,240,0.90)",
+    "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+    "font_weight": "700",
+    "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+    "key_terms": [],
+    "words_per_page": 6
+  },
+  "source_block_type": "concept",
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

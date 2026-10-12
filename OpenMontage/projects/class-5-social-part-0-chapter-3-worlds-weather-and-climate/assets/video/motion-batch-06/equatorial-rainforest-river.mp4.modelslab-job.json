@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188664310",
+  "request_fingerprint": "d6bb0a20033d5b94c08416c197683f128cfdc5cb9e02d2b6da95d5d7de2f547e",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-06\\equatorial-rainforest-river.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791353176.6105833,
+  "last_poll_at_unix": 1791353400.7859166,
+  "completed_at_unix": 1791353402.9651577
+}

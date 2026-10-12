@@ -1,0 +1,96 @@
+{
+  "version": "1.0",
+  "duration_seconds": 337.698,
+  "segments": [
+    {
+      "section_id": "s01-title",
+      "start_seconds": 0.0,
+      "end_seconds": 4.687,
+      "duration_seconds": 4.687
+    },
+    {
+      "section_id": "s02-objectives",
+      "start_seconds": 4.687,
+      "end_seconds": 25.993,
+      "duration_seconds": 21.306
+    },
+    {
+      "section_id": "s03-startup",
+      "start_seconds": 25.993,
+      "end_seconds": 40.58,
+      "duration_seconds": 14.587
+    },
+    {
+      "section_id": "s04-spherical-earth",
+      "start_seconds": 40.58,
+      "end_seconds": 67.919,
+      "duration_seconds": 27.339
+    },
+    {
+      "section_id": "s05-two-movements",
+      "start_seconds": 67.919,
+      "end_seconds": 80.819,
+      "duration_seconds": 12.9
+    },
+    {
+      "section_id": "s06-rotation",
+      "start_seconds": 80.819,
+      "end_seconds": 122.939,
+      "duration_seconds": 42.12
+    },
+    {
+      "section_id": "s07-do-you-know",
+      "start_seconds": 122.939,
+      "end_seconds": 136.827,
+      "duration_seconds": 13.888
+    },
+    {
+      "section_id": "s08-revolution",
+      "start_seconds": 136.827,
+      "end_seconds": 176.583,
+      "duration_seconds": 39.755
+    },
+    {
+      "section_id": "s09-day-length",
+      "start_seconds": 176.583,
+      "end_seconds": 191.486,
+      "duration_seconds": 14.903
+    },
+    {
+      "section_id": "s10-solstice",
+      "start_seconds": 191.486,
+      "end_seconds": 233.588,
+      "duration_seconds": 42.102
+    },
+    {
+      "section_id": "s11-inertia",
+      "start_seconds": 233.588,
+      "end_seconds": 249.838,
+      "duration_seconds": 16.251
+    },
+    {
+      "section_id": "s12-equinox",
+      "start_seconds": 249.838,
+      "end_seconds": 277.847,
+      "duration_seconds": 28.008
+    },
+    {
+      "section_id": "s13-recall",
+      "start_seconds": 277.847,
+      "end_seconds": 295.782,
+      "duration_seconds": 17.935
+    },
+    {
+      "section_id": "s14-remember",
+      "start_seconds": 295.782,
+      "end_seconds": 318.76,
+      "duration_seconds": 22.978
+    },
+    {
+      "section_id": "s15-wordbank",
+      "start_seconds": 318.76,
+      "end_seconds": 337.698,
+      "duration_seconds": 18.938
+    }
+  ]
+}

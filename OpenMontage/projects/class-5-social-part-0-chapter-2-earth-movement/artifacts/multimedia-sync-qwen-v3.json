@@ -1,0 +1,99 @@
+{
+  "version": "1.0",
+  "status": "pass",
+  "review_state": "timed_visual_qa_pending",
+  "issues": [],
+  "total_duration_seconds": 345.062,
+  "timeline": [
+    {
+      "section_id": "s01-title",
+      "start_seconds": 0.0,
+      "end_seconds": 4.687,
+      "visual_duration_policy": "as_is"
+    },
+    {
+      "section_id": "s02-objectives",
+      "start_seconds": 4.687,
+      "end_seconds": 25.993,
+      "visual_duration_policy": "as_is"
+    },
+    {
+      "section_id": "s03-startup",
+      "start_seconds": 25.993,
+      "end_seconds": 40.58,
+      "visual_duration_policy": "as_is"
+    },
+    {
+      "section_id": "s04-spherical-earth",
+      "start_seconds": 40.58,
+      "end_seconds": 67.919,
+      "visual_duration_policy": "as_is"
+    },
+    {
+      "section_id": "s05-two-movements",
+      "start_seconds": 67.919,
+      "end_seconds": 80.819,
+      "visual_duration_policy": "as_is"
+    },
+    {
+      "section_id": "s06-rotation",
+      "start_seconds": 80.819,
+      "end_seconds": 123.754,
+      "visual_duration_policy": "as_is"
+    },
+    {
+      "section_id": "s07-do-you-know",
+      "start_seconds": 123.754,
+      "end_seconds": 137.642,
+      "visual_duration_policy": "as_is"
+    },
+    {
+      "section_id": "s08-revolution",
+      "start_seconds": 137.642,
+      "end_seconds": 180.588,
+      "visual_duration_policy": "as_is"
+    },
+    {
+      "section_id": "s09-day-length",
+      "start_seconds": 180.588,
+      "end_seconds": 195.491,
+      "visual_duration_policy": "as_is"
+    },
+    {
+      "section_id": "s10-solstice",
+      "start_seconds": 195.491,
+      "end_seconds": 238.931,
+      "visual_duration_policy": "as_is"
+    },
+    {
+      "section_id": "s11-inertia",
+      "start_seconds": 238.931,
+      "end_seconds": 255.182,
+      "visual_duration_policy": "as_is"
+    },
+    {
+      "section_id": "s12-equinox",
+      "start_seconds": 255.182,
+      "end_seconds": 283.19,
+      "visual_duration_policy": "as_is"
+    },
+    {
+      "section_id": "s13-recall",
+      "start_seconds": 283.19,
+      "end_seconds": 301.125,
+      "visual_duration_policy": "as_is"
+    },
+    {
+      "section_id": "s14-remember",
+      "start_seconds": 301.125,
+      "end_seconds": 326.124,
+      "visual_duration_policy": "as_is"
+    },
+    {
+      "section_id": "s15-wordbank",
+      "start_seconds": 326.124,
+      "end_seconds": 345.062,
+      "visual_duration_policy": "as_is"
+    }
+  ]
+}

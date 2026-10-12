@@ -1,0 +1,454 @@
+{
+  "version": "1.0",
+  "assets": [
+    {
+      "id": "s01-title:visual",
+      "type": "video",
+      "scene_id": "s01-title",
+      "source_tool": "modelslab",
+      "source_block_ids": [
+        "p0001-b0001"
+      ],
+      "strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "status": "planned",
+      "path": "",
+      "qa_status": "pending"
+    },
+    {
+      "id": "s02-objectives:visual",
+      "type": "video",
+      "scene_id": "s02-objectives",
+      "source_tool": "modelslab",
+      "source_block_ids": [
+        "p0001-b0002",
+        "p0001-b0003",
+        "p0001-b0004",
+        "p0001-b0005",
+        "p0001-b0006",
+        "p0001-b0007",
+        "p0001-b0008"
+      ],
+      "strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "status": "planned",
+      "path": "",
+      "qa_status": "pending"
+    },
+    {
+      "id": "s03-startup:visual",
+      "type": "video",
+      "scene_id": "s03-startup",
+      "source_tool": "modelslab",
+      "source_block_ids": [
+        "p0001-b0009",
+        "p0001-b0010"
+      ],
+      "strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "status": "planned",
+      "path": "",
+      "qa_status": "pending"
+    },
+    {
+      "id": "s04-weather:visual",
+      "type": "video",
+      "scene_id": "s04-weather",
+      "source_tool": "modelslab",
+      "source_block_ids": [
+        "p0001-b0011",
+        "p0001-b0012"
+      ],
+      "strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "status": "planned",
+      "path": "",
+      "qa_status": "pending"
+    },
+    {
+      "id": "s05-hot-desert-fact:visual",
+      "type": "video",
+      "scene_id": "s05-hot-desert-fact",
+      "source_tool": "modelslab",
+      "source_block_ids": [
+        "p0001-b0013",
+        "p0001-b0014"
+      ],
+      "strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "status": "planned",
+      "path": "",
+      "qa_status": "pending"
+    },
+    {
+      "id": "s06-climate:visual",
+      "type": "video",
+      "scene_id": "s06-climate",
+      "source_tool": "modelslab",
+      "source_block_ids": [
+        "p0002-b0001",
+        "p0002-b0002"
+      ],
+      "strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "status": "planned",
+      "path": "",
+      "qa_status": "pending"
+    },
+    {
+      "id": "s07-factors:visual",
+      "type": "video",
+      "scene_id": "s07-factors",
+      "source_tool": "modelslab",
+      "source_block_ids": [
+        "p0002-b0003",
+        "p0002-b0004"
+      ],
+      "strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "status": "planned",
+      "path": "",
+      "qa_status": "pending"
+    },
+    {
+      "id": "s08-latitude:visual",
+      "type": "video",
+      "scene_id": "s08-latitude",
+      "source_tool": "modelslab",
+      "source_block_ids": [
+        "p0002-b0005",
+        "p0002-b0006",
+        "p0002-b0007"
+      ],
+      "strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "status": "planned",
+      "path": "",
+      "qa_status": "pending"
+    },
+    {
+      "id": "s09-altitude:visual",
+      "type": "video",
+      "scene_id": "s09-altitude",
+      "source_tool": "modelslab",
+      "source_block_ids": [
+        "p0003-b0001",
+        "p0003-b0002",
+        "p0003-b0003"
+      ],
+      "strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "status": "planned",
+      "path": "",
+      "qa_status": "pending"
+    },
+    {
+      "id": "s10-sea-land-breeze:visual",
+      "type": "video",
+      "scene_id": "s10-sea-land-breeze",
+      "source_tool": "modelslab",
+      "source_block_ids": [
+        "p0003-b0004",
+        "p0003-b0005",
+        "p0003-b0006"
+      ],
+      "strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "status": "planned",
+      "path": "",
+      "qa_status": "pending"
+    },
+    {
+      "id": "s11-wind:visual",
+      "type": "video",
+      "scene_id": "s11-wind",
+      "source_tool": "modelslab",
+      "source_block_ids": [
+        "p0004-b0001",
+        "p0004-b0002",
+        "p0004-b0003"
+      ],
+      "strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "status": "planned",
+      "path": "",
+      "qa_status": "pending"
+    },
+    {
+      "id": "s12-humidity:visual",
+      "type": "video",
+      "scene_id": "s12-humidity",
+      "source_tool": "modelslab",
+      "source_block_ids": [
+        "p0004-b0004",
+        "p0004-b0005",
+        "p0004-b0006"
+      ],
+      "strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "status": "planned",
+      "path": "",
+      "qa_status": "pending"
+    },
+    {
+      "id": "s13-currents:visual",
+      "type": "video",
+      "scene_id": "s13-currents",
+      "source_tool": "modelslab",
+      "source_block_ids": [
+        "p0004-b0007",
+        "p0004-b0008",
+        "p0004-b0009"
+      ],
+      "strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "status": "planned",
+      "path": "",
+      "qa_status": "pending"
+    },
+    {
+      "id": "s14-rainforest-fact:visual",
+      "type": "video",
+      "scene_id": "s14-rainforest-fact",
+      "source_tool": "modelslab",
+      "source_block_ids": [
+        "p0005-b0001",
+        "p0005-b0002"
+      ],
+      "strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "status": "planned",
+      "path": "",
+      "qa_status": "pending"
+    },
+    {
+      "id": "s15-climate-types:visual",
+      "type": "video",
+      "scene_id": "s15-climate-types",
+      "source_tool": "modelslab",
+      "source_block_ids": [
+        "p0005-b0003",
+        "p0005-b0004"
+      ],
+      "strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "status": "planned",
+      "path": "",
+      "qa_status": "pending"
+    },
+    {
+      "id": "s16-monsoon:visual",
+      "type": "video",
+      "scene_id": "s16-monsoon",
+      "source_tool": "modelslab",
+      "source_block_ids": [
+        "p0005-b0005",
+        "p0005-b0006",
+        "p0005-b0007"
+      ],
+      "strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "status": "planned",
+      "path": "",
+      "qa_status": "pending"
+    },
+    {
+      "id": "s17-equatorial:visual",
+      "type": "video",
+      "scene_id": "s17-equatorial",
+      "source_tool": "modelslab",
+      "source_block_ids": [
+        "p0005-b0008",
+        "p0005-b0009",
+        "p0005-b0010",
+        "p0005-b0011"
+      ],
+      "strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "status": "planned",
+      "path": "",
+      "qa_status": "pending"
+    },
+    {
+      "id": "s18-desert:visual",
+      "type": "video",
+      "scene_id": "s18-desert",
+      "source_tool": "modelslab",
+      "source_block_ids": [
+        "p0005-b0012",
+        "p0005-b0013",
+        "p0005-b0014",
+        "p0005-b0015"
+      ],
+      "strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "status": "planned",
+      "path": "",
+      "qa_status": "pending"
+    },
+    {
+      "id": "s19-tundra:visual",
+      "type": "video",
+      "scene_id": "s19-tundra",
+      "source_tool": "modelslab",
+      "source_block_ids": [
+        "p0006-b0001",
+        "p0006-b0002",
+        "p0006-b0003"
+      ],
+      "strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "status": "planned",
+      "path": "",
+      "qa_status": "pending"
+    },
+    {
+      "id": "s20-antarctica-fact:visual",
+      "type": "video",
+      "scene_id": "s20-antarctica-fact",
+      "source_tool": "modelslab",
+      "source_block_ids": [
+        "p0006-b0004",
+        "p0006-b0005"
+      ],
+      "strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "status": "planned",
+      "path": "",
+      "qa_status": "pending"
+    },
+    {
+      "id": "s21-zones:visual",
+      "type": "video",
+      "scene_id": "s21-zones",
+      "source_tool": "modelslab",
+      "source_block_ids": [
+        "p0006-b0006",
+        "p0006-b0007"
+      ],
+      "strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "status": "planned",
+      "path": "",
+      "qa_status": "pending"
+    },
+    {
+      "id": "s22-torrid:visual",
+      "type": "video",
+      "scene_id": "s22-torrid",
+      "source_tool": "modelslab",
+      "source_block_ids": [
+        "p0006-b0008",
+        "p0006-b0009",
+        "p0006-b0010"
+      ],
+      "strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "status": "planned",
+      "path": "",
+      "qa_status": "pending"
+    },
+    {
+      "id": "s23-temperate:visual",
+      "type": "video",
+      "scene_id": "s23-temperate",
+      "source_tool": "modelslab",
+      "source_block_ids": [
+        "p0006-b0011",
+        "p0006-b0012",
+        "p0006-b0013"
+      ],
+      "strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "status": "planned",
+      "path": "",
+      "qa_status": "pending"
+    },
+    {
+      "id": "s24-cloud-fact:visual",
+      "type": "video",
+      "scene_id": "s24-cloud-fact",
+      "source_tool": "modelslab",
+      "source_block_ids": [
+        "p0006-b0014",
+        "p0006-b0015"
+      ],
+      "strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "status": "planned",
+      "path": "",
+      "qa_status": "pending"
+    },
+    {
+      "id": "s25-frigid:visual",
+      "type": "video",
+      "scene_id": "s25-frigid",
+      "source_tool": "modelslab",
+      "source_block_ids": [
+        "p0007-b0001",
+        "p0007-b0002",
+        "p0007-b0003",
+        "p0007-b0004"
+      ],
+      "strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "status": "planned",
+      "path": "",
+      "qa_status": "pending"
+    },
+    {
+      "id": "s26-recall:visual",
+      "type": "video",
+      "scene_id": "s26-recall",
+      "source_tool": "modelslab",
+      "source_block_ids": [
+        "p0007-b0005",
+        "p0007-b0006"
+      ],
+      "strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "status": "planned",
+      "path": "",
+      "qa_status": "pending"
+    },
+    {
+      "id": "s27-remember:visual",
+      "type": "video",
+      "scene_id": "s27-remember",
+      "source_tool": "modelslab",
+      "source_block_ids": [
+        "p0007-b0007",
+        "p0007-b0008",
+        "p0007-b0009",
+        "p0007-b0010",
+        "p0007-b0011",
+        "p0007-b0012"
+      ],
+      "strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "status": "planned",
+      "path": "",
+      "qa_status": "pending"
+    },
+    {
+      "id": "s28-wordbank:visual",
+      "type": "video",
+      "scene_id": "s28-wordbank",
+      "source_tool": "modelslab",
+      "source_block_ids": [
+        "p0007-b0013",
+        "p0007-b0014"
+      ],
+      "strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "status": "planned",
+      "path": "",
+      "qa_status": "pending"
+    }
+  ],
+  "total_cost_usd": 0.0,
+  "metadata": {
+    "project_id": "class-5-social-part-0-chapter-3-worlds-weather-and-climate",
+    "fresh_assets_only": true
+  }
+}

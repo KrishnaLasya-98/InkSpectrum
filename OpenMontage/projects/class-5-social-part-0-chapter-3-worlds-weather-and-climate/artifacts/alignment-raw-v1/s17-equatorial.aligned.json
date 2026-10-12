@@ -1,0 +1,192 @@
+{
+  "section_id": "s17-equatorial",
+  "text": "Equatorial Climate. Found near the equator, such as in the Amazon Rainforest and Congo Basin. It is hot and humid throughout the year with heavy rainfall.",
+  "start_ms": 311360,
+  "end_ms": 324400,
+  "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\audio\\narration-elevenlabs-v1\\s17-equatorial.wav",
+  "words": [
+    {
+      "word": "Equatorial",
+      "start_ms": 311440,
+      "end_ms": 312101,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0168
+    },
+    {
+      "word": "Climate.",
+      "start_ms": 312201,
+      "end_ms": 312642,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.001
+    },
+    {
+      "word": "Found",
+      "start_ms": 313463,
+      "end_ms": 313744,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "near",
+      "start_ms": 313924,
+      "end_ms": 314084,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0759
+    },
+    {
+      "word": "the",
+      "start_ms": 314144,
+      "end_ms": 314224,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "equator,",
+      "start_ms": 314325,
+      "end_ms": 314845,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0802
+    },
+    {
+      "word": "such",
+      "start_ms": 315346,
+      "end_ms": 315546,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0247
+    },
+    {
+      "word": "as",
+      "start_ms": 315687,
+      "end_ms": 315767,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0074
+    },
+    {
+      "word": "in",
+      "start_ms": 315947,
+      "end_ms": 315987,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "the",
+      "start_ms": 316047,
+      "end_ms": 316147,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.117
+    },
+    {
+      "word": "Amazon",
+      "start_ms": 316288,
+      "end_ms": 316648,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "Rainforest",
+      "start_ms": 316768,
+      "end_ms": 317409,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.3456
+    },
+    {
+      "word": "and",
+      "start_ms": 317690,
+      "end_ms": 317770,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0718
+    },
+    {
+      "word": "Congo",
+      "start_ms": 317870,
+      "end_ms": 318211,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.104
+    },
+    {
+      "word": "Basin.",
+      "start_ms": 318291,
+      "end_ms": 318651,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0021
+    },
+    {
+      "word": "It",
+      "start_ms": 319593,
+      "end_ms": 319633,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "is",
+      "start_ms": 319733,
+      "end_ms": 319793,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0095
+    },
+    {
+      "word": "hot",
+      "start_ms": 319913,
+      "end_ms": 320133,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0005
+    },
+    {
+      "word": "and",
+      "start_ms": 320314,
+      "end_ms": 320414,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.2094
+    },
+    {
+      "word": "humid",
+      "start_ms": 320534,
+      "end_ms": 320935,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0507
+    },
+    {
+      "word": "throughout",
+      "start_ms": 321055,
+      "end_ms": 321496,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0708
+    },
+    {
+      "word": "the",
+      "start_ms": 321576,
+      "end_ms": 321656,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0061
+    },
+    {
+      "word": "year",
+      "start_ms": 321716,
+      "end_ms": 321896,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0025
+    },
+    {
+      "word": "with",
+      "start_ms": 322257,
+      "end_ms": 322397,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0108
+    },
+    {
+      "word": "heavy",
+      "start_ms": 322537,
+      "end_ms": 322798,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.113
+    },
+    {
+      "word": "rainfall.",
+      "start_ms": 322898,
+      "end_ms": 323418,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0757
+    }
+  ],
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

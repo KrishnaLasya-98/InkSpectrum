@@ -1,0 +1,374 @@
+{
+  "section_id": "s08-latitude",
+  "text": "Distance from the Equator (Latitudes). The Earth is divided into imaginary lines called latitudes. Places near the equator receive direct sunlight throughout the year, making them hot. As we move towards the poles, sunlight spreads out, making these areas cooler. This is why tropical regions are warm, while polar regions are cold.",
+  "start_ms": 133440,
+  "end_ms": 161120,
+  "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\audio\\narration-elevenlabs-v1\\s08-latitude.wav",
+  "words": [
+    {
+      "word": "Distance",
+      "start_ms": 133540,
+      "end_ms": 133960,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0038
+    },
+    {
+      "word": "from",
+      "start_ms": 134060,
+      "end_ms": 134181,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0006
+    },
+    {
+      "word": "the",
+      "start_ms": 134261,
+      "end_ms": 134341,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "Equator",
+      "start_ms": 134461,
+      "end_ms": 134941,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "(Latitudes).",
+      "start_ms": 135562,
+      "end_ms": 136222,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0101
+    },
+    {
+      "word": "The",
+      "start_ms": 137283,
+      "end_ms": 137383,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0011
+    },
+    {
+      "word": "Earth",
+      "start_ms": 137543,
+      "end_ms": 137743,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1178
+    },
+    {
+      "word": "is",
+      "start_ms": 137843,
+      "end_ms": 137903,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1509
+    },
+    {
+      "word": "divided",
+      "start_ms": 137963,
+      "end_ms": 138484,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0521
+    },
+    {
+      "word": "into",
+      "start_ms": 138744,
+      "end_ms": 138944,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0158
+    },
+    {
+      "word": "imaginary",
+      "start_ms": 139104,
+      "end_ms": 139765,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.037
+    },
+    {
+      "word": "lines",
+      "start_ms": 139865,
+      "end_ms": 140245,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0441
+    },
+    {
+      "word": "called",
+      "start_ms": 140505,
+      "end_ms": 140765,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "latitudes.",
+      "start_ms": 140985,
+      "end_ms": 141646,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0279
+    },
+    {
+      "word": "Places",
+      "start_ms": 142647,
+      "end_ms": 143047,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0056
+    },
+    {
+      "word": "near",
+      "start_ms": 143167,
+      "end_ms": 143367,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0845
+    },
+    {
+      "word": "the",
+      "start_ms": 143447,
+      "end_ms": 143547,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0042
+    },
+    {
+      "word": "equator",
+      "start_ms": 143647,
+      "end_ms": 144128,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.066
+    },
+    {
+      "word": "receive",
+      "start_ms": 144608,
+      "end_ms": 144948,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0417
+    },
+    {
+      "word": "direct",
+      "start_ms": 145068,
+      "end_ms": 145429,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0019
+    },
+    {
+      "word": "sunlight",
+      "start_ms": 145549,
+      "end_ms": 146029,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0048
+    },
+    {
+      "word": "throughout",
+      "start_ms": 146169,
+      "end_ms": 146610,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0287
+    },
+    {
+      "word": "the",
+      "start_ms": 146690,
+      "end_ms": 146770,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "year,",
+      "start_ms": 146830,
+      "end_ms": 146990,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0017
+    },
+    {
+      "word": "making",
+      "start_ms": 147610,
+      "end_ms": 147910,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0973
+    },
+    {
+      "word": "them",
+      "start_ms": 147970,
+      "end_ms": 148091,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0018
+    },
+    {
+      "word": "hot.",
+      "start_ms": 148271,
+      "end_ms": 148491,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0246
+    },
+    {
+      "word": "As",
+      "start_ms": 149572,
+      "end_ms": 149652,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0556
+    },
+    {
+      "word": "we",
+      "start_ms": 149732,
+      "end_ms": 149812,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "move",
+      "start_ms": 149932,
+      "end_ms": 150152,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "towards",
+      "start_ms": 150252,
+      "end_ms": 150612,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0555
+    },
+    {
+      "word": "the",
+      "start_ms": 150712,
+      "end_ms": 150773,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "poles,",
+      "start_ms": 150853,
+      "end_ms": 151253,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0462
+    },
+    {
+      "word": "sunlight",
+      "start_ms": 151873,
+      "end_ms": 152294,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0196
+    },
+    {
+      "word": "spreads",
+      "start_ms": 152434,
+      "end_ms": 152834,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0241
+    },
+    {
+      "word": "out,",
+      "start_ms": 152974,
+      "end_ms": 153094,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1235
+    },
+    {
+      "word": "making",
+      "start_ms": 153675,
+      "end_ms": 153995,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0004
+    },
+    {
+      "word": "these",
+      "start_ms": 154075,
+      "end_ms": 154255,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0272
+    },
+    {
+      "word": "areas",
+      "start_ms": 154375,
+      "end_ms": 154695,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0302
+    },
+    {
+      "word": "cooler.",
+      "start_ms": 154875,
+      "end_ms": 155216,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0157
+    },
+    {
+      "word": "This",
+      "start_ms": 156156,
+      "end_ms": 156277,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.001
+    },
+    {
+      "word": "is",
+      "start_ms": 156397,
+      "end_ms": 156437,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "why",
+      "start_ms": 156517,
+      "end_ms": 156677,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0423
+    },
+    {
+      "word": "tropical",
+      "start_ms": 156857,
+      "end_ms": 157317,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0087
+    },
+    {
+      "word": "regions",
+      "start_ms": 157417,
+      "end_ms": 157818,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1043
+    },
+    {
+      "word": "are",
+      "start_ms": 157978,
+      "end_ms": 158058,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "warm,",
+      "start_ms": 158118,
+      "end_ms": 158418,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0291
+    },
+    {
+      "word": "while",
+      "start_ms": 159018,
+      "end_ms": 159199,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "polar",
+      "start_ms": 159299,
+      "end_ms": 159639,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0057
+    },
+    {
+      "word": "regions",
+      "start_ms": 159719,
+      "end_ms": 160119,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0463
+    },
+    {
+      "word": "are",
+      "start_ms": 160339,
+      "end_ms": 160419,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "cold.",
+      "start_ms": 160500,
+      "end_ms": 160800,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.101
+    }
+  ],
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

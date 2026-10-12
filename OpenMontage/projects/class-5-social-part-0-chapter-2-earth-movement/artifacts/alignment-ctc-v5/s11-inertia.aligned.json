@@ -1,0 +1,272 @@
+{
+  "section_id": "s11-inertia",
+  "text": "Let's Learn More. Earth keeps rotating due to inertia, the same reason you continue moving forward when you stop a bike suddenly. This movement doesn’t stop because there’s no friction in space to slow it down!",
+  "start_ms": 292292,
+  "end_ms": 309399,
+  "words": [
+    {
+      "word": "Let's",
+      "start_ms": 292352,
+      "end_ms": 292612,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0373
+    },
+    {
+      "word": "Learn",
+      "start_ms": 292712,
+      "end_ms": 292932,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0017
+    },
+    {
+      "word": "More.",
+      "start_ms": 293052,
+      "end_ms": 293292,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "Earth",
+      "start_ms": 295453,
+      "end_ms": 295653,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0232
+    },
+    {
+      "word": "keeps",
+      "start_ms": 295753,
+      "end_ms": 296013,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0177
+    },
+    {
+      "word": "rotating",
+      "start_ms": 296093,
+      "end_ms": 296674,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0266
+    },
+    {
+      "word": "due",
+      "start_ms": 296894,
+      "end_ms": 297074,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0165
+    },
+    {
+      "word": "to",
+      "start_ms": 297114,
+      "end_ms": 297194,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0006
+    },
+    {
+      "word": "inertia,",
+      "start_ms": 297314,
+      "end_ms": 297834,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0157
+    },
+    {
+      "word": "the",
+      "start_ms": 298514,
+      "end_ms": 298614,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0169
+    },
+    {
+      "word": "same",
+      "start_ms": 298714,
+      "end_ms": 298955,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0017
+    },
+    {
+      "word": "reason",
+      "start_ms": 299055,
+      "end_ms": 299415,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0141
+    },
+    {
+      "word": "you",
+      "start_ms": 299535,
+      "end_ms": 299615,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0005
+    },
+    {
+      "word": "continue",
+      "start_ms": 299735,
+      "end_ms": 300195,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0021
+    },
+    {
+      "word": "moving",
+      "start_ms": 300275,
+      "end_ms": 300535,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.052
+    },
+    {
+      "word": "forward",
+      "start_ms": 300655,
+      "end_ms": 301075,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0609
+    },
+    {
+      "word": "when",
+      "start_ms": 301455,
+      "end_ms": 301576,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0958
+    },
+    {
+      "word": "you",
+      "start_ms": 301616,
+      "end_ms": 301696,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0009
+    },
+    {
+      "word": "stop",
+      "start_ms": 301796,
+      "end_ms": 302036,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0138
+    },
+    {
+      "word": "a",
+      "start_ms": 302156,
+      "end_ms": 302176,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0116
+    },
+    {
+      "word": "bike",
+      "start_ms": 302256,
+      "end_ms": 302476,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.003
+    },
+    {
+      "word": "suddenly.",
+      "start_ms": 302576,
+      "end_ms": 303016,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0032
+    },
+    {
+      "word": "This",
+      "start_ms": 303776,
+      "end_ms": 303936,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0016
+    },
+    {
+      "word": "movement",
+      "start_ms": 304076,
+      "end_ms": 304477,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.004
+    },
+    {
+      "word": "doesn’t",
+      "start_ms": 304657,
+      "end_ms": 304977,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0771
+    },
+    {
+      "word": "stop",
+      "start_ms": 305037,
+      "end_ms": 305357,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0647
+    },
+    {
+      "word": "because",
+      "start_ms": 305817,
+      "end_ms": 306057,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0011
+    },
+    {
+      "word": "there’s",
+      "start_ms": 306097,
+      "end_ms": 306317,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0386
+    },
+    {
+      "word": "no",
+      "start_ms": 306377,
+      "end_ms": 306477,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "friction",
+      "start_ms": 306637,
+      "end_ms": 306998,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0004
+    },
+    {
+      "word": "in",
+      "start_ms": 307098,
+      "end_ms": 307138,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0004
+    },
+    {
+      "word": "space",
+      "start_ms": 307258,
+      "end_ms": 307598,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0443
+    },
+    {
+      "word": "to",
+      "start_ms": 307718,
+      "end_ms": 307818,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "slow",
+      "start_ms": 307878,
+      "end_ms": 308078,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0008
+    },
+    {
+      "word": "it",
+      "start_ms": 308158,
+      "end_ms": 308218,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "down!",
+      "start_ms": 308278,
+      "end_ms": 308618,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -3.7973
+    }
+  ],
+  "format_spec": {
+    "font_size": 64,
+    "highlight_color": "#FF8C42",
+    "background_color": "rgba(255,253,240,0.90)",
+    "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+    "font_weight": "700",
+    "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+    "key_terms": [],
+    "words_per_page": 6
+  },
+  "source_block_type": "concept",
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

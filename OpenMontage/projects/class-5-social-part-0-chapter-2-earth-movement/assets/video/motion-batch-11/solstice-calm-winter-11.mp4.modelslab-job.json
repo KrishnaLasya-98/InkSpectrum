@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188346429",
+  "request_fingerprint": "9f8ecb63c8943c1b42512e8c15cf7a6c0ec1b63a9f285e72e0752ce2b80c6942",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-11\\solstice-calm-winter-11.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1790915605.6419528,
+  "last_poll_at_unix": 1790915697.282567,
+  "completed_at_unix": 1790915698.9369035
+}

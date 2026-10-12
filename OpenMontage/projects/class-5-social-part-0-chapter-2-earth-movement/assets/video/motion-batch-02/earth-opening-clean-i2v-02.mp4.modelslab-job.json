@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188299543",
+  "request_fingerprint": "4d8be5856be2e2e51de2e71b63daf1ec000c45f085bae906b135801f85de0bd2",
+  "poll_endpoint": "video",
+  "model_id": "wan-2.2-i2v",
+  "operation": "image_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-02\\earth-opening-clean-i2v-02.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1790854311.669878,
+  "last_poll_at_unix": 1790854469.5974655,
+  "completed_at_unix": 1790854471.3161888
+}

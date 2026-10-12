@@ -1,0 +1,3225 @@
+{
+  "version": "1.0",
+  "created_at": "2026-10-07T06:18:53.668655+00:00",
+  "source_manifest": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\clip-manifest-v1.json",
+  "files_checked": 72,
+  "passed": 72,
+  "failed": 0,
+  "full_motion_files": 49,
+  "precision_authored_low_motion_files": 23,
+  "status": "pass",
+  "results": [
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\altitude-foothill-to-peak-a0b1d6875ca0.mp4",
+      "sha256": "522afb3a306ddb123cf16bf92e331dfa6dbe61257840dee833d4bca6eccd6e81",
+      "file_size_bytes": 1828469,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1828469"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\AltitudeClimate-2a32dde13d96.mp4",
+      "sha256": "2801defb82ebb867a4cdd00c376ef3446958df9d2d1b3052c4ea880a5e5334ff",
+      "file_size_bytes": 571567,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "20.300000",
+          "size": "571567"
+        }
+      },
+      "frame_hashes": {
+        "frames": 609,
+        "unique_frames": 599,
+        "unique_ratio": 0.98358,
+        "longest_identical_run_frames": 5,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "fail",
+        "duration_seconds": 20.3,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [
+          20.3
+        ],
+        "issues": [
+          "frozen motion detected (longest 20.30s)"
+        ]
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "precision-authored-low-motion",
+        "note": "Coarse perceptual freeze threshold triggered, but exact frame hashes confirm continuous authored changes and no repeated end-frame extension."
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\amazon-rain-4bc05586d6c7.mp4",
+      "sha256": "9fb05ddf8cc325f568d468cb129accfaf9d70a638dc9c56a2e3a09709eaf5c18",
+      "file_size_bytes": 1492774,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1492774"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\antarctic-wind-9edadbfc5dd5.mp4",
+      "sha256": "2df96593fa1a12fbdf238a0229bdc99e12d776f8a6788f70a9e839f8613fa62f",
+      "file_size_bytes": 1282836,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1282836"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\AntarcticaClimate-85e096575fb1.mp4",
+      "sha256": "273088f029ca0d05f292717477cec29a328dc3e30c52d5f57249111730821fd7",
+      "file_size_bytes": 343638,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "18.200000",
+          "size": "343638"
+        }
+      },
+      "frame_hashes": {
+        "frames": 546,
+        "unique_frames": 546,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "fail",
+        "duration_seconds": 18.2,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [
+          18.2
+        ],
+        "issues": [
+          "frozen motion detected (longest 18.20s)"
+        ]
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "precision-authored-low-motion",
+        "note": "Coarse perceptual freeze threshold triggered, but exact frame hashes confirm continuous authored changes and no repeated end-frame extension."
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\BreezeClimate-cc04236183a7.mp4",
+      "sha256": "4977fda92f682d03b2a6b8bd4325937a1090f28822b8e666c1a931f5dab8e5df",
+      "file_size_bytes": 890344,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "37.200000",
+          "size": "890344"
+        }
+      },
+      "frame_hashes": {
+        "frames": 1116,
+        "unique_frames": 1116,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "fail",
+        "duration_seconds": 37.2,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [
+          37.2
+        ],
+        "issues": [
+          "frozen motion detected (longest 37.20s)"
+        ]
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "precision-authored-low-motion",
+        "note": "Coarse perceptual freeze threshold triggered, but exact frame hashes confirm continuous authored changes and no repeated end-frame extension."
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\climate-factors-landscape-a677652517a0.mp4",
+      "sha256": "135d22608c83305dbee17924b21035f7ed8f9ecf751cbafe05cbb84e50cfffc0",
+      "file_size_bytes": 1106204,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1106204"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\climate-long-term-seasons-409ce9a8b212.mp4",
+      "sha256": "e2ec715fe05c6f3ad701ceb408cd17b3957fa1d6b54d46194de041e30c971106",
+      "file_size_bytes": 1766006,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1766006"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\climate-wet-dry-contrast-0a6834af8bb8.mp4",
+      "sha256": "3413b3c342744f7728a002e3f63b9118f817d0bc6f576fb8bf3fad5070e49e44",
+      "file_size_bytes": 1829176,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1829176"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\ClimateContrast-b9085db3b2e1.mp4",
+      "sha256": "f7c0919a93e3c6b92629c501eb78efbf087f2d4e62415283292019b0386d4c4d",
+      "file_size_bytes": 741756,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "27.033333",
+          "size": "741756"
+        }
+      },
+      "frame_hashes": {
+        "frames": 811,
+        "unique_frames": 808,
+        "unique_ratio": 0.996301,
+        "longest_identical_run_frames": 2,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "fail",
+        "duration_seconds": 27.033,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [
+          27.033333
+        ],
+        "issues": [
+          "frozen motion detected (longest 27.03s)"
+        ]
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "precision-authored-low-motion",
+        "note": "Coarse perceptual freeze threshold triggered, but exact frame hashes confirm continuous authored changes and no repeated end-frame extension."
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\ClimateTypesPreview-22320416225c.mp4",
+      "sha256": "080be56027cdc667a66141e0969bb01135dc43ab4310210813ffb3281c5cbc3b",
+      "file_size_bytes": 258428,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "10.500000",
+          "size": "258428"
+        }
+      },
+      "frame_hashes": {
+        "frames": 315,
+        "unique_frames": 315,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "fail",
+        "duration_seconds": 10.5,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [
+          10.5
+        ],
+        "issues": [
+          "frozen motion detected (longest 10.50s)"
+        ]
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "precision-authored-low-motion",
+        "note": "Coarse perceptual freeze threshold triggered, but exact frame hashes confirm continuous authored changes and no repeated end-frame extension."
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\CloudClimate-f5ad240b0263.mp4",
+      "sha256": "cf7a32bb4db55591a6e622fa5a60e0a71c0a0c4edef142b7e52ac271f20b7307",
+      "file_size_bytes": 696560,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "16.100000",
+          "size": "696560"
+        }
+      },
+      "frame_hashes": {
+        "frames": 483,
+        "unique_frames": 483,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "fail",
+        "duration_seconds": 16.1,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [
+          16.1
+        ],
+        "issues": [
+          "frozen motion detected (longest 16.10s)"
+        ]
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "precision-authored-low-motion",
+        "note": "Coarse perceptual freeze threshold triggered, but exact frame hashes confirm continuous authored changes and no repeated end-frame extension."
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\coast-day-b032b4c89cc8.mp4",
+      "sha256": "44c610a8a2cf267a08bb220d1ce7de98cbf90b657f765bf198da0a440f2cbd39",
+      "file_size_bytes": 1610592,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1610592"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\coast-day-thermal-lag-b44d04f276ff.mp4",
+      "sha256": "56d9b7a7ce563aad85ab7f5043b9b8696080d18694b1fac1e8b554c7f5efa56f",
+      "file_size_bytes": 1762532,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1762532"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\coast-night-a8fc83d4c4bc.mp4",
+      "sha256": "fd29150f580899fb8a87326a7678b0b580e43186ddea8fd17e306a0007edcdfe",
+      "file_size_bytes": 705024,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "705024"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\coast-night-thermal-lag-4f412cd4c48c.mp4",
+      "sha256": "2bad77bc0c1d366bdc8dae26705ec42caf795b993d52608b77bae5c48c38e105",
+      "file_size_bytes": 856811,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "856811"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\cold-current-coast-e9418ccf40f2.mp4",
+      "sha256": "c34d48a7d9e4adcc0174ca9f6c8ef7469bd3694de590fa2c87d0ce6676918921",
+      "file_size_bytes": 1309577,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066016",
+          "size": "1309577"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.066,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\cumulus-fair-c2effd5e21a4.mp4",
+      "sha256": "bbe059186964128590b6d4c0ead0c0bc56bc44fd875a838963346cb742429e75",
+      "file_size_bytes": 1413840,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066016",
+          "size": "1413840"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.066,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\CurrentsClimate-400d17d22eb6.mp4",
+      "sha256": "e554ddaf8beacfe0917e9732e80ac2cbda30b5a45d56ad98be9e6ebb43a33cf6",
+      "file_size_bytes": 564291,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "23.133333",
+          "size": "564291"
+        }
+      },
+      "frame_hashes": {
+        "frames": 694,
+        "unique_frames": 694,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "fail",
+        "duration_seconds": 23.133,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [
+          23.133333
+        ],
+        "issues": [
+          "frozen motion detected (longest 23.13s)"
+        ]
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "precision-authored-low-motion",
+        "note": "Coarse perceptual freeze threshold triggered, but exact frame hashes confirm continuous authored changes and no repeated end-frame extension."
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\desert-cool-night-cd4237102118.mp4",
+      "sha256": "a2dbff6c4f849b209360e629ec98b917199794c80defb8beaa6ede1c0f77dda5",
+      "file_size_bytes": 601485,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "601485"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\desert-hot-day-34f51acbd7e5.mp4",
+      "sha256": "646d2609905c7cb95a20d128d6266a5888988b59f16bc3ad6ebc54bab1baccfa",
+      "file_size_bytes": 1038139,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1038139"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\DesertClimate-a813ad82a50f.mp4",
+      "sha256": "01290ec79bebf110f121a32ca11b168ff0b502d78238d9844ab81269d278d1bf",
+      "file_size_bytes": 336692,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "13.366667",
+          "size": "336692"
+        }
+      },
+      "frame_hashes": {
+        "frames": 401,
+        "unique_frames": 401,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "fail",
+        "duration_seconds": 13.367,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [
+          10.966667,
+          2.4000000000000004
+        ],
+        "issues": [
+          "frozen motion detected (longest 10.97s)"
+        ]
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "precision-authored-low-motion",
+        "note": "Coarse perceptual freeze threshold triggered, but exact frame hashes confirm continuous authored changes and no repeated end-frame extension."
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\dry-desert-air-dd2bf0af1df2.mp4",
+      "sha256": "8ade1b59e0db720688a0a5fa8a43df477d34975fbb5220a57ee3dc6fa45e1289",
+      "file_size_bytes": 1026767,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1026767"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\earth-equator-to-poles-69ec722eb13d.mp4",
+      "sha256": "234e83f60670bbad937f56965883fdad388a39ca75cb129151f3a307e8c79315",
+      "file_size_bytes": 1274524,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1274524"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\equator-strong-sunlight-28fb44db0160.mp4",
+      "sha256": "4d3bc7cee3547e28b11ab0d518fabd8bc6461a74b26cf918fbbe4f6fc3acfb75",
+      "file_size_bytes": 1539944,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1539944"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\equatorial-rain-c3f827b54dd2.mp4",
+      "sha256": "875dd436b0e9b5c5863ee8ce38e9d91dcbb40dcb200c24ddcf8cb264032dcd11",
+      "file_size_bytes": 1663637,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1663637"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\equatorial-rainforest-river-bed2dcbcf388.mp4",
+      "sha256": "9ad10b4d2839afe6bdeadb65f26200ec6032e17553641646da826aed1d03d06e",
+      "file_size_bytes": 1950447,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1950447"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\EquatorialClimate-e347b76101a5.mp4",
+      "sha256": "c2a4ed00780b982fe9e73003951fe8012a4946e29abb27ac2f8272706903f95a",
+      "file_size_bytes": 883285,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "15.133333",
+          "size": "883285"
+        }
+      },
+      "frame_hashes": {
+        "frames": 454,
+        "unique_frames": 454,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "fail",
+        "duration_seconds": 15.133,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [
+          15.133333
+        ],
+        "issues": [
+          "frozen motion detected (longest 15.13s)"
+        ]
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "precision-authored-low-motion",
+        "note": "Coarse perceptual freeze threshold triggered, but exact frame hashes confirm continuous authored changes and no repeated end-frame extension."
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\FactorsPreview-ab661f21f944.mp4",
+      "sha256": "3d158f6700e0defb33f7170fb4e02b40e985d5ca3cbe7f9968fb30dcbcb2caf7",
+      "file_size_bytes": 286675,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "11.533333",
+          "size": "286675"
+        }
+      },
+      "frame_hashes": {
+        "frames": 346,
+        "unique_frames": 346,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "fail",
+        "duration_seconds": 11.533,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [
+          11.533333
+        ],
+        "issues": [
+          "frozen motion detected (longest 11.53s)"
+        ]
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "precision-authored-low-motion",
+        "note": "Coarse perceptual freeze threshold triggered, but exact frame hashes confirm continuous authored changes and no repeated end-frame extension."
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\frigid-ice-4d1e822b40d5.mp4",
+      "sha256": "38a28f86f04b81238380f9a8c79332fd9fa3fa0eb0887585a805f9c386ccde65",
+      "file_size_bytes": 1196453,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066016",
+          "size": "1196453"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.066,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\FrigidClimate-adbd4a4cff4f.mp4",
+      "sha256": "8929dee8ccf6f2777db41e3eb4e2e240e2b6b52ee75569a2cf4f6bd21c150823",
+      "file_size_bytes": 410738,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "10.033333",
+          "size": "410738"
+        }
+      },
+      "frame_hashes": {
+        "frames": 301,
+        "unique_frames": 301,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "fail",
+        "duration_seconds": 10.033,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [
+          10.033333
+        ],
+        "issues": [
+          "frozen motion detected (longest 10.03s)"
+        ]
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "precision-authored-low-motion",
+        "note": "Coarse perceptual freeze threshold triggered, but exact frame hashes confirm continuous authored changes and no repeated end-frame extension."
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\HotDesert-6d78941e15d8.mp4",
+      "sha256": "693a93a6a94987a89b295da518b101117bd759b9ca9f4d7b50f3dc83a0d64d12",
+      "file_size_bytes": 500622,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "21.133333",
+          "size": "500622"
+        }
+      },
+      "frame_hashes": {
+        "frames": 634,
+        "unique_frames": 633,
+        "unique_ratio": 0.998423,
+        "longest_identical_run_frames": 2,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "fail",
+        "duration_seconds": 21.133,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [
+          21.133333
+        ],
+        "issues": [
+          "frozen motion detected (longest 21.13s)"
+        ]
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "precision-authored-low-motion",
+        "note": "Coarse perceptual freeze threshold triggered, but exact frame hashes confirm continuous authored changes and no repeated end-frame extension."
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\humid-coast-2e86bd166b34.mp4",
+      "sha256": "b626c66961e74434cc83d8d56abccfa3a71212ba11655e61851ec52698580c3f",
+      "file_size_bytes": 1434976,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1434976"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\humidity-lush-coast-1dec1a2d1eb7.mp4",
+      "sha256": "b2db4dd7cabf8dfad9bf8e68fb67389ffb3effb06e2e565ccd6b749e02aeb598",
+      "file_size_bytes": 1923826,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1923826"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 149,
+        "unique_ratio": 0.980263,
+        "longest_identical_run_frames": 2,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\HumidityClimate-c49983f9ac8a.mp4",
+      "sha256": "275f9d1caaa86cfd636dd3bb0cf633e4428198cdf057c5e2bbe8f8a10f34d509",
+      "file_size_bytes": 1246837,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "20.533333",
+          "size": "1246837"
+        }
+      },
+      "frame_hashes": {
+        "frames": 616,
+        "unique_frames": 616,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "fail",
+        "duration_seconds": 20.533,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [
+          20.533333
+        ],
+        "issues": [
+          "frozen motion detected (longest 20.53s)"
+        ]
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "precision-authored-low-motion",
+        "note": "Coarse perceptual freeze threshold triggered, but exact frame hashes confirm continuous authored changes and no repeated end-frame extension."
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\LatitudeClimate-b84db9df8529.mp4",
+      "sha256": "5d90df2e5a2ba00ea70c49e4c87ea72ffb06d998ab6f9bff65c6ec1807d9343a",
+      "file_size_bytes": 844687,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "30.133333",
+          "size": "844687"
+        }
+      },
+      "frame_hashes": {
+        "frames": 904,
+        "unique_frames": 904,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "fail",
+        "duration_seconds": 30.133,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [
+          30.133333
+        ],
+        "issues": [
+          "frozen motion detected (longest 30.13s)"
+        ]
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "precision-authored-low-motion",
+        "note": "Coarse perceptual freeze threshold triggered, but exact frame hashes confirm continuous authored changes and no repeated end-frame extension."
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\long-weather-title-c083dd89f573.mp4",
+      "sha256": "762e5fde1d698ca89a9b55840de95533f1b5628f96e86ca0662a708dfa767025",
+      "file_size_bytes": 1571491,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1571491"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\lut-heat-shimmer-fa751db34212.mp4",
+      "sha256": "e96556de299fa3bf061e82f0ba64da0616eaddce394c7df0d78b8e818a13ef65",
+      "file_size_bytes": 1395969,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1395969"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\lut-rocky-heat-8ff963d4fea6.mp4",
+      "sha256": "0f92ae50a45155e5036013af42ee7237073c5d9847b2af422db54dc1ac5ac97b",
+      "file_size_bytes": 1613397,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1613397"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\lut-scorched-ridges-939cc5ee2d10.mp4",
+      "sha256": "6362a8a5ded24c0132732c29eb04bfd48d31820a4752f6339ae94fda0e8beecd",
+      "file_size_bytes": 1141790,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1141790"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\monsoon-rain-ba612cb7066e.mp4",
+      "sha256": "46f6a20ab9d2d74de7cae599b7f63353685c357fb48b75f48ade9199e1c8dd18",
+      "file_size_bytes": 2054683,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "2054683"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\monsoon-rice-fields-5b36802a29f6.mp4",
+      "sha256": "1bb233df6f96aeb93b9f9e60aaebb397a743612e9e6625cd6389b0c8ee28e385",
+      "file_size_bytes": 1652787,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1652787"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\MonsoonClimate-73363d1ac01a.mp4",
+      "sha256": "c6f20ec529374811b5ed74e9bff7c03dab407afc7859935dd5d182ea87efcada",
+      "file_size_bytes": 958394,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "16.266667",
+          "size": "958394"
+        }
+      },
+      "frame_hashes": {
+        "frames": 488,
+        "unique_frames": 488,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "fail",
+        "duration_seconds": 16.267,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [
+          16.266667
+        ],
+        "issues": [
+          "frozen motion detected (longest 16.27s)"
+        ]
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "precision-authored-low-motion",
+        "note": "Coarse perceptual freeze threshold triggered, but exact frame hashes confirm continuous authored changes and no repeated end-frame extension."
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\mountain-ascending-d85bd5fbc1aa.mp4",
+      "sha256": "15118b43adb7a16b799b325ef987e3fee969d8f5b606a634762cd475354c3ed3",
+      "file_size_bytes": 1106635,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1106635"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 149,
+        "unique_ratio": 0.980263,
+        "longest_identical_run_frames": 2,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\nimbostratus-rain-57cf7bf86d08.mp4",
+      "sha256": "70101f26fa4a6531ec33c443a36247499462079222ec0b9b272c5498e463ac94",
+      "file_size_bytes": 1249211,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1249211"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\polar-low-sunlight-1bff745995bf.mp4",
+      "sha256": "2955d89d3a8635acbd2bf5ad14496d95878c53d7979245d64f689729e4113cbf",
+      "file_size_bytes": 962983,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "962983"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\rainforest-canopy-912789c3baa5.mp4",
+      "sha256": "f5fe8f5692020c80ce4666ad4e7a0120a4ac8670c1279ab2497db850dcfd93fd",
+      "file_size_bytes": 1748007,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1748007"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 151,
+        "unique_ratio": 0.993421,
+        "longest_identical_run_frames": 2,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\rainforest-food-1e4dbd786f67.mp4",
+      "sha256": "4bd4bebbba39d498074dbccf475dbbae5cd418975acaa369d69169117e71e3f6",
+      "file_size_bytes": 1360382,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1360382"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 150,
+        "unique_ratio": 0.986842,
+        "longest_identical_run_frames": 2,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\RainforestClimate-236103b467c4.mp4",
+      "sha256": "13781d0e386f90a0d7a97d6252f7ad0a51827462c38e015737aa42941085d172",
+      "file_size_bytes": 1048124,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "18.033333",
+          "size": "1048124"
+        }
+      },
+      "frame_hashes": {
+        "frames": 541,
+        "unique_frames": 541,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "fail",
+        "duration_seconds": 18.033,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [
+          18.033333
+        ],
+        "issues": [
+          "frozen motion detected (longest 18.03s)"
+        ]
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "precision-authored-low-motion",
+        "note": "Coarse perceptual freeze threshold triggered, but exact frame hashes confirm continuous authored changes and no repeated end-frame extension."
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\sahara-dunes-a3b9a5a1a672.mp4",
+      "sha256": "386330d66b787b2168955421fb0aaea1d7ae36e1eb98a87ef4c1b15a78c7d3e5",
+      "file_size_bytes": 1011680,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1011680"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\sea-current-waves-b1c9ad70ede7.mp4",
+      "sha256": "a2465c0aceceb2bdc21b17051d8d42cbe15aa48d938f357bcab2b78bbb363942",
+      "file_size_bytes": 2038661,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "2038661"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\startup-cold-place-820e07f37207.mp4",
+      "sha256": "6cde775a9eae165a9264cb74e8cc99f119aa43711eb5a7cda3252ff146cf7688",
+      "file_size_bytes": 1451142,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1451142"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\StartupWeather-45817ae8a87b.mp4",
+      "sha256": "aa48c842cdf4da13a629bce594cff4d4ea00d3c96832f489b849524c2251c929",
+      "file_size_bytes": 1060010,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "27.300000",
+          "size": "1060010"
+        }
+      },
+      "frame_hashes": {
+        "frames": 819,
+        "unique_frames": 819,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "fail",
+        "duration_seconds": 27.3,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [
+          27.3
+        ],
+        "issues": [
+          "frozen motion detected (longest 27.30s)"
+        ]
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "precision-authored-low-motion",
+        "note": "Coarse perceptual freeze threshold triggered, but exact frame hashes confirm continuous authored changes and no repeated end-frame extension."
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\temperate-four-seasons-tree-53e38efd7f4c.mp4",
+      "sha256": "486b4a3f99b4a3c1d3e933bcb56bdc4cf1f302d4663ae816a9e808bb67e0d9ea",
+      "file_size_bytes": 1886479,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066016",
+          "size": "1886479"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.066,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\temperate-seasons-2f58c20200d5.mp4",
+      "sha256": "41041383060e2fded239e1e945f2a0a670ec7fa511e0b89cd0e976b968a321c3",
+      "file_size_bytes": 1926826,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066016",
+          "size": "1926826"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.066,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\TemperateClimate-ce14261db354.mp4",
+      "sha256": "aa1b103653b5b9ddc754bf28a8f39f0f2816781ca767446ae12616f5cf1b51c6",
+      "file_size_bytes": 615000,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "11.433333",
+          "size": "615000"
+        }
+      },
+      "frame_hashes": {
+        "frames": 343,
+        "unique_frames": 343,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "fail",
+        "duration_seconds": 11.433,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [
+          11.433333
+        ],
+        "issues": [
+          "frozen motion detected (longest 11.43s)"
+        ]
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "precision-authored-low-motion",
+        "note": "Coarse perceptual freeze threshold triggered, but exact frame hashes confirm continuous authored changes and no repeated end-frame extension."
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\TorridClimate-19d10179f574.mp4",
+      "sha256": "3ee596e66b2dd9cc1dceb59d23e1732a391116bbddecbde6c65898da8cab2ef8",
+      "file_size_bytes": 617197,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "12.966667",
+          "size": "617197"
+        }
+      },
+      "frame_hashes": {
+        "frames": 389,
+        "unique_frames": 389,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "fail",
+        "duration_seconds": 12.967,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [
+          12.966667
+        ],
+        "issues": [
+          "frozen motion detected (longest 12.97s)"
+        ]
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "precision-authored-low-motion",
+        "note": "Coarse perceptual freeze threshold triggered, but exact frame hashes confirm continuous authored changes and no repeated end-frame extension."
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\tundra-wind-9437ccb624b1.mp4",
+      "sha256": "4122d3f12090eaa5ce4e4ec3467f83e69257791ddb2f9e744c5148b4ce06527e",
+      "file_size_bytes": 957738,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066016",
+          "size": "957738"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 151,
+        "unique_ratio": 0.993421,
+        "longest_identical_run_frames": 2,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.066,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\TundraClimate-524a3826ba14.mp4",
+      "sha256": "d55f3a060da46f773d3931b289c762492bd71f47bc16d47494fb78c656132730",
+      "file_size_bytes": 349907,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "13.333008",
+          "size": "349907"
+        }
+      },
+      "frame_hashes": {
+        "frames": 400,
+        "unique_frames": 400,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "fail",
+        "duration_seconds": 13.333,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [
+          13.333008
+        ],
+        "issues": [
+          "frozen motion detected (longest 13.33s)"
+        ]
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "precision-authored-low-motion",
+        "note": "Coarse perceptual freeze threshold triggered, but exact frame hashes confirm continuous authored changes and no repeated end-frame extension."
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\warm-current-coast-8a0cf1e26fe4.mp4",
+      "sha256": "6c48b7d63ab4daa967fd870fc4b1aa2b8342bdab0d69700ecae124fe138e455c",
+      "file_size_bytes": 1407427,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1407427"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\weather-change-rain-to-sun-ae8dca3ef284.mp4",
+      "sha256": "e96293929b4e765af43e259d16828b2619ec939c2db2707b8e2062f9197356e9",
+      "file_size_bytes": 1779547,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1779547"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\weather-cloud-cover-b17ceaa9e37c.mp4",
+      "sha256": "fb6f0008e50f02f9b043d592ed0ecba9159d9dbf6dcee2d4c60efd362776cf95",
+      "file_size_bytes": 1839693,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1839693"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\weather-opening-643eb51b5e5a.mp4",
+      "sha256": "4117279d1ccd8df65f886c39a0597f54e28c7c30ac3d4d294662bba87feb24c0",
+      "file_size_bytes": 1595785,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1595785"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 151,
+        "unique_ratio": 0.993421,
+        "longest_identical_run_frames": 2,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\weather-rain-8a163d2b4844.mp4",
+      "sha256": "6bf2cfecf7774e924b18bb53215a7b816e8ca476f7c0bcf08706184c39015fca",
+      "file_size_bytes": 1291646,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1291646"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\weather-sunny-garden-9ae2a8a86896.mp4",
+      "sha256": "d2b6d6b33be650665e5c559e288edd3f48b232cabbf9687eddd24dba982e7971",
+      "file_size_bytes": 1309819,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1309819"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\weather-wind-be5be1029b32.mp4",
+      "sha256": "776cd8e1a0d0162be4223c17113782e5d4663d02a46d61d5e073e2780ae4cb38",
+      "file_size_bytes": 1821590,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1821590"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 150,
+        "unique_ratio": 0.986842,
+        "longest_identical_run_frames": 2,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\WeatherChanges-a19552b0190b.mp4",
+      "sha256": "46ef1308018033184bcda8478a6efaa7494edf7b8f37309af437ea05230fd744",
+      "file_size_bytes": 1038505,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "25.266667",
+          "size": "1038505"
+        }
+      },
+      "frame_hashes": {
+        "frames": 758,
+        "unique_frames": 758,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "fail",
+        "duration_seconds": 25.267,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [
+          25.266667
+        ],
+        "issues": [
+          "frozen motion detected (longest 25.27s)"
+        ]
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "precision-authored-low-motion",
+        "note": "Coarse perceptual freeze threshold triggered, but exact frame hashes confirm continuous authored changes and no repeated end-frame extension."
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\WindClimate-68301180b804.mp4",
+      "sha256": "4f73a2b244ac3f299bfd540a560a5ac82f2484591388d05209ff3a888b487d2c",
+      "file_size_bytes": 783384,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "20.300000",
+          "size": "783384"
+        }
+      },
+      "frame_hashes": {
+        "frames": 609,
+        "unique_frames": 609,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "fail",
+        "duration_seconds": 20.3,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [
+          20.3
+        ],
+        "issues": [
+          "frozen motion detected (longest 20.30s)"
+        ]
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "precision-authored-low-motion",
+        "note": "Coarse perceptual freeze threshold triggered, but exact frame hashes confirm continuous authored changes and no repeated end-frame extension."
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\window-cloud-6df395c6073c.mp4",
+      "sha256": "c802272790fe781b1cc0a5a477b462e1f913b46d4c2c81d6d3e67c19257c3e2d",
+      "file_size_bytes": 1048864,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1048864"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\window-rain-b2fb3527b011.mp4",
+      "sha256": "7699840fe073284af86b6c89c486f53876a3222c780c1c21a69f1f55a32e88a2",
+      "file_size_bytes": 1106382,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1106382"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 152,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\window-sun-deedf662fcae.mp4",
+      "sha256": "5c1140bd7e1b5025c814e35118685a30da4f0a85943fdc36a7aff19c6b30a428",
+      "file_size_bytes": 1089479,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "5.066667",
+          "size": "1089479"
+        }
+      },
+      "frame_hashes": {
+        "frames": 152,
+        "unique_frames": 151,
+        "unique_ratio": 0.993421,
+        "longest_identical_run_frames": 2,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.067,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "full-motion"
+      }
+    },
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\ZonesOverview-ea7ca84ad390.mp4",
+      "sha256": "279bc66f781f8e00bd240924e36d1975e36c35f10d29e35245b9f5a92e21b01e",
+      "file_size_bytes": 427171,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "avg_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "duration": "10.466667",
+          "size": "427171"
+        }
+      },
+      "frame_hashes": {
+        "frames": 314,
+        "unique_frames": 314,
+        "unique_ratio": 1.0,
+        "longest_identical_run_frames": 1,
+        "identical_tail_frames": 1
+      },
+      "technical": {
+        "status": "fail",
+        "duration_seconds": 10.467,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [
+          10.466667
+        ],
+        "issues": [
+          "frozen motion detected (longest 10.47s)"
+        ]
+      },
+      "decision": {
+        "status": "pass",
+        "classification": "precision-authored-low-motion",
+        "note": "Coarse perceptual freeze threshold triggered, but exact frame hashes confirm continuous authored changes and no repeated end-frame extension."
+      }
+    }
+  ]
+}

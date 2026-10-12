@@ -1,0 +1,4654 @@
+{
+  "segments": [
+    {
+      "section_id": "s01-title",
+      "text": "Social Studies, Class 5. Lesson 2: Earth Movement.",
+      "start_ms": 0,
+      "end_ms": 4687,
+      "words": [
+        {
+          "word": "Social",
+          "start_ms": 0,
+          "end_ms": 280
+        },
+        {
+          "word": "Studies,",
+          "start_ms": 280,
+          "end_ms": 580
+        },
+        {
+          "word": "Class",
+          "start_ms": 860,
+          "end_ms": 920
+        },
+        {
+          "word": "5.",
+          "start_ms": 900,
+          "end_ms": 1240
+        },
+        {
+          "word": "Lesson",
+          "start_ms": 1720,
+          "end_ms": 1880
+        },
+        {
+          "word": "2:",
+          "start_ms": 1880,
+          "end_ms": 2040
+        },
+        {
+          "word": "Earth",
+          "start_ms": 2260,
+          "end_ms": 2320
+        },
+        {
+          "word": "Movement.",
+          "start_ms": 2320,
+          "end_ms": 2560
+        }
+      ],
+      "format_spec": {
+        "font_size": 64,
+        "highlight_color": "#FF8C42",
+        "background_color": "rgba(255,253,240,0.90)",
+        "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+        "font_weight": "700",
+        "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+        "key_terms": [],
+        "words_per_page": 6
+      },
+      "source_block_type": "concept"
+    },
+    {
+      "section_id": "s02-objectives",
+      "text": "Learning Objectives. By the end of this chapter, learners will be able to: Understand that the Earth is spherical. Identify the two types of movements of the Earth. Explain rotation and its effects. Understand revolution and its effects. Learn about different seasons caused by revolution. Define solstices and equinoxes and when they occur.",
+      "start_ms": 4687,
+      "end_ms": 25993,
+      "words": [
+        {
+          "word": "Learning",
+          "start_ms": 4687,
+          "end_ms": 5147
+        },
+        {
+          "word": "Objectives.",
+          "start_ms": 5147,
+          "end_ms": 5947
+        },
+        {
+          "word": "By",
+          "start_ms": 7647,
+          "end_ms": 8207
+        },
+        {
+          "word": "the",
+          "start_ms": 8207,
+          "end_ms": 8327
+        },
+        {
+          "word": "end",
+          "start_ms": 8327,
+          "end_ms": 8547
+        },
+        {
+          "word": "of",
+          "start_ms": 8547,
+          "end_ms": 8647
+        },
+        {
+          "word": "this",
+          "start_ms": 8647,
+          "end_ms": 8847
+        },
+        {
+          "word": "chapter,",
+          "start_ms": 8847,
+          "end_ms": 9227
+        },
+        {
+          "word": "learners",
+          "start_ms": 9567,
+          "end_ms": 9687
+        },
+        {
+          "word": "will",
+          "start_ms": 9687,
+          "end_ms": 9947
+        },
+        {
+          "word": "be",
+          "start_ms": 9947,
+          "end_ms": 10087
+        },
+        {
+          "word": "able",
+          "start_ms": 10087,
+          "end_ms": 10287
+        },
+        {
+          "word": "to:",
+          "start_ms": 10287,
+          "end_ms": 10507
+        },
+        {
+          "word": "Understand",
+          "start_ms": 10507,
+          "end_ms": 10947
+        },
+        {
+          "word": "that",
+          "start_ms": 10947,
+          "end_ms": 11167
+        },
+        {
+          "word": "the",
+          "start_ms": 11167,
+          "end_ms": 11307
+        },
+        {
+          "word": "Earth",
+          "start_ms": 11307,
+          "end_ms": 11507
+        },
+        {
+          "word": "is",
+          "start_ms": 11507,
+          "end_ms": 11727
+        },
+        {
+          "word": "spherical.",
+          "start_ms": 11727,
+          "end_ms": 12047
+        },
+        {
+          "word": "Identify",
+          "start_ms": 12567,
+          "end_ms": 12747
+        },
+        {
+          "word": "the",
+          "start_ms": 12747,
+          "end_ms": 13087
+        },
+        {
+          "word": "two",
+          "start_ms": 13087,
+          "end_ms": 13267
+        },
+        {
+          "word": "types",
+          "start_ms": 13267,
+          "end_ms": 13507
+        },
+        {
+          "word": "of",
+          "start_ms": 13507,
+          "end_ms": 13707
+        },
+        {
+          "word": "movements",
+          "start_ms": 13707,
+          "end_ms": 13947
+        },
+        {
+          "word": "of",
+          "start_ms": 13947,
+          "end_ms": 14187
+        },
+        {
+          "word": "the",
+          "start_ms": 14187,
+          "end_ms": 14327
+        },
+        {
+          "word": "Earth.",
+          "start_ms": 14327,
+          "end_ms": 14547
+        },
+        {
+          "word": "Explain",
+          "start_ms": 14967,
+          "end_ms": 15247
+        },
+        {
+          "word": "rotation",
+          "start_ms": 15247,
+          "end_ms": 15667
+        },
+        {
+          "word": "and",
+          "start_ms": 15667,
+          "end_ms": 16087
+        },
+        {
+          "word": "its",
+          "start_ms": 16087,
+          "end_ms": 16227
+        },
+        {
+          "word": "effects.",
+          "start_ms": 16227,
+          "end_ms": 16527
+        },
+        {
+          "word": "Understand",
+          "start_ms": 16927,
+          "end_ms": 17307
+        },
+        {
+          "word": "revolution",
+          "start_ms": 17307,
+          "end_ms": 17607
+        },
+        {
+          "word": "and",
+          "start_ms": 17607,
+          "end_ms": 18207
+        },
+        {
+          "word": "its",
+          "start_ms": 18207,
+          "end_ms": 18347
+        },
+        {
+          "word": "effects.",
+          "start_ms": 18347,
+          "end_ms": 18707
+        },
+        {
+          "word": "Learn",
+          "start_ms": 19107,
+          "end_ms": 19367
+        },
+        {
+          "word": "about",
+          "start_ms": 19367,
+          "end_ms": 19587
+        },
+        {
+          "word": "different",
+          "start_ms": 19587,
+          "end_ms": 19907
+        },
+        {
+          "word": "seasons",
+          "start_ms": 19907,
+          "end_ms": 20247
+        },
+        {
+          "word": "caused",
+          "start_ms": 20247,
+          "end_ms": 20567
+        },
+        {
+          "word": "by",
+          "start_ms": 20567,
+          "end_ms": 20787
+        },
+        {
+          "word": "revolution.",
+          "start_ms": 20787,
+          "end_ms": 21227
+        },
+        {
+          "word": "Define",
+          "start_ms": 21727,
+          "end_ms": 22007
+        },
+        {
+          "word": "solstices",
+          "start_ms": 22007,
+          "end_ms": 22467
+        },
+        {
+          "word": "and",
+          "start_ms": 22467,
+          "end_ms": 22787
+        },
+        {
+          "word": "equinoxes",
+          "start_ms": 22787,
+          "end_ms": 23407
+        },
+        {
+          "word": "and",
+          "start_ms": 23407,
+          "end_ms": 23727
+        },
+        {
+          "word": "when",
+          "start_ms": 23727,
+          "end_ms": 23867
+        },
+        {
+          "word": "they",
+          "start_ms": 23867,
+          "end_ms": 24007
+        },
+        {
+          "word": "occur.",
+          "start_ms": 24007,
+          "end_ms": 24287
+        }
+      ],
+      "format_spec": {
+        "font_size": 64,
+        "highlight_color": "#FF8C42",
+        "background_color": "rgba(255,253,240,0.90)",
+        "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+        "font_weight": "700",
+        "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+        "key_terms": [],
+        "words_per_page": 6
+      },
+      "source_block_type": "concept"
+    },
+    {
+      "section_id": "s03-startup",
+      "text": "Start-Up Activity. Take a ball and spin it. Notice how it moves. Imagine this is the Earth moving in space. The Earth moves in two ways\u2014let's explore these movements and their effects!",
+      "start_ms": 25993,
+      "end_ms": 40580,
+      "words": [
+        {
+          "word": "Start-Up",
+          "start_ms": 26233,
+          "end_ms": 26439
+        },
+        {
+          "word": "Activity.",
+          "start_ms": 26473,
+          "end_ms": 26973
+        },
+        {
+          "word": "Take",
+          "start_ms": 29233,
+          "end_ms": 29493
+        },
+        {
+          "word": "a",
+          "start_ms": 29493,
+          "end_ms": 29653
+        },
+        {
+          "word": "ball",
+          "start_ms": 29653,
+          "end_ms": 29873
+        },
+        {
+          "word": "and",
+          "start_ms": 29873,
+          "end_ms": 30193
+        },
+        {
+          "word": "spin",
+          "start_ms": 30193,
+          "end_ms": 30433
+        },
+        {
+          "word": "it.",
+          "start_ms": 30433,
+          "end_ms": 30753
+        },
+        {
+          "word": "Notice",
+          "start_ms": 31133,
+          "end_ms": 31253
+        },
+        {
+          "word": "how",
+          "start_ms": 31253,
+          "end_ms": 31573
+        },
+        {
+          "word": "it",
+          "start_ms": 31573,
+          "end_ms": 31733
+        },
+        {
+          "word": "moves.",
+          "start_ms": 31733,
+          "end_ms": 32053
+        },
+        {
+          "word": "Imagine",
+          "start_ms": 32613,
+          "end_ms": 32753
+        },
+        {
+          "word": "this",
+          "start_ms": 32753,
+          "end_ms": 33113
+        },
+        {
+          "word": "is",
+          "start_ms": 33113,
+          "end_ms": 33253
+        },
+        {
+          "word": "the",
+          "start_ms": 33253,
+          "end_ms": 33413
+        },
+        {
+          "word": "Earth",
+          "start_ms": 33413,
+          "end_ms": 33653
+        },
+        {
+          "word": "moving",
+          "start_ms": 33653,
+          "end_ms": 33993
+        },
+        {
+          "word": "in",
+          "start_ms": 33993,
+          "end_ms": 34233
+        },
+        {
+          "word": "space.",
+          "start_ms": 34233,
+          "end_ms": 34513
+        },
+        {
+          "word": "The",
+          "start_ms": 35013,
+          "end_ms": 35153
+        },
+        {
+          "word": "Earth",
+          "start_ms": 35153,
+          "end_ms": 35413
+        },
+        {
+          "word": "moves",
+          "start_ms": 35413,
+          "end_ms": 35713
+        },
+        {
+          "word": "in",
+          "start_ms": 35713,
+          "end_ms": 35933
+        },
+        {
+          "word": "two",
+          "start_ms": 35933,
+          "end_ms": 36113
+        },
+        {
+          "word": "ways\u2014let's",
+          "start_ms": 36493,
+          "end_ms": 36975
+        },
+        {
+          "word": "explore",
+          "start_ms": 37053,
+          "end_ms": 37353
+        },
+        {
+          "word": "these",
+          "start_ms": 37353,
+          "end_ms": 37573
+        },
+        {
+          "word": "movements",
+          "start_ms": 37573,
+          "end_ms": 37953
+        },
+        {
+          "word": "and",
+          "start_ms": 37953,
+          "end_ms": 38253
+        },
+        {
+          "word": "their",
+          "start_ms": 38253,
+          "end_ms": 38453
+        },
+        {
+          "word": "effects!",
+          "start_ms": 38453,
+          "end_ms": 38753
+        }
+      ],
+      "format_spec": {
+        "font_size": 64,
+        "highlight_color": "#FF8C42",
+        "background_color": "rgba(255,253,240,0.90)",
+        "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+        "font_weight": "700",
+        "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+        "key_terms": [],
+        "words_per_page": 6
+      },
+      "source_block_type": "concept"
+    },
+    {
+      "section_id": "s04-spherical-earth",
+      "text": "Who proved that the earth is spherical? Many ancient civilizations believed that the Earth was flat. However, Greek philosopher Pythagoras was one of the first to suggest that the Earth is spherical. Later, Aristotle provided evidence by observing how ships disappear over the horizon and how the Earth's shadow on the Moon is curved during a lunar eclipse. Ferdinand Magellan's voyage around the world further confirmed that the Earth is round.",
+      "start_ms": 40580,
+      "end_ms": 67919,
+      "words": [
+        {
+          "word": "Who",
+          "start_ms": 40580,
+          "end_ms": 40740
+        },
+        {
+          "word": "proved",
+          "start_ms": 40740,
+          "end_ms": 41100
+        },
+        {
+          "word": "that",
+          "start_ms": 41100,
+          "end_ms": 41340
+        },
+        {
+          "word": "the",
+          "start_ms": 41340,
+          "end_ms": 41480
+        },
+        {
+          "word": "earth",
+          "start_ms": 41480,
+          "end_ms": 41740
+        },
+        {
+          "word": "is",
+          "start_ms": 41740,
+          "end_ms": 41980
+        },
+        {
+          "word": "spherical?",
+          "start_ms": 41980,
+          "end_ms": 42280
+        },
+        {
+          "word": "Many",
+          "start_ms": 44820,
+          "end_ms": 45160
+        },
+        {
+          "word": "ancient",
+          "start_ms": 45160,
+          "end_ms": 45600
+        },
+        {
+          "word": "civilizations",
+          "start_ms": 45600,
+          "end_ms": 46160
+        },
+        {
+          "word": "believed",
+          "start_ms": 46160,
+          "end_ms": 46720
+        },
+        {
+          "word": "that",
+          "start_ms": 46720,
+          "end_ms": 47080
+        },
+        {
+          "word": "the",
+          "start_ms": 47080,
+          "end_ms": 47220
+        },
+        {
+          "word": "Earth",
+          "start_ms": 47220,
+          "end_ms": 47420
+        },
+        {
+          "word": "was",
+          "start_ms": 47420,
+          "end_ms": 47660
+        },
+        {
+          "word": "flat.",
+          "start_ms": 47660,
+          "end_ms": 48000
+        },
+        {
+          "word": "However,",
+          "start_ms": 48500,
+          "end_ms": 48800
+        },
+        {
+          "word": "Greek",
+          "start_ms": 49240,
+          "end_ms": 49300
+        },
+        {
+          "word": "philosopher",
+          "start_ms": 49300,
+          "end_ms": 49760
+        },
+        {
+          "word": "Pythagoras",
+          "start_ms": 49760,
+          "end_ms": 50440
+        },
+        {
+          "word": "was",
+          "start_ms": 50440,
+          "end_ms": 50780
+        },
+        {
+          "word": "one",
+          "start_ms": 50780,
+          "end_ms": 51000
+        },
+        {
+          "word": "of",
+          "start_ms": 51000,
+          "end_ms": 51100
+        },
+        {
+          "word": "the",
+          "start_ms": 51100,
+          "end_ms": 51240
+        },
+        {
+          "word": "first",
+          "start_ms": 51240,
+          "end_ms": 51480
+        },
+        {
+          "word": "to",
+          "start_ms": 51480,
+          "end_ms": 51780
+        },
+        {
+          "word": "suggest",
+          "start_ms": 51780,
+          "end_ms": 52120
+        },
+        {
+          "word": "that",
+          "start_ms": 52120,
+          "end_ms": 52360
+        },
+        {
+          "word": "the",
+          "start_ms": 52360,
+          "end_ms": 52480
+        },
+        {
+          "word": "Earth",
+          "start_ms": 52480,
+          "end_ms": 52680
+        },
+        {
+          "word": "is",
+          "start_ms": 52680,
+          "end_ms": 52920
+        },
+        {
+          "word": "spherical.",
+          "start_ms": 52920,
+          "end_ms": 53200
+        },
+        {
+          "word": "Later,",
+          "start_ms": 53860,
+          "end_ms": 54200
+        },
+        {
+          "word": "Aristotle",
+          "start_ms": 54580,
+          "end_ms": 54820
+        },
+        {
+          "word": "provided",
+          "start_ms": 54820,
+          "end_ms": 55320
+        },
+        {
+          "word": "evidence",
+          "start_ms": 55320,
+          "end_ms": 55780
+        },
+        {
+          "word": "by",
+          "start_ms": 55780,
+          "end_ms": 56060
+        },
+        {
+          "word": "observing",
+          "start_ms": 56060,
+          "end_ms": 56480
+        },
+        {
+          "word": "how",
+          "start_ms": 56480,
+          "end_ms": 56760
+        },
+        {
+          "word": "ships",
+          "start_ms": 56760,
+          "end_ms": 57020
+        },
+        {
+          "word": "disappear",
+          "start_ms": 57020,
+          "end_ms": 57480
+        },
+        {
+          "word": "over",
+          "start_ms": 57480,
+          "end_ms": 57780
+        },
+        {
+          "word": "the",
+          "start_ms": 57780,
+          "end_ms": 57920
+        },
+        {
+          "word": "horizon",
+          "start_ms": 57920,
+          "end_ms": 58180
+        },
+        {
+          "word": "and",
+          "start_ms": 58180,
+          "end_ms": 58600
+        },
+        {
+          "word": "how",
+          "start_ms": 58600,
+          "end_ms": 58780
+        },
+        {
+          "word": "the",
+          "start_ms": 58780,
+          "end_ms": 58920
+        },
+        {
+          "word": "Earth's",
+          "start_ms": 58920,
+          "end_ms": 59300
+        },
+        {
+          "word": "shadow",
+          "start_ms": 59300,
+          "end_ms": 59480
+        },
+        {
+          "word": "on",
+          "start_ms": 59480,
+          "end_ms": 59720
+        },
+        {
+          "word": "the",
+          "start_ms": 59720,
+          "end_ms": 59840
+        },
+        {
+          "word": "Moon",
+          "start_ms": 59840,
+          "end_ms": 60000
+        },
+        {
+          "word": "is",
+          "start_ms": 60000,
+          "end_ms": 60260
+        },
+        {
+          "word": "curved",
+          "start_ms": 60260,
+          "end_ms": 60560
+        },
+        {
+          "word": "during",
+          "start_ms": 60560,
+          "end_ms": 60900
+        },
+        {
+          "word": "a",
+          "start_ms": 60900,
+          "end_ms": 61100
+        },
+        {
+          "word": "lunar",
+          "start_ms": 61100,
+          "end_ms": 61240
+        },
+        {
+          "word": "eclipse.",
+          "start_ms": 61240,
+          "end_ms": 61700
+        },
+        {
+          "word": "Ferdinand",
+          "start_ms": 62740,
+          "end_ms": 62800
+        },
+        {
+          "word": "Magellan's",
+          "start_ms": 62740,
+          "end_ms": 63380
+        },
+        {
+          "word": "voyage",
+          "start_ms": 63380,
+          "end_ms": 63640
+        },
+        {
+          "word": "around",
+          "start_ms": 63640,
+          "end_ms": 63920
+        },
+        {
+          "word": "the",
+          "start_ms": 63920,
+          "end_ms": 64200
+        },
+        {
+          "word": "world",
+          "start_ms": 64200,
+          "end_ms": 64440
+        },
+        {
+          "word": "further",
+          "start_ms": 64560,
+          "end_ms": 64800
+        },
+        {
+          "word": "confirmed",
+          "start_ms": 64800,
+          "end_ms": 65240
+        },
+        {
+          "word": "that",
+          "start_ms": 65240,
+          "end_ms": 65540
+        },
+        {
+          "word": "the",
+          "start_ms": 65540,
+          "end_ms": 65660
+        },
+        {
+          "word": "Earth",
+          "start_ms": 65660,
+          "end_ms": 65840
+        },
+        {
+          "word": "is",
+          "start_ms": 65840,
+          "end_ms": 66060
+        },
+        {
+          "word": "round.",
+          "start_ms": 66060,
+          "end_ms": 66300
+        }
+      ],
+      "format_spec": {
+        "font_size": 64,
+        "highlight_color": "#FF8C42",
+        "background_color": "rgba(255,253,240,0.90)",
+        "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+        "font_weight": "700",
+        "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+        "key_terms": [
+          "s shadow on the moon is curved during a lunar eclipse. ferdinand magellan"
+        ],
+        "words_per_page": 6
+      },
+      "source_block_type": "concept"
+    },
+    {
+      "section_id": "s05-two-movements",
+      "text": "The Two Movements of the Earth. The Earth moves in two ways: Rotation \u2013 The Earth spins on its axis around itself. Revolution \u2013 The Earth moves around the Sun.",
+      "start_ms": 67919,
+      "end_ms": 80819,
+      "words": [
+        {
+          "word": "The",
+          "start_ms": 67919,
+          "end_ms": 68279
+        },
+        {
+          "word": "Two",
+          "start_ms": 68279,
+          "end_ms": 68459
+        },
+        {
+          "word": "Movements",
+          "start_ms": 68459,
+          "end_ms": 68839
+        },
+        {
+          "word": "of",
+          "start_ms": 68839,
+          "end_ms": 69079
+        },
+        {
+          "word": "the",
+          "start_ms": 69079,
+          "end_ms": 69259
+        },
+        {
+          "word": "Earth.",
+          "start_ms": 69259,
+          "end_ms": 69479
+        },
+        {
+          "word": "The",
+          "start_ms": 71459,
+          "end_ms": 71819
+        },
+        {
+          "word": "Earth",
+          "start_ms": 71819,
+          "end_ms": 72059
+        },
+        {
+          "word": "moves",
+          "start_ms": 72059,
+          "end_ms": 72379
+        },
+        {
+          "word": "in",
+          "start_ms": 72379,
+          "end_ms": 72639
+        },
+        {
+          "word": "two",
+          "start_ms": 72639,
+          "end_ms": 72819
+        },
+        {
+          "word": "ways:",
+          "start_ms": 72819,
+          "end_ms": 73159
+        },
+        {
+          "word": "Rotation",
+          "start_ms": 73579,
+          "end_ms": 73839
+        },
+        {
+          "word": "\u2013",
+          "start_ms": 74009,
+          "end_ms": 74379
+        },
+        {
+          "word": "The",
+          "start_ms": 74439,
+          "end_ms": 74499
+        },
+        {
+          "word": "Earth",
+          "start_ms": 74459,
+          "end_ms": 74719
+        },
+        {
+          "word": "spins",
+          "start_ms": 74719,
+          "end_ms": 75019
+        },
+        {
+          "word": "on",
+          "start_ms": 75019,
+          "end_ms": 75279
+        },
+        {
+          "word": "its",
+          "start_ms": 75279,
+          "end_ms": 75439
+        },
+        {
+          "word": "axis",
+          "start_ms": 75439,
+          "end_ms": 75799
+        },
+        {
+          "word": "around",
+          "start_ms": 75799,
+          "end_ms": 76159
+        },
+        {
+          "word": "itself.",
+          "start_ms": 76159,
+          "end_ms": 76599
+        },
+        {
+          "word": "Revolution",
+          "start_ms": 77079,
+          "end_ms": 77359
+        },
+        {
+          "word": "\u2013",
+          "start_ms": 77489,
+          "end_ms": 77842
+        },
+        {
+          "word": "The",
+          "start_ms": 77899,
+          "end_ms": 77959
+        },
+        {
+          "word": "Earth",
+          "start_ms": 77939,
+          "end_ms": 78159
+        },
+        {
+          "word": "moves",
+          "start_ms": 78159,
+          "end_ms": 78479
+        },
+        {
+          "word": "around",
+          "start_ms": 78479,
+          "end_ms": 78759
+        },
+        {
+          "word": "the",
+          "start_ms": 78759,
+          "end_ms": 78979
+        },
+        {
+          "word": "Sun.",
+          "start_ms": 78979,
+          "end_ms": 79159
+        }
+      ],
+      "format_spec": {
+        "font_size": 64,
+        "highlight_color": "#FF8C42",
+        "background_color": "rgba(255,253,240,0.90)",
+        "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+        "font_weight": "700",
+        "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+        "key_terms": [],
+        "words_per_page": 6
+      },
+      "source_block_type": "concept"
+    },
+    {
+      "section_id": "s06-rotation",
+      "text": "Rotation. The movement of the Earth around its own axis is called rotation. The earth rotates from west to east. It completes one full rotation in 24 hours. The speed of rotation is faster at the equator and slower at the poles. The axis is tilted at an angle of 23.5\u00b0. As the Earth is spherical in shape, only one half of the Earth receives sunlight at a time. Thus, the side of the Earth facing the Sun experience day. On the other hand, the other half, or the part away from the sun, experiences night. As the Earth rotates, the lighted part moves into the darkness. This rotation causes day and night.",
+      "start_ms": 80819,
+      "end_ms": 122577,
+      "words": [
+        {
+          "word": "Rotation.",
+          "start_ms": 80819,
+          "end_ms": 81499
+        },
+        {
+          "word": "The",
+          "start_ms": 83939,
+          "end_ms": 84219
+        },
+        {
+          "word": "movement",
+          "start_ms": 84219,
+          "end_ms": 84519
+        },
+        {
+          "word": "of",
+          "start_ms": 84519,
+          "end_ms": 84839
+        },
+        {
+          "word": "the",
+          "start_ms": 84839,
+          "end_ms": 84959
+        },
+        {
+          "word": "Earth",
+          "start_ms": 84959,
+          "end_ms": 85199
+        },
+        {
+          "word": "around",
+          "start_ms": 85199,
+          "end_ms": 85579
+        },
+        {
+          "word": "its",
+          "start_ms": 85579,
+          "end_ms": 85799
+        },
+        {
+          "word": "own",
+          "start_ms": 85799,
+          "end_ms": 86019
+        },
+        {
+          "word": "axis",
+          "start_ms": 86019,
+          "end_ms": 86479
+        },
+        {
+          "word": "is",
+          "start_ms": 86479,
+          "end_ms": 86919
+        },
+        {
+          "word": "called",
+          "start_ms": 86919,
+          "end_ms": 87239
+        },
+        {
+          "word": "rotation.",
+          "start_ms": 87239,
+          "end_ms": 87779
+        },
+        {
+          "word": "The",
+          "start_ms": 88399,
+          "end_ms": 88459
+        },
+        {
+          "word": "earth",
+          "start_ms": 88439,
+          "end_ms": 88679
+        },
+        {
+          "word": "rotates",
+          "start_ms": 88679,
+          "end_ms": 89279
+        },
+        {
+          "word": "from",
+          "start_ms": 89279,
+          "end_ms": 89499
+        },
+        {
+          "word": "west",
+          "start_ms": 89499,
+          "end_ms": 89779
+        },
+        {
+          "word": "to",
+          "start_ms": 89779,
+          "end_ms": 90139
+        },
+        {
+          "word": "east.",
+          "start_ms": 90139,
+          "end_ms": 90439
+        },
+        {
+          "word": "It",
+          "start_ms": 90819,
+          "end_ms": 90899
+        },
+        {
+          "word": "completes",
+          "start_ms": 90899,
+          "end_ms": 91279
+        },
+        {
+          "word": "one",
+          "start_ms": 91279,
+          "end_ms": 91679
+        },
+        {
+          "word": "full",
+          "start_ms": 91679,
+          "end_ms": 91959
+        },
+        {
+          "word": "rotation",
+          "start_ms": 91959,
+          "end_ms": 92439
+        },
+        {
+          "word": "in",
+          "start_ms": 92439,
+          "end_ms": 92679
+        },
+        {
+          "word": "24",
+          "start_ms": 92679,
+          "end_ms": 93199
+        },
+        {
+          "word": "hours.",
+          "start_ms": 93199,
+          "end_ms": 93539
+        },
+        {
+          "word": "The",
+          "start_ms": 94059,
+          "end_ms": 94159
+        },
+        {
+          "word": "speed",
+          "start_ms": 94159,
+          "end_ms": 94399
+        },
+        {
+          "word": "of",
+          "start_ms": 94399,
+          "end_ms": 94579
+        },
+        {
+          "word": "rotation",
+          "start_ms": 94579,
+          "end_ms": 94999
+        },
+        {
+          "word": "is",
+          "start_ms": 94999,
+          "end_ms": 95279
+        },
+        {
+          "word": "faster",
+          "start_ms": 95279,
+          "end_ms": 95579
+        },
+        {
+          "word": "at",
+          "start_ms": 95579,
+          "end_ms": 95879
+        },
+        {
+          "word": "the",
+          "start_ms": 95879,
+          "end_ms": 96019
+        },
+        {
+          "word": "equator",
+          "start_ms": 96019,
+          "end_ms": 96479
+        },
+        {
+          "word": "and",
+          "start_ms": 96479,
+          "end_ms": 96859
+        },
+        {
+          "word": "slower",
+          "start_ms": 96859,
+          "end_ms": 97159
+        },
+        {
+          "word": "at",
+          "start_ms": 97159,
+          "end_ms": 97459
+        },
+        {
+          "word": "the",
+          "start_ms": 97459,
+          "end_ms": 97599
+        },
+        {
+          "word": "poles.",
+          "start_ms": 97599,
+          "end_ms": 97859
+        },
+        {
+          "word": "The",
+          "start_ms": 98399,
+          "end_ms": 98459
+        },
+        {
+          "word": "axis",
+          "start_ms": 98459,
+          "end_ms": 98839
+        },
+        {
+          "word": "is",
+          "start_ms": 98839,
+          "end_ms": 99039
+        },
+        {
+          "word": "tilted",
+          "start_ms": 99039,
+          "end_ms": 99319
+        },
+        {
+          "word": "at",
+          "start_ms": 99319,
+          "end_ms": 99619
+        },
+        {
+          "word": "an",
+          "start_ms": 99619,
+          "end_ms": 99799
+        },
+        {
+          "word": "angle",
+          "start_ms": 99799,
+          "end_ms": 100039
+        },
+        {
+          "word": "of",
+          "start_ms": 100039,
+          "end_ms": 100259
+        },
+        {
+          "word": "23.5\u00b0.",
+          "start_ms": 101049,
+          "end_ms": 101918
+        },
+        {
+          "word": "As",
+          "start_ms": 102059,
+          "end_ms": 102239
+        },
+        {
+          "word": "the",
+          "start_ms": 102239,
+          "end_ms": 102459
+        },
+        {
+          "word": "Earth",
+          "start_ms": 102459,
+          "end_ms": 102679
+        },
+        {
+          "word": "is",
+          "start_ms": 102679,
+          "end_ms": 102899
+        },
+        {
+          "word": "spherical",
+          "start_ms": 102899,
+          "end_ms": 103219
+        },
+        {
+          "word": "in",
+          "start_ms": 103219,
+          "end_ms": 103499
+        },
+        {
+          "word": "shape,",
+          "start_ms": 103499,
+          "end_ms": 103759
+        },
+        {
+          "word": "only",
+          "start_ms": 103959,
+          "end_ms": 104139
+        },
+        {
+          "word": "one",
+          "start_ms": 104139,
+          "end_ms": 104539
+        },
+        {
+          "word": "half",
+          "start_ms": 104539,
+          "end_ms": 104759
+        },
+        {
+          "word": "of",
+          "start_ms": 104759,
+          "end_ms": 104919
+        },
+        {
+          "word": "the",
+          "start_ms": 104919,
+          "end_ms": 105039
+        },
+        {
+          "word": "Earth",
+          "start_ms": 105039,
+          "end_ms": 105279
+        },
+        {
+          "word": "receives",
+          "start_ms": 105279,
+          "end_ms": 105659
+        },
+        {
+          "word": "sunlight",
+          "start_ms": 105659,
+          "end_ms": 106079
+        },
+        {
+          "word": "at",
+          "start_ms": 106079,
+          "end_ms": 106339
+        },
+        {
+          "word": "a",
+          "start_ms": 106339,
+          "end_ms": 106439
+        },
+        {
+          "word": "time.",
+          "start_ms": 106439,
+          "end_ms": 106779
+        },
+        {
+          "word": "Thus,",
+          "start_ms": 107039,
+          "end_ms": 107339
+        },
+        {
+          "word": "the",
+          "start_ms": 107619,
+          "end_ms": 107739
+        },
+        {
+          "word": "side",
+          "start_ms": 107739,
+          "end_ms": 107979
+        },
+        {
+          "word": "of",
+          "start_ms": 107979,
+          "end_ms": 108139
+        },
+        {
+          "word": "the",
+          "start_ms": 108139,
+          "end_ms": 108279
+        },
+        {
+          "word": "Earth",
+          "start_ms": 108279,
+          "end_ms": 108459
+        },
+        {
+          "word": "facing",
+          "start_ms": 108459,
+          "end_ms": 108799
+        },
+        {
+          "word": "the",
+          "start_ms": 108799,
+          "end_ms": 109039
+        },
+        {
+          "word": "Sun",
+          "start_ms": 109039,
+          "end_ms": 109199
+        },
+        {
+          "word": "experience",
+          "start_ms": 109199,
+          "end_ms": 109759
+        },
+        {
+          "word": "day.",
+          "start_ms": 109759,
+          "end_ms": 110019
+        },
+        {
+          "word": "On",
+          "start_ms": 110339,
+          "end_ms": 110479
+        },
+        {
+          "word": "the",
+          "start_ms": 110479,
+          "end_ms": 110619
+        },
+        {
+          "word": "other",
+          "start_ms": 110619,
+          "end_ms": 110879
+        },
+        {
+          "word": "hand,",
+          "start_ms": 110879,
+          "end_ms": 111219
+        },
+        {
+          "word": "the",
+          "start_ms": 111459,
+          "end_ms": 111559
+        },
+        {
+          "word": "other",
+          "start_ms": 111559,
+          "end_ms": 111779
+        },
+        {
+          "word": "half,",
+          "start_ms": 111779,
+          "end_ms": 112099
+        },
+        {
+          "word": "or",
+          "start_ms": 112399,
+          "end_ms": 112459
+        },
+        {
+          "word": "the",
+          "start_ms": 112459,
+          "end_ms": 112579
+        },
+        {
+          "word": "part",
+          "start_ms": 112579,
+          "end_ms": 112799
+        },
+        {
+          "word": "away",
+          "start_ms": 112799,
+          "end_ms": 113059
+        },
+        {
+          "word": "from",
+          "start_ms": 113059,
+          "end_ms": 113299
+        },
+        {
+          "word": "the",
+          "start_ms": 113299,
+          "end_ms": 113419
+        },
+        {
+          "word": "sun,",
+          "start_ms": 113419,
+          "end_ms": 113659
+        },
+        {
+          "word": "experiences",
+          "start_ms": 113659,
+          "end_ms": 114339
+        },
+        {
+          "word": "night.",
+          "start_ms": 114339,
+          "end_ms": 114659
+        },
+        {
+          "word": "As",
+          "start_ms": 114939,
+          "end_ms": 115139
+        },
+        {
+          "word": "the",
+          "start_ms": 115139,
+          "end_ms": 115319
+        },
+        {
+          "word": "Earth",
+          "start_ms": 115319,
+          "end_ms": 115559
+        },
+        {
+          "word": "rotates,",
+          "start_ms": 115559,
+          "end_ms": 116179
+        },
+        {
+          "word": "the",
+          "start_ms": 116379,
+          "end_ms": 116479
+        },
+        {
+          "word": "lighted",
+          "start_ms": 116479,
+          "end_ms": 116859
+        },
+        {
+          "word": "part",
+          "start_ms": 116859,
+          "end_ms": 117159
+        },
+        {
+          "word": "moves",
+          "start_ms": 117159,
+          "end_ms": 117499
+        },
+        {
+          "word": "into",
+          "start_ms": 117499,
+          "end_ms": 117819
+        },
+        {
+          "word": "the",
+          "start_ms": 117819,
+          "end_ms": 117999
+        },
+        {
+          "word": "darkness.",
+          "start_ms": 117999,
+          "end_ms": 118379
+        },
+        {
+          "word": "This",
+          "start_ms": 118839,
+          "end_ms": 118999
+        },
+        {
+          "word": "rotation",
+          "start_ms": 118999,
+          "end_ms": 119439
+        },
+        {
+          "word": "causes",
+          "start_ms": 119439,
+          "end_ms": 119979
+        },
+        {
+          "word": "day",
+          "start_ms": 119979,
+          "end_ms": 120319
+        },
+        {
+          "word": "and",
+          "start_ms": 120319,
+          "end_ms": 120539
+        },
+        {
+          "word": "night.",
+          "start_ms": 120539,
+          "end_ms": 120839
+        }
+      ],
+      "format_spec": {
+        "font_size": 64,
+        "highlight_color": "#FF8C42",
+        "background_color": "rgba(255,253,240,0.90)",
+        "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+        "font_weight": "700",
+        "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+        "key_terms": [],
+        "words_per_page": 6
+      },
+      "source_block_type": "concept"
+    },
+    {
+      "section_id": "s07-do-you-know",
+      "text": "Do You Know? The Earth rotates at a speed of 1,670 kilometers per hour at the equator, but we don\u2019t feel it because we\u2019re moving along with it!",
+      "start_ms": 122578,
+      "end_ms": 136466,
+      "words": [
+        {
+          "word": "Do",
+          "start_ms": 122578,
+          "end_ms": 123118
+        },
+        {
+          "word": "You",
+          "start_ms": 123118,
+          "end_ms": 123298
+        },
+        {
+          "word": "Know?",
+          "start_ms": 123298,
+          "end_ms": 123518
+        },
+        {
+          "word": "The",
+          "start_ms": 125778,
+          "end_ms": 126238
+        },
+        {
+          "word": "Earth",
+          "start_ms": 126238,
+          "end_ms": 126538
+        },
+        {
+          "word": "rotates",
+          "start_ms": 126538,
+          "end_ms": 127038
+        },
+        {
+          "word": "at",
+          "start_ms": 127038,
+          "end_ms": 127258
+        },
+        {
+          "word": "a",
+          "start_ms": 127258,
+          "end_ms": 127358
+        },
+        {
+          "word": "speed",
+          "start_ms": 127358,
+          "end_ms": 127638
+        },
+        {
+          "word": "of",
+          "start_ms": 127638,
+          "end_ms": 127878
+        },
+        {
+          "word": "1,670",
+          "start_ms": 127878,
+          "end_ms": 128878
+        },
+        {
+          "word": "kilometers",
+          "start_ms": 128878,
+          "end_ms": 129738
+        },
+        {
+          "word": "per",
+          "start_ms": 129878,
+          "end_ms": 130318
+        },
+        {
+          "word": "hour",
+          "start_ms": 130318,
+          "end_ms": 130538
+        },
+        {
+          "word": "at",
+          "start_ms": 130538,
+          "end_ms": 130838
+        },
+        {
+          "word": "the",
+          "start_ms": 130838,
+          "end_ms": 130998
+        },
+        {
+          "word": "equator,",
+          "start_ms": 130998,
+          "end_ms": 131438
+        },
+        {
+          "word": "but",
+          "start_ms": 131978,
+          "end_ms": 132178
+        },
+        {
+          "word": "we",
+          "start_ms": 132178,
+          "end_ms": 132378
+        },
+        {
+          "word": "don\u2019t",
+          "start_ms": 132468,
+          "end_ms": 132717
+        },
+        {
+          "word": "feel",
+          "start_ms": 132758,
+          "end_ms": 132938
+        },
+        {
+          "word": "it",
+          "start_ms": 132938,
+          "end_ms": 133198
+        },
+        {
+          "word": "because",
+          "start_ms": 133198,
+          "end_ms": 133528
+        },
+        {
+          "word": "we\u2019re",
+          "start_ms": 133528,
+          "end_ms": 133812
+        },
+        {
+          "word": "moving",
+          "start_ms": 133858,
+          "end_ms": 134118
+        },
+        {
+          "word": "along",
+          "start_ms": 134118,
+          "end_ms": 134438
+        },
+        {
+          "word": "with",
+          "start_ms": 134438,
+          "end_ms": 134658
+        },
+        {
+          "word": "it!",
+          "start_ms": 134658,
+          "end_ms": 134878
+        }
+      ],
+      "format_spec": {
+        "font_size": 64,
+        "highlight_color": "#FF8C42",
+        "background_color": "rgba(255,253,240,0.90)",
+        "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+        "font_weight": "700",
+        "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+        "key_terms": [],
+        "words_per_page": 6
+      },
+      "source_block_type": "concept"
+    },
+    {
+      "section_id": "s08-revolution",
+      "text": "Revolution. Revolution is the movement of the Earth around the Sun in a fixed path called an orbit. The Earth revolves around the Sun in an elliptical orbit. It takes three hundred and sixty-five and one quarter days (one year) to complete one revolution. The tilt of the Earth's axis remains the same during revolution. Revolution causes seasonal changes. The revolution of the Earth and the tilt of its axis cause different seasons: Summer \u2013 The hemisphere tilted towards the Sun experiences summer. Winter \u2013 The hemisphere tilted away from the Sun experiences winter. Spring \u2013 Occurs between winter and summer when the temperature starts rising. Autumn \u2013 Occurs between summer and winter when the temperature starts dropping.",
+      "start_ms": 136466,
+      "end_ms": 178235,
+      "words": [
+        {
+          "word": "Revolution.",
+          "start_ms": 136526,
+          "end_ms": 136586
+        },
+        {
+          "word": "Revolution",
+          "start_ms": 136466,
+          "end_ms": 137326
+        },
+        {
+          "word": "is",
+          "start_ms": 137326,
+          "end_ms": 140446
+        },
+        {
+          "word": "the",
+          "start_ms": 140446,
+          "end_ms": 140606
+        },
+        {
+          "word": "movement",
+          "start_ms": 140606,
+          "end_ms": 140866
+        },
+        {
+          "word": "of",
+          "start_ms": 140866,
+          "end_ms": 141206
+        },
+        {
+          "word": "the",
+          "start_ms": 141206,
+          "end_ms": 141346
+        },
+        {
+          "word": "Earth",
+          "start_ms": 141346,
+          "end_ms": 141546
+        },
+        {
+          "word": "around",
+          "start_ms": 141546,
+          "end_ms": 141886
+        },
+        {
+          "word": "the",
+          "start_ms": 141886,
+          "end_ms": 142086
+        },
+        {
+          "word": "Sun",
+          "start_ms": 142086,
+          "end_ms": 142286
+        },
+        {
+          "word": "in",
+          "start_ms": 142286,
+          "end_ms": 142726
+        },
+        {
+          "word": "a",
+          "start_ms": 142726,
+          "end_ms": 142866
+        },
+        {
+          "word": "fixed",
+          "start_ms": 142866,
+          "end_ms": 143046
+        },
+        {
+          "word": "path",
+          "start_ms": 143046,
+          "end_ms": 143346
+        },
+        {
+          "word": "called",
+          "start_ms": 143346,
+          "end_ms": 143606
+        },
+        {
+          "word": "an",
+          "start_ms": 143606,
+          "end_ms": 143826
+        },
+        {
+          "word": "orbit.",
+          "start_ms": 143826,
+          "end_ms": 144086
+        },
+        {
+          "word": "The",
+          "start_ms": 144726,
+          "end_ms": 144806
+        },
+        {
+          "word": "Earth",
+          "start_ms": 144806,
+          "end_ms": 145066
+        },
+        {
+          "word": "revolves",
+          "start_ms": 145066,
+          "end_ms": 145406
+        },
+        {
+          "word": "around",
+          "start_ms": 145406,
+          "end_ms": 145766
+        },
+        {
+          "word": "the",
+          "start_ms": 145766,
+          "end_ms": 145926
+        },
+        {
+          "word": "Sun",
+          "start_ms": 145926,
+          "end_ms": 146106
+        },
+        {
+          "word": "in",
+          "start_ms": 146106,
+          "end_ms": 146346
+        },
+        {
+          "word": "an",
+          "start_ms": 146346,
+          "end_ms": 146466
+        },
+        {
+          "word": "elliptical",
+          "start_ms": 146466,
+          "end_ms": 146906
+        },
+        {
+          "word": "orbit.",
+          "start_ms": 146906,
+          "end_ms": 147206
+        },
+        {
+          "word": "It",
+          "start_ms": 147626,
+          "end_ms": 147686
+        },
+        {
+          "word": "takes",
+          "start_ms": 147686,
+          "end_ms": 147906
+        },
+        {
+          "word": "three",
+          "start_ms": 148079,
+          "end_ms": 148417
+        },
+        {
+          "word": "hundred",
+          "start_ms": 148473,
+          "end_ms": 148811
+        },
+        {
+          "word": "and",
+          "start_ms": 148866,
+          "end_ms": 149041
+        },
+        {
+          "word": "sixty-five",
+          "start_ms": 149041,
+          "end_ms": 149192
+        },
+        {
+          "word": "and",
+          "start_ms": 149216,
+          "end_ms": 149366
+        },
+        {
+          "word": "one",
+          "start_ms": 149391,
+          "end_ms": 149542
+        },
+        {
+          "word": "quarter",
+          "start_ms": 149566,
+          "end_ms": 149786
+        },
+        {
+          "word": "days",
+          "start_ms": 149786,
+          "end_ms": 150106
+        },
+        {
+          "word": "(one",
+          "start_ms": 150446,
+          "end_ms": 150586
+        },
+        {
+          "word": "year)",
+          "start_ms": 150586,
+          "end_ms": 150866
+        },
+        {
+          "word": "to",
+          "start_ms": 151126,
+          "end_ms": 151246
+        },
+        {
+          "word": "complete",
+          "start_ms": 151246,
+          "end_ms": 151546
+        },
+        {
+          "word": "one",
+          "start_ms": 151546,
+          "end_ms": 151886
+        },
+        {
+          "word": "revolution.",
+          "start_ms": 151886,
+          "end_ms": 152306
+        },
+        {
+          "word": "The",
+          "start_ms": 152886,
+          "end_ms": 153046
+        },
+        {
+          "word": "tilt",
+          "start_ms": 153046,
+          "end_ms": 153246
+        },
+        {
+          "word": "of",
+          "start_ms": 153246,
+          "end_ms": 153426
+        },
+        {
+          "word": "the",
+          "start_ms": 153426,
+          "end_ms": 153566
+        },
+        {
+          "word": "Earth's",
+          "start_ms": 153566,
+          "end_ms": 153886
+        },
+        {
+          "word": "axis",
+          "start_ms": 153886,
+          "end_ms": 154166
+        },
+        {
+          "word": "remains",
+          "start_ms": 154166,
+          "end_ms": 154666
+        },
+        {
+          "word": "the",
+          "start_ms": 154666,
+          "end_ms": 154906
+        },
+        {
+          "word": "same",
+          "start_ms": 154906,
+          "end_ms": 155106
+        },
+        {
+          "word": "during",
+          "start_ms": 155106,
+          "end_ms": 155366
+        },
+        {
+          "word": "revolution.",
+          "start_ms": 155366,
+          "end_ms": 155866
+        },
+        {
+          "word": "Revolution",
+          "start_ms": 156886,
+          "end_ms": 156946
+        },
+        {
+          "word": "causes",
+          "start_ms": 156886,
+          "end_ms": 157266
+        },
+        {
+          "word": "seasonal",
+          "start_ms": 157266,
+          "end_ms": 157626
+        },
+        {
+          "word": "changes.",
+          "start_ms": 157626,
+          "end_ms": 158006
+        },
+        {
+          "word": "The",
+          "start_ms": 158946,
+          "end_ms": 159006
+        },
+        {
+          "word": "revolution",
+          "start_ms": 158986,
+          "end_ms": 159326
+        },
+        {
+          "word": "of",
+          "start_ms": 159326,
+          "end_ms": 159586
+        },
+        {
+          "word": "the",
+          "start_ms": 159586,
+          "end_ms": 159706
+        },
+        {
+          "word": "Earth",
+          "start_ms": 159706,
+          "end_ms": 159906
+        },
+        {
+          "word": "and",
+          "start_ms": 159906,
+          "end_ms": 160266
+        },
+        {
+          "word": "the",
+          "start_ms": 160266,
+          "end_ms": 160366
+        },
+        {
+          "word": "tilt",
+          "start_ms": 160366,
+          "end_ms": 160526
+        },
+        {
+          "word": "of",
+          "start_ms": 160526,
+          "end_ms": 160706
+        },
+        {
+          "word": "its",
+          "start_ms": 160706,
+          "end_ms": 160866
+        },
+        {
+          "word": "axis",
+          "start_ms": 160866,
+          "end_ms": 161226
+        },
+        {
+          "word": "cause",
+          "start_ms": 161226,
+          "end_ms": 161526
+        },
+        {
+          "word": "different",
+          "start_ms": 161526,
+          "end_ms": 161846
+        },
+        {
+          "word": "seasons:",
+          "start_ms": 161846,
+          "end_ms": 162126
+        },
+        {
+          "word": "Summer",
+          "start_ms": 162686,
+          "end_ms": 162826
+        },
+        {
+          "word": "\u2013",
+          "start_ms": 162956,
+          "end_ms": 163188
+        },
+        {
+          "word": "The",
+          "start_ms": 163226,
+          "end_ms": 163306
+        },
+        {
+          "word": "hemisphere",
+          "start_ms": 163306,
+          "end_ms": 163606
+        },
+        {
+          "word": "tilted",
+          "start_ms": 163606,
+          "end_ms": 163986
+        },
+        {
+          "word": "towards",
+          "start_ms": 163986,
+          "end_ms": 164286
+        },
+        {
+          "word": "the",
+          "start_ms": 164286,
+          "end_ms": 164506
+        },
+        {
+          "word": "Sun",
+          "start_ms": 164506,
+          "end_ms": 164686
+        },
+        {
+          "word": "experiences",
+          "start_ms": 164806,
+          "end_ms": 165246
+        },
+        {
+          "word": "summer.",
+          "start_ms": 165366,
+          "end_ms": 165646
+        },
+        {
+          "word": "Winter",
+          "start_ms": 166026,
+          "end_ms": 166396
+        },
+        {
+          "word": "\u2013",
+          "start_ms": 166396,
+          "end_ms": 166714
+        },
+        {
+          "word": "The",
+          "start_ms": 166766,
+          "end_ms": 166826
+        },
+        {
+          "word": "hemisphere",
+          "start_ms": 166786,
+          "end_ms": 167106
+        },
+        {
+          "word": "tilted",
+          "start_ms": 167106,
+          "end_ms": 167446
+        },
+        {
+          "word": "away",
+          "start_ms": 167446,
+          "end_ms": 167786
+        },
+        {
+          "word": "from",
+          "start_ms": 167786,
+          "end_ms": 167986
+        },
+        {
+          "word": "the",
+          "start_ms": 167986,
+          "end_ms": 168126
+        },
+        {
+          "word": "Sun",
+          "start_ms": 168126,
+          "end_ms": 168246
+        },
+        {
+          "word": "experiences",
+          "start_ms": 168246,
+          "end_ms": 168746
+        },
+        {
+          "word": "winter.",
+          "start_ms": 168746,
+          "end_ms": 169106
+        },
+        {
+          "word": "Spring",
+          "start_ms": 169926,
+          "end_ms": 169986
+        },
+        {
+          "word": "\u2013",
+          "start_ms": 169986,
+          "end_ms": 170046
+        },
+        {
+          "word": "Occurs",
+          "start_ms": 170006,
+          "end_ms": 170366
+        },
+        {
+          "word": "between",
+          "start_ms": 170366,
+          "end_ms": 170726
+        },
+        {
+          "word": "winter",
+          "start_ms": 170726,
+          "end_ms": 171106
+        },
+        {
+          "word": "and",
+          "start_ms": 171106,
+          "end_ms": 171446
+        },
+        {
+          "word": "summer",
+          "start_ms": 171446,
+          "end_ms": 171726
+        },
+        {
+          "word": "when",
+          "start_ms": 171726,
+          "end_ms": 172026
+        },
+        {
+          "word": "the",
+          "start_ms": 172026,
+          "end_ms": 172146
+        },
+        {
+          "word": "temperature",
+          "start_ms": 172146,
+          "end_ms": 172466
+        },
+        {
+          "word": "starts",
+          "start_ms": 172466,
+          "end_ms": 172826
+        },
+        {
+          "word": "rising.",
+          "start_ms": 172826,
+          "end_ms": 173226
+        },
+        {
+          "word": "Autumn",
+          "start_ms": 173626,
+          "end_ms": 173686
+        },
+        {
+          "word": "\u2013",
+          "start_ms": 173686,
+          "end_ms": 173746
+        },
+        {
+          "word": "Occurs",
+          "start_ms": 173746,
+          "end_ms": 174086
+        },
+        {
+          "word": "between",
+          "start_ms": 174086,
+          "end_ms": 174386
+        },
+        {
+          "word": "summer",
+          "start_ms": 174386,
+          "end_ms": 174666
+        },
+        {
+          "word": "and",
+          "start_ms": 174666,
+          "end_ms": 174886
+        },
+        {
+          "word": "winter",
+          "start_ms": 174886,
+          "end_ms": 175166
+        },
+        {
+          "word": "when",
+          "start_ms": 175166,
+          "end_ms": 175426
+        },
+        {
+          "word": "the",
+          "start_ms": 175426,
+          "end_ms": 175566
+        },
+        {
+          "word": "temperature",
+          "start_ms": 175566,
+          "end_ms": 175786
+        },
+        {
+          "word": "starts",
+          "start_ms": 175786,
+          "end_ms": 176186
+        },
+        {
+          "word": "dropping.",
+          "start_ms": 176186,
+          "end_ms": 176566
+        }
+      ],
+      "format_spec": {
+        "font_size": 64,
+        "highlight_color": "#FF8C42",
+        "background_color": "rgba(255,253,240,0.90)",
+        "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+        "font_weight": "700",
+        "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+        "key_terms": [],
+        "words_per_page": 6
+      },
+      "source_block_type": "concept"
+    },
+    {
+      "section_id": "s09-day-length",
+      "text": "Let's Learn More. A day on Earth is actually 23 hours, 56 minutes, not exactly 24 hours, but we round it off to 24 hours because it\u2019s easier to keep track of time.",
+      "start_ms": 178235,
+      "end_ms": 193138,
+      "words": [
+        {
+          "word": "Let's",
+          "start_ms": 178235,
+          "end_ms": 178635
+        },
+        {
+          "word": "Learn",
+          "start_ms": 178635,
+          "end_ms": 178795
+        },
+        {
+          "word": "More.",
+          "start_ms": 178795,
+          "end_ms": 179215
+        },
+        {
+          "word": "A",
+          "start_ms": 181595,
+          "end_ms": 181735
+        },
+        {
+          "word": "day",
+          "start_ms": 181735,
+          "end_ms": 181915
+        },
+        {
+          "word": "on",
+          "start_ms": 181915,
+          "end_ms": 182135
+        },
+        {
+          "word": "Earth",
+          "start_ms": 182135,
+          "end_ms": 182315
+        },
+        {
+          "word": "is",
+          "start_ms": 182315,
+          "end_ms": 182495
+        },
+        {
+          "word": "actually",
+          "start_ms": 182495,
+          "end_ms": 182915
+        },
+        {
+          "word": "23",
+          "start_ms": 182915,
+          "end_ms": 183535
+        },
+        {
+          "word": "hours,",
+          "start_ms": 183535,
+          "end_ms": 183855
+        },
+        {
+          "word": "56",
+          "start_ms": 184335,
+          "end_ms": 184595
+        },
+        {
+          "word": "minutes,",
+          "start_ms": 184595,
+          "end_ms": 185075
+        },
+        {
+          "word": "not",
+          "start_ms": 185515,
+          "end_ms": 185775
+        },
+        {
+          "word": "exactly",
+          "start_ms": 185775,
+          "end_ms": 186275
+        },
+        {
+          "word": "24",
+          "start_ms": 186275,
+          "end_ms": 186895
+        },
+        {
+          "word": "hours,",
+          "start_ms": 186895,
+          "end_ms": 187235
+        },
+        {
+          "word": "but",
+          "start_ms": 187595,
+          "end_ms": 187795
+        },
+        {
+          "word": "we",
+          "start_ms": 187795,
+          "end_ms": 187975
+        },
+        {
+          "word": "round",
+          "start_ms": 187975,
+          "end_ms": 188215
+        },
+        {
+          "word": "it",
+          "start_ms": 188215,
+          "end_ms": 188355
+        },
+        {
+          "word": "off",
+          "start_ms": 188355,
+          "end_ms": 188535
+        },
+        {
+          "word": "to",
+          "start_ms": 188535,
+          "end_ms": 188695
+        },
+        {
+          "word": "24",
+          "start_ms": 188695,
+          "end_ms": 189215
+        },
+        {
+          "word": "hours",
+          "start_ms": 189215,
+          "end_ms": 189515
+        },
+        {
+          "word": "because",
+          "start_ms": 189515,
+          "end_ms": 189815
+        },
+        {
+          "word": "it\u2019s",
+          "start_ms": 189815,
+          "end_ms": 190073
+        },
+        {
+          "word": "easier",
+          "start_ms": 190115,
+          "end_ms": 190375
+        },
+        {
+          "word": "to",
+          "start_ms": 190375,
+          "end_ms": 190595
+        },
+        {
+          "word": "keep",
+          "start_ms": 190595,
+          "end_ms": 190795
+        },
+        {
+          "word": "track",
+          "start_ms": 190795,
+          "end_ms": 191015
+        },
+        {
+          "word": "of",
+          "start_ms": 191015,
+          "end_ms": 191195
+        },
+        {
+          "word": "time.",
+          "start_ms": 191195,
+          "end_ms": 191435
+        }
+      ],
+      "format_spec": {
+        "font_size": 64,
+        "highlight_color": "#FF8C42",
+        "background_color": "rgba(255,253,240,0.90)",
+        "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+        "font_weight": "700",
+        "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+        "key_terms": [],
+        "words_per_page": 6
+      },
+      "source_block_type": "concept"
+    },
+    {
+      "section_id": "s10-solstice",
+      "text": "What is Solstice and When Does It Occur? A solstice is a day, when the sun shines vertically over a Tropic (both cancer and Capricorn) in the afternoon and the day is the longest in that hemisphere. On the twenty-second of December, the rays of the sun fall directly over the Tropic of Capricorn. This is the longest day in Southern Hemisphere (summer season), while in the Northern Hemisphere, it is the shortest day (winter season). This is called 'Winter Solstice. On the twenty-first of June, sunlight falls vertically over the Tropic of Cancer. This is the longest day in Northern Hemisphere and hence it is called 'Summer Solstice', while in the Southern Hemisphere, it is the shortest day.",
+      "start_ms": 193138,
+      "end_ms": 236578,
+      "words": [
+        {
+          "word": "What",
+          "start_ms": 193138,
+          "end_ms": 193338
+        },
+        {
+          "word": "is",
+          "start_ms": 193338,
+          "end_ms": 193618
+        },
+        {
+          "word": "Solstice",
+          "start_ms": 193618,
+          "end_ms": 193958
+        },
+        {
+          "word": "and",
+          "start_ms": 193958,
+          "end_ms": 194278
+        },
+        {
+          "word": "When",
+          "start_ms": 194278,
+          "end_ms": 194478
+        },
+        {
+          "word": "Does",
+          "start_ms": 194478,
+          "end_ms": 194738
+        },
+        {
+          "word": "It",
+          "start_ms": 194738,
+          "end_ms": 194878
+        },
+        {
+          "word": "Occur?",
+          "start_ms": 194878,
+          "end_ms": 195178
+        },
+        {
+          "word": "A",
+          "start_ms": 197598,
+          "end_ms": 197758
+        },
+        {
+          "word": "solstice",
+          "start_ms": 197758,
+          "end_ms": 198318
+        },
+        {
+          "word": "is",
+          "start_ms": 198318,
+          "end_ms": 198578
+        },
+        {
+          "word": "a",
+          "start_ms": 198578,
+          "end_ms": 198738
+        },
+        {
+          "word": "day,",
+          "start_ms": 198738,
+          "end_ms": 198978
+        },
+        {
+          "word": "when",
+          "start_ms": 199458,
+          "end_ms": 199618
+        },
+        {
+          "word": "the",
+          "start_ms": 199618,
+          "end_ms": 199798
+        },
+        {
+          "word": "sun",
+          "start_ms": 199798,
+          "end_ms": 199998
+        },
+        {
+          "word": "shines",
+          "start_ms": 199998,
+          "end_ms": 200398
+        },
+        {
+          "word": "vertically",
+          "start_ms": 200398,
+          "end_ms": 200778
+        },
+        {
+          "word": "over",
+          "start_ms": 200778,
+          "end_ms": 201258
+        },
+        {
+          "word": "a",
+          "start_ms": 201258,
+          "end_ms": 201418
+        },
+        {
+          "word": "Tropic",
+          "start_ms": 201418,
+          "end_ms": 201878
+        },
+        {
+          "word": "(both",
+          "start_ms": 202258,
+          "end_ms": 202438
+        },
+        {
+          "word": "cancer",
+          "start_ms": 202438,
+          "end_ms": 202838
+        },
+        {
+          "word": "and",
+          "start_ms": 202838,
+          "end_ms": 203158
+        },
+        {
+          "word": "Capricorn)",
+          "start_ms": 203158,
+          "end_ms": 203698
+        },
+        {
+          "word": "in",
+          "start_ms": 203698,
+          "end_ms": 204018
+        },
+        {
+          "word": "the",
+          "start_ms": 204018,
+          "end_ms": 204158
+        },
+        {
+          "word": "afternoon",
+          "start_ms": 204158,
+          "end_ms": 204558
+        },
+        {
+          "word": "and",
+          "start_ms": 204558,
+          "end_ms": 204918
+        },
+        {
+          "word": "the",
+          "start_ms": 204918,
+          "end_ms": 205038
+        },
+        {
+          "word": "day",
+          "start_ms": 205038,
+          "end_ms": 205238
+        },
+        {
+          "word": "is",
+          "start_ms": 205238,
+          "end_ms": 205438
+        },
+        {
+          "word": "the",
+          "start_ms": 205438,
+          "end_ms": 205598
+        },
+        {
+          "word": "longest",
+          "start_ms": 205598,
+          "end_ms": 205858
+        },
+        {
+          "word": "in",
+          "start_ms": 205858,
+          "end_ms": 206198
+        },
+        {
+          "word": "that",
+          "start_ms": 206198,
+          "end_ms": 206418
+        },
+        {
+          "word": "hemisphere.",
+          "start_ms": 206418,
+          "end_ms": 206798
+        },
+        {
+          "word": "On",
+          "start_ms": 207278,
+          "end_ms": 207458
+        },
+        {
+          "word": "the",
+          "start_ms": 207458,
+          "end_ms": 207558
+        },
+        {
+          "word": "twenty-second",
+          "start_ms": 207858,
+          "end_ms": 208202
+        },
+        {
+          "word": "of",
+          "start_ms": 208258,
+          "end_ms": 208398
+        },
+        {
+          "word": "December,",
+          "start_ms": 208398,
+          "end_ms": 208818
+        },
+        {
+          "word": "the",
+          "start_ms": 209218,
+          "end_ms": 209358
+        },
+        {
+          "word": "rays",
+          "start_ms": 209358,
+          "end_ms": 209558
+        },
+        {
+          "word": "of",
+          "start_ms": 209558,
+          "end_ms": 209778
+        },
+        {
+          "word": "the",
+          "start_ms": 209778,
+          "end_ms": 209938
+        },
+        {
+          "word": "sun",
+          "start_ms": 209938,
+          "end_ms": 210178
+        },
+        {
+          "word": "fall",
+          "start_ms": 210178,
+          "end_ms": 210438
+        },
+        {
+          "word": "directly",
+          "start_ms": 210438,
+          "end_ms": 210818
+        },
+        {
+          "word": "over",
+          "start_ms": 210818,
+          "end_ms": 211198
+        },
+        {
+          "word": "the",
+          "start_ms": 211198,
+          "end_ms": 211358
+        },
+        {
+          "word": "Tropic",
+          "start_ms": 211358,
+          "end_ms": 211698
+        },
+        {
+          "word": "of",
+          "start_ms": 211698,
+          "end_ms": 211898
+        },
+        {
+          "word": "Capricorn.",
+          "start_ms": 211898,
+          "end_ms": 212518
+        },
+        {
+          "word": "This",
+          "start_ms": 212818,
+          "end_ms": 213078
+        },
+        {
+          "word": "is",
+          "start_ms": 213078,
+          "end_ms": 213238
+        },
+        {
+          "word": "the",
+          "start_ms": 213238,
+          "end_ms": 213398
+        },
+        {
+          "word": "longest",
+          "start_ms": 213398,
+          "end_ms": 213718
+        },
+        {
+          "word": "day",
+          "start_ms": 213718,
+          "end_ms": 213978
+        },
+        {
+          "word": "in",
+          "start_ms": 213978,
+          "end_ms": 214198
+        },
+        {
+          "word": "Southern",
+          "start_ms": 214198,
+          "end_ms": 214438
+        },
+        {
+          "word": "Hemisphere",
+          "start_ms": 214438,
+          "end_ms": 214998
+        },
+        {
+          "word": "(summer",
+          "start_ms": 215458,
+          "end_ms": 215518
+        },
+        {
+          "word": "season),",
+          "start_ms": 215458,
+          "end_ms": 215918
+        },
+        {
+          "word": "while",
+          "start_ms": 216358,
+          "end_ms": 216518
+        },
+        {
+          "word": "in",
+          "start_ms": 216518,
+          "end_ms": 216698
+        },
+        {
+          "word": "the",
+          "start_ms": 216698,
+          "end_ms": 216838
+        },
+        {
+          "word": "Northern",
+          "start_ms": 216838,
+          "end_ms": 217118
+        },
+        {
+          "word": "Hemisphere,",
+          "start_ms": 217118,
+          "end_ms": 217638
+        },
+        {
+          "word": "it",
+          "start_ms": 217998,
+          "end_ms": 218218
+        },
+        {
+          "word": "is",
+          "start_ms": 218218,
+          "end_ms": 218338
+        },
+        {
+          "word": "the",
+          "start_ms": 218338,
+          "end_ms": 218518
+        },
+        {
+          "word": "shortest",
+          "start_ms": 218518,
+          "end_ms": 218778
+        },
+        {
+          "word": "day",
+          "start_ms": 218778,
+          "end_ms": 219158
+        },
+        {
+          "word": "(winter",
+          "start_ms": 219438,
+          "end_ms": 219578
+        },
+        {
+          "word": "season).",
+          "start_ms": 219578,
+          "end_ms": 220078
+        },
+        {
+          "word": "This",
+          "start_ms": 220078,
+          "end_ms": 220678
+        },
+        {
+          "word": "is",
+          "start_ms": 220678,
+          "end_ms": 220858
+        },
+        {
+          "word": "called",
+          "start_ms": 220858,
+          "end_ms": 221158
+        },
+        {
+          "word": "'Winter",
+          "start_ms": 221228,
+          "end_ms": 221546
+        },
+        {
+          "word": "Solstice.",
+          "start_ms": 221598,
+          "end_ms": 222098
+        },
+        {
+          "word": "On",
+          "start_ms": 222098,
+          "end_ms": 222558
+        },
+        {
+          "word": "the",
+          "start_ms": 222558,
+          "end_ms": 222678
+        },
+        {
+          "word": "twenty-first",
+          "start_ms": 222968,
+          "end_ms": 223321
+        },
+        {
+          "word": "of",
+          "start_ms": 223378,
+          "end_ms": 223598
+        },
+        {
+          "word": "June,",
+          "start_ms": 223598,
+          "end_ms": 223938
+        },
+        {
+          "word": "sunlight",
+          "start_ms": 224378,
+          "end_ms": 224638
+        },
+        {
+          "word": "falls",
+          "start_ms": 224638,
+          "end_ms": 225038
+        },
+        {
+          "word": "vertically",
+          "start_ms": 225038,
+          "end_ms": 225538
+        },
+        {
+          "word": "over",
+          "start_ms": 225538,
+          "end_ms": 226018
+        },
+        {
+          "word": "the",
+          "start_ms": 226018,
+          "end_ms": 226178
+        },
+        {
+          "word": "Tropic",
+          "start_ms": 226178,
+          "end_ms": 226538
+        },
+        {
+          "word": "of",
+          "start_ms": 226538,
+          "end_ms": 226738
+        },
+        {
+          "word": "Cancer.",
+          "start_ms": 226738,
+          "end_ms": 227078
+        },
+        {
+          "word": "This",
+          "start_ms": 227538,
+          "end_ms": 227758
+        },
+        {
+          "word": "is",
+          "start_ms": 227758,
+          "end_ms": 227898
+        },
+        {
+          "word": "the",
+          "start_ms": 227898,
+          "end_ms": 228058
+        },
+        {
+          "word": "longest",
+          "start_ms": 228058,
+          "end_ms": 228358
+        },
+        {
+          "word": "day",
+          "start_ms": 228358,
+          "end_ms": 228618
+        },
+        {
+          "word": "in",
+          "start_ms": 228618,
+          "end_ms": 228838
+        },
+        {
+          "word": "Northern",
+          "start_ms": 228838,
+          "end_ms": 229118
+        },
+        {
+          "word": "Hemisphere",
+          "start_ms": 229118,
+          "end_ms": 229618
+        },
+        {
+          "word": "and",
+          "start_ms": 229618,
+          "end_ms": 230238
+        },
+        {
+          "word": "hence",
+          "start_ms": 230238,
+          "end_ms": 230518
+        },
+        {
+          "word": "it",
+          "start_ms": 230518,
+          "end_ms": 230678
+        },
+        {
+          "word": "is",
+          "start_ms": 230678,
+          "end_ms": 230798
+        },
+        {
+          "word": "called",
+          "start_ms": 230798,
+          "end_ms": 231058
+        },
+        {
+          "word": "'Summer",
+          "start_ms": 231178,
+          "end_ms": 231505
+        },
+        {
+          "word": "Solstice',",
+          "start_ms": 231558,
+          "end_ms": 231885
+        },
+        {
+          "word": "while",
+          "start_ms": 231938,
+          "end_ms": 232558
+        },
+        {
+          "word": "in",
+          "start_ms": 232558,
+          "end_ms": 232738
+        },
+        {
+          "word": "the",
+          "start_ms": 232738,
+          "end_ms": 232898
+        },
+        {
+          "word": "Southern",
+          "start_ms": 232898,
+          "end_ms": 233138
+        },
+        {
+          "word": "Hemisphere,",
+          "start_ms": 233138,
+          "end_ms": 233658
+        },
+        {
+          "word": "it",
+          "start_ms": 233658,
+          "end_ms": 234038
+        },
+        {
+          "word": "is",
+          "start_ms": 234038,
+          "end_ms": 234178
+        },
+        {
+          "word": "the",
+          "start_ms": 234178,
+          "end_ms": 234338
+        },
+        {
+          "word": "shortest",
+          "start_ms": 234338,
+          "end_ms": 234638
+        },
+        {
+          "word": "day.",
+          "start_ms": 234638,
+          "end_ms": 234978
+        }
+      ],
+      "format_spec": {
+        "font_size": 64,
+        "highlight_color": "#FF8C42",
+        "background_color": "rgba(255,253,240,0.90)",
+        "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+        "font_weight": "700",
+        "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+        "key_terms": [
+          "winter solstice. on the twenty-first of june, sunlight falls vertically over the tropic of cancer. this is the longest day in northern hemisphere and hence it is called "
+        ],
+        "words_per_page": 6
+      },
+      "source_block_type": "concept"
+    },
+    {
+      "section_id": "s11-inertia",
+      "text": "Let's Learn More. Earth keeps rotating due to inertia, the same reason you continue moving forward when you stop a bike suddenly. This movement doesn\u2019t stop because there\u2019s no friction in space to slow it down!",
+      "start_ms": 236578,
+      "end_ms": 252829,
+      "words": [
+        {
+          "word": "Let's",
+          "start_ms": 236578,
+          "end_ms": 236958
+        },
+        {
+          "word": "Learn",
+          "start_ms": 236958,
+          "end_ms": 237138
+        },
+        {
+          "word": "More.",
+          "start_ms": 237138,
+          "end_ms": 237758
+        },
+        {
+          "word": "Earth",
+          "start_ms": 240138,
+          "end_ms": 240358
+        },
+        {
+          "word": "keeps",
+          "start_ms": 240358,
+          "end_ms": 240678
+        },
+        {
+          "word": "rotating",
+          "start_ms": 240678,
+          "end_ms": 241238
+        },
+        {
+          "word": "due",
+          "start_ms": 241238,
+          "end_ms": 241578
+        },
+        {
+          "word": "to",
+          "start_ms": 241578,
+          "end_ms": 241778
+        },
+        {
+          "word": "inertia,",
+          "start_ms": 241778,
+          "end_ms": 242218
+        },
+        {
+          "word": "the",
+          "start_ms": 242678,
+          "end_ms": 242838
+        },
+        {
+          "word": "same",
+          "start_ms": 242838,
+          "end_ms": 243118
+        },
+        {
+          "word": "reason",
+          "start_ms": 243118,
+          "end_ms": 243398
+        },
+        {
+          "word": "you",
+          "start_ms": 243398,
+          "end_ms": 243718
+        },
+        {
+          "word": "continue",
+          "start_ms": 243718,
+          "end_ms": 244058
+        },
+        {
+          "word": "moving",
+          "start_ms": 244058,
+          "end_ms": 244518
+        },
+        {
+          "word": "forward",
+          "start_ms": 244518,
+          "end_ms": 244938
+        },
+        {
+          "word": "when",
+          "start_ms": 244938,
+          "end_ms": 245238
+        },
+        {
+          "word": "you",
+          "start_ms": 245238,
+          "end_ms": 245398
+        },
+        {
+          "word": "stop",
+          "start_ms": 245398,
+          "end_ms": 245658
+        },
+        {
+          "word": "a",
+          "start_ms": 245658,
+          "end_ms": 245838
+        },
+        {
+          "word": "bike",
+          "start_ms": 245838,
+          "end_ms": 246058
+        },
+        {
+          "word": "suddenly.",
+          "start_ms": 246058,
+          "end_ms": 246538
+        },
+        {
+          "word": "This",
+          "start_ms": 247078,
+          "end_ms": 247338
+        },
+        {
+          "word": "movement",
+          "start_ms": 247338,
+          "end_ms": 247658
+        },
+        {
+          "word": "doesn\u2019t",
+          "start_ms": 247758,
+          "end_ms": 248119
+        },
+        {
+          "word": "stop",
+          "start_ms": 248178,
+          "end_ms": 248478
+        },
+        {
+          "word": "because",
+          "start_ms": 248478,
+          "end_ms": 248758
+        },
+        {
+          "word": "there\u2019s",
+          "start_ms": 248778,
+          "end_ms": 249036
+        },
+        {
+          "word": "no",
+          "start_ms": 249078,
+          "end_ms": 249278
+        },
+        {
+          "word": "friction",
+          "start_ms": 249278,
+          "end_ms": 249558
+        },
+        {
+          "word": "in",
+          "start_ms": 249558,
+          "end_ms": 249898
+        },
+        {
+          "word": "space",
+          "start_ms": 249898,
+          "end_ms": 250158
+        },
+        {
+          "word": "to",
+          "start_ms": 250158,
+          "end_ms": 250458
+        },
+        {
+          "word": "slow",
+          "start_ms": 250458,
+          "end_ms": 250718
+        },
+        {
+          "word": "it",
+          "start_ms": 250718,
+          "end_ms": 250878
+        },
+        {
+          "word": "down!",
+          "start_ms": 250878,
+          "end_ms": 251198
+        }
+      ],
+      "format_spec": {
+        "font_size": 64,
+        "highlight_color": "#FF8C42",
+        "background_color": "rgba(255,253,240,0.90)",
+        "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+        "font_weight": "700",
+        "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+        "key_terms": [],
+        "words_per_page": 6
+      },
+      "source_block_type": "concept"
+    },
+    {
+      "section_id": "s12-equinox",
+      "text": "What is Equinox and When Does It Occur? The sun falls directly on the equator two times in a year. During this period there is equal length of day and night all over the world. In Northern Hemisphere, the March Equinox is called the Vernal or Spring Equinox while September Equinox is called Autumnal Equinox. Spring Equinox (March 21st) marks the beginning of spring. Autumn Equinox (September 23rd) marks the beginning of autumn.",
+      "start_ms": 252828,
+      "end_ms": 280836,
+      "words": [
+        {
+          "word": "What",
+          "start_ms": 252828,
+          "end_ms": 253028
+        },
+        {
+          "word": "is",
+          "start_ms": 253028,
+          "end_ms": 253288
+        },
+        {
+          "word": "Equinox",
+          "start_ms": 253288,
+          "end_ms": 253788
+        },
+        {
+          "word": "and",
+          "start_ms": 253788,
+          "end_ms": 254088
+        },
+        {
+          "word": "When",
+          "start_ms": 254088,
+          "end_ms": 254248
+        },
+        {
+          "word": "Does",
+          "start_ms": 254248,
+          "end_ms": 254468
+        },
+        {
+          "word": "It",
+          "start_ms": 254468,
+          "end_ms": 254608
+        },
+        {
+          "word": "Occur?",
+          "start_ms": 254608,
+          "end_ms": 254988
+        },
+        {
+          "word": "The",
+          "start_ms": 257448,
+          "end_ms": 257688
+        },
+        {
+          "word": "sun",
+          "start_ms": 257688,
+          "end_ms": 257928
+        },
+        {
+          "word": "falls",
+          "start_ms": 257928,
+          "end_ms": 258228
+        },
+        {
+          "word": "directly",
+          "start_ms": 258228,
+          "end_ms": 258588
+        },
+        {
+          "word": "on",
+          "start_ms": 258588,
+          "end_ms": 258868
+        },
+        {
+          "word": "the",
+          "start_ms": 258868,
+          "end_ms": 258988
+        },
+        {
+          "word": "equator",
+          "start_ms": 258988,
+          "end_ms": 259428
+        },
+        {
+          "word": "two",
+          "start_ms": 259428,
+          "end_ms": 259668
+        },
+        {
+          "word": "times",
+          "start_ms": 259668,
+          "end_ms": 259948
+        },
+        {
+          "word": "in",
+          "start_ms": 259948,
+          "end_ms": 260188
+        },
+        {
+          "word": "a",
+          "start_ms": 260188,
+          "end_ms": 260288
+        },
+        {
+          "word": "year.",
+          "start_ms": 260288,
+          "end_ms": 260568
+        },
+        {
+          "word": "During",
+          "start_ms": 261048,
+          "end_ms": 261288
+        },
+        {
+          "word": "this",
+          "start_ms": 261288,
+          "end_ms": 261548
+        },
+        {
+          "word": "period",
+          "start_ms": 261548,
+          "end_ms": 261908
+        },
+        {
+          "word": "there",
+          "start_ms": 262048,
+          "end_ms": 262228
+        },
+        {
+          "word": "is",
+          "start_ms": 262228,
+          "end_ms": 262348
+        },
+        {
+          "word": "equal",
+          "start_ms": 262348,
+          "end_ms": 262668
+        },
+        {
+          "word": "length",
+          "start_ms": 262668,
+          "end_ms": 262908
+        },
+        {
+          "word": "of",
+          "start_ms": 262908,
+          "end_ms": 263088
+        },
+        {
+          "word": "day",
+          "start_ms": 263088,
+          "end_ms": 263248
+        },
+        {
+          "word": "and",
+          "start_ms": 263248,
+          "end_ms": 263368
+        },
+        {
+          "word": "night",
+          "start_ms": 263368,
+          "end_ms": 263628
+        },
+        {
+          "word": "all",
+          "start_ms": 263628,
+          "end_ms": 263968
+        },
+        {
+          "word": "over",
+          "start_ms": 263968,
+          "end_ms": 264188
+        },
+        {
+          "word": "the",
+          "start_ms": 264188,
+          "end_ms": 264308
+        },
+        {
+          "word": "world.",
+          "start_ms": 264308,
+          "end_ms": 264548
+        },
+        {
+          "word": "In",
+          "start_ms": 265108,
+          "end_ms": 265268
+        },
+        {
+          "word": "Northern",
+          "start_ms": 265268,
+          "end_ms": 265528
+        },
+        {
+          "word": "Hemisphere,",
+          "start_ms": 265528,
+          "end_ms": 266008
+        },
+        {
+          "word": "the",
+          "start_ms": 266508,
+          "end_ms": 266608
+        },
+        {
+          "word": "March",
+          "start_ms": 266608,
+          "end_ms": 266828
+        },
+        {
+          "word": "Equinox",
+          "start_ms": 266828,
+          "end_ms": 267348
+        },
+        {
+          "word": "is",
+          "start_ms": 267348,
+          "end_ms": 267508
+        },
+        {
+          "word": "called",
+          "start_ms": 267508,
+          "end_ms": 267708
+        },
+        {
+          "word": "the",
+          "start_ms": 267708,
+          "end_ms": 267868
+        },
+        {
+          "word": "Vernal",
+          "start_ms": 267868,
+          "end_ms": 268148
+        },
+        {
+          "word": "or",
+          "start_ms": 268148,
+          "end_ms": 268368
+        },
+        {
+          "word": "Spring",
+          "start_ms": 268368,
+          "end_ms": 268628
+        },
+        {
+          "word": "Equinox",
+          "start_ms": 268628,
+          "end_ms": 269228
+        },
+        {
+          "word": "while",
+          "start_ms": 269228,
+          "end_ms": 269508
+        },
+        {
+          "word": "September",
+          "start_ms": 269508,
+          "end_ms": 269908
+        },
+        {
+          "word": "Equinox",
+          "start_ms": 269908,
+          "end_ms": 270468
+        },
+        {
+          "word": "is",
+          "start_ms": 270468,
+          "end_ms": 270688
+        },
+        {
+          "word": "called",
+          "start_ms": 270688,
+          "end_ms": 270928
+        },
+        {
+          "word": "Autumnal",
+          "start_ms": 270928,
+          "end_ms": 271468
+        },
+        {
+          "word": "Equinox.",
+          "start_ms": 271468,
+          "end_ms": 272088
+        },
+        {
+          "word": "Spring",
+          "start_ms": 272708,
+          "end_ms": 272828
+        },
+        {
+          "word": "Equinox",
+          "start_ms": 272828,
+          "end_ms": 273368
+        },
+        {
+          "word": "(March",
+          "start_ms": 273368,
+          "end_ms": 273628
+        },
+        {
+          "word": "21st)",
+          "start_ms": 273768,
+          "end_ms": 274112
+        },
+        {
+          "word": "marks",
+          "start_ms": 274168,
+          "end_ms": 274608
+        },
+        {
+          "word": "the",
+          "start_ms": 274608,
+          "end_ms": 274788
+        },
+        {
+          "word": "beginning",
+          "start_ms": 274788,
+          "end_ms": 275008
+        },
+        {
+          "word": "of",
+          "start_ms": 275008,
+          "end_ms": 275228
+        },
+        {
+          "word": "spring.",
+          "start_ms": 275228,
+          "end_ms": 275448
+        },
+        {
+          "word": "Autumn",
+          "start_ms": 275448,
+          "end_ms": 276228
+        },
+        {
+          "word": "Equinox",
+          "start_ms": 276228,
+          "end_ms": 276748
+        },
+        {
+          "word": "(September",
+          "start_ms": 276748,
+          "end_ms": 277128
+        },
+        {
+          "word": "23rd)",
+          "start_ms": 277128,
+          "end_ms": 277928
+        },
+        {
+          "word": "marks",
+          "start_ms": 277928,
+          "end_ms": 278188
+        },
+        {
+          "word": "the",
+          "start_ms": 278188,
+          "end_ms": 278348
+        },
+        {
+          "word": "beginning",
+          "start_ms": 278348,
+          "end_ms": 278568
+        },
+        {
+          "word": "of",
+          "start_ms": 278568,
+          "end_ms": 278808
+        },
+        {
+          "word": "autumn.",
+          "start_ms": 278808,
+          "end_ms": 279128
+        }
+      ],
+      "format_spec": {
+        "font_size": 64,
+        "highlight_color": "#FF8C42",
+        "background_color": "rgba(255,253,240,0.90)",
+        "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+        "font_weight": "700",
+        "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+        "key_terms": [],
+        "words_per_page": 6
+      },
+      "source_block_type": "concept"
+    },
+    {
+      "section_id": "s13-recall",
+      "text": "Recall. The Earth's movements, rotation and revolution, have significant affects on our lives. Rotation causes day and night, while revolution leads to the change of seasons. Solstices and equinoxes mark the shift in seasons, playing an essential role in our climate and timekeeping.",
+      "start_ms": 280837,
+      "end_ms": 298772,
+      "words": [
+        {
+          "word": "Recall.",
+          "start_ms": 280837,
+          "end_ms": 281417
+        },
+        {
+          "word": "The",
+          "start_ms": 284217,
+          "end_ms": 284277
+        },
+        {
+          "word": "Earth's",
+          "start_ms": 284277,
+          "end_ms": 284577
+        },
+        {
+          "word": "movements,",
+          "start_ms": 284577,
+          "end_ms": 284877
+        },
+        {
+          "word": "rotation",
+          "start_ms": 285157,
+          "end_ms": 285337
+        },
+        {
+          "word": "and",
+          "start_ms": 285337,
+          "end_ms": 285737
+        },
+        {
+          "word": "revolution,",
+          "start_ms": 285737,
+          "end_ms": 286097
+        },
+        {
+          "word": "have",
+          "start_ms": 286477,
+          "end_ms": 286617
+        },
+        {
+          "word": "significant",
+          "start_ms": 286617,
+          "end_ms": 286957
+        },
+        {
+          "word": "affects",
+          "start_ms": 286957,
+          "end_ms": 287249
+        },
+        {
+          "word": "on",
+          "start_ms": 287297,
+          "end_ms": 287537
+        },
+        {
+          "word": "our",
+          "start_ms": 287537,
+          "end_ms": 287657
+        },
+        {
+          "word": "lives.",
+          "start_ms": 287657,
+          "end_ms": 287917
+        },
+        {
+          "word": "Rotation",
+          "start_ms": 288557,
+          "end_ms": 288697
+        },
+        {
+          "word": "causes",
+          "start_ms": 288697,
+          "end_ms": 289137
+        },
+        {
+          "word": "day",
+          "start_ms": 289137,
+          "end_ms": 289437
+        },
+        {
+          "word": "and",
+          "start_ms": 289437,
+          "end_ms": 289637
+        },
+        {
+          "word": "night,",
+          "start_ms": 289637,
+          "end_ms": 289897
+        },
+        {
+          "word": "while",
+          "start_ms": 290057,
+          "end_ms": 290237
+        },
+        {
+          "word": "revolution",
+          "start_ms": 290237,
+          "end_ms": 290577
+        },
+        {
+          "word": "leads",
+          "start_ms": 290577,
+          "end_ms": 290877
+        },
+        {
+          "word": "to",
+          "start_ms": 290877,
+          "end_ms": 291057
+        },
+        {
+          "word": "the",
+          "start_ms": 291057,
+          "end_ms": 291137
+        },
+        {
+          "word": "change",
+          "start_ms": 291137,
+          "end_ms": 291317
+        },
+        {
+          "word": "of",
+          "start_ms": 291317,
+          "end_ms": 291477
+        },
+        {
+          "word": "seasons.",
+          "start_ms": 291477,
+          "end_ms": 291757
+        },
+        {
+          "word": "Solstices",
+          "start_ms": 292457,
+          "end_ms": 292657
+        },
+        {
+          "word": "and",
+          "start_ms": 292657,
+          "end_ms": 292997
+        },
+        {
+          "word": "equinoxes",
+          "start_ms": 292997,
+          "end_ms": 293597
+        },
+        {
+          "word": "mark",
+          "start_ms": 293597,
+          "end_ms": 293857
+        },
+        {
+          "word": "the",
+          "start_ms": 293857,
+          "end_ms": 293997
+        },
+        {
+          "word": "shift",
+          "start_ms": 293997,
+          "end_ms": 294157
+        },
+        {
+          "word": "in",
+          "start_ms": 294157,
+          "end_ms": 294337
+        },
+        {
+          "word": "seasons,",
+          "start_ms": 294337,
+          "end_ms": 294657
+        },
+        {
+          "word": "playing",
+          "start_ms": 294957,
+          "end_ms": 295117
+        },
+        {
+          "word": "an",
+          "start_ms": 295117,
+          "end_ms": 295277
+        },
+        {
+          "word": "essential",
+          "start_ms": 295277,
+          "end_ms": 295557
+        },
+        {
+          "word": "role",
+          "start_ms": 295557,
+          "end_ms": 295817
+        },
+        {
+          "word": "in",
+          "start_ms": 295817,
+          "end_ms": 296017
+        },
+        {
+          "word": "our",
+          "start_ms": 296017,
+          "end_ms": 296137
+        },
+        {
+          "word": "climate",
+          "start_ms": 296137,
+          "end_ms": 296377
+        },
+        {
+          "word": "and",
+          "start_ms": 296377,
+          "end_ms": 296697
+        },
+        {
+          "word": "timekeeping.",
+          "start_ms": 296697,
+          "end_ms": 297057
+        }
+      ],
+      "format_spec": {
+        "font_size": 64,
+        "highlight_color": "#FF8C42",
+        "background_color": "rgba(255,253,240,0.90)",
+        "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+        "font_weight": "700",
+        "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+        "key_terms": [],
+        "words_per_page": 6
+      },
+      "source_block_type": "concept"
+    },
+    {
+      "section_id": "s14-remember",
+      "text": "Let's Remember. The Earth moves in two ways: rotation and revolution. Rotation causes day and night, while revolution causes seasons. The Earth completes one rotation in 24 hours and one revolution in three hundred and sixty-five and one quarter days. Solstices occur in June and December, marking the longest and shortest days. Equinoxes occur in March and September, when day and night are equal.",
+      "start_ms": 298772,
+      "end_ms": 323771,
+      "words": [
+        {
+          "word": "Let's",
+          "start_ms": 298772,
+          "end_ms": 299012
+        },
+        {
+          "word": "Remember.",
+          "start_ms": 299012,
+          "end_ms": 299292
+        },
+        {
+          "word": "The",
+          "start_ms": 301752,
+          "end_ms": 301952
+        },
+        {
+          "word": "Earth",
+          "start_ms": 301952,
+          "end_ms": 302192
+        },
+        {
+          "word": "moves",
+          "start_ms": 302192,
+          "end_ms": 302452
+        },
+        {
+          "word": "in",
+          "start_ms": 302452,
+          "end_ms": 302672
+        },
+        {
+          "word": "two",
+          "start_ms": 302672,
+          "end_ms": 302852
+        },
+        {
+          "word": "ways:",
+          "start_ms": 302852,
+          "end_ms": 303152
+        },
+        {
+          "word": "rotation",
+          "start_ms": 303672,
+          "end_ms": 303852
+        },
+        {
+          "word": "and",
+          "start_ms": 303852,
+          "end_ms": 304272
+        },
+        {
+          "word": "revolution.",
+          "start_ms": 304272,
+          "end_ms": 304672
+        },
+        {
+          "word": "Rotation",
+          "start_ms": 305252,
+          "end_ms": 305492
+        },
+        {
+          "word": "causes",
+          "start_ms": 305492,
+          "end_ms": 305892
+        },
+        {
+          "word": "day",
+          "start_ms": 305892,
+          "end_ms": 306172
+        },
+        {
+          "word": "and",
+          "start_ms": 306172,
+          "end_ms": 306352
+        },
+        {
+          "word": "night,",
+          "start_ms": 306352,
+          "end_ms": 306612
+        },
+        {
+          "word": "while",
+          "start_ms": 306812,
+          "end_ms": 306972
+        },
+        {
+          "word": "revolution",
+          "start_ms": 306972,
+          "end_ms": 307372
+        },
+        {
+          "word": "causes",
+          "start_ms": 307372,
+          "end_ms": 307772
+        },
+        {
+          "word": "seasons.",
+          "start_ms": 307772,
+          "end_ms": 308092
+        },
+        {
+          "word": "The",
+          "start_ms": 308672,
+          "end_ms": 308792
+        },
+        {
+          "word": "Earth",
+          "start_ms": 308792,
+          "end_ms": 308972
+        },
+        {
+          "word": "completes",
+          "start_ms": 308972,
+          "end_ms": 309332
+        },
+        {
+          "word": "one",
+          "start_ms": 309332,
+          "end_ms": 309572
+        },
+        {
+          "word": "rotation",
+          "start_ms": 309572,
+          "end_ms": 309892
+        },
+        {
+          "word": "in",
+          "start_ms": 309892,
+          "end_ms": 310192
+        },
+        {
+          "word": "24",
+          "start_ms": 310192,
+          "end_ms": 310632
+        },
+        {
+          "word": "hours",
+          "start_ms": 310632,
+          "end_ms": 310892
+        },
+        {
+          "word": "and",
+          "start_ms": 310892,
+          "end_ms": 311252
+        },
+        {
+          "word": "one",
+          "start_ms": 311252,
+          "end_ms": 311492
+        },
+        {
+          "word": "revolution",
+          "start_ms": 311492,
+          "end_ms": 311872
+        },
+        {
+          "word": "in",
+          "start_ms": 311872,
+          "end_ms": 312100
+        },
+        {
+          "word": "three",
+          "start_ms": 312100,
+          "end_ms": 312296
+        },
+        {
+          "word": "hundred",
+          "start_ms": 312328,
+          "end_ms": 312524
+        },
+        {
+          "word": "and",
+          "start_ms": 312556,
+          "end_ms": 312752
+        },
+        {
+          "word": "sixty-five",
+          "start_ms": 312784,
+          "end_ms": 312980
+        },
+        {
+          "word": "and",
+          "start_ms": 313012,
+          "end_ms": 313552
+        },
+        {
+          "word": "one",
+          "start_ms": 313552,
+          "end_ms": 313792
+        },
+        {
+          "word": "quarter",
+          "start_ms": 313792,
+          "end_ms": 313992
+        },
+        {
+          "word": "days.",
+          "start_ms": 313992,
+          "end_ms": 314272
+        },
+        {
+          "word": "Solstices",
+          "start_ms": 314852,
+          "end_ms": 315132
+        },
+        {
+          "word": "occur",
+          "start_ms": 315132,
+          "end_ms": 315472
+        },
+        {
+          "word": "in",
+          "start_ms": 315472,
+          "end_ms": 315692
+        },
+        {
+          "word": "June",
+          "start_ms": 315692,
+          "end_ms": 315892
+        },
+        {
+          "word": "and",
+          "start_ms": 315892,
+          "end_ms": 316052
+        },
+        {
+          "word": "December,",
+          "start_ms": 316052,
+          "end_ms": 316392
+        },
+        {
+          "word": "marking",
+          "start_ms": 316792,
+          "end_ms": 317052
+        },
+        {
+          "word": "the",
+          "start_ms": 317052,
+          "end_ms": 317272
+        },
+        {
+          "word": "longest",
+          "start_ms": 317272,
+          "end_ms": 317512
+        },
+        {
+          "word": "and",
+          "start_ms": 317512,
+          "end_ms": 317772
+        },
+        {
+          "word": "shortest",
+          "start_ms": 317772,
+          "end_ms": 318032
+        },
+        {
+          "word": "days.",
+          "start_ms": 318032,
+          "end_ms": 318432
+        },
+        {
+          "word": "Equinoxes",
+          "start_ms": 319012,
+          "end_ms": 319452
+        },
+        {
+          "word": "occur",
+          "start_ms": 319452,
+          "end_ms": 319672
+        },
+        {
+          "word": "in",
+          "start_ms": 319672,
+          "end_ms": 319872
+        },
+        {
+          "word": "March",
+          "start_ms": 319872,
+          "end_ms": 320072
+        },
+        {
+          "word": "and",
+          "start_ms": 320072,
+          "end_ms": 320292
+        },
+        {
+          "word": "September,",
+          "start_ms": 320292,
+          "end_ms": 320672
+        },
+        {
+          "word": "when",
+          "start_ms": 321012,
+          "end_ms": 321132
+        },
+        {
+          "word": "day",
+          "start_ms": 321132,
+          "end_ms": 321312
+        },
+        {
+          "word": "and",
+          "start_ms": 321312,
+          "end_ms": 321432
+        },
+        {
+          "word": "night",
+          "start_ms": 321432,
+          "end_ms": 321612
+        },
+        {
+          "word": "are",
+          "start_ms": 321612,
+          "end_ms": 321792
+        },
+        {
+          "word": "equal.",
+          "start_ms": 321792,
+          "end_ms": 322052
+        }
+      ],
+      "format_spec": {
+        "font_size": 64,
+        "highlight_color": "#FF8C42",
+        "background_color": "rgba(255,253,240,0.90)",
+        "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+        "font_weight": "700",
+        "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+        "key_terms": [],
+        "words_per_page": 6
+      },
+      "source_block_type": "concept"
+    },
+    {
+      "section_id": "s15-wordbank",
+      "text": "Word Bank. Rotation \u2013 Spinning of the Earth on its axis. Revolution \u2013 Movement of the Earth around the Sun. Orbit \u2013 The path of the Earth around the Sun. Solstice \u2013 When the Sun is at its farthest point north or south. Equinox \u2013 When day and night are equal.",
+      "start_ms": 323771,
+      "end_ms": 342709,
+      "words": [
+        {
+          "word": "Word",
+          "start_ms": 323771,
+          "end_ms": 324111
+        },
+        {
+          "word": "Bank.",
+          "start_ms": 324111,
+          "end_ms": 324411
+        },
+        {
+          "word": "Rotation",
+          "start_ms": 326891,
+          "end_ms": 327041
+        },
+        {
+          "word": "\u2013",
+          "start_ms": 327041,
+          "end_ms": 327170
+        },
+        {
+          "word": "Spinning",
+          "start_ms": 327191,
+          "end_ms": 327691
+        },
+        {
+          "word": "of",
+          "start_ms": 327691,
+          "end_ms": 327891
+        },
+        {
+          "word": "the",
+          "start_ms": 327891,
+          "end_ms": 328031
+        },
+        {
+          "word": "Earth",
+          "start_ms": 328031,
+          "end_ms": 328231
+        },
+        {
+          "word": "on",
+          "start_ms": 328231,
+          "end_ms": 328471
+        },
+        {
+          "word": "its",
+          "start_ms": 328471,
+          "end_ms": 328631
+        },
+        {
+          "word": "axis.",
+          "start_ms": 328631,
+          "end_ms": 329071
+        },
+        {
+          "word": "Revolution",
+          "start_ms": 329551,
+          "end_ms": 329611
+        },
+        {
+          "word": "\u2013",
+          "start_ms": 329611,
+          "end_ms": 329671
+        },
+        {
+          "word": "Movement",
+          "start_ms": 329651,
+          "end_ms": 330191
+        },
+        {
+          "word": "of",
+          "start_ms": 330191,
+          "end_ms": 330531
+        },
+        {
+          "word": "the",
+          "start_ms": 330531,
+          "end_ms": 330691
+        },
+        {
+          "word": "Earth",
+          "start_ms": 330691,
+          "end_ms": 330951
+        },
+        {
+          "word": "around",
+          "start_ms": 330951,
+          "end_ms": 331351
+        },
+        {
+          "word": "the",
+          "start_ms": 331351,
+          "end_ms": 331551
+        },
+        {
+          "word": "Sun.",
+          "start_ms": 331551,
+          "end_ms": 331771
+        },
+        {
+          "word": "Orbit",
+          "start_ms": 332471,
+          "end_ms": 332711
+        },
+        {
+          "word": "\u2013",
+          "start_ms": 332771,
+          "end_ms": 333029
+        },
+        {
+          "word": "The",
+          "start_ms": 333071,
+          "end_ms": 333131
+        },
+        {
+          "word": "path",
+          "start_ms": 333111,
+          "end_ms": 333331
+        },
+        {
+          "word": "of",
+          "start_ms": 333331,
+          "end_ms": 333611
+        },
+        {
+          "word": "the",
+          "start_ms": 333611,
+          "end_ms": 333751
+        },
+        {
+          "word": "Earth",
+          "start_ms": 333751,
+          "end_ms": 333971
+        },
+        {
+          "word": "around",
+          "start_ms": 333971,
+          "end_ms": 334311
+        },
+        {
+          "word": "the",
+          "start_ms": 334311,
+          "end_ms": 334491
+        },
+        {
+          "word": "Sun.",
+          "start_ms": 334491,
+          "end_ms": 334771
+        },
+        {
+          "word": "Solstice",
+          "start_ms": 335411,
+          "end_ms": 335561
+        },
+        {
+          "word": "\u2013",
+          "start_ms": 335561,
+          "end_ms": 335690
+        },
+        {
+          "word": "When",
+          "start_ms": 335711,
+          "end_ms": 336111
+        },
+        {
+          "word": "the",
+          "start_ms": 336111,
+          "end_ms": 336271
+        },
+        {
+          "word": "Sun",
+          "start_ms": 336271,
+          "end_ms": 336531
+        },
+        {
+          "word": "is",
+          "start_ms": 336531,
+          "end_ms": 336711
+        },
+        {
+          "word": "at",
+          "start_ms": 336711,
+          "end_ms": 336871
+        },
+        {
+          "word": "its",
+          "start_ms": 336871,
+          "end_ms": 337031
+        },
+        {
+          "word": "farthest",
+          "start_ms": 337031,
+          "end_ms": 337471
+        },
+        {
+          "word": "point",
+          "start_ms": 337471,
+          "end_ms": 337711
+        },
+        {
+          "word": "north",
+          "start_ms": 337711,
+          "end_ms": 337991
+        },
+        {
+          "word": "or",
+          "start_ms": 337991,
+          "end_ms": 338271
+        },
+        {
+          "word": "south.",
+          "start_ms": 338271,
+          "end_ms": 338591
+        },
+        {
+          "word": "Equinox",
+          "start_ms": 339111,
+          "end_ms": 339291
+        },
+        {
+          "word": "\u2013",
+          "start_ms": 339291,
+          "end_ms": 339446
+        },
+        {
+          "word": "When",
+          "start_ms": 339471,
+          "end_ms": 339811
+        },
+        {
+          "word": "day",
+          "start_ms": 339811,
+          "end_ms": 340031
+        },
+        {
+          "word": "and",
+          "start_ms": 340031,
+          "end_ms": 340271
+        },
+        {
+          "word": "night",
+          "start_ms": 340271,
+          "end_ms": 340471
+        },
+        {
+          "word": "are",
+          "start_ms": 340471,
+          "end_ms": 340711
+        },
+        {
+          "word": "equal.",
+          "start_ms": 340711,
+          "end_ms": 341071
+        }
+      ],
+      "format_spec": {
+        "font_size": 64,
+        "highlight_color": "#FF8C42",
+        "background_color": "rgba(255,253,240,0.90)",
+        "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+        "font_weight": "700",
+        "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+        "key_terms": [],
+        "words_per_page": 6
+      },
+      "source_block_type": "concept"
+    }
+  ],
+  "method": "faster_whisper"
+}

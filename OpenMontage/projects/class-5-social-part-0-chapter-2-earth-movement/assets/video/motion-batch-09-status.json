@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "batch": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-09.json",
+  "shots": [
+    {
+      "shot_id": "bicycle-stop-inertia-i2v-09",
+      "section_id": "s11-inertia",
+      "status": "submitted",
+      "request_id": "188345667",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-09\\bicycle-stop-inertia-i2v-09.mp4",
+      "error": null
+    }
+  ],
+  "complete": false
+}

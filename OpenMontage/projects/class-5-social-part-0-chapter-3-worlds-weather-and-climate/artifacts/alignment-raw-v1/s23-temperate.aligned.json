@@ -1,0 +1,129 @@
+{
+  "section_id": "s23-temperate",
+  "text": "Temperate Zone. Found between the tropics and the polar circles. It has moderate temperatures with distinct seasons.",
+  "start_ms": 381760,
+  "end_ms": 391040,
+  "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\audio\\narration-elevenlabs-v1\\s23-temperate.wav",
+  "words": [
+    {
+      "word": "Temperate",
+      "start_ms": 381800,
+      "end_ms": 382261,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0587
+    },
+    {
+      "word": "Zone.",
+      "start_ms": 382341,
+      "end_ms": 382622,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.2548
+    },
+    {
+      "word": "Found",
+      "start_ms": 383444,
+      "end_ms": 383724,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.001
+    },
+    {
+      "word": "between",
+      "start_ms": 383844,
+      "end_ms": 384165,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0242
+    },
+    {
+      "word": "the",
+      "start_ms": 384225,
+      "end_ms": 384305,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0633
+    },
+    {
+      "word": "tropics",
+      "start_ms": 384366,
+      "end_ms": 384867,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0694
+    },
+    {
+      "word": "and",
+      "start_ms": 385087,
+      "end_ms": 385187,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "the",
+      "start_ms": 385248,
+      "end_ms": 385308,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0138
+    },
+    {
+      "word": "polar",
+      "start_ms": 385368,
+      "end_ms": 385688,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0148
+    },
+    {
+      "word": "circles.",
+      "start_ms": 385769,
+      "end_ms": 386210,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0457
+    },
+    {
+      "word": "It",
+      "start_ms": 387071,
+      "end_ms": 387132,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.002
+    },
+    {
+      "word": "has",
+      "start_ms": 387192,
+      "end_ms": 387332,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0132
+    },
+    {
+      "word": "moderate",
+      "start_ms": 387492,
+      "end_ms": 387913,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0079
+    },
+    {
+      "word": "temperatures",
+      "start_ms": 387993,
+      "end_ms": 388595,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0404
+    },
+    {
+      "word": "with",
+      "start_ms": 388775,
+      "end_ms": 388915,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1072
+    },
+    {
+      "word": "distinct",
+      "start_ms": 389016,
+      "end_ms": 389517,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "seasons.",
+      "start_ms": 389657,
+      "end_ms": 390158,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -1.0572
+    }
+  ],
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

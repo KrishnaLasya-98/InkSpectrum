@@ -1,0 +1,136 @@
+{
+  "model_id": "qwen-tts",
+  "target_wpm": 178.749,
+  "complete": 15,
+  "total": 15,
+  "segments": [
+    {
+      "section_id": "s01-title",
+      "text": "Social Studies, Class 5. Lesson 2: Earth Movement.",
+      "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-qwen-v2\\s01-title.wav",
+      "duration_seconds": 2.687,
+      "job_id": null,
+      "status": "ready"
+    },
+    {
+      "section_id": "s02-objectives",
+      "text": "Learning Objectives. By the end of this chapter, learners will be able to: Understand that the Earth is spherical. Identify the two types of movements of the Earth. Explain rotation and its effects. Understand revolution and its effects. Learn about different seasons caused by revolution. Define solstices and equinoxes and when they occur.",
+      "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-qwen-v2\\s02-objectives.wav",
+      "duration_seconds": 17.806,
+      "job_id": null,
+      "status": "ready"
+    },
+    {
+      "section_id": "s03-startup",
+      "text": "Start-Up Activity. Take a ball and spin it. Notice how it moves. Imagine this is the Earth moving in space. The Earth moves in two ways—let's explore these movements and their effects!",
+      "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-qwen-v2\\s03-startup.wav",
+      "duration_seconds": 11.087,
+      "job_id": null,
+      "status": "ready"
+    },
+    {
+      "section_id": "s04-spherical-earth",
+      "text": "Who proved that the earth is spherical? Many ancient civilizations believed that the Earth was flat. However, Greek philosopher Pythagoras was one of the first to suggest that the Earth is spherical. Later, Aristotle provided evidence by observing how ships disappear over the horizon and how the Earth's shadow on the Moon is curved during a lunar eclipse. Ferdinand Magellan's voyage around the world further confirmed that the Earth is round.",
+      "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-qwen-v2\\s04-spherical-earth.wav",
+      "duration_seconds": 23.839,
+      "job_id": null,
+      "status": "ready"
+    },
+    {
+      "section_id": "s05-two-movements",
+      "text": "The Two Movements of the Earth. The Earth moves in two ways: Rotation – The Earth spins on its axis around itself. Revolution – The Earth moves around the Sun.",
+      "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-qwen-v2\\s05-two-movements.wav",
+      "duration_seconds": 9.4,
+      "job_id": null,
+      "status": "ready"
+    },
+    {
+      "section_id": "s06-rotation",
+      "text": "Rotation. The movement of the Earth around its own axis is called rotation. The earth rotates from west to east. It completes one full rotation in 24 hours. The speed of rotation is faster at the equator and slower at the poles. The axis is tilted at an angle of 23.5°. As the Earth is spherical in shape, only one half of the Earth receives sunlight at a time. Thus, the side of the Earth facing the Sun experience day. On the other hand, the other half, or the part away from the sun, experiences night. As the Earth rotates, the lighted part moves into the darkness. This rotation causes day and night.",
+      "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-qwen-v2\\s06-rotation.wav",
+      "duration_seconds": 38.258,
+      "raw_duration_seconds": 37.874,
+      "target_wpm": 178.749,
+      "job_id": 4688769,
+      "status": "ready"
+    },
+    {
+      "section_id": "s07-do-you-know",
+      "text": "Do You Know? The Earth rotates at a speed of 1,670 kilometers per hour at the equator, but we don’t feel it because we’re moving along with it!",
+      "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-qwen-v2\\s07-do-you-know.wav",
+      "duration_seconds": 10.388,
+      "job_id": null,
+      "status": "ready"
+    },
+    {
+      "section_id": "s08-revolution",
+      "text": "Revolution. Revolution is the movement of the Earth around the Sun in a fixed path called an orbit. The Earth revolves around the Sun in an elliptical orbit. It takes three hundred and sixty-five and one quarter days (one year) to complete one revolution. The tilt of the Earth's axis remains the same during revolution. Revolution causes seasonal changes. The revolution of the Earth and the tilt of its axis cause different seasons: Summer – The hemisphere tilted towards the Sun experiences summer. Winter – The hemisphere tilted away from the Sun experiences winter. Spring – Occurs between winter and summer when the temperature starts rising. Autumn – Occurs between summer and winter when the temperature starts dropping.",
+      "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-qwen-v2\\s08-revolution.wav",
+      "duration_seconds": 38.269,
+      "raw_duration_seconds": 47.154,
+      "target_wpm": 178.749,
+      "job_id": 4688772,
+      "status": "ready"
+    },
+    {
+      "section_id": "s09-day-length",
+      "text": "Let's Learn More. A day on Earth is actually 23 hours, 56 minutes, not exactly 24 hours, but we round it off to 24 hours because it’s easier to keep track of time.",
+      "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-qwen-v2\\s09-day-length.wav",
+      "duration_seconds": 11.403,
+      "job_id": null,
+      "status": "ready"
+    },
+    {
+      "section_id": "s10-solstice",
+      "text": "What is Solstice and When Does It Occur? A solstice is a day, when the sun shines vertically over a Tropic (both cancer and Capricorn) in the afternoon and the day is the longest in that hemisphere. On the twenty-second of December, the rays of the sun fall directly over the Tropic of Capricorn. This is the longest day in Southern Hemisphere (summer season), while in the Northern Hemisphere, it is the shortest day (winter season). This is called 'Winter Solstice. On the twenty-first of June, sunlight falls vertically over the Tropic of Cancer. This is the longest day in Northern Hemisphere and hence it is called 'Summer Solstice', while in the Southern Hemisphere, it is the shortest day.",
+      "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-qwen-v2\\s10-solstice.wav",
+      "duration_seconds": 39.94,
+      "raw_duration_seconds": 39.634,
+      "target_wpm": 178.749,
+      "job_id": 4688777,
+      "status": "ready"
+    },
+    {
+      "section_id": "s11-inertia",
+      "text": "Let's Learn More. Earth keeps rotating due to inertia, the same reason you continue moving forward when you stop a bike suddenly. This movement doesn’t stop because there’s no friction in space to slow it down!",
+      "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-qwen-v2\\s11-inertia.wav",
+      "duration_seconds": 12.751,
+      "job_id": null,
+      "status": "ready"
+    },
+    {
+      "section_id": "s12-equinox",
+      "text": "What is Equinox and When Does It Occur? The sun falls directly on the equator two times in a year. During this period there is equal length of day and night all over the world. In Northern Hemisphere, the March Equinox is called the Vernal or Spring Equinox while September Equinox is called Autumnal Equinox. Spring Equinox (March 21st) marks the beginning of spring. Autumn Equinox (September 23rd) marks the beginning of autumn.",
+      "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-qwen-v2\\s12-equinox.wav",
+      "duration_seconds": 24.508,
+      "job_id": null,
+      "status": "ready"
+    },
+    {
+      "section_id": "s13-recall",
+      "text": "Recall. The Earth's movements, rotation and revolution, have significant affects on our lives. Rotation causes day and night, while revolution leads to the change of seasons. Solstices and equinoxes mark the shift in seasons, playing an essential role in our climate and timekeeping.",
+      "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-qwen-v2\\s13-recall.wav",
+      "duration_seconds": 14.435,
+      "job_id": null,
+      "status": "ready"
+    },
+    {
+      "section_id": "s14-remember",
+      "text": "Let's Remember. The Earth moves in two ways: rotation and revolution. Rotation causes day and night, while revolution causes seasons. The Earth completes one rotation in 24 hours and one revolution in three hundred and sixty-five and one quarter days. Solstices occur in June and December, marking the longest and shortest days. Equinoxes occur in March and September, when day and night are equal.",
+      "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-qwen-v2\\s14-remember.wav",
+      "duration_seconds": 21.499,
+      "raw_duration_seconds": 27.874,
+      "target_wpm": 178.749,
+      "job_id": 4688781,
+      "status": "ready"
+    },
+    {
+      "section_id": "s15-wordbank",
+      "text": "Word Bank. Rotation – Spinning of the Earth on its axis. Revolution – Movement of the Earth around the Sun. Orbit – The path of the Earth around the Sun. Solstice – When the Sun is at its farthest point north or south. Equinox – When day and night are equal.",
+      "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-qwen-v2\\s15-wordbank.wav",
+      "duration_seconds": 15.438,
+      "job_id": null,
+      "status": "ready"
+    }
+  ]
+}

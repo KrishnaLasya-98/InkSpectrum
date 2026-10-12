@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188298983",
+  "request_fingerprint": "3e24dfece0b0ed54b1589e2538b8f4ce543fecd673015a0c0961cacd7d543c0d",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-01\\earth-shadow-eclipse-01.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1790853686.1384745,
+  "last_poll_at_unix": 1790853964.919524,
+  "completed_at_unix": 1790853966.3556783
+}

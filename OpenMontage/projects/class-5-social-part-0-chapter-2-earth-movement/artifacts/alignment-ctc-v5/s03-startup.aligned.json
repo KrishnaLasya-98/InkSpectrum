@@ -1,0 +1,244 @@
+{
+  "section_id": "s03-startup",
+  "text": "Start-Up Activity. Take a ball and spin it. Notice how it moves. Imagine this is the Earth moving in space. The Earth moves in two ways—let's explore these movements and their effects!",
+  "start_ms": 36161,
+  "end_ms": 54316,
+  "words": [
+    {
+      "word": "Start-Up",
+      "start_ms": 36241,
+      "end_ms": 36681,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0704
+    },
+    {
+      "word": "Activity.",
+      "start_ms": 36862,
+      "end_ms": 37362,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "Take",
+      "start_ms": 39444,
+      "end_ms": 39644,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0234
+    },
+    {
+      "word": "a",
+      "start_ms": 39724,
+      "end_ms": 39744,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0009
+    },
+    {
+      "word": "ball",
+      "start_ms": 39824,
+      "end_ms": 40104,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.055
+    },
+    {
+      "word": "and",
+      "start_ms": 40444,
+      "end_ms": 40545,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0084
+    },
+    {
+      "word": "spin",
+      "start_ms": 40645,
+      "end_ms": 40885,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "it.",
+      "start_ms": 41005,
+      "end_ms": 41065,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0177
+    },
+    {
+      "word": "Notice",
+      "start_ms": 42126,
+      "end_ms": 42466,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0023
+    },
+    {
+      "word": "how",
+      "start_ms": 42586,
+      "end_ms": 42726,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.055
+    },
+    {
+      "word": "it",
+      "start_ms": 42826,
+      "end_ms": 42886,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0033
+    },
+    {
+      "word": "moves.",
+      "start_ms": 42986,
+      "end_ms": 43347,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0378
+    },
+    {
+      "word": "Imagine",
+      "start_ms": 44568,
+      "end_ms": 44988,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.003
+    },
+    {
+      "word": "this",
+      "start_ms": 45268,
+      "end_ms": 45428,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0104
+    },
+    {
+      "word": "is",
+      "start_ms": 45529,
+      "end_ms": 45569,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "the",
+      "start_ms": 45649,
+      "end_ms": 45749,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0266
+    },
+    {
+      "word": "Earth",
+      "start_ms": 45949,
+      "end_ms": 46169,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0083
+    },
+    {
+      "word": "moving",
+      "start_ms": 46469,
+      "end_ms": 46810,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0289
+    },
+    {
+      "word": "in",
+      "start_ms": 46930,
+      "end_ms": 46990,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0162
+    },
+    {
+      "word": "space.",
+      "start_ms": 47090,
+      "end_ms": 47490,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.086
+    },
+    {
+      "word": "The",
+      "start_ms": 48651,
+      "end_ms": 48751,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0006
+    },
+    {
+      "word": "Earth",
+      "start_ms": 48911,
+      "end_ms": 49091,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0005
+    },
+    {
+      "word": "moves",
+      "start_ms": 49212,
+      "end_ms": 49512,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1071
+    },
+    {
+      "word": "in",
+      "start_ms": 49652,
+      "end_ms": 49692,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "two",
+      "start_ms": 49832,
+      "end_ms": 49972,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0005
+    },
+    {
+      "word": "ways—let's",
+      "start_ms": 50072,
+      "end_ms": 51513,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -1.4192
+    },
+    {
+      "word": "explore",
+      "start_ms": 51593,
+      "end_ms": 52014,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0056
+    },
+    {
+      "word": "these",
+      "start_ms": 52074,
+      "end_ms": 52254,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0171
+    },
+    {
+      "word": "movements",
+      "start_ms": 52334,
+      "end_ms": 52834,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0129
+    },
+    {
+      "word": "and",
+      "start_ms": 53195,
+      "end_ms": 53275,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "their",
+      "start_ms": 53335,
+      "end_ms": 53455,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0306
+    },
+    {
+      "word": "effects!",
+      "start_ms": 53535,
+      "end_ms": 53975,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.064
+    }
+  ],
+  "format_spec": {
+    "font_size": 64,
+    "highlight_color": "#FF8C42",
+    "background_color": "rgba(255,253,240,0.90)",
+    "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+    "font_weight": "700",
+    "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+    "key_terms": [],
+    "words_per_page": 6
+  },
+  "source_block_type": "concept",
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

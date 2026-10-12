@@ -1,0 +1,68 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "shots": [
+    {
+      "shot_id": "weather-opening",
+      "section_id": "s01-title",
+      "prompt": "A wide magical but realistic-scale meadow with fluffy clouds moving across blue sky, a leafy tree swaying gently, distant snowy mountains and a warm sun, child-friendly polished 3D animated film, camera glides slowly over grass, large clear space on the left for a later HTML overlay. No text, no captions, no logos, no watermark, genuine continuous object motion, no frozen image."
+    },
+    {
+      "shot_id": "window-sun",
+      "section_id": "s03-startup",
+      "prompt": "An Indian schoolchild with short dark hair and a blue school uniform looks through a classroom window, outside is a bright sunny garden with leaves moving in a light breeze. Warm friendly polished 3D animated film, child points gently toward the sunshine, stable facial anatomy. No text, no captions, no logos, no watermark, genuine continuous object motion, no frozen image."
+    },
+    {
+      "shot_id": "window-cloud",
+      "section_id": "s03-startup",
+      "prompt": "From inside an empty bright classroom, look through a wide window at a garden as dense soft clouds drift across the sky and the garden becomes softly shaded, moving tree leaves and a natural change in illumination, child-friendly polished 3D animation, no people. No text, no captions, no logos, no watermark, genuine continuous object motion, no frozen image."
+    },
+    {
+      "shot_id": "window-rain",
+      "section_id": "s03-startup",
+      "prompt": "From inside an empty bright classroom, look through a wide window at a rainy garden, visible raindrops strike the glass and small puddles ripple outside, tree foliage moves gently, child-friendly polished 3D animated film, calm safe weather. No text, no captions, no logos, no watermark, genuine continuous object motion, no frozen image."
+    },
+    {
+      "shot_id": "weather-wind",
+      "section_id": "s04-weather",
+      "prompt": "A friendly 3D countryside meadow with grasses and leafy trees bending visibly in a moderate wind, soft clouds moving across the sky, stable wide camera view, bright natural colors, clearly animated foliage throughout, calm child-friendly weather explanation. No text, no captions, no logos, no watermark, genuine continuous object motion, no frozen image."
+    },
+    {
+      "shot_id": "weather-rain",
+      "section_id": "s04-weather",
+      "prompt": "A child-friendly 3D garden during afternoon rain, visible raindrops falling continuously and making ripples in shallow puddles, gently swaying leaves, soft overcast light and a steady camera, clean landscape with space in upper right for an overlay. No text, no captions, no logos, no watermark, genuine continuous object motion, no frozen image."
+    },
+    {
+      "shot_id": "lut-rocky-heat",
+      "section_id": "s05-hot-desert-fact",
+      "prompt": "An uninhabited rocky desert with reddish sandstone ridges, shimmering hot air above the ground, an intense bright sun and sparse dust drifting gently, polished child-friendly 3D animated film, slow sideways camera glide, no thermometers or generated measurements. No text, no captions, no logos, no watermark, genuine continuous object motion, no frozen image."
+    },
+    {
+      "shot_id": "sahara-dunes",
+      "section_id": "s06-climate",
+      "prompt": "An uninhabited hot dry desert with golden sand dunes, gentle wind pushing fine grains along dune crests and a slow low camera glide, bright clear sky, polished child-friendly 3D animated film, no animals or people. No text, no captions, no logos, no watermark, genuine continuous object motion, no frozen image."
+    },
+    {
+      "shot_id": "amazon-rain",
+      "section_id": "s06-climate",
+      "prompt": "A lush tropical rainforest with layered broad green leaves, tall trees and falling rain, tiny droplets drip from leaves, mist moves between trunks and foliage sways gently, polished child-friendly 3D animated film, slow coherent forward camera movement. No text, no captions, no logos, no watermark, genuine continuous object motion, no frozen image."
+    },
+    {
+      "shot_id": "mountain-ascending",
+      "section_id": "s09-altitude",
+      "prompt": "A child-friendly 3D mountain landscape with green lowland foothills and a snowy summit, camera rises gradually from the warm valley toward the high snow line, soft moving clouds and trees, clean geography with no labels, sunny readable lighting. No text, no captions, no logos, no watermark, genuine continuous object motion, no frozen image."
+    },
+    {
+      "shot_id": "coast-day",
+      "section_id": "s10-sea-land-breeze",
+      "prompt": "A sunny coastal landscape with sandy shore on the left and blue sea on the right, gentle ocean waves roll toward shore and dune grass moves in a mild breeze, polished child-friendly 3D animated film, fixed wide camera and natural day lighting, no arrows or labels. No text, no captions, no logos, no watermark, genuine continuous object motion, no frozen image."
+    },
+    {
+      "shot_id": "coast-night",
+      "section_id": "s10-sea-land-breeze",
+      "prompt": "A calm moonlit coastal landscape with land on the left and sea on the right, waves move gently and a few small clouds drift under a visible crescent moon, polished child-friendly 3D animated film, readable soft night lighting, stable wide view, no text or arrows. No text, no captions, no logos, no watermark, genuine continuous object motion, no frozen image."
+    }
+  ]
+}

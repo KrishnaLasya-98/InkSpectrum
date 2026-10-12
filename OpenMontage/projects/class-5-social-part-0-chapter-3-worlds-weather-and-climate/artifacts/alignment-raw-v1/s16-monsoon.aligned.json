@@ -1,0 +1,199 @@
+{
+  "section_id": "s16-monsoon",
+  "text": "Monsoon or Tropical Climate. Found in South Asia, Southeast Asia, and some parts of Africa. It has hot summers and receives heavy rainfall during the monsoon season.",
+  "start_ms": 297360,
+  "end_ms": 311360,
+  "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\audio\\narration-elevenlabs-v1\\s16-monsoon.wav",
+  "words": [
+    {
+      "word": "Monsoon",
+      "start_ms": 297420,
+      "end_ms": 298001,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0971
+    },
+    {
+      "word": "or",
+      "start_ms": 298381,
+      "end_ms": 298442,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0007
+    },
+    {
+      "word": "Tropical",
+      "start_ms": 298562,
+      "end_ms": 299002,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0028
+    },
+    {
+      "word": "Climate.",
+      "start_ms": 299102,
+      "end_ms": 299503,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0048
+    },
+    {
+      "word": "Found",
+      "start_ms": 300444,
+      "end_ms": 300725,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "in",
+      "start_ms": 300825,
+      "end_ms": 300865,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "South",
+      "start_ms": 301005,
+      "end_ms": 301286,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0004
+    },
+    {
+      "word": "Asia,",
+      "start_ms": 301386,
+      "end_ms": 301686,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0004
+    },
+    {
+      "word": "Southeast",
+      "start_ms": 302267,
+      "end_ms": 302788,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0698
+    },
+    {
+      "word": "Asia,",
+      "start_ms": 302888,
+      "end_ms": 303168,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1071
+    },
+    {
+      "word": "and",
+      "start_ms": 303669,
+      "end_ms": 303749,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0471
+    },
+    {
+      "word": "some",
+      "start_ms": 303829,
+      "end_ms": 304030,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0834
+    },
+    {
+      "word": "parts",
+      "start_ms": 304110,
+      "end_ms": 304390,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1422
+    },
+    {
+      "word": "of",
+      "start_ms": 304450,
+      "end_ms": 304490,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "Africa.",
+      "start_ms": 304670,
+      "end_ms": 305031,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0132
+    },
+    {
+      "word": "It",
+      "start_ms": 305992,
+      "end_ms": 306052,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.198
+    },
+    {
+      "word": "has",
+      "start_ms": 306113,
+      "end_ms": 306253,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0065
+    },
+    {
+      "word": "hot",
+      "start_ms": 306413,
+      "end_ms": 306593,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0142
+    },
+    {
+      "word": "summers",
+      "start_ms": 306713,
+      "end_ms": 307134,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0868
+    },
+    {
+      "word": "and",
+      "start_ms": 307555,
+      "end_ms": 307635,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0018
+    },
+    {
+      "word": "receives",
+      "start_ms": 307695,
+      "end_ms": 308075,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0115
+    },
+    {
+      "word": "heavy",
+      "start_ms": 308236,
+      "end_ms": 308516,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0005
+    },
+    {
+      "word": "rainfall",
+      "start_ms": 308616,
+      "end_ms": 309137,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0816
+    },
+    {
+      "word": "during",
+      "start_ms": 309257,
+      "end_ms": 309557,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0547
+    },
+    {
+      "word": "the",
+      "start_ms": 309597,
+      "end_ms": 309658,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0005
+    },
+    {
+      "word": "monsoon",
+      "start_ms": 309718,
+      "end_ms": 310158,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0342
+    },
+    {
+      "word": "season.",
+      "start_ms": 310258,
+      "end_ms": 310679,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -2.678
+    }
+  ],
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

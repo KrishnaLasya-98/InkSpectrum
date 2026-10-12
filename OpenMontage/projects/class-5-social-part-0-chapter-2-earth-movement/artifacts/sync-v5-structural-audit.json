@@ -1,0 +1,240 @@
+{
+  "status": "timing_structure_pass",
+  "sections": [
+    {
+      "section_id": "s01-title",
+      "word_count": 8,
+      "audio_sha256": "da03a5c2961663e0c176ddaecd7f871ec3d7d2d637b1f00f5ef8cb2ecda3225d",
+      "title_pause_seconds": 2.0
+    },
+    {
+      "section_id": "s02-objectives",
+      "word_count": 53,
+      "audio_sha256": "def54b23478b232de7ced1d8baca597dfd0bc0771154b64bf6dc8262e16900cf",
+      "title_pause_seconds": 2.0
+    },
+    {
+      "section_id": "s03-startup",
+      "word_count": 32,
+      "audio_sha256": "a58a2c451e134d120311daaf29a54fa9a2661f510d105f2b24ccadef2d93aaaa",
+      "title_pause_seconds": 2.0
+    },
+    {
+      "section_id": "s04-spherical-earth",
+      "word_count": 71,
+      "audio_sha256": "f5227a583e9cee4f78d0a015f128da28447e11e45b4f86ef170a203f7a03b04a",
+      "title_pause_seconds": 2.0
+    },
+    {
+      "section_id": "s05-two-movements",
+      "word_count": 28,
+      "audio_sha256": "5b2a130d84cb9680e3736beac25bee90ea962a4f5f3a3eb4e673f8f9b533c2ec",
+      "title_pause_seconds": 2.0
+    },
+    {
+      "section_id": "s06-rotation",
+      "word_count": 113,
+      "audio_sha256": "ac1fe0e839d9979e08743ea09c1c138a8a58d9544eac0be6dda8211b2925e0ce",
+      "title_pause_seconds": 2.0
+    },
+    {
+      "section_id": "s07-do-you-know",
+      "word_count": 28,
+      "audio_sha256": "c2511c74f0e902f51d29052b6ad995bfed24c22e8cf44ab47595f700e867f7e8",
+      "title_pause_seconds": 2.0
+    },
+    {
+      "section_id": "s08-revolution",
+      "word_count": 114,
+      "audio_sha256": "dbc4f62d92aed49d7cf3779eef37b53ab6025b5cd62b97b2679822277fd2eaf9",
+      "title_pause_seconds": 2.0
+    },
+    {
+      "section_id": "s09-day-length",
+      "word_count": 33,
+      "audio_sha256": "86beb360facc47af088831d55fec7917680c0f2286d15c07591d23cd1bfee196",
+      "title_pause_seconds": 2.0
+    },
+    {
+      "section_id": "s10-solstice",
+      "word_count": 119,
+      "audio_sha256": "56158ee22dabf186f1a144350c1fece97810020ac12955f79507913cde4fc29e",
+      "title_pause_seconds": 2.0
+    },
+    {
+      "section_id": "s11-inertia",
+      "word_count": 36,
+      "audio_sha256": "67cd8224ec1f45679dd70433b9f9979a9178675342f13a8a75cdc41b3011b6f0",
+      "title_pause_seconds": 2.0
+    },
+    {
+      "section_id": "s12-equinox",
+      "word_count": 73,
+      "audio_sha256": "f94b476bd0e0bfd3c19ad334397864fb18e7d3700f248a7d6889a4e147f38262",
+      "title_pause_seconds": 2.0
+    },
+    {
+      "section_id": "s13-recall",
+      "word_count": 43,
+      "audio_sha256": "d656cff97dcd7f915aff290af3558b0c6f65e67e7b276faf02df01cb99d7ea2a",
+      "title_pause_seconds": 2.0
+    },
+    {
+      "section_id": "s14-remember",
+      "word_count": 64,
+      "audio_sha256": "72fe8531a3a47e11d949e24c4241ceb00820f9c4eab9185c8732b9933b8598bf",
+      "title_pause_seconds": 2.0
+    },
+    {
+      "section_id": "s15-wordbank",
+      "word_count": 46,
+      "audio_sha256": "8412810af6e3aef4c590d33568cb305d9e81ef906b9fb312b76e39e2bb958804",
+      "title_pause_seconds": 2.0
+    }
+  ],
+  "perceptual_qa": "pending",
+  "encoded_video_qa": "pending",
+  "media_coverage": [
+    {
+      "section_id": "s01-title",
+      "video_gaps_seconds": [],
+      "note": "Gaps in other sections require deliberate source-diagram/card review, not automatic acceptance."
+    },
+    {
+      "section_id": "s02-objectives",
+      "video_gaps_seconds": [
+        [
+          5.698,
+          28.916
+        ]
+      ],
+      "note": "Gaps in other sections require deliberate source-diagram/card review, not automatic acceptance."
+    },
+    {
+      "section_id": "s03-startup",
+      "video_gaps_seconds": [
+        [
+          6.532,
+          8.327
+        ],
+        [
+          14.859,
+          18.155
+        ]
+      ],
+      "note": "Gaps in other sections require deliberate source-diagram/card review, not automatic acceptance."
+    },
+    {
+      "section_id": "s04-spherical-earth",
+      "video_gaps_seconds": [],
+      "note": "Gaps in other sections require deliberate source-diagram/card review, not automatic acceptance."
+    },
+    {
+      "section_id": "s05-two-movements",
+      "video_gaps_seconds": [],
+      "note": "Gaps in other sections require deliberate source-diagram/card review, not automatic acceptance."
+    },
+    {
+      "section_id": "s06-rotation",
+      "video_gaps_seconds": [],
+      "note": "Gaps in other sections require deliberate source-diagram/card review, not automatic acceptance."
+    },
+    {
+      "section_id": "s07-do-you-know",
+      "video_gaps_seconds": [
+        [
+          0.0,
+          13.641
+        ]
+      ],
+      "note": "Gaps in other sections require deliberate source-diagram/card review, not automatic acceptance."
+    },
+    {
+      "section_id": "s08-revolution",
+      "video_gaps_seconds": [],
+      "note": "Gaps in other sections require deliberate source-diagram/card review, not automatic acceptance."
+    },
+    {
+      "section_id": "s09-day-length",
+      "video_gaps_seconds": [
+        [
+          0.0,
+          15.85
+        ]
+      ],
+      "note": "Gaps in other sections require deliberate source-diagram/card review, not automatic acceptance."
+    },
+    {
+      "section_id": "s10-solstice",
+      "video_gaps_seconds": [
+        [
+          0.0,
+          31.111
+        ],
+        [
+          37.142,
+          51.058
+        ]
+      ],
+      "note": "Gaps in other sections require deliberate source-diagram/card review, not automatic acceptance."
+    },
+    {
+      "section_id": "s11-inertia",
+      "video_gaps_seconds": [
+        [
+          0.0,
+          7.363
+        ],
+        [
+          12.461,
+          17.107
+        ]
+      ],
+      "note": "Gaps in other sections require deliberate source-diagram/card review, not automatic acceptance."
+    },
+    {
+      "section_id": "s12-equinox",
+      "video_gaps_seconds": [
+        [
+          0.0,
+          24.534
+        ],
+        [
+          30.466,
+          35.36
+        ]
+      ],
+      "note": "Gaps in other sections require deliberate source-diagram/card review, not automatic acceptance."
+    },
+    {
+      "section_id": "s13-recall",
+      "video_gaps_seconds": [
+        [
+          0.0,
+          24.684
+        ]
+      ],
+      "note": "Gaps in other sections require deliberate source-diagram/card review, not automatic acceptance."
+    },
+    {
+      "section_id": "s14-remember",
+      "video_gaps_seconds": [
+        [
+          0.0,
+          34.442
+        ]
+      ],
+      "note": "Gaps in other sections require deliberate source-diagram/card review, not automatic acceptance."
+    },
+    {
+      "section_id": "s15-wordbank",
+      "video_gaps_seconds": [
+        [
+          0.0,
+          24.95
+        ]
+      ],
+      "note": "Gaps in other sections require deliberate source-diagram/card review, not automatic acceptance."
+    }
+  ]
+}

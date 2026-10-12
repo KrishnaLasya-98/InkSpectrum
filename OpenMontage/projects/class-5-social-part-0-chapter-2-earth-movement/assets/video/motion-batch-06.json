@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "scope": "Four textbook seasons: separate summer, autumn and winter cues following spring batch-05",
+  "provider": "modelslab",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "shots": [
+    {
+      "shot_id": "summer-park-06",
+      "section_id": "s08-revolution",
+      "narration_cue": "Summer – The hemisphere tilted towards the Sun",
+      "prompt": "A polished child-friendly 3D animated park in summer. A single leafy tree stands beside a winding path with lush grass and small flowers. Bright warm sunshine pours across the same cheerful landscape for one continuous five-second shot. Leaves flutter gently and the camera glides smoothly, emphasizing the warm summer weather with natural movement and a clear uncluttered view."
+    },
+    {
+      "shot_id": "autumn-park-06",
+      "section_id": "s08-revolution",
+      "narration_cue": "Autumn – Occurs between summer and winter",
+      "prompt": "A polished child-friendly 3D animated park in autumn. A single broad tree beside a winding path carries gold, amber and rust-colored leaves over grass turning pale. Several leaves drift naturally to the ground as the light becomes softer and cooler. Hold the same landscape for one continuous five-second shot with a restrained camera glide and clear seasonal motion."
+    },
+    {
+      "shot_id": "winter-park-06",
+      "section_id": "s08-revolution",
+      "narration_cue": "Winter – The hemisphere tilted away from the Sun",
+      "prompt": "A polished child-friendly 3D animated park in winter. A single bare tree stands beside a winding path under a pale blue sky, with light snow resting on branches and grass. Fine snowflakes fall gently through one continuous five-second shot while the camera glides smoothly across the quiet landscape. The cool light, bare branches and snow make the winter season immediately clear."
+    }
+  ]
+}

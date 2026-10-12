@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "review_method": "Recovered all three recorded Wan jobs without duplicate submissions; probed each five-second MP4 and inspected one-second temporal contact sheets against the narration cues.",
+  "shots": [
+    {
+      "shot_id": "classroom-lamp-globe-day-night-10",
+      "status": "accept_limited",
+      "evidence": "motion-batch-10/classroom-lamp-globe-day-night-10-contact.jpg",
+      "observation": "One globe and lamp remain coherent while the globe's visible geography shifts. The visual does not make an exact half-lit boundary or west-to-east direction clear.",
+      "use_policy": "Use once as a classroom demonstration cue in s06, not as proof of the precise day/night boundary or direction; pair with the original axis figure and authored labels."
+    },
+    {
+      "shot_id": "sunny-school-morning-10",
+      "status": "accept_context_only",
+      "evidence": "motion-batch-10/sunny-school-morning-10-contact.jpg",
+      "observation": "Bright moving school-garden footage without legible text or obvious artifacts.",
+      "use_policy": "Use once when the narration says day; do not present it as a scientific diagram."
+    },
+    {
+      "shot_id": "peaceful-school-night-10",
+      "status": "accept_context_only",
+      "evidence": "motion-batch-10/peaceful-school-night-10-contact.jpg",
+      "observation": "Distinct dark, peaceful moving garden footage without legible text or obvious artifacts.",
+      "use_policy": "Use once when the narration says night; do not present it as a scientific diagram."
+    }
+  ],
+  "production_approval": false
+}

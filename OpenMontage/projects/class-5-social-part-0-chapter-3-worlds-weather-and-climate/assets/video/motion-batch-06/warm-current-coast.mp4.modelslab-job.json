@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188664304",
+  "request_fingerprint": "96adbbbe960ea19120efcd1e04a10b06274c56bbddcc0214940c6cf38012764b",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-06\\warm-current-coast.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791353171.684868,
+  "last_poll_at_unix": 1791353393.9830134,
+  "completed_at_unix": 1791353395.604221
+}

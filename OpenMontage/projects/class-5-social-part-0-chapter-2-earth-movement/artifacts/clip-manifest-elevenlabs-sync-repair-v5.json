@@ -1,0 +1,592 @@
+{
+  "version": "1.0",
+  "status": "composition_review_pending",
+  "timing_authority": "alignment-ctc-v5/narration_aligned.json; unchanged title-pause-v4 waveform",
+  "policy": "Exact scientific geometry; CTC-measured word cues; unique Wan contextual clips; no looped or frozen video",
+  "clips": [
+    {
+      "section_id": "s01-title",
+      "render_mode": "video_gen",
+      "success": true,
+      "visual_segments": [
+        {
+          "path": "assets/video/retimed-elevenlabs-v4/s01-title-01.mp4",
+          "offset_seconds": 0.0,
+          "duration_seconds": 7.245,
+          "cue": "Social Studies, Class 5. Lesson 2: Earth Movement.",
+          "transition": "cut"
+        }
+      ],
+      "source_card_intervals": [
+        [
+          0,
+          7.245
+        ]
+      ]
+    },
+    {
+      "section_id": "s02-objectives",
+      "render_mode": "video_gen",
+      "success": true,
+      "visual_segments": [
+        {
+          "path": "assets/video/retimed-elevenlabs-v4/s02-objectives-01.mp4",
+          "offset_seconds": 0.0,
+          "duration_seconds": 5.698,
+          "cue": "Understand that the Earth is spherical.",
+          "transition": "cut"
+        }
+      ],
+      "source_card_intervals": [
+        [
+          0,
+          28.916
+        ]
+      ],
+      "teaching_pages": [
+        {
+          "text": "By the end of this chapter, learners will be able to Understand that the Earth is spherical. Identify the two types of movements of the Earth. Explain rotation and its effects.",
+          "start_offset_seconds": 0.0,
+          "end_offset_seconds": 17.45
+        },
+        {
+          "text": "Understand revolution and its effects. Learn about different seasons caused by revolution. Define solstices and equinoxes and when they occur.",
+          "start_offset_seconds": 17.45,
+          "end_offset_seconds": 28.916
+        }
+      ]
+    },
+    {
+      "section_id": "s03-startup",
+      "render_mode": "video_gen",
+      "success": true,
+      "visual_segments": [
+        {
+          "path": "assets/video/retimed-elevenlabs-v4/s03-startup-01.mp4",
+          "offset_seconds": 0.0,
+          "duration_seconds": 6.532,
+          "cue": "Take a ball and spin it.",
+          "transition": "cut"
+        },
+        {
+          "path": "assets/video/retimed-elevenlabs-v4/s03-startup-02.mp4",
+          "offset_seconds": 8.327,
+          "duration_seconds": 6.532,
+          "cue": "Imagine this is the Earth moving in space.",
+          "transition": "cut"
+        }
+      ],
+      "source_card_intervals": [
+        [
+          0,
+          18.155
+        ]
+      ]
+    },
+    {
+      "section_id": "s04-spherical-earth",
+      "render_mode": "video_gen",
+      "success": true,
+      "visual_segments": [
+        {
+          "path": "assets\\video\\render-safe-v5\\SphericalContextV5-3b98f732b418.mp4",
+          "offset_seconds": 0,
+          "duration_seconds": 33.6,
+          "cue": "spherical Earth",
+          "timing_basis": "ctc_forced_alignment",
+          "transition": "cut",
+          "source_asset": "assets\\video\\science-v5\\videos\\precision_earth_v5\\720p24\\SphericalContextV5.mp4"
+        },
+        {
+          "path": "assets\\video\\render-safe-v5\\spherical-earth-context-12-9f0f9f2bfc5e.mp4",
+          "offset_seconds": 9.165,
+          "duration_seconds": 5.022,
+          "cue": "the Earth is spherical",
+          "timing_basis": "ctc_forced_alignment",
+          "transition": "cut",
+          "source_asset": "assets/video/motion-batch-12-sync-repair/spherical-earth-context-12.mp4"
+        },
+        {
+          "path": "assets/video/retimed-elevenlabs-v4/s04-spherical-earth-01.mp4",
+          "offset_seconds": 20.272,
+          "duration_seconds": 2.942,
+          "cue": "ships disappear over the horizon",
+          "timing_basis": "ctc_forced_alignment",
+          "transition": "cut"
+        },
+        {
+          "path": "assets/video/retimed-elevenlabs-v4/s04-spherical-earth-02.mp4",
+          "offset_seconds": 23.094,
+          "duration_seconds": 4.783,
+          "cue": "the Earth's shadow on the Moon",
+          "timing_basis": "ctc_forced_alignment",
+          "transition": "cut"
+        },
+        {
+          "path": "assets\\video\\render-safe-v5\\voyage-for-spoken-line-708aa5f62e17.mp4",
+          "offset_seconds": 27.757,
+          "duration_seconds": 5.843,
+          "cue": "Ferdinand Magellan's voyage",
+          "timing_basis": "ctc_forced_alignment",
+          "transition": "cut",
+          "source_asset": "assets\\video\\science-v5\\voyage-for-spoken-line.mp4"
+        }
+      ],
+      "source_card_intervals": [
+        [
+          0,
+          33.6
+        ]
+      ],
+      "source_figures": [
+        "imageFile3.png"
+      ],
+      "source_figure_overlays": [
+        {
+          "path": "imageFile3.png",
+          "offset_seconds": 4.421,
+          "duration_seconds": 4.3
+        }
+      ],
+      "teaching_pages": [
+        {
+          "text": "Many ancient civilizations believed that the Earth was flat. However, Greek philosopher Pythagoras was one of the first to suggest that the Earth is spherical.",
+          "start_offset_seconds": 0.0,
+          "end_offset_seconds": 16.39
+        },
+        {
+          "text": "Later, Aristotle provided evidence by observing how ships disappear over the horizon and how the Earth's shadow on the Moon is curved during a lunar eclipse.",
+          "start_offset_seconds": 16.39,
+          "end_offset_seconds": 27.837
+        },
+        {
+          "text": "Ferdinand Magellan's voyage around the world further confirmed that the Earth is round.",
+          "start_offset_seconds": 27.837,
+          "end_offset_seconds": 33.6
+        }
+      ]
+    },
+    {
+      "section_id": "s05-two-movements",
+      "render_mode": "video_gen",
+      "success": true,
+      "visual_segments": [
+        {
+          "path": "assets\\video\\render-safe-v5\\ContrastV5-6695dcb6b61a.mp4",
+          "offset_seconds": 0,
+          "duration_seconds": 16.603,
+          "cue": "Rotation and Revolution",
+          "timing_basis": "ctc_forced_alignment",
+          "transition": "cut",
+          "source_asset": "assets\\video\\science-v5\\videos\\precision_earth_v5\\720p24\\ContrastV5.mp4"
+        }
+      ],
+      "source_card_intervals": [
+        [
+          0,
+          16.603
+        ]
+      ],
+      "source_figures": [
+        "source-hires/rotation-revolution.png"
+      ],
+      "source_figure_overlays": [
+        {
+          "path": "source-hires/rotation-revolution.png",
+          "offset_seconds": 13.103000000000002,
+          "duration_seconds": 3.5
+        }
+      ]
+    },
+    {
+      "section_id": "s06-rotation",
+      "render_mode": "video_gen",
+      "success": true,
+      "visual_segments": [
+        {
+          "path": "assets\\video\\render-safe-v5\\RotationV5-subtitle-safe-628-c7a1834e4378.mp4",
+          "offset_seconds": 0,
+          "duration_seconds": 51.014,
+          "cue": "rotation on the fixed tilted axis",
+          "timing_basis": "ctc_forced_alignment",
+          "transition": "cut",
+          "source_asset": "assets\\video\\science-v5\\videos\\precision_earth_v5\\720p24\\RotationV5-subtitle-safe-628.mp4"
+        },
+        {
+          "path": "assets/video/retimed-elevenlabs-v4/s06-rotation-03.mp4",
+          "offset_seconds": 32.609,
+          "duration_seconds": 5.865,
+          "cue": "side of the Earth facing the Sun experiences day",
+          "transition": "cut"
+        },
+        {
+          "path": "assets/video/retimed-elevenlabs-v4/s06-rotation-04.mp4",
+          "offset_seconds": 38.951,
+          "duration_seconds": 5.865,
+          "cue": "the part away from the sun experiences night",
+          "transition": "cut"
+        }
+      ],
+      "source_card_intervals": [
+        [
+          0,
+          51.014
+        ]
+      ],
+      "source_figures": [
+        "source-hires/axis-tilt.png"
+      ],
+      "source_figure_overlays": [
+        {
+          "path": "source-hires/axis-tilt.png",
+          "offset_seconds": 20.546,
+          "duration_seconds": 5.0
+        }
+      ],
+      "teaching_pages": [
+        {
+          "text": "Rotation is the movement of the Earth around its own axis is called Rotation. The earth rotates from west to east. It completes one full rotation in 24 hours.",
+          "start_offset_seconds": 0.0,
+          "end_offset_seconds": 15.003
+        },
+        {
+          "text": "The speed of rotation is faster at the equator and slower at the poles. The axis is tilted at an angle of 23.5°.",
+          "start_offset_seconds": 15.003,
+          "end_offset_seconds": 25.566
+        },
+        {
+          "text": "As the Earth is spherical in shape, only one half of the Earth receives sunlight at a time. Thus, the side of the Earth facing the Sun experience day.",
+          "start_offset_seconds": 25.566,
+          "end_offset_seconds": 36.489
+        },
+        {
+          "text": "On the other hand, the other half, or the part away from the sun, experiences night. As the Earth rotates, the lighted part moves into the darkness. Rotation causes day and night.",
+          "start_offset_seconds": 36.489,
+          "end_offset_seconds": 51.014
+        }
+      ]
+    },
+    {
+      "section_id": "s07-do-you-know",
+      "render_mode": "hyperframes",
+      "success": true,
+      "visual_segments": [],
+      "source_card_intervals": [
+        [
+          0,
+          13.641
+        ]
+      ]
+    },
+    {
+      "section_id": "s08-revolution",
+      "render_mode": "video_gen",
+      "success": true,
+      "visual_segments": [
+        {
+          "path": "assets\\video\\render-safe-v5\\RevolutionV5-subtitle-safe-610-c3b39e2b06bd.mp4",
+          "offset_seconds": 0,
+          "duration_seconds": 34.067,
+          "cue": "revolution with fixed axial direction",
+          "timing_basis": "ctc_forced_alignment",
+          "transition": "cut",
+          "source_asset": "assets\\video\\science-v5\\videos\\precision_earth_v5\\720p24\\RevolutionV5-subtitle-safe-610.mp4"
+        },
+        {
+          "path": "assets/video/retimed-elevenlabs-v4/s08-revolution-02.mp4",
+          "offset_seconds": 33.987,
+          "duration_seconds": 5.931,
+          "cue": "Summer",
+          "transition": "cut"
+        },
+        {
+          "path": "assets/video/retimed-elevenlabs-v4/s08-revolution-03.mp4",
+          "offset_seconds": 39.288,
+          "duration_seconds": 5.931,
+          "cue": "Winter",
+          "transition": "cut"
+        },
+        {
+          "path": "assets/video/retimed-elevenlabs-v4/s08-revolution-04.mp4",
+          "offset_seconds": 44.769,
+          "duration_seconds": 5.932,
+          "cue": "Spring",
+          "transition": "cut"
+        },
+        {
+          "path": "assets/video/retimed-elevenlabs-v4/s08-revolution-05.mp4",
+          "offset_seconds": 50.45,
+          "duration_seconds": 5.761,
+          "cue": "Autumn",
+          "transition": "cut"
+        }
+      ],
+      "source_card_intervals": [
+        [
+          0,
+          56.211
+        ]
+      ],
+      "source_figures": [
+        "source-hires/rotation-revolution.png"
+      ],
+      "source_figure_overlays": [
+        {
+          "path": "source-hires/rotation-revolution.png",
+          "offset_seconds": 13.603,
+          "duration_seconds": 5.2
+        }
+      ],
+      "teaching_pages": [
+        {
+          "text": "Revolution is the movement of the Earth around the Sun in a fixed path called an orbit. The Earth revolves around the Sun in an elliptical orbit.",
+          "start_offset_seconds": 0.0,
+          "end_offset_seconds": 13.602
+        },
+        {
+          "text": "It takes 365¼ days (one year) to complete one revolution. The tilt of the Earth's axis remains the same during revolution. Revolution causes seasonal changes.",
+          "start_offset_seconds": 13.602,
+          "end_offset_seconds": 28.525
+        },
+        {
+          "text": "The revolution of the Earth and the tilt of its axis cause different seasons: Summer – The hemisphere tilted towards the Sun experiences summer.",
+          "start_offset_seconds": 28.525,
+          "end_offset_seconds": 39.367
+        },
+        {
+          "text": "Winter – The hemisphere tilted away from the Sun experiences winter. Spring – Occurs between winter and summer when the temperature starts rising.",
+          "start_offset_seconds": 39.367,
+          "end_offset_seconds": 50.529
+        },
+        {
+          "text": "Autumn – Occurs between summer and winter when the temperature starts dropping.",
+          "start_offset_seconds": 50.529,
+          "end_offset_seconds": 56.211
+        }
+      ]
+    },
+    {
+      "section_id": "s09-day-length",
+      "render_mode": "hyperframes",
+      "success": true,
+      "visual_segments": [],
+      "source_card_intervals": [
+        [
+          0,
+          15.85
+        ]
+      ]
+    },
+    {
+      "section_id": "s10-solstice",
+      "render_mode": "video_gen",
+      "success": true,
+      "visual_segments": [
+        {
+          "path": "assets/video/retimed-elevenlabs-v4/s10-solstice-01.mp4",
+          "offset_seconds": 31.111,
+          "duration_seconds": 6.031,
+          "cue": "winter season",
+          "transition": "cut"
+        }
+      ],
+      "source_card_intervals": [
+        [
+          0,
+          51.058
+        ]
+      ],
+      "source_figures": [
+        "imageFile9.png"
+      ],
+      "source_figure_overlays": [
+        {
+          "path": "imageFile9.png",
+          "offset_seconds": 3.063,
+          "duration_seconds": 26.585
+        },
+        {
+          "path": "imageFile9.png",
+          "offset_seconds": 35.354,
+          "duration_seconds": 15.704
+        }
+      ],
+      "teaching_pages": [
+        {
+          "text": "A solstice is a day, when the sun shines vertically over a Tropic (both cancer and Capricorn) in the afternoon and the day is the longest in that hemisphere.",
+          "start_offset_seconds": 0.0,
+          "end_offset_seconds": 16.825
+        },
+        {
+          "text": "On 22 December, the rays of the sun fall directly over the Tropic of Capricorn.",
+          "start_offset_seconds": 16.825,
+          "end_offset_seconds": 23.447
+        },
+        {
+          "text": "This is the longest day in Southern Hemisphere (summer season), while in the Northern Hemisphere, it is the shortest day (winter season). This is called 'Winter Solstice.",
+          "start_offset_seconds": 23.447,
+          "end_offset_seconds": 35.471
+        },
+        {
+          "text": "On 21 June, sunlight falls vertically over the Tropic of Cancer.",
+          "start_offset_seconds": 35.471,
+          "end_offset_seconds": 41.133
+        },
+        {
+          "text": "This is the longest day in Northern Hemisphere and hence it is called 'Summer Solstice', while in the Southern Hemisphere, it is the shortest day.",
+          "start_offset_seconds": 41.133,
+          "end_offset_seconds": 51.058
+        }
+      ]
+    },
+    {
+      "section_id": "s11-inertia",
+      "render_mode": "video_gen",
+      "success": true,
+      "visual_segments": [
+        {
+          "path": "assets/video/retimed-elevenlabs-v4/s11-inertia-01.mp4",
+          "offset_seconds": 7.363,
+          "duration_seconds": 5.098,
+          "cue": "continue moving forward when you stop a bike suddenly",
+          "transition": "cut"
+        }
+      ],
+      "source_card_intervals": [
+        [
+          0,
+          17.107
+        ]
+      ]
+    },
+    {
+      "section_id": "s12-equinox",
+      "render_mode": "video_gen",
+      "success": true,
+      "visual_segments": [
+        {
+          "path": "assets/video/retimed-elevenlabs-v4/s12-equinox-01.mp4",
+          "offset_seconds": 24.534,
+          "duration_seconds": 5.932,
+          "cue": "Spring Equinox marks the beginning of spring",
+          "transition": "cut"
+        }
+      ],
+      "source_card_intervals": [
+        [
+          0,
+          35.36
+        ]
+      ],
+      "source_figures": [
+        "imageFile9.png"
+      ],
+      "source_figure_overlays": [
+        {
+          "path": "imageFile9.png",
+          "offset_seconds": 3.041,
+          "duration_seconds": 20.418
+        },
+        {
+          "path": "imageFile9.png",
+          "offset_seconds": 28.897,
+          "duration_seconds": 6.463
+        }
+      ],
+      "teaching_pages": [
+        {
+          "text": "The sun falls directly on the equator two times in a year. During this period there is equal length of day and night all over the world.",
+          "start_offset_seconds": 0.0,
+          "end_offset_seconds": 14.586
+        },
+        {
+          "text": "In Northern Hemisphere, the March Equinox is called the Vernal or Spring Equinox while September Equinox is called Autumnal Equinox.",
+          "start_offset_seconds": 14.586,
+          "end_offset_seconds": 24.612
+        },
+        {
+          "text": "Spring Equinox (March 21st) marks the beginning of spring. Autumn Equinox (September 23rd) marks the beginning of autumn.",
+          "start_offset_seconds": 24.612,
+          "end_offset_seconds": 35.36
+        }
+      ]
+    },
+    {
+      "section_id": "s13-recall",
+      "render_mode": "hyperframes",
+      "success": true,
+      "visual_segments": [],
+      "source_card_intervals": [
+        [
+          0,
+          24.684
+        ]
+      ],
+      "teaching_pages": [
+        {
+          "text": "The Earth's movements, rotation and revolution, have significant affects on our lives. Rotation causes day and night, while revolution leads to the change of seasons.",
+          "start_offset_seconds": 0.0,
+          "end_offset_seconds": 16.314
+        },
+        {
+          "text": "Solstices and equinoxes mark the shift in seasons, playing an essential role in our climate and timekeeping.",
+          "start_offset_seconds": 16.314,
+          "end_offset_seconds": 24.684
+        }
+      ]
+    },
+    {
+      "section_id": "s14-remember",
+      "render_mode": "hyperframes",
+      "success": true,
+      "visual_segments": [],
+      "source_card_intervals": [
+        [
+          0,
+          34.442
+        ]
+      ],
+      "teaching_pages": [
+        {
+          "text": "The Earth moves in two ways: rotation and revolution. Rotation causes day and night, while revolution causes seasons.",
+          "start_offset_seconds": 0.0,
+          "end_offset_seconds": 13.487
+        },
+        {
+          "text": "The Earth completes one rotation in 24 hours and one revolution in 365¼ days. Solstices occur in June and December, marking the longest and shortest days.",
+          "start_offset_seconds": 13.487,
+          "end_offset_seconds": 28.677
+        },
+        {
+          "text": "Equinoxes occur in March and September, when day and night are equal.",
+          "start_offset_seconds": 28.677,
+          "end_offset_seconds": 34.442
+        }
+      ]
+    },
+    {
+      "section_id": "s15-wordbank",
+      "render_mode": "hyperframes",
+      "success": true,
+      "visual_segments": [],
+      "source_card_intervals": [
+        [
+          0,
+          24.95
+        ]
+      ],
+      "teaching_pages": [
+        {
+          "text": "Rotation – Spinning of the Earth on its axis. Revolution – Movement of the Earth around the Sun. Orbit – The path of the Earth around the Sun.",
+          "start_offset_seconds": 0.0,
+          "end_offset_seconds": 16.004
+        },
+        {
+          "text": "Solstice – When the Sun is at its farthest point north or south. Equinox – When day and night are equal.",
+          "start_offset_seconds": 16.004,
+          "end_offset_seconds": 24.95
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "section_id": "s05-two-movements",
+  "text": "The Two Movements of the Earth. The Earth moves in two ways: Rotation – The Earth spins on its axis around itself. Revolution – The Earth moves around the Sun.",
+  "start_ms": 87916,
+  "end_ms": 104519,
+  "words": [
+    {
+      "word": "The",
+      "start_ms": 87976,
+      "end_ms": 88076,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1729
+    },
+    {
+      "word": "Two",
+      "start_ms": 88156,
+      "end_ms": 88317,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.001
+    },
+    {
+      "word": "Movements",
+      "start_ms": 88477,
+      "end_ms": 89058,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0386
+    },
+    {
+      "word": "of",
+      "start_ms": 89278,
+      "end_ms": 89318,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "the",
+      "start_ms": 89438,
+      "end_ms": 89538,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0389
+    },
+    {
+      "word": "Earth.",
+      "start_ms": 89658,
+      "end_ms": 89819,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0062
+    },
+    {
+      "word": "The",
+      "start_ms": 92022,
+      "end_ms": 92122,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0004
+    },
+    {
+      "word": "Earth",
+      "start_ms": 92282,
+      "end_ms": 92482,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0809
+    },
+    {
+      "word": "moves",
+      "start_ms": 92622,
+      "end_ms": 92943,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "in",
+      "start_ms": 93123,
+      "end_ms": 93183,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0516
+    },
+    {
+      "word": "two",
+      "start_ms": 93323,
+      "end_ms": 93484,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0064
+    },
+    {
+      "word": "ways:",
+      "start_ms": 93604,
+      "end_ms": 93884,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0004
+    },
+    {
+      "word": "Rotation –",
+      "start_ms": 94885,
+      "end_ms": 95426,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0261
+    },
+    {
+      "word": "The",
+      "start_ms": 96267,
+      "end_ms": 96368,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0043
+    },
+    {
+      "word": "Earth",
+      "start_ms": 96528,
+      "end_ms": 96688,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0174
+    },
+    {
+      "word": "spins",
+      "start_ms": 96808,
+      "end_ms": 97209,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0539
+    },
+    {
+      "word": "on",
+      "start_ms": 97389,
+      "end_ms": 97429,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "its",
+      "start_ms": 97509,
+      "end_ms": 97629,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0172
+    },
+    {
+      "word": "axis",
+      "start_ms": 97789,
+      "end_ms": 98150,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0121
+    },
+    {
+      "word": "around",
+      "start_ms": 98370,
+      "end_ms": 98651,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0491
+    },
+    {
+      "word": "itself.",
+      "start_ms": 98751,
+      "end_ms": 99171,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0292
+    },
+    {
+      "word": "Revolution –",
+      "start_ms": 100273,
+      "end_ms": 100914,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0302
+    },
+    {
+      "word": "The",
+      "start_ms": 101635,
+      "end_ms": 101735,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0018
+    },
+    {
+      "word": "Earth",
+      "start_ms": 101915,
+      "end_ms": 102115,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0545
+    },
+    {
+      "word": "moves",
+      "start_ms": 102336,
+      "end_ms": 102636,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0134
+    },
+    {
+      "word": "around",
+      "start_ms": 102776,
+      "end_ms": 103037,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0458
+    },
+    {
+      "word": "the",
+      "start_ms": 103137,
+      "end_ms": 103237,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0218
+    },
+    {
+      "word": "Sun.",
+      "start_ms": 103317,
+      "end_ms": 103517,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0247
+    }
+  ],
+  "format_spec": {
+    "font_size": 64,
+    "highlight_color": "#FF8C42",
+    "background_color": "rgba(255,253,240,0.90)",
+    "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+    "font_weight": "700",
+    "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+    "key_terms": [],
+    "words_per_page": 6
+  },
+  "source_block_type": "concept",
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

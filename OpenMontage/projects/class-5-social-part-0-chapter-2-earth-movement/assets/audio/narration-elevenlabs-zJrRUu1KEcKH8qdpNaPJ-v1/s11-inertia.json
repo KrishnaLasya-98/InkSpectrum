@@ -1,0 +1,10 @@
+{
+  "voice_id": "zJrRUu1KEcKH8qdpNaPJ",
+  "model_id": "eleven_v4",
+  "text_sha256": "6f036fbb1011654b83c1f241b22a05f370b763efea3c936225c1e66be8c72ddf",
+  "context_sha256": "ba8f04b94f273a0d5adde424f5fc7ebf55d8e9a5bf539f2dc5d51433a5815b5e",
+  "settings_sha256": "6bfc8618847cf92c46b254c69cac40b6f667d59384825fd01f919eae5dd46a57",
+  "characters": 210,
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-elevenlabs-zJrRUu1KEcKH8qdpNaPJ-v1\\s11-inertia.mp3",
+  "status": "audio_received"
+}

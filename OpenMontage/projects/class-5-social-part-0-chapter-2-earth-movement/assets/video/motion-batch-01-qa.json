@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "status": "revise",
+  "technical": "All six files are playable 5.062-second H.264 clips, silent, with no detected black or frozen spans.",
+  "visual_review": [
+    {"shot_id": "earth-opening-01", "status": "reject", "reason": "Invented illegible lettering in the reserved title area."},
+    {"shot_id": "startup-spinning-ball-01", "status": "reject", "reason": "Shows a geographic globe, not the source activity's plain ball."},
+    {"shot_id": "ship-horizon-01", "status": "reject", "reason": "Start/end review shows a giant false globe or landmass appearing at the horizon as the ship recedes. It would misteach the horizon evidence."},
+    {"shot_id": "earth-shadow-eclipse-01", "status": "reject", "reason": "Shows two Moon-like spheres rather than a clear Earth-Sun-Moon shadow relationship."},
+    {"shot_id": "earth-day-night-01", "status": "accept_limited", "reason": "One-second interval contact sheet shows one Earth and one Sun with a consistent day/night boundary and no lettering. Use once for a short day/night cue; it is too slow to carry a long explanation alone."},
+    {"shot_id": "earth-revolution-01", "status": "reject", "reason": "Introduces extra planets and fabricated space lettering, not a single Earth orbiting the Sun."}
+  ],
+  "decision": "Preserve rejected outputs as audit evidence, never place them in the final composition. The day/night shot alone is accepted for a short cue. Use controlled source figures and precise authored animation for the rejected scientific scenes.",
+  "temporal_review_evidence": ["qa-previews/ship-horizon-start.jpg", "qa-previews/ship-horizon-end.jpg", "qa-previews/earth-day-night-contact.jpg"]
+}

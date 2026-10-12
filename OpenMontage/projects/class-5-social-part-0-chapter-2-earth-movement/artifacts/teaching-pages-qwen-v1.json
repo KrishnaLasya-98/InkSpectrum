@@ -1,0 +1,169 @@
+{
+  "status": "draft_requires_visual_review",
+  "sections": {
+    "s02-objectives": [
+      {
+        "text": "By the end of this chapter, learners will be able to Understand that the Earth is spherical. Identify the two types of movements of the Earth. Explain rotation and its effects.",
+        "start_offset_seconds": 0.0,
+        "end_offset_seconds": 12.24
+      },
+      {
+        "text": "Understand revolution and its effects. Learn about different seasons caused by revolution. Define solstices and equinoxes and when they occur.",
+        "start_offset_seconds": 12.24,
+        "end_offset_seconds": 21.306
+      }
+    ],
+    "s04-spherical-earth": [
+      {
+        "text": "Many ancient civilizations believed that the Earth was flat. However, Greek philosopher Pythagoras was one of the first to suggest that the Earth is spherical.",
+        "start_offset_seconds": 0.0,
+        "end_offset_seconds": 13.28
+      },
+      {
+        "text": "Later, Aristotle provided evidence by observing how ships disappear over the horizon and how the Earth's shadow on the Moon is curved during a lunar eclipse.",
+        "start_offset_seconds": 13.28,
+        "end_offset_seconds": 22.16
+      },
+      {
+        "text": "Ferdinand Magellan's voyage around the world further confirmed that the Earth is round.",
+        "start_offset_seconds": 22.16,
+        "end_offset_seconds": 27.339
+      }
+    ],
+    "s06-rotation": [
+      {
+        "text": "Rotation is the movement of the Earth around its own axis is called Rotation. The earth rotates from west to east. It completes one full rotation in 24 hours.",
+        "start_offset_seconds": 0.0,
+        "end_offset_seconds": 13.44
+      },
+      {
+        "text": "The speed of rotation is faster at the equator and slower at the poles. The axis is tilted at an angle of 23.5°.",
+        "start_offset_seconds": 13.44,
+        "end_offset_seconds": 21.02
+      },
+      {
+        "text": "As the Earth is spherical in shape, only one half of the Earth receives sunlight at a time. Thus, the side of the Earth facing the Sun experience day.",
+        "start_offset_seconds": 21.02,
+        "end_offset_seconds": 30.24
+      },
+      {
+        "text": "On the other hand, the other half, or the part away from the sun, experiences night. As the Earth rotates, the lighted part moves into the darkness. Rotation causes day and night.",
+        "start_offset_seconds": 30.24,
+        "end_offset_seconds": 42.12
+      }
+    ],
+    "s08-revolution": [
+      {
+        "text": "Revolution is the movement of the Earth around the Sun in a fixed path called an orbit. The Earth revolves around the Sun in an elliptical orbit.",
+        "start_offset_seconds": 0.0,
+        "end_offset_seconds": 9.76
+      },
+      {
+        "text": "It takes 365¼ days (one year) to complete one revolution. The tilt of the Earth's axis remains the same during revolution. Revolution causes seasonal changes.",
+        "start_offset_seconds": 9.76,
+        "end_offset_seconds": 20.32
+      },
+      {
+        "text": "The revolution of the Earth and the tilt of its axis cause different seasons: Summer – The hemisphere tilted towards the Sun experiences summer.",
+        "start_offset_seconds": 20.32,
+        "end_offset_seconds": 27.14
+      },
+      {
+        "text": "Winter – The hemisphere tilted away from the Sun experiences winter. Spring – Occurs between winter and summer when the temperature starts rising.",
+        "start_offset_seconds": 27.14,
+        "end_offset_seconds": 34.84
+      },
+      {
+        "text": "Autumn – Occurs between summer and winter when the temperature starts dropping.",
+        "start_offset_seconds": 34.84,
+        "end_offset_seconds": 39.755
+      }
+    ],
+    "s10-solstice": [
+      {
+        "text": "A solstice is a day, when the sun shines vertically over a Tropic (both cancer and Capricorn) in the afternoon and the day is the longest in that hemisphere.",
+        "start_offset_seconds": 0.0,
+        "end_offset_seconds": 14.421
+      },
+      {
+        "text": "On 22 December, the rays of the sun fall directly over the Tropic of Capricorn.",
+        "start_offset_seconds": 14.421,
+        "end_offset_seconds": 19.601
+      },
+      {
+        "text": "This is the longest day in Southern Hemisphere (summer season), while in the Northern Hemisphere, it is the shortest day (winter season). This is called 'Winter Solstice.",
+        "start_offset_seconds": 19.601,
+        "end_offset_seconds": 28.921
+      },
+      {
+        "text": "On 21 June, sunlight falls vertically over the Tropic of Cancer.",
+        "start_offset_seconds": 28.921,
+        "end_offset_seconds": 33.681
+      },
+      {
+        "text": "This is the longest day in Northern Hemisphere and hence it is called 'Summer Solstice', while in the Southern Hemisphere, it is the shortest day.",
+        "start_offset_seconds": 33.681,
+        "end_offset_seconds": 42.102
+      }
+    ],
+    "s12-equinox": [
+      {
+        "text": "The sun falls directly on the equator two times in a year. During this period there is equal length of day and night all over the world.",
+        "start_offset_seconds": 0.0,
+        "end_offset_seconds": 12.28
+      },
+      {
+        "text": "In Northern Hemisphere, the March Equinox is called the Vernal or Spring Equinox while September Equinox is called Autumnal Equinox.",
+        "start_offset_seconds": 12.28,
+        "end_offset_seconds": 19.88
+      },
+      {
+        "text": "Spring Equinox (March 21st) marks the beginning of spring. Autumn Equinox (September 23rd) marks the beginning of autumn.",
+        "start_offset_seconds": 19.88,
+        "end_offset_seconds": 28.008
+      }
+    ],
+    "s13-recall": [
+      {
+        "text": "The Earth's movements, rotation and revolution, have significant affects on our lives. Rotation causes day and night, while revolution leads to the change of seasons.",
+        "start_offset_seconds": 0.0,
+        "end_offset_seconds": 11.621
+      },
+      {
+        "text": "Solstices and equinoxes mark the shift in seasons, playing an essential role in our climate and timekeeping.",
+        "start_offset_seconds": 11.621,
+        "end_offset_seconds": 17.935
+      }
+    ],
+    "s14-remember": [
+      {
+        "text": "The Earth moves in two ways: rotation and revolution. Rotation causes day and night, while revolution causes seasons.",
+        "start_offset_seconds": 0.0,
+        "end_offset_seconds": 9.441
+      },
+      {
+        "text": "The Earth completes one rotation in 24 hours and one revolution in 365¼ days. Solstices occur in June and December, marking the longest and shortest days.",
+        "start_offset_seconds": 9.441,
+        "end_offset_seconds": 18.681
+      },
+      {
+        "text": "Equinoxes occur in March and September, when day and night are equal.",
+        "start_offset_seconds": 18.681,
+        "end_offset_seconds": 22.978
+      }
+    ],
+    "s15-wordbank": [
+      {
+        "text": "Rotation – Spinning of the Earth on its axis. Revolution – Movement of the Earth around the Sun. Orbit – The path of the Earth around the Sun.",
+        "start_offset_seconds": 0.0,
+        "end_offset_seconds": 11.641
+      },
+      {
+        "text": "Solstice – When the Sun is at its farthest point north or south. Equinox – When day and night are equal.",
+        "start_offset_seconds": 11.641,
+        "end_offset_seconds": 18.938
+      }
+    ]
+  },
+  "unmatched_anchors": []
+}

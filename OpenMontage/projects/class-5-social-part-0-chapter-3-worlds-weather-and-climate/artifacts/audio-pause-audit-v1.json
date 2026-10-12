@@ -1,0 +1,254 @@
+[
+  {
+    "section_id": "s01-title",
+    "heading_end": 6.310667,
+    "body_start": 6.199,
+    "natural_heading_pause": 0.16933300000000084,
+    "inserted_heading_pause": 1.8306669999999992,
+    "total_heading_pause": 2.0,
+    "topic_padding": 0
+  },
+  {
+    "section_id": "s02-objectives",
+    "heading_end": 1.291125,
+    "body_start": 3.291125,
+    "natural_heading_pause": 0.8326669999999998,
+    "inserted_heading_pause": 1.1673330000000002,
+    "total_heading_pause": 2.0,
+    "topic_padding": 0.798999666666667
+  },
+  {
+    "section_id": "s03-startup",
+    "heading_end": 0.707292,
+    "body_start": 2.707292,
+    "natural_heading_pause": 0.63425,
+    "inserted_heading_pause": 1.36575,
+    "total_heading_pause": 2.0,
+    "topic_padding": 0.7590000000000003
+  },
+  {
+    "section_id": "s04-weather",
+    "heading_end": 0.528583,
+    "body_start": 2.5285830000000002,
+    "natural_heading_pause": 0.8611249999999999,
+    "inserted_heading_pause": 1.138875,
+    "total_heading_pause": 2.0,
+    "topic_padding": 0.7789999999999999
+  },
+  {
+    "section_id": "s05-hot-desert-fact",
+    "heading_end": 0.653042,
+    "body_start": 2.653042,
+    "natural_heading_pause": 0.622666,
+    "inserted_heading_pause": 1.3773339999999998,
+    "total_heading_pause": 2.0,
+    "topic_padding": 0.6790006666666706
+  },
+  {
+    "section_id": "s06-climate",
+    "heading_end": 0.607125,
+    "body_start": 2.607125,
+    "natural_heading_pause": 0.7923330000000001,
+    "inserted_heading_pause": 1.2076669999999998,
+    "total_heading_pause": 2.0,
+    "topic_padding": 0.5990003333333327
+  },
+  {
+    "section_id": "s07-factors",
+    "heading_end": 1.810417,
+    "body_start": 3.810417,
+    "natural_heading_pause": 0.8452910000000002,
+    "inserted_heading_pause": 1.1547089999999998,
+    "total_heading_pause": 2.0,
+    "topic_padding": 1.259000666666667
+  },
+  {
+    "section_id": "s08-latitude",
+    "heading_end": 2.934542,
+    "body_start": 4.934542,
+    "natural_heading_pause": 0.8897910000000002,
+    "inserted_heading_pause": 1.1102089999999998,
+    "total_heading_pause": 2.0,
+    "topic_padding": 1.1800006666666683
+  },
+  {
+    "section_id": "s09-altitude",
+    "heading_end": 0.7435,
+    "body_start": 2.7435,
+    "natural_heading_pause": 1.055375,
+    "inserted_heading_pause": 0.944625,
+    "total_heading_pause": 2.0,
+    "topic_padding": 0.5389999999999979
+  },
+  {
+    "section_id": "s10-sea-land-breeze",
+    "heading_end": 3.903542,
+    "body_start": 5.903542,
+    "natural_heading_pause": 0.9129579999999997,
+    "inserted_heading_pause": 1.0870420000000003,
+    "total_heading_pause": 2.0,
+    "topic_padding": 0.8000003333333296
+  },
+  {
+    "section_id": "s11-wind",
+    "heading_end": 1.413958,
+    "body_start": 3.413958,
+    "natural_heading_pause": 0.938917,
+    "inserted_heading_pause": 1.061083,
+    "total_heading_pause": 2.0,
+    "topic_padding": 0.7189996666666687
+  },
+  {
+    "section_id": "s12-humidity",
+    "heading_end": 0.755083,
+    "body_start": 2.755083,
+    "natural_heading_pause": 0.8505420000000001,
+    "inserted_heading_pause": 1.1494579999999999,
+    "total_heading_pause": 2.0,
+    "topic_padding": 0.3589996666666657
+  },
+  {
+    "section_id": "s13-currents",
+    "heading_end": 1.084625,
+    "body_start": 3.084625,
+    "natural_heading_pause": 0.7700830000000001,
+    "inserted_heading_pause": 1.229917,
+    "total_heading_pause": 2.0,
+    "topic_padding": 0.5990003333333362
+  },
+  {
+    "section_id": "s14-rainforest-fact",
+    "heading_end": 1.210167,
+    "body_start": 3.210167,
+    "natural_heading_pause": 0.701208,
+    "inserted_heading_pause": 1.298792,
+    "total_heading_pause": 2.0,
+    "topic_padding": 0.8190003333333316
+  },
+  {
+    "section_id": "s15-climate-types",
+    "heading_end": 1.216917,
+    "body_start": 3.216917,
+    "natural_heading_pause": 0.7952910000000002,
+    "inserted_heading_pause": 1.2047089999999998,
+    "total_heading_pause": 2.0,
+    "topic_padding": 0.7380006666666663
+  },
+  {
+    "section_id": "s16-monsoon",
+    "heading_end": 2.276292,
+    "body_start": 4.276292,
+    "natural_heading_pause": 0.73725,
+    "inserted_heading_pause": 1.26275,
+    "total_heading_pause": 2.0,
+    "topic_padding": 0.8190000000000008
+  },
+  {
+    "section_id": "s17-equatorial",
+    "heading_end": 1.400667,
+    "body_start": 3.4006670000000003,
+    "natural_heading_pause": 0.6126659999999997,
+    "inserted_heading_pause": 1.3873340000000003,
+    "total_heading_pause": 2.0,
+    "topic_padding": 0.5180006666666674
+  },
+  {
+    "section_id": "s18-desert",
+    "heading_end": 1.098375,
+    "body_start": 3.098375,
+    "natural_heading_pause": 0.795167,
+    "inserted_heading_pause": 1.204833,
+    "total_heading_pause": 2.0,
+    "topic_padding": 0.7789996666666674
+  },
+  {
+    "section_id": "s19-tundra",
+    "heading_end": 1.086042,
+    "body_start": 3.086042,
+    "natural_heading_pause": 0.7032500000000002,
+    "inserted_heading_pause": 1.2967499999999998,
+    "total_heading_pause": 2.0,
+    "topic_padding": 0.6789999999999985
+  },
+  {
+    "section_id": "s20-antarctica-fact",
+    "heading_end": 0.7285,
+    "body_start": 2.7285,
+    "natural_heading_pause": 0.621792,
+    "inserted_heading_pause": 1.3782079999999999,
+    "total_heading_pause": 2.0,
+    "topic_padding": 0.8789996666666653
+  },
+  {
+    "section_id": "s21-zones",
+    "heading_end": 2.013792,
+    "body_start": 4.0137920000000005,
+    "natural_heading_pause": 0.8887499999999999,
+    "inserted_heading_pause": 1.11125,
+    "total_heading_pause": 2.0,
+    "topic_padding": 0.8579999999999988
+  },
+  {
+    "section_id": "s22-torrid",
+    "heading_end": 0.897375,
+    "body_start": 2.8973750000000003,
+    "natural_heading_pause": 0.6450419999999999,
+    "inserted_heading_pause": 1.354958,
+    "total_heading_pause": 2.0,
+    "topic_padding": 0.537999666666666
+  },
+  {
+    "section_id": "s23-temperate",
+    "heading_end": 0.978417,
+    "body_start": 2.978417,
+    "natural_heading_pause": 0.6352909999999999,
+    "inserted_heading_pause": 1.364709,
+    "total_heading_pause": 2.0,
+    "topic_padding": 0.6180006666666653
+  },
+  {
+    "section_id": "s24-cloud-fact",
+    "heading_end": 0.592208,
+    "body_start": 2.592208,
+    "natural_heading_pause": 0.542209,
+    "inserted_heading_pause": 1.4577909999999998,
+    "total_heading_pause": 2.0,
+    "topic_padding": 0.5989993333333334
+  },
+  {
+    "section_id": "s25-frigid",
+    "heading_end": 0.967625,
+    "body_start": 2.967625,
+    "natural_heading_pause": 0.669667,
+    "inserted_heading_pause": 1.330333,
+    "total_heading_pause": 2.0,
+    "topic_padding": 0.9389996666666658
+  },
+  {
+    "section_id": "s26-recall",
+    "heading_end": 0.750917,
+    "body_start": 2.750917,
+    "natural_heading_pause": 0.8043330000000001,
+    "inserted_heading_pause": 1.1956669999999998,
+    "total_heading_pause": 2.0,
+    "topic_padding": 1.1800003333333322
+  },
+  {
+    "section_id": "s27-remember",
+    "heading_end": 0.992583,
+    "body_start": 2.9925829999999998,
+    "natural_heading_pause": 0.877834,
+    "inserted_heading_pause": 1.122166,
+    "total_heading_pause": 2.0,
+    "topic_padding": 0.6589993333333339
+  },
+  {
+    "section_id": "s28-wordbank",
+    "heading_end": 0.81075,
+    "body_start": 2.8107499999999996,
+    "natural_heading_pause": 0.832958,
+    "inserted_heading_pause": 1.167042,
+    "total_heading_pause": 2.0,
+    "topic_padding": 1.260000333333334
+  }
+]

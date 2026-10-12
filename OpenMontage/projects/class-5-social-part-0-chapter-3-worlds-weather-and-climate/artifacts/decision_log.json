@@ -1,0 +1,89 @@
+{
+  "version": "1.0",
+  "project_id": "class-5-social-part-0-chapter-3-worlds-weather-and-climate",
+  "decisions": [
+    {
+      "decision_id": "d-001",
+      "stage": "proposal",
+      "category": "pipeline_selection",
+      "subject": "Educational production pipeline",
+      "options_considered": [
+        {
+          "option_id": "educational-video",
+          "label": "Source-grounded educational video",
+          "score": 1.0,
+          "reason": "Preserves textbook coverage, teaching UI, synchronization, and encoded-output QA."
+        }
+      ],
+      "selected": "educational-video",
+      "reason": "The input is a textbook chapter requiring auditable source fidelity.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 1.0
+    },
+    {
+      "decision_id": "d-002",
+      "stage": "proposal",
+      "category": "render_runtime_selection",
+      "subject": "Composition runtime",
+      "options_considered": [
+        {
+          "option_id": "hyperframes",
+          "label": "HyperFrames",
+          "score": 1.0,
+          "reason": "Matches the locked educational UI and word-highlight subtitle contract."
+        },
+        {
+          "option_id": "remotion",
+          "label": "Remotion",
+          "score": 0.6,
+          "reason": "Available, but not the approved appearance/runtime for this educational program.",
+          "rejected_because": "The educational template is locked to HyperFrames."
+        }
+      ],
+      "selected": "hyperframes",
+      "reason": "The user selected HyperFrames and the shared educational template is version-locked to it.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 1.0
+    },
+    {
+      "decision_id": "d-003",
+      "stage": "proposal",
+      "category": "provider_selection",
+      "subject": "Generated educational motion provider",
+      "options_considered": [
+        {
+          "option_id": "modelslab",
+          "label": "ModelsLab",
+          "score": 1.0,
+          "reason": "Configured for text, image, and reference-driven animated video generation."
+        }
+      ],
+      "selected": "modelslab",
+      "reason": "The chapter provider contract explicitly selects ModelsLab.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 1.0
+    },
+    {
+      "decision_id": "d-004",
+      "stage": "proposal",
+      "category": "voice_selection",
+      "subject": "Narration TTS provider",
+      "options_considered": [
+        {
+          "option_id": "elevenlabs",
+          "label": "elevenlabs",
+          "score": 1.0,
+          "reason": "Uses one chapter-scoped voice with speech QA and word alignment; configured voice is zJrRUu1KEcKH8qdpNaPJ."
+        }
+      ],
+      "selected": "elevenlabs",
+      "reason": "The configured narrator remains authoritative for the whole chapter.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 1.0
+    }
+  ]
+}

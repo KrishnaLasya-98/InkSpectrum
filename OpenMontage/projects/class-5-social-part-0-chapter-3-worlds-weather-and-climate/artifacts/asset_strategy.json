@@ -1,0 +1,427 @@
+{
+  "version": "1.0",
+  "policy": "fresh-3d-motion-with-precision-teaching-modes",
+  "decisions": [
+    {
+      "scene_id": "s01-title",
+      "selected_strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "model_candidates": [
+        "h3-minimax-r2v",
+        "wan-2.2-i2v",
+        "wan2.2",
+        "h3-minimax-t2v"
+      ],
+      "reason": "Continuous story or explanation motion is required.",
+      "fresh_asset_required": true,
+      "stock_search_required": false,
+      "status": "planned"
+    },
+    {
+      "scene_id": "s02-objectives",
+      "selected_strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "model_candidates": [
+        "h3-minimax-r2v",
+        "wan-2.2-i2v",
+        "wan2.2",
+        "h3-minimax-t2v"
+      ],
+      "reason": "Continuous story or explanation motion is required.",
+      "fresh_asset_required": true,
+      "stock_search_required": false,
+      "status": "planned"
+    },
+    {
+      "scene_id": "s03-startup",
+      "selected_strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "model_candidates": [
+        "h3-minimax-r2v",
+        "wan-2.2-i2v",
+        "wan2.2",
+        "h3-minimax-t2v"
+      ],
+      "reason": "Continuous story or explanation motion is required.",
+      "fresh_asset_required": true,
+      "stock_search_required": false,
+      "status": "planned"
+    },
+    {
+      "scene_id": "s04-weather",
+      "selected_strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "model_candidates": [
+        "h3-minimax-r2v",
+        "wan-2.2-i2v",
+        "wan2.2",
+        "h3-minimax-t2v"
+      ],
+      "reason": "Continuous story or explanation motion is required.",
+      "fresh_asset_required": true,
+      "stock_search_required": false,
+      "status": "planned"
+    },
+    {
+      "scene_id": "s05-hot-desert-fact",
+      "selected_strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "model_candidates": [
+        "h3-minimax-r2v",
+        "wan-2.2-i2v",
+        "wan2.2",
+        "h3-minimax-t2v"
+      ],
+      "reason": "Continuous story or explanation motion is required.",
+      "fresh_asset_required": true,
+      "stock_search_required": false,
+      "status": "planned"
+    },
+    {
+      "scene_id": "s06-climate",
+      "selected_strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "model_candidates": [
+        "h3-minimax-r2v",
+        "wan-2.2-i2v",
+        "wan2.2",
+        "h3-minimax-t2v"
+      ],
+      "reason": "Continuous story or explanation motion is required.",
+      "fresh_asset_required": true,
+      "stock_search_required": false,
+      "status": "planned"
+    },
+    {
+      "scene_id": "s07-factors",
+      "selected_strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "model_candidates": [
+        "h3-minimax-r2v",
+        "wan-2.2-i2v",
+        "wan2.2",
+        "h3-minimax-t2v"
+      ],
+      "reason": "Continuous story or explanation motion is required.",
+      "fresh_asset_required": true,
+      "stock_search_required": false,
+      "status": "planned"
+    },
+    {
+      "scene_id": "s08-latitude",
+      "selected_strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "model_candidates": [
+        "h3-minimax-r2v",
+        "wan-2.2-i2v",
+        "wan2.2",
+        "h3-minimax-t2v"
+      ],
+      "reason": "Continuous story or explanation motion is required.",
+      "fresh_asset_required": true,
+      "stock_search_required": false,
+      "status": "planned"
+    },
+    {
+      "scene_id": "s09-altitude",
+      "selected_strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "model_candidates": [
+        "h3-minimax-r2v",
+        "wan-2.2-i2v",
+        "wan2.2",
+        "h3-minimax-t2v"
+      ],
+      "reason": "Continuous story or explanation motion is required.",
+      "fresh_asset_required": true,
+      "stock_search_required": false,
+      "status": "planned"
+    },
+    {
+      "scene_id": "s10-sea-land-breeze",
+      "selected_strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "model_candidates": [
+        "h3-minimax-r2v",
+        "wan-2.2-i2v",
+        "wan2.2",
+        "h3-minimax-t2v"
+      ],
+      "reason": "Continuous story or explanation motion is required.",
+      "fresh_asset_required": true,
+      "stock_search_required": false,
+      "status": "planned"
+    },
+    {
+      "scene_id": "s11-wind",
+      "selected_strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "model_candidates": [
+        "h3-minimax-r2v",
+        "wan-2.2-i2v",
+        "wan2.2",
+        "h3-minimax-t2v"
+      ],
+      "reason": "Continuous story or explanation motion is required.",
+      "fresh_asset_required": true,
+      "stock_search_required": false,
+      "status": "planned"
+    },
+    {
+      "scene_id": "s12-humidity",
+      "selected_strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "model_candidates": [
+        "h3-minimax-r2v",
+        "wan-2.2-i2v",
+        "wan2.2",
+        "h3-minimax-t2v"
+      ],
+      "reason": "Continuous story or explanation motion is required.",
+      "fresh_asset_required": true,
+      "stock_search_required": false,
+      "status": "planned"
+    },
+    {
+      "scene_id": "s13-currents",
+      "selected_strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "model_candidates": [
+        "h3-minimax-r2v",
+        "wan-2.2-i2v",
+        "wan2.2",
+        "h3-minimax-t2v"
+      ],
+      "reason": "Continuous story or explanation motion is required.",
+      "fresh_asset_required": true,
+      "stock_search_required": false,
+      "status": "planned"
+    },
+    {
+      "scene_id": "s14-rainforest-fact",
+      "selected_strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "model_candidates": [
+        "h3-minimax-r2v",
+        "wan-2.2-i2v",
+        "wan2.2",
+        "h3-minimax-t2v"
+      ],
+      "reason": "Continuous story or explanation motion is required.",
+      "fresh_asset_required": true,
+      "stock_search_required": false,
+      "status": "planned"
+    },
+    {
+      "scene_id": "s15-climate-types",
+      "selected_strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "model_candidates": [
+        "h3-minimax-r2v",
+        "wan-2.2-i2v",
+        "wan2.2",
+        "h3-minimax-t2v"
+      ],
+      "reason": "Continuous story or explanation motion is required.",
+      "fresh_asset_required": true,
+      "stock_search_required": false,
+      "status": "planned"
+    },
+    {
+      "scene_id": "s16-monsoon",
+      "selected_strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "model_candidates": [
+        "h3-minimax-r2v",
+        "wan-2.2-i2v",
+        "wan2.2",
+        "h3-minimax-t2v"
+      ],
+      "reason": "Continuous story or explanation motion is required.",
+      "fresh_asset_required": true,
+      "stock_search_required": false,
+      "status": "planned"
+    },
+    {
+      "scene_id": "s17-equatorial",
+      "selected_strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "model_candidates": [
+        "h3-minimax-r2v",
+        "wan-2.2-i2v",
+        "wan2.2",
+        "h3-minimax-t2v"
+      ],
+      "reason": "Continuous story or explanation motion is required.",
+      "fresh_asset_required": true,
+      "stock_search_required": false,
+      "status": "planned"
+    },
+    {
+      "scene_id": "s18-desert",
+      "selected_strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "model_candidates": [
+        "h3-minimax-r2v",
+        "wan-2.2-i2v",
+        "wan2.2",
+        "h3-minimax-t2v"
+      ],
+      "reason": "Continuous story or explanation motion is required.",
+      "fresh_asset_required": true,
+      "stock_search_required": false,
+      "status": "planned"
+    },
+    {
+      "scene_id": "s19-tundra",
+      "selected_strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "model_candidates": [
+        "h3-minimax-r2v",
+        "wan-2.2-i2v",
+        "wan2.2",
+        "h3-minimax-t2v"
+      ],
+      "reason": "Continuous story or explanation motion is required.",
+      "fresh_asset_required": true,
+      "stock_search_required": false,
+      "status": "planned"
+    },
+    {
+      "scene_id": "s20-antarctica-fact",
+      "selected_strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "model_candidates": [
+        "h3-minimax-r2v",
+        "wan-2.2-i2v",
+        "wan2.2",
+        "h3-minimax-t2v"
+      ],
+      "reason": "Continuous story or explanation motion is required.",
+      "fresh_asset_required": true,
+      "stock_search_required": false,
+      "status": "planned"
+    },
+    {
+      "scene_id": "s21-zones",
+      "selected_strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "model_candidates": [
+        "h3-minimax-r2v",
+        "wan-2.2-i2v",
+        "wan2.2",
+        "h3-minimax-t2v"
+      ],
+      "reason": "Continuous story or explanation motion is required.",
+      "fresh_asset_required": true,
+      "stock_search_required": false,
+      "status": "planned"
+    },
+    {
+      "scene_id": "s22-torrid",
+      "selected_strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "model_candidates": [
+        "h3-minimax-r2v",
+        "wan-2.2-i2v",
+        "wan2.2",
+        "h3-minimax-t2v"
+      ],
+      "reason": "Continuous story or explanation motion is required.",
+      "fresh_asset_required": true,
+      "stock_search_required": false,
+      "status": "planned"
+    },
+    {
+      "scene_id": "s23-temperate",
+      "selected_strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "model_candidates": [
+        "h3-minimax-r2v",
+        "wan-2.2-i2v",
+        "wan2.2",
+        "h3-minimax-t2v"
+      ],
+      "reason": "Continuous story or explanation motion is required.",
+      "fresh_asset_required": true,
+      "stock_search_required": false,
+      "status": "planned"
+    },
+    {
+      "scene_id": "s24-cloud-fact",
+      "selected_strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "model_candidates": [
+        "h3-minimax-r2v",
+        "wan-2.2-i2v",
+        "wan2.2",
+        "h3-minimax-t2v"
+      ],
+      "reason": "Continuous story or explanation motion is required.",
+      "fresh_asset_required": true,
+      "stock_search_required": false,
+      "status": "planned"
+    },
+    {
+      "scene_id": "s25-frigid",
+      "selected_strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "model_candidates": [
+        "h3-minimax-r2v",
+        "wan-2.2-i2v",
+        "wan2.2",
+        "h3-minimax-t2v"
+      ],
+      "reason": "Continuous story or explanation motion is required.",
+      "fresh_asset_required": true,
+      "stock_search_required": false,
+      "status": "planned"
+    },
+    {
+      "scene_id": "s26-recall",
+      "selected_strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "model_candidates": [
+        "h3-minimax-r2v",
+        "wan-2.2-i2v",
+        "wan2.2",
+        "h3-minimax-t2v"
+      ],
+      "reason": "Continuous story or explanation motion is required.",
+      "fresh_asset_required": true,
+      "stock_search_required": false,
+      "status": "planned"
+    },
+    {
+      "scene_id": "s27-remember",
+      "selected_strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "model_candidates": [
+        "h3-minimax-r2v",
+        "wan-2.2-i2v",
+        "wan2.2",
+        "h3-minimax-t2v"
+      ],
+      "reason": "Continuous story or explanation motion is required.",
+      "fresh_asset_required": true,
+      "stock_search_required": false,
+      "status": "planned"
+    },
+    {
+      "scene_id": "s28-wordbank",
+      "selected_strategy": "generated_3d_video",
+      "provider": "modelslab",
+      "model_candidates": [
+        "h3-minimax-r2v",
+        "wan-2.2-i2v",
+        "wan2.2",
+        "h3-minimax-t2v"
+      ],
+      "reason": "Continuous story or explanation motion is required.",
+      "fresh_asset_required": true,
+      "stock_search_required": false,
+      "status": "planned"
+    }
+  ],
+  "blocked_scene_ids": []
+}

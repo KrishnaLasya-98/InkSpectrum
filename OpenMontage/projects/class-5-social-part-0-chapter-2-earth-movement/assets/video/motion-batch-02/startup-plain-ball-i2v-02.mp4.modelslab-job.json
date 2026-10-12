@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188299552",
+  "request_fingerprint": "e3b70048359caeb252e64e261ef16773b178388b02689936ca5d91a875403ef1",
+  "poll_endpoint": "video",
+  "model_id": "wan-2.2-i2v",
+  "operation": "image_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-02\\startup-plain-ball-i2v-02.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1790854319.21363,
+  "last_poll_at_unix": 1790854471.856232,
+  "completed_at_unix": 1790854473.3547244
+}

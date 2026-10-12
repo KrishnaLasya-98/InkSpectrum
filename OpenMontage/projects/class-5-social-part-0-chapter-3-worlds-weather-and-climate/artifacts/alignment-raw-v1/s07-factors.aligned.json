@@ -1,0 +1,136 @@
+{
+  "section_id": "s07-factors",
+  "text": "Factors Affecting Climate. Several factors influence the climate of a place. Let us explore them one by one.",
+  "start_ms": 124480,
+  "end_ms": 133440,
+  "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\audio\\narration-elevenlabs-v1\\s07-factors.wav",
+  "words": [
+    {
+      "word": "Factors",
+      "start_ms": 124560,
+      "end_ms": 125021,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0107
+    },
+    {
+      "word": "Affecting",
+      "start_ms": 125182,
+      "end_ms": 125663,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0107
+    },
+    {
+      "word": "Climate.",
+      "start_ms": 125743,
+      "end_ms": 126164,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0255
+    },
+    {
+      "word": "Several",
+      "start_ms": 127246,
+      "end_ms": 127587,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0393
+    },
+    {
+      "word": "factors",
+      "start_ms": 127707,
+      "end_ms": 128208,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "influence",
+      "start_ms": 128449,
+      "end_ms": 128910,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0274
+    },
+    {
+      "word": "the",
+      "start_ms": 129010,
+      "end_ms": 129090,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "climate",
+      "start_ms": 129150,
+      "end_ms": 129551,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0113
+    },
+    {
+      "word": "of",
+      "start_ms": 129672,
+      "end_ms": 129712,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "a",
+      "start_ms": 129832,
+      "end_ms": 129852,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0029
+    },
+    {
+      "word": "place.",
+      "start_ms": 129912,
+      "end_ms": 130193,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0783
+    },
+    {
+      "word": "Let",
+      "start_ms": 131175,
+      "end_ms": 131315,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "us",
+      "start_ms": 131395,
+      "end_ms": 131456,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "explore",
+      "start_ms": 131556,
+      "end_ms": 131977,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1281
+    },
+    {
+      "word": "them",
+      "start_ms": 132037,
+      "end_ms": 132177,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.139
+    },
+    {
+      "word": "one",
+      "start_ms": 132558,
+      "end_ms": 132678,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0004
+    },
+    {
+      "word": "by",
+      "start_ms": 132738,
+      "end_ms": 132859,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "one.",
+      "start_ms": 133059,
+      "end_ms": 133199,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -4.4253
+    }
+  ],
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

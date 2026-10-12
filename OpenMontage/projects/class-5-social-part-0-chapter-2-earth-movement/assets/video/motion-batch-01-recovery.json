@@ -1,0 +1,64 @@
+{
+  "version": "1.0",
+  "checked_at": "2026-10-01T11:26:11.242307+00:00",
+  "batch": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-01.json",
+  "new_submissions": 0,
+  "jobs": [
+    {
+      "shot_id": "earth-opening-01",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-01\\earth-opening-01.mp4",
+      "new_submission": false,
+      "request_id": "188298906",
+      "http_status": 200,
+      "status": "recovered",
+      "output_bytes": 215759
+    },
+    {
+      "shot_id": "startup-spinning-ball-01",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-01\\startup-spinning-ball-01.mp4",
+      "new_submission": false,
+      "request_id": "188298909",
+      "http_status": 200,
+      "status": "recovered",
+      "output_bytes": 221302
+    },
+    {
+      "shot_id": "ship-horizon-01",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-01\\ship-horizon-01.mp4",
+      "new_submission": false,
+      "request_id": "188298910",
+      "http_status": 200,
+      "status": "recovered",
+      "output_bytes": 403072
+    },
+    {
+      "shot_id": "earth-shadow-eclipse-01",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-01\\earth-shadow-eclipse-01.mp4",
+      "new_submission": false,
+      "request_id": "188298983",
+      "http_status": 200,
+      "status": "recovered",
+      "output_bytes": 158562
+    },
+    {
+      "shot_id": "earth-day-night-01",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-01\\earth-day-night-01.mp4",
+      "new_submission": false,
+      "request_id": "188298985",
+      "http_status": 200,
+      "status": "recovered",
+      "output_bytes": 251111
+    },
+    {
+      "shot_id": "earth-revolution-01",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-01\\earth-revolution-01.mp4",
+      "new_submission": false,
+      "request_id": "188298987",
+      "http_status": 200,
+      "status": "recovered",
+      "output_bytes": 332466
+    }
+  ],
+  "downloaded": 6,
+  "total": 6
+}

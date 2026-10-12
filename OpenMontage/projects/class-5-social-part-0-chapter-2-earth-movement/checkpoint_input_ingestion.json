@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "project_id": "class-5-social-part-0-chapter-2-earth-movement",
+  "pipeline_type": "educational-video",
+  "stage": "input_ingestion",
+  "status": "completed",
+  "timestamp": "2026-10-01T10:56:17.099781+00:00",
+  "checkpoint_policy": "auto_noncreative",
+  "human_approval_required": false,
+  "human_approved": false,
+  "artifacts": {
+    "extracted_content_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\artifacts\\extracted_content.md",
+    "chapter_document_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\artifacts\\chapter_document.json",
+    "coverage_contract_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\artifacts\\coverage_contract.json",
+    "section_blocks_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\artifacts\\section_blocks.json"
+  },
+  "style_playbook": "clean-professional",
+  "cost_snapshot": {
+    "total_spent_usd": 0.0,
+    "total_reserved_usd": 0.0,
+    "budget_remaining_usd": 5.0
+  },
+  "metadata": {
+    "reviewed_markdown": "D:\\InkSpectrum\\OpenMontage\\textbook-collections\\class-5-social\\reviewed\\chapter-02\\chapter-02-reviewed.md",
+    "source_pdf": "D:\\InkSpectrum\\OpenMontage\\textbook-collections\\class-5-social\\source-chapters\\chapter-02-earth-movement.pdf",
+    "source_sha256": "0c36be647c00479490414db1a9c7aadb0a4f683fa1e688e7b2adbed3bdbba133",
+    "source_blocks": 56,
+    "sections": 15,
+    "textbook_figures": 4,
+    "page_audit_status": "pass",
+    "source_audit": "D:\\InkSpectrum\\OpenMontage\\textbook-collections\\class-5-social\\reviewed\\chapter-02\\audits\\source-audit.json",
+    "stage_started_at_unix": 1790852176.8746252,
+    "stage_duration_seconds": 0.174,
+    "estimated_duration_seconds": 90.0,
+    "eta_accuracy_ratio": 0.002,
+    "artifact_sha256": "96631a7ce8a090661ec534367ed660a230b749ee8685977eb28982d6da21bb5d"
+  }
+}

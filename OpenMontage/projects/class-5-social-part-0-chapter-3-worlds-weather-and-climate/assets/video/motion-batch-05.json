@@ -1,0 +1,98 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "shots": [
+    {
+      "shot_id": "lut-heat-shimmer",
+      "section_id": "s05-hot-desert-fact",
+      "num_frames": 120,
+      "prompt": "An uninhabited rocky salt desert under an intense high sun, visible heat shimmer ripples above dark stones while fine dust moves gently across the ground. Polished child-friendly 3D animated film, continuous natural motion, slow cinematic push forward, no people, captions, letters, numbers, logos, maps, watermarks, loops or frozen frames."
+    },
+    {
+      "shot_id": "lut-scorched-ridges",
+      "section_id": "s05-hot-desert-fact",
+      "num_frames": 120,
+      "prompt": "Wide scorched desert ridges and weathered rock formations glowing beneath fierce midday sunlight, tiny dust trails cross the valley and the air visibly wavers with heat. Polished child-friendly 3D animated film, continuous environmental motion, gentle orbiting camera, no people, captions, letters, numbers, logos, maps, watermarks, loops or frozen frames."
+    },
+    {
+      "shot_id": "climate-factors-landscape",
+      "section_id": "s07-factors",
+      "num_frames": 120,
+      "prompt": "A broad educational landscape showing ocean coast, green plain, high mountain and distant dry land in one coherent world, with clouds drifting and wind moving vegetation to suggest several influences on climate. Polished child-friendly 3D animation, smooth aerial camera travel, no text, labels, arrows, people, logos, watermarks, loops or frozen frames."
+    },
+    {
+      "shot_id": "climate-factors-globe",
+      "section_id": "s07-factors",
+      "num_frames": 120,
+      "prompt": "A friendly stylized three-dimensional Earth slowly turning in space while soft cloud systems move above blue oceans and green-brown land, then the camera eases closer toward a varied coastline and mountains. Child-friendly 3D animated film, accurate spherical form, no borders, labels, text, arrows, logos, watermarks, loops or frozen frames."
+    },
+    {
+      "shot_id": "equator-strong-sunlight",
+      "section_id": "s08-latitude",
+      "num_frames": 120,
+      "prompt": "A warm tropical landscape near the equator under strong overhead sunlight, lush plants sway gently and short soft shadows move as clouds pass, conveying year-round direct warmth without a diagram. Polished child-friendly 3D animated film, slow lateral camera, no text, labels, globes, maps, arrows, logos, watermarks, loops or frozen frames."
+    },
+    {
+      "shot_id": "polar-low-sunlight",
+      "section_id": "s08-latitude",
+      "num_frames": 120,
+      "prompt": "A cold polar landscape under a low angled sun near the horizon, long shadows stretch across snow while pale clouds and fine snow particles drift slowly, conveying weaker spread-out sunlight without a diagram. Polished child-friendly 3D animation, gentle camera glide, no text, labels, globes, maps, arrows, logos, watermarks, loops or frozen frames."
+    },
+    {
+      "shot_id": "monsoon-wind-from-sea",
+      "section_id": "s11-wind",
+      "num_frames": 120,
+      "prompt": "Moist sea air moves inland toward a green coastal landscape as thick rain clouds travel from the ocean and release a visible curtain of rain over fields, with trees bending consistently toward land. Polished child-friendly 3D animated film, smooth tracking camera, no text, labels, arrows, people, logos, watermarks, loops or frozen frames."
+    },
+    {
+      "shot_id": "dry-wind-from-desert",
+      "section_id": "s11-wind",
+      "num_frames": 120,
+      "prompt": "Dry wind travels from a sandy desert toward sparse inland vegetation, carrying a light veil of dust while grasses and shrubs bend in the same direction under a clear sky. Polished child-friendly 3D animated film, steady side-tracking camera, no text, labels, arrows, people, logos, watermarks, loops or frozen frames."
+    },
+    {
+      "shot_id": "climate-types-montage",
+      "section_id": "s15-climate-types",
+      "num_frames": 120,
+      "prompt": "A seamless camera journey transitions through a rainy tropical forest, a bright dry desert, and a snowy tundra landscape, each environment clearly distinct and naturally animated. Polished child-friendly 3D film, smooth continuous forward motion, no text, labels, split screen, people, logos, watermarks, loops or frozen frames."
+    },
+    {
+      "shot_id": "earth-equator-to-poles",
+      "section_id": "s21-zones",
+      "num_frames": 120,
+      "prompt": "A stylized accurate spherical Earth turns slowly as the camera travels visually from the warm equatorial region toward a snowy polar region, using natural land, ocean and ice colors while moving clouds provide depth. Child-friendly 3D animation, no colored bands, borders, text, labels, arrows, logos, watermarks, loops or frozen frames."
+    },
+    {
+      "shot_id": "torrid-tropical-sun",
+      "section_id": "s22-torrid",
+      "num_frames": 120,
+      "prompt": "A lush tropical plain beneath strong direct sunlight, with palm leaves and grasses moving gently in warm air and bright compact shadows on the ground. Polished child-friendly 3D animated film, calm cinematic dolly, no people, text, labels, globes, maps, arrows, logos, watermarks, loops or frozen frames."
+    },
+    {
+      "shot_id": "torrid-warm-river-valley",
+      "section_id": "s22-torrid",
+      "num_frames": 120,
+      "prompt": "A warm equatorial river valley with dense green plants, bright overhead sun and slowly forming white clouds, water flowing continuously while leaves sway in a light breeze. Polished child-friendly 3D animated film, gentle crane camera, no people, text, labels, maps, arrows, logos, watermarks, loops or frozen frames."
+    },
+    {
+      "shot_id": "tundra-reindeer-context",
+      "section_id": "s19-tundra",
+      "num_frames": 120,
+      "prompt": "A small herd of reindeer walks naturally across an open treeless tundra with patches of snow and very low vegetation, their breath faintly visible as wind moves loose snow. Polished child-friendly 3D animated film, respectful natural behavior, slow tracking camera, no people, text, labels, logos, watermarks, loops or frozen frames."
+    },
+    {
+      "shot_id": "antarctica-dry-windy-ice",
+      "section_id": "s20-antarctica-fact",
+      "num_frames": 120,
+      "prompt": "A vast dry Antarctic ice plateau under a clear cold sky, fierce wind drives fine surface snow sideways across hard blue-white ice while no precipitation falls from above. Polished child-friendly 3D animated film, slow panoramic camera, no animals, people, text, labels, logos, watermarks, loops or frozen frames."
+    },
+    {
+      "shot_id": "frigid-frozen-coast",
+      "section_id": "s25-frigid",
+      "num_frames": 120,
+      "prompt": "A frozen polar coastline with ice-covered land and floating sea ice, pale sunlight glints across moving water while small snow particles drift and ice pieces shift gently. Polished child-friendly 3D animated film, slow cinematic glide, no people, animals, text, labels, maps, arrows, logos, watermarks, loops or frozen frames."
+    }
+  ]
+}

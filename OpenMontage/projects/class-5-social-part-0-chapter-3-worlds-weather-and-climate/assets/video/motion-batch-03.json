@@ -1,0 +1,68 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "shots": [
+    {
+      "shot_id": "weather-sunny-garden",
+      "section_id": "s04-weather",
+      "num_frames": 120,
+      "prompt": "A sunny garden in the morning with visible moving leaves, a warm sun and soft clouds drifting overhead, wide readable composition, no rain. Polished child-friendly 3D animated film, genuine continuous object motion, steady gentle cinematic camera, no captions, text, logos, watermarks or frozen frames."
+    },
+    {
+      "shot_id": "dry-desert-air",
+      "section_id": "s12-humidity",
+      "num_frames": 120,
+      "prompt": "An uninhabited dry desert of sand and rocky ridges, fine dust blows gently across the ground under a bright blue sky, sparse plants, no water, no fog or visible steam. Polished child-friendly 3D animated film, genuine continuous object motion, steady gentle cinematic camera, no captions, text, logos, watermarks or frozen frames."
+    },
+    {
+      "shot_id": "sea-current-waves",
+      "section_id": "s13-currents",
+      "num_frames": 120,
+      "prompt": "Blue open ocean water viewed at a low oblique angle with broad water movement and rolling waves, no generated arrows or land map, sunlight reflections move naturally. Polished child-friendly 3D animated film, genuine continuous object motion, steady gentle cinematic camera, no captions, text, logos, watermarks or frozen frames."
+    },
+    {
+      "shot_id": "rainforest-food",
+      "section_id": "s14-rainforest-fact",
+      "num_frames": 120,
+      "prompt": "A tropical rainforest with ripe fruits hanging naturally among leaves, rainwater drips gently from the canopy and green leaves sway, no people or letters, wide close landscape. Polished child-friendly 3D animated film, genuine continuous object motion, steady gentle cinematic camera, no captions, text, logos, watermarks or frozen frames."
+    },
+    {
+      "shot_id": "desert-hot-day",
+      "section_id": "s18-desert",
+      "num_frames": 120,
+      "prompt": "Wide desert dunes in bright hot daylight, sparse desert shrubs and gentle wind moving fine grains over dune crests, clear sky and golden sunlight, no rain. Polished child-friendly 3D animated film, genuine continuous object motion, steady gentle cinematic camera, no captions, text, logos, watermarks or frozen frames."
+    },
+    {
+      "shot_id": "desert-cool-night",
+      "section_id": "s18-desert",
+      "num_frames": 120,
+      "prompt": "The same kind of wide desert dune terrain under a visible crescent moon and a deep blue readable night sky, a gentle wind moves grains and a few small clouds drift, no fog, rain or snow. Polished child-friendly 3D animated film, genuine continuous object motion, steady gentle cinematic camera, no captions, text, logos, watermarks or frozen frames."
+    },
+    {
+      "shot_id": "temperate-seasons",
+      "section_id": "s23-temperate",
+      "num_frames": 120,
+      "prompt": "A temperate woodland in mild autumn weather with orange and green broad leaves visibly swaying, a shallow stream flowing continuously and several leaves drifting to the ground, calm readable composition. Polished child-friendly 3D animated film, genuine continuous object motion, steady gentle cinematic camera, no captions, text, logos, watermarks or frozen frames."
+    },
+    {
+      "shot_id": "cumulus-fair",
+      "section_id": "s24-cloud-fact",
+      "num_frames": 120,
+      "prompt": "A bright blue sky above a green meadow with large fluffy white cumulus clouds visibly drifting, sunlight and gently swaying grass, pleasant fair weather, no rain or snow. Polished child-friendly 3D animated film, genuine continuous object motion, steady gentle cinematic camera, no captions, text, logos, watermarks or frozen frames."
+    },
+    {
+      "shot_id": "nimbostratus-rain",
+      "section_id": "s24-cloud-fact",
+      "num_frames": 120,
+      "prompt": "A green meadow under a broad low uniform gray layer of nimbostratus clouds, continuous moderate rain falls into small rippling puddles while foliage moves gently, no thunder or lightning. Polished child-friendly 3D animated film, genuine continuous object motion, steady gentle cinematic camera, no captions, text, logos, watermarks or frozen frames."
+    },
+    {
+      "shot_id": "frigid-ice",
+      "section_id": "s25-frigid",
+      "num_frames": 120,
+      "prompt": "A cold polar sea with ice covered land on the left and floating ice on softly moving blue water, small soft clouds drift through a clear readable sky, no animals, labels or invented geographic shapes. Polished child-friendly 3D animated film, genuine continuous object motion, steady gentle cinematic camera, no captions, text, logos, watermarks or frozen frames."
+    }
+  ]
+}

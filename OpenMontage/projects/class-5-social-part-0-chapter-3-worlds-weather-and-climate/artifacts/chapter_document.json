@@ -1,0 +1,1519 @@
+{
+  "version": "1.0",
+  "source": {
+    "path": "D:\\InkSpectrum\\OpenMontage\\textbook-collections\\class-5-social\\source-chapters\\chapter-03-world-s-weather-and-climate.pdf",
+    "format": "pdf",
+    "text_artifact": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\extracted_content.md",
+    "text_sha256": "fc00afd8fce2be510ddf21a892e714f8fdc5b06a45ed9dbb18db4c16b9bb3fb4",
+    "extraction_artifact": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\extracted_content.json"
+  },
+  "layout_fidelity": {
+    "reading_order": "preserved",
+    "tables": "structured_when_markdown_table_present",
+    "geometry": "unavailable",
+    "text_boxes": "semantic_heading_inference_only",
+    "requires_visual_pdf_audit": true
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "block_ids": [
+        "p0001-b0001",
+        "p0001-b0002",
+        "p0001-b0003",
+        "p0001-b0004",
+        "p0001-b0005",
+        "p0001-b0006",
+        "p0001-b0007",
+        "p0001-b0008",
+        "p0001-b0009",
+        "p0001-b0010",
+        "p0001-b0011",
+        "p0001-b0012",
+        "p0001-b0013",
+        "p0001-b0014"
+      ]
+    },
+    {
+      "page_number": 2,
+      "block_ids": [
+        "p0002-b0001",
+        "p0002-b0002",
+        "p0002-b0003",
+        "p0002-b0004",
+        "p0002-b0005",
+        "p0002-b0006",
+        "p0002-b0007"
+      ]
+    },
+    {
+      "page_number": 3,
+      "block_ids": [
+        "p0003-b0001",
+        "p0003-b0002",
+        "p0003-b0003",
+        "p0003-b0004",
+        "p0003-b0005",
+        "p0003-b0006"
+      ]
+    },
+    {
+      "page_number": 4,
+      "block_ids": [
+        "p0004-b0001",
+        "p0004-b0002",
+        "p0004-b0003",
+        "p0004-b0004",
+        "p0004-b0005",
+        "p0004-b0006",
+        "p0004-b0007",
+        "p0004-b0008",
+        "p0004-b0009"
+      ]
+    },
+    {
+      "page_number": 5,
+      "block_ids": [
+        "p0005-b0001",
+        "p0005-b0002",
+        "p0005-b0003",
+        "p0005-b0004",
+        "p0005-b0005",
+        "p0005-b0006",
+        "p0005-b0007",
+        "p0005-b0008",
+        "p0005-b0009",
+        "p0005-b0010",
+        "p0005-b0011",
+        "p0005-b0012",
+        "p0005-b0013",
+        "p0005-b0014",
+        "p0005-b0015"
+      ]
+    },
+    {
+      "page_number": 6,
+      "block_ids": [
+        "p0006-b0001",
+        "p0006-b0002",
+        "p0006-b0003",
+        "p0006-b0004",
+        "p0006-b0005",
+        "p0006-b0006",
+        "p0006-b0007",
+        "p0006-b0008",
+        "p0006-b0009",
+        "p0006-b0010",
+        "p0006-b0011",
+        "p0006-b0012",
+        "p0006-b0013",
+        "p0006-b0014",
+        "p0006-b0015"
+      ]
+    },
+    {
+      "page_number": 7,
+      "block_ids": [
+        "p0007-b0001",
+        "p0007-b0002",
+        "p0007-b0003",
+        "p0007-b0004",
+        "p0007-b0005",
+        "p0007-b0006",
+        "p0007-b0007",
+        "p0007-b0008",
+        "p0007-b0009",
+        "p0007-b0010",
+        "p0007-b0011",
+        "p0007-b0012",
+        "p0007-b0013",
+        "p0007-b0014"
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "block_id": "p0001-b0001",
+      "page_number": 1,
+      "reading_order": 1,
+      "block_type": "chapter_title",
+      "semantic_role": "lesson_content",
+      "source_text": "Lesson 3: Worlds Weather and Climate",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 3,
+        "source_line_end": 3,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 1,
+      "heading": "Lesson 3: Worlds Weather and Climate"
+    },
+    {
+      "block_id": "p0001-b0002",
+      "page_number": 1,
+      "reading_order": 2,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text": "Learning Objectives",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 5,
+        "source_line_end": 5,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Learning Objectives"
+    },
+    {
+      "block_id": "p0001-b0003",
+      "page_number": 1,
+      "reading_order": 3,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "By the end of this chapter, learners will be able to:",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 7,
+        "source_line_end": 7,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Learning Objectives"
+    },
+    {
+      "block_id": "p0001-b0004",
+      "page_number": 1,
+      "reading_order": 4,
+      "block_type": "bullet",
+      "semantic_role": "lesson_content",
+      "source_text": "Explain the difference between weather and climate.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 9,
+        "source_line_end": 9,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Learning Objectives"
+    },
+    {
+      "block_id": "p0001-b0005",
+      "page_number": 1,
+      "reading_order": 5,
+      "block_type": "bullet",
+      "semantic_role": "lesson_content",
+      "source_text": "Identify and describe the factors affecting climate.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 10,
+        "source_line_end": 10,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Learning Objectives"
+    },
+    {
+      "block_id": "p0001-b0006",
+      "page_number": 1,
+      "reading_order": 6,
+      "block_type": "bullet",
+      "semantic_role": "lesson_content",
+      "source_text": "Understand the different types of climate found in the world.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 11,
+        "source_line_end": 11,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Learning Objectives"
+    },
+    {
+      "block_id": "p0001-b0007",
+      "page_number": 1,
+      "reading_order": 7,
+      "block_type": "bullet",
+      "semantic_role": "lesson_content",
+      "source_text": "Recognize the climatic zones of the Earth.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 12,
+        "source_line_end": 12,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Learning Objectives"
+    },
+    {
+      "block_id": "p0001-b0008",
+      "page_number": 1,
+      "reading_order": 8,
+      "block_type": "bullet",
+      "semantic_role": "lesson_content",
+      "source_text": "Explain how climate affects human life and the environment.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 13,
+        "source_line_end": 13,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Learning Objectives"
+    },
+    {
+      "block_id": "p0001-b0009",
+      "page_number": 1,
+      "reading_order": 9,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text": "Start-Up",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 15,
+        "source_line_end": 15,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Start-Up"
+    },
+    {
+      "block_id": "p0001-b0010",
+      "page_number": 1,
+      "reading_order": 10,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "Look outside the window! Is it sunny, cloudy, or rainy? Have you ever noticed how the weather changes throughout the day? Some places are always warm, while others are cold. Why does this happen? In this chapter, we will explore the differences between weather and climate and understand the factors that influence them.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 17,
+        "source_line_end": 17,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Start-Up"
+    },
+    {
+      "block_id": "p0001-b0011",
+      "page_number": 1,
+      "reading_order": 11,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text": "Weather",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 19,
+        "source_line_end": 19,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Weather"
+    },
+    {
+      "block_id": "p0001-b0012",
+      "page_number": 1,
+      "reading_order": 12,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "Weather is the condition of the atmosphere at a particular place and time. It includes temperature, wind, rainfall, humidity, and cloud cover. Weather can change from hour to hour or day to day. For example, one morning, it may be sunny and by afternoon it could rain.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 21,
+        "source_line_end": 21,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Weather"
+    },
+    {
+      "block_id": "p0001-b0013",
+      "page_number": 1,
+      "reading_order": 13,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text": "Do You Know?",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 23,
+        "source_line_end": 23,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Do You Know?"
+    },
+    {
+      "block_id": "p0001-b0014",
+      "page_number": 1,
+      "reading_order": 14,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "The hottest place on Earth is the Lut Desert in Iran, where temperatures have been recorded as high as 159.3°F (70.7°C)! Imagine how hot it must be to have that much heat!",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 25,
+        "source_line_end": 25,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Do You Know?"
+    },
+    {
+      "block_id": "p0002-b0001",
+      "page_number": 2,
+      "reading_order": 15,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text": "Climate",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 29,
+        "source_line_end": 29,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Climate"
+    },
+    {
+      "block_id": "p0002-b0002",
+      "page_number": 2,
+      "reading_order": 16,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "Climate is the average weather condition of a place over a long period, usually 30 years or more. It tells us whether a place is generally hot, cold, wet, or dry. For example, the climate of the Sahara Desert is hot and dry, while the climate of the Amazon Rainforest is warm and rainy.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 31,
+        "source_line_end": 31,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Climate"
+    },
+    {
+      "block_id": "p0002-b0003",
+      "page_number": 2,
+      "reading_order": 17,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text": "Factors Affecting Climate",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 33,
+        "source_line_end": 33,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Factors Affecting Climate"
+    },
+    {
+      "block_id": "p0002-b0004",
+      "page_number": 2,
+      "reading_order": 18,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "Several factors influence the climate of a place. Let us explore them one by one.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 35,
+        "source_line_end": 35,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Factors Affecting Climate"
+    },
+    {
+      "block_id": "p0002-b0005",
+      "page_number": 2,
+      "reading_order": 19,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text": "Distance from the Equator (Latitudes)",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 37,
+        "source_line_end": 37,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Distance from the Equator (Latitudes)"
+    },
+    {
+      "block_id": "p0002-b0006",
+      "page_number": 2,
+      "reading_order": 20,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "The Earth is divided into imaginary lines called latitudes. Places near the equator receive direct sunlight throughout the year, making them hot. As we move towards the poles, sunlight spreads out, making these areas cooler. This is why tropical regions are warm, while polar regions are cold.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 39,
+        "source_line_end": 39,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Distance from the Equator (Latitudes)"
+    },
+    {
+      "block_id": "p0002-b0007",
+      "page_number": 2,
+      "reading_order": 21,
+      "block_type": "figure",
+      "semantic_role": "lesson_content",
+      "source_text": "Original textbook world map",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 41,
+        "source_line_end": 41,
+        "extraction_mode": "markdown_fallback"
+      },
+      "media": {
+        "source": "images/world-map.png",
+        "alt_text": "Original textbook world map"
+      },
+      "heading": "Distance from the Equator (Latitudes)"
+    },
+    {
+      "block_id": "p0003-b0001",
+      "page_number": 3,
+      "reading_order": 22,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text": "Altitude",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 45,
+        "source_line_end": 45,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Altitude"
+    },
+    {
+      "block_id": "p0003-b0002",
+      "page_number": 3,
+      "reading_order": 23,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "Altitude is the height of a place above sea level. Higher altitudes have cooler temperatures because the air is thinner and cannot hold much heat. For example, mountains are colder than plains at the same latitude.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 47,
+        "source_line_end": 47,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Altitude"
+    },
+    {
+      "block_id": "p0003-b0003",
+      "page_number": 3,
+      "reading_order": 24,
+      "block_type": "figure",
+      "semantic_role": "lesson_content",
+      "source_text": "Original textbook mountain and runners photograph",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 49,
+        "source_line_end": 49,
+        "extraction_mode": "markdown_fallback"
+      },
+      "media": {
+        "source": "images/altitude-photo.png",
+        "alt_text": "Original textbook mountain and runners photograph"
+      },
+      "heading": "Altitude"
+    },
+    {
+      "block_id": "p0003-b0004",
+      "page_number": 3,
+      "reading_order": 25,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text": "Distance from the Sea (Sea Breeze and Land Breeze)",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 51,
+        "source_line_end": 51,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Distance from the Sea (Sea Breeze and Land Breeze)"
+    },
+    {
+      "block_id": "p0003-b0005",
+      "page_number": 3,
+      "reading_order": 26,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "Oceans and seas influence the climate of coastal areas. Water heats up and cools down more slowly than land. During the day, land heats up faster than water, causing a sea breeze to blow from the sea to the land. At night, the land cools down quickly, and a land breeze blows from land to the sea. This keeps coastal areas cooler in summer and warmer in winter compared to inland regions.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 53,
+        "source_line_end": 53,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Distance from the Sea (Sea Breeze and Land Breeze)"
+    },
+    {
+      "block_id": "p0003-b0006",
+      "page_number": 3,
+      "reading_order": 27,
+      "block_type": "figure",
+      "semantic_role": "lesson_content",
+      "source_text": "Original textbook sea breeze and land breeze diagram",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 55,
+        "source_line_end": 55,
+        "extraction_mode": "markdown_fallback"
+      },
+      "media": {
+        "source": "images/sea-land-breeze.png",
+        "alt_text": "Original textbook sea breeze and land breeze diagram"
+      },
+      "heading": "Distance from the Sea (Sea Breeze and Land Breeze)"
+    },
+    {
+      "block_id": "p0004-b0001",
+      "page_number": 4,
+      "reading_order": 28,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text": "Direction of the Wind",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 59,
+        "source_line_end": 59,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Direction of the Wind"
+    },
+    {
+      "block_id": "p0004-b0002",
+      "page_number": 4,
+      "reading_order": 29,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "Winds carry heat and moisture from one place to another. Winds coming from the sea bring rain, while winds from deserts bring dry weather. For example, the monsoon winds bring heavy rainfall to India.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 61,
+        "source_line_end": 61,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Direction of the Wind"
+    },
+    {
+      "block_id": "p0004-b0003",
+      "page_number": 4,
+      "reading_order": 30,
+      "block_type": "figure",
+      "semantic_role": "lesson_content",
+      "source_text": "Original textbook windward, leeward and rain shadow diagram",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 63,
+        "source_line_end": 63,
+        "extraction_mode": "markdown_fallback"
+      },
+      "media": {
+        "source": "images/rain-shadow.png",
+        "alt_text": "Original textbook windward, leeward and rain shadow diagram"
+      },
+      "heading": "Direction of the Wind"
+    },
+    {
+      "block_id": "p0004-b0004",
+      "page_number": 4,
+      "reading_order": 31,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text": "Humidity",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 65,
+        "source_line_end": 65,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Humidity"
+    },
+    {
+      "block_id": "p0004-b0005",
+      "page_number": 4,
+      "reading_order": 32,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "Humidity is the amount of water vapour in the air. Places with high humidity receive more rainfall, while dry areas have less humidity. For example, coastal areas have higher humidity than deserts.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 67,
+        "source_line_end": 67,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Humidity"
+    },
+    {
+      "block_id": "p0004-b0006",
+      "page_number": 4,
+      "reading_order": 33,
+      "block_type": "figure",
+      "semantic_role": "lesson_content",
+      "source_text": "Original textbook child in warm weather photograph",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 69,
+        "source_line_end": 69,
+        "extraction_mode": "markdown_fallback"
+      },
+      "media": {
+        "source": "images/humidity-photo.png",
+        "alt_text": "Original textbook child in warm weather photograph"
+      },
+      "heading": "Humidity"
+    },
+    {
+      "block_id": "p0004-b0007",
+      "page_number": 4,
+      "reading_order": 34,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text": "Ocean Currents",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 71,
+        "source_line_end": 71,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Ocean Currents"
+    },
+    {
+      "block_id": "p0004-b0008",
+      "page_number": 4,
+      "reading_order": 35,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "Ocean currents are large movements of water in the oceans. Warm ocean currents make coastal areas warmer, while cold currents bring cool temperatures. For example, the Gulf Stream warms Europe, while the cold Labrador Current cools Canada.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 73,
+        "source_line_end": 73,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Ocean Currents"
+    },
+    {
+      "block_id": "p0004-b0009",
+      "page_number": 4,
+      "reading_order": 36,
+      "block_type": "figure",
+      "semantic_role": "lesson_content",
+      "source_text": "Original textbook ocean wave photograph",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 75,
+        "source_line_end": 75,
+        "extraction_mode": "markdown_fallback"
+      },
+      "media": {
+        "source": "images/ocean-wave.png",
+        "alt_text": "Original textbook ocean wave photograph"
+      },
+      "heading": "Ocean Currents"
+    },
+    {
+      "block_id": "p0005-b0001",
+      "page_number": 5,
+      "reading_order": 37,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text": "Let's Learn More!",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 79,
+        "source_line_end": 79,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Let's Learn More!"
+    },
+    {
+      "block_id": "p0005-b0002",
+      "page_number": 5,
+      "reading_order": 38,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "Rainforests receive about 80 inches of rain each year and they are so important because they provide oxygen and food to the world. Without them, our planet would be very different!",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 81,
+        "source_line_end": 81,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Let's Learn More!"
+    },
+    {
+      "block_id": "p0005-b0003",
+      "page_number": 5,
+      "reading_order": 39,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text": "Types of Climate",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 83,
+        "source_line_end": 83,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Types of Climate"
+    },
+    {
+      "block_id": "p0005-b0004",
+      "page_number": 5,
+      "reading_order": 40,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "Different parts of the world have different types of climate. Let's look at some major types.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 85,
+        "source_line_end": 85,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Types of Climate"
+    },
+    {
+      "block_id": "p0005-b0005",
+      "page_number": 5,
+      "reading_order": 41,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text": "Monsoon or Tropical Climate",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 87,
+        "source_line_end": 87,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Monsoon or Tropical Climate"
+    },
+    {
+      "block_id": "p0005-b0006",
+      "page_number": 5,
+      "reading_order": 42,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "Found in South Asia, Southeast Asia, and some parts of Africa.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 89,
+        "source_line_end": 89,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Monsoon or Tropical Climate"
+    },
+    {
+      "block_id": "p0005-b0007",
+      "page_number": 5,
+      "reading_order": 43,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "It has hot summers and receives heavy rainfall during the monsoon season.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 91,
+        "source_line_end": 91,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Monsoon or Tropical Climate"
+    },
+    {
+      "block_id": "p0005-b0008",
+      "page_number": 5,
+      "reading_order": 44,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text": "Equatorial Climate",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 93,
+        "source_line_end": 93,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Equatorial Climate"
+    },
+    {
+      "block_id": "p0005-b0009",
+      "page_number": 5,
+      "reading_order": 45,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "Found near the equator, such as in the Amazon Rainforest and Congo Basin.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 95,
+        "source_line_end": 95,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Equatorial Climate"
+    },
+    {
+      "block_id": "p0005-b0010",
+      "page_number": 5,
+      "reading_order": 46,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "It is hot and humid throughout the year with heavy rainfall.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 97,
+        "source_line_end": 97,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Equatorial Climate"
+    },
+    {
+      "block_id": "p0005-b0011",
+      "page_number": 5,
+      "reading_order": 47,
+      "block_type": "figure",
+      "semantic_role": "lesson_content",
+      "source_text": "Original textbook rainforest photograph",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 99,
+        "source_line_end": 99,
+        "extraction_mode": "markdown_fallback"
+      },
+      "media": {
+        "source": "images/rainforest-photo.png",
+        "alt_text": "Original textbook rainforest photograph"
+      },
+      "heading": "Equatorial Climate"
+    },
+    {
+      "block_id": "p0005-b0012",
+      "page_number": 5,
+      "reading_order": 48,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text": "Desert Climate",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 101,
+        "source_line_end": 101,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Desert Climate"
+    },
+    {
+      "block_id": "p0005-b0013",
+      "page_number": 5,
+      "reading_order": 49,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "Found in places like the Sahara Desert and the Thar Desert.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 103,
+        "source_line_end": 103,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Desert Climate"
+    },
+    {
+      "block_id": "p0005-b0014",
+      "page_number": 5,
+      "reading_order": 50,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "It has very little rainfall, hot days, and cold nights.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 105,
+        "source_line_end": 105,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Desert Climate"
+    },
+    {
+      "block_id": "p0005-b0015",
+      "page_number": 5,
+      "reading_order": 51,
+      "block_type": "figure",
+      "semantic_role": "lesson_content",
+      "source_text": "Original textbook desert photograph",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 107,
+        "source_line_end": 107,
+        "extraction_mode": "markdown_fallback"
+      },
+      "media": {
+        "source": "images/desert-photo.png",
+        "alt_text": "Original textbook desert photograph"
+      },
+      "heading": "Desert Climate"
+    },
+    {
+      "block_id": "p0006-b0001",
+      "page_number": 6,
+      "reading_order": 52,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text": "Tundra Climate",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 111,
+        "source_line_end": 111,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Tundra Climate"
+    },
+    {
+      "block_id": "p0006-b0002",
+      "page_number": 6,
+      "reading_order": 53,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "Found near the poles, such as in Greenland and Antarctica. It is extremely cold with little or no vegetation.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 113,
+        "source_line_end": 113,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Tundra Climate"
+    },
+    {
+      "block_id": "p0006-b0003",
+      "page_number": 6,
+      "reading_order": 54,
+      "block_type": "figure",
+      "semantic_role": "lesson_content",
+      "source_text": "Original textbook snowy landscape and reindeer photograph",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 115,
+        "source_line_end": 115,
+        "extraction_mode": "markdown_fallback"
+      },
+      "media": {
+        "source": "images/tundra-photo.png",
+        "alt_text": "Original textbook snowy landscape and reindeer photograph"
+      },
+      "heading": "Tundra Climate"
+    },
+    {
+      "block_id": "p0006-b0004",
+      "page_number": 6,
+      "reading_order": 55,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text": "Do You Know?",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 117,
+        "source_line_end": 117,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Do You Know?"
+    },
+    {
+      "block_id": "p0006-b0005",
+      "page_number": 6,
+      "reading_order": 56,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "Antarctica is the driest, coldest, and windiest continent on Earth. It hasn’t rained there in millions of years, but it’s still considered a desert because of the lack of precipitation.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 119,
+        "source_line_end": 119,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Do You Know?"
+    },
+    {
+      "block_id": "p0006-b0006",
+      "page_number": 6,
+      "reading_order": 57,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text": "Climatic Zones of the Earth",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 121,
+        "source_line_end": 121,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Climatic Zones of the Earth"
+    },
+    {
+      "block_id": "p0006-b0007",
+      "page_number": 6,
+      "reading_order": 58,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "The Earth is divided into three main climatic zones based on latitude.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 123,
+        "source_line_end": 123,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Climatic Zones of the Earth"
+    },
+    {
+      "block_id": "p0006-b0008",
+      "page_number": 6,
+      "reading_order": 59,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text": "Torrid Zone",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 125,
+        "source_line_end": 125,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Torrid Zone"
+    },
+    {
+      "block_id": "p0006-b0009",
+      "page_number": 6,
+      "reading_order": 60,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "Located between the Tropic of Cancer and the Tropic of Capricorn.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 127,
+        "source_line_end": 127,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Torrid Zone"
+    },
+    {
+      "block_id": "p0006-b0010",
+      "page_number": 6,
+      "reading_order": 61,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "It is the hottest zone as it receives direct sunlight.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 129,
+        "source_line_end": 129,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Torrid Zone"
+    },
+    {
+      "block_id": "p0006-b0011",
+      "page_number": 6,
+      "reading_order": 62,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text": "Temperate Zone",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 131,
+        "source_line_end": 131,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Temperate Zone"
+    },
+    {
+      "block_id": "p0006-b0012",
+      "page_number": 6,
+      "reading_order": 63,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "Found between the tropics and the polar circles.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 133,
+        "source_line_end": 133,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Temperate Zone"
+    },
+    {
+      "block_id": "p0006-b0013",
+      "page_number": 6,
+      "reading_order": 64,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "It has moderate temperatures with distinct seasons.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 135,
+        "source_line_end": 135,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Temperate Zone"
+    },
+    {
+      "block_id": "p0006-b0014",
+      "page_number": 6,
+      "reading_order": 65,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text": "Do you know?",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 137,
+        "source_line_end": 137,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Do you know?"
+    },
+    {
+      "block_id": "p0006-b0015",
+      "page_number": 6,
+      "reading_order": 66,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "There are different types of clouds that can tell you about the weather? For example, cumulus clouds are fluffy and show fair weather, while nimbostratus clouds bring rain or snow.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 139,
+        "source_line_end": 139,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Do you know?"
+    },
+    {
+      "block_id": "p0007-b0001",
+      "page_number": 7,
+      "reading_order": 67,
+      "block_type": "section_heading",
+      "semantic_role": "lesson_content",
+      "source_text": "Frigid Zone",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 143,
+        "source_line_end": 143,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Frigid Zone"
+    },
+    {
+      "block_id": "p0007-b0002",
+      "page_number": 7,
+      "reading_order": 68,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "Located near the poles.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 145,
+        "source_line_end": 145,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Frigid Zone"
+    },
+    {
+      "block_id": "p0007-b0003",
+      "page_number": 7,
+      "reading_order": 69,
+      "block_type": "paragraph",
+      "semantic_role": "lesson_content",
+      "source_text": "It is the coldest zone with ice-covered lands.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 147,
+        "source_line_end": 147,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Frigid Zone"
+    },
+    {
+      "block_id": "p0007-b0004",
+      "page_number": 7,
+      "reading_order": 70,
+      "block_type": "figure",
+      "semantic_role": "lesson_content",
+      "source_text": "Original textbook climatic zones diagram",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 149,
+        "source_line_end": 149,
+        "extraction_mode": "markdown_fallback"
+      },
+      "media": {
+        "source": "images/climatic-zones.png",
+        "alt_text": "Original textbook climatic zones diagram"
+      },
+      "heading": "Frigid Zone"
+    },
+    {
+      "block_id": "p0007-b0005",
+      "page_number": 7,
+      "reading_order": 71,
+      "block_type": "section_heading",
+      "semantic_role": "recall",
+      "source_text": "Recall",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 151,
+        "source_line_end": 151,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Recall"
+    },
+    {
+      "block_id": "p0007-b0006",
+      "page_number": 7,
+      "reading_order": 72,
+      "block_type": "recall",
+      "semantic_role": "recall",
+      "source_text": "Weather and climate are essential aspects of our environment. Many factors, such as latitude, altitude, wind, and ocean currents, influence climate. Different regions experience different types of climates, affecting the way people live, the food they grow and the clothes they wear.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 153,
+        "source_line_end": 153,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Recall"
+    },
+    {
+      "block_id": "p0007-b0007",
+      "page_number": 7,
+      "reading_order": 73,
+      "block_type": "section_heading",
+      "semantic_role": "recall",
+      "source_text": "Let's Remember",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 155,
+        "source_line_end": 155,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Let's Remember"
+    },
+    {
+      "block_id": "p0007-b0008",
+      "page_number": 7,
+      "reading_order": 74,
+      "block_type": "recall",
+      "semantic_role": "recall",
+      "source_text": "Weather is the daily atmospheric condition of a place.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 157,
+        "source_line_end": 157,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Let's Remember"
+    },
+    {
+      "block_id": "p0007-b0009",
+      "page_number": 7,
+      "reading_order": 75,
+      "block_type": "recall",
+      "semantic_role": "recall",
+      "source_text": "Climate is the average weather over a long period.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 158,
+        "source_line_end": 158,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Let's Remember"
+    },
+    {
+      "block_id": "p0007-b0010",
+      "page_number": 7,
+      "reading_order": 76,
+      "block_type": "recall",
+      "semantic_role": "recall",
+      "source_text": "Latitude, altitude, distance from the sea, and winds influence climate.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 159,
+        "source_line_end": 159,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Let's Remember"
+    },
+    {
+      "block_id": "p0007-b0011",
+      "page_number": 7,
+      "reading_order": 77,
+      "block_type": "recall",
+      "semantic_role": "recall",
+      "source_text": "The world has different types of climate, including tropical, desert, and tundra.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 160,
+        "source_line_end": 160,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Let's Remember"
+    },
+    {
+      "block_id": "p0007-b0012",
+      "page_number": 7,
+      "reading_order": 78,
+      "block_type": "recall",
+      "semantic_role": "recall",
+      "source_text": "The Earth has three climatic zones: torrid, temperate, and frigid.",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 161,
+        "source_line_end": 161,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading": "Let's Remember"
+    },
+    {
+      "block_id": "p0007-b0013",
+      "page_number": 7,
+      "reading_order": 79,
+      "block_type": "section_heading",
+      "semantic_role": "glossary",
+      "source_text": "Word Bank",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 163,
+        "source_line_end": 163,
+        "extraction_mode": "markdown_fallback"
+      },
+      "heading_level": 2,
+      "heading": "Word Bank"
+    },
+    {
+      "block_id": "p0007-b0014",
+      "page_number": 7,
+      "reading_order": 80,
+      "block_type": "table",
+      "semantic_role": "glossary",
+      "source_text": "| Word | Meaning |\n| --- | --- |\n| Humidity | The amount of water vapor in the air. |\n| Altitude | The height of a place above sea level. |\n| Equator | An imaginary line dividing the Earth into two halves. |\n| Monsoon | Seasonal winds that bring heavy rain. |\n| Tundra | A cold region with little vegetation. |",
+      "required_for_coverage": true,
+      "provenance": {
+        "source_line_start": 165,
+        "source_line_end": 171,
+        "extraction_mode": "markdown_fallback"
+      },
+      "table": {
+        "row_count": 6,
+        "column_count": 2,
+        "header_rows": 1,
+        "cells": [
+          {
+            "row": 0,
+            "column": 0,
+            "text": "Word",
+            "row_span": 1,
+            "column_span": 1,
+            "is_header": true
+          },
+          {
+            "row": 0,
+            "column": 1,
+            "text": "Meaning",
+            "row_span": 1,
+            "column_span": 1,
+            "is_header": true
+          },
+          {
+            "row": 1,
+            "column": 0,
+            "text": "Humidity",
+            "row_span": 1,
+            "column_span": 1,
+            "is_header": false
+          },
+          {
+            "row": 1,
+            "column": 1,
+            "text": "The amount of water vapor in the air.",
+            "row_span": 1,
+            "column_span": 1,
+            "is_header": false
+          },
+          {
+            "row": 2,
+            "column": 0,
+            "text": "Altitude",
+            "row_span": 1,
+            "column_span": 1,
+            "is_header": false
+          },
+          {
+            "row": 2,
+            "column": 1,
+            "text": "The height of a place above sea level.",
+            "row_span": 1,
+            "column_span": 1,
+            "is_header": false
+          },
+          {
+            "row": 3,
+            "column": 0,
+            "text": "Equator",
+            "row_span": 1,
+            "column_span": 1,
+            "is_header": false
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "text": "An imaginary line dividing the Earth into two halves.",
+            "row_span": 1,
+            "column_span": 1,
+            "is_header": false
+          },
+          {
+            "row": 4,
+            "column": 0,
+            "text": "Monsoon",
+            "row_span": 1,
+            "column_span": 1,
+            "is_header": false
+          },
+          {
+            "row": 4,
+            "column": 1,
+            "text": "Seasonal winds that bring heavy rain.",
+            "row_span": 1,
+            "column_span": 1,
+            "is_header": false
+          },
+          {
+            "row": 5,
+            "column": 0,
+            "text": "Tundra",
+            "row_span": 1,
+            "column_span": 1,
+            "is_header": false
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "text": "A cold region with little vegetation.",
+            "row_span": 1,
+            "column_span": 1,
+            "is_header": false
+          }
+        ]
+      },
+      "heading": "Word Bank"
+    }
+  ],
+  "validation": {
+    "block_count": 80,
+    "required_block_count": 80,
+    "page_count_represented": 7,
+    "semantic_roles": [
+      "glossary",
+      "lesson_content",
+      "recall"
+    ],
+    "duplicate_block_ids": false,
+    "recovered_layout_blocks": 0
+  }
+}

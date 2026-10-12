@@ -1,0 +1,32 @@
+{
+  "version": "1.0",
+  "project_id": "class-5-social-part-0-chapter-3-worlds-weather-and-climate",
+  "pipeline_type": "educational-video",
+  "stage": "text_audio_alignment",
+  "status": "completed",
+  "timestamp": "2026-10-06T10:47:54.257098+00:00",
+  "checkpoint_policy": "auto_noncreative",
+  "human_approval_required": false,
+  "human_approved": false,
+  "artifacts": {
+    "narration_aligned_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\alignment-timed-v1\\narration_aligned.json",
+    "word_captions_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\alignment-timed-v1\\word_captions.json",
+    "formatted_srt_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\alignment-timed-v1\\formatted_subtitles.srt",
+    "timing_qa_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\audio-pause-audit-v1.json"
+  },
+  "style_playbook": "clean-professional",
+  "cost_snapshot": {
+    "total_spent_usd": 0.0,
+    "total_reserved_usd": 0.0,
+    "budget_remaining_usd": 5.0
+  },
+  "metadata": {
+    "method": "measured CTC; no proportional word timings",
+    "words": 981,
+    "stage_started_at_unix": 1791283673.5925174,
+    "stage_duration_seconds": 0.291,
+    "estimated_duration_seconds": 180.0,
+    "eta_accuracy_ratio": 0.002,
+    "artifact_sha256": "8a6349344153f07237e48816aea2e2ca76d15359f56830881dd064d11eb76e8a"
+  }
+}

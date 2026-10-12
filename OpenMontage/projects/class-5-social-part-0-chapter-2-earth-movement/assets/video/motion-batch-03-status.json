@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "batch": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-03.json",
+  "shots": [
+    {
+      "shot_id": "earth-opening-clean-i2v-03",
+      "section_id": "s01-title",
+      "status": "submitted",
+      "request_id": "188300762",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-03\\earth-opening-clean-i2v-03.mp4",
+      "error": null
+    }
+  ],
+  "complete": false
+}

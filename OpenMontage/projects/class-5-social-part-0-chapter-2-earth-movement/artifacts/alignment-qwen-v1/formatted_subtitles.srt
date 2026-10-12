@@ -1,0 +1,671 @@
+1
+00:00:00,000 --> 00:00:01,240
+Social Studies, Class 5.
+
+2
+00:00:01,720 --> 00:00:02,560
+Lesson 2: Earth Movement.
+
+3
+00:00:04,687 --> 00:00:05,947
+Learning Objectives.
+
+4
+00:00:07,647 --> 00:00:09,227
+By the end of this chapter,
+
+5
+00:00:09,567 --> 00:00:10,507
+learners will be able to:
+
+6
+00:00:10,587 --> 00:00:12,047
+Understand that the Earth is spherical.
+
+7
+00:00:12,567 --> 00:00:14,187
+Identify the two types of movements of
+
+8
+00:00:14,267 --> 00:00:14,587
+the Earth.
+
+9
+00:00:14,967 --> 00:00:16,527
+Explain rotation and its effects.
+
+10
+00:00:16,927 --> 00:00:18,707
+Understand revolution and its effects.
+
+11
+00:00:19,107 --> 00:00:21,227
+Learn about different seasons caused by revolution.
+
+12
+00:00:21,727 --> 00:00:24,007
+Define solstices and equinoxes and when they
+
+13
+00:00:24,087 --> 00:00:24,407
+occur.
+
+14
+00:00:26,233 --> 00:00:26,973
+Start-Up Activity.
+
+15
+00:00:29,233 --> 00:00:30,753
+Take a ball and spin it.
+
+16
+00:00:31,133 --> 00:00:32,053
+Notice how it moves.
+
+17
+00:00:32,613 --> 00:00:34,233
+Imagine this is the Earth moving in
+
+18
+00:00:34,313 --> 00:00:34,633
+space.
+
+19
+00:00:35,013 --> 00:00:37,353
+The Earth moves in two ways—let's explore
+
+20
+00:00:37,433 --> 00:00:38,753
+these movements and their effects!
+
+21
+00:00:40,580 --> 00:00:42,280
+Who proved that the earth is spherical?
+
+22
+00:00:44,820 --> 00:00:47,420
+Many ancient civilizations believed that the Earth
+
+23
+00:00:47,500 --> 00:00:48,000
+was flat.
+
+24
+00:00:48,500 --> 00:00:51,100
+However, Greek philosopher Pythagoras was one of
+
+25
+00:00:51,180 --> 00:00:52,680
+the first to suggest that the Earth
+
+26
+00:00:52,760 --> 00:00:53,200
+is spherical.
+
+27
+00:00:53,860 --> 00:00:56,760
+Later, Aristotle provided evidence by observing how
+
+28
+00:00:56,840 --> 00:00:58,780
+ships disappear over the horizon and how
+
+29
+00:00:58,860 --> 00:01:00,260
+the Earth's shadow on the Moon is
+
+30
+00:01:00,340 --> 00:01:01,700
+curved during a lunar eclipse.
+
+31
+00:01:02,740 --> 00:01:04,800
+Ferdinand Magellan's voyage around the world further
+
+32
+00:01:04,880 --> 00:01:06,300
+confirmed that the Earth is round.
+
+33
+00:01:07,919 --> 00:01:09,479
+The Two Movements of the Earth.
+
+34
+00:01:11,459 --> 00:01:13,159
+The Earth moves in two ways:
+
+35
+00:01:13,579 --> 00:01:15,439
+Rotation – The Earth spins on its
+
+36
+00:01:15,519 --> 00:01:16,599
+axis around itself.
+
+37
+00:01:17,079 --> 00:01:18,979
+Revolution – The Earth moves around the
+
+38
+00:01:19,059 --> 00:01:19,379
+Sun.
+
+39
+00:01:20,879 --> 00:01:21,279
+Rotation.
+
+40
+00:01:21,359 --> 00:01:26,099
+Rotation is the movement of the Earth
+
+41
+00:01:26,179 --> 00:01:28,199
+around its own axis is called Rotation.
+
+42
+00:01:29,079 --> 00:01:30,899
+The earth rotates from west to east.
+
+43
+00:01:31,439 --> 00:01:33,419
+It completes one full rotation in 24
+
+44
+00:01:33,499 --> 00:01:33,819
+hours.
+
+45
+00:01:34,259 --> 00:01:35,959
+The speed of rotation is faster at
+
+46
+00:01:36,039 --> 00:01:37,599
+the equator and slower at the poles.
+
+47
+00:01:38,259 --> 00:01:39,739
+The axis is tilted at an angle
+
+48
+00:01:39,819 --> 00:01:41,692
+of 23.5°.
+
+49
+00:01:41,839 --> 00:01:43,559
+As the Earth is spherical in shape,
+
+50
+00:01:43,799 --> 00:01:45,339
+only one half of the Earth receives
+
+51
+00:01:45,419 --> 00:01:46,339
+sunlight at a time.
+
+52
+00:01:47,479 --> 00:01:49,259
+Thus, the side of the Earth facing
+
+53
+00:01:49,339 --> 00:01:50,439
+the Sun experience day.
+
+54
+00:01:51,059 --> 00:01:51,759
+On the other hand,
+
+55
+00:01:52,019 --> 00:01:52,559
+the other half,
+
+56
+00:01:52,859 --> 00:01:53,999
+or the part away from the sun,
+
+57
+00:01:54,319 --> 00:01:55,299
+experiences night.
+
+58
+00:01:55,679 --> 00:01:56,619
+As the Earth rotates,
+
+59
+00:01:56,779 --> 00:01:58,359
+the lighted part moves into the darkness.
+
+60
+00:01:59,459 --> 00:02:00,999
+Rotation causes day and night.
+
+61
+00:02:02,939 --> 00:02:03,879
+Do You Know?
+
+62
+00:02:06,139 --> 00:02:08,239
+The Earth rotates at a speed of
+
+63
+00:02:08,319 --> 00:02:11,799
+1,670 kilometers per hour at the equator,
+
+64
+00:02:12,339 --> 00:02:14,173
+but we don’t feel it because we’re
+
+65
+00:02:14,253 --> 00:02:15,239
+moving along with it!
+
+66
+00:02:16,827 --> 00:02:17,587
+Revolution.
+
+67
+00:02:19,887 --> 00:02:21,467
+Revolution is the movement of the Earth
+
+68
+00:02:21,547 --> 00:02:22,867
+around the Sun in a fixed path
+
+69
+00:02:22,947 --> 00:02:23,507
+called an orbit.
+
+70
+00:02:24,067 --> 00:02:25,267
+The Earth revolves around the Sun in
+
+71
+00:02:25,347 --> 00:02:26,027
+an elliptical orbit.
+
+72
+00:02:26,587 --> 00:02:29,367
+It takes 365¼ days (one year) to
+
+73
+00:02:29,447 --> 00:02:30,227
+complete one revolution.
+
+74
+00:02:31,227 --> 00:02:32,447
+The tilt of the Earth's axis remains
+
+75
+00:02:32,527 --> 00:02:33,567
+the same during revolution.
+
+76
+00:02:34,747 --> 00:02:35,767
+Revolution causes seasonal changes.
+
+77
+00:02:37,147 --> 00:02:38,187
+The revolution of the Earth and the
+
+78
+00:02:38,267 --> 00:02:39,567
+tilt of its axis cause different seasons:
+
+79
+00:02:40,047 --> 00:02:41,467
+Summer – The hemisphere tilted towards the
+
+80
+00:02:41,547 --> 00:02:42,347
+Sun experiences summer.
+
+81
+00:02:43,967 --> 00:02:45,647
+Winter – The hemisphere tilted away from
+
+82
+00:02:45,727 --> 00:02:46,627
+the Sun experiences winter.
+
+83
+00:02:47,947 --> 00:02:49,227
+Spring – Occurs between winter and summer
+
+84
+00:02:49,307 --> 00:02:50,487
+when the temperature starts rising.
+
+85
+00:02:51,667 --> 00:02:53,047
+Autumn – Occurs between summer and winter
+
+86
+00:02:53,127 --> 00:02:54,267
+when the temperature starts dropping.
+
+87
+00:02:56,583 --> 00:02:57,563
+Let's Learn More.
+
+88
+00:02:59,943 --> 00:03:01,883
+A day on Earth is actually 23
+
+89
+00:03:01,963 --> 00:03:03,423
+hours, 56 minutes,
+
+90
+00:03:03,863 --> 00:03:05,583
+not exactly 24 hours,
+
+91
+00:03:05,943 --> 00:03:07,563
+but we round it off to 24
+
+92
+00:03:07,643 --> 00:03:09,363
+hours because it’s easier to keep track
+
+93
+00:03:09,443 --> 00:03:09,783
+of time.
+
+94
+00:03:11,486 --> 00:03:13,686
+What is Solstice and When Does It
+
+95
+00:03:13,766 --> 00:03:14,086
+Occur?
+
+96
+00:03:16,466 --> 00:03:17,726
+A solstice is a day,
+
+97
+00:03:18,066 --> 00:03:20,026
+when the sun shines vertically over a
+
+98
+00:03:20,106 --> 00:03:22,366
+Tropic (both cancer and Capricorn) in the
+
+99
+00:03:22,446 --> 00:03:24,146
+afternoon and the day is the longest
+
+100
+00:03:24,226 --> 00:03:25,146
+in that hemisphere.
+
+101
+00:03:25,906 --> 00:03:27,146
+On 22 December,
+
+102
+00:03:27,546 --> 00:03:29,066
+the rays of the sun fall directly
+
+103
+00:03:29,146 --> 00:03:30,626
+over the Tropic of Capricorn.
+
+104
+00:03:31,086 --> 00:03:32,506
+This is the longest day in Southern
+
+105
+00:03:32,586 --> 00:03:34,166
+Hemisphere (summer season),
+
+106
+00:03:34,606 --> 00:03:35,866
+while in the Northern Hemisphere,
+
+107
+00:03:36,266 --> 00:03:38,366
+it is the shortest day (winter season).
+
+108
+00:03:38,926 --> 00:03:40,406
+This is called 'Winter Solstice.
+
+109
+00:03:40,486 --> 00:03:41,866
+On 21 June,
+
+110
+00:03:42,306 --> 00:03:44,226
+sunlight falls vertically over the Tropic of
+
+111
+00:03:44,306 --> 00:03:44,626
+Cancer.
+
+112
+00:03:45,166 --> 00:03:46,526
+This is the longest day in Northern
+
+113
+00:03:46,606 --> 00:03:48,869
+Hemisphere and hence it is called 'Summer
+
+114
+00:03:48,949 --> 00:03:50,586
+Solstice', while in the Southern Hemisphere,
+
+115
+00:03:51,006 --> 00:03:52,006
+it is the shortest day.
+
+116
+00:03:53,588 --> 00:03:54,768
+Let's Learn More.
+
+117
+00:03:57,148 --> 00:03:59,228
+Earth keeps rotating due to inertia,
+
+118
+00:03:59,688 --> 00:04:01,948
+the same reason you continue moving forward
+
+119
+00:04:02,028 --> 00:04:03,548
+when you stop a bike suddenly.
+
+120
+00:04:04,088 --> 00:04:06,288
+This movement doesn’t stop because there’s no
+
+121
+00:04:06,368 --> 00:04:08,208
+friction in space to slow it down!
+
+122
+00:04:09,838 --> 00:04:11,618
+What is Equinox and When Does It
+
+123
+00:04:11,698 --> 00:04:12,018
+Occur?
+
+124
+00:04:14,458 --> 00:04:16,438
+The sun falls directly on the equator
+
+125
+00:04:16,518 --> 00:04:17,578
+two times in a year.
+
+126
+00:04:18,058 --> 00:04:19,918
+During this period there is equal length
+
+127
+00:04:19,998 --> 00:04:21,318
+of day and night all over the
+
+128
+00:04:21,398 --> 00:04:21,718
+world.
+
+129
+00:04:22,118 --> 00:04:23,018
+In Northern Hemisphere,
+
+130
+00:04:23,518 --> 00:04:25,158
+the March Equinox is called the Vernal
+
+131
+00:04:25,238 --> 00:04:27,698
+or Spring Equinox while September Equinox is
+
+132
+00:04:27,778 --> 00:04:29,098
+called Autumnal Equinox.
+
+133
+00:04:29,718 --> 00:04:32,018
+Spring Equinox (March 21st) marks the beginning
+
+134
+00:04:32,098 --> 00:04:32,458
+of spring.
+
+135
+00:04:32,538 --> 00:04:35,578
+Autumn Equinox (September 23rd) marks the beginning
+
+136
+00:04:35,658 --> 00:04:36,138
+of autumn.
+
+137
+00:04:37,847 --> 00:04:38,427
+Recall.
+
+138
+00:04:41,227 --> 00:04:41,887
+The Earth's movements,
+
+139
+00:04:42,167 --> 00:04:43,107
+rotation and revolution,
+
+140
+00:04:43,487 --> 00:04:44,927
+have significant affects on our lives.
+
+141
+00:04:45,567 --> 00:04:46,907
+Rotation causes day and night,
+
+142
+00:04:47,067 --> 00:04:48,487
+while revolution leads to the change of
+
+143
+00:04:48,567 --> 00:04:48,887
+seasons.
+
+144
+00:04:49,467 --> 00:04:51,347
+Solstices and equinoxes mark the shift in
+
+145
+00:04:51,427 --> 00:04:53,147
+seasons, playing an essential role in our
+
+146
+00:04:53,227 --> 00:04:54,067
+climate and timekeeping.
+
+147
+00:04:55,782 --> 00:04:56,462
+Let's Remember.
+
+148
+00:04:56,742 --> 00:05:00,062
+The Earth moves in two ways:
+
+149
+00:05:00,682 --> 00:05:01,422
+rotation and revolution.
+
+150
+00:05:02,022 --> 00:05:03,222
+Rotation causes day and night,
+
+151
+00:05:03,422 --> 00:05:04,702
+while revolution causes seasons.
+
+152
+00:05:05,222 --> 00:05:06,882
+The Earth completes one rotation in 24
+
+153
+00:05:06,962 --> 00:05:09,802
+hours and one revolution in 365¼ days.
+
+154
+00:05:10,542 --> 00:05:12,062
+Solstices occur in June and December,
+
+155
+00:05:12,402 --> 00:05:13,862
+marking the longest and shortest days.
+
+156
+00:05:14,462 --> 00:05:15,822
+Equinoxes occur in March and September,
+
+157
+00:05:16,062 --> 00:05:17,082
+when day and night are equal.
+
+158
+00:05:18,760 --> 00:05:19,400
+Word Bank.
+
+159
+00:05:21,880 --> 00:05:23,460
+Rotation – Spinning of the Earth on
+
+160
+00:05:23,540 --> 00:05:24,060
+its axis.
+
+161
+00:05:24,540 --> 00:05:26,340
+Revolution – Movement of the Earth around
+
+162
+00:05:26,420 --> 00:05:26,760
+the Sun.
+
+163
+00:05:27,460 --> 00:05:28,960
+Orbit – The path of the Earth
+
+164
+00:05:29,040 --> 00:05:29,760
+around the Sun.
+
+165
+00:05:30,400 --> 00:05:31,860
+Solstice – When the Sun is at
+
+166
+00:05:31,940 --> 00:05:33,580
+its farthest point north or south.
+
+167
+00:05:34,100 --> 00:05:35,700
+Equinox – When day and night are
+
+168
+00:05:35,780 --> 00:05:36,100
+equal.

@@ -1,0 +1,10 @@
+{
+  "voice_id": "zJrRUu1KEcKH8qdpNaPJ",
+  "model_id": "eleven_v4",
+  "text_sha256": "ecea94091fea0ca8a367da6241c726f2ec32d060a1cb0ecb850e43f06b81db83",
+  "context_sha256": "316deeb28892b1cdebfe5c12c2cd620b5b8f29289c1ffe3d4f5fc1b2e6a4ea7d",
+  "settings_sha256": "6bfc8618847cf92c46b254c69cac40b6f667d59384825fd01f919eae5dd46a57",
+  "characters": 54,
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\elevenlabs-v4-review\\niharika-access-check.mp3",
+  "status": "audio_received"
+}

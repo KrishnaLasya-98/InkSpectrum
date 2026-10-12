@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "project_id": "class-5-social-part-0-chapter-2-earth-movement",
+  "pipeline_type": "educational-video",
+  "stage": "voice_synthesis",
+  "status": "failed",
+  "timestamp": "2026-10-01T11:20:46.957234+00:00",
+  "checkpoint_policy": "auto_noncreative",
+  "human_approval_required": false,
+  "human_approved": false,
+  "artifacts": {},
+  "style_playbook": "clean-professional",
+  "error": "Upstream stage media_research restarted; outputs require rebuilding or revalidation.",
+  "metadata": {
+    "invalidated_by": "media_research",
+    "previous_status": "in_progress"
+  }
+}

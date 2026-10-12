@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "status": "pass",
+  "reviewer": "codex-agent-visual-inspection",
+  "reviewed_encoded_full_motion_midpoints": 49,
+  "reviewed_contact_sheets": [
+    "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\encoded-semantic-coverage-v2\\full-motion-contact-sheet-01.jpg",
+    "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\encoded-semantic-coverage-v2\\full-motion-contact-sheet-02.jpg",
+    "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\encoded-semantic-coverage-v2\\full-motion-contact-sheet-03.jpg",
+    "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\encoded-semantic-coverage-v2\\full-motion-contact-sheet-04.jpg",
+    "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\encoded-semantic-coverage-v2\\full-motion-contact-sheet-05.jpg",
+    "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\encoded-semantic-coverage-v2\\full-motion-contact-sheet-06.jpg"
+  ],
+  "checks": {
+    "cue_and_narration_match": true,
+    "source_concept_match": true,
+    "generated_text_artifacts": false,
+    "split_screen_artifacts": false,
+    "repeated_full_motion_sources": false,
+    "unintended_blank_or_black_frames": false
+  },
+  "notes": [
+    "All six encoded full-motion contact sheets were inspected at original detail.",
+    "Each of the 49 midpoint frames matched its contemporaneous cue, narration, and teaching panel.",
+    "The two rejected generated clips are absent from the encoded composition."
+  ]
+}

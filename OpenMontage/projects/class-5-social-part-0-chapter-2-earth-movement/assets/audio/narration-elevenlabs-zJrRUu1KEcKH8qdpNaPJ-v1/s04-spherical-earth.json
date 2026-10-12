@@ -1,0 +1,10 @@
+{
+  "voice_id": "zJrRUu1KEcKH8qdpNaPJ",
+  "model_id": "eleven_v4",
+  "text_sha256": "3b569ca3f5c053d847642c993216f24eefb6f08068d32db0143dbec0660d8a0c",
+  "context_sha256": "a3de83c8af305bb4df7bb1a0de4f579c219f3e5407d645ce88cef1d30b48ad3d",
+  "settings_sha256": "6bfc8618847cf92c46b254c69cac40b6f667d59384825fd01f919eae5dd46a57",
+  "characters": 445,
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-elevenlabs-zJrRUu1KEcKH8qdpNaPJ-v1\\s04-spherical-earth.mp3",
+  "status": "audio_received"
+}

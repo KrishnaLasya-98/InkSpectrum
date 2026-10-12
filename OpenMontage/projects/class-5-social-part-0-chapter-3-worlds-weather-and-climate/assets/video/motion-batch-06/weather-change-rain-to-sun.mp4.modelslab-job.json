@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188664286",
+  "request_fingerprint": "2f7a898acfe0758d4151a544d4b2020e0023accde6fad34a4297d540e3ad74c7",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-06\\weather-change-rain-to-sun.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791353159.8029644,
+  "last_poll_at_unix": 1791353241.4429111,
+  "completed_at_unix": 1791353243.2243927
+}

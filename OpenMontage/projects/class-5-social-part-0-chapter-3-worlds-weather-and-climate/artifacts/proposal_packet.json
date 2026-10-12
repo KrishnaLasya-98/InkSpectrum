@@ -1,0 +1,105 @@
+{
+  "version": "1.0",
+  "concept_options": [
+    {
+      "id": "c1",
+      "title": "Source-faithful animated lesson",
+      "hook": "Let us discover Worlds Weather and Climate together!",
+      "narrative_structure": "journey",
+      "visual_approach": "Fresh child-friendly 3D motion with compact textbook teaching panels.",
+      "target_duration_seconds": 533.0,
+      "why_this_works": "It preserves textbook order while keeping young learners visually engaged."
+    },
+    {
+      "id": "c2",
+      "title": "Precision-first classroom lesson",
+      "hook": "Watch each idea become clear step by step.",
+      "narrative_structure": "tutorial",
+      "visual_approach": "Deterministic diagrams and stable reading screens with limited story motion.",
+      "target_duration_seconds": 533.0,
+      "why_this_works": "It maximizes accuracy for symbols, tables, worked examples, and exercises."
+    },
+    {
+      "id": "c3",
+      "title": "Evidence-led visual explanation",
+      "hook": "See how the lesson connects to the world around us.",
+      "narrative_structure": "comparison",
+      "visual_approach": "Reviewed factual references blended with authored teaching graphics.",
+      "target_duration_seconds": 533.0,
+      "why_this_works": "It suits factual chapters where authenticity matters more than character continuity."
+    }
+  ],
+  "selected_concept": {
+    "concept_id": "c1",
+    "rationale": "The approved educational standard requires source-faithful, child-friendly 3D motion and fixed HyperFrames teaching UI."
+  },
+  "production_plan": {
+    "pipeline": "educational-video",
+    "stages": [
+      {
+        "stage": "source_and_planning",
+        "tools": [],
+        "approach": "Preserve every required source block and map it to narration, screen, and visual evidence."
+      },
+      {
+        "stage": "media_generation",
+        "tools": [],
+        "approach": "Generate ModelsLab narration and fresh 3D motion; use deterministic teaching modes where needed."
+      },
+      {
+        "stage": "composition_and_qa",
+        "tools": [],
+        "approach": "Compose with the locked HyperFrames template and block export on failed QA."
+      }
+    ],
+    "render_runtime": "hyperframes",
+    "renderer_family": "animation-first",
+    "composition_mode": "atelier",
+    "art_direction": "Locked hyperframes-educational-v1 warm classroom film with cream panels and word-highlight subtitle lane.",
+    "ui_template_id": "hyperframes-educational-v1",
+    "ui_template_version": null,
+    "ui_template_package_sha256": "314f80e7ea636efdd0ee359e9ccfde22524ebb46a7274962f236d588e8954917",
+    "visual_media": "animated-video-only",
+    "audio_provider": "elevenlabs",
+    "video_provider": "modelslab",
+    "fresh_assets_only": true,
+    "allow_clip_reuse": false,
+    "delivery_promise": {
+      "promise_type": "motion_led",
+      "motion_required": true,
+      "tone_mode": "educational",
+      "quality_floor": "broadcast",
+      "approved_fallback": null
+    }
+  },
+  "cost_estimate": {
+    "total_estimated_usd": 0.0,
+    "line_items": [
+      {
+        "tool": "modelslab",
+        "operation": "chapter narration, character references, and generated motion",
+        "quantity": 28,
+        "estimated_usd": 0.0,
+        "notes": "Actual price is account/model dependent and is recorded from provider responses."
+      }
+    ],
+    "budget_verdict": "no_budget_set"
+  },
+  "approval": {
+    "status": "approved",
+    "user_notes": "Full-run preauthorization recorded in chapter configuration."
+  },
+  "metadata": {
+    "project_id": "class-5-social-part-0-chapter-3-worlds-weather-and-climate",
+    "subject": "social-studies",
+    "grade": 5,
+    "chapter": 3,
+    "title": "Worlds Weather and Climate",
+    "source_input": "D:\\InkSpectrum\\OpenMontage\\textbook-collections\\class-5-social\\source-chapters\\chapter-03-world-s-weather-and-climate.pdf",
+    "content_contract": {
+      "source_fidelity": "complete-topic-coverage",
+      "allow_invented_labels": false,
+      "remove_redundant_text": true
+    }
+  }
+}

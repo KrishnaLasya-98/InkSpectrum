@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "status": "pass",
+  "review_state": "draft_timing_only_not_visual_qa",
+  "issues": [],
+  "total_duration_seconds": 426.472,
+  "timeline": [
+    {"section_id":"s01-title","start_seconds":0.000,"end_seconds":8.117,"visual_duration_policy":"as_is"},
+    {"section_id":"s02-objectives","start_seconds":8.117,"end_seconds":38.215,"visual_duration_policy":"as_is"},
+    {"section_id":"s03-startup","start_seconds":38.215,"end_seconds":57.005,"visual_duration_policy":"as_is"},
+    {"section_id":"s04-spherical-earth","start_seconds":57.005,"end_seconds":92.031,"visual_duration_policy":"as_is"},
+    {"section_id":"s05-two-movements","start_seconds":92.031,"end_seconds":108.176,"visual_duration_policy":"as_is"},
+    {"section_id":"s06-rotation","start_seconds":108.176,"end_seconds":156.791,"visual_duration_policy":"as_is"},
+    {"section_id":"s07-do-you-know","start_seconds":156.791,"end_seconds":172.275,"visual_duration_policy":"as_is"},
+    {"section_id":"s08-revolution","start_seconds":172.275,"end_seconds":224.473,"visual_duration_policy":"as_is"},
+    {"section_id":"s09-day-length","start_seconds":224.473,"end_seconds":243.371,"visual_duration_policy":"as_is"},
+    {"section_id":"s10-solstice","start_seconds":243.371,"end_seconds":290.385,"visual_duration_policy":"as_is"},
+    {"section_id":"s11-inertia","start_seconds":290.385,"end_seconds":309.603,"visual_duration_policy":"as_is"},
+    {"section_id":"s12-equinox","start_seconds":309.603,"end_seconds":344.095,"visual_duration_policy":"as_is"},
+    {"section_id":"s13-recall","start_seconds":344.095,"end_seconds":369.968,"visual_duration_policy":"as_is"},
+    {"section_id":"s14-remember","start_seconds":369.968,"end_seconds":403.393,"visual_duration_policy":"as_is"},
+    {"section_id":"s15-wordbank","start_seconds":403.393,"end_seconds":426.472,"visual_duration_policy":"as_is"}
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "shots": [
+    {
+      "shot_id": "startup-warm-place",
+      "section_id": "s03-startup",
+      "num_frames": 120,
+      "prompt": "A warm tropical town in gentle morning sunshine, palm leaves sway, children in simple school uniforms walk comfortably outdoors and soft white clouds move across a blue sky. Polished child-friendly 3D animated film, smooth camera glide, no text, labels, signs, logos, watermarks, loops or frozen frames."
+    },
+    {
+      "shot_id": "startup-cold-place",
+      "section_id": "s03-startup",
+      "num_frames": 120,
+      "prompt": "A cold mountain town with snow on rooftops and distant peaks, bundled schoolchildren walk along a safe path while breath mist and light snow move naturally. Polished child-friendly 3D animated film, smooth camera glide, no text, labels, signs, logos, watermarks, loops or frozen frames."
+    },
+    {
+      "shot_id": "weather-cloud-cover",
+      "section_id": "s04-weather",
+      "num_frames": 120,
+      "prompt": "A green landscape as scattered white clouds steadily gather into broad cloud cover, sunlight and shadows change across moving grass while wind rustles tree leaves. Polished child-friendly 3D animated film, gentle time-lapse feeling with continuous motion, no text, labels, people, logos, watermarks, loops or frozen frames."
+    },
+    {
+      "shot_id": "weather-change-rain-to-sun",
+      "section_id": "s04-weather",
+      "num_frames": 120,
+      "prompt": "A garden experiences a short rain shower and then bright sunlight breaks through moving clouds, droplets continue falling from leaves as the scene becomes sunny, clearly showing weather changing during one day. Polished child-friendly 3D animation, steady camera, no text, labels, people, logos, watermarks, loops or frozen frames."
+    },
+    {
+      "shot_id": "climate-long-term-seasons",
+      "section_id": "s06-climate",
+      "num_frames": 120,
+      "prompt": "The same peaceful valley and single large tree transition smoothly through spring blossoms, summer green leaves, autumn colors and winter snow, conveying patterns observed over long periods. Polished child-friendly 3D animated film, locked composition with continuous natural motion, no text, calendars, labels, people, logos, watermarks, loops or frozen frames."
+    },
+    {
+      "shot_id": "climate-wet-dry-contrast",
+      "section_id": "s06-climate",
+      "num_frames": 120,
+      "prompt": "A seamless camera journey moves from a dry sunlit landscape with sparse plants into a wet green landscape under steady rain, emphasizing two different long-term climate environments. Polished child-friendly 3D animated film, continuous forward camera, no split screen, text, labels, people, logos, watermarks, loops or frozen frames."
+    },
+    {
+      "shot_id": "altitude-foothill-to-peak",
+      "section_id": "s09-altitude",
+      "num_frames": 120,
+      "prompt": "A continuous aerial climb begins above a warm green plain, rises past forested mountain slopes, and approaches a cold snow-covered summit beneath moving clouds, clearly showing cooler conditions higher up. Polished child-friendly 3D animation, smooth ascending camera, no text, labels, people, logos, watermarks, loops or frozen frames."
+    },
+    {
+      "shot_id": "coast-day-thermal-lag",
+      "section_id": "s10-sea-land-breeze",
+      "num_frames": 120,
+      "prompt": "A bright daytime coastline with sun-warmed land beside cooler blue sea, grass and palm leaves bend inland while ocean waves roll continuously and small clouds drift. Polished child-friendly 3D animated film, gentle coastal tracking camera, no text, arrows, labels, people, logos, watermarks, loops or frozen frames."
+    },
+    {
+      "shot_id": "coast-night-thermal-lag",
+      "section_id": "s10-sea-land-breeze",
+      "num_frames": 120,
+      "prompt": "The same kind of coastline at night, dark land beside a slightly warmer moving sea under moonlight, grasses bend seaward while waves roll and clouds drift. Polished child-friendly 3D animated film, calm tracking camera, no text, arrows, labels, people, logos, watermarks, loops or frozen frames."
+    },
+    {
+      "shot_id": "humidity-lush-coast",
+      "section_id": "s12-humidity",
+      "num_frames": 120,
+      "prompt": "A lush coastal garden after rain with damp leaves, puddles and dense green plants beside a moving blue sea, warm air and swaying foliage suggesting a humid coast without visible steam. Polished child-friendly 3D animated film, slow camera push, no text, labels, people, logos, watermarks, loops or frozen frames."
+    },
+    {
+      "shot_id": "warm-current-coast",
+      "section_id": "s13-currents",
+      "num_frames": 120,
+      "prompt": "A mild green coastline beside flowing open-ocean water under warm sunlight, broad surface movement travels steadily along the shore while coastal vegetation sways. Polished child-friendly 3D animated film, oblique aerial camera, no arrows, maps, text, labels, people, logos, watermarks, loops or frozen frames."
+    },
+    {
+      "shot_id": "cold-current-coast",
+      "section_id": "s13-currents",
+      "num_frames": 120,
+      "prompt": "A cool rocky coastline beside dark moving ocean water with pale misty clouds and patches of distant sea ice, broad current-like surface movement travels along shore. Polished child-friendly 3D animated film, oblique aerial camera, no arrows, maps, text, labels, people, logos, watermarks, loops or frozen frames."
+    },
+    {
+      "shot_id": "monsoon-rice-fields",
+      "section_id": "s16-monsoon",
+      "num_frames": 120,
+      "prompt": "Heavy monsoon rain falls over vivid green rice fields and a small tropical village, palms bend in the wind and water flows through field channels under dark moving clouds. Polished child-friendly 3D animated film, safe wide view, no text, labels, people, logos, watermarks, loops or frozen frames."
+    },
+    {
+      "shot_id": "equatorial-rainforest-river",
+      "section_id": "s17-equatorial",
+      "num_frames": 120,
+      "prompt": "A dense equatorial rainforest surrounds a broad flowing river during warm heavy rainfall, layered green leaves sway, droplets strike the water and mist moves between tall trees. Polished child-friendly 3D animated film, gentle river-level camera motion, no text, labels, people, animals, logos, watermarks, loops or frozen frames."
+    },
+    {
+      "shot_id": "temperate-four-seasons-tree",
+      "section_id": "s23-temperate",
+      "num_frames": 120,
+      "prompt": "One large tree in a temperate meadow transitions clearly through spring blossoms, full summer leaves, orange autumn foliage and bare snowy winter branches while the camera stays consistent. Polished child-friendly 3D animated film, continuous seasonal transformation, no text, labels, people, logos, watermarks, loops or frozen frames."
+    }
+  ]
+}

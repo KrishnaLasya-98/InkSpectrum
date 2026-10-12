@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "scope": "Fresh source-cued Chapter 2 story and context replacements",
+  "provider": "modelslab",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "shots": [
+    {
+      "shot_id": "ship-horizon-natural-05",
+      "section_id": "s04-spherical-earth",
+      "narration_cue": "ships disappear over the horizon",
+      "prompt": "A child-friendly 3D animated film from a quiet beach at sea level. One small wooden sailing ship travels steadily away from the camera across a calm blue ocean. Over five continuous seconds, the lower hull sinks from view behind the distant natural sea horizon while the upper mast remains visible for longer. Gentle daylight and a steady camera keep the simple ship-and-water action easy for a student to understand."
+    },
+    {
+      "shot_id": "bicycle-inertia-05",
+      "section_id": "s11-inertia",
+      "narration_cue": "you continue moving forward when you stop a bike suddenly",
+      "prompt": "A safe child-friendly 3D animated film in a bright green park. A ten-year-old child wearing a bicycle helmet pedals slowly, then smoothly brakes to a stop. The child's upper body naturally leans forward for a moment before settling upright, illustrating continued forward motion. The bicycle stays in frame and the rider remains balanced. One continuous five-second camera view with clear readable action and warm family-animation lighting."
+    },
+    {
+      "shot_id": "spring-park-05",
+      "section_id": "s08-revolution",
+      "narration_cue": "Spring – Occurs between winter and summer",
+      "prompt": "A polished child-friendly 3D animated park in spring. New green leaves unfold on a single tree, small flowers open among fresh grass, and gentle sunshine warms the scene. The same park remains in view through one continuous five-second shot, with a smooth restrained camera glide and natural spring movement. Soft blue sky, clear cheerful composition, and no people or objects unrelated to the season."
+    }
+  ]
+}

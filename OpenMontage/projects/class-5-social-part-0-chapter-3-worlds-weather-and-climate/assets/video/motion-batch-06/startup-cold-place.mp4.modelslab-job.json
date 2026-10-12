@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188664278",
+  "request_fingerprint": "7ec09c0c053c47a2cbae5287746722c33bd19ee9fa986469859ac69bdae8cd58",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-06\\startup-cold-place.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791353156.9555988,
+  "last_poll_at_unix": 1791353236.406405,
+  "completed_at_unix": 1791353238.268136
+}

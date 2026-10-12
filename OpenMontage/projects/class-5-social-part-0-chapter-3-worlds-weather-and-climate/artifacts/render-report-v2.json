@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "outputs": [
+    {
+      "path": "D:\\InkSpectrum\\OpenMontage\\renders\\class-5-social-chapter-03-worlds-weather-and-climate-review-v2.mp4",
+      "format": "mp4",
+      "codec": "h264",
+      "audio_codec": "aac",
+      "resolution": "1920x1080",
+      "fps": 30.0,
+      "duration_seconds": 548.266667,
+      "file_size_bytes": 379083839,
+      "platform_target": "local-mp4"
+    }
+  ],
+  "render_time_seconds": 1855.6,
+  "warnings": [],
+  "verification_notes": [
+    "Single-worker low-memory HyperFrames encode completed successfully (16,448 frames).",
+    "Encoded QA passed container, audio correlation, loudness, black-frame, exact-frame, and 28 heading-pause checks.",
+    "All source topics and 11 required figures/tables were reviewed in actual encoded frames.",
+    "All 49 full-motion midpoint frames matched contemporaneous narration; no full-motion source was reused."
+  ],
+  "render_grammar": "animation-first",
+  "slideshow_risk_score": {
+    "average": 0.613539,
+    "verdict": "pass: 49 unique full-motion inserts plus 23 precision-authored teaching visuals"
+  },
+  "final_review_ref": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\final_review.json",
+  "metadata": {
+    "candidate_sha256": "d0976e875060cd69f00d211b8fdad18379594b25efb12bd12afff1a2f2669cc6",
+    "encoded_qa": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\encoded-qa-v3\\encoded-qa-report.json",
+    "encoded_comparison": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\encoded-comparison-v3\\encoded-comparison-report.json",
+    "encoded_semantic_coverage": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\encoded-semantic-coverage-v2\\semantic-coverage-report.json"
+  }
+}

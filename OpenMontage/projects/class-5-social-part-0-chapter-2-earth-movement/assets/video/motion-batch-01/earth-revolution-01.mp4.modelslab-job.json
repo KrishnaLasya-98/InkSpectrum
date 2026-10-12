@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188298987",
+  "request_fingerprint": "06c10b9f456451bd1964caa34ec3ee0fc354600f32563dcf7166a05622420002",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-01\\earth-revolution-01.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1790853687.8594618,
+  "last_poll_at_unix": 1790853969.1790485,
+  "completed_at_unix": 1790853971.1592832
+}

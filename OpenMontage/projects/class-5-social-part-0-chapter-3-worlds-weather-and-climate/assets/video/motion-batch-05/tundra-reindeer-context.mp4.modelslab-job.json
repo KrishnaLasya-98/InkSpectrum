@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "terminal_failed",
+  "request_id": "188662873",
+  "request_fingerprint": "f39ec2fd4cb52bbb175a13068a08071bb23dc19bd9737b18f2250478457bbe7c",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\tundra-reindeer-context.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791351171.2614896,
+  "provider_status": "failed",
+  "failed_at_unix": 1791353077.163859
+}

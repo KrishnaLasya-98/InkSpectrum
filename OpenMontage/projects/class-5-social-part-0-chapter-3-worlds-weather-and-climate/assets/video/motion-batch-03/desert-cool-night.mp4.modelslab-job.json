@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188618988",
+  "request_fingerprint": "d67246291fc5d1947b4eb3753c288df8c85784edbb052418d874e04a6f731574",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-03\\desert-cool-night.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791284926.0320837,
+  "last_poll_at_unix": 1791285159.5670238,
+  "completed_at_unix": 1791285161.0730553
+}

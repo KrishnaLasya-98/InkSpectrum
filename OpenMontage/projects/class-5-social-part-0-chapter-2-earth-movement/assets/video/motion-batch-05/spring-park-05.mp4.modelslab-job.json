@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188302623",
+  "request_fingerprint": "c8a07b11f8e7fa669edb856d7449a7965866e478c45b38470fa998ee178ccd5e",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-05\\spring-park-05.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1790857675.766679,
+  "last_poll_at_unix": 1790858150.6691484,
+  "completed_at_unix": 1790858152.463242
+}

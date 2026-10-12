@@ -1,0 +1,6967 @@
+{
+  "version": "1.0",
+  "duration_seconds": 548.234,
+  "sections": [
+    {
+      "section_id": "s01-title",
+      "heading": "Lesson 3: Worlds Weather and Climate",
+      "display": [
+        "",
+        "Lesson 3: Worlds Weather and Climate",
+        ""
+      ],
+      "source_block_ids": [
+        "p0001-b0001"
+      ],
+      "start_seconds": 0.0,
+      "end_seconds": 8.311
+    },
+    {
+      "section_id": "s02-objectives",
+      "heading": "Learning Objectives",
+      "display": [
+        "Learning Objectives",
+        "",
+        "By the end of this chapter, learners will be able to:",
+        "Explain the difference between weather and climate.",
+        "Identify and describe the factors affecting climate.",
+        "Understand the different types of climate found in the world.",
+        "Recognize the climatic zones of the Earth.",
+        "Explain how climate affects human life and the environment."
+      ],
+      "source_block_ids": [
+        "p0001-b0002",
+        "p0001-b0003",
+        "p0001-b0004",
+        "p0001-b0005",
+        "p0001-b0006",
+        "p0001-b0007",
+        "p0001-b0008"
+      ],
+      "start_seconds": 8.311,
+      "end_seconds": 36.277
+    },
+    {
+      "section_id": "s03-startup",
+      "heading": "Start-Up",
+      "display": [
+        "Start-Up",
+        "",
+        "Look outside the window! Is it sunny, cloudy, or rainy? Have you ever noticed how the weather changes throughout the day? Some places are always warm, while others are cold. Why does this happen? In this chapter, we will explore the differences between weather and climate and understand the factors that influence them."
+      ],
+      "source_block_ids": [
+        "p0001-b0009",
+        "p0001-b0010"
+      ],
+      "start_seconds": 36.277,
+      "end_seconds": 63.362
+    },
+    {
+      "section_id": "s04-weather",
+      "heading": "Weather",
+      "display": [
+        "Weather",
+        "",
+        "Weather is the condition of the atmosphere at a particular place and time. It includes temperature, wind, rainfall, humidity, and cloud cover. Weather can change from hour to hour or day to day. For example, one morning, it may be sunny and by afternoon it could rain."
+      ],
+      "source_block_ids": [
+        "p0001-b0011",
+        "p0001-b0012"
+      ],
+      "start_seconds": 63.362,
+      "end_seconds": 88.4
+    },
+    {
+      "section_id": "s05-hot-desert-fact",
+      "heading": "Do You Know?",
+      "display": [
+        "Do You Know?",
+        "",
+        "The hottest place on Earth is the Lut Desert in Iran, where temperatures have been recorded as high as 159.3°F (70.7°C)! Imagine how hot it must be to have that much heat!"
+      ],
+      "source_block_ids": [
+        "p0001-b0013",
+        "p0001-b0014"
+      ],
+      "start_seconds": 88.4,
+      "end_seconds": 109.336
+    },
+    {
+      "section_id": "s06-climate",
+      "heading": "Climate",
+      "display": [
+        "Climate",
+        "",
+        "Climate is the average weather condition of a place over a long period, usually 30 years or more. It tells us whether a place is generally hot, cold, wet, or dry. For example, the climate of the Sahara Desert is hot and dry, while the climate of the Amazon Rainforest is warm and rainy."
+      ],
+      "source_block_ids": [
+        "p0002-b0001",
+        "p0002-b0002"
+      ],
+      "start_seconds": 109.336,
+      "end_seconds": 136.183
+    },
+    {
+      "section_id": "s07-factors",
+      "heading": "Factors Affecting Climate",
+      "display": [
+        "Factors Affecting Climate",
+        "",
+        "Several factors influence the climate of a place. Let us explore them one by one."
+      ],
+      "source_block_ids": [
+        "p0002-b0003",
+        "p0002-b0004"
+      ],
+      "start_seconds": 136.183,
+      "end_seconds": 147.556
+    },
+    {
+      "section_id": "s08-latitude",
+      "heading": "Distance from the Equator (Latitudes)",
+      "display": [
+        "Distance from the Equator (Latitudes)",
+        "",
+        "The Earth is divided into imaginary lines called latitudes. Places near the equator receive direct sunlight throughout the year, making them hot. As we move towards the poles, sunlight spreads out, making these areas cooler. This is why tropical regions are warm, while polar regions are cold."
+      ],
+      "source_block_ids": [
+        "p0002-b0005",
+        "p0002-b0006",
+        "p0002-b0007"
+      ],
+      "start_seconds": 147.556,
+      "end_seconds": 177.527
+    },
+    {
+      "section_id": "s09-altitude",
+      "heading": "Altitude",
+      "display": [
+        "Altitude",
+        "",
+        "Altitude is the height of a place above sea level. Higher altitudes have cooler temperatures because the air is thinner and cannot hold much heat. For example, mountains are colder than plains at the same latitude."
+      ],
+      "source_block_ids": [
+        "p0003-b0001",
+        "p0003-b0002",
+        "p0003-b0003"
+      ],
+      "start_seconds": 177.527,
+      "end_seconds": 197.65
+    },
+    {
+      "section_id": "s10-sea-land-breeze",
+      "heading": "Distance from the Sea (Sea Breeze and Land Breeze)",
+      "display": [
+        "Distance from the Sea (Sea Breeze and Land Breeze)",
+        "",
+        "Oceans and seas influence the climate of coastal areas. Water heats up and cools down more slowly than land. During the day, land heats up faster than water, causing a sea breeze to blow from the sea to the land. At night, the land cools down quickly, and a land breeze blows from land to the sea. This keeps coastal areas cooler in summer and warmer in winter compared to inland regions."
+      ],
+      "source_block_ids": [
+        "p0003-b0004",
+        "p0003-b0005",
+        "p0003-b0006"
+      ],
+      "start_seconds": 197.65,
+      "end_seconds": 234.657
+    },
+    {
+      "section_id": "s11-wind",
+      "heading": "Direction of the Wind",
+      "display": [
+        "Direction of the Wind",
+        "",
+        "Winds carry heat and moisture from one place to another. Winds coming from the sea bring rain, while winds from deserts bring dry weather. For example, the monsoon winds bring heavy rainfall to India."
+      ],
+      "source_block_ids": [
+        "p0004-b0001",
+        "p0004-b0002",
+        "p0004-b0003"
+      ],
+      "start_seconds": 234.657,
+      "end_seconds": 254.757
+    },
+    {
+      "section_id": "s12-humidity",
+      "heading": "Humidity",
+      "display": [
+        "Humidity",
+        "",
+        "Humidity is the amount of water vapour in the air. Places with high humidity receive more rainfall, while dry areas have less humidity. For example, coastal areas have higher humidity than deserts."
+      ],
+      "source_block_ids": [
+        "p0004-b0004",
+        "p0004-b0005",
+        "p0004-b0006"
+      ],
+      "start_seconds": 254.757,
+      "end_seconds": 275.146
+    },
+    {
+      "section_id": "s13-currents",
+      "heading": "Ocean Currents",
+      "display": [
+        "Ocean Currents",
+        "",
+        "Ocean currents are large movements of water in the oceans. Warm ocean currents make coastal areas warmer, while cold currents bring cool temperatures. For example, the Gulf Stream warms Europe, while the cold Labrador Current cools Canada."
+      ],
+      "source_block_ids": [
+        "p0004-b0007",
+        "p0004-b0008",
+        "p0004-b0009"
+      ],
+      "start_seconds": 275.146,
+      "end_seconds": 298.095
+    },
+    {
+      "section_id": "s14-rainforest-fact",
+      "heading": "Let's Learn More!",
+      "display": [
+        "Let's Learn More!",
+        "",
+        "Rainforests receive about 80 inches of rain each year and they are so important because they provide oxygen and food to the world. Without them, our planet would be very different!"
+      ],
+      "source_block_ids": [
+        "p0005-b0001",
+        "p0005-b0002"
+      ],
+      "start_seconds": 298.095,
+      "end_seconds": 315.972
+    },
+    {
+      "section_id": "s15-climate-types",
+      "heading": "Types of Climate",
+      "display": [
+        "Types of Climate",
+        "",
+        "Different parts of the world have different types of climate. Let's look at some major types."
+      ],
+      "source_block_ids": [
+        "p0005-b0003",
+        "p0005-b0004"
+      ],
+      "start_seconds": 315.972,
+      "end_seconds": 326.315
+    },
+    {
+      "section_id": "s16-monsoon",
+      "heading": "Monsoon or Tropical Climate",
+      "display": [
+        "Monsoon or Tropical Climate",
+        "",
+        "Found in South Asia, Southeast Asia, and some parts of Africa.",
+        "It has hot summers and receives heavy rainfall during the monsoon season."
+      ],
+      "source_block_ids": [
+        "p0005-b0005",
+        "p0005-b0006",
+        "p0005-b0007"
+      ],
+      "start_seconds": 326.315,
+      "end_seconds": 342.397
+    },
+    {
+      "section_id": "s17-equatorial",
+      "heading": "Equatorial Climate",
+      "display": [
+        "Equatorial Climate",
+        "",
+        "Found near the equator, such as in the Amazon Rainforest and Congo Basin.",
+        "It is hot and humid throughout the year with heavy rainfall."
+      ],
+      "source_block_ids": [
+        "p0005-b0008",
+        "p0005-b0009",
+        "p0005-b0010",
+        "p0005-b0011"
+      ],
+      "start_seconds": 342.397,
+      "end_seconds": 357.342
+    },
+    {
+      "section_id": "s18-desert",
+      "heading": "Desert Climate",
+      "display": [
+        "Desert Climate",
+        "",
+        "Found in places like the Sahara Desert and the Thar Desert.",
+        "It has very little rainfall, hot days, and cold nights."
+      ],
+      "source_block_ids": [
+        "p0005-b0012",
+        "p0005-b0013",
+        "p0005-b0014",
+        "p0005-b0015"
+      ],
+      "start_seconds": 357.342,
+      "end_seconds": 370.526
+    },
+    {
+      "section_id": "s19-tundra",
+      "heading": "Tundra Climate",
+      "display": [
+        "Tundra Climate",
+        "",
+        "Found near the poles, such as in Greenland and Antarctica. It is extremely cold with little or no vegetation."
+      ],
+      "source_block_ids": [
+        "p0006-b0001",
+        "p0006-b0002",
+        "p0006-b0003"
+      ],
+      "start_seconds": 370.526,
+      "end_seconds": 383.702
+    },
+    {
+      "section_id": "s20-antarctica-fact",
+      "heading": "Do You Know?",
+      "display": [
+        "Do You Know?",
+        "",
+        "Antarctica is the driest, coldest, and windiest continent on Earth. It hasn’t rained there in millions of years, but it’s still considered a desert because of the lack of precipitation."
+      ],
+      "source_block_ids": [
+        "p0006-b0004",
+        "p0006-b0005"
+      ],
+      "start_seconds": 383.702,
+      "end_seconds": 401.719
+    },
+    {
+      "section_id": "s21-zones",
+      "heading": "Climatic Zones of the Earth",
+      "display": [
+        "Climatic Zones of the Earth",
+        "",
+        "The Earth is divided into three main climatic zones based on latitude."
+      ],
+      "source_block_ids": [
+        "p0006-b0006",
+        "p0006-b0007"
+      ],
+      "start_seconds": 401.719,
+      "end_seconds": 412.008
+    },
+    {
+      "section_id": "s22-torrid",
+      "heading": "Torrid Zone",
+      "display": [
+        "Torrid Zone",
+        "",
+        "Located between the Tropic of Cancer and the Tropic of Capricorn.",
+        "It is the hottest zone as it receives direct sunlight."
+      ],
+      "source_block_ids": [
+        "p0006-b0008",
+        "p0006-b0009",
+        "p0006-b0010"
+      ],
+      "start_seconds": 412.008,
+      "end_seconds": 424.781
+    },
+    {
+      "section_id": "s23-temperate",
+      "heading": "Temperate Zone",
+      "display": [
+        "Temperate Zone",
+        "",
+        "Found between the tropics and the polar circles.",
+        "It has moderate temperatures with distinct seasons."
+      ],
+      "source_block_ids": [
+        "p0006-b0011",
+        "p0006-b0012",
+        "p0006-b0013"
+      ],
+      "start_seconds": 424.781,
+      "end_seconds": 436.044
+    },
+    {
+      "section_id": "s24-cloud-fact",
+      "heading": "Do you know?",
+      "display": [
+        "Do you know?",
+        "",
+        "There are different types of clouds that can tell you about the weather? For example, cumulus clouds are fluffy and show fair weather, while nimbostratus clouds bring rain or snow."
+      ],
+      "source_block_ids": [
+        "p0006-b0014",
+        "p0006-b0015"
+      ],
+      "start_seconds": 436.044,
+      "end_seconds": 451.941
+    },
+    {
+      "section_id": "s25-frigid",
+      "heading": "Frigid Zone",
+      "display": [
+        "Frigid Zone",
+        "",
+        "Located near the poles.",
+        "It is the coldest zone with ice-covered lands."
+      ],
+      "source_block_ids": [
+        "p0007-b0001",
+        "p0007-b0002",
+        "p0007-b0003",
+        "p0007-b0004"
+      ],
+      "start_seconds": 451.941,
+      "end_seconds": 461.81
+    },
+    {
+      "section_id": "s26-recall",
+      "heading": "Recall",
+      "display": [
+        "Recall",
+        "",
+        "Weather and climate are essential aspects of our environment. Many factors, such as latitude, altitude, wind, and ocean currents, influence climate. Different regions experience different types of climates, affecting the way people live, the food they grow and the clothes they wear."
+      ],
+      "source_block_ids": [
+        "p0007-b0005",
+        "p0007-b0006"
+      ],
+      "start_seconds": 461.81,
+      "end_seconds": 487.226
+    },
+    {
+      "section_id": "s27-remember",
+      "heading": "Let's Remember",
+      "display": [
+        "Let's Remember",
+        "",
+        "Weather is the daily atmospheric condition of a place.",
+        "Climate is the average weather over a long period.",
+        "Latitude, altitude, distance from the sea, and winds influence climate.",
+        "The world has different types of climate, including tropical, desert, and tundra.",
+        "The Earth has three climatic zones: torrid, temperate, and frigid."
+      ],
+      "source_block_ids": [
+        "p0007-b0007",
+        "p0007-b0008",
+        "p0007-b0009",
+        "p0007-b0010",
+        "p0007-b0011",
+        "p0007-b0012"
+      ],
+      "start_seconds": 487.226,
+      "end_seconds": 518.287
+    },
+    {
+      "section_id": "s28-wordbank",
+      "heading": "Word Bank",
+      "display": [
+        "Word Bank",
+        "",
+        "",
+        "Word",
+        "Meaning",
+        "Humidity",
+        "The amount of water vapor in the air.",
+        "Altitude",
+        "The height of a place above sea level.",
+        "Equator",
+        "An imaginary line dividing the Earth into two halves.",
+        "Monsoon",
+        "Seasonal winds that bring heavy rain.",
+        "Tundra",
+        "A cold region with little vegetation."
+      ],
+      "source_block_ids": [
+        "p0007-b0013",
+        "p0007-b0014"
+      ],
+      "start_seconds": 518.287,
+      "end_seconds": 548.234
+    }
+  ],
+  "captions": [
+    {
+      "id": "caption-0001",
+      "start": 0.0,
+      "end": 2.829,
+      "words": [
+        {
+          "word": "Social",
+          "start": 0.1,
+          "end": 0.461
+        },
+        {
+          "word": "Studies,",
+          "start": 0.562,
+          "end": 0.983
+        },
+        {
+          "word": "Class",
+          "start": 1.364,
+          "end": 1.645
+        },
+        {
+          "word": "5.",
+          "start": 1.745,
+          "end": 2.066
+        }
+      ]
+    },
+    {
+      "id": "caption-0002",
+      "start": 2.829,
+      "end": 4.273,
+      "words": [
+        {
+          "word": "Lesson",
+          "start": 2.829,
+          "end": 3.15
+        },
+        {
+          "word": "3:",
+          "start": 3.27,
+          "end": 3.531
+        }
+      ]
+    },
+    {
+      "id": "caption-0003",
+      "start": 4.273,
+      "end": 8.371,
+      "words": [
+        {
+          "word": "Worlds",
+          "start": 4.273,
+          "end": 4.674
+        },
+        {
+          "word": "Weather",
+          "start": 5.015,
+          "end": 5.316
+        },
+        {
+          "word": "and",
+          "start": 5.577,
+          "end": 5.657
+        },
+        {
+          "word": "Climate.",
+          "start": 5.758,
+          "end": 6.311
+        }
+      ]
+    },
+    {
+      "id": "caption-0004",
+      "start": 8.371,
+      "end": 11.602,
+      "words": [
+        {
+          "word": "Learning",
+          "start": 8.371,
+          "end": 8.731
+        },
+        {
+          "word": "Objectives.",
+          "start": 8.831,
+          "end": 9.602
+        }
+      ]
+    },
+    {
+      "id": "caption-0005",
+      "start": 11.602,
+      "end": 13.601,
+      "words": [
+        {
+          "word": "By",
+          "start": 11.602,
+          "end": 11.74
+        },
+        {
+          "word": "the",
+          "start": 11.82,
+          "end": 11.92
+        },
+        {
+          "word": "end",
+          "start": 12.04,
+          "end": 12.16
+        },
+        {
+          "word": "of",
+          "start": 12.24,
+          "end": 12.28
+        },
+        {
+          "word": "this",
+          "start": 12.34,
+          "end": 12.48
+        },
+        {
+          "word": "chapter,",
+          "start": 12.58,
+          "end": 13.001
+        }
+      ]
+    },
+    {
+      "id": "caption-0006",
+      "start": 13.601,
+      "end": 15.963,
+      "words": [
+        {
+          "word": "learners",
+          "start": 13.601,
+          "end": 14.001
+        },
+        {
+          "word": "will",
+          "start": 14.042,
+          "end": 14.222
+        },
+        {
+          "word": "be",
+          "start": 14.262,
+          "end": 14.362
+        },
+        {
+          "word": "able",
+          "start": 14.502,
+          "end": 14.702
+        },
+        {
+          "word": "to:",
+          "start": 14.782,
+          "end": 14.902
+        }
+      ]
+    },
+    {
+      "id": "caption-0007",
+      "start": 15.963,
+      "end": 18.385,
+      "words": [
+        {
+          "word": "Explain",
+          "start": 15.963,
+          "end": 16.383
+        },
+        {
+          "word": "the",
+          "start": 16.503,
+          "end": 16.583
+        },
+        {
+          "word": "difference",
+          "start": 16.644,
+          "end": 17.084
+        },
+        {
+          "word": "between",
+          "start": 17.204,
+          "end": 17.544
+        },
+        {
+          "word": "weather",
+          "start": 17.644,
+          "end": 17.965
+        },
+        {
+          "word": "and",
+          "start": 18.205,
+          "end": 18.285
+        }
+      ]
+    },
+    {
+      "id": "caption-0008",
+      "start": 18.385,
+      "end": 19.686,
+      "words": [
+        {
+          "word": "climate.",
+          "start": 18.385,
+          "end": 18.845
+        }
+      ]
+    },
+    {
+      "id": "caption-0009",
+      "start": 19.686,
+      "end": 22.688,
+      "words": [
+        {
+          "word": "Identify",
+          "start": 19.686,
+          "end": 20.366
+        },
+        {
+          "word": "and",
+          "start": 20.587,
+          "end": 20.667
+        },
+        {
+          "word": "describe",
+          "start": 20.727,
+          "end": 21.227
+        },
+        {
+          "word": "the",
+          "start": 21.307,
+          "end": 21.367
+        },
+        {
+          "word": "factors",
+          "start": 21.467,
+          "end": 21.968
+        },
+        {
+          "word": "affecting",
+          "start": 22.148,
+          "end": 22.628
+        }
+      ]
+    },
+    {
+      "id": "caption-0010",
+      "start": 22.688,
+      "end": 23.869,
+      "words": [
+        {
+          "word": "climate.",
+          "start": 22.688,
+          "end": 23.108
+        }
+      ]
+    },
+    {
+      "id": "caption-0011",
+      "start": 23.869,
+      "end": 26.171,
+      "words": [
+        {
+          "word": "Understand",
+          "start": 23.869,
+          "end": 24.389
+        },
+        {
+          "word": "the",
+          "start": 24.49,
+          "end": 24.57
+        },
+        {
+          "word": "different",
+          "start": 24.65,
+          "end": 25.01
+        },
+        {
+          "word": "types",
+          "start": 25.09,
+          "end": 25.35
+        },
+        {
+          "word": "of",
+          "start": 25.43,
+          "end": 25.47
+        },
+        {
+          "word": "climate",
+          "start": 25.59,
+          "end": 26.011
+        }
+      ]
+    },
+    {
+      "id": "caption-0012",
+      "start": 26.171,
+      "end": 27.872,
+      "words": [
+        {
+          "word": "found",
+          "start": 26.171,
+          "end": 26.431
+        },
+        {
+          "word": "in",
+          "start": 26.491,
+          "end": 26.531
+        },
+        {
+          "word": "the",
+          "start": 26.611,
+          "end": 26.691
+        },
+        {
+          "word": "world.",
+          "start": 26.731,
+          "end": 27.032
+        }
+      ]
+    },
+    {
+      "id": "caption-0013",
+      "start": 27.872,
+      "end": 30.134,
+      "words": [
+        {
+          "word": "Recognize",
+          "start": 27.872,
+          "end": 28.453
+        },
+        {
+          "word": "the",
+          "start": 28.533,
+          "end": 28.613
+        },
+        {
+          "word": "climatic",
+          "start": 28.673,
+          "end": 29.193
+        },
+        {
+          "word": "zones",
+          "start": 29.313,
+          "end": 29.634
+        },
+        {
+          "word": "of",
+          "start": 29.774,
+          "end": 29.814
+        },
+        {
+          "word": "the",
+          "start": 29.914,
+          "end": 30.014
+        }
+      ]
+    },
+    {
+      "id": "caption-0014",
+      "start": 30.134,
+      "end": 31.195,
+      "words": [
+        {
+          "word": "Earth.",
+          "start": 30.134,
+          "end": 30.334
+        }
+      ]
+    },
+    {
+      "id": "caption-0015",
+      "start": 31.195,
+      "end": 33.877,
+      "words": [
+        {
+          "word": "Explain",
+          "start": 31.195,
+          "end": 31.615
+        },
+        {
+          "word": "how",
+          "start": 31.755,
+          "end": 31.855
+        },
+        {
+          "word": "climate",
+          "start": 31.995,
+          "end": 32.416
+        },
+        {
+          "word": "affects",
+          "start": 32.516,
+          "end": 32.856
+        },
+        {
+          "word": "human",
+          "start": 32.976,
+          "end": 33.296
+        },
+        {
+          "word": "life",
+          "start": 33.376,
+          "end": 33.617
+        }
+      ]
+    },
+    {
+      "id": "caption-0016",
+      "start": 33.877,
+      "end": 36.357,
+      "words": [
+        {
+          "word": "and",
+          "start": 33.877,
+          "end": 33.977
+        },
+        {
+          "word": "the",
+          "start": 34.037,
+          "end": 34.117
+        },
+        {
+          "word": "environment.",
+          "start": 34.197,
+          "end": 34.777
+        }
+      ]
+    },
+    {
+      "id": "caption-0017",
+      "start": 36.357,
+      "end": 38.984,
+      "words": [
+        {
+          "word": "Start-Up.",
+          "start": 36.357,
+          "end": 36.984
+        }
+      ]
+    },
+    {
+      "id": "caption-0018",
+      "start": 38.984,
+      "end": 40.826,
+      "words": [
+        {
+          "word": "Look",
+          "start": 38.984,
+          "end": 39.184
+        },
+        {
+          "word": "outside",
+          "start": 39.264,
+          "end": 39.605
+        },
+        {
+          "word": "the",
+          "start": 39.665,
+          "end": 39.745
+        },
+        {
+          "word": "window!",
+          "start": 39.805,
+          "end": 40.125
+        }
+      ]
+    },
+    {
+      "id": "caption-0019",
+      "start": 40.826,
+      "end": 43.968,
+      "words": [
+        {
+          "word": "Is",
+          "start": 40.826,
+          "end": 40.866
+        },
+        {
+          "word": "it",
+          "start": 40.966,
+          "end": 41.026
+        },
+        {
+          "word": "sunny,",
+          "start": 41.166,
+          "end": 41.446
+        },
+        {
+          "word": "cloudy,",
+          "start": 41.966,
+          "end": 42.407
+        },
+        {
+          "word": "or",
+          "start": 42.827,
+          "end": 42.887
+        },
+        {
+          "word": "rainy?",
+          "start": 42.967,
+          "end": 43.288
+        }
+      ]
+    },
+    {
+      "id": "caption-0020",
+      "start": 43.968,
+      "end": 45.669,
+      "words": [
+        {
+          "word": "Have",
+          "start": 43.968,
+          "end": 44.088
+        },
+        {
+          "word": "you",
+          "start": 44.128,
+          "end": 44.208
+        },
+        {
+          "word": "ever",
+          "start": 44.428,
+          "end": 44.569
+        },
+        {
+          "word": "noticed",
+          "start": 44.669,
+          "end": 45.109
+        },
+        {
+          "word": "how",
+          "start": 45.289,
+          "end": 45.429
+        },
+        {
+          "word": "the",
+          "start": 45.509,
+          "end": 45.589
+        }
+      ]
+    },
+    {
+      "id": "caption-0021",
+      "start": 45.669,
+      "end": 48.091,
+      "words": [
+        {
+          "word": "weather",
+          "start": 45.669,
+          "end": 45.93
+        },
+        {
+          "word": "changes",
+          "start": 46.01,
+          "end": 46.43
+        },
+        {
+          "word": "throughout",
+          "start": 46.53,
+          "end": 46.91
+        },
+        {
+          "word": "the",
+          "start": 46.97,
+          "end": 47.071
+        },
+        {
+          "word": "day?",
+          "start": 47.111,
+          "end": 47.271
+        }
+      ]
+    },
+    {
+      "id": "caption-0022",
+      "start": 48.091,
+      "end": 50.713,
+      "words": [
+        {
+          "word": "Some",
+          "start": 48.091,
+          "end": 48.292
+        },
+        {
+          "word": "places",
+          "start": 48.372,
+          "end": 48.772
+        },
+        {
+          "word": "are",
+          "start": 48.992,
+          "end": 49.072
+        },
+        {
+          "word": "always",
+          "start": 49.272,
+          "end": 49.633
+        },
+        {
+          "word": "warm,",
+          "start": 49.693,
+          "end": 49.933
+        },
+        {
+          "word": "while",
+          "start": 50.393,
+          "end": 50.573
+        }
+      ]
+    },
+    {
+      "id": "caption-0023",
+      "start": 50.713,
+      "end": 52.435,
+      "words": [
+        {
+          "word": "others",
+          "start": 50.713,
+          "end": 51.014
+        },
+        {
+          "word": "are",
+          "start": 51.234,
+          "end": 51.314
+        },
+        {
+          "word": "cold.",
+          "start": 51.374,
+          "end": 51.674
+        }
+      ]
+    },
+    {
+      "id": "caption-0024",
+      "start": 52.435,
+      "end": 54.156,
+      "words": [
+        {
+          "word": "Why",
+          "start": 52.435,
+          "end": 52.555
+        },
+        {
+          "word": "does",
+          "start": 52.635,
+          "end": 52.775
+        },
+        {
+          "word": "this",
+          "start": 52.835,
+          "end": 52.955
+        },
+        {
+          "word": "happen?",
+          "start": 53.035,
+          "end": 53.356
+        }
+      ]
+    },
+    {
+      "id": "caption-0025",
+      "start": 54.156,
+      "end": 56.358,
+      "words": [
+        {
+          "word": "In",
+          "start": 54.156,
+          "end": 54.196
+        },
+        {
+          "word": "this",
+          "start": 54.296,
+          "end": 54.456
+        },
+        {
+          "word": "chapter,",
+          "start": 54.557,
+          "end": 54.957
+        },
+        {
+          "word": "we",
+          "start": 55.477,
+          "end": 55.577
+        },
+        {
+          "word": "will",
+          "start": 55.637,
+          "end": 55.798
+        },
+        {
+          "word": "explore",
+          "start": 55.858,
+          "end": 56.298
+        }
+      ]
+    },
+    {
+      "id": "caption-0026",
+      "start": 56.358,
+      "end": 59.38,
+      "words": [
+        {
+          "word": "the",
+          "start": 56.358,
+          "end": 56.438
+        },
+        {
+          "word": "differences",
+          "start": 56.498,
+          "end": 57.079
+        },
+        {
+          "word": "between",
+          "start": 57.219,
+          "end": 57.559
+        },
+        {
+          "word": "weather",
+          "start": 57.679,
+          "end": 57.999
+        },
+        {
+          "word": "and",
+          "start": 58.199,
+          "end": 58.28
+        },
+        {
+          "word": "climate",
+          "start": 58.4,
+          "end": 58.84
+        }
+      ]
+    },
+    {
+      "id": "caption-0027",
+      "start": 59.38,
+      "end": 61.722,
+      "words": [
+        {
+          "word": "and",
+          "start": 59.38,
+          "end": 59.46
+        },
+        {
+          "word": "understand",
+          "start": 59.601,
+          "end": 60.061
+        },
+        {
+          "word": "the",
+          "start": 60.121,
+          "end": 60.221
+        },
+        {
+          "word": "factors",
+          "start": 60.301,
+          "end": 60.782
+        },
+        {
+          "word": "that",
+          "start": 60.902,
+          "end": 61.022
+        },
+        {
+          "word": "influence",
+          "start": 61.162,
+          "end": 61.622
+        }
+      ]
+    },
+    {
+      "id": "caption-0028",
+      "start": 61.722,
+      "end": 63.482,
+      "words": [
+        {
+          "word": "them.",
+          "start": 61.722,
+          "end": 61.862
+        }
+      ]
+    },
+    {
+      "id": "caption-0029",
+      "start": 63.482,
+      "end": 65.89,
+      "words": [
+        {
+          "word": "Weather.",
+          "start": 63.482,
+          "end": 63.89
+        }
+      ]
+    },
+    {
+      "id": "caption-0030",
+      "start": 65.89,
+      "end": 67.744,
+      "words": [
+        {
+          "word": "Weather",
+          "start": 65.89,
+          "end": 66.303
+        },
+        {
+          "word": "is",
+          "start": 66.543,
+          "end": 66.583
+        },
+        {
+          "word": "the",
+          "start": 66.663,
+          "end": 66.723
+        },
+        {
+          "word": "condition",
+          "start": 66.803,
+          "end": 67.263
+        },
+        {
+          "word": "of",
+          "start": 67.363,
+          "end": 67.404
+        },
+        {
+          "word": "the",
+          "start": 67.484,
+          "end": 67.584
+        }
+      ]
+    },
+    {
+      "id": "caption-0031",
+      "start": 67.744,
+      "end": 70.126,
+      "words": [
+        {
+          "word": "atmosphere",
+          "start": 67.744,
+          "end": 68.344
+        },
+        {
+          "word": "at",
+          "start": 68.605,
+          "end": 68.665
+        },
+        {
+          "word": "a",
+          "start": 68.745,
+          "end": 68.765
+        },
+        {
+          "word": "particular",
+          "start": 68.845,
+          "end": 69.345
+        },
+        {
+          "word": "place",
+          "start": 69.445,
+          "end": 69.746
+        },
+        {
+          "word": "and",
+          "start": 69.946,
+          "end": 70.046
+        }
+      ]
+    },
+    {
+      "id": "caption-0032",
+      "start": 70.126,
+      "end": 71.307,
+      "words": [
+        {
+          "word": "time.",
+          "start": 70.126,
+          "end": 70.406
+        }
+      ]
+    },
+    {
+      "id": "caption-0033",
+      "start": 71.307,
+      "end": 76.011,
+      "words": [
+        {
+          "word": "It",
+          "start": 71.307,
+          "end": 71.367
+        },
+        {
+          "word": "includes",
+          "start": 71.447,
+          "end": 71.907
+        },
+        {
+          "word": "temperature,",
+          "start": 72.048,
+          "end": 72.588
+        },
+        {
+          "word": "wind,",
+          "start": 73.088,
+          "end": 73.369
+        },
+        {
+          "word": "rainfall,",
+          "start": 73.969,
+          "end": 74.57
+        },
+        {
+          "word": "humidity,",
+          "start": 75.07,
+          "end": 75.631
+        }
+      ]
+    },
+    {
+      "id": "caption-0034",
+      "start": 76.011,
+      "end": 77.692,
+      "words": [
+        {
+          "word": "and",
+          "start": 76.011,
+          "end": 76.111
+        },
+        {
+          "word": "cloud",
+          "start": 76.191,
+          "end": 76.451
+        },
+        {
+          "word": "cover.",
+          "start": 76.551,
+          "end": 76.832
+        }
+      ]
+    },
+    {
+      "id": "caption-0035",
+      "start": 77.692,
+      "end": 79.494,
+      "words": [
+        {
+          "word": "Weather",
+          "start": 77.692,
+          "end": 77.953
+        },
+        {
+          "word": "can",
+          "start": 78.033,
+          "end": 78.153
+        },
+        {
+          "word": "change",
+          "start": 78.273,
+          "end": 78.593
+        },
+        {
+          "word": "from",
+          "start": 78.693,
+          "end": 78.833
+        },
+        {
+          "word": "hour",
+          "start": 78.974,
+          "end": 79.254
+        },
+        {
+          "word": "to",
+          "start": 79.354,
+          "end": 79.434
+        }
+      ]
+    },
+    {
+      "id": "caption-0036",
+      "start": 79.494,
+      "end": 81.636,
+      "words": [
+        {
+          "word": "hour",
+          "start": 79.494,
+          "end": 79.774
+        },
+        {
+          "word": "or",
+          "start": 80.135,
+          "end": 80.195
+        },
+        {
+          "word": "day",
+          "start": 80.275,
+          "end": 80.435
+        },
+        {
+          "word": "to",
+          "start": 80.515,
+          "end": 80.595
+        },
+        {
+          "word": "day.",
+          "start": 80.635,
+          "end": 80.815
+        }
+      ]
+    },
+    {
+      "id": "caption-0037",
+      "start": 81.636,
+      "end": 82.997,
+      "words": [
+        {
+          "word": "For",
+          "start": 81.636,
+          "end": 81.736
+        },
+        {
+          "word": "example,",
+          "start": 81.836,
+          "end": 82.316
+        }
+      ]
+    },
+    {
+      "id": "caption-0038",
+      "start": 82.997,
+      "end": 85.079,
+      "words": [
+        {
+          "word": "one",
+          "start": 82.997,
+          "end": 83.117
+        },
+        {
+          "word": "morning,",
+          "start": 83.177,
+          "end": 83.497
+        },
+        {
+          "word": "it",
+          "start": 83.778,
+          "end": 83.818
+        },
+        {
+          "word": "may",
+          "start": 83.898,
+          "end": 84.018
+        },
+        {
+          "word": "be",
+          "start": 84.078,
+          "end": 84.138
+        },
+        {
+          "word": "sunny",
+          "start": 84.238,
+          "end": 84.538
+        }
+      ]
+    },
+    {
+      "id": "caption-0039",
+      "start": 85.079,
+      "end": 88.44,
+      "words": [
+        {
+          "word": "and",
+          "start": 85.079,
+          "end": 85.159
+        },
+        {
+          "word": "by",
+          "start": 85.219,
+          "end": 85.319
+        },
+        {
+          "word": "afternoon",
+          "start": 85.499,
+          "end": 85.94
+        },
+        {
+          "word": "it",
+          "start": 86.26,
+          "end": 86.32
+        },
+        {
+          "word": "could",
+          "start": 86.36,
+          "end": 86.52
+        },
+        {
+          "word": "rain.",
+          "start": 86.58,
+          "end": 86.9
+        }
+      ]
+    },
+    {
+      "id": "caption-0040",
+      "start": 88.44,
+      "end": 91.053,
+      "words": [
+        {
+          "word": "Do",
+          "start": 88.44,
+          "end": 88.52
+        },
+        {
+          "word": "You",
+          "start": 88.6,
+          "end": 88.7
+        },
+        {
+          "word": "Know?",
+          "start": 88.78,
+          "end": 89.053
+        }
+      ]
+    },
+    {
+      "id": "caption-0041",
+      "start": 91.053,
+      "end": 93.04,
+      "words": [
+        {
+          "word": "The",
+          "start": 91.053,
+          "end": 91.158
+        },
+        {
+          "word": "hottest",
+          "start": 91.299,
+          "end": 91.659
+        },
+        {
+          "word": "place",
+          "start": 91.759,
+          "end": 92.019
+        },
+        {
+          "word": "on",
+          "start": 92.119,
+          "end": 92.16
+        },
+        {
+          "word": "Earth",
+          "start": 92.36,
+          "end": 92.56
+        },
+        {
+          "word": "is",
+          "start": 92.92,
+          "end": 92.98
+        }
+      ]
+    },
+    {
+      "id": "caption-0042",
+      "start": 93.04,
+      "end": 95.483,
+      "words": [
+        {
+          "word": "the",
+          "start": 93.04,
+          "end": 93.141
+        },
+        {
+          "word": "Lut",
+          "start": 93.241,
+          "end": 93.461
+        },
+        {
+          "word": "Desert",
+          "start": 93.601,
+          "end": 93.961
+        },
+        {
+          "word": "in",
+          "start": 94.142,
+          "end": 94.202
+        },
+        {
+          "word": "Iran,",
+          "start": 94.322,
+          "end": 94.662
+        },
+        {
+          "word": "where",
+          "start": 95.243,
+          "end": 95.403
+        }
+      ]
+    },
+    {
+      "id": "caption-0043",
+      "start": 95.483,
+      "end": 98.026,
+      "words": [
+        {
+          "word": "temperatures",
+          "start": 95.483,
+          "end": 96.064
+        },
+        {
+          "word": "have",
+          "start": 96.124,
+          "end": 96.244
+        },
+        {
+          "word": "been",
+          "start": 96.284,
+          "end": 96.424
+        },
+        {
+          "word": "recorded",
+          "start": 96.464,
+          "end": 96.945
+        },
+        {
+          "word": "as",
+          "start": 97.325,
+          "end": 97.385
+        },
+        {
+          "word": "high",
+          "start": 97.525,
+          "end": 97.826
+        }
+      ]
+    },
+    {
+      "id": "caption-0044",
+      "start": 98.026,
+      "end": 101.95,
+      "words": [
+        {
+          "word": "as",
+          "start": 98.026,
+          "end": 98.086
+        },
+        {
+          "word": "159.3°F",
+          "start": 98.406,
+          "end": 101.249
+        }
+      ]
+    },
+    {
+      "id": "caption-0045",
+      "start": 101.95,
+      "end": 104.753,
+      "words": [
+        {
+          "word": "(70.7°C)!",
+          "start": 101.95,
+          "end": 104.092
+        }
+      ]
+    },
+    {
+      "id": "caption-0046",
+      "start": 104.753,
+      "end": 106.575,
+      "words": [
+        {
+          "word": "Imagine",
+          "start": 104.753,
+          "end": 105.193
+        },
+        {
+          "word": "how",
+          "start": 105.333,
+          "end": 105.474
+        },
+        {
+          "word": "hot",
+          "start": 105.694,
+          "end": 105.914
+        },
+        {
+          "word": "it",
+          "start": 105.994,
+          "end": 106.054
+        },
+        {
+          "word": "must",
+          "start": 106.134,
+          "end": 106.315
+        },
+        {
+          "word": "be",
+          "start": 106.395,
+          "end": 106.475
+        }
+      ]
+    },
+    {
+      "id": "caption-0047",
+      "start": 106.575,
+      "end": 109.376,
+      "words": [
+        {
+          "word": "to",
+          "start": 106.575,
+          "end": 106.635
+        },
+        {
+          "word": "have",
+          "start": 106.715,
+          "end": 106.855
+        },
+        {
+          "word": "that",
+          "start": 107.035,
+          "end": 107.235
+        },
+        {
+          "word": "much",
+          "start": 107.336,
+          "end": 107.516
+        },
+        {
+          "word": "heat!",
+          "start": 107.616,
+          "end": 107.836
+        }
+      ]
+    },
+    {
+      "id": "caption-0048",
+      "start": 109.376,
+      "end": 111.943,
+      "words": [
+        {
+          "word": "Climate.",
+          "start": 109.376,
+          "end": 109.943
+        }
+      ]
+    },
+    {
+      "id": "caption-0049",
+      "start": 111.943,
+      "end": 114.487,
+      "words": [
+        {
+          "word": "Climate",
+          "start": 111.943,
+          "end": 112.446
+        },
+        {
+          "word": "is",
+          "start": 112.706,
+          "end": 112.766
+        },
+        {
+          "word": "the",
+          "start": 112.826,
+          "end": 112.926
+        },
+        {
+          "word": "average",
+          "start": 113.146,
+          "end": 113.486
+        },
+        {
+          "word": "weather",
+          "start": 113.546,
+          "end": 113.807
+        },
+        {
+          "word": "condition",
+          "start": 113.867,
+          "end": 114.307
+        }
+      ]
+    },
+    {
+      "id": "caption-0050",
+      "start": 114.487,
+      "end": 116.088,
+      "words": [
+        {
+          "word": "of",
+          "start": 114.487,
+          "end": 114.527
+        },
+        {
+          "word": "a",
+          "start": 114.647,
+          "end": 114.667
+        },
+        {
+          "word": "place",
+          "start": 114.747,
+          "end": 115.048
+        },
+        {
+          "word": "over",
+          "start": 115.308,
+          "end": 115.508
+        },
+        {
+          "word": "a",
+          "start": 115.588,
+          "end": 115.608
+        },
+        {
+          "word": "long",
+          "start": 115.728,
+          "end": 115.968
+        }
+      ]
+    },
+    {
+      "id": "caption-0051",
+      "start": 116.088,
+      "end": 117.149,
+      "words": [
+        {
+          "word": "period,",
+          "start": 116.088,
+          "end": 116.449
+        }
+      ]
+    },
+    {
+      "id": "caption-0052",
+      "start": 117.149,
+      "end": 119.811,
+      "words": [
+        {
+          "word": "usually",
+          "start": 117.149,
+          "end": 117.51
+        },
+        {
+          "word": "30",
+          "start": 117.63,
+          "end": 117.97
+        },
+        {
+          "word": "years",
+          "start": 118.05,
+          "end": 118.33
+        },
+        {
+          "word": "or",
+          "start": 118.49,
+          "end": 118.55
+        },
+        {
+          "word": "more.",
+          "start": 118.63,
+          "end": 118.811
+        }
+      ]
+    },
+    {
+      "id": "caption-0053",
+      "start": 119.811,
+      "end": 121.393,
+      "words": [
+        {
+          "word": "It",
+          "start": 119.811,
+          "end": 119.871
+        },
+        {
+          "word": "tells",
+          "start": 119.952,
+          "end": 120.212
+        },
+        {
+          "word": "us",
+          "start": 120.352,
+          "end": 120.412
+        },
+        {
+          "word": "whether",
+          "start": 120.532,
+          "end": 120.792
+        },
+        {
+          "word": "a",
+          "start": 120.892,
+          "end": 120.912
+        },
+        {
+          "word": "place",
+          "start": 120.972,
+          "end": 121.253
+        }
+      ]
+    },
+    {
+      "id": "caption-0054",
+      "start": 121.393,
+      "end": 123.014,
+      "words": [
+        {
+          "word": "is",
+          "start": 121.393,
+          "end": 121.453
+        },
+        {
+          "word": "generally",
+          "start": 121.533,
+          "end": 121.973
+        },
+        {
+          "word": "hot,",
+          "start": 122.113,
+          "end": 122.333
+        }
+      ]
+    },
+    {
+      "id": "caption-0055",
+      "start": 123.014,
+      "end": 125.996,
+      "words": [
+        {
+          "word": "cold,",
+          "start": 123.014,
+          "end": 123.334
+        },
+        {
+          "word": "wet,",
+          "start": 123.935,
+          "end": 124.155
+        },
+        {
+          "word": "or",
+          "start": 124.655,
+          "end": 124.715
+        },
+        {
+          "word": "dry.",
+          "start": 124.795,
+          "end": 125.036
+        }
+      ]
+    },
+    {
+      "id": "caption-0056",
+      "start": 125.996,
+      "end": 128.098,
+      "words": [
+        {
+          "word": "For",
+          "start": 125.996,
+          "end": 126.096
+        },
+        {
+          "word": "example,",
+          "start": 126.197,
+          "end": 126.677
+        },
+        {
+          "word": "the",
+          "start": 127.237,
+          "end": 127.317
+        },
+        {
+          "word": "climate",
+          "start": 127.377,
+          "end": 127.798
+        },
+        {
+          "word": "of",
+          "start": 127.838,
+          "end": 127.898
+        },
+        {
+          "word": "the",
+          "start": 127.958,
+          "end": 128.018
+        }
+      ]
+    },
+    {
+      "id": "caption-0057",
+      "start": 128.098,
+      "end": 130.9,
+      "words": [
+        {
+          "word": "Sahara",
+          "start": 128.098,
+          "end": 128.518
+        },
+        {
+          "word": "Desert",
+          "start": 128.618,
+          "end": 128.979
+        },
+        {
+          "word": "is",
+          "start": 129.199,
+          "end": 129.259
+        },
+        {
+          "word": "hot",
+          "start": 129.419,
+          "end": 129.639
+        },
+        {
+          "word": "and",
+          "start": 129.859,
+          "end": 129.96
+        },
+        {
+          "word": "dry,",
+          "start": 130.02,
+          "end": 130.28
+        }
+      ]
+    },
+    {
+      "id": "caption-0058",
+      "start": 130.9,
+      "end": 132.462,
+      "words": [
+        {
+          "word": "while",
+          "start": 130.9,
+          "end": 131.06
+        },
+        {
+          "word": "the",
+          "start": 131.1,
+          "end": 131.18
+        },
+        {
+          "word": "climate",
+          "start": 131.221,
+          "end": 131.621
+        },
+        {
+          "word": "of",
+          "start": 131.661,
+          "end": 131.701
+        },
+        {
+          "word": "the",
+          "start": 131.761,
+          "end": 131.861
+        },
+        {
+          "word": "Amazon",
+          "start": 132.021,
+          "end": 132.381
+        }
+      ]
+    },
+    {
+      "id": "caption-0059",
+      "start": 132.462,
+      "end": 136.263,
+      "words": [
+        {
+          "word": "Rainforest",
+          "start": 132.462,
+          "end": 133.082
+        },
+        {
+          "word": "is",
+          "start": 133.422,
+          "end": 133.462
+        },
+        {
+          "word": "warm",
+          "start": 133.602,
+          "end": 133.883
+        },
+        {
+          "word": "and",
+          "start": 134.163,
+          "end": 134.263
+        },
+        {
+          "word": "rainy.",
+          "start": 134.343,
+          "end": 134.683
+        }
+      ]
+    },
+    {
+      "id": "caption-0060",
+      "start": 136.263,
+      "end": 139.993,
+      "words": [
+        {
+          "word": "Factors",
+          "start": 136.263,
+          "end": 136.724
+        },
+        {
+          "word": "Affecting",
+          "start": 136.885,
+          "end": 137.366
+        },
+        {
+          "word": "Climate.",
+          "start": 137.446,
+          "end": 137.993
+        }
+      ]
+    },
+    {
+      "id": "caption-0061",
+      "start": 139.993,
+      "end": 142.69,
+      "words": [
+        {
+          "word": "Several",
+          "start": 139.993,
+          "end": 140.445
+        },
+        {
+          "word": "factors",
+          "start": 140.565,
+          "end": 141.066
+        },
+        {
+          "word": "influence",
+          "start": 141.307,
+          "end": 141.768
+        },
+        {
+          "word": "the",
+          "start": 141.868,
+          "end": 141.948
+        },
+        {
+          "word": "climate",
+          "start": 142.008,
+          "end": 142.409
+        },
+        {
+          "word": "of",
+          "start": 142.53,
+          "end": 142.57
+        }
+      ]
+    },
+    {
+      "id": "caption-0062",
+      "start": 142.69,
+      "end": 144.033,
+      "words": [
+        {
+          "word": "a",
+          "start": 142.69,
+          "end": 142.71
+        },
+        {
+          "word": "place.",
+          "start": 142.77,
+          "end": 143.051
+        }
+      ]
+    },
+    {
+      "id": "caption-0063",
+      "start": 144.033,
+      "end": 145.917,
+      "words": [
+        {
+          "word": "Let",
+          "start": 144.033,
+          "end": 144.173
+        },
+        {
+          "word": "us",
+          "start": 144.253,
+          "end": 144.314
+        },
+        {
+          "word": "explore",
+          "start": 144.414,
+          "end": 144.835
+        },
+        {
+          "word": "them",
+          "start": 144.895,
+          "end": 145.035
+        },
+        {
+          "word": "one",
+          "start": 145.416,
+          "end": 145.536
+        },
+        {
+          "word": "by",
+          "start": 145.596,
+          "end": 145.717
+        }
+      ]
+    },
+    {
+      "id": "caption-0064",
+      "start": 145.917,
+      "end": 147.656,
+      "words": [
+        {
+          "word": "one.",
+          "start": 145.917,
+          "end": 146.057
+        }
+      ]
+    },
+    {
+      "id": "caption-0065",
+      "start": 147.656,
+      "end": 152.491,
+      "words": [
+        {
+          "word": "Distance",
+          "start": 147.656,
+          "end": 148.076
+        },
+        {
+          "word": "from",
+          "start": 148.176,
+          "end": 148.297
+        },
+        {
+          "word": "the",
+          "start": 148.377,
+          "end": 148.457
+        },
+        {
+          "word": "Equator",
+          "start": 148.577,
+          "end": 149.057
+        },
+        {
+          "word": "(Latitudes).",
+          "start": 149.678,
+          "end": 150.491
+        }
+      ]
+    },
+    {
+      "id": "caption-0066",
+      "start": 152.491,
+      "end": 155.091,
+      "words": [
+        {
+          "word": "The",
+          "start": 152.491,
+          "end": 152.609
+        },
+        {
+          "word": "Earth",
+          "start": 152.769,
+          "end": 152.969
+        },
+        {
+          "word": "is",
+          "start": 153.069,
+          "end": 153.129
+        },
+        {
+          "word": "divided",
+          "start": 153.189,
+          "end": 153.71
+        },
+        {
+          "word": "into",
+          "start": 153.97,
+          "end": 154.17
+        },
+        {
+          "word": "imaginary",
+          "start": 154.33,
+          "end": 154.991
+        }
+      ]
+    },
+    {
+      "id": "caption-0067",
+      "start": 155.091,
+      "end": 157.873,
+      "words": [
+        {
+          "word": "lines",
+          "start": 155.091,
+          "end": 155.471
+        },
+        {
+          "word": "called",
+          "start": 155.731,
+          "end": 155.991
+        },
+        {
+          "word": "latitudes.",
+          "start": 156.211,
+          "end": 156.872
+        }
+      ]
+    },
+    {
+      "id": "caption-0068",
+      "start": 157.873,
+      "end": 160.775,
+      "words": [
+        {
+          "word": "Places",
+          "start": 157.873,
+          "end": 158.273
+        },
+        {
+          "word": "near",
+          "start": 158.393,
+          "end": 158.593
+        },
+        {
+          "word": "the",
+          "start": 158.673,
+          "end": 158.773
+        },
+        {
+          "word": "equator",
+          "start": 158.873,
+          "end": 159.354
+        },
+        {
+          "word": "receive",
+          "start": 159.834,
+          "end": 160.174
+        },
+        {
+          "word": "direct",
+          "start": 160.294,
+          "end": 160.655
+        }
+      ]
+    },
+    {
+      "id": "caption-0069",
+      "start": 160.775,
+      "end": 163.497,
+      "words": [
+        {
+          "word": "sunlight",
+          "start": 160.775,
+          "end": 161.255
+        },
+        {
+          "word": "throughout",
+          "start": 161.395,
+          "end": 161.836
+        },
+        {
+          "word": "the",
+          "start": 161.916,
+          "end": 161.996
+        },
+        {
+          "word": "year,",
+          "start": 162.056,
+          "end": 162.216
+        },
+        {
+          "word": "making",
+          "start": 162.836,
+          "end": 163.136
+        },
+        {
+          "word": "them",
+          "start": 163.196,
+          "end": 163.317
+        }
+      ]
+    },
+    {
+      "id": "caption-0070",
+      "start": 163.497,
+      "end": 164.798,
+      "words": [
+        {
+          "word": "hot.",
+          "start": 163.497,
+          "end": 163.717
+        }
+      ]
+    },
+    {
+      "id": "caption-0071",
+      "start": 164.798,
+      "end": 167.099,
+      "words": [
+        {
+          "word": "As",
+          "start": 164.798,
+          "end": 164.878
+        },
+        {
+          "word": "we",
+          "start": 164.958,
+          "end": 165.038
+        },
+        {
+          "word": "move",
+          "start": 165.158,
+          "end": 165.378
+        },
+        {
+          "word": "towards",
+          "start": 165.478,
+          "end": 165.838
+        },
+        {
+          "word": "the",
+          "start": 165.938,
+          "end": 165.999
+        },
+        {
+          "word": "poles,",
+          "start": 166.079,
+          "end": 166.479
+        }
+      ]
+    },
+    {
+      "id": "caption-0072",
+      "start": 167.099,
+      "end": 170.101,
+      "words": [
+        {
+          "word": "sunlight",
+          "start": 167.099,
+          "end": 167.52
+        },
+        {
+          "word": "spreads",
+          "start": 167.66,
+          "end": 168.06
+        },
+        {
+          "word": "out,",
+          "start": 168.2,
+          "end": 168.32
+        },
+        {
+          "word": "making",
+          "start": 168.901,
+          "end": 169.221
+        },
+        {
+          "word": "these",
+          "start": 169.301,
+          "end": 169.481
+        },
+        {
+          "word": "areas",
+          "start": 169.601,
+          "end": 169.921
+        }
+      ]
+    },
+    {
+      "id": "caption-0073",
+      "start": 170.101,
+      "end": 171.382,
+      "words": [
+        {
+          "word": "cooler.",
+          "start": 170.101,
+          "end": 170.442
+        }
+      ]
+    },
+    {
+      "id": "caption-0074",
+      "start": 171.382,
+      "end": 173.344,
+      "words": [
+        {
+          "word": "This",
+          "start": 171.382,
+          "end": 171.503
+        },
+        {
+          "word": "is",
+          "start": 171.623,
+          "end": 171.663
+        },
+        {
+          "word": "why",
+          "start": 171.743,
+          "end": 171.903
+        },
+        {
+          "word": "tropical",
+          "start": 172.083,
+          "end": 172.543
+        },
+        {
+          "word": "regions",
+          "start": 172.643,
+          "end": 173.044
+        },
+        {
+          "word": "are",
+          "start": 173.204,
+          "end": 173.284
+        }
+      ]
+    },
+    {
+      "id": "caption-0075",
+      "start": 173.344,
+      "end": 177.627,
+      "words": [
+        {
+          "word": "warm,",
+          "start": 173.344,
+          "end": 173.644
+        },
+        {
+          "word": "while",
+          "start": 174.244,
+          "end": 174.425
+        },
+        {
+          "word": "polar",
+          "start": 174.525,
+          "end": 174.865
+        },
+        {
+          "word": "regions",
+          "start": 174.945,
+          "end": 175.345
+        },
+        {
+          "word": "are",
+          "start": 175.565,
+          "end": 175.645
+        },
+        {
+          "word": "cold.",
+          "start": 175.726,
+          "end": 176.026
+        }
+      ]
+    },
+    {
+      "id": "caption-0076",
+      "start": 177.627,
+      "end": 180.27,
+      "words": [
+        {
+          "word": "Altitude.",
+          "start": 177.627,
+          "end": 178.27
+        }
+      ]
+    },
+    {
+      "id": "caption-0077",
+      "start": 180.27,
+      "end": 182.136,
+      "words": [
+        {
+          "word": "Altitude",
+          "start": 180.27,
+          "end": 180.935
+        },
+        {
+          "word": "is",
+          "start": 181.215,
+          "end": 181.275
+        },
+        {
+          "word": "the",
+          "start": 181.335,
+          "end": 181.415
+        },
+        {
+          "word": "height",
+          "start": 181.535,
+          "end": 181.796
+        },
+        {
+          "word": "of",
+          "start": 181.876,
+          "end": 181.916
+        },
+        {
+          "word": "a",
+          "start": 182.036,
+          "end": 182.056
+        }
+      ]
+    },
+    {
+      "id": "caption-0078",
+      "start": 182.136,
+      "end": 184.478,
+      "words": [
+        {
+          "word": "place",
+          "start": 182.136,
+          "end": 182.416
+        },
+        {
+          "word": "above",
+          "start": 182.656,
+          "end": 182.937
+        },
+        {
+          "word": "sea",
+          "start": 183.057,
+          "end": 183.237
+        },
+        {
+          "word": "level.",
+          "start": 183.297,
+          "end": 183.557
+        }
+      ]
+    },
+    {
+      "id": "caption-0079",
+      "start": 184.478,
+      "end": 187.682,
+      "words": [
+        {
+          "word": "Higher",
+          "start": 184.478,
+          "end": 184.759
+        },
+        {
+          "word": "altitudes",
+          "start": 184.899,
+          "end": 185.459
+        },
+        {
+          "word": "have",
+          "start": 185.58,
+          "end": 185.72
+        },
+        {
+          "word": "cooler",
+          "start": 185.86,
+          "end": 186.18
+        },
+        {
+          "word": "temperatures",
+          "start": 186.26,
+          "end": 186.881
+        },
+        {
+          "word": "because",
+          "start": 187.382,
+          "end": 187.642
+        }
+      ]
+    },
+    {
+      "id": "caption-0080",
+      "start": 187.682,
+      "end": 189.664,
+      "words": [
+        {
+          "word": "the",
+          "start": 187.682,
+          "end": 187.782
+        },
+        {
+          "word": "air",
+          "start": 187.962,
+          "end": 188.102
+        },
+        {
+          "word": "is",
+          "start": 188.182,
+          "end": 188.242
+        },
+        {
+          "word": "thinner",
+          "start": 188.343,
+          "end": 188.683
+        },
+        {
+          "word": "and",
+          "start": 189.083,
+          "end": 189.163
+        },
+        {
+          "word": "cannot",
+          "start": 189.244,
+          "end": 189.564
+        }
+      ]
+    },
+    {
+      "id": "caption-0081",
+      "start": 189.664,
+      "end": 191.446,
+      "words": [
+        {
+          "word": "hold",
+          "start": 189.664,
+          "end": 189.884
+        },
+        {
+          "word": "much",
+          "start": 190.024,
+          "end": 190.205
+        },
+        {
+          "word": "heat.",
+          "start": 190.305,
+          "end": 190.505
+        }
+      ]
+    },
+    {
+      "id": "caption-0082",
+      "start": 191.446,
+      "end": 194.289,
+      "words": [
+        {
+          "word": "For",
+          "start": 191.446,
+          "end": 191.546
+        },
+        {
+          "word": "example,",
+          "start": 191.646,
+          "end": 192.087
+        },
+        {
+          "word": "mountains",
+          "start": 192.707,
+          "end": 193.248
+        },
+        {
+          "word": "are",
+          "start": 193.428,
+          "end": 193.508
+        },
+        {
+          "word": "colder",
+          "start": 193.608,
+          "end": 193.969
+        },
+        {
+          "word": "than",
+          "start": 194.029,
+          "end": 194.149
+        }
+      ]
+    },
+    {
+      "id": "caption-0083",
+      "start": 194.289,
+      "end": 197.73,
+      "words": [
+        {
+          "word": "plains",
+          "start": 194.289,
+          "end": 194.689
+        },
+        {
+          "word": "at",
+          "start": 194.93,
+          "end": 194.99
+        },
+        {
+          "word": "the",
+          "start": 195.05,
+          "end": 195.15
+        },
+        {
+          "word": "same",
+          "start": 195.23,
+          "end": 195.49
+        },
+        {
+          "word": "latitude.",
+          "start": 195.55,
+          "end": 196.151
+        }
+      ]
+    },
+    {
+      "id": "caption-0084",
+      "start": 197.73,
+      "end": 199.631,
+      "words": [
+        {
+          "word": "Distance",
+          "start": 197.73,
+          "end": 198.15
+        },
+        {
+          "word": "from",
+          "start": 198.25,
+          "end": 198.41
+        },
+        {
+          "word": "the",
+          "start": 198.49,
+          "end": 198.551
+        },
+        {
+          "word": "Sea",
+          "start": 198.631,
+          "end": 198.831
+        }
+      ]
+    },
+    {
+      "id": "caption-0085",
+      "start": 199.631,
+      "end": 203.554,
+      "words": [
+        {
+          "word": "(Sea",
+          "start": 199.631,
+          "end": 199.831
+        },
+        {
+          "word": "Breeze",
+          "start": 199.931,
+          "end": 200.271
+        },
+        {
+          "word": "and",
+          "start": 200.572,
+          "end": 200.692
+        },
+        {
+          "word": "Land",
+          "start": 200.772,
+          "end": 201.012
+        },
+        {
+          "word": "Breeze).",
+          "start": 201.112,
+          "end": 201.554
+        }
+      ]
+    },
+    {
+      "id": "caption-0086",
+      "start": 203.554,
+      "end": 206.261,
+      "words": [
+        {
+          "word": "Oceans",
+          "start": 203.554,
+          "end": 204.02
+        },
+        {
+          "word": "and",
+          "start": 204.18,
+          "end": 204.28
+        },
+        {
+          "word": "seas",
+          "start": 204.4,
+          "end": 204.74
+        },
+        {
+          "word": "influence",
+          "start": 205.061,
+          "end": 205.521
+        },
+        {
+          "word": "the",
+          "start": 205.601,
+          "end": 205.681
+        },
+        {
+          "word": "climate",
+          "start": 205.741,
+          "end": 206.141
+        }
+      ]
+    },
+    {
+      "id": "caption-0087",
+      "start": 206.261,
+      "end": 208.322,
+      "words": [
+        {
+          "word": "of",
+          "start": 206.261,
+          "end": 206.301
+        },
+        {
+          "word": "coastal",
+          "start": 206.441,
+          "end": 206.802
+        },
+        {
+          "word": "areas.",
+          "start": 206.922,
+          "end": 207.282
+        }
+      ]
+    },
+    {
+      "id": "caption-0088",
+      "start": 208.322,
+      "end": 210.504,
+      "words": [
+        {
+          "word": "Water",
+          "start": 208.322,
+          "end": 208.643
+        },
+        {
+          "word": "heats",
+          "start": 208.723,
+          "end": 209.003
+        },
+        {
+          "word": "up",
+          "start": 209.183,
+          "end": 209.243
+        },
+        {
+          "word": "and",
+          "start": 209.523,
+          "end": 209.623
+        },
+        {
+          "word": "cools",
+          "start": 209.723,
+          "end": 210.043
+        },
+        {
+          "word": "down",
+          "start": 210.123,
+          "end": 210.344
+        }
+      ]
+    },
+    {
+      "id": "caption-0089",
+      "start": 210.504,
+      "end": 212.705,
+      "words": [
+        {
+          "word": "more",
+          "start": 210.504,
+          "end": 210.704
+        },
+        {
+          "word": "slowly",
+          "start": 210.784,
+          "end": 211.204
+        },
+        {
+          "word": "than",
+          "start": 211.324,
+          "end": 211.444
+        },
+        {
+          "word": "land.",
+          "start": 211.544,
+          "end": 211.824
+        }
+      ]
+    },
+    {
+      "id": "caption-0090",
+      "start": 212.705,
+      "end": 214.986,
+      "words": [
+        {
+          "word": "During",
+          "start": 212.705,
+          "end": 213.005
+        },
+        {
+          "word": "the",
+          "start": 213.065,
+          "end": 213.145
+        },
+        {
+          "word": "day,",
+          "start": 213.205,
+          "end": 213.405
+        },
+        {
+          "word": "land",
+          "start": 214.026,
+          "end": 214.286
+        },
+        {
+          "word": "heats",
+          "start": 214.386,
+          "end": 214.646
+        },
+        {
+          "word": "up",
+          "start": 214.766,
+          "end": 214.826
+        }
+      ]
+    },
+    {
+      "id": "caption-0091",
+      "start": 214.986,
+      "end": 217.308,
+      "words": [
+        {
+          "word": "faster",
+          "start": 214.986,
+          "end": 215.406
+        },
+        {
+          "word": "than",
+          "start": 215.467,
+          "end": 215.567
+        },
+        {
+          "word": "water,",
+          "start": 215.647,
+          "end": 215.967
+        },
+        {
+          "word": "causing",
+          "start": 216.507,
+          "end": 216.847
+        },
+        {
+          "word": "a",
+          "start": 216.907,
+          "end": 216.927
+        },
+        {
+          "word": "sea",
+          "start": 217.027,
+          "end": 217.208
+        }
+      ]
+    },
+    {
+      "id": "caption-0092",
+      "start": 217.308,
+      "end": 218.989,
+      "words": [
+        {
+          "word": "breeze",
+          "start": 217.308,
+          "end": 217.608
+        },
+        {
+          "word": "to",
+          "start": 217.708,
+          "end": 217.808
+        },
+        {
+          "word": "blow",
+          "start": 217.888,
+          "end": 218.108
+        },
+        {
+          "word": "from",
+          "start": 218.188,
+          "end": 218.328
+        },
+        {
+          "word": "the",
+          "start": 218.388,
+          "end": 218.468
+        },
+        {
+          "word": "sea",
+          "start": 218.548,
+          "end": 218.728
+        }
+      ]
+    },
+    {
+      "id": "caption-0093",
+      "start": 218.989,
+      "end": 220.449,
+      "words": [
+        {
+          "word": "to",
+          "start": 218.989,
+          "end": 219.089
+        },
+        {
+          "word": "the",
+          "start": 219.149,
+          "end": 219.229
+        },
+        {
+          "word": "land.",
+          "start": 219.289,
+          "end": 219.549
+        }
+      ]
+    },
+    {
+      "id": "caption-0094",
+      "start": 220.449,
+      "end": 222.671,
+      "words": [
+        {
+          "word": "At",
+          "start": 220.449,
+          "end": 220.509
+        },
+        {
+          "word": "night,",
+          "start": 220.629,
+          "end": 220.91
+        },
+        {
+          "word": "the",
+          "start": 221.43,
+          "end": 221.51
+        },
+        {
+          "word": "land",
+          "start": 221.57,
+          "end": 221.81
+        },
+        {
+          "word": "cools",
+          "start": 221.97,
+          "end": 222.27
+        },
+        {
+          "word": "down",
+          "start": 222.35,
+          "end": 222.551
+        }
+      ]
+    },
+    {
+      "id": "caption-0095",
+      "start": 222.671,
+      "end": 225.012,
+      "words": [
+        {
+          "word": "quickly,",
+          "start": 222.671,
+          "end": 223.031
+        },
+        {
+          "word": "and",
+          "start": 223.571,
+          "end": 223.671
+        },
+        {
+          "word": "a",
+          "start": 223.751,
+          "end": 223.771
+        },
+        {
+          "word": "land",
+          "start": 223.851,
+          "end": 224.111
+        },
+        {
+          "word": "breeze",
+          "start": 224.212,
+          "end": 224.512
+        },
+        {
+          "word": "blows",
+          "start": 224.652,
+          "end": 224.932
+        }
+      ]
+    },
+    {
+      "id": "caption-0096",
+      "start": 225.012,
+      "end": 227.073,
+      "words": [
+        {
+          "word": "from",
+          "start": 225.012,
+          "end": 225.152
+        },
+        {
+          "word": "land",
+          "start": 225.252,
+          "end": 225.512
+        },
+        {
+          "word": "to",
+          "start": 225.812,
+          "end": 225.892
+        },
+        {
+          "word": "the",
+          "start": 225.973,
+          "end": 226.053
+        },
+        {
+          "word": "sea.",
+          "start": 226.113,
+          "end": 226.293
+        }
+      ]
+    },
+    {
+      "id": "caption-0097",
+      "start": 227.073,
+      "end": 229.314,
+      "words": [
+        {
+          "word": "This",
+          "start": 227.073,
+          "end": 227.233
+        },
+        {
+          "word": "keeps",
+          "start": 227.353,
+          "end": 227.613
+        },
+        {
+          "word": "coastal",
+          "start": 227.714,
+          "end": 228.114
+        },
+        {
+          "word": "areas",
+          "start": 228.274,
+          "end": 228.574
+        },
+        {
+          "word": "cooler",
+          "start": 228.714,
+          "end": 229.054
+        },
+        {
+          "word": "in",
+          "start": 229.154,
+          "end": 229.214
+        }
+      ]
+    },
+    {
+      "id": "caption-0098",
+      "start": 229.314,
+      "end": 232.056,
+      "words": [
+        {
+          "word": "summer",
+          "start": 229.314,
+          "end": 229.615
+        },
+        {
+          "word": "and",
+          "start": 230.015,
+          "end": 230.115
+        },
+        {
+          "word": "warmer",
+          "start": 230.215,
+          "end": 230.595
+        },
+        {
+          "word": "in",
+          "start": 230.695,
+          "end": 230.755
+        },
+        {
+          "word": "winter",
+          "start": 230.855,
+          "end": 231.215
+        },
+        {
+          "word": "compared",
+          "start": 231.616,
+          "end": 232.016
+        }
+      ]
+    },
+    {
+      "id": "caption-0099",
+      "start": 232.056,
+      "end": 234.717,
+      "words": [
+        {
+          "word": "to",
+          "start": 232.056,
+          "end": 232.136
+        },
+        {
+          "word": "inland",
+          "start": 232.276,
+          "end": 232.616
+        },
+        {
+          "word": "regions.",
+          "start": 232.696,
+          "end": 233.157
+        }
+      ]
+    },
+    {
+      "id": "caption-0100",
+      "start": 234.717,
+      "end": 238.071,
+      "words": [
+        {
+          "word": "Direction",
+          "start": 234.717,
+          "end": 235.218
+        },
+        {
+          "word": "of",
+          "start": 235.378,
+          "end": 235.418
+        },
+        {
+          "word": "the",
+          "start": 235.518,
+          "end": 235.618
+        },
+        {
+          "word": "Wind.",
+          "start": 235.678,
+          "end": 236.071
+        }
+      ]
+    },
+    {
+      "id": "caption-0101",
+      "start": 238.071,
+      "end": 240.743,
+      "words": [
+        {
+          "word": "Winds",
+          "start": 238.071,
+          "end": 238.441
+        },
+        {
+          "word": "carry",
+          "start": 238.541,
+          "end": 238.841
+        },
+        {
+          "word": "heat",
+          "start": 238.982,
+          "end": 239.222
+        },
+        {
+          "word": "and",
+          "start": 239.462,
+          "end": 239.562
+        },
+        {
+          "word": "moisture",
+          "start": 239.642,
+          "end": 240.123
+        },
+        {
+          "word": "from",
+          "start": 240.383,
+          "end": 240.543
+        }
+      ]
+    },
+    {
+      "id": "caption-0102",
+      "start": 240.743,
+      "end": 242.686,
+      "words": [
+        {
+          "word": "one",
+          "start": 240.743,
+          "end": 240.864
+        },
+        {
+          "word": "place",
+          "start": 240.924,
+          "end": 241.224
+        },
+        {
+          "word": "to",
+          "start": 241.364,
+          "end": 241.464
+        },
+        {
+          "word": "another.",
+          "start": 241.584,
+          "end": 241.905
+        }
+      ]
+    },
+    {
+      "id": "caption-0103",
+      "start": 242.686,
+      "end": 244.608,
+      "words": [
+        {
+          "word": "Winds",
+          "start": 242.686,
+          "end": 242.946
+        },
+        {
+          "word": "coming",
+          "start": 243.046,
+          "end": 243.306
+        },
+        {
+          "word": "from",
+          "start": 243.366,
+          "end": 243.486
+        },
+        {
+          "word": "the",
+          "start": 243.567,
+          "end": 243.627
+        },
+        {
+          "word": "sea",
+          "start": 243.727,
+          "end": 243.947
+        },
+        {
+          "word": "bring",
+          "start": 244.267,
+          "end": 244.468
+        }
+      ]
+    },
+    {
+      "id": "caption-0104",
+      "start": 244.608,
+      "end": 245.609,
+      "words": [
+        {
+          "word": "rain,",
+          "start": 244.608,
+          "end": 244.868
+        }
+      ]
+    },
+    {
+      "id": "caption-0105",
+      "start": 245.609,
+      "end": 247.891,
+      "words": [
+        {
+          "word": "while",
+          "start": 245.609,
+          "end": 245.789
+        },
+        {
+          "word": "winds",
+          "start": 245.869,
+          "end": 246.109
+        },
+        {
+          "word": "from",
+          "start": 246.169,
+          "end": 246.31
+        },
+        {
+          "word": "deserts",
+          "start": 246.45,
+          "end": 246.91
+        },
+        {
+          "word": "bring",
+          "start": 247.231,
+          "end": 247.411
+        },
+        {
+          "word": "dry",
+          "start": 247.551,
+          "end": 247.771
+        }
+      ]
+    },
+    {
+      "id": "caption-0106",
+      "start": 247.891,
+      "end": 248.892,
+      "words": [
+        {
+          "word": "weather.",
+          "start": 247.891,
+          "end": 248.152
+        }
+      ]
+    },
+    {
+      "id": "caption-0107",
+      "start": 248.892,
+      "end": 251.776,
+      "words": [
+        {
+          "word": "For",
+          "start": 248.892,
+          "end": 249.013
+        },
+        {
+          "word": "example,",
+          "start": 249.113,
+          "end": 249.593
+        },
+        {
+          "word": "the",
+          "start": 250.194,
+          "end": 250.274
+        },
+        {
+          "word": "monsoon",
+          "start": 250.354,
+          "end": 250.814
+        },
+        {
+          "word": "winds",
+          "start": 250.915,
+          "end": 251.215
+        },
+        {
+          "word": "bring",
+          "start": 251.415,
+          "end": 251.615
+        }
+      ]
+    },
+    {
+      "id": "caption-0108",
+      "start": 251.776,
+      "end": 254.817,
+      "words": [
+        {
+          "word": "heavy",
+          "start": 251.776,
+          "end": 252.036
+        },
+        {
+          "word": "rainfall",
+          "start": 252.136,
+          "end": 252.636
+        },
+        {
+          "word": "to",
+          "start": 252.737,
+          "end": 252.837
+        },
+        {
+          "word": "India.",
+          "start": 252.957,
+          "end": 253.257
+        }
+      ]
+    },
+    {
+      "id": "caption-0109",
+      "start": 254.817,
+      "end": 257.512,
+      "words": [
+        {
+          "word": "Humidity.",
+          "start": 254.817,
+          "end": 255.512
+        }
+      ]
+    },
+    {
+      "id": "caption-0110",
+      "start": 257.512,
+      "end": 259.79,
+      "words": [
+        {
+          "word": "Humidity",
+          "start": 257.512,
+          "end": 258.128
+        },
+        {
+          "word": "is",
+          "start": 258.449,
+          "end": 258.509
+        },
+        {
+          "word": "the",
+          "start": 258.569,
+          "end": 258.669
+        },
+        {
+          "word": "amount",
+          "start": 258.769,
+          "end": 259.109
+        },
+        {
+          "word": "of",
+          "start": 259.209,
+          "end": 259.25
+        },
+        {
+          "word": "water",
+          "start": 259.41,
+          "end": 259.73
+        }
+      ]
+    },
+    {
+      "id": "caption-0111",
+      "start": 259.79,
+      "end": 261.852,
+      "words": [
+        {
+          "word": "vapour",
+          "start": 259.79,
+          "end": 260.15
+        },
+        {
+          "word": "in",
+          "start": 260.311,
+          "end": 260.391
+        },
+        {
+          "word": "the",
+          "start": 260.451,
+          "end": 260.551
+        },
+        {
+          "word": "air.",
+          "start": 260.771,
+          "end": 260.851
+        }
+      ]
+    },
+    {
+      "id": "caption-0112",
+      "start": 261.852,
+      "end": 264.695,
+      "words": [
+        {
+          "word": "Places",
+          "start": 261.852,
+          "end": 262.273
+        },
+        {
+          "word": "with",
+          "start": 262.373,
+          "end": 262.493
+        },
+        {
+          "word": "high",
+          "start": 262.633,
+          "end": 262.853
+        },
+        {
+          "word": "humidity",
+          "start": 262.933,
+          "end": 263.474
+        },
+        {
+          "word": "receive",
+          "start": 263.914,
+          "end": 264.255
+        },
+        {
+          "word": "more",
+          "start": 264.415,
+          "end": 264.635
+        }
+      ]
+    },
+    {
+      "id": "caption-0113",
+      "start": 264.695,
+      "end": 267.739,
+      "words": [
+        {
+          "word": "rainfall,",
+          "start": 264.695,
+          "end": 265.256
+        },
+        {
+          "word": "while",
+          "start": 265.897,
+          "end": 266.097
+        },
+        {
+          "word": "dry",
+          "start": 266.177,
+          "end": 266.397
+        },
+        {
+          "word": "areas",
+          "start": 266.597,
+          "end": 266.978
+        },
+        {
+          "word": "have",
+          "start": 267.178,
+          "end": 267.338
+        },
+        {
+          "word": "less",
+          "start": 267.458,
+          "end": 267.678
+        }
+      ]
+    },
+    {
+      "id": "caption-0114",
+      "start": 267.739,
+      "end": 268.96,
+      "words": [
+        {
+          "word": "humidity.",
+          "start": 267.739,
+          "end": 268.259
+        }
+      ]
+    },
+    {
+      "id": "caption-0115",
+      "start": 268.96,
+      "end": 270.301,
+      "words": [
+        {
+          "word": "For",
+          "start": 268.96,
+          "end": 269.06
+        },
+        {
+          "word": "example,",
+          "start": 269.16,
+          "end": 269.641
+        }
+      ]
+    },
+    {
+      "id": "caption-0116",
+      "start": 270.301,
+      "end": 273.164,
+      "words": [
+        {
+          "word": "coastal",
+          "start": 270.301,
+          "end": 270.722
+        },
+        {
+          "word": "areas",
+          "start": 270.922,
+          "end": 271.302
+        },
+        {
+          "word": "have",
+          "start": 271.422,
+          "end": 271.583
+        },
+        {
+          "word": "higher",
+          "start": 271.723,
+          "end": 272.023
+        },
+        {
+          "word": "humidity",
+          "start": 272.083,
+          "end": 272.604
+        },
+        {
+          "word": "than",
+          "start": 272.904,
+          "end": 273.044
+        }
+      ]
+    },
+    {
+      "id": "caption-0117",
+      "start": 273.164,
+      "end": 275.266,
+      "words": [
+        {
+          "word": "deserts.",
+          "start": 273.164,
+          "end": 273.645
+        }
+      ]
+    },
+    {
+      "id": "caption-0118",
+      "start": 275.266,
+      "end": 278.23,
+      "words": [
+        {
+          "word": "Ocean",
+          "start": 275.266,
+          "end": 275.526
+        },
+        {
+          "word": "Currents.",
+          "start": 275.626,
+          "end": 276.23
+        }
+      ]
+    },
+    {
+      "id": "caption-0119",
+      "start": 278.23,
+      "end": 280.64,
+      "words": [
+        {
+          "word": "Ocean",
+          "start": 278.23,
+          "end": 278.578
+        },
+        {
+          "word": "currents",
+          "start": 278.678,
+          "end": 279.079
+        },
+        {
+          "word": "are",
+          "start": 279.339,
+          "end": 279.399
+        },
+        {
+          "word": "large",
+          "start": 279.539,
+          "end": 279.879
+        },
+        {
+          "word": "movements",
+          "start": 279.979,
+          "end": 280.4
+        },
+        {
+          "word": "of",
+          "start": 280.48,
+          "end": 280.52
+        }
+      ]
+    },
+    {
+      "id": "caption-0120",
+      "start": 280.64,
+      "end": 283.042,
+      "words": [
+        {
+          "word": "water",
+          "start": 280.64,
+          "end": 281.02
+        },
+        {
+          "word": "in",
+          "start": 281.261,
+          "end": 281.301
+        },
+        {
+          "word": "the",
+          "start": 281.381,
+          "end": 281.461
+        },
+        {
+          "word": "oceans.",
+          "start": 281.621,
+          "end": 282.001
+        }
+      ]
+    },
+    {
+      "id": "caption-0121",
+      "start": 283.042,
+      "end": 285.805,
+      "words": [
+        {
+          "word": "Warm",
+          "start": 283.042,
+          "end": 283.323
+        },
+        {
+          "word": "ocean",
+          "start": 283.523,
+          "end": 283.763
+        },
+        {
+          "word": "currents",
+          "start": 283.843,
+          "end": 284.223
+        },
+        {
+          "word": "make",
+          "start": 284.504,
+          "end": 284.684
+        },
+        {
+          "word": "coastal",
+          "start": 284.784,
+          "end": 285.204
+        },
+        {
+          "word": "areas",
+          "start": 285.365,
+          "end": 285.705
+        }
+      ]
+    },
+    {
+      "id": "caption-0122",
+      "start": 285.805,
+      "end": 288.748,
+      "words": [
+        {
+          "word": "warmer,",
+          "start": 285.805,
+          "end": 286.205
+        },
+        {
+          "word": "while",
+          "start": 286.766,
+          "end": 286.966
+        },
+        {
+          "word": "cold",
+          "start": 287.106,
+          "end": 287.346
+        },
+        {
+          "word": "currents",
+          "start": 287.446,
+          "end": 287.827
+        },
+        {
+          "word": "bring",
+          "start": 288.087,
+          "end": 288.267
+        },
+        {
+          "word": "cool",
+          "start": 288.427,
+          "end": 288.648
+        }
+      ]
+    },
+    {
+      "id": "caption-0123",
+      "start": 288.748,
+      "end": 290.229,
+      "words": [
+        {
+          "word": "temperatures.",
+          "start": 288.748,
+          "end": 289.348
+        }
+      ]
+    },
+    {
+      "id": "caption-0124",
+      "start": 290.229,
+      "end": 292.932,
+      "words": [
+        {
+          "word": "For",
+          "start": 290.229,
+          "end": 290.349
+        },
+        {
+          "word": "example,",
+          "start": 290.449,
+          "end": 290.91
+        },
+        {
+          "word": "the",
+          "start": 291.39,
+          "end": 291.49
+        },
+        {
+          "word": "Gulf",
+          "start": 291.59,
+          "end": 291.831
+        },
+        {
+          "word": "Stream",
+          "start": 291.931,
+          "end": 292.231
+        },
+        {
+          "word": "warms",
+          "start": 292.411,
+          "end": 292.731
+        }
+      ]
+    },
+    {
+      "id": "caption-0125",
+      "start": 292.932,
+      "end": 295.774,
+      "words": [
+        {
+          "word": "Europe,",
+          "start": 292.932,
+          "end": 293.192
+        },
+        {
+          "word": "while",
+          "start": 293.712,
+          "end": 293.893
+        },
+        {
+          "word": "the",
+          "start": 293.953,
+          "end": 294.013
+        },
+        {
+          "word": "cold",
+          "start": 294.133,
+          "end": 294.413
+        },
+        {
+          "word": "Labrador",
+          "start": 294.593,
+          "end": 295.054
+        },
+        {
+          "word": "Current",
+          "start": 295.154,
+          "end": 295.474
+        }
+      ]
+    },
+    {
+      "id": "caption-0126",
+      "start": 295.774,
+      "end": 298.195,
+      "words": [
+        {
+          "word": "cools",
+          "start": 295.774,
+          "end": 296.095
+        },
+        {
+          "word": "Canada.",
+          "start": 296.195,
+          "end": 296.595
+        }
+      ]
+    },
+    {
+      "id": "caption-0127",
+      "start": 298.195,
+      "end": 301.305,
+      "words": [
+        {
+          "word": "Let's",
+          "start": 298.195,
+          "end": 298.435
+        },
+        {
+          "word": "Learn",
+          "start": 298.556,
+          "end": 298.796
+        },
+        {
+          "word": "More!",
+          "start": 298.916,
+          "end": 299.305
+        }
+      ]
+    },
+    {
+      "id": "caption-0128",
+      "start": 301.305,
+      "end": 304.38,
+      "words": [
+        {
+          "word": "Rainforests",
+          "start": 301.305,
+          "end": 302.158
+        },
+        {
+          "word": "receive",
+          "start": 302.378,
+          "end": 302.738
+        },
+        {
+          "word": "about",
+          "start": 302.858,
+          "end": 303.099
+        },
+        {
+          "word": "80",
+          "start": 303.399,
+          "end": 303.679
+        },
+        {
+          "word": "inches",
+          "start": 303.82,
+          "end": 304.14
+        },
+        {
+          "word": "of",
+          "start": 304.24,
+          "end": 304.28
+        }
+      ]
+    },
+    {
+      "id": "caption-0129",
+      "start": 304.38,
+      "end": 306.042,
+      "words": [
+        {
+          "word": "rain",
+          "start": 304.38,
+          "end": 304.601
+        },
+        {
+          "word": "each",
+          "start": 304.881,
+          "end": 305.061
+        },
+        {
+          "word": "year",
+          "start": 305.121,
+          "end": 305.281
+        }
+      ]
+    },
+    {
+      "id": "caption-0130",
+      "start": 306.042,
+      "end": 308.105,
+      "words": [
+        {
+          "word": "and",
+          "start": 306.042,
+          "end": 306.143
+        },
+        {
+          "word": "they",
+          "start": 306.183,
+          "end": 306.283
+        },
+        {
+          "word": "are",
+          "start": 306.323,
+          "end": 306.403
+        },
+        {
+          "word": "so",
+          "start": 306.563,
+          "end": 306.723
+        },
+        {
+          "word": "important",
+          "start": 306.863,
+          "end": 307.384
+        },
+        {
+          "word": "because",
+          "start": 307.845,
+          "end": 308.065
+        }
+      ]
+    },
+    {
+      "id": "caption-0131",
+      "start": 308.105,
+      "end": 310.268,
+      "words": [
+        {
+          "word": "they",
+          "start": 308.105,
+          "end": 308.225
+        },
+        {
+          "word": "provide",
+          "start": 308.305,
+          "end": 308.666
+        },
+        {
+          "word": "oxygen",
+          "start": 308.866,
+          "end": 309.307
+        },
+        {
+          "word": "and",
+          "start": 309.527,
+          "end": 309.607
+        },
+        {
+          "word": "food",
+          "start": 309.767,
+          "end": 310.027
+        },
+        {
+          "word": "to",
+          "start": 310.128,
+          "end": 310.208
+        }
+      ]
+    },
+    {
+      "id": "caption-0132",
+      "start": 310.268,
+      "end": 311.429,
+      "words": [
+        {
+          "word": "the",
+          "start": 310.268,
+          "end": 310.368
+        },
+        {
+          "word": "world.",
+          "start": 310.408,
+          "end": 310.688
+        }
+      ]
+    },
+    {
+      "id": "caption-0133",
+      "start": 311.429,
+      "end": 313.692,
+      "words": [
+        {
+          "word": "Without",
+          "start": 311.429,
+          "end": 311.75
+        },
+        {
+          "word": "them,",
+          "start": 311.83,
+          "end": 311.99
+        },
+        {
+          "word": "our",
+          "start": 312.571,
+          "end": 312.671
+        },
+        {
+          "word": "planet",
+          "start": 312.731,
+          "end": 313.091
+        },
+        {
+          "word": "would",
+          "start": 313.171,
+          "end": 313.332
+        },
+        {
+          "word": "be",
+          "start": 313.392,
+          "end": 313.472
+        }
+      ]
+    },
+    {
+      "id": "caption-0134",
+      "start": 313.692,
+      "end": 316.012,
+      "words": [
+        {
+          "word": "very",
+          "start": 313.692,
+          "end": 313.973
+        },
+        {
+          "word": "different!",
+          "start": 314.053,
+          "end": 314.473
+        }
+      ]
+    },
+    {
+      "id": "caption-0135",
+      "start": 316.012,
+      "end": 319.189,
+      "words": [
+        {
+          "word": "Types",
+          "start": 316.012,
+          "end": 316.333
+        },
+        {
+          "word": "of",
+          "start": 316.433,
+          "end": 316.473
+        },
+        {
+          "word": "Climate.",
+          "start": 316.614,
+          "end": 317.189
+        }
+      ]
+    },
+    {
+      "id": "caption-0136",
+      "start": 319.189,
+      "end": 321.146,
+      "words": [
+        {
+          "word": "Different",
+          "start": 319.189,
+          "end": 319.583
+        },
+        {
+          "word": "parts",
+          "start": 319.663,
+          "end": 319.944
+        },
+        {
+          "word": "of",
+          "start": 320.004,
+          "end": 320.084
+        },
+        {
+          "word": "the",
+          "start": 320.144,
+          "end": 320.224
+        },
+        {
+          "word": "world",
+          "start": 320.284,
+          "end": 320.585
+        },
+        {
+          "word": "have",
+          "start": 320.886,
+          "end": 321.046
+        }
+      ]
+    },
+    {
+      "id": "caption-0137",
+      "start": 321.146,
+      "end": 323.272,
+      "words": [
+        {
+          "word": "different",
+          "start": 321.146,
+          "end": 321.507
+        },
+        {
+          "word": "types",
+          "start": 321.567,
+          "end": 321.848
+        },
+        {
+          "word": "of",
+          "start": 321.928,
+          "end": 321.968
+        },
+        {
+          "word": "climate.",
+          "start": 322.069,
+          "end": 322.49
+        }
+      ]
+    },
+    {
+      "id": "caption-0138",
+      "start": 323.272,
+      "end": 326.375,
+      "words": [
+        {
+          "word": "Let's",
+          "start": 323.272,
+          "end": 323.492
+        },
+        {
+          "word": "look",
+          "start": 323.532,
+          "end": 323.672
+        },
+        {
+          "word": "at",
+          "start": 323.733,
+          "end": 323.793
+        },
+        {
+          "word": "some",
+          "start": 323.873,
+          "end": 324.033
+        },
+        {
+          "word": "major",
+          "start": 324.134,
+          "end": 324.434
+        },
+        {
+          "word": "types.",
+          "start": 324.494,
+          "end": 324.815
+        }
+      ]
+    },
+    {
+      "id": "caption-0139",
+      "start": 326.375,
+      "end": 330.591,
+      "words": [
+        {
+          "word": "Monsoon",
+          "start": 326.375,
+          "end": 326.956
+        },
+        {
+          "word": "or",
+          "start": 327.336,
+          "end": 327.397
+        },
+        {
+          "word": "Tropical",
+          "start": 327.517,
+          "end": 327.957
+        },
+        {
+          "word": "Climate.",
+          "start": 328.057,
+          "end": 328.591
+        }
+      ]
+    },
+    {
+      "id": "caption-0140",
+      "start": 330.591,
+      "end": 333.887,
+      "words": [
+        {
+          "word": "Found",
+          "start": 330.591,
+          "end": 330.943
+        },
+        {
+          "word": "in",
+          "start": 331.043,
+          "end": 331.083
+        },
+        {
+          "word": "South",
+          "start": 331.223,
+          "end": 331.504
+        },
+        {
+          "word": "Asia,",
+          "start": 331.604,
+          "end": 331.904
+        },
+        {
+          "word": "Southeast",
+          "start": 332.485,
+          "end": 333.006
+        },
+        {
+          "word": "Asia,",
+          "start": 333.106,
+          "end": 333.386
+        }
+      ]
+    },
+    {
+      "id": "caption-0141",
+      "start": 333.887,
+      "end": 336.21,
+      "words": [
+        {
+          "word": "and",
+          "start": 333.887,
+          "end": 333.967
+        },
+        {
+          "word": "some",
+          "start": 334.047,
+          "end": 334.248
+        },
+        {
+          "word": "parts",
+          "start": 334.328,
+          "end": 334.608
+        },
+        {
+          "word": "of",
+          "start": 334.668,
+          "end": 334.708
+        },
+        {
+          "word": "Africa.",
+          "start": 334.888,
+          "end": 335.249
+        }
+      ]
+    },
+    {
+      "id": "caption-0142",
+      "start": 336.21,
+      "end": 338.454,
+      "words": [
+        {
+          "word": "It",
+          "start": 336.21,
+          "end": 336.27
+        },
+        {
+          "word": "has",
+          "start": 336.331,
+          "end": 336.471
+        },
+        {
+          "word": "hot",
+          "start": 336.631,
+          "end": 336.811
+        },
+        {
+          "word": "summers",
+          "start": 336.931,
+          "end": 337.352
+        },
+        {
+          "word": "and",
+          "start": 337.773,
+          "end": 337.853
+        },
+        {
+          "word": "receives",
+          "start": 337.913,
+          "end": 338.293
+        }
+      ]
+    },
+    {
+      "id": "caption-0143",
+      "start": 338.454,
+      "end": 342.477,
+      "words": [
+        {
+          "word": "heavy",
+          "start": 338.454,
+          "end": 338.734
+        },
+        {
+          "word": "rainfall",
+          "start": 338.834,
+          "end": 339.355
+        },
+        {
+          "word": "during",
+          "start": 339.475,
+          "end": 339.775
+        },
+        {
+          "word": "the",
+          "start": 339.815,
+          "end": 339.876
+        },
+        {
+          "word": "monsoon",
+          "start": 339.936,
+          "end": 340.376
+        },
+        {
+          "word": "season.",
+          "start": 340.476,
+          "end": 340.897
+        }
+      ]
+    },
+    {
+      "id": "caption-0144",
+      "start": 342.477,
+      "end": 345.798,
+      "words": [
+        {
+          "word": "Equatorial",
+          "start": 342.477,
+          "end": 343.138
+        },
+        {
+          "word": "Climate.",
+          "start": 343.238,
+          "end": 343.798
+        }
+      ]
+    },
+    {
+      "id": "caption-0145",
+      "start": 345.798,
+      "end": 348.371,
+      "words": [
+        {
+          "word": "Found",
+          "start": 345.798,
+          "end": 346.168
+        },
+        {
+          "word": "near",
+          "start": 346.348,
+          "end": 346.508
+        },
+        {
+          "word": "the",
+          "start": 346.568,
+          "end": 346.648
+        },
+        {
+          "word": "equator,",
+          "start": 346.749,
+          "end": 347.269
+        },
+        {
+          "word": "such",
+          "start": 347.77,
+          "end": 347.97
+        },
+        {
+          "word": "as",
+          "start": 348.111,
+          "end": 348.191
+        }
+      ]
+    },
+    {
+      "id": "caption-0146",
+      "start": 348.371,
+      "end": 350.715,
+      "words": [
+        {
+          "word": "in",
+          "start": 348.371,
+          "end": 348.411
+        },
+        {
+          "word": "the",
+          "start": 348.471,
+          "end": 348.571
+        },
+        {
+          "word": "Amazon",
+          "start": 348.712,
+          "end": 349.072
+        },
+        {
+          "word": "Rainforest",
+          "start": 349.192,
+          "end": 349.833
+        },
+        {
+          "word": "and",
+          "start": 350.114,
+          "end": 350.194
+        },
+        {
+          "word": "Congo",
+          "start": 350.294,
+          "end": 350.635
+        }
+      ]
+    },
+    {
+      "id": "caption-0147",
+      "start": 350.715,
+      "end": 352.017,
+      "words": [
+        {
+          "word": "Basin.",
+          "start": 350.715,
+          "end": 351.075
+        }
+      ]
+    },
+    {
+      "id": "caption-0148",
+      "start": 352.017,
+      "end": 354.0,
+      "words": [
+        {
+          "word": "It",
+          "start": 352.017,
+          "end": 352.057
+        },
+        {
+          "word": "is",
+          "start": 352.157,
+          "end": 352.217
+        },
+        {
+          "word": "hot",
+          "start": 352.337,
+          "end": 352.557
+        },
+        {
+          "word": "and",
+          "start": 352.738,
+          "end": 352.838
+        },
+        {
+          "word": "humid",
+          "start": 352.958,
+          "end": 353.359
+        },
+        {
+          "word": "throughout",
+          "start": 353.479,
+          "end": 353.92
+        }
+      ]
+    },
+    {
+      "id": "caption-0149",
+      "start": 354.0,
+      "end": 357.422,
+      "words": [
+        {
+          "word": "the",
+          "start": 354.0,
+          "end": 354.08
+        },
+        {
+          "word": "year",
+          "start": 354.14,
+          "end": 354.32
+        },
+        {
+          "word": "with",
+          "start": 354.681,
+          "end": 354.821
+        },
+        {
+          "word": "heavy",
+          "start": 354.961,
+          "end": 355.222
+        },
+        {
+          "word": "rainfall.",
+          "start": 355.322,
+          "end": 355.842
+        }
+      ]
+    },
+    {
+      "id": "caption-0150",
+      "start": 357.422,
+      "end": 360.441,
+      "words": [
+        {
+          "word": "Desert",
+          "start": 357.422,
+          "end": 357.783
+        },
+        {
+          "word": "Climate.",
+          "start": 357.903,
+          "end": 358.441
+        }
+      ]
+    },
+    {
+      "id": "caption-0151",
+      "start": 360.441,
+      "end": 362.454,
+      "words": [
+        {
+          "word": "Found",
+          "start": 360.441,
+          "end": 360.771
+        },
+        {
+          "word": "in",
+          "start": 360.871,
+          "end": 360.911
+        },
+        {
+          "word": "places",
+          "start": 361.011,
+          "end": 361.452
+        },
+        {
+          "word": "like",
+          "start": 361.592,
+          "end": 361.733
+        },
+        {
+          "word": "the",
+          "start": 361.793,
+          "end": 361.873
+        },
+        {
+          "word": "Sahara",
+          "start": 361.933,
+          "end": 362.374
+        }
+      ]
+    },
+    {
+      "id": "caption-0152",
+      "start": 362.454,
+      "end": 364.978,
+      "words": [
+        {
+          "word": "Desert",
+          "start": 362.454,
+          "end": 362.815
+        },
+        {
+          "word": "and",
+          "start": 363.075,
+          "end": 363.155
+        },
+        {
+          "word": "the",
+          "start": 363.195,
+          "end": 363.275
+        },
+        {
+          "word": "Thar",
+          "start": 363.336,
+          "end": 363.636
+        },
+        {
+          "word": "Desert.",
+          "start": 363.716,
+          "end": 364.077
+        }
+      ]
+    },
+    {
+      "id": "caption-0153",
+      "start": 364.978,
+      "end": 367.323,
+      "words": [
+        {
+          "word": "It",
+          "start": 364.978,
+          "end": 365.039
+        },
+        {
+          "word": "has",
+          "start": 365.099,
+          "end": 365.219
+        },
+        {
+          "word": "very",
+          "start": 365.399,
+          "end": 365.68
+        },
+        {
+          "word": "little",
+          "start": 365.74,
+          "end": 366.0
+        },
+        {
+          "word": "rainfall,",
+          "start": 366.06,
+          "end": 366.561
+        },
+        {
+          "word": "hot",
+          "start": 367.042,
+          "end": 367.243
+        }
+      ]
+    },
+    {
+      "id": "caption-0154",
+      "start": 367.323,
+      "end": 370.586,
+      "words": [
+        {
+          "word": "days,",
+          "start": 367.323,
+          "end": 367.623
+        },
+        {
+          "word": "and",
+          "start": 368.044,
+          "end": 368.124
+        },
+        {
+          "word": "cold",
+          "start": 368.284,
+          "end": 368.565
+        },
+        {
+          "word": "nights.",
+          "start": 368.665,
+          "end": 369.026
+        }
+      ]
+    },
+    {
+      "id": "caption-0155",
+      "start": 370.586,
+      "end": 373.612,
+      "words": [
+        {
+          "word": "Tundra",
+          "start": 370.586,
+          "end": 370.967
+        },
+        {
+          "word": "Climate.",
+          "start": 371.067,
+          "end": 371.612
+        }
+      ]
+    },
+    {
+      "id": "caption-0156",
+      "start": 373.612,
+      "end": 375.87,
+      "words": [
+        {
+          "word": "Found",
+          "start": 373.612,
+          "end": 373.987
+        },
+        {
+          "word": "near",
+          "start": 374.127,
+          "end": 374.267
+        },
+        {
+          "word": "the",
+          "start": 374.348,
+          "end": 374.408
+        },
+        {
+          "word": "poles,",
+          "start": 374.488,
+          "end": 374.888
+        },
+        {
+          "word": "such",
+          "start": 375.409,
+          "end": 375.61
+        },
+        {
+          "word": "as",
+          "start": 375.71,
+          "end": 375.75
+        }
+      ]
+    },
+    {
+      "id": "caption-0157",
+      "start": 375.87,
+      "end": 378.555,
+      "words": [
+        {
+          "word": "in",
+          "start": 375.87,
+          "end": 375.91
+        },
+        {
+          "word": "Greenland",
+          "start": 376.01,
+          "end": 376.491
+        },
+        {
+          "word": "and",
+          "start": 376.812,
+          "end": 376.912
+        },
+        {
+          "word": "Antarctica.",
+          "start": 377.032,
+          "end": 377.673
+        }
+      ]
+    },
+    {
+      "id": "caption-0158",
+      "start": 378.555,
+      "end": 381.12,
+      "words": [
+        {
+          "word": "It",
+          "start": 378.555,
+          "end": 378.615
+        },
+        {
+          "word": "is",
+          "start": 378.695,
+          "end": 378.755
+        },
+        {
+          "word": "extremely",
+          "start": 378.836,
+          "end": 379.537
+        },
+        {
+          "word": "cold",
+          "start": 379.637,
+          "end": 379.958
+        },
+        {
+          "word": "with",
+          "start": 380.338,
+          "end": 380.458
+        },
+        {
+          "word": "little",
+          "start": 380.579,
+          "end": 380.859
+        }
+      ]
+    },
+    {
+      "id": "caption-0159",
+      "start": 381.12,
+      "end": 383.782,
+      "words": [
+        {
+          "word": "or",
+          "start": 381.12,
+          "end": 381.18
+        },
+        {
+          "word": "no",
+          "start": 381.34,
+          "end": 381.48
+        },
+        {
+          "word": "vegetation.",
+          "start": 381.6,
+          "end": 382.202
+        }
+      ]
+    },
+    {
+      "id": "caption-0160",
+      "start": 383.782,
+      "end": 386.43,
+      "words": [
+        {
+          "word": "Do",
+          "start": 383.782,
+          "end": 383.862
+        },
+        {
+          "word": "You",
+          "start": 383.942,
+          "end": 384.062
+        },
+        {
+          "word": "Know?",
+          "start": 384.143,
+          "end": 384.43
+        }
+      ]
+    },
+    {
+      "id": "caption-0161",
+      "start": 386.43,
+      "end": 390.026,
+      "words": [
+        {
+          "word": "Antarctica",
+          "start": 386.43,
+          "end": 387.183
+        },
+        {
+          "word": "is",
+          "start": 387.443,
+          "end": 387.483
+        },
+        {
+          "word": "the",
+          "start": 387.583,
+          "end": 387.663
+        },
+        {
+          "word": "driest,",
+          "start": 387.763,
+          "end": 388.344
+        },
+        {
+          "word": "coldest,",
+          "start": 388.765,
+          "end": 389.305
+        },
+        {
+          "word": "and",
+          "start": 389.766,
+          "end": 389.826
+        }
+      ]
+    },
+    {
+      "id": "caption-0162",
+      "start": 390.026,
+      "end": 392.67,
+      "words": [
+        {
+          "word": "windiest",
+          "start": 390.026,
+          "end": 390.547
+        },
+        {
+          "word": "continent",
+          "start": 390.667,
+          "end": 391.168
+        },
+        {
+          "word": "on",
+          "start": 391.348,
+          "end": 391.388
+        },
+        {
+          "word": "Earth.",
+          "start": 391.568,
+          "end": 391.768
+        }
+      ]
+    },
+    {
+      "id": "caption-0163",
+      "start": 392.67,
+      "end": 394.752,
+      "words": [
+        {
+          "word": "It",
+          "start": 392.67,
+          "end": 392.73
+        },
+        {
+          "word": "hasn’t",
+          "start": 392.81,
+          "end": 393.13
+        },
+        {
+          "word": "rained",
+          "start": 393.21,
+          "end": 393.511
+        },
+        {
+          "word": "there",
+          "start": 393.591,
+          "end": 393.811
+        },
+        {
+          "word": "in",
+          "start": 393.971,
+          "end": 394.011
+        },
+        {
+          "word": "millions",
+          "start": 394.232,
+          "end": 394.672
+        }
+      ]
+    },
+    {
+      "id": "caption-0164",
+      "start": 394.752,
+      "end": 396.034,
+      "words": [
+        {
+          "word": "of",
+          "start": 394.752,
+          "end": 394.792
+        },
+        {
+          "word": "years,",
+          "start": 394.872,
+          "end": 395.153
+        }
+      ]
+    },
+    {
+      "id": "caption-0165",
+      "start": 396.034,
+      "end": 398.377,
+      "words": [
+        {
+          "word": "but",
+          "start": 396.034,
+          "end": 396.194
+        },
+        {
+          "word": "it’s",
+          "start": 396.454,
+          "end": 396.575
+        },
+        {
+          "word": "still",
+          "start": 396.635,
+          "end": 396.895
+        },
+        {
+          "word": "considered",
+          "start": 396.995,
+          "end": 397.496
+        },
+        {
+          "word": "a",
+          "start": 397.556,
+          "end": 397.576
+        },
+        {
+          "word": "desert",
+          "start": 397.656,
+          "end": 398.056
+        }
+      ]
+    },
+    {
+      "id": "caption-0166",
+      "start": 398.377,
+      "end": 401.779,
+      "words": [
+        {
+          "word": "because",
+          "start": 398.377,
+          "end": 398.637
+        },
+        {
+          "word": "of",
+          "start": 398.697,
+          "end": 398.737
+        },
+        {
+          "word": "the",
+          "start": 398.797,
+          "end": 398.878
+        },
+        {
+          "word": "lack",
+          "start": 398.958,
+          "end": 399.138
+        },
+        {
+          "word": "of",
+          "start": 399.218,
+          "end": 399.258
+        },
+        {
+          "word": "precipitation.",
+          "start": 399.358,
+          "end": 400.219
+        }
+      ]
+    },
+    {
+      "id": "caption-0167",
+      "start": 401.779,
+      "end": 405.733,
+      "words": [
+        {
+          "word": "Climatic",
+          "start": 401.779,
+          "end": 402.32
+        },
+        {
+          "word": "Zones",
+          "start": 402.461,
+          "end": 402.822
+        },
+        {
+          "word": "of",
+          "start": 402.982,
+          "end": 403.022
+        },
+        {
+          "word": "the",
+          "start": 403.122,
+          "end": 403.223
+        },
+        {
+          "word": "Earth.",
+          "start": 403.363,
+          "end": 403.733
+        }
+      ]
+    },
+    {
+      "id": "caption-0168",
+      "start": 405.733,
+      "end": 407.802,
+      "words": [
+        {
+          "word": "The",
+          "start": 405.733,
+          "end": 405.877
+        },
+        {
+          "word": "Earth",
+          "start": 406.018,
+          "end": 406.198
+        },
+        {
+          "word": "is",
+          "start": 406.298,
+          "end": 406.358
+        },
+        {
+          "word": "divided",
+          "start": 406.419,
+          "end": 406.9
+        },
+        {
+          "word": "into",
+          "start": 407.08,
+          "end": 407.261
+        },
+        {
+          "word": "three",
+          "start": 407.401,
+          "end": 407.682
+        }
+      ]
+    },
+    {
+      "id": "caption-0169",
+      "start": 407.802,
+      "end": 412.048,
+      "words": [
+        {
+          "word": "main",
+          "start": 407.802,
+          "end": 408.022
+        },
+        {
+          "word": "climatic",
+          "start": 408.123,
+          "end": 408.624
+        },
+        {
+          "word": "zones",
+          "start": 408.744,
+          "end": 409.085
+        },
+        {
+          "word": "based",
+          "start": 409.446,
+          "end": 409.727
+        },
+        {
+          "word": "on",
+          "start": 409.827,
+          "end": 409.867
+        },
+        {
+          "word": "latitude.",
+          "start": 409.987,
+          "end": 410.508
+        }
+      ]
+    },
+    {
+      "id": "caption-0170",
+      "start": 412.048,
+      "end": 414.906,
+      "words": [
+        {
+          "word": "Torrid",
+          "start": 412.048,
+          "end": 412.429
+        },
+        {
+          "word": "Zone.",
+          "start": 412.509,
+          "end": 412.906
+        }
+      ]
+    },
+    {
+      "id": "caption-0171",
+      "start": 414.906,
+      "end": 417.511,
+      "words": [
+        {
+          "word": "Located",
+          "start": 414.906,
+          "end": 415.407
+        },
+        {
+          "word": "between",
+          "start": 415.547,
+          "end": 415.868
+        },
+        {
+          "word": "the",
+          "start": 415.948,
+          "end": 416.008
+        },
+        {
+          "word": "Tropic",
+          "start": 416.088,
+          "end": 416.409
+        },
+        {
+          "word": "of",
+          "start": 416.489,
+          "end": 416.549
+        },
+        {
+          "word": "Cancer",
+          "start": 416.629,
+          "end": 417.13
+        }
+      ]
+    },
+    {
+      "id": "caption-0172",
+      "start": 417.511,
+      "end": 419.735,
+      "words": [
+        {
+          "word": "and",
+          "start": 417.511,
+          "end": 417.611
+        },
+        {
+          "word": "the",
+          "start": 417.671,
+          "end": 417.731
+        },
+        {
+          "word": "Tropic",
+          "start": 417.791,
+          "end": 418.112
+        },
+        {
+          "word": "of",
+          "start": 418.192,
+          "end": 418.232
+        },
+        {
+          "word": "Capricorn.",
+          "start": 418.352,
+          "end": 418.913
+        }
+      ]
+    },
+    {
+      "id": "caption-0173",
+      "start": 419.735,
+      "end": 421.638,
+      "words": [
+        {
+          "word": "It",
+          "start": 419.735,
+          "end": 419.775
+        },
+        {
+          "word": "is",
+          "start": 419.875,
+          "end": 419.935
+        },
+        {
+          "word": "the",
+          "start": 419.995,
+          "end": 420.075
+        },
+        {
+          "word": "hottest",
+          "start": 420.216,
+          "end": 420.616
+        },
+        {
+          "word": "zone",
+          "start": 420.717,
+          "end": 420.997
+        },
+        {
+          "word": "as",
+          "start": 421.478,
+          "end": 421.538
+        }
+      ]
+    },
+    {
+      "id": "caption-0174",
+      "start": 421.638,
+      "end": 424.821,
+      "words": [
+        {
+          "word": "it",
+          "start": 421.638,
+          "end": 421.678
+        },
+        {
+          "word": "receives",
+          "start": 421.758,
+          "end": 422.179
+        },
+        {
+          "word": "direct",
+          "start": 422.319,
+          "end": 422.7
+        },
+        {
+          "word": "sunlight.",
+          "start": 422.82,
+          "end": 423.281
+        }
+      ]
+    },
+    {
+      "id": "caption-0175",
+      "start": 424.821,
+      "end": 427.76,
+      "words": [
+        {
+          "word": "Temperate",
+          "start": 424.821,
+          "end": 425.282
+        },
+        {
+          "word": "Zone.",
+          "start": 425.362,
+          "end": 425.76
+        }
+      ]
+    },
+    {
+      "id": "caption-0176",
+      "start": 427.76,
+      "end": 429.754,
+      "words": [
+        {
+          "word": "Found",
+          "start": 427.76,
+          "end": 428.11
+        },
+        {
+          "word": "between",
+          "start": 428.23,
+          "end": 428.551
+        },
+        {
+          "word": "the",
+          "start": 428.611,
+          "end": 428.691
+        },
+        {
+          "word": "tropics",
+          "start": 428.752,
+          "end": 429.253
+        },
+        {
+          "word": "and",
+          "start": 429.473,
+          "end": 429.573
+        },
+        {
+          "word": "the",
+          "start": 429.634,
+          "end": 429.694
+        }
+      ]
+    },
+    {
+      "id": "caption-0177",
+      "start": 429.754,
+      "end": 431.457,
+      "words": [
+        {
+          "word": "polar",
+          "start": 429.754,
+          "end": 430.074
+        },
+        {
+          "word": "circles.",
+          "start": 430.155,
+          "end": 430.596
+        }
+      ]
+    },
+    {
+      "id": "caption-0178",
+      "start": 431.457,
+      "end": 434.043,
+      "words": [
+        {
+          "word": "It",
+          "start": 431.457,
+          "end": 431.518
+        },
+        {
+          "word": "has",
+          "start": 431.578,
+          "end": 431.718
+        },
+        {
+          "word": "moderate",
+          "start": 431.878,
+          "end": 432.299
+        },
+        {
+          "word": "temperatures",
+          "start": 432.379,
+          "end": 432.981
+        },
+        {
+          "word": "with",
+          "start": 433.161,
+          "end": 433.301
+        },
+        {
+          "word": "distinct",
+          "start": 433.402,
+          "end": 433.903
+        }
+      ]
+    },
+    {
+      "id": "caption-0179",
+      "start": 434.043,
+      "end": 436.084,
+      "words": [
+        {
+          "word": "seasons.",
+          "start": 434.043,
+          "end": 434.544
+        }
+      ]
+    },
+    {
+      "id": "caption-0180",
+      "start": 436.084,
+      "end": 438.636,
+      "words": [
+        {
+          "word": "Do",
+          "start": 436.084,
+          "end": 436.164
+        },
+        {
+          "word": "you",
+          "start": 436.244,
+          "end": 436.344
+        },
+        {
+          "word": "know?",
+          "start": 436.384,
+          "end": 436.636
+        }
+      ]
+    },
+    {
+      "id": "caption-0181",
+      "start": 438.636,
+      "end": 440.506,
+      "words": [
+        {
+          "word": "There",
+          "start": 438.636,
+          "end": 438.784
+        },
+        {
+          "word": "are",
+          "start": 438.844,
+          "end": 438.924
+        },
+        {
+          "word": "different",
+          "start": 439.024,
+          "end": 439.385
+        },
+        {
+          "word": "types",
+          "start": 439.425,
+          "end": 439.685
+        },
+        {
+          "word": "of",
+          "start": 439.745,
+          "end": 439.805
+        },
+        {
+          "word": "clouds",
+          "start": 439.946,
+          "end": 440.386
+        }
+      ]
+    },
+    {
+      "id": "caption-0182",
+      "start": 440.506,
+      "end": 441.668,
+      "words": [
+        {
+          "word": "that",
+          "start": 440.506,
+          "end": 440.627
+        },
+        {
+          "word": "can",
+          "start": 440.687,
+          "end": 440.787
+        },
+        {
+          "word": "tell",
+          "start": 440.887,
+          "end": 441.047
+        },
+        {
+          "word": "you",
+          "start": 441.087,
+          "end": 441.167
+        },
+        {
+          "word": "about",
+          "start": 441.267,
+          "end": 441.468
+        },
+        {
+          "word": "the",
+          "start": 441.508,
+          "end": 441.608
+        }
+      ]
+    },
+    {
+      "id": "caption-0183",
+      "start": 441.668,
+      "end": 442.629,
+      "words": [
+        {
+          "word": "weather?",
+          "start": 441.668,
+          "end": 441.948
+        }
+      ]
+    },
+    {
+      "id": "caption-0184",
+      "start": 442.629,
+      "end": 445.854,
+      "words": [
+        {
+          "word": "For",
+          "start": 442.629,
+          "end": 442.75
+        },
+        {
+          "word": "example,",
+          "start": 442.85,
+          "end": 443.31
+        },
+        {
+          "word": "cumulus",
+          "start": 443.851,
+          "end": 444.352
+        },
+        {
+          "word": "clouds",
+          "start": 444.412,
+          "end": 444.793
+        },
+        {
+          "word": "are",
+          "start": 444.993,
+          "end": 445.073
+        },
+        {
+          "word": "fluffy",
+          "start": 445.193,
+          "end": 445.574
+        }
+      ]
+    },
+    {
+      "id": "caption-0185",
+      "start": 445.854,
+      "end": 448.558,
+      "words": [
+        {
+          "word": "and",
+          "start": 445.854,
+          "end": 445.934
+        },
+        {
+          "word": "show",
+          "start": 446.034,
+          "end": 446.175
+        },
+        {
+          "word": "fair",
+          "start": 446.355,
+          "end": 446.595
+        },
+        {
+          "word": "weather,",
+          "start": 446.655,
+          "end": 446.956
+        },
+        {
+          "word": "while",
+          "start": 447.436,
+          "end": 447.617
+        },
+        {
+          "word": "nimbostratus",
+          "start": 447.737,
+          "end": 448.498
+        }
+      ]
+    },
+    {
+      "id": "caption-0186",
+      "start": 448.558,
+      "end": 452.041,
+      "words": [
+        {
+          "word": "clouds",
+          "start": 448.558,
+          "end": 448.918
+        },
+        {
+          "word": "bring",
+          "start": 449.119,
+          "end": 449.319
+        },
+        {
+          "word": "rain",
+          "start": 449.459,
+          "end": 449.7
+        },
+        {
+          "word": "or",
+          "start": 450.02,
+          "end": 450.06
+        },
+        {
+          "word": "snow.",
+          "start": 450.16,
+          "end": 450.441
+        }
+      ]
+    },
+    {
+      "id": "caption-0187",
+      "start": 452.041,
+      "end": 454.908,
+      "words": [
+        {
+          "word": "Frigid",
+          "start": 452.041,
+          "end": 452.402
+        },
+        {
+          "word": "Zone.",
+          "start": 452.502,
+          "end": 452.908
+        }
+      ]
+    },
+    {
+      "id": "caption-0188",
+      "start": 454.908,
+      "end": 457.221,
+      "words": [
+        {
+          "word": "Located",
+          "start": 454.908,
+          "end": 455.457
+        },
+        {
+          "word": "near",
+          "start": 455.597,
+          "end": 455.758
+        },
+        {
+          "word": "the",
+          "start": 455.838,
+          "end": 455.918
+        },
+        {
+          "word": "poles.",
+          "start": 455.978,
+          "end": 456.399
+        }
+      ]
+    },
+    {
+      "id": "caption-0189",
+      "start": 457.221,
+      "end": 459.287,
+      "words": [
+        {
+          "word": "It",
+          "start": 457.221,
+          "end": 457.282
+        },
+        {
+          "word": "is",
+          "start": 457.382,
+          "end": 457.422
+        },
+        {
+          "word": "the",
+          "start": 457.502,
+          "end": 457.562
+        },
+        {
+          "word": "coldest",
+          "start": 457.723,
+          "end": 458.224
+        },
+        {
+          "word": "zone",
+          "start": 458.344,
+          "end": 458.625
+        },
+        {
+          "word": "with",
+          "start": 458.866,
+          "end": 459.006
+        }
+      ]
+    },
+    {
+      "id": "caption-0190",
+      "start": 459.287,
+      "end": 461.91,
+      "words": [
+        {
+          "word": "ice-covered",
+          "start": 459.287,
+          "end": 459.848
+        },
+        {
+          "word": "lands.",
+          "start": 459.908,
+          "end": 460.31
+        }
+      ]
+    },
+    {
+      "id": "caption-0191",
+      "start": 461.91,
+      "end": 464.561,
+      "words": [
+        {
+          "word": "Recall.",
+          "start": 461.91,
+          "end": 462.561
+        }
+      ]
+    },
+    {
+      "id": "caption-0192",
+      "start": 464.561,
+      "end": 467.43,
+      "words": [
+        {
+          "word": "Weather",
+          "start": 464.561,
+          "end": 464.948
+        },
+        {
+          "word": "and",
+          "start": 465.108,
+          "end": 465.188
+        },
+        {
+          "word": "climate",
+          "start": 465.288,
+          "end": 465.768
+        },
+        {
+          "word": "are",
+          "start": 466.029,
+          "end": 466.129
+        },
+        {
+          "word": "essential",
+          "start": 466.229,
+          "end": 466.749
+        },
+        {
+          "word": "aspects",
+          "start": 466.949,
+          "end": 467.35
+        }
+      ]
+    },
+    {
+      "id": "caption-0193",
+      "start": 467.43,
+      "end": 469.432,
+      "words": [
+        {
+          "word": "of",
+          "start": 467.43,
+          "end": 467.49
+        },
+        {
+          "word": "our",
+          "start": 467.61,
+          "end": 467.69
+        },
+        {
+          "word": "environment.",
+          "start": 467.79,
+          "end": 468.331
+        }
+      ]
+    },
+    {
+      "id": "caption-0194",
+      "start": 469.432,
+      "end": 473.275,
+      "words": [
+        {
+          "word": "Many",
+          "start": 469.432,
+          "end": 469.652
+        },
+        {
+          "word": "factors,",
+          "start": 469.732,
+          "end": 470.252
+        },
+        {
+          "word": "such",
+          "start": 470.693,
+          "end": 470.893
+        },
+        {
+          "word": "as",
+          "start": 470.953,
+          "end": 471.013
+        },
+        {
+          "word": "latitude,",
+          "start": 471.153,
+          "end": 471.754
+        },
+        {
+          "word": "altitude,",
+          "start": 472.234,
+          "end": 472.754
+        }
+      ]
+    },
+    {
+      "id": "caption-0195",
+      "start": 473.275,
+      "end": 477.579,
+      "words": [
+        {
+          "word": "wind,",
+          "start": 473.275,
+          "end": 473.555
+        },
+        {
+          "word": "and",
+          "start": 474.036,
+          "end": 474.136
+        },
+        {
+          "word": "ocean",
+          "start": 474.356,
+          "end": 474.596
+        },
+        {
+          "word": "currents,",
+          "start": 474.696,
+          "end": 475.076
+        },
+        {
+          "word": "influence",
+          "start": 475.517,
+          "end": 475.997
+        },
+        {
+          "word": "climate.",
+          "start": 476.077,
+          "end": 476.478
+        }
+      ]
+    },
+    {
+      "id": "caption-0196",
+      "start": 477.579,
+      "end": 480.201,
+      "words": [
+        {
+          "word": "Different",
+          "start": 477.579,
+          "end": 477.939
+        },
+        {
+          "word": "regions",
+          "start": 478.019,
+          "end": 478.439
+        },
+        {
+          "word": "experience",
+          "start": 478.58,
+          "end": 479.14
+        },
+        {
+          "word": "different",
+          "start": 479.28,
+          "end": 479.62
+        },
+        {
+          "word": "types",
+          "start": 479.7,
+          "end": 480.001
+        },
+        {
+          "word": "of",
+          "start": 480.081,
+          "end": 480.121
+        }
+      ]
+    },
+    {
+      "id": "caption-0197",
+      "start": 480.201,
+      "end": 483.264,
+      "words": [
+        {
+          "word": "climates,",
+          "start": 480.201,
+          "end": 480.661
+        },
+        {
+          "word": "affecting",
+          "start": 481.242,
+          "end": 481.682
+        },
+        {
+          "word": "the",
+          "start": 481.742,
+          "end": 481.822
+        },
+        {
+          "word": "way",
+          "start": 481.882,
+          "end": 481.982
+        },
+        {
+          "word": "people",
+          "start": 482.083,
+          "end": 482.363
+        },
+        {
+          "word": "live,",
+          "start": 482.483,
+          "end": 482.703
+        }
+      ]
+    },
+    {
+      "id": "caption-0198",
+      "start": 483.264,
+      "end": 484.925,
+      "words": [
+        {
+          "word": "the",
+          "start": 483.264,
+          "end": 483.344
+        },
+        {
+          "word": "food",
+          "start": 483.424,
+          "end": 483.644
+        },
+        {
+          "word": "they",
+          "start": 483.724,
+          "end": 483.844
+        },
+        {
+          "word": "grow",
+          "start": 483.924,
+          "end": 484.144
+        },
+        {
+          "word": "and",
+          "start": 484.645,
+          "end": 484.745
+        },
+        {
+          "word": "the",
+          "start": 484.785,
+          "end": 484.845
+        }
+      ]
+    },
+    {
+      "id": "caption-0199",
+      "start": 484.925,
+      "end": 487.286,
+      "words": [
+        {
+          "word": "clothes",
+          "start": 484.925,
+          "end": 485.245
+        },
+        {
+          "word": "they",
+          "start": 485.345,
+          "end": 485.465
+        },
+        {
+          "word": "wear.",
+          "start": 485.526,
+          "end": 485.726
+        }
+      ]
+    },
+    {
+      "id": "caption-0200",
+      "start": 487.286,
+      "end": 490.218,
+      "words": [
+        {
+          "word": "Let's",
+          "start": 487.286,
+          "end": 487.546
+        },
+        {
+          "word": "Remember.",
+          "start": 487.626,
+          "end": 488.218
+        }
+      ]
+    },
+    {
+      "id": "caption-0201",
+      "start": 490.218,
+      "end": 493.071,
+      "words": [
+        {
+          "word": "Weather",
+          "start": 490.218,
+          "end": 490.63
+        },
+        {
+          "word": "is",
+          "start": 490.93,
+          "end": 490.97
+        },
+        {
+          "word": "the",
+          "start": 491.05,
+          "end": 491.13
+        },
+        {
+          "word": "daily",
+          "start": 491.23,
+          "end": 491.57
+        },
+        {
+          "word": "atmospheric",
+          "start": 491.73,
+          "end": 492.311
+        },
+        {
+          "word": "condition",
+          "start": 492.391,
+          "end": 492.851
+        }
+      ]
+    },
+    {
+      "id": "caption-0202",
+      "start": 493.071,
+      "end": 494.512,
+      "words": [
+        {
+          "word": "of",
+          "start": 493.071,
+          "end": 493.111
+        },
+        {
+          "word": "a",
+          "start": 493.211,
+          "end": 493.231
+        },
+        {
+          "word": "place.",
+          "start": 493.311,
+          "end": 493.612
+        }
+      ]
+    },
+    {
+      "id": "caption-0203",
+      "start": 494.512,
+      "end": 496.894,
+      "words": [
+        {
+          "word": "Climate",
+          "start": 494.512,
+          "end": 494.993
+        },
+        {
+          "word": "is",
+          "start": 495.273,
+          "end": 495.333
+        },
+        {
+          "word": "the",
+          "start": 495.393,
+          "end": 495.473
+        },
+        {
+          "word": "average",
+          "start": 495.693,
+          "end": 496.013
+        },
+        {
+          "word": "weather",
+          "start": 496.093,
+          "end": 496.393
+        },
+        {
+          "word": "over",
+          "start": 496.634,
+          "end": 496.814
+        }
+      ]
+    },
+    {
+      "id": "caption-0204",
+      "start": 496.894,
+      "end": 498.615,
+      "words": [
+        {
+          "word": "a",
+          "start": 496.894,
+          "end": 496.914
+        },
+        {
+          "word": "long",
+          "start": 497.034,
+          "end": 497.254
+        },
+        {
+          "word": "period.",
+          "start": 497.374,
+          "end": 497.754
+        }
+      ]
+    },
+    {
+      "id": "caption-0205",
+      "start": 498.615,
+      "end": 502.378,
+      "words": [
+        {
+          "word": "Latitude,",
+          "start": 498.615,
+          "end": 499.195
+        },
+        {
+          "word": "altitude,",
+          "start": 499.776,
+          "end": 500.316
+        },
+        {
+          "word": "distance",
+          "start": 500.837,
+          "end": 501.237
+        },
+        {
+          "word": "from",
+          "start": 501.317,
+          "end": 501.437
+        },
+        {
+          "word": "the",
+          "start": 501.517,
+          "end": 501.597
+        },
+        {
+          "word": "sea,",
+          "start": 501.677,
+          "end": 501.877
+        }
+      ]
+    },
+    {
+      "id": "caption-0206",
+      "start": 502.378,
+      "end": 505.159,
+      "words": [
+        {
+          "word": "and",
+          "start": 502.378,
+          "end": 502.478
+        },
+        {
+          "word": "winds",
+          "start": 502.638,
+          "end": 502.978
+        },
+        {
+          "word": "influence",
+          "start": 503.418,
+          "end": 503.899
+        },
+        {
+          "word": "climate.",
+          "start": 503.999,
+          "end": 504.399
+        }
+      ]
+    },
+    {
+      "id": "caption-0207",
+      "start": 505.159,
+      "end": 506.881,
+      "words": [
+        {
+          "word": "The",
+          "start": 505.159,
+          "end": 505.24
+        },
+        {
+          "word": "world",
+          "start": 505.3,
+          "end": 505.58
+        },
+        {
+          "word": "has",
+          "start": 505.68,
+          "end": 505.82
+        },
+        {
+          "word": "different",
+          "start": 505.96,
+          "end": 506.34
+        },
+        {
+          "word": "types",
+          "start": 506.4,
+          "end": 506.681
+        },
+        {
+          "word": "of",
+          "start": 506.741,
+          "end": 506.781
+        }
+      ]
+    },
+    {
+      "id": "caption-0208",
+      "start": 506.881,
+      "end": 511.724,
+      "words": [
+        {
+          "word": "climate,",
+          "start": 506.881,
+          "end": 507.281
+        },
+        {
+          "word": "including",
+          "start": 507.721,
+          "end": 508.182
+        },
+        {
+          "word": "tropical,",
+          "start": 508.622,
+          "end": 509.102
+        },
+        {
+          "word": "desert,",
+          "start": 509.623,
+          "end": 510.023
+        },
+        {
+          "word": "and",
+          "start": 510.383,
+          "end": 510.483
+        },
+        {
+          "word": "tundra.",
+          "start": 510.563,
+          "end": 510.943
+        }
+      ]
+    },
+    {
+      "id": "caption-0209",
+      "start": 511.724,
+      "end": 514.406,
+      "words": [
+        {
+          "word": "The",
+          "start": 511.724,
+          "end": 511.824
+        },
+        {
+          "word": "Earth",
+          "start": 511.964,
+          "end": 512.124
+        },
+        {
+          "word": "has",
+          "start": 512.224,
+          "end": 512.364
+        },
+        {
+          "word": "three",
+          "start": 512.565,
+          "end": 512.785
+        },
+        {
+          "word": "climatic",
+          "start": 512.865,
+          "end": 513.365
+        },
+        {
+          "word": "zones:",
+          "start": 513.465,
+          "end": 513.805
+        }
+      ]
+    },
+    {
+      "id": "caption-0210",
+      "start": 514.406,
+      "end": 518.327,
+      "words": [
+        {
+          "word": "torrid,",
+          "start": 514.406,
+          "end": 514.786
+        },
+        {
+          "word": "temperate,",
+          "start": 515.326,
+          "end": 515.827
+        },
+        {
+          "word": "and",
+          "start": 516.227,
+          "end": 516.327
+        },
+        {
+          "word": "frigid.",
+          "start": 516.447,
+          "end": 516.787
+        }
+      ]
+    },
+    {
+      "id": "caption-0211",
+      "start": 518.327,
+      "end": 521.098,
+      "words": [
+        {
+          "word": "Word",
+          "start": 518.327,
+          "end": 518.567
+        },
+        {
+          "word": "Bank.",
+          "start": 518.667,
+          "end": 519.098
+        }
+      ]
+    },
+    {
+      "id": "caption-0212",
+      "start": 521.098,
+      "end": 522.336,
+      "words": [
+        {
+          "word": "Word.",
+          "start": 521.098,
+          "end": 521.475
+        }
+      ]
+    },
+    {
+      "id": "caption-0213",
+      "start": 522.336,
+      "end": 523.597,
+      "words": [
+        {
+          "word": "Meaning.",
+          "start": 522.336,
+          "end": 522.696
+        }
+      ]
+    },
+    {
+      "id": "caption-0214",
+      "start": 523.597,
+      "end": 524.998,
+      "words": [
+        {
+          "word": "Humidity.",
+          "start": 523.597,
+          "end": 524.197
+        }
+      ]
+    },
+    {
+      "id": "caption-0215",
+      "start": 524.998,
+      "end": 526.879,
+      "words": [
+        {
+          "word": "The",
+          "start": 524.998,
+          "end": 525.078
+        },
+        {
+          "word": "amount",
+          "start": 525.198,
+          "end": 525.518
+        },
+        {
+          "word": "of",
+          "start": 525.638,
+          "end": 525.679
+        },
+        {
+          "word": "water",
+          "start": 525.819,
+          "end": 526.119
+        },
+        {
+          "word": "vapor",
+          "start": 526.179,
+          "end": 526.539
+        },
+        {
+          "word": "in",
+          "start": 526.739,
+          "end": 526.799
+        }
+      ]
+    },
+    {
+      "id": "caption-0216",
+      "start": 526.879,
+      "end": 528.32,
+      "words": [
+        {
+          "word": "the",
+          "start": 526.879,
+          "end": 526.979
+        },
+        {
+          "word": "air.",
+          "start": 527.18,
+          "end": 527.28
+        }
+      ]
+    },
+    {
+      "id": "caption-0217",
+      "start": 528.32,
+      "end": 529.461,
+      "words": [
+        {
+          "word": "Altitude.",
+          "start": 528.32,
+          "end": 528.861
+        }
+      ]
+    },
+    {
+      "id": "caption-0218",
+      "start": 529.461,
+      "end": 531.183,
+      "words": [
+        {
+          "word": "The",
+          "start": 529.461,
+          "end": 529.561
+        },
+        {
+          "word": "height",
+          "start": 529.641,
+          "end": 529.882
+        },
+        {
+          "word": "of",
+          "start": 529.962,
+          "end": 530.002
+        },
+        {
+          "word": "a",
+          "start": 530.122,
+          "end": 530.142
+        },
+        {
+          "word": "place",
+          "start": 530.202,
+          "end": 530.522
+        },
+        {
+          "word": "above",
+          "start": 530.822,
+          "end": 531.062
+        }
+      ]
+    },
+    {
+      "id": "caption-0219",
+      "start": 531.183,
+      "end": 532.664,
+      "words": [
+        {
+          "word": "sea",
+          "start": 531.183,
+          "end": 531.363
+        },
+        {
+          "word": "level.",
+          "start": 531.423,
+          "end": 531.703
+        }
+      ]
+    },
+    {
+      "id": "caption-0220",
+      "start": 532.664,
+      "end": 533.824,
+      "words": [
+        {
+          "word": "Equator.",
+          "start": 532.664,
+          "end": 533.204
+        }
+      ]
+    },
+    {
+      "id": "caption-0221",
+      "start": 533.824,
+      "end": 536.606,
+      "words": [
+        {
+          "word": "An",
+          "start": 533.824,
+          "end": 533.884
+        },
+        {
+          "word": "imaginary",
+          "start": 534.045,
+          "end": 534.665
+        },
+        {
+          "word": "line",
+          "start": 534.765,
+          "end": 535.045
+        },
+        {
+          "word": "dividing",
+          "start": 535.366,
+          "end": 535.846
+        },
+        {
+          "word": "the",
+          "start": 535.926,
+          "end": 536.026
+        },
+        {
+          "word": "Earth",
+          "start": 536.166,
+          "end": 536.366
+        }
+      ]
+    },
+    {
+      "id": "caption-0222",
+      "start": 536.606,
+      "end": 538.588,
+      "words": [
+        {
+          "word": "into",
+          "start": 536.606,
+          "end": 536.807
+        },
+        {
+          "word": "two",
+          "start": 536.927,
+          "end": 537.087
+        },
+        {
+          "word": "halves.",
+          "start": 537.227,
+          "end": 537.607
+        }
+      ]
+    },
+    {
+      "id": "caption-0223",
+      "start": 538.588,
+      "end": 539.849,
+      "words": [
+        {
+          "word": "Monsoon.",
+          "start": 538.588,
+          "end": 539.128
+        }
+      ]
+    },
+    {
+      "id": "caption-0224",
+      "start": 539.849,
+      "end": 543.151,
+      "words": [
+        {
+          "word": "Seasonal",
+          "start": 539.849,
+          "end": 540.329
+        },
+        {
+          "word": "winds",
+          "start": 540.449,
+          "end": 540.749
+        },
+        {
+          "word": "that",
+          "start": 541.03,
+          "end": 541.15
+        },
+        {
+          "word": "bring",
+          "start": 541.23,
+          "end": 541.43
+        },
+        {
+          "word": "heavy",
+          "start": 541.59,
+          "end": 541.87
+        },
+        {
+          "word": "rain.",
+          "start": 541.97,
+          "end": 542.211
+        }
+      ]
+    },
+    {
+      "id": "caption-0225",
+      "start": 543.151,
+      "end": 544.172,
+      "words": [
+        {
+          "word": "Tundra.",
+          "start": 543.151,
+          "end": 543.572
+        }
+      ]
+    },
+    {
+      "id": "caption-0226",
+      "start": 544.172,
+      "end": 548.234,
+      "words": [
+        {
+          "word": "A",
+          "start": 544.172,
+          "end": 544.192
+        },
+        {
+          "word": "cold",
+          "start": 544.332,
+          "end": 544.592
+        },
+        {
+          "word": "region",
+          "start": 544.712,
+          "end": 545.113
+        },
+        {
+          "word": "with",
+          "start": 545.413,
+          "end": 545.553
+        },
+        {
+          "word": "little",
+          "start": 545.693,
+          "end": 545.973
+        },
+        {
+          "word": "vegetation.",
+          "start": 546.033,
+          "end": 546.734
+        }
+      ]
+    }
+  ],
+  "source": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\hyperframes-final\\timeline.json"
+}

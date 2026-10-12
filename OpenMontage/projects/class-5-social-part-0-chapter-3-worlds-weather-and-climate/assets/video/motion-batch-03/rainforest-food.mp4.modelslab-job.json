@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188618985",
+  "request_fingerprint": "84c2730a5c6616420d0a15dc8ecbe453a51933429bc157b592233dd1d1292ad8",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-03\\rainforest-food.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791284923.363955,
+  "last_poll_at_unix": 1791285154.9469724,
+  "completed_at_unix": 1791285156.8420794
+}

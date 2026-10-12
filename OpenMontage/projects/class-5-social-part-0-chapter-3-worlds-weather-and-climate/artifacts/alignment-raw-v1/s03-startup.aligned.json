@@ -1,0 +1,388 @@
+{
+  "section_id": "s03-startup",
+  "text": "Start-Up. Look outside the window! Is it sunny, cloudy, or rainy? Have you ever noticed how the weather changes throughout the day? Some places are always warm, while others are cold. Why does this happen? In this chapter, we will explore the differences between weather and climate and understand the factors that influence them.",
+  "start_ms": 32480,
+  "end_ms": 57440,
+  "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\audio\\narration-elevenlabs-v1\\s03-startup.wav",
+  "words": [
+    {
+      "word": "Start-Up.",
+      "start_ms": 32560,
+      "end_ms": 33040,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1195
+    },
+    {
+      "word": "Look",
+      "start_ms": 33861,
+      "end_ms": 34021,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0911
+    },
+    {
+      "word": "outside",
+      "start_ms": 34101,
+      "end_ms": 34442,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0219
+    },
+    {
+      "word": "the",
+      "start_ms": 34502,
+      "end_ms": 34582,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0656
+    },
+    {
+      "word": "window!",
+      "start_ms": 34642,
+      "end_ms": 34962,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0396
+    },
+    {
+      "word": "Is",
+      "start_ms": 35663,
+      "end_ms": 35703,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.001
+    },
+    {
+      "word": "it",
+      "start_ms": 35803,
+      "end_ms": 35863,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0014
+    },
+    {
+      "word": "sunny,",
+      "start_ms": 36003,
+      "end_ms": 36283,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "cloudy,",
+      "start_ms": 36803,
+      "end_ms": 37244,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.001
+    },
+    {
+      "word": "or",
+      "start_ms": 37664,
+      "end_ms": 37724,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1545
+    },
+    {
+      "word": "rainy?",
+      "start_ms": 37804,
+      "end_ms": 38125,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0141
+    },
+    {
+      "word": "Have",
+      "start_ms": 38805,
+      "end_ms": 38925,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "you",
+      "start_ms": 38965,
+      "end_ms": 39045,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "ever",
+      "start_ms": 39265,
+      "end_ms": 39406,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "noticed",
+      "start_ms": 39506,
+      "end_ms": 39946,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0409
+    },
+    {
+      "word": "how",
+      "start_ms": 40126,
+      "end_ms": 40266,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "the",
+      "start_ms": 40346,
+      "end_ms": 40426,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0017
+    },
+    {
+      "word": "weather",
+      "start_ms": 40506,
+      "end_ms": 40767,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0623
+    },
+    {
+      "word": "changes",
+      "start_ms": 40847,
+      "end_ms": 41267,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.027
+    },
+    {
+      "word": "throughout",
+      "start_ms": 41367,
+      "end_ms": 41747,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0136
+    },
+    {
+      "word": "the",
+      "start_ms": 41807,
+      "end_ms": 41908,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0294
+    },
+    {
+      "word": "day?",
+      "start_ms": 41948,
+      "end_ms": 42108,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0185
+    },
+    {
+      "word": "Some",
+      "start_ms": 42928,
+      "end_ms": 43129,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0041
+    },
+    {
+      "word": "places",
+      "start_ms": 43209,
+      "end_ms": 43609,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0648
+    },
+    {
+      "word": "are",
+      "start_ms": 43829,
+      "end_ms": 43909,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0099
+    },
+    {
+      "word": "always",
+      "start_ms": 44109,
+      "end_ms": 44470,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0423
+    },
+    {
+      "word": "warm,",
+      "start_ms": 44530,
+      "end_ms": 44770,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0577
+    },
+    {
+      "word": "while",
+      "start_ms": 45230,
+      "end_ms": 45410,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0363
+    },
+    {
+      "word": "others",
+      "start_ms": 45550,
+      "end_ms": 45851,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0132
+    },
+    {
+      "word": "are",
+      "start_ms": 46071,
+      "end_ms": 46151,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "cold.",
+      "start_ms": 46211,
+      "end_ms": 46511,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0739
+    },
+    {
+      "word": "Why",
+      "start_ms": 47272,
+      "end_ms": 47392,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0897
+    },
+    {
+      "word": "does",
+      "start_ms": 47472,
+      "end_ms": 47612,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0507
+    },
+    {
+      "word": "this",
+      "start_ms": 47672,
+      "end_ms": 47792,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0223
+    },
+    {
+      "word": "happen?",
+      "start_ms": 47872,
+      "end_ms": 48193,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0004
+    },
+    {
+      "word": "In",
+      "start_ms": 48993,
+      "end_ms": 49033,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "this",
+      "start_ms": 49133,
+      "end_ms": 49293,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0072
+    },
+    {
+      "word": "chapter,",
+      "start_ms": 49394,
+      "end_ms": 49794,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0665
+    },
+    {
+      "word": "we",
+      "start_ms": 50314,
+      "end_ms": 50414,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "will",
+      "start_ms": 50474,
+      "end_ms": 50635,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "explore",
+      "start_ms": 50695,
+      "end_ms": 51135,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.077
+    },
+    {
+      "word": "the",
+      "start_ms": 51195,
+      "end_ms": 51275,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0016
+    },
+    {
+      "word": "differences",
+      "start_ms": 51335,
+      "end_ms": 51916,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0403
+    },
+    {
+      "word": "between",
+      "start_ms": 52056,
+      "end_ms": 52396,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0582
+    },
+    {
+      "word": "weather",
+      "start_ms": 52516,
+      "end_ms": 52836,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0283
+    },
+    {
+      "word": "and",
+      "start_ms": 53036,
+      "end_ms": 53117,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "climate",
+      "start_ms": 53237,
+      "end_ms": 53677,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0486
+    },
+    {
+      "word": "and",
+      "start_ms": 54217,
+      "end_ms": 54297,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "understand",
+      "start_ms": 54438,
+      "end_ms": 54898,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0011
+    },
+    {
+      "word": "the",
+      "start_ms": 54958,
+      "end_ms": 55058,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0069
+    },
+    {
+      "word": "factors",
+      "start_ms": 55138,
+      "end_ms": 55619,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0155
+    },
+    {
+      "word": "that",
+      "start_ms": 55739,
+      "end_ms": 55859,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0025
+    },
+    {
+      "word": "influence",
+      "start_ms": 55999,
+      "end_ms": 56459,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0151
+    },
+    {
+      "word": "them.",
+      "start_ms": 56559,
+      "end_ms": 56699,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0004
+    }
+  ],
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

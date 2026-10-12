@@ -1,0 +1,10 @@
+{
+  "voice_id": "zJrRUu1KEcKH8qdpNaPJ",
+  "model_id": "eleven_v4",
+  "text_sha256": "495a5a2870ecd6aded89c1e309ac65dbbb58b6f3c876f344e1d1dd14095ddd35",
+  "context_sha256": "25a6e6ef56bb4c0c23cb4828ef168f55e7c9aaac5a4bd4052a3797c52373d05a",
+  "settings_sha256": "6bfc8618847cf92c46b254c69cac40b6f667d59384825fd01f919eae5dd46a57",
+  "characters": 605,
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-elevenlabs-zJrRUu1KEcKH8qdpNaPJ-v1\\s06-rotation.mp3",
+  "status": "audio_received"
+}

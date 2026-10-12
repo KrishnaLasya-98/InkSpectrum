@@ -1,0 +1,248 @@
+{
+  "section_id": "s14-rainforest-fact",
+  "text": "Let's Learn More! Rainforests receive about 80 inches of rain each year and they are so important because they provide oxygen and food to the world. Without them, our planet would be very different!",
+  "start_ms": 273200,
+  "end_ms": 288960,
+  "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\audio\\narration-elevenlabs-v1\\s14-rainforest-fact.wav",
+  "words": [
+    {
+      "word": "Let's",
+      "start_ms": 273300,
+      "end_ms": 273540,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.2453
+    },
+    {
+      "word": "Learn",
+      "start_ms": 273661,
+      "end_ms": 273901,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.095
+    },
+    {
+      "word": "More!",
+      "start_ms": 274021,
+      "end_ms": 274281,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "Rainforests",
+      "start_ms": 275142,
+      "end_ms": 275964,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.039
+    },
+    {
+      "word": "receive",
+      "start_ms": 276184,
+      "end_ms": 276544,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1326
+    },
+    {
+      "word": "about",
+      "start_ms": 276664,
+      "end_ms": 276905,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0036
+    },
+    {
+      "word": "80",
+      "start_ms": 277205,
+      "end_ms": 277485,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0308
+    },
+    {
+      "word": "inches",
+      "start_ms": 277626,
+      "end_ms": 277946,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0933
+    },
+    {
+      "word": "of",
+      "start_ms": 278046,
+      "end_ms": 278086,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "rain",
+      "start_ms": 278186,
+      "end_ms": 278407,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0698
+    },
+    {
+      "word": "each",
+      "start_ms": 278687,
+      "end_ms": 278867,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0511
+    },
+    {
+      "word": "year",
+      "start_ms": 278927,
+      "end_ms": 279087,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.4516
+    },
+    {
+      "word": "and",
+      "start_ms": 279848,
+      "end_ms": 279949,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0058
+    },
+    {
+      "word": "they",
+      "start_ms": 279989,
+      "end_ms": 280089,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "are",
+      "start_ms": 280129,
+      "end_ms": 280209,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0377
+    },
+    {
+      "word": "so",
+      "start_ms": 280369,
+      "end_ms": 280529,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "important",
+      "start_ms": 280669,
+      "end_ms": 281190,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0304
+    },
+    {
+      "word": "because",
+      "start_ms": 281651,
+      "end_ms": 281871,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "they",
+      "start_ms": 281911,
+      "end_ms": 282031,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0977
+    },
+    {
+      "word": "provide",
+      "start_ms": 282111,
+      "end_ms": 282472,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0899
+    },
+    {
+      "word": "oxygen",
+      "start_ms": 282672,
+      "end_ms": 283113,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0006
+    },
+    {
+      "word": "and",
+      "start_ms": 283333,
+      "end_ms": 283413,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1344
+    },
+    {
+      "word": "food",
+      "start_ms": 283573,
+      "end_ms": 283833,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0841
+    },
+    {
+      "word": "to",
+      "start_ms": 283934,
+      "end_ms": 284014,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "the",
+      "start_ms": 284074,
+      "end_ms": 284174,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1399
+    },
+    {
+      "word": "world.",
+      "start_ms": 284214,
+      "end_ms": 284494,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0239
+    },
+    {
+      "word": "Without",
+      "start_ms": 285235,
+      "end_ms": 285556,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0562
+    },
+    {
+      "word": "them,",
+      "start_ms": 285636,
+      "end_ms": 285796,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0203
+    },
+    {
+      "word": "our",
+      "start_ms": 286377,
+      "end_ms": 286477,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "planet",
+      "start_ms": 286537,
+      "end_ms": 286897,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.001
+    },
+    {
+      "word": "would",
+      "start_ms": 286977,
+      "end_ms": 287138,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0052
+    },
+    {
+      "word": "be",
+      "start_ms": 287198,
+      "end_ms": 287278,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "very",
+      "start_ms": 287498,
+      "end_ms": 287779,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0379
+    },
+    {
+      "word": "different!",
+      "start_ms": 287859,
+      "end_ms": 288279,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0054
+    }
+  ],
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

@@ -1,0 +1,6336 @@
+{
+  "segments": [
+    {
+      "section_id": "s01-title",
+      "text": "Social Studies, Class 5. Lesson 2: Earth Movement.",
+      "start_ms": 0,
+      "end_ms": 7245,
+      "words": [
+        {
+          "word": "Social",
+          "start_ms": 120,
+          "end_ms": 440,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0013
+        },
+        {
+          "word": "Studies,",
+          "start_ms": 560,
+          "end_ms": 981,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0006
+        },
+        {
+          "word": "Class",
+          "start_ms": 1441,
+          "end_ms": 1721,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.004
+        },
+        {
+          "word": "5.",
+          "start_ms": 1821,
+          "end_ms": 2142,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1241
+        },
+        {
+          "word": "Lesson",
+          "start_ms": 2922,
+          "end_ms": 3222,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1272
+        },
+        {
+          "word": "2:",
+          "start_ms": 3362,
+          "end_ms": 3522,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0024
+        },
+        {
+          "word": "Earth",
+          "start_ms": 4303,
+          "end_ms": 4503,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0419
+        },
+        {
+          "word": "Movement.",
+          "start_ms": 4663,
+          "end_ms": 5104,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0024
+        }
+      ],
+      "format_spec": {
+        "font_size": 64,
+        "highlight_color": "#FF8C42",
+        "background_color": "rgba(255,253,240,0.90)",
+        "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+        "font_weight": "700",
+        "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+        "key_terms": [],
+        "words_per_page": 6
+      },
+      "source_block_type": "concept",
+      "alignment_method": "wav2vec2_ctc_viterbi"
+    },
+    {
+      "section_id": "s02-objectives",
+      "text": "Learning Objectives. By the end of this chapter, learners will be able to: Understand that the Earth is spherical. Identify the two types of movements of the Earth. Explain rotation and its effects. Understand revolution and its effects. Learn about different seasons caused by revolution. Define solstices and equinoxes and when they occur.",
+      "start_ms": 7245,
+      "end_ms": 36161,
+      "words": [
+        {
+          "word": "Learning",
+          "start_ms": 7305,
+          "end_ms": 7645,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0368
+        },
+        {
+          "word": "Objectives.",
+          "start_ms": 7785,
+          "end_ms": 8386,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0136
+        },
+        {
+          "word": "By",
+          "start_ms": 10547,
+          "end_ms": 10647,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0
+        },
+        {
+          "word": "the",
+          "start_ms": 10727,
+          "end_ms": 10827,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1322
+        },
+        {
+          "word": "end",
+          "start_ms": 10947,
+          "end_ms": 11047,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0158
+        },
+        {
+          "word": "of",
+          "start_ms": 11147,
+          "end_ms": 11187,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0002
+        },
+        {
+          "word": "this",
+          "start_ms": 11267,
+          "end_ms": 11407,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0014
+        },
+        {
+          "word": "chapter,",
+          "start_ms": 11507,
+          "end_ms": 11908,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0044
+        },
+        {
+          "word": "learners",
+          "start_ms": 12508,
+          "end_ms": 12888,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1128
+        },
+        {
+          "word": "will",
+          "start_ms": 12928,
+          "end_ms": 13108,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0558
+        },
+        {
+          "word": "be",
+          "start_ms": 13168,
+          "end_ms": 13228,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0
+        },
+        {
+          "word": "able",
+          "start_ms": 13388,
+          "end_ms": 13608,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0023
+        },
+        {
+          "word": "to:",
+          "start_ms": 13689,
+          "end_ms": 13809,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0
+        },
+        {
+          "word": "Understand",
+          "start_ms": 14689,
+          "end_ms": 15229,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0321
+        },
+        {
+          "word": "that",
+          "start_ms": 15450,
+          "end_ms": 15610,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0709
+        },
+        {
+          "word": "the",
+          "start_ms": 15650,
+          "end_ms": 15750,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0024
+        },
+        {
+          "word": "Earth",
+          "start_ms": 15910,
+          "end_ms": 16090,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0068
+        },
+        {
+          "word": "is",
+          "start_ms": 16350,
+          "end_ms": 16430,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0192
+        },
+        {
+          "word": "spherical.",
+          "start_ms": 16450,
+          "end_ms": 16990,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1004
+        },
+        {
+          "word": "Identify",
+          "start_ms": 17831,
+          "end_ms": 18471,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0365
+        },
+        {
+          "word": "the",
+          "start_ms": 18611,
+          "end_ms": 18711,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0037
+        },
+        {
+          "word": "two",
+          "start_ms": 18811,
+          "end_ms": 18951,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0184
+        },
+        {
+          "word": "types",
+          "start_ms": 19071,
+          "end_ms": 19352,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.093
+        },
+        {
+          "word": "of",
+          "start_ms": 19432,
+          "end_ms": 19472,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0002
+        },
+        {
+          "word": "movements",
+          "start_ms": 19612,
+          "end_ms": 20092,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0716
+        },
+        {
+          "word": "of",
+          "start_ms": 20272,
+          "end_ms": 20312,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0005
+        },
+        {
+          "word": "the",
+          "start_ms": 20412,
+          "end_ms": 20512,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1664
+        },
+        {
+          "word": "Earth.",
+          "start_ms": 20632,
+          "end_ms": 20812,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0144
+        },
+        {
+          "word": "Explain",
+          "start_ms": 21673,
+          "end_ms": 22073,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0016
+        },
+        {
+          "word": "rotation",
+          "start_ms": 22193,
+          "end_ms": 22774,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0823
+        },
+        {
+          "word": "and",
+          "start_ms": 23114,
+          "end_ms": 23194,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "its",
+          "start_ms": 23274,
+          "end_ms": 23394,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0138
+        },
+        {
+          "word": "effects.",
+          "start_ms": 23454,
+          "end_ms": 23854,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0255
+        },
+        {
+          "word": "Understand",
+          "start_ms": 24695,
+          "end_ms": 25215,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0068
+        },
+        {
+          "word": "revolution",
+          "start_ms": 25395,
+          "end_ms": 26035,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0369
+        },
+        {
+          "word": "and",
+          "start_ms": 26355,
+          "end_ms": 26436,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "its",
+          "start_ms": 26616,
+          "end_ms": 26756,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0244
+        },
+        {
+          "word": "effects.",
+          "start_ms": 26836,
+          "end_ms": 27216,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0012
+        },
+        {
+          "word": "Learn",
+          "start_ms": 28056,
+          "end_ms": 28277,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0486
+        },
+        {
+          "word": "about",
+          "start_ms": 28357,
+          "end_ms": 28597,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0011
+        },
+        {
+          "word": "different",
+          "start_ms": 28697,
+          "end_ms": 29057,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0326
+        },
+        {
+          "word": "seasons",
+          "start_ms": 29157,
+          "end_ms": 29637,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0012
+        },
+        {
+          "word": "caused",
+          "start_ms": 29877,
+          "end_ms": 30198,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0024
+        },
+        {
+          "word": "by",
+          "start_ms": 30298,
+          "end_ms": 30418,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0
+        },
+        {
+          "word": "revolution.",
+          "start_ms": 30518,
+          "end_ms": 31098,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0455
+        },
+        {
+          "word": "Define",
+          "start_ms": 31839,
+          "end_ms": 32219,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0867
+        },
+        {
+          "word": "solstices",
+          "start_ms": 32339,
+          "end_ms": 33019,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.2013
+        },
+        {
+          "word": "and",
+          "start_ms": 33199,
+          "end_ms": 33279,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "equinoxes",
+          "start_ms": 33459,
+          "end_ms": 34140,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0172
+        },
+        {
+          "word": "and",
+          "start_ms": 34480,
+          "end_ms": 34560,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0002
+        },
+        {
+          "word": "when",
+          "start_ms": 34660,
+          "end_ms": 34820,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0017
+        },
+        {
+          "word": "they",
+          "start_ms": 34900,
+          "end_ms": 35040,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0933
+        },
+        {
+          "word": "occur.",
+          "start_ms": 35160,
+          "end_ms": 35400,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0022
+        }
+      ],
+      "format_spec": {
+        "font_size": 64,
+        "highlight_color": "#FF8C42",
+        "background_color": "rgba(255,253,240,0.90)",
+        "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+        "font_weight": "700",
+        "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+        "key_terms": [],
+        "words_per_page": 6
+      },
+      "source_block_type": "concept",
+      "alignment_method": "wav2vec2_ctc_viterbi"
+    },
+    {
+      "section_id": "s03-startup",
+      "text": "Start-Up Activity. Take a ball and spin it. Notice how it moves. Imagine this is the Earth moving in space. The Earth moves in two ways—let's explore these movements and their effects!",
+      "start_ms": 36161,
+      "end_ms": 54316,
+      "words": [
+        {
+          "word": "Start-Up",
+          "start_ms": 36241,
+          "end_ms": 36681,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0704
+        },
+        {
+          "word": "Activity.",
+          "start_ms": 36862,
+          "end_ms": 37362,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "Take",
+          "start_ms": 39444,
+          "end_ms": 39644,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0234
+        },
+        {
+          "word": "a",
+          "start_ms": 39724,
+          "end_ms": 39744,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0009
+        },
+        {
+          "word": "ball",
+          "start_ms": 39824,
+          "end_ms": 40104,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.055
+        },
+        {
+          "word": "and",
+          "start_ms": 40444,
+          "end_ms": 40545,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0084
+        },
+        {
+          "word": "spin",
+          "start_ms": 40645,
+          "end_ms": 40885,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "it.",
+          "start_ms": 41005,
+          "end_ms": 41065,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0177
+        },
+        {
+          "word": "Notice",
+          "start_ms": 42126,
+          "end_ms": 42466,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0023
+        },
+        {
+          "word": "how",
+          "start_ms": 42586,
+          "end_ms": 42726,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.055
+        },
+        {
+          "word": "it",
+          "start_ms": 42826,
+          "end_ms": 42886,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0033
+        },
+        {
+          "word": "moves.",
+          "start_ms": 42986,
+          "end_ms": 43347,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0378
+        },
+        {
+          "word": "Imagine",
+          "start_ms": 44568,
+          "end_ms": 44988,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.003
+        },
+        {
+          "word": "this",
+          "start_ms": 45268,
+          "end_ms": 45428,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0104
+        },
+        {
+          "word": "is",
+          "start_ms": 45529,
+          "end_ms": 45569,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0002
+        },
+        {
+          "word": "the",
+          "start_ms": 45649,
+          "end_ms": 45749,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0266
+        },
+        {
+          "word": "Earth",
+          "start_ms": 45949,
+          "end_ms": 46169,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0083
+        },
+        {
+          "word": "moving",
+          "start_ms": 46469,
+          "end_ms": 46810,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0289
+        },
+        {
+          "word": "in",
+          "start_ms": 46930,
+          "end_ms": 46990,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0162
+        },
+        {
+          "word": "space.",
+          "start_ms": 47090,
+          "end_ms": 47490,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.086
+        },
+        {
+          "word": "The",
+          "start_ms": 48651,
+          "end_ms": 48751,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0006
+        },
+        {
+          "word": "Earth",
+          "start_ms": 48911,
+          "end_ms": 49091,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0005
+        },
+        {
+          "word": "moves",
+          "start_ms": 49212,
+          "end_ms": 49512,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1071
+        },
+        {
+          "word": "in",
+          "start_ms": 49652,
+          "end_ms": 49692,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "two",
+          "start_ms": 49832,
+          "end_ms": 49972,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0005
+        },
+        {
+          "word": "ways—let's",
+          "start_ms": 50072,
+          "end_ms": 51513,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -1.4192
+        },
+        {
+          "word": "explore",
+          "start_ms": 51593,
+          "end_ms": 52014,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0056
+        },
+        {
+          "word": "these",
+          "start_ms": 52074,
+          "end_ms": 52254,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0171
+        },
+        {
+          "word": "movements",
+          "start_ms": 52334,
+          "end_ms": 52834,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0129
+        },
+        {
+          "word": "and",
+          "start_ms": 53195,
+          "end_ms": 53275,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "their",
+          "start_ms": 53335,
+          "end_ms": 53455,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0306
+        },
+        {
+          "word": "effects!",
+          "start_ms": 53535,
+          "end_ms": 53975,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.064
+        }
+      ],
+      "format_spec": {
+        "font_size": 64,
+        "highlight_color": "#FF8C42",
+        "background_color": "rgba(255,253,240,0.90)",
+        "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+        "font_weight": "700",
+        "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+        "key_terms": [],
+        "words_per_page": 6
+      },
+      "source_block_type": "concept",
+      "alignment_method": "wav2vec2_ctc_viterbi"
+    },
+    {
+      "section_id": "s04-spherical-earth",
+      "text": "Who proved that the earth is spherical? Many ancient civilizations believed that the Earth was flat. However, Greek philosopher Pythagoras was one of the first to suggest that the Earth is spherical. Later, Aristotle provided evidence by observing how ships disappear over the horizon and how the Earth's shadow on the Moon is curved during a lunar eclipse. Ferdinand Magellan's voyage around the world further confirmed that the Earth is round.",
+      "start_ms": 54316,
+      "end_ms": 87916,
+      "words": [
+        {
+          "word": "Who",
+          "start_ms": 54376,
+          "end_ms": 54516,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0039
+        },
+        {
+          "word": "proved",
+          "start_ms": 54676,
+          "end_ms": 55056,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1164
+        },
+        {
+          "word": "that",
+          "start_ms": 55197,
+          "end_ms": 55337,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.062
+        },
+        {
+          "word": "the",
+          "start_ms": 55377,
+          "end_ms": 55477,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0396
+        },
+        {
+          "word": "earth",
+          "start_ms": 55637,
+          "end_ms": 55817,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0385
+        },
+        {
+          "word": "is",
+          "start_ms": 55977,
+          "end_ms": 56037,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "spherical?",
+          "start_ms": 56097,
+          "end_ms": 56637,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0593
+        },
+        {
+          "word": "Many",
+          "start_ms": 58779,
+          "end_ms": 59019,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.146
+        },
+        {
+          "word": "ancient",
+          "start_ms": 59259,
+          "end_ms": 59579,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0098
+        },
+        {
+          "word": "civilizations",
+          "start_ms": 59659,
+          "end_ms": 60580,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0192
+        },
+        {
+          "word": "believed",
+          "start_ms": 60760,
+          "end_ms": 61180,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0473
+        },
+        {
+          "word": "that",
+          "start_ms": 61380,
+          "end_ms": 61520,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0038
+        },
+        {
+          "word": "the",
+          "start_ms": 61560,
+          "end_ms": 61680,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.2043
+        },
+        {
+          "word": "Earth",
+          "start_ms": 61820,
+          "end_ms": 62001,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0612
+        },
+        {
+          "word": "was",
+          "start_ms": 62101,
+          "end_ms": 62221,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0006
+        },
+        {
+          "word": "flat.",
+          "start_ms": 62381,
+          "end_ms": 62661,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0591
+        },
+        {
+          "word": "However,",
+          "start_ms": 63481,
+          "end_ms": 63882,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0004
+        },
+        {
+          "word": "Greek",
+          "start_ms": 64462,
+          "end_ms": 64702,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0941
+        },
+        {
+          "word": "philosopher",
+          "start_ms": 64782,
+          "end_ms": 65363,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0621
+        },
+        {
+          "word": "Pythagoras",
+          "start_ms": 65463,
+          "end_ms": 66203,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.4055
+        },
+        {
+          "word": "was",
+          "start_ms": 66623,
+          "end_ms": 66763,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0933
+        },
+        {
+          "word": "one",
+          "start_ms": 66863,
+          "end_ms": 66964,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1098
+        },
+        {
+          "word": "of",
+          "start_ms": 67004,
+          "end_ms": 67044,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "the",
+          "start_ms": 67104,
+          "end_ms": 67204,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.136
+        },
+        {
+          "word": "first",
+          "start_ms": 67324,
+          "end_ms": 67624,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0895
+        },
+        {
+          "word": "to",
+          "start_ms": 67744,
+          "end_ms": 67824,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "suggest",
+          "start_ms": 67884,
+          "end_ms": 68304,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0628
+        },
+        {
+          "word": "that",
+          "start_ms": 68544,
+          "end_ms": 68685,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0408
+        },
+        {
+          "word": "the",
+          "start_ms": 68725,
+          "end_ms": 68825,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.003
+        },
+        {
+          "word": "Earth",
+          "start_ms": 68965,
+          "end_ms": 69145,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0193
+        },
+        {
+          "word": "is",
+          "start_ms": 69285,
+          "end_ms": 69345,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "spherical.",
+          "start_ms": 69405,
+          "end_ms": 69905,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0802
+        },
+        {
+          "word": "Later,",
+          "start_ms": 70706,
+          "end_ms": 71046,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0021
+        },
+        {
+          "word": "Aristotle",
+          "start_ms": 71586,
+          "end_ms": 72147,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.068
+        },
+        {
+          "word": "provided",
+          "start_ms": 72227,
+          "end_ms": 72667,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0623
+        },
+        {
+          "word": "evidence",
+          "start_ms": 72867,
+          "end_ms": 73247,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0003
+        },
+        {
+          "word": "by",
+          "start_ms": 73567,
+          "end_ms": 73688,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0
+        },
+        {
+          "word": "observing",
+          "start_ms": 73788,
+          "end_ms": 74248,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "how",
+          "start_ms": 74348,
+          "end_ms": 74468,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0
+        },
+        {
+          "word": "ships",
+          "start_ms": 74668,
+          "end_ms": 74948,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0442
+        },
+        {
+          "word": "disappear",
+          "start_ms": 75048,
+          "end_ms": 75589,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0706
+        },
+        {
+          "word": "over",
+          "start_ms": 75769,
+          "end_ms": 75909,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0507
+        },
+        {
+          "word": "the",
+          "start_ms": 75969,
+          "end_ms": 76029,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0002
+        },
+        {
+          "word": "horizon",
+          "start_ms": 76089,
+          "end_ms": 76589,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0185
+        },
+        {
+          "word": "and",
+          "start_ms": 77130,
+          "end_ms": 77210,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "how",
+          "start_ms": 77270,
+          "end_ms": 77390,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0033
+        },
+        {
+          "word": "the",
+          "start_ms": 77490,
+          "end_ms": 77590,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0073
+        },
+        {
+          "word": "Earth's",
+          "start_ms": 77750,
+          "end_ms": 78010,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1011
+        },
+        {
+          "word": "shadow",
+          "start_ms": 78110,
+          "end_ms": 78450,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0457
+        },
+        {
+          "word": "on",
+          "start_ms": 78550,
+          "end_ms": 78590,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.008
+        },
+        {
+          "word": "the",
+          "start_ms": 78671,
+          "end_ms": 78731,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0007
+        },
+        {
+          "word": "Moon",
+          "start_ms": 78831,
+          "end_ms": 79051,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0007
+        },
+        {
+          "word": "is",
+          "start_ms": 79371,
+          "end_ms": 79431,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0
+        },
+        {
+          "word": "curved",
+          "start_ms": 79611,
+          "end_ms": 79991,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0012
+        },
+        {
+          "word": "during",
+          "start_ms": 80171,
+          "end_ms": 80472,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.003
+        },
+        {
+          "word": "a",
+          "start_ms": 80532,
+          "end_ms": 80552,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0187
+        },
+        {
+          "word": "lunar",
+          "start_ms": 80632,
+          "end_ms": 80912,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0161
+        },
+        {
+          "word": "eclipse.",
+          "start_ms": 80992,
+          "end_ms": 81372,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1088
+        },
+        {
+          "word": "Ferdinand",
+          "start_ms": 82153,
+          "end_ms": 82613,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0067
+        },
+        {
+          "word": "Magellan's",
+          "start_ms": 82673,
+          "end_ms": 83213,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0979
+        },
+        {
+          "word": "voyage",
+          "start_ms": 83273,
+          "end_ms": 83653,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0852
+        },
+        {
+          "word": "around",
+          "start_ms": 83734,
+          "end_ms": 83954,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0098
+        },
+        {
+          "word": "the",
+          "start_ms": 84014,
+          "end_ms": 84114,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.2292
+        },
+        {
+          "word": "world",
+          "start_ms": 84154,
+          "end_ms": 84454,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.003
+        },
+        {
+          "word": "further",
+          "start_ms": 84794,
+          "end_ms": 85134,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.066
+        },
+        {
+          "word": "confirmed",
+          "start_ms": 85194,
+          "end_ms": 85755,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0024
+        },
+        {
+          "word": "that",
+          "start_ms": 85915,
+          "end_ms": 86035,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0004
+        },
+        {
+          "word": "the",
+          "start_ms": 86075,
+          "end_ms": 86175,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.047
+        },
+        {
+          "word": "Earth",
+          "start_ms": 86315,
+          "end_ms": 86495,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0013
+        },
+        {
+          "word": "is",
+          "start_ms": 86655,
+          "end_ms": 86735,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0605
+        },
+        {
+          "word": "round.",
+          "start_ms": 86835,
+          "end_ms": 87156,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0773
+        }
+      ],
+      "format_spec": {
+        "font_size": 64,
+        "highlight_color": "#FF8C42",
+        "background_color": "rgba(255,253,240,0.90)",
+        "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+        "font_weight": "700",
+        "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+        "key_terms": [
+          "s shadow on the moon is curved during a lunar eclipse. ferdinand magellan"
+        ],
+        "words_per_page": 6
+      },
+      "source_block_type": "concept",
+      "alignment_method": "wav2vec2_ctc_viterbi"
+    },
+    {
+      "section_id": "s05-two-movements",
+      "text": "The Two Movements of the Earth. The Earth moves in two ways: Rotation – The Earth spins on its axis around itself. Revolution – The Earth moves around the Sun.",
+      "start_ms": 87916,
+      "end_ms": 104519,
+      "words": [
+        {
+          "word": "The",
+          "start_ms": 87976,
+          "end_ms": 88076,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1729
+        },
+        {
+          "word": "Two",
+          "start_ms": 88156,
+          "end_ms": 88317,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.001
+        },
+        {
+          "word": "Movements",
+          "start_ms": 88477,
+          "end_ms": 89058,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0386
+        },
+        {
+          "word": "of",
+          "start_ms": 89278,
+          "end_ms": 89318,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "the",
+          "start_ms": 89438,
+          "end_ms": 89538,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0389
+        },
+        {
+          "word": "Earth.",
+          "start_ms": 89658,
+          "end_ms": 89819,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0062
+        },
+        {
+          "word": "The",
+          "start_ms": 92022,
+          "end_ms": 92122,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0004
+        },
+        {
+          "word": "Earth",
+          "start_ms": 92282,
+          "end_ms": 92482,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0809
+        },
+        {
+          "word": "moves",
+          "start_ms": 92622,
+          "end_ms": 92943,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "in",
+          "start_ms": 93123,
+          "end_ms": 93183,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0516
+        },
+        {
+          "word": "two",
+          "start_ms": 93323,
+          "end_ms": 93484,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0064
+        },
+        {
+          "word": "ways:",
+          "start_ms": 93604,
+          "end_ms": 93884,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0004
+        },
+        {
+          "word": "Rotation –",
+          "start_ms": 94885,
+          "end_ms": 95426,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0261
+        },
+        {
+          "word": "The",
+          "start_ms": 96267,
+          "end_ms": 96368,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0043
+        },
+        {
+          "word": "Earth",
+          "start_ms": 96528,
+          "end_ms": 96688,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0174
+        },
+        {
+          "word": "spins",
+          "start_ms": 96808,
+          "end_ms": 97209,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0539
+        },
+        {
+          "word": "on",
+          "start_ms": 97389,
+          "end_ms": 97429,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0002
+        },
+        {
+          "word": "its",
+          "start_ms": 97509,
+          "end_ms": 97629,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0172
+        },
+        {
+          "word": "axis",
+          "start_ms": 97789,
+          "end_ms": 98150,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0121
+        },
+        {
+          "word": "around",
+          "start_ms": 98370,
+          "end_ms": 98651,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0491
+        },
+        {
+          "word": "itself.",
+          "start_ms": 98751,
+          "end_ms": 99171,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0292
+        },
+        {
+          "word": "Revolution –",
+          "start_ms": 100273,
+          "end_ms": 100914,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0302
+        },
+        {
+          "word": "The",
+          "start_ms": 101635,
+          "end_ms": 101735,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0018
+        },
+        {
+          "word": "Earth",
+          "start_ms": 101915,
+          "end_ms": 102115,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0545
+        },
+        {
+          "word": "moves",
+          "start_ms": 102336,
+          "end_ms": 102636,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0134
+        },
+        {
+          "word": "around",
+          "start_ms": 102776,
+          "end_ms": 103037,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0458
+        },
+        {
+          "word": "the",
+          "start_ms": 103137,
+          "end_ms": 103237,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0218
+        },
+        {
+          "word": "Sun.",
+          "start_ms": 103317,
+          "end_ms": 103517,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0247
+        }
+      ],
+      "format_spec": {
+        "font_size": 64,
+        "highlight_color": "#FF8C42",
+        "background_color": "rgba(255,253,240,0.90)",
+        "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+        "font_weight": "700",
+        "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+        "key_terms": [],
+        "words_per_page": 6
+      },
+      "source_block_type": "concept",
+      "alignment_method": "wav2vec2_ctc_viterbi"
+    },
+    {
+      "section_id": "s06-rotation",
+      "text": "Rotation. The movement of the Earth around its own axis is called rotation. The earth rotates from west to east. It completes one full rotation in 24 hours. The speed of rotation is faster at the equator and slower at the poles. The axis is tilted at an angle of 23.5°. As the Earth is spherical in shape, only one half of the Earth receives sunlight at a time. Thus, the side of the Earth facing the Sun experience day. On the other hand, the other half, or the part away from the sun, experiences night. As the Earth rotates, the lighted part moves into the darkness. This rotation causes day and night.",
+      "start_ms": 104518,
+      "end_ms": 155532,
+      "words": [
+        {
+          "word": "Rotation.",
+          "start_ms": 104578,
+          "end_ms": 105138,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0192
+        },
+        {
+          "word": "The",
+          "start_ms": 107279,
+          "end_ms": 107379,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0155
+        },
+        {
+          "word": "movement",
+          "start_ms": 107459,
+          "end_ms": 107899,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0271
+        },
+        {
+          "word": "of",
+          "start_ms": 107979,
+          "end_ms": 108039,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0004
+        },
+        {
+          "word": "the",
+          "start_ms": 108119,
+          "end_ms": 108219,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0002
+        },
+        {
+          "word": "Earth",
+          "start_ms": 108359,
+          "end_ms": 108559,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0131
+        },
+        {
+          "word": "around",
+          "start_ms": 108779,
+          "end_ms": 109059,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0024
+        },
+        {
+          "word": "its",
+          "start_ms": 109139,
+          "end_ms": 109259,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0039
+        },
+        {
+          "word": "own",
+          "start_ms": 109459,
+          "end_ms": 109579,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.003
+        },
+        {
+          "word": "axis",
+          "start_ms": 109719,
+          "end_ms": 110100,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0472
+        },
+        {
+          "word": "is",
+          "start_ms": 110400,
+          "end_ms": 110480,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.014
+        },
+        {
+          "word": "called",
+          "start_ms": 110560,
+          "end_ms": 110840,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0101
+        },
+        {
+          "word": "rotation.",
+          "start_ms": 111000,
+          "end_ms": 111540,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0528
+        },
+        {
+          "word": "The",
+          "start_ms": 112280,
+          "end_ms": 112400,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0363
+        },
+        {
+          "word": "earth",
+          "start_ms": 112560,
+          "end_ms": 112740,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0272
+        },
+        {
+          "word": "rotates",
+          "start_ms": 112840,
+          "end_ms": 113320,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0275
+        },
+        {
+          "word": "from",
+          "start_ms": 113440,
+          "end_ms": 113600,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0209
+        },
+        {
+          "word": "west",
+          "start_ms": 113741,
+          "end_ms": 114021,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0015
+        },
+        {
+          "word": "to",
+          "start_ms": 114281,
+          "end_ms": 114381,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0
+        },
+        {
+          "word": "east.",
+          "start_ms": 114581,
+          "end_ms": 114801,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0583
+        },
+        {
+          "word": "It",
+          "start_ms": 115561,
+          "end_ms": 115621,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0002
+        },
+        {
+          "word": "completes",
+          "start_ms": 115701,
+          "end_ms": 116161,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0026
+        },
+        {
+          "word": "one",
+          "start_ms": 116461,
+          "end_ms": 116561,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0961
+        },
+        {
+          "word": "full",
+          "start_ms": 116661,
+          "end_ms": 116841,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0202
+        },
+        {
+          "word": "rotation",
+          "start_ms": 116901,
+          "end_ms": 117422,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0413
+        },
+        {
+          "word": "in",
+          "start_ms": 117682,
+          "end_ms": 117722,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0
+        },
+        {
+          "word": "24",
+          "start_ms": 117822,
+          "end_ms": 118382,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0003
+        },
+        {
+          "word": "hours.",
+          "start_ms": 118442,
+          "end_ms": 118802,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0126
+        },
+        {
+          "word": "The",
+          "start_ms": 119522,
+          "end_ms": 119602,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0128
+        },
+        {
+          "word": "speed",
+          "start_ms": 119682,
+          "end_ms": 119982,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0085
+        },
+        {
+          "word": "of",
+          "start_ms": 120062,
+          "end_ms": 120122,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0095
+        },
+        {
+          "word": "rotation",
+          "start_ms": 120182,
+          "end_ms": 120702,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0618
+        },
+        {
+          "word": "is",
+          "start_ms": 120902,
+          "end_ms": 120962,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0617
+        },
+        {
+          "word": "faster",
+          "start_ms": 121123,
+          "end_ms": 121543,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0002
+        },
+        {
+          "word": "at",
+          "start_ms": 121663,
+          "end_ms": 121703,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0002
+        },
+        {
+          "word": "the",
+          "start_ms": 121763,
+          "end_ms": 121863,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0134
+        },
+        {
+          "word": "equator",
+          "start_ms": 121943,
+          "end_ms": 122423,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0612
+        },
+        {
+          "word": "and",
+          "start_ms": 122923,
+          "end_ms": 123003,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "slower",
+          "start_ms": 123143,
+          "end_ms": 123563,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0637
+        },
+        {
+          "word": "at",
+          "start_ms": 123683,
+          "end_ms": 123743,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0003
+        },
+        {
+          "word": "the",
+          "start_ms": 123803,
+          "end_ms": 123883,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0042
+        },
+        {
+          "word": "poles.",
+          "start_ms": 123943,
+          "end_ms": 124323,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0534
+        },
+        {
+          "word": "The",
+          "start_ms": 125064,
+          "end_ms": 125184,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1134
+        },
+        {
+          "word": "axis",
+          "start_ms": 125344,
+          "end_ms": 125684,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0327
+        },
+        {
+          "word": "is",
+          "start_ms": 125844,
+          "end_ms": 125904,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0011
+        },
+        {
+          "word": "tilted",
+          "start_ms": 126004,
+          "end_ms": 126424,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0502
+        },
+        {
+          "word": "at",
+          "start_ms": 126624,
+          "end_ms": 126684,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0011
+        },
+        {
+          "word": "an",
+          "start_ms": 126764,
+          "end_ms": 126804,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "angle",
+          "start_ms": 126984,
+          "end_ms": 127264,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0254
+        },
+        {
+          "word": "of",
+          "start_ms": 127364,
+          "end_ms": 127424,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0
+        },
+        {
+          "word": "23.5°.",
+          "start_ms": 127564,
+          "end_ms": 129285,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0234
+        },
+        {
+          "word": "As",
+          "start_ms": 130085,
+          "end_ms": 130145,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "the",
+          "start_ms": 130225,
+          "end_ms": 130345,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0794
+        },
+        {
+          "word": "Earth",
+          "start_ms": 130485,
+          "end_ms": 130665,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0053
+        },
+        {
+          "word": "is",
+          "start_ms": 130765,
+          "end_ms": 130825,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0684
+        },
+        {
+          "word": "spherical",
+          "start_ms": 130865,
+          "end_ms": 131385,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0788
+        },
+        {
+          "word": "in",
+          "start_ms": 131485,
+          "end_ms": 131545,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0016
+        },
+        {
+          "word": "shape,",
+          "start_ms": 131645,
+          "end_ms": 131905,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0004
+        },
+        {
+          "word": "only",
+          "start_ms": 132466,
+          "end_ms": 132666,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "one",
+          "start_ms": 132946,
+          "end_ms": 133046,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0005
+        },
+        {
+          "word": "half",
+          "start_ms": 133166,
+          "end_ms": 133366,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0297
+        },
+        {
+          "word": "of",
+          "start_ms": 133446,
+          "end_ms": 133506,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0025
+        },
+        {
+          "word": "the",
+          "start_ms": 133586,
+          "end_ms": 133686,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0867
+        },
+        {
+          "word": "Earth",
+          "start_ms": 133806,
+          "end_ms": 133986,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0391
+        },
+        {
+          "word": "receives",
+          "start_ms": 134146,
+          "end_ms": 134526,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0027
+        },
+        {
+          "word": "sunlight",
+          "start_ms": 134626,
+          "end_ms": 135086,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0299
+        },
+        {
+          "word": "at",
+          "start_ms": 135226,
+          "end_ms": 135286,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0021
+        },
+        {
+          "word": "a",
+          "start_ms": 135366,
+          "end_ms": 135386,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0129
+        },
+        {
+          "word": "time.",
+          "start_ms": 135446,
+          "end_ms": 135687,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0398
+        },
+        {
+          "word": "Thus,",
+          "start_ms": 136387,
+          "end_ms": 136587,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "the",
+          "start_ms": 137027,
+          "end_ms": 137127,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "side",
+          "start_ms": 137207,
+          "end_ms": 137467,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0399
+        },
+        {
+          "word": "of",
+          "start_ms": 137547,
+          "end_ms": 137587,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "the",
+          "start_ms": 137647,
+          "end_ms": 137747,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1122
+        },
+        {
+          "word": "Earth",
+          "start_ms": 137867,
+          "end_ms": 138027,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0021
+        },
+        {
+          "word": "facing",
+          "start_ms": 138127,
+          "end_ms": 138467,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0007
+        },
+        {
+          "word": "the",
+          "start_ms": 138547,
+          "end_ms": 138627,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0005
+        },
+        {
+          "word": "Sun",
+          "start_ms": 138707,
+          "end_ms": 138907,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "experience",
+          "start_ms": 139287,
+          "end_ms": 139928,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0306
+        },
+        {
+          "word": "day.",
+          "start_ms": 140108,
+          "end_ms": 140308,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0391
+        },
+        {
+          "word": "On",
+          "start_ms": 141008,
+          "end_ms": 141068,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0967
+        },
+        {
+          "word": "the",
+          "start_ms": 141128,
+          "end_ms": 141228,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0062
+        },
+        {
+          "word": "other",
+          "start_ms": 141288,
+          "end_ms": 141468,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0
+        },
+        {
+          "word": "hand,",
+          "start_ms": 141528,
+          "end_ms": 141748,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0716
+        },
+        {
+          "word": "the",
+          "start_ms": 142228,
+          "end_ms": 142328,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0775
+        },
+        {
+          "word": "other",
+          "start_ms": 142488,
+          "end_ms": 142668,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0
+        },
+        {
+          "word": "half,",
+          "start_ms": 142748,
+          "end_ms": 142988,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.004
+        },
+        {
+          "word": "or",
+          "start_ms": 143449,
+          "end_ms": 143509,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0818
+        },
+        {
+          "word": "the",
+          "start_ms": 143549,
+          "end_ms": 143629,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.123
+        },
+        {
+          "word": "part",
+          "start_ms": 143689,
+          "end_ms": 143909,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0798
+        },
+        {
+          "word": "away",
+          "start_ms": 144109,
+          "end_ms": 144369,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0846
+        },
+        {
+          "word": "from",
+          "start_ms": 144429,
+          "end_ms": 144569,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0005
+        },
+        {
+          "word": "the",
+          "start_ms": 144629,
+          "end_ms": 144709,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.031
+        },
+        {
+          "word": "sun,",
+          "start_ms": 144789,
+          "end_ms": 144969,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1311
+        },
+        {
+          "word": "experiences",
+          "start_ms": 145489,
+          "end_ms": 146229,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.032
+        },
+        {
+          "word": "night.",
+          "start_ms": 146409,
+          "end_ms": 146669,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0032
+        },
+        {
+          "word": "As",
+          "start_ms": 147470,
+          "end_ms": 147530,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0002
+        },
+        {
+          "word": "the",
+          "start_ms": 147630,
+          "end_ms": 147750,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0706
+        },
+        {
+          "word": "Earth",
+          "start_ms": 147850,
+          "end_ms": 148030,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0078
+        },
+        {
+          "word": "rotates,",
+          "start_ms": 148110,
+          "end_ms": 148630,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1198
+        },
+        {
+          "word": "the",
+          "start_ms": 149110,
+          "end_ms": 149190,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0066
+        },
+        {
+          "word": "lighted",
+          "start_ms": 149270,
+          "end_ms": 149610,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0241
+        },
+        {
+          "word": "part",
+          "start_ms": 149730,
+          "end_ms": 149950,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.047
+        },
+        {
+          "word": "moves",
+          "start_ms": 150150,
+          "end_ms": 150471,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0502
+        },
+        {
+          "word": "into",
+          "start_ms": 150651,
+          "end_ms": 150871,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0
+        },
+        {
+          "word": "the",
+          "start_ms": 150951,
+          "end_ms": 151011,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0004
+        },
+        {
+          "word": "darkness.",
+          "start_ms": 151071,
+          "end_ms": 151531,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0075
+        },
+        {
+          "word": "This",
+          "start_ms": 152231,
+          "end_ms": 152411,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0292
+        },
+        {
+          "word": "rotation",
+          "start_ms": 152491,
+          "end_ms": 153011,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0084
+        },
+        {
+          "word": "causes",
+          "start_ms": 153311,
+          "end_ms": 153671,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0439
+        },
+        {
+          "word": "day",
+          "start_ms": 153791,
+          "end_ms": 154012,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0025
+        },
+        {
+          "word": "and",
+          "start_ms": 154412,
+          "end_ms": 154512,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0317
+        },
+        {
+          "word": "night.",
+          "start_ms": 154612,
+          "end_ms": 154852,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0736
+        }
+      ],
+      "format_spec": {
+        "font_size": 64,
+        "highlight_color": "#FF8C42",
+        "background_color": "rgba(255,253,240,0.90)",
+        "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+        "font_weight": "700",
+        "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+        "key_terms": [],
+        "words_per_page": 6
+      },
+      "source_block_type": "concept",
+      "alignment_method": "wav2vec2_ctc_viterbi"
+    },
+    {
+      "section_id": "s07-do-you-know",
+      "text": "Do You Know? The Earth rotates at a speed of 1,670 kilometers per hour at the equator, but we don’t feel it because we’re moving along with it!",
+      "start_ms": 155532,
+      "end_ms": 169173,
+      "words": [
+        {
+          "word": "Do",
+          "start_ms": 155572,
+          "end_ms": 155652,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0003
+        },
+        {
+          "word": "You",
+          "start_ms": 155732,
+          "end_ms": 155852,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1396
+        },
+        {
+          "word": "Know?",
+          "start_ms": 155913,
+          "end_ms": 156073,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.012
+        },
+        {
+          "word": "The",
+          "start_ms": 158216,
+          "end_ms": 158316,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0057
+        },
+        {
+          "word": "Earth",
+          "start_ms": 158477,
+          "end_ms": 158637,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0004
+        },
+        {
+          "word": "rotates",
+          "start_ms": 158737,
+          "end_ms": 159238,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0081
+        },
+        {
+          "word": "at",
+          "start_ms": 159418,
+          "end_ms": 159458,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "a",
+          "start_ms": 159538,
+          "end_ms": 159558,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0036
+        },
+        {
+          "word": "speed",
+          "start_ms": 159638,
+          "end_ms": 159939,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0491
+        },
+        {
+          "word": "of",
+          "start_ms": 160099,
+          "end_ms": 160139,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "1,670",
+          "start_ms": 160419,
+          "end_ms": 162342,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.7937
+        },
+        {
+          "word": "kilometers",
+          "start_ms": 162403,
+          "end_ms": 163003,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1647
+        },
+        {
+          "word": "per",
+          "start_ms": 163084,
+          "end_ms": 163224,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0074
+        },
+        {
+          "word": "hour",
+          "start_ms": 163304,
+          "end_ms": 163584,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0075
+        },
+        {
+          "word": "at",
+          "start_ms": 163885,
+          "end_ms": 163945,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0342
+        },
+        {
+          "word": "the",
+          "start_ms": 164005,
+          "end_ms": 164105,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0116
+        },
+        {
+          "word": "equator,",
+          "start_ms": 164225,
+          "end_ms": 164686,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0471
+        },
+        {
+          "word": "but",
+          "start_ms": 165407,
+          "end_ms": 165527,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "we",
+          "start_ms": 165587,
+          "end_ms": 165668,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0
+        },
+        {
+          "word": "don’t",
+          "start_ms": 165728,
+          "end_ms": 165928,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0911
+        },
+        {
+          "word": "feel",
+          "start_ms": 166028,
+          "end_ms": 166268,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0015
+        },
+        {
+          "word": "it",
+          "start_ms": 166369,
+          "end_ms": 166429,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0039
+        },
+        {
+          "word": "because",
+          "start_ms": 166849,
+          "end_ms": 167110,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0145
+        },
+        {
+          "word": "we’re",
+          "start_ms": 167150,
+          "end_ms": 167350,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0615
+        },
+        {
+          "word": "moving",
+          "start_ms": 167410,
+          "end_ms": 167671,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "along",
+          "start_ms": 167771,
+          "end_ms": 168051,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0868
+        },
+        {
+          "word": "with",
+          "start_ms": 168131,
+          "end_ms": 168292,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0059
+        },
+        {
+          "word": "it!",
+          "start_ms": 168392,
+          "end_ms": 168512,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -4.3685
+        }
+      ],
+      "format_spec": {
+        "font_size": 64,
+        "highlight_color": "#FF8C42",
+        "background_color": "rgba(255,253,240,0.90)",
+        "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+        "font_weight": "700",
+        "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+        "key_terms": [],
+        "words_per_page": 6
+      },
+      "source_block_type": "concept",
+      "alignment_method": "wav2vec2_ctc_viterbi"
+    },
+    {
+      "section_id": "s08-revolution",
+      "text": "Revolution. Revolution is the movement of the Earth around the Sun in a fixed path called an orbit. The Earth revolves around the Sun in an elliptical orbit. It takes three hundred and sixty-five and one quarter days (one year) to complete one revolution. The tilt of the Earth's axis remains the same during revolution. Revolution causes seasonal changes. The revolution of the Earth and the tilt of its axis cause different seasons: Summer – The hemisphere tilted towards the Sun experiences summer. Winter – The hemisphere tilted away from the Sun experiences winter. Spring – Occurs between winter and summer when the temperature starts rising. Autumn – Occurs between summer and winter when the temperature starts dropping.",
+      "start_ms": 169173,
+      "end_ms": 225384,
+      "words": [
+        {
+          "word": "Revolution.",
+          "start_ms": 169253,
+          "end_ms": 169913,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0288
+        },
+        {
+          "word": "Revolution",
+          "start_ms": 172094,
+          "end_ms": 172714,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0181
+        },
+        {
+          "word": "is",
+          "start_ms": 173054,
+          "end_ms": 173114,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0049
+        },
+        {
+          "word": "the",
+          "start_ms": 173174,
+          "end_ms": 173254,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.001
+        },
+        {
+          "word": "movement",
+          "start_ms": 173334,
+          "end_ms": 173774,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0884
+        },
+        {
+          "word": "of",
+          "start_ms": 173874,
+          "end_ms": 173914,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0002
+        },
+        {
+          "word": "the",
+          "start_ms": 173994,
+          "end_ms": 174114,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1126
+        },
+        {
+          "word": "Earth",
+          "start_ms": 174254,
+          "end_ms": 174454,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1866
+        },
+        {
+          "word": "around",
+          "start_ms": 174654,
+          "end_ms": 174934,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0055
+        },
+        {
+          "word": "the",
+          "start_ms": 175014,
+          "end_ms": 175094,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.2083
+        },
+        {
+          "word": "Sun",
+          "start_ms": 175174,
+          "end_ms": 175354,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0007
+        },
+        {
+          "word": "in",
+          "start_ms": 175754,
+          "end_ms": 175814,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0003
+        },
+        {
+          "word": "a",
+          "start_ms": 175874,
+          "end_ms": 175894,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0023
+        },
+        {
+          "word": "fixed",
+          "start_ms": 176034,
+          "end_ms": 176334,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0587
+        },
+        {
+          "word": "path",
+          "start_ms": 176434,
+          "end_ms": 176715,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0666
+        },
+        {
+          "word": "called",
+          "start_ms": 177015,
+          "end_ms": 177295,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0228
+        },
+        {
+          "word": "an",
+          "start_ms": 177455,
+          "end_ms": 177515,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1454
+        },
+        {
+          "word": "orbit.",
+          "start_ms": 177715,
+          "end_ms": 178015,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1219
+        },
+        {
+          "word": "The",
+          "start_ms": 178675,
+          "end_ms": 178775,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0037
+        },
+        {
+          "word": "Earth",
+          "start_ms": 178915,
+          "end_ms": 179095,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0017
+        },
+        {
+          "word": "revolves",
+          "start_ms": 179195,
+          "end_ms": 179635,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0159
+        },
+        {
+          "word": "around",
+          "start_ms": 179715,
+          "end_ms": 179955,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0846
+        },
+        {
+          "word": "the",
+          "start_ms": 180035,
+          "end_ms": 180115,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "Sun",
+          "start_ms": 180195,
+          "end_ms": 180395,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0581
+        },
+        {
+          "word": "in",
+          "start_ms": 180755,
+          "end_ms": 180815,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0002
+        },
+        {
+          "word": "an",
+          "start_ms": 180895,
+          "end_ms": 180955,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0007
+        },
+        {
+          "word": "elliptical",
+          "start_ms": 181115,
+          "end_ms": 181656,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1855
+        },
+        {
+          "word": "orbit.",
+          "start_ms": 181816,
+          "end_ms": 182096,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.042
+        },
+        {
+          "word": "It",
+          "start_ms": 182776,
+          "end_ms": 182836,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0006
+        },
+        {
+          "word": "takes",
+          "start_ms": 182916,
+          "end_ms": 183176,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0011
+        },
+        {
+          "word": "three",
+          "start_ms": 183336,
+          "end_ms": 183556,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "hundred",
+          "start_ms": 183616,
+          "end_ms": 183876,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0002
+        },
+        {
+          "word": "and",
+          "start_ms": 183936,
+          "end_ms": 183996,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0449
+        },
+        {
+          "word": "sixty-five",
+          "start_ms": 184096,
+          "end_ms": 184776,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.019
+        },
+        {
+          "word": "and",
+          "start_ms": 184916,
+          "end_ms": 184996,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0142
+        },
+        {
+          "word": "one",
+          "start_ms": 185216,
+          "end_ms": 185336,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0014
+        },
+        {
+          "word": "quarter",
+          "start_ms": 185416,
+          "end_ms": 185736,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0566
+        },
+        {
+          "word": "days",
+          "start_ms": 185796,
+          "end_ms": 186056,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0296
+        },
+        {
+          "word": "(one",
+          "start_ms": 186637,
+          "end_ms": 186737,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0
+        },
+        {
+          "word": "year)",
+          "start_ms": 186797,
+          "end_ms": 187017,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0046
+        },
+        {
+          "word": "to",
+          "start_ms": 187517,
+          "end_ms": 187617,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.001
+        },
+        {
+          "word": "complete",
+          "start_ms": 187697,
+          "end_ms": 188117,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1418
+        },
+        {
+          "word": "one",
+          "start_ms": 188437,
+          "end_ms": 188537,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.054
+        },
+        {
+          "word": "revolution.",
+          "start_ms": 188617,
+          "end_ms": 189217,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.018
+        },
+        {
+          "word": "The",
+          "start_ms": 189877,
+          "end_ms": 189977,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0726
+        },
+        {
+          "word": "tilt",
+          "start_ms": 190077,
+          "end_ms": 190317,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0076
+        },
+        {
+          "word": "of",
+          "start_ms": 190437,
+          "end_ms": 190477,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0003
+        },
+        {
+          "word": "the",
+          "start_ms": 190557,
+          "end_ms": 190657,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0748
+        },
+        {
+          "word": "Earth's",
+          "start_ms": 190757,
+          "end_ms": 190977,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.2285
+        },
+        {
+          "word": "axis",
+          "start_ms": 191177,
+          "end_ms": 191537,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0361
+        },
+        {
+          "word": "remains",
+          "start_ms": 191838,
+          "end_ms": 192218,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0657
+        },
+        {
+          "word": "the",
+          "start_ms": 192318,
+          "end_ms": 192418,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0003
+        },
+        {
+          "word": "same",
+          "start_ms": 192518,
+          "end_ms": 192798,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0039
+        },
+        {
+          "word": "during",
+          "start_ms": 192978,
+          "end_ms": 193298,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1775
+        },
+        {
+          "word": "revolution.",
+          "start_ms": 193378,
+          "end_ms": 193938,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0201
+        },
+        {
+          "word": "Revolution",
+          "start_ms": 194658,
+          "end_ms": 195278,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0232
+        },
+        {
+          "word": "causes",
+          "start_ms": 195498,
+          "end_ms": 195878,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.091
+        },
+        {
+          "word": "seasonal",
+          "start_ms": 196018,
+          "end_ms": 196458,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0159
+        },
+        {
+          "word": "changes.",
+          "start_ms": 196538,
+          "end_ms": 196979,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0518
+        },
+        {
+          "word": "The",
+          "start_ms": 197699,
+          "end_ms": 197779,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0027
+        },
+        {
+          "word": "revolution",
+          "start_ms": 197859,
+          "end_ms": 198419,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0153
+        },
+        {
+          "word": "of",
+          "start_ms": 198499,
+          "end_ms": 198559,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0683
+        },
+        {
+          "word": "the",
+          "start_ms": 198639,
+          "end_ms": 198739,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0194
+        },
+        {
+          "word": "Earth",
+          "start_ms": 198899,
+          "end_ms": 199099,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0008
+        },
+        {
+          "word": "and",
+          "start_ms": 199379,
+          "end_ms": 199459,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0007
+        },
+        {
+          "word": "the",
+          "start_ms": 199519,
+          "end_ms": 199599,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0515
+        },
+        {
+          "word": "tilt",
+          "start_ms": 199699,
+          "end_ms": 199919,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0962
+        },
+        {
+          "word": "of",
+          "start_ms": 200019,
+          "end_ms": 200079,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "its",
+          "start_ms": 200179,
+          "end_ms": 200279,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0042
+        },
+        {
+          "word": "axis",
+          "start_ms": 200459,
+          "end_ms": 200819,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0305
+        },
+        {
+          "word": "cause",
+          "start_ms": 201139,
+          "end_ms": 201379,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1195
+        },
+        {
+          "word": "different",
+          "start_ms": 201560,
+          "end_ms": 201940,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0045
+        },
+        {
+          "word": "seasons:",
+          "start_ms": 202000,
+          "end_ms": 202460,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.059
+        },
+        {
+          "word": "Summer –",
+          "start_ms": 203240,
+          "end_ms": 203540,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0006
+        },
+        {
+          "word": "The",
+          "start_ms": 204200,
+          "end_ms": 204300,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1799
+        },
+        {
+          "word": "hemisphere",
+          "start_ms": 204340,
+          "end_ms": 204920,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0519
+        },
+        {
+          "word": "tilted",
+          "start_ms": 205020,
+          "end_ms": 205380,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1025
+        },
+        {
+          "word": "towards",
+          "start_ms": 205480,
+          "end_ms": 205900,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0242
+        },
+        {
+          "word": "the",
+          "start_ms": 205980,
+          "end_ms": 206080,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0147
+        },
+        {
+          "word": "Sun",
+          "start_ms": 206140,
+          "end_ms": 206320,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "experiences",
+          "start_ms": 206661,
+          "end_ms": 207421,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0512
+        },
+        {
+          "word": "summer.",
+          "start_ms": 207541,
+          "end_ms": 207841,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0002
+        },
+        {
+          "word": "Winter –",
+          "start_ms": 208541,
+          "end_ms": 208921,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0191
+        },
+        {
+          "word": "The",
+          "start_ms": 209561,
+          "end_ms": 209661,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0771
+        },
+        {
+          "word": "hemisphere",
+          "start_ms": 209701,
+          "end_ms": 210241,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0475
+        },
+        {
+          "word": "tilted",
+          "start_ms": 210341,
+          "end_ms": 210701,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0216
+        },
+        {
+          "word": "away",
+          "start_ms": 210901,
+          "end_ms": 211141,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0016
+        },
+        {
+          "word": "from",
+          "start_ms": 211241,
+          "end_ms": 211381,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0012
+        },
+        {
+          "word": "the",
+          "start_ms": 211461,
+          "end_ms": 211542,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0004
+        },
+        {
+          "word": "Sun",
+          "start_ms": 211582,
+          "end_ms": 211782,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0403
+        },
+        {
+          "word": "experiences",
+          "start_ms": 212122,
+          "end_ms": 212842,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0799
+        },
+        {
+          "word": "winter.",
+          "start_ms": 212982,
+          "end_ms": 213342,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0204
+        },
+        {
+          "word": "Spring –",
+          "start_ms": 214022,
+          "end_ms": 214362,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0402
+        },
+        {
+          "word": "Occurs",
+          "start_ms": 215102,
+          "end_ms": 215422,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0044
+        },
+        {
+          "word": "between",
+          "start_ms": 215522,
+          "end_ms": 215862,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.086
+        },
+        {
+          "word": "winter",
+          "start_ms": 215982,
+          "end_ms": 216342,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0258
+        },
+        {
+          "word": "and",
+          "start_ms": 216483,
+          "end_ms": 216583,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1114
+        },
+        {
+          "word": "summer",
+          "start_ms": 216683,
+          "end_ms": 217003,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0008
+        },
+        {
+          "word": "when",
+          "start_ms": 217323,
+          "end_ms": 217443,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "the",
+          "start_ms": 217483,
+          "end_ms": 217563,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0103
+        },
+        {
+          "word": "temperature",
+          "start_ms": 217643,
+          "end_ms": 218123,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0413
+        },
+        {
+          "word": "starts",
+          "start_ms": 218203,
+          "end_ms": 218523,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0102
+        },
+        {
+          "word": "rising.",
+          "start_ms": 218643,
+          "end_ms": 219043,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0035
+        },
+        {
+          "word": "Autumn –",
+          "start_ms": 219703,
+          "end_ms": 220003,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0988
+        },
+        {
+          "word": "Occurs",
+          "start_ms": 220643,
+          "end_ms": 220963,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0348
+        },
+        {
+          "word": "between",
+          "start_ms": 221043,
+          "end_ms": 221383,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0024
+        },
+        {
+          "word": "summer",
+          "start_ms": 221524,
+          "end_ms": 221824,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0327
+        },
+        {
+          "word": "and",
+          "start_ms": 221944,
+          "end_ms": 222024,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0016
+        },
+        {
+          "word": "winter",
+          "start_ms": 222124,
+          "end_ms": 222484,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0471
+        },
+        {
+          "word": "when",
+          "start_ms": 222824,
+          "end_ms": 222944,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0003
+        },
+        {
+          "word": "the",
+          "start_ms": 223004,
+          "end_ms": 223084,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0544
+        },
+        {
+          "word": "temperature",
+          "start_ms": 223144,
+          "end_ms": 223624,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0678
+        },
+        {
+          "word": "starts",
+          "start_ms": 223704,
+          "end_ms": 224024,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0128
+        },
+        {
+          "word": "dropping.",
+          "start_ms": 224144,
+          "end_ms": 224544,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0889
+        }
+      ],
+      "format_spec": {
+        "font_size": 64,
+        "highlight_color": "#FF8C42",
+        "background_color": "rgba(255,253,240,0.90)",
+        "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+        "font_weight": "700",
+        "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+        "key_terms": [],
+        "words_per_page": 6
+      },
+      "source_block_type": "concept",
+      "alignment_method": "wav2vec2_ctc_viterbi"
+    },
+    {
+      "section_id": "s09-day-length",
+      "text": "Let's Learn More. A day on Earth is actually 23 hours, 56 minutes, not exactly 24 hours, but we round it off to 24 hours because it’s easier to keep track of time.",
+      "start_ms": 225384,
+      "end_ms": 241234,
+      "words": [
+        {
+          "word": "Let's",
+          "start_ms": 225464,
+          "end_ms": 225704,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0529
+        },
+        {
+          "word": "Learn",
+          "start_ms": 225804,
+          "end_ms": 226024,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0138
+        },
+        {
+          "word": "More.",
+          "start_ms": 226144,
+          "end_ms": 226385,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0
+        },
+        {
+          "word": "A",
+          "start_ms": 228546,
+          "end_ms": 228566,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0004
+        },
+        {
+          "word": "day",
+          "start_ms": 228666,
+          "end_ms": 228846,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0034
+        },
+        {
+          "word": "on",
+          "start_ms": 228986,
+          "end_ms": 229026,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0002
+        },
+        {
+          "word": "Earth",
+          "start_ms": 229246,
+          "end_ms": 229446,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0395
+        },
+        {
+          "word": "is",
+          "start_ms": 229747,
+          "end_ms": 229787,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0002
+        },
+        {
+          "word": "actually",
+          "start_ms": 229987,
+          "end_ms": 230347,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "23",
+          "start_ms": 230487,
+          "end_ms": 231087,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0312
+        },
+        {
+          "word": "hours,",
+          "start_ms": 231127,
+          "end_ms": 231508,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0779
+        },
+        {
+          "word": "56",
+          "start_ms": 231828,
+          "end_ms": 232368,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0685
+        },
+        {
+          "word": "minutes,",
+          "start_ms": 232528,
+          "end_ms": 232849,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0019
+        },
+        {
+          "word": "not",
+          "start_ms": 233549,
+          "end_ms": 233709,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0211
+        },
+        {
+          "word": "exactly",
+          "start_ms": 233829,
+          "end_ms": 234349,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0064
+        },
+        {
+          "word": "24",
+          "start_ms": 234429,
+          "end_ms": 234950,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0351
+        },
+        {
+          "word": "hours,",
+          "start_ms": 234990,
+          "end_ms": 235330,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0466
+        },
+        {
+          "word": "but",
+          "start_ms": 235970,
+          "end_ms": 236070,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0
+        },
+        {
+          "word": "we",
+          "start_ms": 236131,
+          "end_ms": 236211,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "round",
+          "start_ms": 236331,
+          "end_ms": 236571,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0643
+        },
+        {
+          "word": "it",
+          "start_ms": 236651,
+          "end_ms": 236691,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0306
+        },
+        {
+          "word": "off",
+          "start_ms": 236791,
+          "end_ms": 236931,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.003
+        },
+        {
+          "word": "to",
+          "start_ms": 236991,
+          "end_ms": 237051,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0005
+        },
+        {
+          "word": "24",
+          "start_ms": 237131,
+          "end_ms": 237651,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0462
+        },
+        {
+          "word": "hours",
+          "start_ms": 237691,
+          "end_ms": 238032,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0125
+        },
+        {
+          "word": "because",
+          "start_ms": 238372,
+          "end_ms": 238632,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0532
+        },
+        {
+          "word": "it’s",
+          "start_ms": 238692,
+          "end_ms": 238832,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0723
+        },
+        {
+          "word": "easier",
+          "start_ms": 239012,
+          "end_ms": 239312,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0714
+        },
+        {
+          "word": "to",
+          "start_ms": 239372,
+          "end_ms": 239453,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1578
+        },
+        {
+          "word": "keep",
+          "start_ms": 239513,
+          "end_ms": 239673,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "track",
+          "start_ms": 239753,
+          "end_ms": 239973,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0002
+        },
+        {
+          "word": "of",
+          "start_ms": 240053,
+          "end_ms": 240093,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "time.",
+          "start_ms": 240173,
+          "end_ms": 240493,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -4.16
+        }
+      ],
+      "format_spec": {
+        "font_size": 64,
+        "highlight_color": "#FF8C42",
+        "background_color": "rgba(255,253,240,0.90)",
+        "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+        "font_weight": "700",
+        "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+        "key_terms": [],
+        "words_per_page": 6
+      },
+      "source_block_type": "concept",
+      "alignment_method": "wav2vec2_ctc_viterbi"
+    },
+    {
+      "section_id": "s10-solstice",
+      "text": "What is Solstice and When Does It Occur? A solstice is a day, when the sun shines vertically over a Tropic (both cancer and Capricorn) in the afternoon and the day is the longest in that hemisphere. On the twenty-second of December, the rays of the sun fall directly over the Tropic of Capricorn. This is the longest day in Southern Hemisphere (summer season), while in the Northern Hemisphere, it is the shortest day (winter season). This is called 'Winter Solstice. On the twenty-first of June, sunlight falls vertically over the Tropic of Cancer. This is the longest day in Northern Hemisphere and hence it is called 'Summer Solstice', while in the Southern Hemisphere, it is the shortest day.",
+      "start_ms": 241234,
+      "end_ms": 292292,
+      "words": [
+        {
+          "word": "What",
+          "start_ms": 241294,
+          "end_ms": 241434,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0007
+        },
+        {
+          "word": "is",
+          "start_ms": 241554,
+          "end_ms": 241594,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0003
+        },
+        {
+          "word": "Solstice",
+          "start_ms": 241714,
+          "end_ms": 242294,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.2238
+        },
+        {
+          "word": "and",
+          "start_ms": 242735,
+          "end_ms": 242815,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "When",
+          "start_ms": 242935,
+          "end_ms": 243095,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0272
+        },
+        {
+          "word": "Does",
+          "start_ms": 243155,
+          "end_ms": 243315,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0119
+        },
+        {
+          "word": "It",
+          "start_ms": 243375,
+          "end_ms": 243415,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0318
+        },
+        {
+          "word": "Occur?",
+          "start_ms": 243575,
+          "end_ms": 243815,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -1.5456
+        },
+        {
+          "word": "A",
+          "start_ms": 245936,
+          "end_ms": 245956,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0011
+        },
+        {
+          "word": "solstice",
+          "start_ms": 246056,
+          "end_ms": 246616,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1951
+        },
+        {
+          "word": "is",
+          "start_ms": 246796,
+          "end_ms": 246856,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0092
+        },
+        {
+          "word": "a",
+          "start_ms": 246956,
+          "end_ms": 246976,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1181
+        },
+        {
+          "word": "day,",
+          "start_ms": 247036,
+          "end_ms": 247216,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1964
+        },
+        {
+          "word": "when",
+          "start_ms": 247756,
+          "end_ms": 247876,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0007
+        },
+        {
+          "word": "the",
+          "start_ms": 247936,
+          "end_ms": 248016,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0006
+        },
+        {
+          "word": "sun",
+          "start_ms": 248096,
+          "end_ms": 248276,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0075
+        },
+        {
+          "word": "shines",
+          "start_ms": 248397,
+          "end_ms": 248737,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0874
+        },
+        {
+          "word": "vertically",
+          "start_ms": 248897,
+          "end_ms": 249457,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0722
+        },
+        {
+          "word": "over",
+          "start_ms": 249637,
+          "end_ms": 249817,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0067
+        },
+        {
+          "word": "a",
+          "start_ms": 249917,
+          "end_ms": 249937,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0017
+        },
+        {
+          "word": "Tropic",
+          "start_ms": 249997,
+          "end_ms": 250377,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0009
+        },
+        {
+          "word": "(both",
+          "start_ms": 250997,
+          "end_ms": 251198,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0175
+        },
+        {
+          "word": "cancer",
+          "start_ms": 251278,
+          "end_ms": 251718,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0681
+        },
+        {
+          "word": "and",
+          "start_ms": 251918,
+          "end_ms": 252018,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1208
+        },
+        {
+          "word": "Capricorn)",
+          "start_ms": 252098,
+          "end_ms": 252638,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.6271
+        },
+        {
+          "word": "in",
+          "start_ms": 253178,
+          "end_ms": 253238,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0003
+        },
+        {
+          "word": "the",
+          "start_ms": 253298,
+          "end_ms": 253398,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0376
+        },
+        {
+          "word": "afternoon",
+          "start_ms": 253518,
+          "end_ms": 253958,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0546
+        },
+        {
+          "word": "and",
+          "start_ms": 254639,
+          "end_ms": 254719,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0012
+        },
+        {
+          "word": "the",
+          "start_ms": 254759,
+          "end_ms": 254859,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0305
+        },
+        {
+          "word": "day",
+          "start_ms": 254919,
+          "end_ms": 255139,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0127
+        },
+        {
+          "word": "is",
+          "start_ms": 255299,
+          "end_ms": 255379,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.013
+        },
+        {
+          "word": "the",
+          "start_ms": 255459,
+          "end_ms": 255539,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0
+        },
+        {
+          "word": "longest",
+          "start_ms": 255699,
+          "end_ms": 256159,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0162
+        },
+        {
+          "word": "in",
+          "start_ms": 256299,
+          "end_ms": 256339,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0002
+        },
+        {
+          "word": "that",
+          "start_ms": 256419,
+          "end_ms": 256559,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0004
+        },
+        {
+          "word": "hemisphere.",
+          "start_ms": 256619,
+          "end_ms": 257160,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0242
+        },
+        {
+          "word": "On",
+          "start_ms": 258060,
+          "end_ms": 258100,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0
+        },
+        {
+          "word": "the",
+          "start_ms": 258160,
+          "end_ms": 258240,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "twenty-second",
+          "start_ms": 258300,
+          "end_ms": 259000,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0416
+        },
+        {
+          "word": "of",
+          "start_ms": 259080,
+          "end_ms": 259120,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0002
+        },
+        {
+          "word": "December,",
+          "start_ms": 259200,
+          "end_ms": 259680,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0044
+        },
+        {
+          "word": "the",
+          "start_ms": 260261,
+          "end_ms": 260361,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0311
+        },
+        {
+          "word": "rays",
+          "start_ms": 260421,
+          "end_ms": 260661,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0232
+        },
+        {
+          "word": "of",
+          "start_ms": 260741,
+          "end_ms": 260801,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0006
+        },
+        {
+          "word": "the",
+          "start_ms": 260881,
+          "end_ms": 260961,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "sun",
+          "start_ms": 261041,
+          "end_ms": 261241,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0074
+        },
+        {
+          "word": "fall",
+          "start_ms": 261441,
+          "end_ms": 261661,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0002
+        },
+        {
+          "word": "directly",
+          "start_ms": 261761,
+          "end_ms": 262321,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0122
+        },
+        {
+          "word": "over",
+          "start_ms": 262461,
+          "end_ms": 262602,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0
+        },
+        {
+          "word": "the",
+          "start_ms": 262662,
+          "end_ms": 262742,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.008
+        },
+        {
+          "word": "Tropic",
+          "start_ms": 262802,
+          "end_ms": 263102,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0166
+        },
+        {
+          "word": "of",
+          "start_ms": 263202,
+          "end_ms": 263242,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0
+        },
+        {
+          "word": "Capricorn.",
+          "start_ms": 263342,
+          "end_ms": 263882,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.6538
+        },
+        {
+          "word": "This",
+          "start_ms": 264682,
+          "end_ms": 264862,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0005
+        },
+        {
+          "word": "is",
+          "start_ms": 265082,
+          "end_ms": 265142,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "the",
+          "start_ms": 265222,
+          "end_ms": 265322,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0356
+        },
+        {
+          "word": "longest",
+          "start_ms": 265483,
+          "end_ms": 265903,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0614
+        },
+        {
+          "word": "day",
+          "start_ms": 265963,
+          "end_ms": 266143,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0058
+        },
+        {
+          "word": "in",
+          "start_ms": 266283,
+          "end_ms": 266323,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "Southern",
+          "start_ms": 266463,
+          "end_ms": 266803,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0404
+        },
+        {
+          "word": "Hemisphere",
+          "start_ms": 266843,
+          "end_ms": 267363,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0307
+        },
+        {
+          "word": "(summer",
+          "start_ms": 267843,
+          "end_ms": 268103,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0286
+        },
+        {
+          "word": "season),",
+          "start_ms": 268183,
+          "end_ms": 268524,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0435
+        },
+        {
+          "word": "while",
+          "start_ms": 269024,
+          "end_ms": 269204,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0949
+        },
+        {
+          "word": "in",
+          "start_ms": 269264,
+          "end_ms": 269324,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0113
+        },
+        {
+          "word": "the",
+          "start_ms": 269364,
+          "end_ms": 269444,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0004
+        },
+        {
+          "word": "Northern",
+          "start_ms": 269524,
+          "end_ms": 269864,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1013
+        },
+        {
+          "word": "Hemisphere,",
+          "start_ms": 269904,
+          "end_ms": 270424,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0136
+        },
+        {
+          "word": "it",
+          "start_ms": 270864,
+          "end_ms": 270904,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "is",
+          "start_ms": 270984,
+          "end_ms": 271044,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0948
+        },
+        {
+          "word": "the",
+          "start_ms": 271125,
+          "end_ms": 271205,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.2132
+        },
+        {
+          "word": "shortest",
+          "start_ms": 271285,
+          "end_ms": 271705,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.048
+        },
+        {
+          "word": "day",
+          "start_ms": 271765,
+          "end_ms": 271925,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.007
+        },
+        {
+          "word": "(winter",
+          "start_ms": 272425,
+          "end_ms": 272725,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0799
+        },
+        {
+          "word": "season).",
+          "start_ms": 272785,
+          "end_ms": 273125,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0006
+        },
+        {
+          "word": "This",
+          "start_ms": 273785,
+          "end_ms": 273966,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "is",
+          "start_ms": 274226,
+          "end_ms": 274286,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0037
+        },
+        {
+          "word": "called",
+          "start_ms": 274366,
+          "end_ms": 274646,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0025
+        },
+        {
+          "word": "'Winter",
+          "start_ms": 274906,
+          "end_ms": 275226,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -2.4976
+        },
+        {
+          "word": "Solstice.",
+          "start_ms": 275306,
+          "end_ms": 275866,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.2501
+        },
+        {
+          "word": "On",
+          "start_ms": 276706,
+          "end_ms": 276746,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0
+        },
+        {
+          "word": "the",
+          "start_ms": 276807,
+          "end_ms": 276887,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0279
+        },
+        {
+          "word": "twenty-first",
+          "start_ms": 276927,
+          "end_ms": 277567,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0544
+        },
+        {
+          "word": "of",
+          "start_ms": 277647,
+          "end_ms": 277707,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0023
+        },
+        {
+          "word": "June,",
+          "start_ms": 277807,
+          "end_ms": 278087,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0069
+        },
+        {
+          "word": "sunlight",
+          "start_ms": 278727,
+          "end_ms": 279167,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.005
+        },
+        {
+          "word": "falls",
+          "start_ms": 279247,
+          "end_ms": 279527,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0027
+        },
+        {
+          "word": "vertically",
+          "start_ms": 279648,
+          "end_ms": 280228,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0275
+        },
+        {
+          "word": "over",
+          "start_ms": 280368,
+          "end_ms": 280508,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0005
+        },
+        {
+          "word": "the",
+          "start_ms": 280568,
+          "end_ms": 280648,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0617
+        },
+        {
+          "word": "Tropic",
+          "start_ms": 280708,
+          "end_ms": 281008,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0107
+        },
+        {
+          "word": "of",
+          "start_ms": 281108,
+          "end_ms": 281148,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0
+        },
+        {
+          "word": "Cancer.",
+          "start_ms": 281248,
+          "end_ms": 281708,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0825
+        },
+        {
+          "word": "This",
+          "start_ms": 282368,
+          "end_ms": 282549,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0002
+        },
+        {
+          "word": "is",
+          "start_ms": 282769,
+          "end_ms": 282829,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0039
+        },
+        {
+          "word": "the",
+          "start_ms": 282909,
+          "end_ms": 282989,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0
+        },
+        {
+          "word": "longest",
+          "start_ms": 283169,
+          "end_ms": 283569,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0003
+        },
+        {
+          "word": "day",
+          "start_ms": 283649,
+          "end_ms": 283829,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0609
+        },
+        {
+          "word": "in",
+          "start_ms": 283969,
+          "end_ms": 284029,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0002
+        },
+        {
+          "word": "Northern",
+          "start_ms": 284149,
+          "end_ms": 284509,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0631
+        },
+        {
+          "word": "Hemisphere",
+          "start_ms": 284549,
+          "end_ms": 285069,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0648
+        },
+        {
+          "word": "and",
+          "start_ms": 285570,
+          "end_ms": 285650,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0
+        },
+        {
+          "word": "hence",
+          "start_ms": 285750,
+          "end_ms": 286030,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0003
+        },
+        {
+          "word": "it",
+          "start_ms": 286490,
+          "end_ms": 286530,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "is",
+          "start_ms": 286630,
+          "end_ms": 286690,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0003
+        },
+        {
+          "word": "called",
+          "start_ms": 286770,
+          "end_ms": 287030,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.033
+        },
+        {
+          "word": "'Summer",
+          "start_ms": 287290,
+          "end_ms": 287590,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -2.4216
+        },
+        {
+          "word": "Solstice',",
+          "start_ms": 287650,
+          "end_ms": 288211,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -1.3175
+        },
+        {
+          "word": "while",
+          "start_ms": 288731,
+          "end_ms": 288911,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0063
+        },
+        {
+          "word": "in",
+          "start_ms": 288951,
+          "end_ms": 289011,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0327
+        },
+        {
+          "word": "the",
+          "start_ms": 289051,
+          "end_ms": 289131,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0947
+        },
+        {
+          "word": "Southern",
+          "start_ms": 289211,
+          "end_ms": 289531,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.01
+        },
+        {
+          "word": "Hemisphere,",
+          "start_ms": 289571,
+          "end_ms": 290071,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0586
+        },
+        {
+          "word": "it",
+          "start_ms": 290471,
+          "end_ms": 290511,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "is",
+          "start_ms": 290611,
+          "end_ms": 290671,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1968
+        },
+        {
+          "word": "the",
+          "start_ms": 290731,
+          "end_ms": 290811,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0002
+        },
+        {
+          "word": "shortest",
+          "start_ms": 290911,
+          "end_ms": 291312,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0732
+        },
+        {
+          "word": "day.",
+          "start_ms": 291392,
+          "end_ms": 291552,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0063
+        }
+      ],
+      "format_spec": {
+        "font_size": 64,
+        "highlight_color": "#FF8C42",
+        "background_color": "rgba(255,253,240,0.90)",
+        "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+        "font_weight": "700",
+        "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+        "key_terms": [
+          "winter solstice. on the twenty-first of june, sunlight falls vertically over the tropic of cancer. this is the longest day in northern hemisphere and hence it is called "
+        ],
+        "words_per_page": 6
+      },
+      "source_block_type": "concept",
+      "alignment_method": "wav2vec2_ctc_viterbi"
+    },
+    {
+      "section_id": "s11-inertia",
+      "text": "Let's Learn More. Earth keeps rotating due to inertia, the same reason you continue moving forward when you stop a bike suddenly. This movement doesn’t stop because there’s no friction in space to slow it down!",
+      "start_ms": 292292,
+      "end_ms": 309399,
+      "words": [
+        {
+          "word": "Let's",
+          "start_ms": 292352,
+          "end_ms": 292612,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0373
+        },
+        {
+          "word": "Learn",
+          "start_ms": 292712,
+          "end_ms": 292932,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0017
+        },
+        {
+          "word": "More.",
+          "start_ms": 293052,
+          "end_ms": 293292,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "Earth",
+          "start_ms": 295453,
+          "end_ms": 295653,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0232
+        },
+        {
+          "word": "keeps",
+          "start_ms": 295753,
+          "end_ms": 296013,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0177
+        },
+        {
+          "word": "rotating",
+          "start_ms": 296093,
+          "end_ms": 296674,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0266
+        },
+        {
+          "word": "due",
+          "start_ms": 296894,
+          "end_ms": 297074,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0165
+        },
+        {
+          "word": "to",
+          "start_ms": 297114,
+          "end_ms": 297194,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0006
+        },
+        {
+          "word": "inertia,",
+          "start_ms": 297314,
+          "end_ms": 297834,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0157
+        },
+        {
+          "word": "the",
+          "start_ms": 298514,
+          "end_ms": 298614,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0169
+        },
+        {
+          "word": "same",
+          "start_ms": 298714,
+          "end_ms": 298955,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0017
+        },
+        {
+          "word": "reason",
+          "start_ms": 299055,
+          "end_ms": 299415,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0141
+        },
+        {
+          "word": "you",
+          "start_ms": 299535,
+          "end_ms": 299615,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0005
+        },
+        {
+          "word": "continue",
+          "start_ms": 299735,
+          "end_ms": 300195,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0021
+        },
+        {
+          "word": "moving",
+          "start_ms": 300275,
+          "end_ms": 300535,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.052
+        },
+        {
+          "word": "forward",
+          "start_ms": 300655,
+          "end_ms": 301075,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0609
+        },
+        {
+          "word": "when",
+          "start_ms": 301455,
+          "end_ms": 301576,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0958
+        },
+        {
+          "word": "you",
+          "start_ms": 301616,
+          "end_ms": 301696,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0009
+        },
+        {
+          "word": "stop",
+          "start_ms": 301796,
+          "end_ms": 302036,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0138
+        },
+        {
+          "word": "a",
+          "start_ms": 302156,
+          "end_ms": 302176,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0116
+        },
+        {
+          "word": "bike",
+          "start_ms": 302256,
+          "end_ms": 302476,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.003
+        },
+        {
+          "word": "suddenly.",
+          "start_ms": 302576,
+          "end_ms": 303016,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0032
+        },
+        {
+          "word": "This",
+          "start_ms": 303776,
+          "end_ms": 303936,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0016
+        },
+        {
+          "word": "movement",
+          "start_ms": 304076,
+          "end_ms": 304477,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.004
+        },
+        {
+          "word": "doesn’t",
+          "start_ms": 304657,
+          "end_ms": 304977,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0771
+        },
+        {
+          "word": "stop",
+          "start_ms": 305037,
+          "end_ms": 305357,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0647
+        },
+        {
+          "word": "because",
+          "start_ms": 305817,
+          "end_ms": 306057,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0011
+        },
+        {
+          "word": "there’s",
+          "start_ms": 306097,
+          "end_ms": 306317,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0386
+        },
+        {
+          "word": "no",
+          "start_ms": 306377,
+          "end_ms": 306477,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "friction",
+          "start_ms": 306637,
+          "end_ms": 306998,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0004
+        },
+        {
+          "word": "in",
+          "start_ms": 307098,
+          "end_ms": 307138,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0004
+        },
+        {
+          "word": "space",
+          "start_ms": 307258,
+          "end_ms": 307598,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0443
+        },
+        {
+          "word": "to",
+          "start_ms": 307718,
+          "end_ms": 307818,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "slow",
+          "start_ms": 307878,
+          "end_ms": 308078,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0008
+        },
+        {
+          "word": "it",
+          "start_ms": 308158,
+          "end_ms": 308218,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0002
+        },
+        {
+          "word": "down!",
+          "start_ms": 308278,
+          "end_ms": 308618,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -3.7973
+        }
+      ],
+      "format_spec": {
+        "font_size": 64,
+        "highlight_color": "#FF8C42",
+        "background_color": "rgba(255,253,240,0.90)",
+        "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+        "font_weight": "700",
+        "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+        "key_terms": [],
+        "words_per_page": 6
+      },
+      "source_block_type": "concept",
+      "alignment_method": "wav2vec2_ctc_viterbi"
+    },
+    {
+      "section_id": "s12-equinox",
+      "text": "What is Equinox and When Does It Occur? The sun falls directly on the equator two times in a year. During this period there is equal length of day and night all over the world. In Northern Hemisphere, the March Equinox is called the Vernal or Spring Equinox while September Equinox is called Autumnal Equinox. Spring Equinox (March 21st) marks the beginning of spring. Autumn Equinox (September 23rd) marks the beginning of autumn.",
+      "start_ms": 309398,
+      "end_ms": 344758,
+      "words": [
+        {
+          "word": "What",
+          "start_ms": 309458,
+          "end_ms": 309618,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0047
+        },
+        {
+          "word": "is",
+          "start_ms": 309738,
+          "end_ms": 309798,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1227
+        },
+        {
+          "word": "Equinox",
+          "start_ms": 310018,
+          "end_ms": 310479,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0465
+        },
+        {
+          "word": "and",
+          "start_ms": 310839,
+          "end_ms": 310939,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0079
+        },
+        {
+          "word": "When",
+          "start_ms": 311059,
+          "end_ms": 311219,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0014
+        },
+        {
+          "word": "Does",
+          "start_ms": 311299,
+          "end_ms": 311459,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0553
+        },
+        {
+          "word": "It",
+          "start_ms": 311519,
+          "end_ms": 311559,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0002
+        },
+        {
+          "word": "Occur?",
+          "start_ms": 311719,
+          "end_ms": 311939,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0182
+        },
+        {
+          "word": "The",
+          "start_ms": 314021,
+          "end_ms": 314121,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0008
+        },
+        {
+          "word": "sun",
+          "start_ms": 314201,
+          "end_ms": 314361,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "falls",
+          "start_ms": 314501,
+          "end_ms": 314781,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0048
+        },
+        {
+          "word": "directly",
+          "start_ms": 314881,
+          "end_ms": 315401,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0545
+        },
+        {
+          "word": "on",
+          "start_ms": 315501,
+          "end_ms": 315541,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "the",
+          "start_ms": 315602,
+          "end_ms": 315682,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0941
+        },
+        {
+          "word": "equator",
+          "start_ms": 315782,
+          "end_ms": 316262,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.058
+        },
+        {
+          "word": "two",
+          "start_ms": 316542,
+          "end_ms": 316682,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0124
+        },
+        {
+          "word": "times",
+          "start_ms": 316782,
+          "end_ms": 317102,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0456
+        },
+        {
+          "word": "in",
+          "start_ms": 317242,
+          "end_ms": 317282,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "a",
+          "start_ms": 317383,
+          "end_ms": 317403,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0021
+        },
+        {
+          "word": "year.",
+          "start_ms": 317443,
+          "end_ms": 317623,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0186
+        },
+        {
+          "word": "During",
+          "start_ms": 318483,
+          "end_ms": 318783,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0066
+        },
+        {
+          "word": "this",
+          "start_ms": 318843,
+          "end_ms": 318963,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0002
+        },
+        {
+          "word": "period",
+          "start_ms": 319043,
+          "end_ms": 319404,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0021
+        },
+        {
+          "word": "there",
+          "start_ms": 319824,
+          "end_ms": 319984,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0144
+        },
+        {
+          "word": "is",
+          "start_ms": 320044,
+          "end_ms": 320084,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0
+        },
+        {
+          "word": "equal",
+          "start_ms": 320304,
+          "end_ms": 320564,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1283
+        },
+        {
+          "word": "length",
+          "start_ms": 320684,
+          "end_ms": 320945,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0622
+        },
+        {
+          "word": "of",
+          "start_ms": 321005,
+          "end_ms": 321045,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "day",
+          "start_ms": 321185,
+          "end_ms": 321405,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0164
+        },
+        {
+          "word": "and",
+          "start_ms": 321585,
+          "end_ms": 321705,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1088
+        },
+        {
+          "word": "night",
+          "start_ms": 321805,
+          "end_ms": 322025,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0384
+        },
+        {
+          "word": "all",
+          "start_ms": 322385,
+          "end_ms": 322505,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "over",
+          "start_ms": 322585,
+          "end_ms": 322746,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0083
+        },
+        {
+          "word": "the",
+          "start_ms": 322806,
+          "end_ms": 322886,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1599
+        },
+        {
+          "word": "world.",
+          "start_ms": 322926,
+          "end_ms": 323186,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0199
+        },
+        {
+          "word": "In",
+          "start_ms": 323986,
+          "end_ms": 324046,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0067
+        },
+        {
+          "word": "Northern",
+          "start_ms": 324146,
+          "end_ms": 324487,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.048
+        },
+        {
+          "word": "Hemisphere,",
+          "start_ms": 324527,
+          "end_ms": 325047,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0427
+        },
+        {
+          "word": "the",
+          "start_ms": 325547,
+          "end_ms": 325627,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0
+        },
+        {
+          "word": "March",
+          "start_ms": 325707,
+          "end_ms": 326007,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0008
+        },
+        {
+          "word": "Equinox",
+          "start_ms": 326147,
+          "end_ms": 326568,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0647
+        },
+        {
+          "word": "is",
+          "start_ms": 326828,
+          "end_ms": 326888,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0106
+        },
+        {
+          "word": "called",
+          "start_ms": 326948,
+          "end_ms": 327208,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0334
+        },
+        {
+          "word": "the",
+          "start_ms": 327268,
+          "end_ms": 327348,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0082
+        },
+        {
+          "word": "Vernal",
+          "start_ms": 327448,
+          "end_ms": 327828,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.002
+        },
+        {
+          "word": "or",
+          "start_ms": 328149,
+          "end_ms": 328189,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0548
+        },
+        {
+          "word": "Spring",
+          "start_ms": 328289,
+          "end_ms": 328609,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0346
+        },
+        {
+          "word": "Equinox",
+          "start_ms": 328749,
+          "end_ms": 329149,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0756
+        },
+        {
+          "word": "while",
+          "start_ms": 329830,
+          "end_ms": 329990,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0519
+        },
+        {
+          "word": "September",
+          "start_ms": 330070,
+          "end_ms": 330570,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0704
+        },
+        {
+          "word": "Equinox",
+          "start_ms": 330690,
+          "end_ms": 331090,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0176
+        },
+        {
+          "word": "is",
+          "start_ms": 331490,
+          "end_ms": 331551,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0167
+        },
+        {
+          "word": "called",
+          "start_ms": 331631,
+          "end_ms": 331891,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0007
+        },
+        {
+          "word": "Autumnal",
+          "start_ms": 332111,
+          "end_ms": 332531,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1165
+        },
+        {
+          "word": "Equinox.",
+          "start_ms": 332671,
+          "end_ms": 333071,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.05
+        },
+        {
+          "word": "Spring",
+          "start_ms": 334012,
+          "end_ms": 334332,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0878
+        },
+        {
+          "word": "Equinox",
+          "start_ms": 334492,
+          "end_ms": 334912,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0084
+        },
+        {
+          "word": "(March",
+          "start_ms": 335433,
+          "end_ms": 335673,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0005
+        },
+        {
+          "word": "21st)",
+          "start_ms": 335753,
+          "end_ms": 336453,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0015
+        },
+        {
+          "word": "marks",
+          "start_ms": 336994,
+          "end_ms": 337294,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0705
+        },
+        {
+          "word": "the",
+          "start_ms": 337374,
+          "end_ms": 337454,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0589
+        },
+        {
+          "word": "beginning",
+          "start_ms": 337534,
+          "end_ms": 337954,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0164
+        },
+        {
+          "word": "of",
+          "start_ms": 338094,
+          "end_ms": 338134,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "spring.",
+          "start_ms": 338254,
+          "end_ms": 338574,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0088
+        },
+        {
+          "word": "Autumn",
+          "start_ms": 339435,
+          "end_ms": 339675,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0054
+        },
+        {
+          "word": "Equinox",
+          "start_ms": 339815,
+          "end_ms": 340215,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0047
+        },
+        {
+          "word": "(September",
+          "start_ms": 340716,
+          "end_ms": 341156,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0009
+        },
+        {
+          "word": "23rd)",
+          "start_ms": 341216,
+          "end_ms": 341856,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0753
+        },
+        {
+          "word": "marks",
+          "start_ms": 342337,
+          "end_ms": 342637,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0991
+        },
+        {
+          "word": "the",
+          "start_ms": 342737,
+          "end_ms": 342817,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "beginning",
+          "start_ms": 342877,
+          "end_ms": 343257,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.006
+        },
+        {
+          "word": "of",
+          "start_ms": 343477,
+          "end_ms": 343517,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "autumn.",
+          "start_ms": 343737,
+          "end_ms": 344078,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -1.5759
+        }
+      ],
+      "format_spec": {
+        "font_size": 64,
+        "highlight_color": "#FF8C42",
+        "background_color": "rgba(255,253,240,0.90)",
+        "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+        "font_weight": "700",
+        "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+        "key_terms": [],
+        "words_per_page": 6
+      },
+      "source_block_type": "concept",
+      "alignment_method": "wav2vec2_ctc_viterbi"
+    },
+    {
+      "section_id": "s13-recall",
+      "text": "Recall. The Earth's movements, rotation and revolution, have significant affects on our lives. Rotation causes day and night, while revolution leads to the change of seasons. Solstices and equinoxes mark the shift in seasons, playing an essential role in our climate and timekeeping.",
+      "start_ms": 344758,
+      "end_ms": 369442,
+      "words": [
+        {
+          "word": "Recall.",
+          "start_ms": 344858,
+          "end_ms": 345319,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.052
+        },
+        {
+          "word": "The",
+          "start_ms": 347441,
+          "end_ms": 347541,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0114
+        },
+        {
+          "word": "Earth's",
+          "start_ms": 347681,
+          "end_ms": 347941,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0825
+        },
+        {
+          "word": "movements,",
+          "start_ms": 348081,
+          "end_ms": 348642,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0075
+        },
+        {
+          "word": "rotation",
+          "start_ms": 349102,
+          "end_ms": 349663,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0086
+        },
+        {
+          "word": "and",
+          "start_ms": 350103,
+          "end_ms": 350203,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1092
+        },
+        {
+          "word": "revolution,",
+          "start_ms": 350283,
+          "end_ms": 350904,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0797
+        },
+        {
+          "word": "have",
+          "start_ms": 351444,
+          "end_ms": 351605,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1035
+        },
+        {
+          "word": "significant",
+          "start_ms": 351685,
+          "end_ms": 352365,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0314
+        },
+        {
+          "word": "affects",
+          "start_ms": 352485,
+          "end_ms": 352866,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.5154
+        },
+        {
+          "word": "on",
+          "start_ms": 353046,
+          "end_ms": 353086,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0002
+        },
+        {
+          "word": "our",
+          "start_ms": 353206,
+          "end_ms": 353286,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0263
+        },
+        {
+          "word": "lives.",
+          "start_ms": 353346,
+          "end_ms": 353667,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0736
+        },
+        {
+          "word": "Rotation",
+          "start_ms": 354547,
+          "end_ms": 355088,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0164
+        },
+        {
+          "word": "causes",
+          "start_ms": 355288,
+          "end_ms": 355648,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0076
+        },
+        {
+          "word": "day",
+          "start_ms": 355769,
+          "end_ms": 355969,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0
+        },
+        {
+          "word": "and",
+          "start_ms": 356169,
+          "end_ms": 356269,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1369
+        },
+        {
+          "word": "night,",
+          "start_ms": 356349,
+          "end_ms": 356609,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0161
+        },
+        {
+          "word": "while",
+          "start_ms": 357310,
+          "end_ms": 357490,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0003
+        },
+        {
+          "word": "revolution",
+          "start_ms": 357590,
+          "end_ms": 358191,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0705
+        },
+        {
+          "word": "leads",
+          "start_ms": 358531,
+          "end_ms": 358771,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "to",
+          "start_ms": 358832,
+          "end_ms": 358912,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0
+        },
+        {
+          "word": "the",
+          "start_ms": 358972,
+          "end_ms": 359052,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0226
+        },
+        {
+          "word": "change",
+          "start_ms": 359132,
+          "end_ms": 359452,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0208
+        },
+        {
+          "word": "of",
+          "start_ms": 359512,
+          "end_ms": 359552,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "seasons.",
+          "start_ms": 359652,
+          "end_ms": 360133,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1179
+        },
+        {
+          "word": "Solstices",
+          "start_ms": 361074,
+          "end_ms": 361754,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.2471
+        },
+        {
+          "word": "and",
+          "start_ms": 361915,
+          "end_ms": 362015,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0285
+        },
+        {
+          "word": "equinoxes",
+          "start_ms": 362175,
+          "end_ms": 362875,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0606
+        },
+        {
+          "word": "mark",
+          "start_ms": 363116,
+          "end_ms": 363316,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0002
+        },
+        {
+          "word": "the",
+          "start_ms": 363436,
+          "end_ms": 363536,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0822
+        },
+        {
+          "word": "shift",
+          "start_ms": 363616,
+          "end_ms": 363916,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1177
+        },
+        {
+          "word": "in",
+          "start_ms": 363976,
+          "end_ms": 364037,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0105
+        },
+        {
+          "word": "seasons,",
+          "start_ms": 364137,
+          "end_ms": 364577,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0511
+        },
+        {
+          "word": "playing",
+          "start_ms": 365158,
+          "end_ms": 365458,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0436
+        },
+        {
+          "word": "an",
+          "start_ms": 365538,
+          "end_ms": 365578,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "essential",
+          "start_ms": 365678,
+          "end_ms": 366179,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0381
+        },
+        {
+          "word": "role",
+          "start_ms": 366299,
+          "end_ms": 366579,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1715
+        },
+        {
+          "word": "in",
+          "start_ms": 366739,
+          "end_ms": 366779,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "our",
+          "start_ms": 366879,
+          "end_ms": 366939,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0007
+        },
+        {
+          "word": "climate",
+          "start_ms": 367019,
+          "end_ms": 367440,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "and",
+          "start_ms": 367700,
+          "end_ms": 367800,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0254
+        },
+        {
+          "word": "timekeeping.",
+          "start_ms": 367880,
+          "end_ms": 368521,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0452
+        }
+      ],
+      "format_spec": {
+        "font_size": 64,
+        "highlight_color": "#FF8C42",
+        "background_color": "rgba(255,253,240,0.90)",
+        "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+        "font_weight": "700",
+        "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+        "key_terms": [],
+        "words_per_page": 6
+      },
+      "source_block_type": "concept",
+      "alignment_method": "wav2vec2_ctc_viterbi"
+    },
+    {
+      "section_id": "s14-remember",
+      "text": "Let's Remember. The Earth moves in two ways: rotation and revolution. Rotation causes day and night, while revolution causes seasons. The Earth completes one rotation in 24 hours and one revolution in three hundred and sixty-five and one quarter days. Solstices occur in June and December, marking the longest and shortest days. Equinoxes occur in March and September, when day and night are equal.",
+      "start_ms": 369442,
+      "end_ms": 403884,
+      "words": [
+        {
+          "word": "Let's",
+          "start_ms": 369522,
+          "end_ms": 369742,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1701
+        },
+        {
+          "word": "Remember.",
+          "start_ms": 369842,
+          "end_ms": 370303,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0009
+        },
+        {
+          "word": "The",
+          "start_ms": 372424,
+          "end_ms": 372524,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.002
+        },
+        {
+          "word": "Earth",
+          "start_ms": 372684,
+          "end_ms": 372884,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0456
+        },
+        {
+          "word": "moves",
+          "start_ms": 373024,
+          "end_ms": 373325,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0175
+        },
+        {
+          "word": "in",
+          "start_ms": 373505,
+          "end_ms": 373545,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "two",
+          "start_ms": 373685,
+          "end_ms": 373845,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0119
+        },
+        {
+          "word": "ways:",
+          "start_ms": 373945,
+          "end_ms": 374205,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0035
+        },
+        {
+          "word": "rotation",
+          "start_ms": 374926,
+          "end_ms": 375466,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0156
+        },
+        {
+          "word": "and",
+          "start_ms": 375906,
+          "end_ms": 375986,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0054
+        },
+        {
+          "word": "revolution.",
+          "start_ms": 376066,
+          "end_ms": 376687,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0133
+        },
+        {
+          "word": "Rotation",
+          "start_ms": 377467,
+          "end_ms": 377988,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0324
+        },
+        {
+          "word": "causes",
+          "start_ms": 378108,
+          "end_ms": 378488,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0007
+        },
+        {
+          "word": "day",
+          "start_ms": 378608,
+          "end_ms": 378828,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0063
+        },
+        {
+          "word": "and",
+          "start_ms": 378988,
+          "end_ms": 379088,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0078
+        },
+        {
+          "word": "night,",
+          "start_ms": 379168,
+          "end_ms": 379428,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0168
+        },
+        {
+          "word": "while",
+          "start_ms": 379949,
+          "end_ms": 380129,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0107
+        },
+        {
+          "word": "revolution",
+          "start_ms": 380229,
+          "end_ms": 380809,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0386
+        },
+        {
+          "word": "causes",
+          "start_ms": 381090,
+          "end_ms": 381450,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0096
+        },
+        {
+          "word": "seasons.",
+          "start_ms": 381530,
+          "end_ms": 382010,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0032
+        },
+        {
+          "word": "The",
+          "start_ms": 382931,
+          "end_ms": 383051,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0854
+        },
+        {
+          "word": "Earth",
+          "start_ms": 383171,
+          "end_ms": 383351,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0047
+        },
+        {
+          "word": "completes",
+          "start_ms": 383451,
+          "end_ms": 383891,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0168
+        },
+        {
+          "word": "one",
+          "start_ms": 384172,
+          "end_ms": 384272,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0013
+        },
+        {
+          "word": "rotation",
+          "start_ms": 384332,
+          "end_ms": 384852,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1064
+        },
+        {
+          "word": "in",
+          "start_ms": 385032,
+          "end_ms": 385092,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0905
+        },
+        {
+          "word": "24",
+          "start_ms": 385192,
+          "end_ms": 385753,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0023
+        },
+        {
+          "word": "hours",
+          "start_ms": 385813,
+          "end_ms": 386213,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.012
+        },
+        {
+          "word": "and",
+          "start_ms": 386793,
+          "end_ms": 386873,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0003
+        },
+        {
+          "word": "one",
+          "start_ms": 387113,
+          "end_ms": 387193,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "revolution",
+          "start_ms": 387274,
+          "end_ms": 387854,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0518
+        },
+        {
+          "word": "in",
+          "start_ms": 388214,
+          "end_ms": 388274,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0163
+        },
+        {
+          "word": "three",
+          "start_ms": 388394,
+          "end_ms": 388634,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0118
+        },
+        {
+          "word": "hundred",
+          "start_ms": 388714,
+          "end_ms": 388955,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0137
+        },
+        {
+          "word": "and",
+          "start_ms": 389015,
+          "end_ms": 389075,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.8062
+        },
+        {
+          "word": "sixty-five",
+          "start_ms": 389135,
+          "end_ms": 389815,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0032
+        },
+        {
+          "word": "and",
+          "start_ms": 389975,
+          "end_ms": 390055,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0879
+        },
+        {
+          "word": "one",
+          "start_ms": 390255,
+          "end_ms": 390356,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0159
+        },
+        {
+          "word": "quarter",
+          "start_ms": 390436,
+          "end_ms": 390756,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0
+        },
+        {
+          "word": "days.",
+          "start_ms": 390816,
+          "end_ms": 391076,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0245
+        },
+        {
+          "word": "Solstices",
+          "start_ms": 392037,
+          "end_ms": 392677,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.2301
+        },
+        {
+          "word": "occur",
+          "start_ms": 392877,
+          "end_ms": 393097,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0007
+        },
+        {
+          "word": "in",
+          "start_ms": 393257,
+          "end_ms": 393317,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0003
+        },
+        {
+          "word": "June",
+          "start_ms": 393438,
+          "end_ms": 393738,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0085
+        },
+        {
+          "word": "and",
+          "start_ms": 393918,
+          "end_ms": 393998,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0114
+        },
+        {
+          "word": "December,",
+          "start_ms": 394058,
+          "end_ms": 394518,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0087
+        },
+        {
+          "word": "marking",
+          "start_ms": 394999,
+          "end_ms": 395359,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0924
+        },
+        {
+          "word": "the",
+          "start_ms": 395419,
+          "end_ms": 395479,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0007
+        },
+        {
+          "word": "longest",
+          "start_ms": 395599,
+          "end_ms": 396059,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0375
+        },
+        {
+          "word": "and",
+          "start_ms": 396319,
+          "end_ms": 396399,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0002
+        },
+        {
+          "word": "shortest",
+          "start_ms": 396540,
+          "end_ms": 396940,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0116
+        },
+        {
+          "word": "days.",
+          "start_ms": 397000,
+          "end_ms": 397260,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0203
+        },
+        {
+          "word": "Equinoxes",
+          "start_ms": 398121,
+          "end_ms": 398821,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0258
+        },
+        {
+          "word": "occur",
+          "start_ms": 399041,
+          "end_ms": 399261,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0055
+        },
+        {
+          "word": "in",
+          "start_ms": 399401,
+          "end_ms": 399461,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.1825
+        },
+        {
+          "word": "March",
+          "start_ms": 399581,
+          "end_ms": 399882,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.009
+        },
+        {
+          "word": "and",
+          "start_ms": 400062,
+          "end_ms": 400142,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0068
+        },
+        {
+          "word": "September,",
+          "start_ms": 400202,
+          "end_ms": 400742,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0012
+        },
+        {
+          "word": "when",
+          "start_ms": 401183,
+          "end_ms": 401303,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "day",
+          "start_ms": 401423,
+          "end_ms": 401643,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0598
+        },
+        {
+          "word": "and",
+          "start_ms": 401903,
+          "end_ms": 401983,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0038
+        },
+        {
+          "word": "night",
+          "start_ms": 402083,
+          "end_ms": 402323,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0334
+        },
+        {
+          "word": "are",
+          "start_ms": 402623,
+          "end_ms": 402703,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0021
+        },
+        {
+          "word": "equal.",
+          "start_ms": 402824,
+          "end_ms": 403124,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0073
+        }
+      ],
+      "format_spec": {
+        "font_size": 64,
+        "highlight_color": "#FF8C42",
+        "background_color": "rgba(255,253,240,0.90)",
+        "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+        "font_weight": "700",
+        "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+        "key_terms": [],
+        "words_per_page": 6
+      },
+      "source_block_type": "concept",
+      "alignment_method": "wav2vec2_ctc_viterbi"
+    },
+    {
+      "section_id": "s15-wordbank",
+      "text": "Word Bank. Rotation – Spinning of the Earth on its axis. Revolution – Movement of the Earth around the Sun. Orbit – The path of the Earth around the Sun. Solstice – When the Sun is at its farthest point north or south. Equinox – When day and night are equal.",
+      "start_ms": 403884,
+      "end_ms": 428834,
+      "words": [
+        {
+          "word": "Word",
+          "start_ms": 403904,
+          "end_ms": 404144,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0463
+        },
+        {
+          "word": "Bank.",
+          "start_ms": 404224,
+          "end_ms": 404464,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0055
+        },
+        {
+          "word": "Rotation –",
+          "start_ms": 406665,
+          "end_ms": 407245,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0345
+        },
+        {
+          "word": "Spinning",
+          "start_ms": 407986,
+          "end_ms": 408386,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0005
+        },
+        {
+          "word": "of",
+          "start_ms": 408466,
+          "end_ms": 408506,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0005
+        },
+        {
+          "word": "the",
+          "start_ms": 408606,
+          "end_ms": 408706,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0052
+        },
+        {
+          "word": "Earth",
+          "start_ms": 408866,
+          "end_ms": 409086,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0261
+        },
+        {
+          "word": "on",
+          "start_ms": 409406,
+          "end_ms": 409446,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0008
+        },
+        {
+          "word": "its",
+          "start_ms": 409546,
+          "end_ms": 409646,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.002
+        },
+        {
+          "word": "axis.",
+          "start_ms": 409826,
+          "end_ms": 410206,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0183
+        },
+        {
+          "word": "Revolution –",
+          "start_ms": 411287,
+          "end_ms": 411927,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0324
+        },
+        {
+          "word": "Movement",
+          "start_ms": 412687,
+          "end_ms": 413128,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0454
+        },
+        {
+          "word": "of",
+          "start_ms": 413208,
+          "end_ms": 413268,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0012
+        },
+        {
+          "word": "the",
+          "start_ms": 413348,
+          "end_ms": 413448,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0541
+        },
+        {
+          "word": "Earth",
+          "start_ms": 413588,
+          "end_ms": 413808,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0745
+        },
+        {
+          "word": "around",
+          "start_ms": 414088,
+          "end_ms": 414348,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0024
+        },
+        {
+          "word": "the",
+          "start_ms": 414428,
+          "end_ms": 414508,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0015
+        },
+        {
+          "word": "Sun.",
+          "start_ms": 414588,
+          "end_ms": 414788,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0026
+        },
+        {
+          "word": "Orbit –",
+          "start_ms": 415809,
+          "end_ms": 416129,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.6281
+        },
+        {
+          "word": "The",
+          "start_ms": 416809,
+          "end_ms": 416889,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0003
+        },
+        {
+          "word": "path",
+          "start_ms": 416969,
+          "end_ms": 417249,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0099
+        },
+        {
+          "word": "of",
+          "start_ms": 417349,
+          "end_ms": 417389,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0006
+        },
+        {
+          "word": "the",
+          "start_ms": 417489,
+          "end_ms": 417589,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0502
+        },
+        {
+          "word": "Earth",
+          "start_ms": 417729,
+          "end_ms": 417949,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0586
+        },
+        {
+          "word": "around",
+          "start_ms": 418250,
+          "end_ms": 418510,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0022
+        },
+        {
+          "word": "the",
+          "start_ms": 418590,
+          "end_ms": 418670,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0009
+        },
+        {
+          "word": "Sun.",
+          "start_ms": 418750,
+          "end_ms": 418930,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0008
+        },
+        {
+          "word": "Solstice –",
+          "start_ms": 419890,
+          "end_ms": 420470,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.7198
+        },
+        {
+          "word": "When",
+          "start_ms": 421091,
+          "end_ms": 421231,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0643
+        },
+        {
+          "word": "the",
+          "start_ms": 421291,
+          "end_ms": 421371,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0001
+        },
+        {
+          "word": "Sun",
+          "start_ms": 421471,
+          "end_ms": 421671,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0025
+        },
+        {
+          "word": "is",
+          "start_ms": 421911,
+          "end_ms": 421971,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0673
+        },
+        {
+          "word": "at",
+          "start_ms": 422071,
+          "end_ms": 422131,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0565
+        },
+        {
+          "word": "its",
+          "start_ms": 422211,
+          "end_ms": 422331,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0135
+        },
+        {
+          "word": "farthest",
+          "start_ms": 422451,
+          "end_ms": 422891,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0068
+        },
+        {
+          "word": "point",
+          "start_ms": 422991,
+          "end_ms": 423272,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0529
+        },
+        {
+          "word": "north",
+          "start_ms": 423552,
+          "end_ms": 423852,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.015
+        },
+        {
+          "word": "or",
+          "start_ms": 424172,
+          "end_ms": 424212,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0002
+        },
+        {
+          "word": "south.",
+          "start_ms": 424312,
+          "end_ms": 424612,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0029
+        },
+        {
+          "word": "Equinox –",
+          "start_ms": 425472,
+          "end_ms": 425933,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0114
+        },
+        {
+          "word": "When",
+          "start_ms": 426653,
+          "end_ms": 426793,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.079
+        },
+        {
+          "word": "day",
+          "start_ms": 426933,
+          "end_ms": 427153,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0752
+        },
+        {
+          "word": "and",
+          "start_ms": 427333,
+          "end_ms": 427433,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0355
+        },
+        {
+          "word": "night",
+          "start_ms": 427513,
+          "end_ms": 427753,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0017
+        },
+        {
+          "word": "are",
+          "start_ms": 428013,
+          "end_ms": 428113,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0517
+        },
+        {
+          "word": "equal.",
+          "start_ms": 428254,
+          "end_ms": 428554,
+          "timing_basis": "ctc_forced_alignment",
+          "mean_log_probability": -0.0799
+        }
+      ],
+      "format_spec": {
+        "font_size": 64,
+        "highlight_color": "#FF8C42",
+        "background_color": "rgba(255,253,240,0.90)",
+        "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+        "font_weight": "700",
+        "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+        "key_terms": [],
+        "words_per_page": 6
+      },
+      "source_block_type": "concept",
+      "alignment_method": "wav2vec2_ctc_viterbi"
+    }
+  ],
+  "method": "wav2vec2_ctc_viterbi"
+}

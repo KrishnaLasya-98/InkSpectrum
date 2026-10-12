@@ -1,0 +1,171 @@
+{
+  "section_id": "s18-desert",
+  "text": "Desert Climate. Found in places like the Sahara Desert and the Thar Desert. It has very little rainfall, hot days, and cold nights.",
+  "start_ms": 324400,
+  "end_ms": 335600,
+  "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\audio\\narration-elevenlabs-v1\\s18-desert.wav",
+  "words": [
+    {
+      "word": "Desert",
+      "start_ms": 324480,
+      "end_ms": 324841,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0581
+    },
+    {
+      "word": "Climate.",
+      "start_ms": 324961,
+      "end_ms": 325402,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0702
+    },
+    {
+      "word": "Found",
+      "start_ms": 326364,
+      "end_ms": 326624,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0035
+    },
+    {
+      "word": "in",
+      "start_ms": 326724,
+      "end_ms": 326764,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "places",
+      "start_ms": 326864,
+      "end_ms": 327305,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0423
+    },
+    {
+      "word": "like",
+      "start_ms": 327445,
+      "end_ms": 327586,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "the",
+      "start_ms": 327646,
+      "end_ms": 327726,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1319
+    },
+    {
+      "word": "Sahara",
+      "start_ms": 327786,
+      "end_ms": 328227,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0309
+    },
+    {
+      "word": "Desert",
+      "start_ms": 328307,
+      "end_ms": 328668,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1451
+    },
+    {
+      "word": "and",
+      "start_ms": 328928,
+      "end_ms": 329008,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0633
+    },
+    {
+      "word": "the",
+      "start_ms": 329048,
+      "end_ms": 329128,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.035
+    },
+    {
+      "word": "Thar",
+      "start_ms": 329189,
+      "end_ms": 329489,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0551
+    },
+    {
+      "word": "Desert.",
+      "start_ms": 329569,
+      "end_ms": 329930,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1
+    },
+    {
+      "word": "It",
+      "start_ms": 330831,
+      "end_ms": 330892,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.001
+    },
+    {
+      "word": "has",
+      "start_ms": 330952,
+      "end_ms": 331072,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0111
+    },
+    {
+      "word": "very",
+      "start_ms": 331252,
+      "end_ms": 331533,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0396
+    },
+    {
+      "word": "little",
+      "start_ms": 331593,
+      "end_ms": 331853,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0015
+    },
+    {
+      "word": "rainfall,",
+      "start_ms": 331913,
+      "end_ms": 332414,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0458
+    },
+    {
+      "word": "hot",
+      "start_ms": 332895,
+      "end_ms": 333096,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0932
+    },
+    {
+      "word": "days,",
+      "start_ms": 333176,
+      "end_ms": 333476,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0125
+    },
+    {
+      "word": "and",
+      "start_ms": 333897,
+      "end_ms": 333977,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "cold",
+      "start_ms": 334137,
+      "end_ms": 334418,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0029
+    },
+    {
+      "word": "nights.",
+      "start_ms": 334518,
+      "end_ms": 334879,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -2.058
+    }
+  ],
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

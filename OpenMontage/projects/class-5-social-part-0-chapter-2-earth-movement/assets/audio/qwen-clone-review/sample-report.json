@@ -1,0 +1,15 @@
+{
+  "status": "review_sample_not_approved_for_full_chapter",
+  "model_id": "qwen-tts",
+  "reference": "C:\\Users\\user\\Downloads\\indian_accent.mpeg",
+  "reference_duration_seconds": 20.846,
+  "reference_excerpt_seconds": 10,
+  "prompt": "Welcome to Social Studies, Class Five. Today we will learn how our Earth moves. Have you ever watched a ball spin? The Earth spins too. This movement is called rotation. Let us look closely at what happens when it turns.",
+  "word_count": 40,
+  "raw_duration_seconds": 14.937,
+  "raw_wpm": 160.7,
+  "target_wpm": 120,
+  "tempo_factor": 0.746844,
+  "sample_duration_seconds": 19.979,
+  "sample_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\qwen-clone-review\\qwen-indian-reference-paced.mp3"
+}

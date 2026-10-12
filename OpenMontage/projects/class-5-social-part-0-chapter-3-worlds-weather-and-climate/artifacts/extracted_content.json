@@ -1,0 +1,2021 @@
+{
+  "file name" : "chapter-03-world-s-weather-and-climate.pdf",
+  "number of pages" : 10,
+  "author" : null,
+  "title" : null,
+  "creation date" : null,
+  "modification date" : null,
+  "kids" : [ {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 1,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 57.0, 692.333, 151.0, 713.667 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "lesson :3"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 2,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 183.333, 664.667, 497.0, 748.667 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Worlds Weather and Climate"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 170,
+    "page number" : 1,
+    "bounding box" : [ 58.154, 605.587, 130.63, 644.593 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile1.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 3,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 164.333, 603.667, 394.333, 633.667 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "learning Objectives"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 6,
+    "page number" : 1,
+    "bounding box" : [ 423.799, 525.33, 601.534, 608.004 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "\"ora cation"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 4,
+    "page number" : 1,
+    "bounding box" : [ 75.333, 556.667, 424.0, 574.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Explain the difference between weather and climate."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 5,
+    "page number" : 1,
+    "bounding box" : [ 74.667, 531.333, 408.0, 549.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Identify and describe the factors affecting climate."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 7,
+    "page number" : 1,
+    "bounding box" : [ 76.0, 506.0, 433.333, 524.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Understand the different types of climate found in the"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 8,
+    "page number" : 1,
+    "bounding box" : [ 75.333, 480.667, 352.667, 498.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Recognize the climatic zones ofthe Earth."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 9,
+    "page number" : 1,
+    "bounding box" : [ 75.333, 456.0, 481.333, 473.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Explain how climate affects human life and the environment:"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 171,
+    "page number" : 1,
+    "bounding box" : [ 58.962, 404.946, 143.91, 450.558 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile2.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 11,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 148.333, 414.0, 255.333, 443.667 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Start-Up"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 10,
+    "page number" : 1,
+    "bounding box" : [ 92.667, 419.333, 135.333, 430.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "START UP"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 12,
+    "page number" : 1,
+    "bounding box" : [ 56.0, 295.0, 573.0, 396.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Look outside the windowl Is it sunny, cloudy, or rainy? Have you ever noticed how the weather changes throughout the day? Some places are always warm, while others are cold: Why does this happen? In this chapter, we will explore the differences between weather and climate and understand the factors that influence them:"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 13,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 58.667, 269.333, 130.0, 285.333 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Weather"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 14,
+    "page number" : 1,
+    "bounding box" : [ 56.333, 178.333, 573.667, 261.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Weather is the condition of the atmosphere at a particular place and time. It includes temperature, wind, rainfall, humidity, and cloud cover_ Weather can change from hour to hour or day to day. For example, one morning, it may be sunny and by afternoon it could rain:"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 172,
+    "page number" : 1,
+    "bounding box" : [ 65.807, 126.223, 94.666, 179.611 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile3.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 15,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 105.667, 136.333, 210.333, 150.333 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Do You Know?"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 16,
+    "page number" : 1,
+    "bounding box" : [ 58.0, 68.333, 562.667, 126.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The hottest on Earth is the Lut Desert in Iran, where temperatures have been recorded as high as 159.3'F (70.7*C)! Imagine how hot it must be to have that much heatl place"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 174,
+    "page number" : 2,
+    "bounding box" : [ 438.758, 728.817, 555.518, 780.576 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile5.png"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 173,
+    "page number" : 2,
+    "bounding box" : [ 60.523, 684.03, 126.477, 729.861 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile4.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 17,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 131.0, 715.0, 190.333, 729.667 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Climate"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 18,
+    "page number" : 2,
+    "bounding box" : [ 57.0, 626.363, 573.667, 704.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Climate is the average weather condition of a place over a long period, usually 30 years or more. It tells us whether a place is generally hot, cold, wet, or For example, the climate of the Sahara Desert is hot and while the climate ofthe Amazon Rainforestis warm and rainy: dry . dry,"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 19,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 56.667, 586.0, 244.333, 607.0 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Factors Affecting Climate"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 175,
+    "page number" : 2,
+    "bounding box" : [ 58.571, 528.082, 159.145, 585.326 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile5.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 20,
+    "page number" : 2,
+    "bounding box" : [ 162.667, 542.0, 573.0, 582.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Several factors influence the climate ofa place. Let us explore them one by one."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 22,
+    "page number" : 2,
+    "bounding box" : [ 414.546, 517.647, 530.454, 546.019 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "blic\""
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 21,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 57.333, 500.667, 329.333, 519.0 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Distance from the Equator (Latitudes)"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 23,
+    "page number" : 2,
+    "bounding box" : [ 56.333, 414.667, 573.0, 494.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The Earth is divided into imaginary lines called latitudes. Places near the equator receive direct sunlight throughout the year, making them hot: As we move towards the poles, sunlight spreads out, making these areas cooler. This is why tropical regions are warm, while regions are cold. polar"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 176,
+    "page number" : 2,
+    "bounding box" : [ 62.323, 69.136, 567.437, 390.307 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile6.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 24,
+    "page number" : 2,
+    "bounding box" : [ 174.333, 363.667, 181.0, 371.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "0"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 25,
+    "page number" : 2,
+    "bounding box" : [ 87.333, 176.0, 114.0, 186.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "OCEAN"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 26,
+    "page number" : 2,
+    "bounding box" : [ 256.333, 118.333, 373.0, 132.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "More Free World map at"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 27,
+    "page number" : 2,
+    "bounding box" : [ 281.0, 104.333, 367.333, 121.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "mapsNworld.com"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 28,
+    "page number" : 2,
+    "bounding box" : [ 281.667, 76.333, 338.333, 90.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Antarctica"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 177,
+    "page number" : 3,
+    "bounding box" : [ 46.354, 729.997, 162.384, 780.766 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile8.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 29,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 58.333, 715.0, 119.667, 729.667 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Altitude"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 178,
+    "page number" : 3,
+    "bounding box" : [ 438.618, 728.883, 555.463, 780.592 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile9.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 30,
+    "page number" : 3,
+    "bounding box" : [ 56.333, 645.333, 573.0, 705.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Altitude is the height of a place above sea level. Higher altitudes have cooler temperatures because the air is thinner and cannot hold much heat: For example, mountains are colder than plains at the same latitude."
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 179,
+    "page number" : 3,
+    "bounding box" : [ 138.63, 404.465, 491.13, 639.465 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile7.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 31,
+    "page number" : 3,
+    "bounding box" : [ 478.602, 571.319, 601.731, 607.347 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "ation"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 32,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 57.0, 371.333, 425.333, 388.667 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Distance from the Sea (Sea Breeze and Land Breeze)"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 33,
+    "page number" : 3,
+    "bounding box" : [ 56.667, 247.333, 573.333, 363.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Oceans and seas influence the climate of coastal areas. Water heats up and cools down more slowly than land. During the day, land heats up faster than cools down quickly, and a land breeze blows from land to the sea. This keeps coastal areas cooler in summer and warmer in winter compared to inland regions."
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 180,
+    "page number" : 3,
+    "bounding box" : [ 207.131, 67.581, 422.629, 268.838 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile8.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 34,
+    "page number" : 3,
+    "bounding box" : [ 244.667, 173.333, 294.0, 181.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "land warmer"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 39,
+    "page number" : 3,
+    "bounding box" : [ 214.33, 169.392, 229.003, 180.608 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "day"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 35,
+    "page number" : 3,
+    "bounding box" : [ 230.0, 120.667, 248.667, 128.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "cool"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 36,
+    "page number" : 3,
+    "bounding box" : [ 216.0, 112.667, 262.0, 121.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "land breeze"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 38,
+    "page number" : 3,
+    "bounding box" : [ 246.667, 72.667, 292.667, 80.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "land cooler"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 37,
+    "page number" : 3,
+    "bounding box" : [ 214.0, 69.333, 236.0, 78.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "night"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 181,
+    "page number" : 4,
+    "bounding box" : [ 46.342, 730.374, 162.483, 781.07 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile12.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 40,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 57.667, 715.0, 212.0, 730.0 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Direction ofthe Wind"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 182,
+    "page number" : 4,
+    "bounding box" : [ 438.635, 728.852, 555.576, 780.676 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile13.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 41,
+    "page number" : 4,
+    "bounding box" : [ 56.333, 645.333, 560.667, 704.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Winds carry heat and moisture from one place to another. Winds coming from the sea bring rain, while winds from deserts bring weather. For example, the monsoon winds bring heavy rainfall to India dry"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 183,
+    "page number" : 4,
+    "bounding box" : [ 164.092, 488.418, 466.3, 636.558 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile9.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 43,
+    "page number" : 4,
+    "bounding box" : [ 167.667, 618.333, 229.333, 634.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Windward"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 44,
+    "page number" : 4,
+    "bounding box" : [ 411.667, 619.0, 461.667, 633.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Leeward"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 45,
+    "page number" : 4,
+    "bounding box" : [ 167.667, 603.0, 194.333, 617.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Side"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 46,
+    "page number" : 4,
+    "bounding box" : [ 435.0, 602.333, 461.667, 616.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Side"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 42,
+    "page number" : 4,
+    "bounding box" : [ 443.732, 543.994, 601.934, 606.673 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "/eation"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 47,
+    "page number" : 4,
+    "bounding box" : [ 176.667, 550.0, 249.333, 566.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Prevailing Wind"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 48,
+    "page number" : 4,
+    "bounding box" : [ 403.0, 549.667, 462.333, 562.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Rain Shadow"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 49,
+    "page number" : 4,
+    "bounding box" : [ 170.0, 516.0, 201.333, 524.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Sea Level"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 50,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 56.333, 473.333, 130.667, 494.667 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Humidity"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 51,
+    "page number" : 4,
+    "bounding box" : [ 56.333, 407.333, 545.0, 468.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Humidity is the amount of water vapour in the air. Places with high humidity receive more rainfall, while dry areas have less humidity. For example, coastal areas have higher humidity than deserts."
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 52,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 57.333, 259.667, 172.667, 276.333 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Ocean Currents"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 184,
+    "page number" : 4,
+    "bounding box" : [ 186.576, 278.776, 443.185, 398.254 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile10.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 53,
+    "page number" : 4,
+    "bounding box" : [ 57.0, 192.0, 571.667, 251.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Ocean currents are large movements of water in the oceans. Warm ocean currents make coastal areas warmer, while cold currents bring cool temperatures. For example, the Gulf Stream warms Europe, while the cold"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 185,
+    "page number" : 4,
+    "bounding box" : [ 331.468, 61.488, 570.589, 192.895 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile11.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 54,
+    "page number" : 4,
+    "bounding box" : [ 57.667, 177.0, 279.667, 191.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Labrador Current cools Canada:"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 187,
+    "page number" : 5,
+    "bounding box" : [ 438.573, 728.788, 555.471, 780.657 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile18.png"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 186,
+    "page number" : 5,
+    "bounding box" : [ 58.923, 702.368, 100.43, 742.07 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile12.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 55,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 99.667, 715.0, 224.667, 729.667 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Let's Learn Morel"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 56,
+    "page number" : 5,
+    "bounding box" : [ 56.667, 644.0, 573.0, 705.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Rainforests receive about 80 inches of rain each and they are SO important because they provide oxygen and food to the world. Without them, our 'planet would be very differentl year"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 57,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 56.667, 610.333, 181.0, 631.0 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Types of Climate"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 58,
+    "page number" : 5,
+    "bounding box" : [ 532.894, 606.534, 600.772, 611.133 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "n"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 59,
+    "page number" : 5,
+    "bounding box" : [ 57.333, 566.667, 547.333, 605.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Different parts of the world have different types of climate: Let's look at some major types."
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 60,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 57.667, 541.667, 272.667, 560.333 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Monsoon or Tropical Climate"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 61,
+    "page number" : 5,
+    "bounding box" : [ 56.667, 516.0, 447.667, 536.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Found in South Asia, Southeast Asia, and some parts of"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 62,
+    "page number" : 5,
+    "bounding box" : [ 57.0, 475.0, 525.0, 511.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "It has hot summers and receives heavy rainfall during the monsoon season."
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 63,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 57.0, 446.667, 198.0, 465.0 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Equatorial Climate"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 64,
+    "page number" : 5,
+    "bounding box" : [ 57.0, 385.0, 303.333, 439.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Found near the equator, such as in the Amazon Rainforest and Congo Basin:"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 65,
+    "page number" : 5,
+    "bounding box" : [ 56.333, 341.333, 302.0, 375.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "It is hot and humid throughout the year with heavy rainfall."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 67,
+    "page number" : 5,
+    "bounding box" : [ 193.102, 329.579, 280.565, 337.421 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "ana"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 66,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 57.0, 318.333, 170.0, 334.667 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Desert Climate"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 68,
+    "page number" : 5,
+    "bounding box" : [ 57.0, 278.333, 279.667, 310.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Found in places like the Sahara Desert and the Thar Desert:"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 188,
+    "page number" : 5,
+    "bounding box" : [ 312.111, 301.767, 566.477, 439.236 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile13.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 69,
+    "page number" : 5,
+    "bounding box" : [ 56.333, 248.333, 406.667, 269.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "It has very little rainfall, hot days, and cold nights."
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 189,
+    "page number" : 5,
+    "bounding box" : [ 147.898, 61.488, 481.863, 247.568 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile14.png"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 190,
+    "page number" : 6,
+    "bounding box" : [ 46.379, 730.395, 162.817, 780.767 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile21.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 70,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 58.0, 714.667, 172.667, 730.667 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Tundra Climate"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 191,
+    "page number" : 6,
+    "bounding box" : [ 438.521, 728.849, 555.485, 780.603 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile22.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 71,
+    "page number" : 6,
+    "bounding box" : [ 57.0, 666.0, 572.667, 705.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Found near the poles, such as in Greenland and Antarctica: It is extremely cold with little or no vegetation."
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 193,
+    "page number" : 6,
+    "bounding box" : [ 185.263, 537.179, 444.497, 663.749 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile15.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 84,
+    "page number" : 6,
+    "bounding box" : [ 417.792, 522.663, 601.875, 606.67 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "alication"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 192,
+    "page number" : 6,
+    "bounding box" : [ 65.916, 501.937, 94.775, 555.326 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile16.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 72,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 110.333, 507.667, 215.0, 521.667 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Do You Know?"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 73,
+    "page number" : 6,
+    "bounding box" : [ 57.333, 437.333, 571.333, 498.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Antarctica is the driest; coldest, and windiest continent on Earth. It hasn t rained there in millions of years, but it's still considered a desert because of the lack of precipitation:"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 74,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 58.0, 402.667, 255.333, 419.333 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Climatic Zones ofthe Earth"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 75,
+    "page number" : 6,
+    "bounding box" : [ 57.667, 379.0, 516.333, 393.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The Earth is divided into three main climatic zones based on latitude."
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 76,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 58.333, 353.667, 144.0, 368.333 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Torrid Zone"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 77,
+    "page number" : 6,
+    "bounding box" : [ 57.333, 324.667, 494.0, 343.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Located between the Tropic of Cancer and the Tropic of Capricorn"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 78,
+    "page number" : 6,
+    "bounding box" : [ 56.667, 300.667, 385.333, 318.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Itis thehottest zone as it receives direct sunlight:"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 79,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 58.0, 264.0, 177.333, 281.333 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Temperate Zone"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 80,
+    "page number" : 6,
+    "bounding box" : [ 56.667, 237.667, 378.333, 258.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Found between the tropics and the polar circles."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 81,
+    "page number" : 6,
+    "bounding box" : [ 57.333, 213.333, 405.333, 231.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Ithas moderate temperatures with distinct seasons."
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 194,
+    "page number" : 6,
+    "bounding box" : [ 65.91, 140.565, 94.769, 193.953 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile17.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 82,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 105.333, 151.0, 208.0, 169.333 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Do you know?"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 83,
+    "page number" : 6,
+    "bounding box" : [ 57.333, 76.667, 547.667, 137.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "There are different types of clouds that can tell you about the weather? For example, cumulus clouds are fluffy and show fair weather, while nimbostratus clouds bring rain or snow."
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 195,
+    "page number" : 7,
+    "bounding box" : [ 46.243, 730.082, 162.465, 780.965 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile26.png"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 196,
+    "page number" : 7,
+    "bounding box" : [ 438.577, 728.869, 555.426, 780.907 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile27.png"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 198,
+    "page number" : 7,
+    "bounding box" : [ 403.606, 612.169, 570.588, 730.512 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile18.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 85,
+    "level" : "Subtitle",
+    "page number" : 7,
+    "bounding box" : [ 57.0, 711.667, 142.0, 730.333 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Frigid Zone"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 89,
+    "page number" : 7,
+    "bounding box" : [ 452.333, 721.667, 467.667, 726.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "POLAR"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 90,
+    "page number" : 7,
+    "bounding box" : [ 472.333, 717.667, 487.667, 723.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "COLD"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 92,
+    "page number" : 7,
+    "bounding box" : [ 489.0, 703.0, 505.667, 708.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "WaRM"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 91,
+    "page number" : 7,
+    "bounding box" : [ 445.667, 701.667, 484.333, 707.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "TEMPERATE ZONE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 86,
+    "page number" : 7,
+    "bounding box" : [ 57.0, 685.667, 213.333, 706.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Located near the poles."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 93,
+    "page number" : 7,
+    "bounding box" : [ 436.333, 666.333, 493.667, 680.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "TROPICS"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 87,
+    "page number" : 7,
+    "bounding box" : [ 57.0, 664.333, 348.333, 679.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Itis the coldest zone with ice-covered lands."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 94,
+    "page number" : 7,
+    "bounding box" : [ 536.667, 669.333, 562.0, 677.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Equator"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 197,
+    "page number" : 7,
+    "bounding box" : [ 60.917, 595.502, 102.112, 648.209 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile19.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 96,
+    "page number" : 7,
+    "bounding box" : [ 445.0, 639.667, 484.333, 645.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "TEMPERATE ZONE"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 97,
+    "page number" : 7,
+    "bounding box" : [ 528.333, 638.333, 570.333, 643.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Tropic ot Capricorn"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 95,
+    "page number" : 7,
+    "bounding box" : [ 419.667, 637.0, 437.667, 643.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "WARM"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 88,
+    "page number" : 7,
+    "bounding box" : [ 104.333, 599.0, 178.333, 621.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Recall"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 98,
+    "page number" : 7,
+    "bounding box" : [ 534.84, 607.509, 598.826, 611.158 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "On"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 99,
+    "page number" : 7,
+    "bounding box" : [ 55.667, 506.667, 572.667, 591.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Weather and climate are essential aspects of our environment. Many factors, such as latitude, altitude, wind, and ocean currents, influence climate. Different regions experience different types of climates, affecting the way people live, the food they grow and the clothes they wear."
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 199,
+    "page number" : 7,
+    "bounding box" : [ 59.172, 467.378, 100.834, 506.93 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile20.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 100,
+    "level" : "Subtitle",
+    "page number" : 7,
+    "bounding box" : [ 106.0, 474.0, 288.667, 498.0 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "let'sRemember"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 101,
+    "page number" : 7,
+    "bounding box" : [ 58.333, 446.333, 413.0, 468.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Weather is the daily atmospheric condition ofa place."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 102,
+    "page number" : 7,
+    "bounding box" : [ 57.667, 422.0, 386.667, 442.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Climate is the average weather over a long period:"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 103,
+    "page number" : 7,
+    "bounding box" : [ 56.667, 398.667, 522.667, 417.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Latitude, altitude, distance from the sea, and winds influence climate."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 104,
+    "page number" : 7,
+    "bounding box" : [ 57.667, 371.667, 571.667, 390.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The world has different types of climate, including tropical, desert, and"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 105,
+    "page number" : 7,
+    "bounding box" : [ 57.333, 326.0, 486.667, 344.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The Earth has three climatic zones: torrid, temperate, and frigid:"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 200,
+    "page number" : 7,
+    "bounding box" : [ 57.155, 275.202, 227.328, 311.775 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile31.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 108,
+    "level" : "Subtitle",
+    "page number" : 7,
+    "bounding box" : [ 96.667, 282.0, 224.0, 304.667 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "WordBank"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 106,
+    "page number" : 7,
+    "bounding box" : [ 65.0, 293.0, 81.0, 299.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Word"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 107,
+    "page number" : 7,
+    "bounding box" : [ 69.667, 288.333, 85.667, 293.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Bank"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 109,
+    "level" : "Subtitle",
+    "page number" : 7,
+    "bounding box" : [ 57.333, 238.0, 130.333, 257.0 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Humidity"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 111,
+    "page number" : 7,
+    "bounding box" : [ 58.667, 214.0, 120.0, 230.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Altitude"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 113,
+    "page number" : 7,
+    "bounding box" : [ 57.333, 187.333, 119.333, 204.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Equator"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 114,
+    "page number" : 7,
+    "bounding box" : [ 57.0, 163.0, 126.0, 179.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Monsoon"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 115,
+    "page number" : 7,
+    "bounding box" : [ 58.333, 139.667, 113.0, 153.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Tundra"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 110,
+    "page number" : 7,
+    "bounding box" : [ 162.667, 237.333, 408.667, 254.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The amount of water vapor in the air."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 112,
+    "page number" : 7,
+    "bounding box" : [ 162.667, 211.667, 404.0, 230.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The height ofa place above sea level."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 116,
+    "page number" : 7,
+    "bounding box" : [ 163.0, 186.0, 511.667, 207.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "An imaginary line dividing the Earth into two halves."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 117,
+    "page number" : 7,
+    "bounding box" : [ 162.333, 160.667, 414.333, 181.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Seasonal winds that bring heavy rain."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 118,
+    "page number" : 7,
+    "bounding box" : [ 164.0, 134.667, 392.667, 156.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Acold region with little vegetation."
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 201,
+    "page number" : 7,
+    "bounding box" : [ 84.623, 4.176, 545.814, 45.689 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile21.png"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 202,
+    "page number" : 8,
+    "bounding box" : [ 9.91, 726.815, 162.543, 781.15 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile33.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 119,
+    "level" : "Subtitle",
+    "page number" : 8,
+    "bounding box" : [ 58.333, 693.667, 297.333, 726.667 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Assessment Activity"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 120,
+    "level" : "Subtitle",
+    "page number" : 8,
+    "bounding box" : [ 58.667, 672.0, 401.333, 692.667 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "I. Answer the following very short questions"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 121,
+    "page number" : 8,
+    "bounding box" : [ 101.333, 648.667, 233.667, 665.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "What is weather?"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 203,
+    "page number" : 8,
+    "bounding box" : [ 438.519, 729.025, 555.478, 780.605 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile34.png"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "level" : "1",
+    "page number" : 8,
+    "bounding box" : [ 100.333, 598.333, 368.0, 639.667 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 8,
+      "bounding box" : [ 100.333, 625.0, 228.333, 639.667 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "2.What is climate?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 8,
+      "bounding box" : [ 100.667, 598.333, 368.0, 615.0 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "3 . Name two factors that affect climate.?",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 124,
+    "page number" : 8,
+    "bounding box" : [ 101.0, 574.0, 353.667, 589.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Which zone is the hottest on Earth?"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 125,
+    "page number" : 8,
+    "bounding box" : [ 100.667, 546.667, 374.667, 564.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "5 . Name one place with a desert climate.?"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 126,
+    "level" : "Doctitle",
+    "page number" : 8,
+    "bounding box" : [ 57.667, 509.333, 366.667, 531.0 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "II. Answer the following short questions"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 127,
+    "page number" : 8,
+    "bounding box" : [ 101.333, 486.667, 337.333, 502.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "How does altitude affect climate?"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 141,
+    "page number" : 8,
+    "bounding box" : [ 395.495, 502.998, 601.505, 607.669 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "blication"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 128,
+    "page number" : 8,
+    "bounding box" : [ 100.0, 462.0, 508.0, 478.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "What is the difference between sea breeze and land breeze?"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 129,
+    "page number" : 8,
+    "bounding box" : [ 101.333, 433.366, 462.0, 455.634 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "3 do coastal areas have moderate temperatures? Why"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 130,
+    "level" : "Subtitle",
+    "page number" : 8,
+    "bounding box" : [ 57.0, 396.667, 359.333, 419.0 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "III. Answer the following long questions"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 131,
+    "page number" : 8,
+    "bounding box" : [ 101.333, 373.0, 497.333, 390.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Explain the different types of climate found in the world.?"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 132,
+    "level" : "Subtitle",
+    "page number" : 8,
+    "bounding box" : [ 57.0, 314.333, 224.0, 329.333 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "IV _ Fill in the blanks"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 133,
+    "page number" : 8,
+    "bounding box" : [ 369.0, 289.0, 385.0, 301.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "to"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 134,
+    "page number" : 8,
+    "bounding box" : [ 100.333, 263.667, 511.667, 278.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The Earth is divided into three zones."
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "level" : "1",
+    "page number" : 8,
+    "bounding box" : [ 100.667, 210.333, 454.0, 256.0 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 8,
+      "bounding box" : [ 101.333, 234.667, 440.667, 256.0 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "3 winds bringrain to India.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 8,
+      "bounding box" : [ 100.667, 210.333, 454.0, 229.333 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "4.Deserts have very rainfall.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 137,
+    "page number" : 8,
+    "bounding box" : [ 101.0, 188.333, 485.667, 203.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The zone is the coldest on Earth_"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 138,
+    "level" : "Doctitle",
+    "page number" : 8,
+    "bounding box" : [ 60.667, 151.667, 229.667, 166.333 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V Write true or false"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "level" : "1",
+    "page number" : 8,
+    "bounding box" : [ 100.0, 98.667, 288.667, 142.667 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 8,
+      "bounding box" : [ 101.0, 122.333, 268.0, 142.667 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "1. Climate changes daily.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 8,
+      "bounding box" : [ 100.0, 98.667, 288.667, 116.667 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "2. Tundra regions are warm.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 204,
+    "page number" : 9,
+    "bounding box" : [ 438.666, 730.041, 555.439, 780.689 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile35.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 142,
+    "page number" : 9,
+    "bounding box" : [ 100.667, 712.333, 378.667, 730.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The equator receives the most sunlight:"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 143,
+    "page number" : 9,
+    "bounding box" : [ 101.0, 686.667, 489.0, 707.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "High-altitude areas are warmer than low-altitude areas."
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 144,
+    "level" : "Doctitle",
+    "page number" : 9,
+    "bounding box" : [ 58.333, 650.0, 245.667, 672.333 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Vi. Match the following"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 145,
+    "level" : "Subtitle",
+    "page number" : 9,
+    "bounding box" : [ 100.333, 629.0, 171.0, 643.667 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Column A"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 146,
+    "level" : "Subtitle",
+    "page number" : 9,
+    "bounding box" : [ 331.0, 629.0, 403.0, 643.667 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Column B"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 147,
+    "level" : "2",
+    "page number" : 9,
+    "bounding box" : [ 101.667, 603.667, 223.667, 617.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "1. Monsoon winds"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 148,
+    "page number" : 9,
+    "bounding box" : [ 99.333, 574.667, 174.667, 593.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Equator"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 150,
+    "level" : "2",
+    "page number" : 9,
+    "bounding box" : [ 101.0, 553.0, 169.0, 567.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "3. Tundra"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 152,
+    "page number" : 9,
+    "bounding box" : [ 101.0, 527.667, 163.667, 542.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "4.Desert"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 153,
+    "level" : "2",
+    "page number" : 9,
+    "bounding box" : [ 101.0, 502.333, 209.0, 517.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "5. Coastalareas"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 155,
+    "page number" : 9,
+    "bounding box" : [ 434.778, 534.329, 601.555, 608.004 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "lication"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 149,
+    "page number" : 9,
+    "bounding box" : [ 330.667, 576.667, 432.667, 593.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "b) Cold climate"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 151,
+    "page number" : 9,
+    "bounding box" : [ 331.333, 552.0, 464.0, 568.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "c) Moderate climate"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 154,
+    "page number" : 9,
+    "bounding box" : [ 330.667, 525.0, 442.667, 543.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Heavy rainfall"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 156,
+    "page number" : 9,
+    "bounding box" : [ 331.333, 500.667, 448.667, 518.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "e) Hot and humid"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 205,
+    "page number" : 9,
+    "bounding box" : [ 58.791, 455.081, 105.722, 492.949 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile22.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 158,
+    "page number" : 9,
+    "bounding box" : [ 365.904, 473.466, 449.763, 476.867 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Pu"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 157,
+    "level" : "Subtitle",
+    "page number" : 9,
+    "bounding box" : [ 112.0, 446.0, 199.667, 474.667 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Project"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 159,
+    "page number" : 9,
+    "bounding box" : [ 57.333, 402.667, 573.667, 443.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Create a world map showing different climatic zones and mark examples of each type of climate."
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 206,
+    "page number" : 9,
+    "bounding box" : [ 59.837, 367.228, 96.594, 398.621 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile23.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 160,
+    "level" : "Subtitle",
+    "page number" : 9,
+    "bounding box" : [ 99.667, 366.333, 173.667, 381.0 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Life Skills"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 161,
+    "page number" : 9,
+    "bounding box" : [ 57.0, 274.333, 573.333, 357.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The climate is changing, and it's important for us to think about how we can help protect the Earth: What small changes can you make in your daily routine to reduce waste, save energy, or help protect the environment for future generations?"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 207,
+    "page number" : 9,
+    "bounding box" : [ 61.123, 215.539, 106.798, 258.648 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile24.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 162,
+    "page number" : 9,
+    "bounding box" : [ 107.0, 212.333, 167.667, 235.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "HOTs"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 163,
+    "page number" : 9,
+    "bounding box" : [ 59.0, 183.333, 530.0, 205.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "What would happen ifthe Earth's climate was the same everywhere?"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 208,
+    "page number" : 10,
+    "bounding box" : [ 45.466, 728.93, 162.379, 780.649 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile39.png"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 209,
+    "page number" : 10,
+    "bounding box" : [ 438.664, 728.697, 555.398, 780.523 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile40.png"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 210,
+    "page number" : 10,
+    "bounding box" : [ 62.402, 683.683, 123.901, 722.146 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile25.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 164,
+    "page number" : 10,
+    "bounding box" : [ 122.333, 676.333, 219.333, 707.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Activity"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 165,
+    "page number" : 10,
+    "bounding box" : [ 57.0, 634.0, 573.0, 675.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Activity: Observe the weather in your for one weekRecord   daily temperatures and weather conditions. city"
+  }, {
+    "type" : "table",
+    "pdfua_tag" : "Table",
+    "id" : 166,
+    "level" : "3",
+    "page number" : 10,
+    "bounding box" : [ 57.902, 111.028, 571.263, 580.421 ],
+    "number of rows" : 1,
+    "number of columns" : 3,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "id" : 0,
+      "cells" : [ {
+        "type" : "table cell",
+        "pdfua_tag" : "TH",
+        "page number" : 10,
+        "bounding box" : [ 57.902, 111.028, 229.023, 580.421 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "is_header" : true,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 167,
+          "page number" : 10,
+          "bounding box" : [ 57.902, 111.028, 229.023, 580.421 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "DATE"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TH",
+        "page number" : 10,
+        "bounding box" : [ 229.023, 111.028, 400.143, 580.421 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "is_header" : true,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 168,
+          "page number" : 10,
+          "bounding box" : [ 229.023, 111.028, 400.143, 580.421 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "WEEK"
+        } ]
+      }, {
+        "type" : "table cell",
+        "pdfua_tag" : "TH",
+        "page number" : 10,
+        "bounding box" : [ 400.143, 111.028, 571.263, 580.421 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "is_header" : true,
+        "kids" : [ {
+          "type" : "paragraph",
+          "pdfua_tag" : "P",
+          "id" : 169,
+          "page number" : 10,
+          "bounding box" : [ 400.143, 111.028, 571.263, 580.421 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "TEMPERATUR"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 211,
+    "page number" : 10,
+    "bounding box" : [ 84.623, 4.176, 545.814, 45.689 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile26.png"
+  } ]
+}

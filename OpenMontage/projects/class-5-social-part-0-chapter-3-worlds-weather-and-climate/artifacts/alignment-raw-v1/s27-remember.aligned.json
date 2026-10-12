@@ -1,0 +1,374 @@
+{
+  "section_id": "s27-remember",
+  "text": "Let's Remember. Weather is the daily atmospheric condition of a place. Climate is the average weather over a long period. Latitude, altitude, distance from the sea, and winds influence climate. The world has different types of climate, including tropical, desert, and tundra. The Earth has three climatic zones: torrid, temperate, and frigid.",
+  "start_ms": 435520,
+  "end_ms": 464800,
+  "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\audio\\narration-elevenlabs-v1\\s27-remember.wav",
+  "words": [
+    {
+      "word": "Let's",
+      "start_ms": 435580,
+      "end_ms": 435840,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1525
+    },
+    {
+      "word": "Remember.",
+      "start_ms": 435920,
+      "end_ms": 436421,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0096
+    },
+    {
+      "word": "Weather",
+      "start_ms": 437461,
+      "end_ms": 437802,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0008
+    },
+    {
+      "word": "is",
+      "start_ms": 438102,
+      "end_ms": 438142,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "the",
+      "start_ms": 438222,
+      "end_ms": 438302,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0339
+    },
+    {
+      "word": "daily",
+      "start_ms": 438402,
+      "end_ms": 438742,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0152
+    },
+    {
+      "word": "atmospheric",
+      "start_ms": 438902,
+      "end_ms": 439483,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0022
+    },
+    {
+      "word": "condition",
+      "start_ms": 439563,
+      "end_ms": 440023,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0049
+    },
+    {
+      "word": "of",
+      "start_ms": 440243,
+      "end_ms": 440283,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "a",
+      "start_ms": 440383,
+      "end_ms": 440403,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0014
+    },
+    {
+      "word": "place.",
+      "start_ms": 440483,
+      "end_ms": 440784,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0088
+    },
+    {
+      "word": "Climate",
+      "start_ms": 441684,
+      "end_ms": 442165,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0406
+    },
+    {
+      "word": "is",
+      "start_ms": 442445,
+      "end_ms": 442505,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1577
+    },
+    {
+      "word": "the",
+      "start_ms": 442565,
+      "end_ms": 442645,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "average",
+      "start_ms": 442865,
+      "end_ms": 443185,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0197
+    },
+    {
+      "word": "weather",
+      "start_ms": 443265,
+      "end_ms": 443565,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0034
+    },
+    {
+      "word": "over",
+      "start_ms": 443806,
+      "end_ms": 443986,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0062
+    },
+    {
+      "word": "a",
+      "start_ms": 444066,
+      "end_ms": 444086,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0008
+    },
+    {
+      "word": "long",
+      "start_ms": 444206,
+      "end_ms": 444426,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0011
+    },
+    {
+      "word": "period.",
+      "start_ms": 444546,
+      "end_ms": 444926,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0278
+    },
+    {
+      "word": "Latitude,",
+      "start_ms": 445787,
+      "end_ms": 446367,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0012
+    },
+    {
+      "word": "altitude,",
+      "start_ms": 446948,
+      "end_ms": 447488,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0869
+    },
+    {
+      "word": "distance",
+      "start_ms": 448009,
+      "end_ms": 448409,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0013
+    },
+    {
+      "word": "from",
+      "start_ms": 448489,
+      "end_ms": 448609,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0063
+    },
+    {
+      "word": "the",
+      "start_ms": 448689,
+      "end_ms": 448769,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0005
+    },
+    {
+      "word": "sea,",
+      "start_ms": 448849,
+      "end_ms": 449049,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0012
+    },
+    {
+      "word": "and",
+      "start_ms": 449550,
+      "end_ms": 449650,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0604
+    },
+    {
+      "word": "winds",
+      "start_ms": 449810,
+      "end_ms": 450150,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0122
+    },
+    {
+      "word": "influence",
+      "start_ms": 450590,
+      "end_ms": 451071,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0527
+    },
+    {
+      "word": "climate.",
+      "start_ms": 451171,
+      "end_ms": 451571,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0714
+    },
+    {
+      "word": "The",
+      "start_ms": 452331,
+      "end_ms": 452412,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "world",
+      "start_ms": 452472,
+      "end_ms": 452752,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0924
+    },
+    {
+      "word": "has",
+      "start_ms": 452852,
+      "end_ms": 452992,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "different",
+      "start_ms": 453132,
+      "end_ms": 453512,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0557
+    },
+    {
+      "word": "types",
+      "start_ms": 453572,
+      "end_ms": 453853,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0034
+    },
+    {
+      "word": "of",
+      "start_ms": 453913,
+      "end_ms": 453953,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "climate,",
+      "start_ms": 454053,
+      "end_ms": 454453,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0357
+    },
+    {
+      "word": "including",
+      "start_ms": 454893,
+      "end_ms": 455354,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0183
+    },
+    {
+      "word": "tropical,",
+      "start_ms": 455794,
+      "end_ms": 456274,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0024
+    },
+    {
+      "word": "desert,",
+      "start_ms": 456795,
+      "end_ms": 457195,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "and",
+      "start_ms": 457555,
+      "end_ms": 457655,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.2591
+    },
+    {
+      "word": "tundra.",
+      "start_ms": 457735,
+      "end_ms": 458115,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0204
+    },
+    {
+      "word": "The",
+      "start_ms": 458896,
+      "end_ms": 458996,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0097
+    },
+    {
+      "word": "Earth",
+      "start_ms": 459136,
+      "end_ms": 459296,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1944
+    },
+    {
+      "word": "has",
+      "start_ms": 459396,
+      "end_ms": 459536,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "three",
+      "start_ms": 459737,
+      "end_ms": 459957,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "climatic",
+      "start_ms": 460037,
+      "end_ms": 460537,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0153
+    },
+    {
+      "word": "zones:",
+      "start_ms": 460637,
+      "end_ms": 460977,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1411
+    },
+    {
+      "word": "torrid,",
+      "start_ms": 461578,
+      "end_ms": 461958,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1018
+    },
+    {
+      "word": "temperate,",
+      "start_ms": 462498,
+      "end_ms": 462999,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.061
+    },
+    {
+      "word": "and",
+      "start_ms": 463399,
+      "end_ms": 463499,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1159
+    },
+    {
+      "word": "frigid.",
+      "start_ms": 463619,
+      "end_ms": 463959,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0325
+    }
+  ],
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

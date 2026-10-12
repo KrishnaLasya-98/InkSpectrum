@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "review_method": "Recovered files and five one-second sampled frames per shot; final full-frame temporal and composition review still required.",
+  "shots": [
+    {"shot_id": "summer-park-06", "status": "accept_limited", "evidence": "qa-previews/summer-park-06-contact.jpg", "observation": "Green sunny countryside with drifting leaves; visually similar to spring, so the season is not independently unambiguous.", "use_policy": "One summer cue only beside an authored Summer label and a distinct spring-to-summer transition."},
+    {"shot_id": "autumn-park-06", "status": "accept_limited", "evidence": "qa-previews/autumn-park-06-contact.jpg", "observation": "Orange-brown foliage and falling leaves clearly communicate autumn, with no generated lettering.", "use_policy": "One five-second autumn cue in s08."},
+    {"shot_id": "winter-park-06", "status": "accept_limited", "evidence": "qa-previews/winter-park-06-contact.jpg", "observation": "Leafless tree, snow-covered ground, and falling snow clearly communicate winter, with no generated lettering.", "use_policy": "One five-second winter cue in s08."}
+  ],
+  "production_approval": false
+}

@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188302737",
+  "request_fingerprint": "5218abf2619ab5766ef0cbc195b8b738dbbf2b8bbe109311131a9e4173a8f883",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-07\\moon-curved-shadow-07.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1790857813.906549,
+  "last_poll_at_unix": 1790858167.3654752,
+  "completed_at_unix": 1790858169.1175554
+}

@@ -1,0 +1,225 @@
+{
+  "version": "1.0",
+  "project_id": "class-5-social-part-0-chapter-2-earth-movement",
+  "pipeline_type": "educational-video",
+  "stage": "proposal",
+  "status": "completed",
+  "timestamp": "2026-10-01T11:12:35.845710+00:00",
+  "checkpoint_policy": "auto_noncreative",
+  "human_approval_required": true,
+  "human_approved": true,
+  "artifacts": {
+    "proposal_packet": {
+      "version": "1.0",
+      "concept_options": [
+        {
+          "id": "c1",
+          "title": "Source-faithful animated lesson",
+          "hook": "Let us discover Earth Movement together!",
+          "narrative_structure": "journey",
+          "visual_approach": "Fresh child-friendly 3D motion with compact textbook teaching panels.",
+          "target_duration_seconds": 515.0,
+          "why_this_works": "It preserves textbook order while keeping young learners visually engaged."
+        },
+        {
+          "id": "c2",
+          "title": "Precision-first classroom lesson",
+          "hook": "Watch each idea become clear step by step.",
+          "narrative_structure": "tutorial",
+          "visual_approach": "Deterministic diagrams and stable reading screens with limited story motion.",
+          "target_duration_seconds": 515.0,
+          "why_this_works": "It maximizes accuracy for symbols, tables, worked examples, and exercises."
+        },
+        {
+          "id": "c3",
+          "title": "Evidence-led visual explanation",
+          "hook": "See how the lesson connects to the world around us.",
+          "narrative_structure": "comparison",
+          "visual_approach": "Reviewed factual references blended with authored teaching graphics.",
+          "target_duration_seconds": 515.0,
+          "why_this_works": "It suits factual chapters where authenticity matters more than character continuity."
+        }
+      ],
+      "selected_concept": {
+        "concept_id": "c1",
+        "rationale": "The approved educational standard requires source-faithful, child-friendly 3D motion and fixed HyperFrames teaching UI."
+      },
+      "production_plan": {
+        "pipeline": "educational-video",
+        "stages": [
+          {
+            "stage": "source_and_planning",
+            "tools": [],
+            "approach": "Preserve every required source block and map it to narration, screen, and visual evidence."
+          },
+          {
+            "stage": "media_generation",
+            "tools": [],
+            "approach": "Generate ModelsLab narration and fresh 3D motion; use deterministic teaching modes where needed."
+          },
+          {
+            "stage": "composition_and_qa",
+            "tools": [],
+            "approach": "Compose with the locked HyperFrames template and block export on failed QA."
+          }
+        ],
+        "render_runtime": "hyperframes",
+        "renderer_family": "animation-first",
+        "composition_mode": "atelier",
+        "art_direction": "Locked hyperframes-educational-v1 warm classroom film with cream panels and word-highlight subtitle lane.",
+        "ui_template_id": "hyperframes-educational-v1",
+        "ui_template_version": null,
+        "ui_template_package_sha256": "d543ab857763a916f52ac2754c634c768364c1a744cb04d83d2e0e435fb5a047",
+        "visual_media": "animated-video-only",
+        "audio_provider": "huggingface-kokoro",
+        "video_provider": "modelslab",
+        "fresh_assets_only": true,
+        "allow_clip_reuse": false,
+        "delivery_promise": {
+          "promise_type": "motion_led",
+          "motion_required": true,
+          "tone_mode": "educational",
+          "quality_floor": "broadcast",
+          "approved_fallback": null
+        },
+        "decision_log_ref": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\decision_log.json"
+      },
+      "cost_estimate": {
+        "total_estimated_usd": 0.0,
+        "line_items": [
+          {
+            "tool": "modelslab",
+            "operation": "chapter narration, character references, and generated motion",
+            "quantity": 15,
+            "estimated_usd": 0.0,
+            "notes": "Actual price is account/model dependent and is recorded from provider responses."
+          }
+        ],
+        "budget_verdict": "no_budget_set"
+      },
+      "approval": {
+        "status": "approved",
+        "user_notes": "Full-run preauthorization recorded in chapter configuration."
+      },
+      "metadata": {
+        "project_id": "class-5-social-part-0-chapter-2-earth-movement",
+        "subject": "social-studies",
+        "grade": 5,
+        "chapter": 2,
+        "title": "Earth Movement",
+        "source_input": "D:\\InkSpectrum\\OpenMontage\\textbook-collections\\class-5-social\\source-chapters\\chapter-02-earth-movement.pdf",
+        "content_contract": {
+          "source_fidelity": "complete-topic-coverage",
+          "allow_invented_labels": false,
+          "remove_redundant_text": true
+        }
+      }
+    },
+    "decision_log": {
+      "version": "1.0",
+      "project_id": "class-5-social-part-0-chapter-2-earth-movement",
+      "decisions": [
+        {
+          "decision_id": "d-001",
+          "stage": "proposal",
+          "category": "pipeline_selection",
+          "subject": "Educational production pipeline",
+          "options_considered": [
+            {
+              "option_id": "educational-video",
+              "label": "Source-grounded educational video",
+              "score": 1.0,
+              "reason": "Preserves textbook coverage, teaching UI, synchronization, and encoded-output QA."
+            }
+          ],
+          "selected": "educational-video",
+          "reason": "The input is a textbook chapter requiring auditable source fidelity.",
+          "user_visible": true,
+          "user_approved": true,
+          "confidence": 1.0
+        },
+        {
+          "decision_id": "d-002",
+          "stage": "proposal",
+          "category": "render_runtime_selection",
+          "subject": "Composition runtime",
+          "options_considered": [
+            {
+              "option_id": "hyperframes",
+              "label": "HyperFrames",
+              "score": 1.0,
+              "reason": "Matches the locked educational UI and word-highlight subtitle contract."
+            },
+            {
+              "option_id": "remotion",
+              "label": "Remotion",
+              "score": 0.6,
+              "reason": "Available, but not the approved appearance/runtime for this educational program.",
+              "rejected_because": "The educational template is locked to HyperFrames."
+            }
+          ],
+          "selected": "hyperframes",
+          "reason": "The user selected HyperFrames and the shared educational template is version-locked to it.",
+          "user_visible": true,
+          "user_approved": true,
+          "confidence": 1.0
+        },
+        {
+          "decision_id": "d-003",
+          "stage": "proposal",
+          "category": "provider_selection",
+          "subject": "Generated educational motion provider",
+          "options_considered": [
+            {
+              "option_id": "modelslab",
+              "label": "ModelsLab",
+              "score": 1.0,
+              "reason": "Configured for text, image, and reference-driven animated video generation."
+            }
+          ],
+          "selected": "modelslab",
+          "reason": "The chapter provider contract explicitly selects ModelsLab.",
+          "user_visible": true,
+          "user_approved": true,
+          "confidence": 1.0
+        },
+        {
+          "decision_id": "d-004",
+          "stage": "proposal",
+          "category": "voice_selection",
+          "subject": "Narration TTS provider",
+          "options_considered": [
+            {
+              "option_id": "huggingface-kokoro",
+              "label": "huggingface-kokoro",
+              "score": 1.0,
+              "reason": "Uses one chapter-scoped voice with speech QA and word alignment; configured voice is af_heart."
+            }
+          ],
+          "selected": "huggingface-kokoro",
+          "reason": "The configured narrator remains authoritative for the whole chapter.",
+          "user_visible": true,
+          "user_approved": true,
+          "confidence": 1.0
+        }
+      ]
+    }
+  },
+  "style_playbook": "clean-professional",
+  "cost_snapshot": {
+    "total_spent_usd": 0.0,
+    "total_reserved_usd": 0.0,
+    "budget_remaining_usd": 5.0
+  },
+  "metadata": {
+    "proposal_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\artifacts\\proposal_packet.json",
+    "scope": "opening-through-Word-Bank",
+    "stage_started_at_unix": 1790853155.6847537,
+    "stage_duration_seconds": 0.104,
+    "estimated_duration_seconds": 20.0,
+    "eta_accuracy_ratio": 0.005,
+    "artifact_sha256": "93596b2597cd54570f6e7faeda7333acdc1727c61217cf6bdf3feaa228d1594d",
+    "approved_artifact_sha256": "93596b2597cd54570f6e7faeda7333acdc1727c61217cf6bdf3feaa228d1594d",
+    "approval_evidence": "full-run-preauthorized"
+  }
+}

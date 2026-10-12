@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188664296",
+  "request_fingerprint": "21ad4d4cfef65d0d54a2f5a7545eda8b0a6e926ce8c33a181c299906e25a2d14",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-06\\coast-day-thermal-lag.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791353166.7135282,
+  "last_poll_at_unix": 1791353322.0362282,
+  "completed_at_unix": 1791353324.1596458
+}

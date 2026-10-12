@@ -1,0 +1,255 @@
+{
+  "section_id": "s05-hot-desert-fact",
+  "text": "Do You Know? The hottest place on Earth is the Lut Desert in Iran, where temperatures have been recorded as high as 159.3°F (70.7°C)! Imagine how hot it must be to have that much heat!",
+  "start_ms": 80560,
+  "end_ms": 99440,
+  "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\audio\\narration-elevenlabs-v1\\s05-hot-desert-fact.wav",
+  "words": [
+    {
+      "word": "Do",
+      "start_ms": 80600,
+      "end_ms": 80680,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "You",
+      "start_ms": 80760,
+      "end_ms": 80860,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0191
+    },
+    {
+      "word": "Know?",
+      "start_ms": 80940,
+      "end_ms": 81101,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0844
+    },
+    {
+      "word": "The",
+      "start_ms": 81841,
+      "end_ms": 81941,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0054
+    },
+    {
+      "word": "hottest",
+      "start_ms": 82082,
+      "end_ms": 82442,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0082
+    },
+    {
+      "word": "place",
+      "start_ms": 82542,
+      "end_ms": 82802,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0394
+    },
+    {
+      "word": "on",
+      "start_ms": 82902,
+      "end_ms": 82943,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0005
+    },
+    {
+      "word": "Earth",
+      "start_ms": 83143,
+      "end_ms": 83343,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0146
+    },
+    {
+      "word": "is",
+      "start_ms": 83703,
+      "end_ms": 83763,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0067
+    },
+    {
+      "word": "the",
+      "start_ms": 83823,
+      "end_ms": 83924,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.002
+    },
+    {
+      "word": "Lut",
+      "start_ms": 84024,
+      "end_ms": 84244,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.3854
+    },
+    {
+      "word": "Desert",
+      "start_ms": 84384,
+      "end_ms": 84744,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0017
+    },
+    {
+      "word": "in",
+      "start_ms": 84925,
+      "end_ms": 84985,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0327
+    },
+    {
+      "word": "Iran,",
+      "start_ms": 85105,
+      "end_ms": 85445,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0151
+    },
+    {
+      "word": "where",
+      "start_ms": 86026,
+      "end_ms": 86186,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0865
+    },
+    {
+      "word": "temperatures",
+      "start_ms": 86266,
+      "end_ms": 86847,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0191
+    },
+    {
+      "word": "have",
+      "start_ms": 86907,
+      "end_ms": 87027,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0216
+    },
+    {
+      "word": "been",
+      "start_ms": 87067,
+      "end_ms": 87207,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "recorded",
+      "start_ms": 87247,
+      "end_ms": 87728,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0349
+    },
+    {
+      "word": "as",
+      "start_ms": 88108,
+      "end_ms": 88168,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "high",
+      "start_ms": 88308,
+      "end_ms": 88609,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0167
+    },
+    {
+      "word": "as",
+      "start_ms": 88809,
+      "end_ms": 88869,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "159.3°F",
+      "start_ms": 89189,
+      "end_ms": 92032,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.8349
+    },
+    {
+      "word": "(70.7°C)!",
+      "start_ms": 92733,
+      "end_ms": 94875,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1018
+    },
+    {
+      "word": "Imagine",
+      "start_ms": 95536,
+      "end_ms": 95976,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0417
+    },
+    {
+      "word": "how",
+      "start_ms": 96116,
+      "end_ms": 96257,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0062
+    },
+    {
+      "word": "hot",
+      "start_ms": 96477,
+      "end_ms": 96697,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0136
+    },
+    {
+      "word": "it",
+      "start_ms": 96777,
+      "end_ms": 96837,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0676
+    },
+    {
+      "word": "must",
+      "start_ms": 96917,
+      "end_ms": 97098,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0054
+    },
+    {
+      "word": "be",
+      "start_ms": 97178,
+      "end_ms": 97258,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "to",
+      "start_ms": 97358,
+      "end_ms": 97418,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "have",
+      "start_ms": 97498,
+      "end_ms": 97638,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0968
+    },
+    {
+      "word": "that",
+      "start_ms": 97818,
+      "end_ms": 98018,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0164
+    },
+    {
+      "word": "much",
+      "start_ms": 98119,
+      "end_ms": 98299,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0584
+    },
+    {
+      "word": "heat!",
+      "start_ms": 98399,
+      "end_ms": 98619,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0712
+    }
+  ],
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

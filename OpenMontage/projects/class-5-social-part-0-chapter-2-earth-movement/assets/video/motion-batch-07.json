@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "scope": "Source-specific Earth and eclipse cues without diagram text",
+  "provider": "modelslab",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "shots": [
+    {
+      "shot_id": "classroom-earth-globe-07",
+      "section_id": "s02-objectives",
+      "narration_cue": "Understand that the Earth is spherical",
+      "prompt": "A polished child-friendly 3D animated classroom. One blue-and-green spherical Earth globe turns gently on a wooden desk near a sunny window. The camera glides a little closer while the globe stays centered and continues rotating naturally for five continuous seconds. Warm soft light, clear round shape, a calm sense of discovery, and no other moving objects competing with the globe."
+    },
+    {
+      "shot_id": "moon-curved-shadow-07",
+      "section_id": "s04-spherical-earth",
+      "narration_cue": "Earth's shadow on the Moon is curved",
+      "prompt": "A close, clear child-friendly 3D animation of one full Moon against a deep blue night sky. A smooth dark curved shadow slowly moves across the bright Moon's round face during a lunar eclipse. The camera stays steady and close so the curved edge of the shadow is unmistakable throughout one continuous five-second shot. Soft natural lunar lighting and a simple uncluttered view."
+    }
+  ]
+}

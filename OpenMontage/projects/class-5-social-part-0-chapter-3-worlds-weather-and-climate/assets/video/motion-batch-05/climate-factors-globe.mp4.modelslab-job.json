@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "terminal_failed",
+  "request_id": "188662851",
+  "request_fingerprint": "6d6c5a1e632ac0ca86e6857aa4f138a8d579957ff2c94090c09a8e17c00bc150",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\climate-factors-globe.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791351153.6002865,
+  "provider_status": "failed",
+  "failed_at_unix": 1791353075.013437
+}

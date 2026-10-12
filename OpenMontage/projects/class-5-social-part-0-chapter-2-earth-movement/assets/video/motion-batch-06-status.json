@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "batch": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-06.json",
+  "shots": [
+    {
+      "shot_id": "summer-park-06",
+      "section_id": "s08-revolution",
+      "status": "submitted",
+      "request_id": "188302684",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-06\\summer-park-06.mp4",
+      "error": null
+    },
+    {
+      "shot_id": "autumn-park-06",
+      "section_id": "s08-revolution",
+      "status": "submitted",
+      "request_id": "188302686",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-06\\autumn-park-06.mp4",
+      "error": null
+    },
+    {
+      "shot_id": "winter-park-06",
+      "section_id": "s08-revolution",
+      "status": "submitted",
+      "request_id": "188302687",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-06\\winter-park-06.mp4",
+      "error": null
+    }
+  ],
+  "complete": false
+}

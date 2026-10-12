@@ -1,0 +1,196 @@
+{
+  "version": "1.0",
+  "project_id": "class-5-social-part-0-chapter-3-worlds-weather-and-climate",
+  "pipeline_type": "educational-video",
+  "stage": "multimedia_synchronization",
+  "status": "failed",
+  "timestamp": "2026-10-07T07:26:47.969897+00:00",
+  "checkpoint_policy": "auto_noncreative",
+  "human_approval_required": false,
+  "human_approved": false,
+  "artifacts": {
+    "multimedia_sync_plan": {
+      "version": "1.0",
+      "status": "pass",
+      "review_state": "encoded_qa_pending",
+      "issues": [],
+      "total_duration_seconds": 548.234,
+      "timeline": [
+        {
+          "section_id": "s01-title",
+          "start_seconds": 0.0,
+          "end_seconds": 8.311,
+          "visual_duration_policy": "as_is"
+        },
+        {
+          "section_id": "s02-objectives",
+          "start_seconds": 8.311,
+          "end_seconds": 36.277,
+          "visual_duration_policy": "as_is"
+        },
+        {
+          "section_id": "s03-startup",
+          "start_seconds": 36.277,
+          "end_seconds": 63.362,
+          "visual_duration_policy": "as_is"
+        },
+        {
+          "section_id": "s04-weather",
+          "start_seconds": 63.362,
+          "end_seconds": 88.4,
+          "visual_duration_policy": "as_is"
+        },
+        {
+          "section_id": "s05-hot-desert-fact",
+          "start_seconds": 88.4,
+          "end_seconds": 109.336,
+          "visual_duration_policy": "as_is"
+        },
+        {
+          "section_id": "s06-climate",
+          "start_seconds": 109.336,
+          "end_seconds": 136.183,
+          "visual_duration_policy": "as_is"
+        },
+        {
+          "section_id": "s07-factors",
+          "start_seconds": 136.183,
+          "end_seconds": 147.556,
+          "visual_duration_policy": "as_is"
+        },
+        {
+          "section_id": "s08-latitude",
+          "start_seconds": 147.556,
+          "end_seconds": 177.527,
+          "visual_duration_policy": "as_is"
+        },
+        {
+          "section_id": "s09-altitude",
+          "start_seconds": 177.527,
+          "end_seconds": 197.65,
+          "visual_duration_policy": "as_is"
+        },
+        {
+          "section_id": "s10-sea-land-breeze",
+          "start_seconds": 197.65,
+          "end_seconds": 234.657,
+          "visual_duration_policy": "as_is"
+        },
+        {
+          "section_id": "s11-wind",
+          "start_seconds": 234.657,
+          "end_seconds": 254.757,
+          "visual_duration_policy": "as_is"
+        },
+        {
+          "section_id": "s12-humidity",
+          "start_seconds": 254.757,
+          "end_seconds": 275.146,
+          "visual_duration_policy": "as_is"
+        },
+        {
+          "section_id": "s13-currents",
+          "start_seconds": 275.146,
+          "end_seconds": 298.095,
+          "visual_duration_policy": "as_is"
+        },
+        {
+          "section_id": "s14-rainforest-fact",
+          "start_seconds": 298.095,
+          "end_seconds": 315.972,
+          "visual_duration_policy": "as_is"
+        },
+        {
+          "section_id": "s15-climate-types",
+          "start_seconds": 315.972,
+          "end_seconds": 326.315,
+          "visual_duration_policy": "as_is"
+        },
+        {
+          "section_id": "s16-monsoon",
+          "start_seconds": 326.315,
+          "end_seconds": 342.397,
+          "visual_duration_policy": "as_is"
+        },
+        {
+          "section_id": "s17-equatorial",
+          "start_seconds": 342.397,
+          "end_seconds": 357.342,
+          "visual_duration_policy": "as_is"
+        },
+        {
+          "section_id": "s18-desert",
+          "start_seconds": 357.342,
+          "end_seconds": 370.526,
+          "visual_duration_policy": "as_is"
+        },
+        {
+          "section_id": "s19-tundra",
+          "start_seconds": 370.526,
+          "end_seconds": 383.702,
+          "visual_duration_policy": "as_is"
+        },
+        {
+          "section_id": "s20-antarctica-fact",
+          "start_seconds": 383.702,
+          "end_seconds": 401.719,
+          "visual_duration_policy": "as_is"
+        },
+        {
+          "section_id": "s21-zones",
+          "start_seconds": 401.719,
+          "end_seconds": 412.008,
+          "visual_duration_policy": "as_is"
+        },
+        {
+          "section_id": "s22-torrid",
+          "start_seconds": 412.008,
+          "end_seconds": 424.781,
+          "visual_duration_policy": "as_is"
+        },
+        {
+          "section_id": "s23-temperate",
+          "start_seconds": 424.781,
+          "end_seconds": 436.044,
+          "visual_duration_policy": "as_is"
+        },
+        {
+          "section_id": "s24-cloud-fact",
+          "start_seconds": 436.044,
+          "end_seconds": 451.941,
+          "visual_duration_policy": "as_is"
+        },
+        {
+          "section_id": "s25-frigid",
+          "start_seconds": 451.941,
+          "end_seconds": 461.81,
+          "visual_duration_policy": "as_is"
+        },
+        {
+          "section_id": "s26-recall",
+          "start_seconds": 461.81,
+          "end_seconds": 487.226,
+          "visual_duration_policy": "as_is"
+        },
+        {
+          "section_id": "s27-remember",
+          "start_seconds": 487.226,
+          "end_seconds": 518.287,
+          "visual_duration_policy": "as_is"
+        },
+        {
+          "section_id": "s28-wordbank",
+          "start_seconds": 518.287,
+          "end_seconds": 548.234,
+          "visual_duration_policy": "as_is"
+        }
+      ]
+    }
+  },
+  "style_playbook": "clean-professional",
+  "error": "Upstream stage render_clips restarted; outputs require rebuilding or revalidation.",
+  "metadata": {
+    "invalidated_by": "render_clips",
+    "previous_status": "completed"
+  }
+}

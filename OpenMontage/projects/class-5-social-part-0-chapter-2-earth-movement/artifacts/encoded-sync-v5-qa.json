@@ -1,0 +1,459 @@
+{
+  "status": "technical_pass",
+  "issues": [],
+  "path": "D:\\InkSpectrum\\OpenMontage\\final-videos\\Class-5-Social\\Class-5-Social-Chapter-02-Earth-Movement.mp4",
+  "sha256": "1dacdc366c02e14196e0ee3e6fcbde744842c7b4bdaaea7a6b8e77baf7a12f60",
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.640032",
+        "width": 1920,
+        "height": 1080,
+        "coded_width": 1920,
+        "coded_height": 1080,
+        "has_b_frames": 0,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuv420p",
+        "level": 50,
+        "color_range": "tv",
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 6587392,
+        "duration": "428.866667",
+        "bit_rate": "3304079",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "12866",
+        "extradata_size": 50,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc63.1.101 libx264"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "mime_codec_string": "mp4a.40.2",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 1024,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 20585600,
+        "duration": "428.866667",
+        "bit_rate": "184906",
+        "nb_frames": "20105",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler"
+        }
+      }
+    ],
+    "format": {
+      "filename": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\hyperframes-elevenlabs-sync-repair-v5\\renders\\class5-social-chapter2-earth-movement-sync-repair-v5.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "428.866667",
+      "size": "187411117",
+      "bit_rate": "3495932",
+      "probe_score": 100,
+      "tags": {
+        "minor_version": "512;512",
+        "major_brand": "isom;isom",
+        "compatible_brands": "isomiso2avc1mp41;isomiso2avc1mp41",
+        "hyperframes_version": "0.8.82",
+        "hyperframes_renderer": "hyperframes",
+        "encoder": "Lavf63.1.101"
+      }
+    }
+  },
+  "audio_placement_checks": [
+    {
+      "section_id": "s01-title",
+      "source_offset_seconds": 1.441,
+      "encoded_shift_seconds": 0.0,
+      "correlation": 0.99979
+    },
+    {
+      "section_id": "s01-title",
+      "source_offset_seconds": 1.821,
+      "encoded_shift_seconds": 0.0,
+      "correlation": 0.99977
+    },
+    {
+      "section_id": "s02-objectives",
+      "source_offset_seconds": 3.302,
+      "encoded_shift_seconds": 0.0,
+      "correlation": 1.0
+    },
+    {
+      "section_id": "s02-objectives",
+      "source_offset_seconds": 26.214,
+      "encoded_shift_seconds": 0.0,
+      "correlation": 0.99999
+    },
+    {
+      "section_id": "s03-startup",
+      "source_offset_seconds": 3.283,
+      "encoded_shift_seconds": 0.0,
+      "correlation": 1.0
+    },
+    {
+      "section_id": "s03-startup",
+      "source_offset_seconds": 15.913,
+      "encoded_shift_seconds": -0.00025,
+      "correlation": 0.99995
+    },
+    {
+      "section_id": "s04-spherical-earth",
+      "source_offset_seconds": 0.881,
+      "encoded_shift_seconds": 0.0,
+      "correlation": 0.99992
+    },
+    {
+      "section_id": "s04-spherical-earth",
+      "source_offset_seconds": 31.599,
+      "encoded_shift_seconds": 0.0,
+      "correlation": 0.99991
+    },
+    {
+      "section_id": "s05-two-movements",
+      "source_offset_seconds": 0.561,
+      "encoded_shift_seconds": 0.0,
+      "correlation": 0.99991
+    },
+    {
+      "section_id": "s05-two-movements",
+      "source_offset_seconds": 13.999,
+      "encoded_shift_seconds": 0.0,
+      "correlation": 0.99997
+    },
+    {
+      "section_id": "s06-rotation",
+      "source_offset_seconds": 2.941,
+      "encoded_shift_seconds": 0.001,
+      "correlation": 1.0
+    },
+    {
+      "section_id": "s06-rotation",
+      "source_offset_seconds": 47.973,
+      "encoded_shift_seconds": 0.001,
+      "correlation": 0.99999
+    },
+    {
+      "section_id": "s07-do-you-know",
+      "source_offset_seconds": 0.381,
+      "encoded_shift_seconds": 0.001,
+      "correlation": 1.0
+    },
+    {
+      "section_id": "s07-do-you-know",
+      "source_offset_seconds": 11.618,
+      "encoded_shift_seconds": 0.00075,
+      "correlation": 1.0
+    },
+    {
+      "section_id": "s08-revolution",
+      "source_offset_seconds": 3.881,
+      "encoded_shift_seconds": 0.001,
+      "correlation": 0.99869
+    },
+    {
+      "section_id": "s08-revolution",
+      "source_offset_seconds": 53.651,
+      "encoded_shift_seconds": 0.001,
+      "correlation": 0.99812
+    },
+    {
+      "section_id": "s09-day-length",
+      "source_offset_seconds": 0.76,
+      "encoded_shift_seconds": 0.001,
+      "correlation": 1.0
+    },
+    {
+      "section_id": "s09-day-length",
+      "source_offset_seconds": 13.988,
+      "encoded_shift_seconds": 0.001,
+      "correlation": 0.9994
+    },
+    {
+      "section_id": "s10-solstice",
+      "source_offset_seconds": 0.48,
+      "encoded_shift_seconds": 0.00075,
+      "correlation": 0.99999
+    },
+    {
+      "section_id": "s10-solstice",
+      "source_offset_seconds": 49.237,
+      "encoded_shift_seconds": 0.00075,
+      "correlation": 0.99993
+    },
+    {
+      "section_id": "s11-inertia",
+      "source_offset_seconds": 0.76,
+      "encoded_shift_seconds": 0.001,
+      "correlation": 1.0
+    },
+    {
+      "section_id": "s11-inertia",
+      "source_offset_seconds": 14.966,
+      "encoded_shift_seconds": 0.001,
+      "correlation": 0.99996
+    },
+    {
+      "section_id": "s12-equinox",
+      "source_offset_seconds": 0.62,
+      "encoded_shift_seconds": 0.00175,
+      "correlation": 0.99999
+    },
+    {
+      "section_id": "s12-equinox",
+      "source_offset_seconds": 32.939,
+      "encoded_shift_seconds": 0.00175,
+      "correlation": 1.0
+    },
+    {
+      "section_id": "s13-recall",
+      "source_offset_seconds": 2.923,
+      "encoded_shift_seconds": 0.002,
+      "correlation": 1.0
+    },
+    {
+      "section_id": "s13-recall",
+      "source_offset_seconds": 21.981,
+      "encoded_shift_seconds": 0.00175,
+      "correlation": 0.99952
+    },
+    {
+      "section_id": "s14-remember",
+      "source_offset_seconds": 2.982,
+      "encoded_shift_seconds": 0.00175,
+      "correlation": 1.0
+    },
+    {
+      "section_id": "s14-remember",
+      "source_offset_seconds": 31.981,
+      "encoded_shift_seconds": 0.00175,
+      "correlation": 0.99994
+    },
+    {
+      "section_id": "s15-wordbank",
+      "source_offset_seconds": 2.781,
+      "encoded_shift_seconds": 0.002,
+      "correlation": 1.0
+    },
+    {
+      "section_id": "s15-wordbank",
+      "source_offset_seconds": 23.049,
+      "encoded_shift_seconds": 0.00175,
+      "correlation": 0.99998
+    }
+  ],
+  "detection_events": [
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_start: 8.366667",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_end: 36.166667",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_start: 51.033333",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_end: 54.333333",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_start: 59.133333",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_end: 62.766667",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_start: 70.733333",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_end: 74.6",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_start: 88.766667",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_end: 93.633333",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_start: 94.933333",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_end: 100.366667",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_start: 125.866667",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_end: 129.8",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_start: 158.233333",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_end: 169.2",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_start: 184.1",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_end: 187.7",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_start: 226.166667",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_end: 241.266667",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_start: 244.666667",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_end: 248.4",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_start: 248.4",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_end: 258.066667",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_start: 258.066667",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_end: 264.7",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_start: 264.7",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_end: 270.633333",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_start: 278.4",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_end: 282.4",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_start: 282.4",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_end: 292.033333",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_start: 293.066667",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_end: 299.666667",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_start: 304.766667",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_end: 309.4",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_start: 314.033333",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_end: 324",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_start: 324",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_end: 332.6",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_start: 339.866667",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_end: 344.5",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_start: 345.533333",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_end: 361.1",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_start: 361.1",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_end: 369.466667",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_start: 370.266667",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_end: 403.9",
+    "[Parsed_freezedetect_2 @ 0000016C1CC71CC0] lavfi.freezedetect.freeze_start: 406.666667"
+  ],
+  "visual_roi_events": [
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_start: 8",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_duration: 28.166667",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_end: 36.166667",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_start: 51.033333",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_duration: 3.3",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_end: 54.333333",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_start: 125.533333",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_duration: 4.233333",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_end: 129.766667",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_start: 156.3",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_duration: 12.9",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_end: 169.2",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_start: 183.166667",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_duration: 4.533333",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_end: 187.7",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_start: 226.1",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_duration: 15.166667",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_end: 241.266667",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_start: 241.266667",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_duration: 3.066667",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_end: 244.333333",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_start: 244.766667",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_duration: 25.833333",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_end: 270.6",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_start: 278.4",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_duration: 13.6",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_end: 292",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_start: 292.3",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_duration: 7.366667",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_end: 299.666667",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_start: 304.766667",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_duration: 7.7",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_end: 312.466667",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_start: 312.866667",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_duration: 19.7",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_end: 332.566667",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_start: 339.866667",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_duration: 4.6",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_end: 344.466667",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_start: 345.533333",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_duration: 15.566667",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_end: 361.1",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_start: 361.1",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_duration: 8.366667",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_end: 369.466667",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_start: 370.2",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_duration: 33.7",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_end: 403.9",
+    "[Parsed_freezedetect_2 @ 00000134EB9E8D40] lavfi.freezedetect.freeze_start: 404.633333"
+  ],
+  "visual_review": {
+    "status": "reviewed",
+    "method": "Encoded contact sheet plus targeted full-resolution frame inspection; not exhaustive human playback or listening.",
+    "evidence_directory": "artifacts/encoded-sync-v5-frames",
+    "observations": [
+      "Opening and ending cards are readable; ending remains Word Bank.",
+      "30 and 31 second frames retain Learning Objectives instead of introducing a duplicate title card.",
+      "81 seconds shows lunar eclipse context; 82.3 seconds shows the voyage ship with Ferdinand highlighted.",
+      "120 and 150 second frames show rotation and day/night visuals; 175 and 200 second frames show revolution visuals.",
+      "Source diagrams, learning objectives, recall, remember and vocabulary intentionally retain static reading intervals."
+    ],
+    "limitations": [
+      "An inherited approximately 3.3-second Start-Up interval at 51.03-54.33 seconds retains the teaching card without motion background.",
+      "Three low-confidence word endings remain flagged in the alignment audit; no claim of complete human pronunciation review.",
+      "Encoded audio placement checks measure alignment to approved source audio, not semantic word accuracy."
+    ]
+  },
+  "coverage": {
+    "version": "1.0",
+    "status": "pass",
+    "required_blocks": 56,
+    "verified_blocks": 56,
+    "coverage_ratio": 1.0,
+    "issues": [],
+    "verbatim_panel_or_figure_blocks": 56,
+    "verbatim_panel_or_figure_issues": []
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "review_method": "Recovered three five-second Wan clips; compared five one-second sampled frames of each against the exact narration cue. Full final-composition review remains required.",
+  "shots": [
+    {"shot_id": "startup-spinning-ball-08", "status": "accept_limited", "evidence": "qa-previews/startup-spinning-ball-08-contact.jpg", "observation": "One child holds a single blue ball on a classroom table; its surface markings shift modestly and hands move, consistent with a gentle spin. A background globe exists but no duplicate foreground ball or legible invented text.", "use_policy": "One short Start-Up Activity cue only, paired with authored wording; verify movement again in the final edit."},
+    {"shot_id": "bicycle-brake-forward-08", "status": "reject_for_inertia", "evidence": "qa-previews/bicycle-brake-forward-08-contact.jpg", "observation": "Despite the explicit prompt, the rider continues along the path with no visually clear wheel stop or forward lean. Using it would contradict the inertia narration.", "use_policy": "Do not use for s11. Use an authored safe precision motion or a different verified action, not another unreviewed bicycle clip."},
+    {"shot_id": "earth-spin-west-east-08", "status": "reject_for_rotation_explanation", "evidence": "qa-previews/earth-spin-west-east-08-contact.jpg", "observation": "The globe drifts down-left but the continent orientation stays nearly fixed; this does not clearly demonstrate axial rotation or west-to-east direction.", "use_policy": "Do not use for the directional rotation claim; use precise authored geometry and the exact textbook axis figure."}
+  ],
+  "production_approval": false
+}

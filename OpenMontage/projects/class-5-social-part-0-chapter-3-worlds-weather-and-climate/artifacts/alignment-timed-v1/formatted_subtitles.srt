@@ -1,0 +1,847 @@
+1
+00:00:00,100 --> 00:00:02,066
+Social Studies, Class 5.
+
+2
+00:00:02,829 --> 00:00:06,311
+Lesson 3: Worlds Weather and Climate.
+
+3
+00:00:08,371 --> 00:00:09,602
+Learning Objectives.
+
+4
+00:00:11,602 --> 00:00:13,001
+By the end of this chapter,
+
+5
+00:00:13,601 --> 00:00:14,902
+learners will be able to:
+
+6
+00:00:15,963 --> 00:00:18,845
+Explain the difference between weather and climate.
+
+7
+00:00:19,686 --> 00:00:23,108
+Identify and describe the factors affecting climate.
+
+8
+00:00:23,869 --> 00:00:26,431
+Understand the different types of climate found
+
+9
+00:00:26,511 --> 00:00:27,032
+in the world.
+
+10
+00:00:27,872 --> 00:00:30,334
+Recognize the climatic zones of the Earth.
+
+11
+00:00:31,195 --> 00:00:33,977
+Explain how climate affects human life and
+
+12
+00:00:34,057 --> 00:00:34,777
+the environment.
+
+13
+00:00:36,357 --> 00:00:36,984
+Start-Up.
+
+14
+00:00:38,984 --> 00:00:40,125
+Look outside the window!
+
+15
+00:00:40,826 --> 00:00:41,446
+Is it sunny,
+
+16
+00:00:41,966 --> 00:00:43,288
+cloudy, or rainy?
+
+17
+00:00:43,968 --> 00:00:45,930
+Have you ever noticed how the weather
+
+18
+00:00:46,010 --> 00:00:47,271
+changes throughout the day?
+
+19
+00:00:48,091 --> 00:00:49,933
+Some places are always warm,
+
+20
+00:00:50,393 --> 00:00:51,674
+while others are cold.
+
+21
+00:00:52,435 --> 00:00:53,356
+Why does this happen?
+
+22
+00:00:54,156 --> 00:00:54,957
+In this chapter,
+
+23
+00:00:55,477 --> 00:00:57,999
+we will explore the differences between weather
+
+24
+00:00:58,199 --> 00:01:01,022
+and climate and understand the factors that
+
+25
+00:01:01,162 --> 00:01:01,862
+influence them.
+
+26
+00:01:03,482 --> 00:01:03,890
+Weather.
+
+27
+00:01:05,890 --> 00:01:08,344
+Weather is the condition of the atmosphere
+
+28
+00:01:08,605 --> 00:01:10,406
+at a particular place and time.
+
+29
+00:01:11,307 --> 00:01:12,588
+It includes temperature,
+
+30
+00:01:13,088 --> 00:01:15,631
+wind, rainfall, humidity,
+
+31
+00:01:16,011 --> 00:01:16,832
+and cloud cover.
+
+32
+00:01:17,692 --> 00:01:19,774
+Weather can change from hour to hour
+
+33
+00:01:20,135 --> 00:01:20,815
+or day to day.
+
+34
+00:01:21,636 --> 00:01:23,497
+For example, one morning,
+
+35
+00:01:23,778 --> 00:01:25,940
+it may be sunny and by afternoon
+
+36
+00:01:26,260 --> 00:01:26,900
+it could rain.
+
+37
+00:01:28,440 --> 00:01:29,053
+Do You Know?
+
+38
+00:01:31,053 --> 00:01:33,141
+The hottest place on Earth is the
+
+39
+00:01:33,241 --> 00:01:34,662
+Lut Desert in Iran,
+
+40
+00:01:35,243 --> 00:01:37,826
+where temperatures have been recorded as high
+
+41
+00:01:38,026 --> 00:01:44,092
+as 159.3°F (70.7°C)!
+
+42
+00:01:44,753 --> 00:01:46,635
+Imagine how hot it must be to
+
+43
+00:01:46,715 --> 00:01:47,836
+have that much heat!
+
+44
+00:01:49,376 --> 00:01:49,943
+Climate.
+
+45
+00:01:51,943 --> 00:01:54,527
+Climate is the average weather condition of
+
+46
+00:01:54,647 --> 00:01:56,449
+a place over a long period,
+
+47
+00:01:57,149 --> 00:01:58,811
+usually 30 years or more.
+
+48
+00:01:59,811 --> 00:02:01,453
+It tells us whether a place is
+
+49
+00:02:01,533 --> 00:02:03,334
+generally hot, cold,
+
+50
+00:02:03,935 --> 00:02:05,036
+wet, or dry.
+
+51
+00:02:05,996 --> 00:02:08,518
+For example, the climate of the Sahara
+
+52
+00:02:08,618 --> 00:02:10,280
+Desert is hot and dry,
+
+53
+00:02:10,900 --> 00:02:13,082
+while the climate of the Amazon Rainforest
+
+54
+00:02:13,422 --> 00:02:14,683
+is warm and rainy.
+
+55
+00:02:16,263 --> 00:02:17,993
+Factors Affecting Climate.
+
+56
+00:02:19,993 --> 00:02:22,710
+Several factors influence the climate of a
+
+57
+00:02:22,790 --> 00:02:23,170
+place.
+
+58
+00:02:24,033 --> 00:02:26,057
+Let us explore them one by one.
+
+59
+00:02:27,656 --> 00:02:30,491
+Distance from the Equator (Latitudes).
+
+60
+00:02:32,491 --> 00:02:35,471
+The Earth is divided into imaginary lines
+
+61
+00:02:35,731 --> 00:02:36,872
+called latitudes.
+
+62
+00:02:37,873 --> 00:02:41,255
+Places near the equator receive direct sunlight
+
+63
+00:02:41,395 --> 00:02:42,216
+throughout the year,
+
+64
+00:02:42,836 --> 00:02:43,717
+making them hot.
+
+65
+00:02:44,798 --> 00:02:46,479
+As we move towards the poles,
+
+66
+00:02:47,099 --> 00:02:48,320
+sunlight spreads out,
+
+67
+00:02:48,901 --> 00:02:50,442
+making these areas cooler.
+
+68
+00:02:51,382 --> 00:02:53,644
+This is why tropical regions are warm,
+
+69
+00:02:54,244 --> 00:02:56,026
+while polar regions are cold.
+
+70
+00:02:57,627 --> 00:02:58,270
+Altitude.
+
+71
+00:03:00,270 --> 00:03:02,416
+Altitude is the height of a place
+
+72
+00:03:02,656 --> 00:03:03,557
+above sea level.
+
+73
+00:03:04,478 --> 00:03:07,782
+Higher altitudes have cooler temperatures because the
+
+74
+00:03:07,962 --> 00:03:10,205
+air is thinner and cannot hold much
+
+75
+00:03:10,305 --> 00:03:10,705
+heat.
+
+76
+00:03:11,446 --> 00:03:14,689
+For example, mountains are colder than plains
+
+77
+00:03:14,930 --> 00:03:16,151
+at the same latitude.
+
+78
+00:03:17,730 --> 00:03:20,692
+Distance from the Sea (Sea Breeze and
+
+79
+00:03:20,772 --> 00:03:21,554
+Land Breeze).
+
+80
+00:03:23,554 --> 00:03:26,301
+Oceans and seas influence the climate of
+
+81
+00:03:26,441 --> 00:03:27,282
+coastal areas.
+
+82
+00:03:28,322 --> 00:03:30,704
+Water heats up and cools down more
+
+83
+00:03:30,784 --> 00:03:31,824
+slowly than land.
+
+84
+00:03:32,705 --> 00:03:33,405
+During the day,
+
+85
+00:03:34,026 --> 00:03:35,967
+land heats up faster than water,
+
+86
+00:03:36,507 --> 00:03:38,328
+causing a sea breeze to blow from
+
+87
+00:03:38,408 --> 00:03:39,549
+the sea to the land.
+
+88
+00:03:40,449 --> 00:03:43,031
+At night, the land cools down quickly,
+
+89
+00:03:43,571 --> 00:03:45,512
+and a land breeze blows from land
+
+90
+00:03:45,812 --> 00:03:46,293
+to the sea.
+
+91
+00:03:47,073 --> 00:03:49,615
+This keeps coastal areas cooler in summer
+
+92
+00:03:50,015 --> 00:03:52,616
+and warmer in winter compared to inland
+
+93
+00:03:52,696 --> 00:03:53,157
+regions.
+
+94
+00:03:54,717 --> 00:03:56,071
+Direction of the Wind.
+
+95
+00:03:58,071 --> 00:04:00,864
+Winds carry heat and moisture from one
+
+96
+00:04:00,944 --> 00:04:01,905
+place to another.
+
+97
+00:04:02,686 --> 00:04:04,868
+Winds coming from the sea bring rain,
+
+98
+00:04:05,609 --> 00:04:08,152
+while winds from deserts bring dry weather.
+
+99
+00:04:08,892 --> 00:04:12,036
+For example, the monsoon winds bring heavy
+
+100
+00:04:12,136 --> 00:04:13,257
+rainfall to India.
+
+101
+00:04:14,817 --> 00:04:15,512
+Humidity.
+
+102
+00:04:17,512 --> 00:04:20,150
+Humidity is the amount of water vapour
+
+103
+00:04:20,311 --> 00:04:20,851
+in the air.
+
+104
+00:04:21,852 --> 00:04:25,256
+Places with high humidity receive more rainfall,
+
+105
+00:04:25,897 --> 00:04:28,259
+while dry areas have less humidity.
+
+106
+00:04:28,960 --> 00:04:32,604
+For example, coastal areas have higher humidity
+
+107
+00:04:32,904 --> 00:04:33,645
+than deserts.
+
+108
+00:04:35,266 --> 00:04:36,230
+Ocean Currents.
+
+109
+00:04:38,230 --> 00:04:41,020
+Ocean currents are large movements of water
+
+110
+00:04:41,261 --> 00:04:42,001
+in the oceans.
+
+111
+00:04:43,042 --> 00:04:46,205
+Warm ocean currents make coastal areas warmer,
+
+112
+00:04:46,766 --> 00:04:49,348
+while cold currents bring cool temperatures.
+
+113
+00:04:50,229 --> 00:04:53,192
+For example, the Gulf Stream warms Europe,
+
+114
+00:04:53,712 --> 00:04:56,595
+while the cold Labrador Current cools Canada.
+
+115
+00:04:58,195 --> 00:04:59,305
+Let's Learn More!
+
+116
+00:05:01,305 --> 00:05:04,601
+Rainforests receive about 80 inches of rain
+
+117
+00:05:04,881 --> 00:05:07,384
+each year and they are so important
+
+118
+00:05:07,845 --> 00:05:10,208
+because they provide oxygen and food to
+
+119
+00:05:10,288 --> 00:05:10,688
+the world.
+
+120
+00:05:11,429 --> 00:05:13,973
+Without them, our planet would be very
+
+121
+00:05:14,053 --> 00:05:14,473
+different!
+
+122
+00:05:16,012 --> 00:05:17,189
+Types of Climate.
+
+123
+00:05:19,189 --> 00:05:21,507
+Different parts of the world have different
+
+124
+00:05:21,587 --> 00:05:22,490
+types of climate.
+
+125
+00:05:23,272 --> 00:05:24,815
+Let's look at some major types.
+
+126
+00:05:26,375 --> 00:05:28,591
+Monsoon or Tropical Climate.
+
+127
+00:05:30,591 --> 00:05:31,904
+Found in South Asia,
+
+128
+00:05:32,485 --> 00:05:35,249
+Southeast Asia, and some parts of Africa.
+
+129
+00:05:36,210 --> 00:05:38,734
+It has hot summers and receives heavy
+
+130
+00:05:38,834 --> 00:05:40,897
+rainfall during the monsoon season.
+
+131
+00:05:42,477 --> 00:05:43,798
+Equatorial Climate.
+
+132
+00:05:45,798 --> 00:05:47,269
+Found near the equator,
+
+133
+00:05:47,770 --> 00:05:50,194
+such as in the Amazon Rainforest and
+
+134
+00:05:50,294 --> 00:05:51,075
+Congo Basin.
+
+135
+00:05:52,017 --> 00:05:54,080
+It is hot and humid throughout the
+
+136
+00:05:54,160 --> 00:05:55,842
+year with heavy rainfall.
+
+137
+00:05:57,422 --> 00:05:58,441
+Desert Climate.
+
+138
+00:06:00,441 --> 00:06:02,815
+Found in places like the Sahara Desert
+
+139
+00:06:03,075 --> 00:06:04,077
+and the Thar Desert.
+
+140
+00:06:04,978 --> 00:06:06,561
+It has very little rainfall,
+
+141
+00:06:07,042 --> 00:06:09,026
+hot days, and cold nights.
+
+142
+00:06:10,586 --> 00:06:11,612
+Tundra Climate.
+
+143
+00:06:13,612 --> 00:06:14,888
+Found near the poles,
+
+144
+00:06:15,409 --> 00:06:17,673
+such as in Greenland and Antarctica.
+
+145
+00:06:18,555 --> 00:06:21,180
+It is extremely cold with little or
+
+146
+00:06:21,340 --> 00:06:22,202
+no vegetation.
+
+147
+00:06:23,782 --> 00:06:24,430
+Do You Know?
+
+148
+00:06:26,430 --> 00:06:28,344
+Antarctica is the driest,
+
+149
+00:06:28,765 --> 00:06:31,768
+coldest, and windiest continent on Earth.
+
+150
+00:06:32,670 --> 00:06:34,792
+It hasn’t rained there in millions of
+
+151
+00:06:34,872 --> 00:06:38,056
+years, but it’s still considered a desert
+
+152
+00:06:38,377 --> 00:06:40,219
+because of the lack of precipitation.
+
+153
+00:06:41,779 --> 00:06:43,733
+Climatic Zones of the Earth.
+
+154
+00:06:45,733 --> 00:06:48,022
+The Earth is divided into three main
+
+155
+00:06:48,123 --> 00:06:50,508
+climatic zones based on latitude.
+
+156
+00:06:52,048 --> 00:06:52,906
+Torrid Zone.
+
+157
+00:06:54,906 --> 00:06:57,611
+Located between the Tropic of Cancer and
+
+158
+00:06:57,691 --> 00:06:58,913
+the Tropic of Capricorn.
+
+159
+00:06:59,735 --> 00:07:01,678
+It is the hottest zone as it
+
+160
+00:07:01,758 --> 00:07:03,281
+receives direct sunlight.
+
+161
+00:07:04,821 --> 00:07:05,760
+Temperate Zone.
+
+162
+00:07:07,760 --> 00:07:10,074
+Found between the tropics and the polar
+
+163
+00:07:10,155 --> 00:07:10,596
+circles.
+
+164
+00:07:11,457 --> 00:07:14,544
+It has moderate temperatures with distinct seasons.
+
+165
+00:07:16,084 --> 00:07:16,636
+Do you know?
+
+166
+00:07:18,636 --> 00:07:20,627
+There are different types of clouds that
+
+167
+00:07:20,707 --> 00:07:21,948
+can tell you about the weather?
+
+168
+00:07:22,629 --> 00:07:25,934
+For example, cumulus clouds are fluffy and
+
+169
+00:07:26,034 --> 00:07:26,956
+show fair weather,
+
+170
+00:07:27,436 --> 00:07:30,441
+while nimbostratus clouds bring rain or snow.
+
+171
+00:07:32,041 --> 00:07:32,908
+Frigid Zone.
+
+172
+00:07:34,908 --> 00:07:36,399
+Located near the poles.
+
+173
+00:07:37,221 --> 00:07:39,848
+It is the coldest zone with ice-covered
+
+174
+00:07:39,928 --> 00:07:40,310
+lands.
+
+175
+00:07:41,910 --> 00:07:42,561
+Recall.
+
+176
+00:07:44,561 --> 00:07:47,490
+Weather and climate are essential aspects of
+
+177
+00:07:47,610 --> 00:07:48,331
+our environment.
+
+178
+00:07:49,432 --> 00:07:51,754
+Many factors, such as latitude,
+
+179
+00:07:52,234 --> 00:07:55,076
+altitude, wind, and ocean currents,
+
+180
+00:07:55,517 --> 00:07:56,478
+influence climate.
+
+181
+00:07:57,579 --> 00:08:00,661
+Different regions experience different types of climates,
+
+182
+00:08:01,242 --> 00:08:02,703
+affecting the way people live,
+
+183
+00:08:03,264 --> 00:08:05,245
+the food they grow and the clothes
+
+184
+00:08:05,345 --> 00:08:05,745
+they wear.
+
+185
+00:08:07,286 --> 00:08:08,218
+Let's Remember.
+
+186
+00:08:10,218 --> 00:08:13,111
+Weather is the daily atmospheric condition of
+
+187
+00:08:13,211 --> 00:08:13,612
+a place.
+
+188
+00:08:14,512 --> 00:08:16,914
+Climate is the average weather over a
+
+189
+00:08:17,034 --> 00:08:17,754
+long period.
+
+190
+00:08:18,615 --> 00:08:21,877
+Latitude, altitude, distance from the sea,
+
+191
+00:08:22,378 --> 00:08:24,399
+and winds influence climate.
+
+192
+00:08:25,159 --> 00:08:27,281
+The world has different types of climate,
+
+193
+00:08:27,721 --> 00:08:30,023
+including tropical, desert,
+
+194
+00:08:30,383 --> 00:08:30,943
+and tundra.
+
+195
+00:08:31,724 --> 00:08:33,805
+The Earth has three climatic zones:
+
+196
+00:08:34,406 --> 00:08:36,787
+torrid, temperate, and frigid.
+
+197
+00:08:38,327 --> 00:08:39,098
+Word Bank.
+
+198
+00:08:41,098 --> 00:08:41,498
+Word.
+
+199
+00:08:42,336 --> 00:08:42,736
+Meaning.
+
+200
+00:08:43,597 --> 00:08:44,197
+Humidity.
+
+201
+00:08:44,998 --> 00:08:46,979
+The amount of water vapor in the
+
+202
+00:08:47,180 --> 00:08:47,580
+air.
+
+203
+00:08:48,320 --> 00:08:48,861
+Altitude.
+
+204
+00:08:49,461 --> 00:08:51,363
+The height of a place above sea
+
+205
+00:08:51,443 --> 00:08:51,823
+level.
+
+206
+00:08:52,664 --> 00:08:53,204
+Equator.
+
+207
+00:08:53,824 --> 00:08:56,807
+An imaginary line dividing the Earth into
+
+208
+00:08:56,927 --> 00:08:57,607
+two halves.
+
+209
+00:08:58,588 --> 00:08:59,128
+Monsoon.
+
+210
+00:08:59,849 --> 00:09:02,211
+Seasonal winds that bring heavy rain.
+
+211
+00:09:03,151 --> 00:09:03,572
+Tundra.
+
+212
+00:09:04,172 --> 00:09:06,734
+A cold region with little vegetation.

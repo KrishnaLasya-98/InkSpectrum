@@ -1,0 +1,209 @@
+{
+  "version": "1.0",
+  "project_id": "class-5-social-part-0-chapter-2-earth-movement",
+  "pipeline_type": "educational-video",
+  "stage": "media_research",
+  "status": "completed",
+  "timestamp": "2026-10-01T11:20:47.183539+00:00",
+  "checkpoint_policy": "auto_noncreative",
+  "human_approval_required": false,
+  "human_approved": false,
+  "artifacts": {
+    "media_research_plan": {
+      "version": "1.0",
+      "subject": "social-studies",
+      "subject_family": "social_studies",
+      "scenes": [
+        {
+          "scene_id": "s01-title",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s02-objectives",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s03-startup",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s04-spherical-earth",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s05-two-movements",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s06-rotation",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s07-do-you-know",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s08-revolution",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s09-day-length",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s10-solstice",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s11-inertia",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s12-equinox",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s13-recall",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s14-remember",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s15-wordbank",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        }
+      ],
+      "search_scene_count": 0,
+      "selection_policy": {
+        "stock_results_are_candidates_only": true,
+        "require_visual_review": true,
+        "require_source_and_license_provenance": true,
+        "reject_watermarks_and_inaccurate_representations": true,
+        "fresh_3d_and_source_figures_only": true
+      }
+    }
+  },
+  "style_playbook": "clean-professional",
+  "cost_snapshot": {
+    "total_spent_usd": 0.0,
+    "total_reserved_usd": 0.0,
+    "budget_remaining_usd": 5.0
+  },
+  "metadata": {
+    "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\artifacts\\media_research_plan.json",
+    "stock_searches": 0,
+    "selection": "fresh_3d_plus_source_figures",
+    "stage_started_at_unix": 1790853646.6848407,
+    "stage_duration_seconds": 0.281,
+    "estimated_duration_seconds": 90.0,
+    "eta_accuracy_ratio": 0.003,
+    "artifact_sha256": "b49ddb081ebc0e2a91d6ca4201b5af26d92f6d16b9b197d13551e21d1c7e7d19"
+  }
+}

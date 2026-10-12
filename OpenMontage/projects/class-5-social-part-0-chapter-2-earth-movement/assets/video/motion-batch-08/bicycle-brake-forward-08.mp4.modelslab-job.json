@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188303587",
+  "request_fingerprint": "fec07b865ce7110c209457c5198a32390a5bdd071fcadf86e3401721b7ba7e20",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-08\\bicycle-brake-forward-08.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1790858720.666255,
+  "last_poll_at_unix": 1790859131.070567,
+  "completed_at_unix": 1790859132.9410641
+}

@@ -1,0 +1,10 @@
+{
+  "voice_id": "zJrRUu1KEcKH8qdpNaPJ",
+  "model_id": "eleven_v4",
+  "text_sha256": "500ebb05c40e21c4cdc61a62102b8bd85f0612efe968adf9ccac6f6fd5c86b3d",
+  "context_sha256": "91620c989ad90e5218bb519e6af3e7d9aaf045146c8b3fbe3aea7f9cd58de75c",
+  "settings_sha256": "6bfc8618847cf92c46b254c69cac40b6f667d59384825fd01f919eae5dd46a57",
+  "characters": 341,
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-elevenlabs-zJrRUu1KEcKH8qdpNaPJ-v1\\s02-objectives.mp3",
+  "status": "audio_received"
+}

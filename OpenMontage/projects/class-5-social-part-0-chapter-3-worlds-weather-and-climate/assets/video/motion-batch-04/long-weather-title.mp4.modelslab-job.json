@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188619206",
+  "request_fingerprint": "655ed3b4b467c86ab65a57cad50038c145c2d03364ea8ff72e27d3750ec6e8cb",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-04\\long-weather-title.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791285146.2909284,
+  "last_poll_at_unix": 1791285323.5943499,
+  "completed_at_unix": 1791285325.481695
+}

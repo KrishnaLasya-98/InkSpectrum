@@ -1,0 +1,216 @@
+{
+  "section_id": "s07-do-you-know",
+  "text": "Do You Know? The Earth rotates at a speed of 1,670 kilometers per hour at the equator, but we don’t feel it because we’re moving along with it!",
+  "start_ms": 155532,
+  "end_ms": 169173,
+  "words": [
+    {
+      "word": "Do",
+      "start_ms": 155572,
+      "end_ms": 155652,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "You",
+      "start_ms": 155732,
+      "end_ms": 155852,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1396
+    },
+    {
+      "word": "Know?",
+      "start_ms": 155913,
+      "end_ms": 156073,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.012
+    },
+    {
+      "word": "The",
+      "start_ms": 158216,
+      "end_ms": 158316,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0057
+    },
+    {
+      "word": "Earth",
+      "start_ms": 158477,
+      "end_ms": 158637,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0004
+    },
+    {
+      "word": "rotates",
+      "start_ms": 158737,
+      "end_ms": 159238,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0081
+    },
+    {
+      "word": "at",
+      "start_ms": 159418,
+      "end_ms": 159458,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "a",
+      "start_ms": 159538,
+      "end_ms": 159558,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0036
+    },
+    {
+      "word": "speed",
+      "start_ms": 159638,
+      "end_ms": 159939,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0491
+    },
+    {
+      "word": "of",
+      "start_ms": 160099,
+      "end_ms": 160139,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "1,670",
+      "start_ms": 160419,
+      "end_ms": 162342,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.7937
+    },
+    {
+      "word": "kilometers",
+      "start_ms": 162403,
+      "end_ms": 163003,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1647
+    },
+    {
+      "word": "per",
+      "start_ms": 163084,
+      "end_ms": 163224,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0074
+    },
+    {
+      "word": "hour",
+      "start_ms": 163304,
+      "end_ms": 163584,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0075
+    },
+    {
+      "word": "at",
+      "start_ms": 163885,
+      "end_ms": 163945,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0342
+    },
+    {
+      "word": "the",
+      "start_ms": 164005,
+      "end_ms": 164105,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0116
+    },
+    {
+      "word": "equator,",
+      "start_ms": 164225,
+      "end_ms": 164686,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0471
+    },
+    {
+      "word": "but",
+      "start_ms": 165407,
+      "end_ms": 165527,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "we",
+      "start_ms": 165587,
+      "end_ms": 165668,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "don’t",
+      "start_ms": 165728,
+      "end_ms": 165928,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0911
+    },
+    {
+      "word": "feel",
+      "start_ms": 166028,
+      "end_ms": 166268,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0015
+    },
+    {
+      "word": "it",
+      "start_ms": 166369,
+      "end_ms": 166429,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0039
+    },
+    {
+      "word": "because",
+      "start_ms": 166849,
+      "end_ms": 167110,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0145
+    },
+    {
+      "word": "we’re",
+      "start_ms": 167150,
+      "end_ms": 167350,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0615
+    },
+    {
+      "word": "moving",
+      "start_ms": 167410,
+      "end_ms": 167671,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "along",
+      "start_ms": 167771,
+      "end_ms": 168051,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0868
+    },
+    {
+      "word": "with",
+      "start_ms": 168131,
+      "end_ms": 168292,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0059
+    },
+    {
+      "word": "it!",
+      "start_ms": 168392,
+      "end_ms": 168512,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -4.3685
+    }
+  ],
+  "format_spec": {
+    "font_size": 64,
+    "highlight_color": "#FF8C42",
+    "background_color": "rgba(255,253,240,0.90)",
+    "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+    "font_weight": "700",
+    "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+    "key_terms": [],
+    "words_per_page": 6
+  },
+  "source_block_type": "concept",
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

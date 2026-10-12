@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188618086",
+  "request_fingerprint": "aa18298bc5dce110db26dc2b6c6570e000df40f03973f5e110cc6758571ed1e9",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-02\\antarctic-wind.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791283805.3983095,
+  "last_poll_at_unix": 1791284126.1861286,
+  "completed_at_unix": 1791284128.3664134
+}

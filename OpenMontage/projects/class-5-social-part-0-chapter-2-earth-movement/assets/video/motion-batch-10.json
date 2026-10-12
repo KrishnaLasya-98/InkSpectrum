@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "scope": "Distinct source-cued moving context for Chapter 2 rotation and day-night teaching",
+  "provider": "modelslab",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "shots": [
+    {
+      "shot_id": "classroom-lamp-globe-day-night-10",
+      "section_id": "s06-rotation",
+      "narration_cue": "only one half of the Earth receives sunlight at a time",
+      "prompt": "One continuous polished child-friendly three-dimensional animated classroom shot. On a wooden table sits one blue globe with no writing and one glowing yellow desk lamp to its right. The lamp illuminates the globe's near-right half while the far-left half remains in shadow; a teacher's hand slowly turns the globe once to demonstrate the changing lit side. Preserve exactly one lamp and one globe, stable camera, soft cinematic lighting, no invented continents or labels, no text, no captions or logo."
+    },
+    {
+      "shot_id": "sunny-school-morning-10",
+      "section_id": "s06-rotation",
+      "narration_cue": "the side of the Earth facing the Sun experiences day",
+      "prompt": "One continuous five-second child-friendly three-dimensional animated wide view of a bright school garden in daylight. Warm sunlight lights trees, playground grass and an empty path; clouds drift gently and shadows move slightly as the camera glides forward. No people, lettering, signs, clocks, logos, captions or abrupt change of time; this is a visual context cue for daytime, not a geographic diagram."
+    },
+    {
+      "shot_id": "peaceful-school-night-10",
+      "section_id": "s06-rotation",
+      "narration_cue": "the part away from the sun experiences night",
+      "prompt": "One continuous five-second child-friendly three-dimensional animated view of a quiet school garden at night. The same kind of trees and empty path are gently lit by moonlight; small stars twinkle subtly and the camera glides forward smoothly. Make the scene unmistakably nighttime but safe and welcoming, with no people, lettering, signs, clocks, logos, captions, sudden cuts or daytime sunlight; this is a visual context cue, not a geographic diagram."
+    }
+  ]
+}

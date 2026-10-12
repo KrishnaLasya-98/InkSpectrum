@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188617462",
+  "request_fingerprint": "4c297da36b987d7e8acb86b579390d572e243a679a059cf36011b093cd850986",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-01\\coast-night.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791283044.4358573,
+  "last_poll_at_unix": 1791283441.1120334,
+  "completed_at_unix": 1791283442.724535
+}

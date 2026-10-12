@@ -1,0 +1,342 @@
+{
+  "section_id": "s15-wordbank",
+  "text": "Word Bank. Rotation – Spinning of the Earth on its axis. Revolution – Movement of the Earth around the Sun. Orbit – The path of the Earth around the Sun. Solstice – When the Sun is at its farthest point north or south. Equinox – When day and night are equal.",
+  "start_ms": 403884,
+  "end_ms": 428834,
+  "words": [
+    {
+      "word": "Word",
+      "start_ms": 403904,
+      "end_ms": 404144,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0463
+    },
+    {
+      "word": "Bank.",
+      "start_ms": 404224,
+      "end_ms": 404464,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0055
+    },
+    {
+      "word": "Rotation –",
+      "start_ms": 406665,
+      "end_ms": 407245,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0345
+    },
+    {
+      "word": "Spinning",
+      "start_ms": 407986,
+      "end_ms": 408386,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0005
+    },
+    {
+      "word": "of",
+      "start_ms": 408466,
+      "end_ms": 408506,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0005
+    },
+    {
+      "word": "the",
+      "start_ms": 408606,
+      "end_ms": 408706,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0052
+    },
+    {
+      "word": "Earth",
+      "start_ms": 408866,
+      "end_ms": 409086,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0261
+    },
+    {
+      "word": "on",
+      "start_ms": 409406,
+      "end_ms": 409446,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0008
+    },
+    {
+      "word": "its",
+      "start_ms": 409546,
+      "end_ms": 409646,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.002
+    },
+    {
+      "word": "axis.",
+      "start_ms": 409826,
+      "end_ms": 410206,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0183
+    },
+    {
+      "word": "Revolution –",
+      "start_ms": 411287,
+      "end_ms": 411927,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0324
+    },
+    {
+      "word": "Movement",
+      "start_ms": 412687,
+      "end_ms": 413128,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0454
+    },
+    {
+      "word": "of",
+      "start_ms": 413208,
+      "end_ms": 413268,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0012
+    },
+    {
+      "word": "the",
+      "start_ms": 413348,
+      "end_ms": 413448,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0541
+    },
+    {
+      "word": "Earth",
+      "start_ms": 413588,
+      "end_ms": 413808,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0745
+    },
+    {
+      "word": "around",
+      "start_ms": 414088,
+      "end_ms": 414348,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0024
+    },
+    {
+      "word": "the",
+      "start_ms": 414428,
+      "end_ms": 414508,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0015
+    },
+    {
+      "word": "Sun.",
+      "start_ms": 414588,
+      "end_ms": 414788,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0026
+    },
+    {
+      "word": "Orbit –",
+      "start_ms": 415809,
+      "end_ms": 416129,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.6281
+    },
+    {
+      "word": "The",
+      "start_ms": 416809,
+      "end_ms": 416889,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "path",
+      "start_ms": 416969,
+      "end_ms": 417249,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0099
+    },
+    {
+      "word": "of",
+      "start_ms": 417349,
+      "end_ms": 417389,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0006
+    },
+    {
+      "word": "the",
+      "start_ms": 417489,
+      "end_ms": 417589,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0502
+    },
+    {
+      "word": "Earth",
+      "start_ms": 417729,
+      "end_ms": 417949,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0586
+    },
+    {
+      "word": "around",
+      "start_ms": 418250,
+      "end_ms": 418510,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0022
+    },
+    {
+      "word": "the",
+      "start_ms": 418590,
+      "end_ms": 418670,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0009
+    },
+    {
+      "word": "Sun.",
+      "start_ms": 418750,
+      "end_ms": 418930,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0008
+    },
+    {
+      "word": "Solstice –",
+      "start_ms": 419890,
+      "end_ms": 420470,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.7198
+    },
+    {
+      "word": "When",
+      "start_ms": 421091,
+      "end_ms": 421231,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0643
+    },
+    {
+      "word": "the",
+      "start_ms": 421291,
+      "end_ms": 421371,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "Sun",
+      "start_ms": 421471,
+      "end_ms": 421671,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0025
+    },
+    {
+      "word": "is",
+      "start_ms": 421911,
+      "end_ms": 421971,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0673
+    },
+    {
+      "word": "at",
+      "start_ms": 422071,
+      "end_ms": 422131,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0565
+    },
+    {
+      "word": "its",
+      "start_ms": 422211,
+      "end_ms": 422331,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0135
+    },
+    {
+      "word": "farthest",
+      "start_ms": 422451,
+      "end_ms": 422891,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0068
+    },
+    {
+      "word": "point",
+      "start_ms": 422991,
+      "end_ms": 423272,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0529
+    },
+    {
+      "word": "north",
+      "start_ms": 423552,
+      "end_ms": 423852,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.015
+    },
+    {
+      "word": "or",
+      "start_ms": 424172,
+      "end_ms": 424212,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "south.",
+      "start_ms": 424312,
+      "end_ms": 424612,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0029
+    },
+    {
+      "word": "Equinox –",
+      "start_ms": 425472,
+      "end_ms": 425933,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0114
+    },
+    {
+      "word": "When",
+      "start_ms": 426653,
+      "end_ms": 426793,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.079
+    },
+    {
+      "word": "day",
+      "start_ms": 426933,
+      "end_ms": 427153,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0752
+    },
+    {
+      "word": "and",
+      "start_ms": 427333,
+      "end_ms": 427433,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0355
+    },
+    {
+      "word": "night",
+      "start_ms": 427513,
+      "end_ms": 427753,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0017
+    },
+    {
+      "word": "are",
+      "start_ms": 428013,
+      "end_ms": 428113,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0517
+    },
+    {
+      "word": "equal.",
+      "start_ms": 428254,
+      "end_ms": 428554,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0799
+    }
+  ],
+  "format_spec": {
+    "font_size": 64,
+    "highlight_color": "#FF8C42",
+    "background_color": "rgba(255,253,240,0.90)",
+    "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+    "font_weight": "700",
+    "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+    "key_terms": [],
+    "words_per_page": 6
+  },
+  "source_block_type": "concept",
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

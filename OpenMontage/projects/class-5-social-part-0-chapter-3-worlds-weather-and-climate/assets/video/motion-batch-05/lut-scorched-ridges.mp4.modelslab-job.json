@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188662848",
+  "request_fingerprint": "e4e9c71cb5af8d07236d2ef9d7d63e5211d65cf261f6237aa9bb924a2f9b1aa1",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\lut-scorched-ridges.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791351150.7926068,
+  "last_poll_at_unix": 1791352536.8703027,
+  "completed_at_unix": 1791352538.5259054
+}

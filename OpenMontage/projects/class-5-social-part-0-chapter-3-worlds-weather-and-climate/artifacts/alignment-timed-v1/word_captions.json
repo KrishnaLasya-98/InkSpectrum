@@ -1,0 +1,5888 @@
+[
+  {
+    "word": "Social",
+    "startMs": 100,
+    "endMs": 461,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Studies,",
+    "startMs": 562,
+    "endMs": 983,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Class",
+    "startMs": 1364,
+    "endMs": 1645,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "5.",
+    "startMs": 1745,
+    "endMs": 2066,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Lesson",
+    "startMs": 2829,
+    "endMs": 3150,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "3:",
+    "startMs": 3270,
+    "endMs": 3531,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Worlds",
+    "startMs": 4273,
+    "endMs": 4674,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Weather",
+    "startMs": 5015,
+    "endMs": 5316,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 5577,
+    "endMs": 5657,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Climate.",
+    "startMs": 5758,
+    "endMs": 6311,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Learning",
+    "startMs": 8371,
+    "endMs": 8731,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Objectives.",
+    "startMs": 8831,
+    "endMs": 9602,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "By",
+    "startMs": 11602,
+    "endMs": 11740,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 11820,
+    "endMs": 11920,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "end",
+    "startMs": 12040,
+    "endMs": 12160,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 12240,
+    "endMs": 12280,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "this",
+    "startMs": 12340,
+    "endMs": 12480,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "chapter,",
+    "startMs": 12580,
+    "endMs": 13001,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "learners",
+    "startMs": 13601,
+    "endMs": 14001,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "will",
+    "startMs": 14042,
+    "endMs": 14222,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "be",
+    "startMs": 14262,
+    "endMs": 14362,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "able",
+    "startMs": 14502,
+    "endMs": 14702,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "to:",
+    "startMs": 14782,
+    "endMs": 14902,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Explain",
+    "startMs": 15963,
+    "endMs": 16383,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 16503,
+    "endMs": 16583,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "difference",
+    "startMs": 16644,
+    "endMs": 17084,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "between",
+    "startMs": 17204,
+    "endMs": 17544,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "weather",
+    "startMs": 17644,
+    "endMs": 17965,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 18205,
+    "endMs": 18285,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "climate.",
+    "startMs": 18385,
+    "endMs": 18845,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Identify",
+    "startMs": 19686,
+    "endMs": 20366,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 20587,
+    "endMs": 20667,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "describe",
+    "startMs": 20727,
+    "endMs": 21227,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 21307,
+    "endMs": 21367,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "factors",
+    "startMs": 21467,
+    "endMs": 21968,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "affecting",
+    "startMs": 22148,
+    "endMs": 22628,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "climate.",
+    "startMs": 22688,
+    "endMs": 23108,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Understand",
+    "startMs": 23869,
+    "endMs": 24389,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 24490,
+    "endMs": 24570,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "different",
+    "startMs": 24650,
+    "endMs": 25010,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "types",
+    "startMs": 25090,
+    "endMs": 25350,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 25430,
+    "endMs": 25470,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "climate",
+    "startMs": 25590,
+    "endMs": 26011,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "found",
+    "startMs": 26171,
+    "endMs": 26431,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "in",
+    "startMs": 26491,
+    "endMs": 26531,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 26611,
+    "endMs": 26691,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "world.",
+    "startMs": 26731,
+    "endMs": 27032,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Recognize",
+    "startMs": 27872,
+    "endMs": 28453,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 28533,
+    "endMs": 28613,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "climatic",
+    "startMs": 28673,
+    "endMs": 29193,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "zones",
+    "startMs": 29313,
+    "endMs": 29634,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 29774,
+    "endMs": 29814,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 29914,
+    "endMs": 30014,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth.",
+    "startMs": 30134,
+    "endMs": 30334,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Explain",
+    "startMs": 31195,
+    "endMs": 31615,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "how",
+    "startMs": 31755,
+    "endMs": 31855,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "climate",
+    "startMs": 31995,
+    "endMs": 32416,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "affects",
+    "startMs": 32516,
+    "endMs": 32856,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "human",
+    "startMs": 32976,
+    "endMs": 33296,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "life",
+    "startMs": 33376,
+    "endMs": 33617,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 33877,
+    "endMs": 33977,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 34037,
+    "endMs": 34117,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "environment.",
+    "startMs": 34197,
+    "endMs": 34777,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Start-Up.",
+    "startMs": 36357,
+    "endMs": 36984,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Look",
+    "startMs": 38984,
+    "endMs": 39184,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "outside",
+    "startMs": 39264,
+    "endMs": 39605,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 39665,
+    "endMs": 39745,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "window!",
+    "startMs": 39805,
+    "endMs": 40125,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Is",
+    "startMs": 40826,
+    "endMs": 40866,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "it",
+    "startMs": 40966,
+    "endMs": 41026,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "sunny,",
+    "startMs": 41166,
+    "endMs": 41446,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "cloudy,",
+    "startMs": 41966,
+    "endMs": 42407,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "or",
+    "startMs": 42827,
+    "endMs": 42887,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "rainy?",
+    "startMs": 42967,
+    "endMs": 43288,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Have",
+    "startMs": 43968,
+    "endMs": 44088,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "you",
+    "startMs": 44128,
+    "endMs": 44208,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "ever",
+    "startMs": 44428,
+    "endMs": 44569,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "noticed",
+    "startMs": 44669,
+    "endMs": 45109,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "how",
+    "startMs": 45289,
+    "endMs": 45429,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 45509,
+    "endMs": 45589,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "weather",
+    "startMs": 45669,
+    "endMs": 45930,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "changes",
+    "startMs": 46010,
+    "endMs": 46430,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "throughout",
+    "startMs": 46530,
+    "endMs": 46910,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 46970,
+    "endMs": 47071,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "day?",
+    "startMs": 47111,
+    "endMs": 47271,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Some",
+    "startMs": 48091,
+    "endMs": 48292,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "places",
+    "startMs": 48372,
+    "endMs": 48772,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "are",
+    "startMs": 48992,
+    "endMs": 49072,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "always",
+    "startMs": 49272,
+    "endMs": 49633,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "warm,",
+    "startMs": 49693,
+    "endMs": 49933,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "while",
+    "startMs": 50393,
+    "endMs": 50573,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "others",
+    "startMs": 50713,
+    "endMs": 51014,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "are",
+    "startMs": 51234,
+    "endMs": 51314,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "cold.",
+    "startMs": 51374,
+    "endMs": 51674,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Why",
+    "startMs": 52435,
+    "endMs": 52555,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "does",
+    "startMs": 52635,
+    "endMs": 52775,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "this",
+    "startMs": 52835,
+    "endMs": 52955,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "happen?",
+    "startMs": 53035,
+    "endMs": 53356,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "In",
+    "startMs": 54156,
+    "endMs": 54196,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "this",
+    "startMs": 54296,
+    "endMs": 54456,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "chapter,",
+    "startMs": 54557,
+    "endMs": 54957,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "we",
+    "startMs": 55477,
+    "endMs": 55577,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "will",
+    "startMs": 55637,
+    "endMs": 55798,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "explore",
+    "startMs": 55858,
+    "endMs": 56298,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 56358,
+    "endMs": 56438,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "differences",
+    "startMs": 56498,
+    "endMs": 57079,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "between",
+    "startMs": 57219,
+    "endMs": 57559,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "weather",
+    "startMs": 57679,
+    "endMs": 57999,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 58199,
+    "endMs": 58280,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "climate",
+    "startMs": 58400,
+    "endMs": 58840,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 59380,
+    "endMs": 59460,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "understand",
+    "startMs": 59601,
+    "endMs": 60061,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 60121,
+    "endMs": 60221,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "factors",
+    "startMs": 60301,
+    "endMs": 60782,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "that",
+    "startMs": 60902,
+    "endMs": 61022,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "influence",
+    "startMs": 61162,
+    "endMs": 61622,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "them.",
+    "startMs": 61722,
+    "endMs": 61862,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Weather.",
+    "startMs": 63482,
+    "endMs": 63890,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Weather",
+    "startMs": 65890,
+    "endMs": 66303,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 66543,
+    "endMs": 66583,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 66663,
+    "endMs": 66723,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "condition",
+    "startMs": 66803,
+    "endMs": 67263,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 67363,
+    "endMs": 67404,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 67484,
+    "endMs": 67584,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "atmosphere",
+    "startMs": 67744,
+    "endMs": 68344,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "at",
+    "startMs": 68605,
+    "endMs": 68665,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "a",
+    "startMs": 68745,
+    "endMs": 68765,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "particular",
+    "startMs": 68845,
+    "endMs": 69345,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "place",
+    "startMs": 69445,
+    "endMs": 69746,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 69946,
+    "endMs": 70046,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "time.",
+    "startMs": 70126,
+    "endMs": 70406,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "It",
+    "startMs": 71307,
+    "endMs": 71367,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "includes",
+    "startMs": 71447,
+    "endMs": 71907,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "temperature,",
+    "startMs": 72048,
+    "endMs": 72588,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "wind,",
+    "startMs": 73088,
+    "endMs": 73369,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "rainfall,",
+    "startMs": 73969,
+    "endMs": 74570,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "humidity,",
+    "startMs": 75070,
+    "endMs": 75631,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 76011,
+    "endMs": 76111,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "cloud",
+    "startMs": 76191,
+    "endMs": 76451,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "cover.",
+    "startMs": 76551,
+    "endMs": 76832,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Weather",
+    "startMs": 77692,
+    "endMs": 77953,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "can",
+    "startMs": 78033,
+    "endMs": 78153,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "change",
+    "startMs": 78273,
+    "endMs": 78593,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "from",
+    "startMs": 78693,
+    "endMs": 78833,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "hour",
+    "startMs": 78974,
+    "endMs": 79254,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "to",
+    "startMs": 79354,
+    "endMs": 79434,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "hour",
+    "startMs": 79494,
+    "endMs": 79774,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "or",
+    "startMs": 80135,
+    "endMs": 80195,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "day",
+    "startMs": 80275,
+    "endMs": 80435,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "to",
+    "startMs": 80515,
+    "endMs": 80595,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "day.",
+    "startMs": 80635,
+    "endMs": 80815,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "For",
+    "startMs": 81636,
+    "endMs": 81736,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "example,",
+    "startMs": 81836,
+    "endMs": 82316,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "one",
+    "startMs": 82997,
+    "endMs": 83117,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "morning,",
+    "startMs": 83177,
+    "endMs": 83497,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "it",
+    "startMs": 83778,
+    "endMs": 83818,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "may",
+    "startMs": 83898,
+    "endMs": 84018,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "be",
+    "startMs": 84078,
+    "endMs": 84138,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "sunny",
+    "startMs": 84238,
+    "endMs": 84538,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 85079,
+    "endMs": 85159,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "by",
+    "startMs": 85219,
+    "endMs": 85319,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "afternoon",
+    "startMs": 85499,
+    "endMs": 85940,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "it",
+    "startMs": 86260,
+    "endMs": 86320,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "could",
+    "startMs": 86360,
+    "endMs": 86520,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "rain.",
+    "startMs": 86580,
+    "endMs": 86900,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Do",
+    "startMs": 88440,
+    "endMs": 88520,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "You",
+    "startMs": 88600,
+    "endMs": 88700,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Know?",
+    "startMs": 88780,
+    "endMs": 89053,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "The",
+    "startMs": 91053,
+    "endMs": 91158,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "hottest",
+    "startMs": 91299,
+    "endMs": 91659,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "place",
+    "startMs": 91759,
+    "endMs": 92019,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "on",
+    "startMs": 92119,
+    "endMs": 92160,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth",
+    "startMs": 92360,
+    "endMs": 92560,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 92920,
+    "endMs": 92980,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 93040,
+    "endMs": 93141,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Lut",
+    "startMs": 93241,
+    "endMs": 93461,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Desert",
+    "startMs": 93601,
+    "endMs": 93961,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "in",
+    "startMs": 94142,
+    "endMs": 94202,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Iran,",
+    "startMs": 94322,
+    "endMs": 94662,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "where",
+    "startMs": 95243,
+    "endMs": 95403,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "temperatures",
+    "startMs": 95483,
+    "endMs": 96064,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "have",
+    "startMs": 96124,
+    "endMs": 96244,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "been",
+    "startMs": 96284,
+    "endMs": 96424,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "recorded",
+    "startMs": 96464,
+    "endMs": 96945,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "as",
+    "startMs": 97325,
+    "endMs": 97385,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "high",
+    "startMs": 97525,
+    "endMs": 97826,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "as",
+    "startMs": 98026,
+    "endMs": 98086,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "159.3°F",
+    "startMs": 98406,
+    "endMs": 101249,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "(70.7°C)!",
+    "startMs": 101950,
+    "endMs": 104092,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Imagine",
+    "startMs": 104753,
+    "endMs": 105193,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "how",
+    "startMs": 105333,
+    "endMs": 105474,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "hot",
+    "startMs": 105694,
+    "endMs": 105914,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "it",
+    "startMs": 105994,
+    "endMs": 106054,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "must",
+    "startMs": 106134,
+    "endMs": 106315,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "be",
+    "startMs": 106395,
+    "endMs": 106475,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "to",
+    "startMs": 106575,
+    "endMs": 106635,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "have",
+    "startMs": 106715,
+    "endMs": 106855,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "that",
+    "startMs": 107035,
+    "endMs": 107235,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "much",
+    "startMs": 107336,
+    "endMs": 107516,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "heat!",
+    "startMs": 107616,
+    "endMs": 107836,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Climate.",
+    "startMs": 109376,
+    "endMs": 109943,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Climate",
+    "startMs": 111943,
+    "endMs": 112446,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 112706,
+    "endMs": 112766,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 112826,
+    "endMs": 112926,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "average",
+    "startMs": 113146,
+    "endMs": 113486,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "weather",
+    "startMs": 113546,
+    "endMs": 113807,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "condition",
+    "startMs": 113867,
+    "endMs": 114307,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 114487,
+    "endMs": 114527,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "a",
+    "startMs": 114647,
+    "endMs": 114667,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "place",
+    "startMs": 114747,
+    "endMs": 115048,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "over",
+    "startMs": 115308,
+    "endMs": 115508,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "a",
+    "startMs": 115588,
+    "endMs": 115608,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "long",
+    "startMs": 115728,
+    "endMs": 115968,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "period,",
+    "startMs": 116088,
+    "endMs": 116449,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "usually",
+    "startMs": 117149,
+    "endMs": 117510,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "30",
+    "startMs": 117630,
+    "endMs": 117970,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "years",
+    "startMs": 118050,
+    "endMs": 118330,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "or",
+    "startMs": 118490,
+    "endMs": 118550,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "more.",
+    "startMs": 118630,
+    "endMs": 118811,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "It",
+    "startMs": 119811,
+    "endMs": 119871,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "tells",
+    "startMs": 119952,
+    "endMs": 120212,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "us",
+    "startMs": 120352,
+    "endMs": 120412,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "whether",
+    "startMs": 120532,
+    "endMs": 120792,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "a",
+    "startMs": 120892,
+    "endMs": 120912,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "place",
+    "startMs": 120972,
+    "endMs": 121253,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 121393,
+    "endMs": 121453,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "generally",
+    "startMs": 121533,
+    "endMs": 121973,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "hot,",
+    "startMs": 122113,
+    "endMs": 122333,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "cold,",
+    "startMs": 123014,
+    "endMs": 123334,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "wet,",
+    "startMs": 123935,
+    "endMs": 124155,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "or",
+    "startMs": 124655,
+    "endMs": 124715,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "dry.",
+    "startMs": 124795,
+    "endMs": 125036,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "For",
+    "startMs": 125996,
+    "endMs": 126096,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "example,",
+    "startMs": 126197,
+    "endMs": 126677,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 127237,
+    "endMs": 127317,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "climate",
+    "startMs": 127377,
+    "endMs": 127798,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 127838,
+    "endMs": 127898,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 127958,
+    "endMs": 128018,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Sahara",
+    "startMs": 128098,
+    "endMs": 128518,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Desert",
+    "startMs": 128618,
+    "endMs": 128979,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 129199,
+    "endMs": 129259,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "hot",
+    "startMs": 129419,
+    "endMs": 129639,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 129859,
+    "endMs": 129960,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "dry,",
+    "startMs": 130020,
+    "endMs": 130280,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "while",
+    "startMs": 130900,
+    "endMs": 131060,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 131100,
+    "endMs": 131180,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "climate",
+    "startMs": 131221,
+    "endMs": 131621,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 131661,
+    "endMs": 131701,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 131761,
+    "endMs": 131861,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Amazon",
+    "startMs": 132021,
+    "endMs": 132381,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Rainforest",
+    "startMs": 132462,
+    "endMs": 133082,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 133422,
+    "endMs": 133462,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "warm",
+    "startMs": 133602,
+    "endMs": 133883,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 134163,
+    "endMs": 134263,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "rainy.",
+    "startMs": 134343,
+    "endMs": 134683,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Factors",
+    "startMs": 136263,
+    "endMs": 136724,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Affecting",
+    "startMs": 136885,
+    "endMs": 137366,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Climate.",
+    "startMs": 137446,
+    "endMs": 137993,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Several",
+    "startMs": 139993,
+    "endMs": 140445,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "factors",
+    "startMs": 140565,
+    "endMs": 141066,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "influence",
+    "startMs": 141307,
+    "endMs": 141768,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 141868,
+    "endMs": 141948,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "climate",
+    "startMs": 142008,
+    "endMs": 142409,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 142530,
+    "endMs": 142570,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "a",
+    "startMs": 142690,
+    "endMs": 142710,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "place.",
+    "startMs": 142770,
+    "endMs": 143051,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Let",
+    "startMs": 144033,
+    "endMs": 144173,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "us",
+    "startMs": 144253,
+    "endMs": 144314,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "explore",
+    "startMs": 144414,
+    "endMs": 144835,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "them",
+    "startMs": 144895,
+    "endMs": 145035,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "one",
+    "startMs": 145416,
+    "endMs": 145536,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "by",
+    "startMs": 145596,
+    "endMs": 145717,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "one.",
+    "startMs": 145917,
+    "endMs": 146057,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Distance",
+    "startMs": 147656,
+    "endMs": 148076,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "from",
+    "startMs": 148176,
+    "endMs": 148297,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 148377,
+    "endMs": 148457,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Equator",
+    "startMs": 148577,
+    "endMs": 149057,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "(Latitudes).",
+    "startMs": 149678,
+    "endMs": 150491,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "The",
+    "startMs": 152491,
+    "endMs": 152609,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth",
+    "startMs": 152769,
+    "endMs": 152969,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 153069,
+    "endMs": 153129,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "divided",
+    "startMs": 153189,
+    "endMs": 153710,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "into",
+    "startMs": 153970,
+    "endMs": 154170,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "imaginary",
+    "startMs": 154330,
+    "endMs": 154991,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "lines",
+    "startMs": 155091,
+    "endMs": 155471,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "called",
+    "startMs": 155731,
+    "endMs": 155991,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "latitudes.",
+    "startMs": 156211,
+    "endMs": 156872,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Places",
+    "startMs": 157873,
+    "endMs": 158273,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "near",
+    "startMs": 158393,
+    "endMs": 158593,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 158673,
+    "endMs": 158773,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "equator",
+    "startMs": 158873,
+    "endMs": 159354,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "receive",
+    "startMs": 159834,
+    "endMs": 160174,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "direct",
+    "startMs": 160294,
+    "endMs": 160655,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "sunlight",
+    "startMs": 160775,
+    "endMs": 161255,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "throughout",
+    "startMs": 161395,
+    "endMs": 161836,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 161916,
+    "endMs": 161996,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "year,",
+    "startMs": 162056,
+    "endMs": 162216,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "making",
+    "startMs": 162836,
+    "endMs": 163136,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "them",
+    "startMs": 163196,
+    "endMs": 163317,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "hot.",
+    "startMs": 163497,
+    "endMs": 163717,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "As",
+    "startMs": 164798,
+    "endMs": 164878,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "we",
+    "startMs": 164958,
+    "endMs": 165038,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "move",
+    "startMs": 165158,
+    "endMs": 165378,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "towards",
+    "startMs": 165478,
+    "endMs": 165838,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 165938,
+    "endMs": 165999,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "poles,",
+    "startMs": 166079,
+    "endMs": 166479,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "sunlight",
+    "startMs": 167099,
+    "endMs": 167520,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "spreads",
+    "startMs": 167660,
+    "endMs": 168060,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "out,",
+    "startMs": 168200,
+    "endMs": 168320,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "making",
+    "startMs": 168901,
+    "endMs": 169221,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "these",
+    "startMs": 169301,
+    "endMs": 169481,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "areas",
+    "startMs": 169601,
+    "endMs": 169921,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "cooler.",
+    "startMs": 170101,
+    "endMs": 170442,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "This",
+    "startMs": 171382,
+    "endMs": 171503,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 171623,
+    "endMs": 171663,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "why",
+    "startMs": 171743,
+    "endMs": 171903,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "tropical",
+    "startMs": 172083,
+    "endMs": 172543,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "regions",
+    "startMs": 172643,
+    "endMs": 173044,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "are",
+    "startMs": 173204,
+    "endMs": 173284,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "warm,",
+    "startMs": 173344,
+    "endMs": 173644,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "while",
+    "startMs": 174244,
+    "endMs": 174425,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "polar",
+    "startMs": 174525,
+    "endMs": 174865,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "regions",
+    "startMs": 174945,
+    "endMs": 175345,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "are",
+    "startMs": 175565,
+    "endMs": 175645,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "cold.",
+    "startMs": 175726,
+    "endMs": 176026,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Altitude.",
+    "startMs": 177627,
+    "endMs": 178270,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Altitude",
+    "startMs": 180270,
+    "endMs": 180935,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 181215,
+    "endMs": 181275,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 181335,
+    "endMs": 181415,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "height",
+    "startMs": 181535,
+    "endMs": 181796,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 181876,
+    "endMs": 181916,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "a",
+    "startMs": 182036,
+    "endMs": 182056,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "place",
+    "startMs": 182136,
+    "endMs": 182416,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "above",
+    "startMs": 182656,
+    "endMs": 182937,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "sea",
+    "startMs": 183057,
+    "endMs": 183237,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "level.",
+    "startMs": 183297,
+    "endMs": 183557,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Higher",
+    "startMs": 184478,
+    "endMs": 184759,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "altitudes",
+    "startMs": 184899,
+    "endMs": 185459,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "have",
+    "startMs": 185580,
+    "endMs": 185720,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "cooler",
+    "startMs": 185860,
+    "endMs": 186180,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "temperatures",
+    "startMs": 186260,
+    "endMs": 186881,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "because",
+    "startMs": 187382,
+    "endMs": 187642,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 187682,
+    "endMs": 187782,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "air",
+    "startMs": 187962,
+    "endMs": 188102,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 188182,
+    "endMs": 188242,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "thinner",
+    "startMs": 188343,
+    "endMs": 188683,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 189083,
+    "endMs": 189163,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "cannot",
+    "startMs": 189244,
+    "endMs": 189564,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "hold",
+    "startMs": 189664,
+    "endMs": 189884,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "much",
+    "startMs": 190024,
+    "endMs": 190205,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "heat.",
+    "startMs": 190305,
+    "endMs": 190505,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "For",
+    "startMs": 191446,
+    "endMs": 191546,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "example,",
+    "startMs": 191646,
+    "endMs": 192087,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "mountains",
+    "startMs": 192707,
+    "endMs": 193248,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "are",
+    "startMs": 193428,
+    "endMs": 193508,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "colder",
+    "startMs": 193608,
+    "endMs": 193969,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "than",
+    "startMs": 194029,
+    "endMs": 194149,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "plains",
+    "startMs": 194289,
+    "endMs": 194689,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "at",
+    "startMs": 194930,
+    "endMs": 194990,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 195050,
+    "endMs": 195150,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "same",
+    "startMs": 195230,
+    "endMs": 195490,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "latitude.",
+    "startMs": 195550,
+    "endMs": 196151,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Distance",
+    "startMs": 197730,
+    "endMs": 198150,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "from",
+    "startMs": 198250,
+    "endMs": 198410,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 198490,
+    "endMs": 198551,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Sea",
+    "startMs": 198631,
+    "endMs": 198831,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "(Sea",
+    "startMs": 199631,
+    "endMs": 199831,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Breeze",
+    "startMs": 199931,
+    "endMs": 200271,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 200572,
+    "endMs": 200692,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Land",
+    "startMs": 200772,
+    "endMs": 201012,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Breeze).",
+    "startMs": 201112,
+    "endMs": 201554,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Oceans",
+    "startMs": 203554,
+    "endMs": 204020,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 204180,
+    "endMs": 204280,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "seas",
+    "startMs": 204400,
+    "endMs": 204740,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "influence",
+    "startMs": 205061,
+    "endMs": 205521,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 205601,
+    "endMs": 205681,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "climate",
+    "startMs": 205741,
+    "endMs": 206141,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 206261,
+    "endMs": 206301,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "coastal",
+    "startMs": 206441,
+    "endMs": 206802,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "areas.",
+    "startMs": 206922,
+    "endMs": 207282,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Water",
+    "startMs": 208322,
+    "endMs": 208643,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "heats",
+    "startMs": 208723,
+    "endMs": 209003,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "up",
+    "startMs": 209183,
+    "endMs": 209243,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 209523,
+    "endMs": 209623,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "cools",
+    "startMs": 209723,
+    "endMs": 210043,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "down",
+    "startMs": 210123,
+    "endMs": 210344,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "more",
+    "startMs": 210504,
+    "endMs": 210704,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "slowly",
+    "startMs": 210784,
+    "endMs": 211204,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "than",
+    "startMs": 211324,
+    "endMs": 211444,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "land.",
+    "startMs": 211544,
+    "endMs": 211824,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "During",
+    "startMs": 212705,
+    "endMs": 213005,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 213065,
+    "endMs": 213145,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "day,",
+    "startMs": 213205,
+    "endMs": 213405,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "land",
+    "startMs": 214026,
+    "endMs": 214286,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "heats",
+    "startMs": 214386,
+    "endMs": 214646,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "up",
+    "startMs": 214766,
+    "endMs": 214826,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "faster",
+    "startMs": 214986,
+    "endMs": 215406,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "than",
+    "startMs": 215467,
+    "endMs": 215567,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "water,",
+    "startMs": 215647,
+    "endMs": 215967,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "causing",
+    "startMs": 216507,
+    "endMs": 216847,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "a",
+    "startMs": 216907,
+    "endMs": 216927,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "sea",
+    "startMs": 217027,
+    "endMs": 217208,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "breeze",
+    "startMs": 217308,
+    "endMs": 217608,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "to",
+    "startMs": 217708,
+    "endMs": 217808,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "blow",
+    "startMs": 217888,
+    "endMs": 218108,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "from",
+    "startMs": 218188,
+    "endMs": 218328,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 218388,
+    "endMs": 218468,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "sea",
+    "startMs": 218548,
+    "endMs": 218728,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "to",
+    "startMs": 218989,
+    "endMs": 219089,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 219149,
+    "endMs": 219229,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "land.",
+    "startMs": 219289,
+    "endMs": 219549,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "At",
+    "startMs": 220449,
+    "endMs": 220509,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "night,",
+    "startMs": 220629,
+    "endMs": 220910,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 221430,
+    "endMs": 221510,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "land",
+    "startMs": 221570,
+    "endMs": 221810,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "cools",
+    "startMs": 221970,
+    "endMs": 222270,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "down",
+    "startMs": 222350,
+    "endMs": 222551,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "quickly,",
+    "startMs": 222671,
+    "endMs": 223031,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 223571,
+    "endMs": 223671,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "a",
+    "startMs": 223751,
+    "endMs": 223771,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "land",
+    "startMs": 223851,
+    "endMs": 224111,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "breeze",
+    "startMs": 224212,
+    "endMs": 224512,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "blows",
+    "startMs": 224652,
+    "endMs": 224932,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "from",
+    "startMs": 225012,
+    "endMs": 225152,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "land",
+    "startMs": 225252,
+    "endMs": 225512,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "to",
+    "startMs": 225812,
+    "endMs": 225892,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 225973,
+    "endMs": 226053,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "sea.",
+    "startMs": 226113,
+    "endMs": 226293,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "This",
+    "startMs": 227073,
+    "endMs": 227233,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "keeps",
+    "startMs": 227353,
+    "endMs": 227613,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "coastal",
+    "startMs": 227714,
+    "endMs": 228114,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "areas",
+    "startMs": 228274,
+    "endMs": 228574,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "cooler",
+    "startMs": 228714,
+    "endMs": 229054,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "in",
+    "startMs": 229154,
+    "endMs": 229214,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "summer",
+    "startMs": 229314,
+    "endMs": 229615,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 230015,
+    "endMs": 230115,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "warmer",
+    "startMs": 230215,
+    "endMs": 230595,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "in",
+    "startMs": 230695,
+    "endMs": 230755,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "winter",
+    "startMs": 230855,
+    "endMs": 231215,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "compared",
+    "startMs": 231616,
+    "endMs": 232016,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "to",
+    "startMs": 232056,
+    "endMs": 232136,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "inland",
+    "startMs": 232276,
+    "endMs": 232616,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "regions.",
+    "startMs": 232696,
+    "endMs": 233157,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Direction",
+    "startMs": 234717,
+    "endMs": 235218,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 235378,
+    "endMs": 235418,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 235518,
+    "endMs": 235618,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Wind.",
+    "startMs": 235678,
+    "endMs": 236071,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Winds",
+    "startMs": 238071,
+    "endMs": 238441,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "carry",
+    "startMs": 238541,
+    "endMs": 238841,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "heat",
+    "startMs": 238982,
+    "endMs": 239222,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 239462,
+    "endMs": 239562,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "moisture",
+    "startMs": 239642,
+    "endMs": 240123,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "from",
+    "startMs": 240383,
+    "endMs": 240543,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "one",
+    "startMs": 240743,
+    "endMs": 240864,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "place",
+    "startMs": 240924,
+    "endMs": 241224,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "to",
+    "startMs": 241364,
+    "endMs": 241464,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "another.",
+    "startMs": 241584,
+    "endMs": 241905,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Winds",
+    "startMs": 242686,
+    "endMs": 242946,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "coming",
+    "startMs": 243046,
+    "endMs": 243306,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "from",
+    "startMs": 243366,
+    "endMs": 243486,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 243567,
+    "endMs": 243627,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "sea",
+    "startMs": 243727,
+    "endMs": 243947,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "bring",
+    "startMs": 244267,
+    "endMs": 244468,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "rain,",
+    "startMs": 244608,
+    "endMs": 244868,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "while",
+    "startMs": 245609,
+    "endMs": 245789,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "winds",
+    "startMs": 245869,
+    "endMs": 246109,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "from",
+    "startMs": 246169,
+    "endMs": 246310,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "deserts",
+    "startMs": 246450,
+    "endMs": 246910,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "bring",
+    "startMs": 247231,
+    "endMs": 247411,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "dry",
+    "startMs": 247551,
+    "endMs": 247771,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "weather.",
+    "startMs": 247891,
+    "endMs": 248152,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "For",
+    "startMs": 248892,
+    "endMs": 249013,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "example,",
+    "startMs": 249113,
+    "endMs": 249593,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 250194,
+    "endMs": 250274,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "monsoon",
+    "startMs": 250354,
+    "endMs": 250814,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "winds",
+    "startMs": 250915,
+    "endMs": 251215,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "bring",
+    "startMs": 251415,
+    "endMs": 251615,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "heavy",
+    "startMs": 251776,
+    "endMs": 252036,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "rainfall",
+    "startMs": 252136,
+    "endMs": 252636,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "to",
+    "startMs": 252737,
+    "endMs": 252837,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "India.",
+    "startMs": 252957,
+    "endMs": 253257,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Humidity.",
+    "startMs": 254817,
+    "endMs": 255512,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Humidity",
+    "startMs": 257512,
+    "endMs": 258128,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 258449,
+    "endMs": 258509,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 258569,
+    "endMs": 258669,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "amount",
+    "startMs": 258769,
+    "endMs": 259109,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 259209,
+    "endMs": 259250,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "water",
+    "startMs": 259410,
+    "endMs": 259730,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "vapour",
+    "startMs": 259790,
+    "endMs": 260150,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "in",
+    "startMs": 260311,
+    "endMs": 260391,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 260451,
+    "endMs": 260551,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "air.",
+    "startMs": 260771,
+    "endMs": 260851,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Places",
+    "startMs": 261852,
+    "endMs": 262273,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "with",
+    "startMs": 262373,
+    "endMs": 262493,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "high",
+    "startMs": 262633,
+    "endMs": 262853,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "humidity",
+    "startMs": 262933,
+    "endMs": 263474,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "receive",
+    "startMs": 263914,
+    "endMs": 264255,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "more",
+    "startMs": 264415,
+    "endMs": 264635,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "rainfall,",
+    "startMs": 264695,
+    "endMs": 265256,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "while",
+    "startMs": 265897,
+    "endMs": 266097,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "dry",
+    "startMs": 266177,
+    "endMs": 266397,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "areas",
+    "startMs": 266597,
+    "endMs": 266978,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "have",
+    "startMs": 267178,
+    "endMs": 267338,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "less",
+    "startMs": 267458,
+    "endMs": 267678,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "humidity.",
+    "startMs": 267739,
+    "endMs": 268259,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "For",
+    "startMs": 268960,
+    "endMs": 269060,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "example,",
+    "startMs": 269160,
+    "endMs": 269641,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "coastal",
+    "startMs": 270301,
+    "endMs": 270722,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "areas",
+    "startMs": 270922,
+    "endMs": 271302,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "have",
+    "startMs": 271422,
+    "endMs": 271583,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "higher",
+    "startMs": 271723,
+    "endMs": 272023,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "humidity",
+    "startMs": 272083,
+    "endMs": 272604,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "than",
+    "startMs": 272904,
+    "endMs": 273044,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "deserts.",
+    "startMs": 273164,
+    "endMs": 273645,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Ocean",
+    "startMs": 275266,
+    "endMs": 275526,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Currents.",
+    "startMs": 275626,
+    "endMs": 276230,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Ocean",
+    "startMs": 278230,
+    "endMs": 278578,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "currents",
+    "startMs": 278678,
+    "endMs": 279079,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "are",
+    "startMs": 279339,
+    "endMs": 279399,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "large",
+    "startMs": 279539,
+    "endMs": 279879,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "movements",
+    "startMs": 279979,
+    "endMs": 280400,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 280480,
+    "endMs": 280520,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "water",
+    "startMs": 280640,
+    "endMs": 281020,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "in",
+    "startMs": 281261,
+    "endMs": 281301,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 281381,
+    "endMs": 281461,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "oceans.",
+    "startMs": 281621,
+    "endMs": 282001,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Warm",
+    "startMs": 283042,
+    "endMs": 283323,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "ocean",
+    "startMs": 283523,
+    "endMs": 283763,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "currents",
+    "startMs": 283843,
+    "endMs": 284223,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "make",
+    "startMs": 284504,
+    "endMs": 284684,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "coastal",
+    "startMs": 284784,
+    "endMs": 285204,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "areas",
+    "startMs": 285365,
+    "endMs": 285705,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "warmer,",
+    "startMs": 285805,
+    "endMs": 286205,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "while",
+    "startMs": 286766,
+    "endMs": 286966,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "cold",
+    "startMs": 287106,
+    "endMs": 287346,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "currents",
+    "startMs": 287446,
+    "endMs": 287827,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "bring",
+    "startMs": 288087,
+    "endMs": 288267,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "cool",
+    "startMs": 288427,
+    "endMs": 288648,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "temperatures.",
+    "startMs": 288748,
+    "endMs": 289348,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "For",
+    "startMs": 290229,
+    "endMs": 290349,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "example,",
+    "startMs": 290449,
+    "endMs": 290910,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 291390,
+    "endMs": 291490,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Gulf",
+    "startMs": 291590,
+    "endMs": 291831,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Stream",
+    "startMs": 291931,
+    "endMs": 292231,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "warms",
+    "startMs": 292411,
+    "endMs": 292731,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Europe,",
+    "startMs": 292932,
+    "endMs": 293192,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "while",
+    "startMs": 293712,
+    "endMs": 293893,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 293953,
+    "endMs": 294013,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "cold",
+    "startMs": 294133,
+    "endMs": 294413,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Labrador",
+    "startMs": 294593,
+    "endMs": 295054,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Current",
+    "startMs": 295154,
+    "endMs": 295474,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "cools",
+    "startMs": 295774,
+    "endMs": 296095,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Canada.",
+    "startMs": 296195,
+    "endMs": 296595,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Let's",
+    "startMs": 298195,
+    "endMs": 298435,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Learn",
+    "startMs": 298556,
+    "endMs": 298796,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "More!",
+    "startMs": 298916,
+    "endMs": 299305,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Rainforests",
+    "startMs": 301305,
+    "endMs": 302158,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "receive",
+    "startMs": 302378,
+    "endMs": 302738,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "about",
+    "startMs": 302858,
+    "endMs": 303099,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "80",
+    "startMs": 303399,
+    "endMs": 303679,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "inches",
+    "startMs": 303820,
+    "endMs": 304140,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 304240,
+    "endMs": 304280,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "rain",
+    "startMs": 304380,
+    "endMs": 304601,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "each",
+    "startMs": 304881,
+    "endMs": 305061,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "year",
+    "startMs": 305121,
+    "endMs": 305281,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 306042,
+    "endMs": 306143,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "they",
+    "startMs": 306183,
+    "endMs": 306283,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "are",
+    "startMs": 306323,
+    "endMs": 306403,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "so",
+    "startMs": 306563,
+    "endMs": 306723,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "important",
+    "startMs": 306863,
+    "endMs": 307384,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "because",
+    "startMs": 307845,
+    "endMs": 308065,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "they",
+    "startMs": 308105,
+    "endMs": 308225,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "provide",
+    "startMs": 308305,
+    "endMs": 308666,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "oxygen",
+    "startMs": 308866,
+    "endMs": 309307,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 309527,
+    "endMs": 309607,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "food",
+    "startMs": 309767,
+    "endMs": 310027,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "to",
+    "startMs": 310128,
+    "endMs": 310208,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 310268,
+    "endMs": 310368,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "world.",
+    "startMs": 310408,
+    "endMs": 310688,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Without",
+    "startMs": 311429,
+    "endMs": 311750,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "them,",
+    "startMs": 311830,
+    "endMs": 311990,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "our",
+    "startMs": 312571,
+    "endMs": 312671,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "planet",
+    "startMs": 312731,
+    "endMs": 313091,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "would",
+    "startMs": 313171,
+    "endMs": 313332,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "be",
+    "startMs": 313392,
+    "endMs": 313472,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "very",
+    "startMs": 313692,
+    "endMs": 313973,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "different!",
+    "startMs": 314053,
+    "endMs": 314473,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Types",
+    "startMs": 316012,
+    "endMs": 316333,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 316433,
+    "endMs": 316473,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Climate.",
+    "startMs": 316614,
+    "endMs": 317189,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Different",
+    "startMs": 319189,
+    "endMs": 319583,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "parts",
+    "startMs": 319663,
+    "endMs": 319944,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 320004,
+    "endMs": 320084,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 320144,
+    "endMs": 320224,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "world",
+    "startMs": 320284,
+    "endMs": 320585,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "have",
+    "startMs": 320886,
+    "endMs": 321046,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "different",
+    "startMs": 321146,
+    "endMs": 321507,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "types",
+    "startMs": 321567,
+    "endMs": 321848,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 321928,
+    "endMs": 321968,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "climate.",
+    "startMs": 322069,
+    "endMs": 322490,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Let's",
+    "startMs": 323272,
+    "endMs": 323492,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "look",
+    "startMs": 323532,
+    "endMs": 323672,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "at",
+    "startMs": 323733,
+    "endMs": 323793,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "some",
+    "startMs": 323873,
+    "endMs": 324033,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "major",
+    "startMs": 324134,
+    "endMs": 324434,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "types.",
+    "startMs": 324494,
+    "endMs": 324815,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Monsoon",
+    "startMs": 326375,
+    "endMs": 326956,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "or",
+    "startMs": 327336,
+    "endMs": 327397,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Tropical",
+    "startMs": 327517,
+    "endMs": 327957,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Climate.",
+    "startMs": 328057,
+    "endMs": 328591,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Found",
+    "startMs": 330591,
+    "endMs": 330943,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "in",
+    "startMs": 331043,
+    "endMs": 331083,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "South",
+    "startMs": 331223,
+    "endMs": 331504,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Asia,",
+    "startMs": 331604,
+    "endMs": 331904,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Southeast",
+    "startMs": 332485,
+    "endMs": 333006,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Asia,",
+    "startMs": 333106,
+    "endMs": 333386,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 333887,
+    "endMs": 333967,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "some",
+    "startMs": 334047,
+    "endMs": 334248,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "parts",
+    "startMs": 334328,
+    "endMs": 334608,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 334668,
+    "endMs": 334708,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Africa.",
+    "startMs": 334888,
+    "endMs": 335249,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "It",
+    "startMs": 336210,
+    "endMs": 336270,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "has",
+    "startMs": 336331,
+    "endMs": 336471,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "hot",
+    "startMs": 336631,
+    "endMs": 336811,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "summers",
+    "startMs": 336931,
+    "endMs": 337352,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 337773,
+    "endMs": 337853,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "receives",
+    "startMs": 337913,
+    "endMs": 338293,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "heavy",
+    "startMs": 338454,
+    "endMs": 338734,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "rainfall",
+    "startMs": 338834,
+    "endMs": 339355,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "during",
+    "startMs": 339475,
+    "endMs": 339775,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 339815,
+    "endMs": 339876,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "monsoon",
+    "startMs": 339936,
+    "endMs": 340376,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "season.",
+    "startMs": 340476,
+    "endMs": 340897,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Equatorial",
+    "startMs": 342477,
+    "endMs": 343138,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Climate.",
+    "startMs": 343238,
+    "endMs": 343798,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Found",
+    "startMs": 345798,
+    "endMs": 346168,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "near",
+    "startMs": 346348,
+    "endMs": 346508,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 346568,
+    "endMs": 346648,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "equator,",
+    "startMs": 346749,
+    "endMs": 347269,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "such",
+    "startMs": 347770,
+    "endMs": 347970,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "as",
+    "startMs": 348111,
+    "endMs": 348191,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "in",
+    "startMs": 348371,
+    "endMs": 348411,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 348471,
+    "endMs": 348571,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Amazon",
+    "startMs": 348712,
+    "endMs": 349072,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Rainforest",
+    "startMs": 349192,
+    "endMs": 349833,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 350114,
+    "endMs": 350194,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Congo",
+    "startMs": 350294,
+    "endMs": 350635,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Basin.",
+    "startMs": 350715,
+    "endMs": 351075,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "It",
+    "startMs": 352017,
+    "endMs": 352057,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 352157,
+    "endMs": 352217,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "hot",
+    "startMs": 352337,
+    "endMs": 352557,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 352738,
+    "endMs": 352838,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "humid",
+    "startMs": 352958,
+    "endMs": 353359,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "throughout",
+    "startMs": 353479,
+    "endMs": 353920,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 354000,
+    "endMs": 354080,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "year",
+    "startMs": 354140,
+    "endMs": 354320,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "with",
+    "startMs": 354681,
+    "endMs": 354821,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "heavy",
+    "startMs": 354961,
+    "endMs": 355222,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "rainfall.",
+    "startMs": 355322,
+    "endMs": 355842,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Desert",
+    "startMs": 357422,
+    "endMs": 357783,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Climate.",
+    "startMs": 357903,
+    "endMs": 358441,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Found",
+    "startMs": 360441,
+    "endMs": 360771,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "in",
+    "startMs": 360871,
+    "endMs": 360911,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "places",
+    "startMs": 361011,
+    "endMs": 361452,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "like",
+    "startMs": 361592,
+    "endMs": 361733,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 361793,
+    "endMs": 361873,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Sahara",
+    "startMs": 361933,
+    "endMs": 362374,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Desert",
+    "startMs": 362454,
+    "endMs": 362815,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 363075,
+    "endMs": 363155,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 363195,
+    "endMs": 363275,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Thar",
+    "startMs": 363336,
+    "endMs": 363636,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Desert.",
+    "startMs": 363716,
+    "endMs": 364077,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "It",
+    "startMs": 364978,
+    "endMs": 365039,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "has",
+    "startMs": 365099,
+    "endMs": 365219,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "very",
+    "startMs": 365399,
+    "endMs": 365680,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "little",
+    "startMs": 365740,
+    "endMs": 366000,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "rainfall,",
+    "startMs": 366060,
+    "endMs": 366561,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "hot",
+    "startMs": 367042,
+    "endMs": 367243,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "days,",
+    "startMs": 367323,
+    "endMs": 367623,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 368044,
+    "endMs": 368124,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "cold",
+    "startMs": 368284,
+    "endMs": 368565,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "nights.",
+    "startMs": 368665,
+    "endMs": 369026,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Tundra",
+    "startMs": 370586,
+    "endMs": 370967,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Climate.",
+    "startMs": 371067,
+    "endMs": 371612,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Found",
+    "startMs": 373612,
+    "endMs": 373987,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "near",
+    "startMs": 374127,
+    "endMs": 374267,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 374348,
+    "endMs": 374408,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "poles,",
+    "startMs": 374488,
+    "endMs": 374888,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "such",
+    "startMs": 375409,
+    "endMs": 375610,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "as",
+    "startMs": 375710,
+    "endMs": 375750,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "in",
+    "startMs": 375870,
+    "endMs": 375910,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Greenland",
+    "startMs": 376010,
+    "endMs": 376491,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 376812,
+    "endMs": 376912,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Antarctica.",
+    "startMs": 377032,
+    "endMs": 377673,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "It",
+    "startMs": 378555,
+    "endMs": 378615,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 378695,
+    "endMs": 378755,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "extremely",
+    "startMs": 378836,
+    "endMs": 379537,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "cold",
+    "startMs": 379637,
+    "endMs": 379958,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "with",
+    "startMs": 380338,
+    "endMs": 380458,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "little",
+    "startMs": 380579,
+    "endMs": 380859,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "or",
+    "startMs": 381120,
+    "endMs": 381180,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "no",
+    "startMs": 381340,
+    "endMs": 381480,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "vegetation.",
+    "startMs": 381600,
+    "endMs": 382202,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Do",
+    "startMs": 383782,
+    "endMs": 383862,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "You",
+    "startMs": 383942,
+    "endMs": 384062,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Know?",
+    "startMs": 384143,
+    "endMs": 384430,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Antarctica",
+    "startMs": 386430,
+    "endMs": 387183,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 387443,
+    "endMs": 387483,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 387583,
+    "endMs": 387663,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "driest,",
+    "startMs": 387763,
+    "endMs": 388344,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "coldest,",
+    "startMs": 388765,
+    "endMs": 389305,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 389766,
+    "endMs": 389826,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "windiest",
+    "startMs": 390026,
+    "endMs": 390547,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "continent",
+    "startMs": 390667,
+    "endMs": 391168,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "on",
+    "startMs": 391348,
+    "endMs": 391388,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth.",
+    "startMs": 391568,
+    "endMs": 391768,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "It",
+    "startMs": 392670,
+    "endMs": 392730,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "hasn’t",
+    "startMs": 392810,
+    "endMs": 393130,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "rained",
+    "startMs": 393210,
+    "endMs": 393511,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "there",
+    "startMs": 393591,
+    "endMs": 393811,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "in",
+    "startMs": 393971,
+    "endMs": 394011,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "millions",
+    "startMs": 394232,
+    "endMs": 394672,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 394752,
+    "endMs": 394792,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "years,",
+    "startMs": 394872,
+    "endMs": 395153,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "but",
+    "startMs": 396034,
+    "endMs": 396194,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "it’s",
+    "startMs": 396454,
+    "endMs": 396575,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "still",
+    "startMs": 396635,
+    "endMs": 396895,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "considered",
+    "startMs": 396995,
+    "endMs": 397496,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "a",
+    "startMs": 397556,
+    "endMs": 397576,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "desert",
+    "startMs": 397656,
+    "endMs": 398056,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "because",
+    "startMs": 398377,
+    "endMs": 398637,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 398697,
+    "endMs": 398737,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 398797,
+    "endMs": 398878,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "lack",
+    "startMs": 398958,
+    "endMs": 399138,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 399218,
+    "endMs": 399258,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "precipitation.",
+    "startMs": 399358,
+    "endMs": 400219,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Climatic",
+    "startMs": 401779,
+    "endMs": 402320,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Zones",
+    "startMs": 402461,
+    "endMs": 402822,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 402982,
+    "endMs": 403022,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 403122,
+    "endMs": 403223,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth.",
+    "startMs": 403363,
+    "endMs": 403733,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "The",
+    "startMs": 405733,
+    "endMs": 405877,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth",
+    "startMs": 406018,
+    "endMs": 406198,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 406298,
+    "endMs": 406358,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "divided",
+    "startMs": 406419,
+    "endMs": 406900,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "into",
+    "startMs": 407080,
+    "endMs": 407261,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "three",
+    "startMs": 407401,
+    "endMs": 407682,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "main",
+    "startMs": 407802,
+    "endMs": 408022,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "climatic",
+    "startMs": 408123,
+    "endMs": 408624,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "zones",
+    "startMs": 408744,
+    "endMs": 409085,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "based",
+    "startMs": 409446,
+    "endMs": 409727,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "on",
+    "startMs": 409827,
+    "endMs": 409867,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "latitude.",
+    "startMs": 409987,
+    "endMs": 410508,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Torrid",
+    "startMs": 412048,
+    "endMs": 412429,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Zone.",
+    "startMs": 412509,
+    "endMs": 412906,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Located",
+    "startMs": 414906,
+    "endMs": 415407,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "between",
+    "startMs": 415547,
+    "endMs": 415868,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 415948,
+    "endMs": 416008,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Tropic",
+    "startMs": 416088,
+    "endMs": 416409,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 416489,
+    "endMs": 416549,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Cancer",
+    "startMs": 416629,
+    "endMs": 417130,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 417511,
+    "endMs": 417611,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 417671,
+    "endMs": 417731,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Tropic",
+    "startMs": 417791,
+    "endMs": 418112,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 418192,
+    "endMs": 418232,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Capricorn.",
+    "startMs": 418352,
+    "endMs": 418913,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "It",
+    "startMs": 419735,
+    "endMs": 419775,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 419875,
+    "endMs": 419935,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 419995,
+    "endMs": 420075,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "hottest",
+    "startMs": 420216,
+    "endMs": 420616,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "zone",
+    "startMs": 420717,
+    "endMs": 420997,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "as",
+    "startMs": 421478,
+    "endMs": 421538,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "it",
+    "startMs": 421638,
+    "endMs": 421678,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "receives",
+    "startMs": 421758,
+    "endMs": 422179,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "direct",
+    "startMs": 422319,
+    "endMs": 422700,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "sunlight.",
+    "startMs": 422820,
+    "endMs": 423281,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Temperate",
+    "startMs": 424821,
+    "endMs": 425282,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Zone.",
+    "startMs": 425362,
+    "endMs": 425760,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Found",
+    "startMs": 427760,
+    "endMs": 428110,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "between",
+    "startMs": 428230,
+    "endMs": 428551,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 428611,
+    "endMs": 428691,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "tropics",
+    "startMs": 428752,
+    "endMs": 429253,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 429473,
+    "endMs": 429573,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 429634,
+    "endMs": 429694,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "polar",
+    "startMs": 429754,
+    "endMs": 430074,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "circles.",
+    "startMs": 430155,
+    "endMs": 430596,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "It",
+    "startMs": 431457,
+    "endMs": 431518,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "has",
+    "startMs": 431578,
+    "endMs": 431718,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "moderate",
+    "startMs": 431878,
+    "endMs": 432299,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "temperatures",
+    "startMs": 432379,
+    "endMs": 432981,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "with",
+    "startMs": 433161,
+    "endMs": 433301,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "distinct",
+    "startMs": 433402,
+    "endMs": 433903,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "seasons.",
+    "startMs": 434043,
+    "endMs": 434544,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Do",
+    "startMs": 436084,
+    "endMs": 436164,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "you",
+    "startMs": 436244,
+    "endMs": 436344,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "know?",
+    "startMs": 436384,
+    "endMs": 436636,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "There",
+    "startMs": 438636,
+    "endMs": 438784,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "are",
+    "startMs": 438844,
+    "endMs": 438924,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "different",
+    "startMs": 439024,
+    "endMs": 439385,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "types",
+    "startMs": 439425,
+    "endMs": 439685,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 439745,
+    "endMs": 439805,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "clouds",
+    "startMs": 439946,
+    "endMs": 440386,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "that",
+    "startMs": 440506,
+    "endMs": 440627,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "can",
+    "startMs": 440687,
+    "endMs": 440787,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "tell",
+    "startMs": 440887,
+    "endMs": 441047,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "you",
+    "startMs": 441087,
+    "endMs": 441167,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "about",
+    "startMs": 441267,
+    "endMs": 441468,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 441508,
+    "endMs": 441608,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "weather?",
+    "startMs": 441668,
+    "endMs": 441948,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "For",
+    "startMs": 442629,
+    "endMs": 442750,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "example,",
+    "startMs": 442850,
+    "endMs": 443310,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "cumulus",
+    "startMs": 443851,
+    "endMs": 444352,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "clouds",
+    "startMs": 444412,
+    "endMs": 444793,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "are",
+    "startMs": 444993,
+    "endMs": 445073,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "fluffy",
+    "startMs": 445193,
+    "endMs": 445574,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 445854,
+    "endMs": 445934,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "show",
+    "startMs": 446034,
+    "endMs": 446175,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "fair",
+    "startMs": 446355,
+    "endMs": 446595,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "weather,",
+    "startMs": 446655,
+    "endMs": 446956,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "while",
+    "startMs": 447436,
+    "endMs": 447617,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "nimbostratus",
+    "startMs": 447737,
+    "endMs": 448498,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "clouds",
+    "startMs": 448558,
+    "endMs": 448918,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "bring",
+    "startMs": 449119,
+    "endMs": 449319,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "rain",
+    "startMs": 449459,
+    "endMs": 449700,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "or",
+    "startMs": 450020,
+    "endMs": 450060,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "snow.",
+    "startMs": 450160,
+    "endMs": 450441,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Frigid",
+    "startMs": 452041,
+    "endMs": 452402,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Zone.",
+    "startMs": 452502,
+    "endMs": 452908,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Located",
+    "startMs": 454908,
+    "endMs": 455457,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "near",
+    "startMs": 455597,
+    "endMs": 455758,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 455838,
+    "endMs": 455918,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "poles.",
+    "startMs": 455978,
+    "endMs": 456399,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "It",
+    "startMs": 457221,
+    "endMs": 457282,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 457382,
+    "endMs": 457422,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 457502,
+    "endMs": 457562,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "coldest",
+    "startMs": 457723,
+    "endMs": 458224,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "zone",
+    "startMs": 458344,
+    "endMs": 458625,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "with",
+    "startMs": 458866,
+    "endMs": 459006,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "ice-covered",
+    "startMs": 459287,
+    "endMs": 459848,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "lands.",
+    "startMs": 459908,
+    "endMs": 460310,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Recall.",
+    "startMs": 461910,
+    "endMs": 462561,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Weather",
+    "startMs": 464561,
+    "endMs": 464948,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 465108,
+    "endMs": 465188,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "climate",
+    "startMs": 465288,
+    "endMs": 465768,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "are",
+    "startMs": 466029,
+    "endMs": 466129,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "essential",
+    "startMs": 466229,
+    "endMs": 466749,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "aspects",
+    "startMs": 466949,
+    "endMs": 467350,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 467430,
+    "endMs": 467490,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "our",
+    "startMs": 467610,
+    "endMs": 467690,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "environment.",
+    "startMs": 467790,
+    "endMs": 468331,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Many",
+    "startMs": 469432,
+    "endMs": 469652,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "factors,",
+    "startMs": 469732,
+    "endMs": 470252,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "such",
+    "startMs": 470693,
+    "endMs": 470893,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "as",
+    "startMs": 470953,
+    "endMs": 471013,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "latitude,",
+    "startMs": 471153,
+    "endMs": 471754,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "altitude,",
+    "startMs": 472234,
+    "endMs": 472754,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "wind,",
+    "startMs": 473275,
+    "endMs": 473555,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 474036,
+    "endMs": 474136,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "ocean",
+    "startMs": 474356,
+    "endMs": 474596,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "currents,",
+    "startMs": 474696,
+    "endMs": 475076,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "influence",
+    "startMs": 475517,
+    "endMs": 475997,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "climate.",
+    "startMs": 476077,
+    "endMs": 476478,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Different",
+    "startMs": 477579,
+    "endMs": 477939,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "regions",
+    "startMs": 478019,
+    "endMs": 478439,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "experience",
+    "startMs": 478580,
+    "endMs": 479140,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "different",
+    "startMs": 479280,
+    "endMs": 479620,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "types",
+    "startMs": 479700,
+    "endMs": 480001,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 480081,
+    "endMs": 480121,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "climates,",
+    "startMs": 480201,
+    "endMs": 480661,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "affecting",
+    "startMs": 481242,
+    "endMs": 481682,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 481742,
+    "endMs": 481822,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "way",
+    "startMs": 481882,
+    "endMs": 481982,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "people",
+    "startMs": 482083,
+    "endMs": 482363,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "live,",
+    "startMs": 482483,
+    "endMs": 482703,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 483264,
+    "endMs": 483344,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "food",
+    "startMs": 483424,
+    "endMs": 483644,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "they",
+    "startMs": 483724,
+    "endMs": 483844,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "grow",
+    "startMs": 483924,
+    "endMs": 484144,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 484645,
+    "endMs": 484745,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 484785,
+    "endMs": 484845,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "clothes",
+    "startMs": 484925,
+    "endMs": 485245,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "they",
+    "startMs": 485345,
+    "endMs": 485465,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "wear.",
+    "startMs": 485526,
+    "endMs": 485726,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Let's",
+    "startMs": 487286,
+    "endMs": 487546,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Remember.",
+    "startMs": 487626,
+    "endMs": 488218,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Weather",
+    "startMs": 490218,
+    "endMs": 490630,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 490930,
+    "endMs": 490970,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 491050,
+    "endMs": 491130,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "daily",
+    "startMs": 491230,
+    "endMs": 491570,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "atmospheric",
+    "startMs": 491730,
+    "endMs": 492311,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "condition",
+    "startMs": 492391,
+    "endMs": 492851,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 493071,
+    "endMs": 493111,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "a",
+    "startMs": 493211,
+    "endMs": 493231,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "place.",
+    "startMs": 493311,
+    "endMs": 493612,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Climate",
+    "startMs": 494512,
+    "endMs": 494993,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 495273,
+    "endMs": 495333,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 495393,
+    "endMs": 495473,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "average",
+    "startMs": 495693,
+    "endMs": 496013,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "weather",
+    "startMs": 496093,
+    "endMs": 496393,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "over",
+    "startMs": 496634,
+    "endMs": 496814,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "a",
+    "startMs": 496894,
+    "endMs": 496914,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "long",
+    "startMs": 497034,
+    "endMs": 497254,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "period.",
+    "startMs": 497374,
+    "endMs": 497754,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Latitude,",
+    "startMs": 498615,
+    "endMs": 499195,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "altitude,",
+    "startMs": 499776,
+    "endMs": 500316,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "distance",
+    "startMs": 500837,
+    "endMs": 501237,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "from",
+    "startMs": 501317,
+    "endMs": 501437,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 501517,
+    "endMs": 501597,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "sea,",
+    "startMs": 501677,
+    "endMs": 501877,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 502378,
+    "endMs": 502478,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "winds",
+    "startMs": 502638,
+    "endMs": 502978,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "influence",
+    "startMs": 503418,
+    "endMs": 503899,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "climate.",
+    "startMs": 503999,
+    "endMs": 504399,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "The",
+    "startMs": 505159,
+    "endMs": 505240,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "world",
+    "startMs": 505300,
+    "endMs": 505580,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "has",
+    "startMs": 505680,
+    "endMs": 505820,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "different",
+    "startMs": 505960,
+    "endMs": 506340,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "types",
+    "startMs": 506400,
+    "endMs": 506681,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 506741,
+    "endMs": 506781,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "climate,",
+    "startMs": 506881,
+    "endMs": 507281,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "including",
+    "startMs": 507721,
+    "endMs": 508182,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "tropical,",
+    "startMs": 508622,
+    "endMs": 509102,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "desert,",
+    "startMs": 509623,
+    "endMs": 510023,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 510383,
+    "endMs": 510483,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "tundra.",
+    "startMs": 510563,
+    "endMs": 510943,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "The",
+    "startMs": 511724,
+    "endMs": 511824,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth",
+    "startMs": 511964,
+    "endMs": 512124,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "has",
+    "startMs": 512224,
+    "endMs": 512364,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "three",
+    "startMs": 512565,
+    "endMs": 512785,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "climatic",
+    "startMs": 512865,
+    "endMs": 513365,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "zones:",
+    "startMs": 513465,
+    "endMs": 513805,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "torrid,",
+    "startMs": 514406,
+    "endMs": 514786,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "temperate,",
+    "startMs": 515326,
+    "endMs": 515827,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 516227,
+    "endMs": 516327,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "frigid.",
+    "startMs": 516447,
+    "endMs": 516787,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Word",
+    "startMs": 518327,
+    "endMs": 518567,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Bank.",
+    "startMs": 518667,
+    "endMs": 519098,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Word.",
+    "startMs": 521098,
+    "endMs": 521475,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Meaning.",
+    "startMs": 522336,
+    "endMs": 522696,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Humidity.",
+    "startMs": 523597,
+    "endMs": 524197,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "The",
+    "startMs": 524998,
+    "endMs": 525078,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "amount",
+    "startMs": 525198,
+    "endMs": 525518,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 525638,
+    "endMs": 525679,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "water",
+    "startMs": 525819,
+    "endMs": 526119,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "vapor",
+    "startMs": 526179,
+    "endMs": 526539,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "in",
+    "startMs": 526739,
+    "endMs": 526799,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 526879,
+    "endMs": 526979,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "air.",
+    "startMs": 527180,
+    "endMs": 527280,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Altitude.",
+    "startMs": 528320,
+    "endMs": 528861,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "The",
+    "startMs": 529461,
+    "endMs": 529561,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "height",
+    "startMs": 529641,
+    "endMs": 529882,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 529962,
+    "endMs": 530002,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "a",
+    "startMs": 530122,
+    "endMs": 530142,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "place",
+    "startMs": 530202,
+    "endMs": 530522,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "above",
+    "startMs": 530822,
+    "endMs": 531062,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "sea",
+    "startMs": 531183,
+    "endMs": 531363,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "level.",
+    "startMs": 531423,
+    "endMs": 531703,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Equator.",
+    "startMs": 532664,
+    "endMs": 533204,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "An",
+    "startMs": 533824,
+    "endMs": 533884,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "imaginary",
+    "startMs": 534045,
+    "endMs": 534665,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "line",
+    "startMs": 534765,
+    "endMs": 535045,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "dividing",
+    "startMs": 535366,
+    "endMs": 535846,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 535926,
+    "endMs": 536026,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth",
+    "startMs": 536166,
+    "endMs": 536366,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "into",
+    "startMs": 536606,
+    "endMs": 536807,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "two",
+    "startMs": 536927,
+    "endMs": 537087,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "halves.",
+    "startMs": 537227,
+    "endMs": 537607,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Monsoon.",
+    "startMs": 538588,
+    "endMs": 539128,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Seasonal",
+    "startMs": 539849,
+    "endMs": 540329,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "winds",
+    "startMs": 540449,
+    "endMs": 540749,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "that",
+    "startMs": 541030,
+    "endMs": 541150,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "bring",
+    "startMs": 541230,
+    "endMs": 541430,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "heavy",
+    "startMs": 541590,
+    "endMs": 541870,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "rain.",
+    "startMs": 541970,
+    "endMs": 542211,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Tundra.",
+    "startMs": 543151,
+    "endMs": 543572,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "A",
+    "startMs": 544172,
+    "endMs": 544192,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "cold",
+    "startMs": 544332,
+    "endMs": 544592,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "region",
+    "startMs": 544712,
+    "endMs": 545113,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "with",
+    "startMs": 545413,
+    "endMs": 545553,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "little",
+    "startMs": 545693,
+    "endMs": 545973,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "vegetation.",
+    "startMs": 546033,
+    "endMs": 546734,
+    "pageBreakAfter": true
+  }
+]

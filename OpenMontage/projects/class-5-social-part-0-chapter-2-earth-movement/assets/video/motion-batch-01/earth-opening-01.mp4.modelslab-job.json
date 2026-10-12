@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188298906",
+  "request_fingerprint": "3ea0d3675b36e04369ed67854c5eb8ea430d7173371865edb98eb044a8bb0f57",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-01\\earth-opening-01.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1790853586.9820929,
+  "last_poll_at_unix": 1790853957.7600722,
+  "completed_at_unix": 1790853959.775813
+}

@@ -1,0 +1,519 @@
+{
+  "section_id": "s04-spherical-earth",
+  "text": "Who proved that the earth is spherical? Many ancient civilizations believed that the Earth was flat. However, Greek philosopher Pythagoras was one of the first to suggest that the Earth is spherical. Later, Aristotle provided evidence by observing how ships disappear over the horizon and how the Earth's shadow on the Moon is curved during a lunar eclipse. Ferdinand Magellan's voyage around the world further confirmed that the Earth is round.",
+  "start_ms": 54316,
+  "end_ms": 87916,
+  "words": [
+    {
+      "word": "Who",
+      "start_ms": 54376,
+      "end_ms": 54516,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0039
+    },
+    {
+      "word": "proved",
+      "start_ms": 54676,
+      "end_ms": 55056,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1164
+    },
+    {
+      "word": "that",
+      "start_ms": 55197,
+      "end_ms": 55337,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.062
+    },
+    {
+      "word": "the",
+      "start_ms": 55377,
+      "end_ms": 55477,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0396
+    },
+    {
+      "word": "earth",
+      "start_ms": 55637,
+      "end_ms": 55817,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0385
+    },
+    {
+      "word": "is",
+      "start_ms": 55977,
+      "end_ms": 56037,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "spherical?",
+      "start_ms": 56097,
+      "end_ms": 56637,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0593
+    },
+    {
+      "word": "Many",
+      "start_ms": 58779,
+      "end_ms": 59019,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.146
+    },
+    {
+      "word": "ancient",
+      "start_ms": 59259,
+      "end_ms": 59579,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0098
+    },
+    {
+      "word": "civilizations",
+      "start_ms": 59659,
+      "end_ms": 60580,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0192
+    },
+    {
+      "word": "believed",
+      "start_ms": 60760,
+      "end_ms": 61180,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0473
+    },
+    {
+      "word": "that",
+      "start_ms": 61380,
+      "end_ms": 61520,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0038
+    },
+    {
+      "word": "the",
+      "start_ms": 61560,
+      "end_ms": 61680,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.2043
+    },
+    {
+      "word": "Earth",
+      "start_ms": 61820,
+      "end_ms": 62001,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0612
+    },
+    {
+      "word": "was",
+      "start_ms": 62101,
+      "end_ms": 62221,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0006
+    },
+    {
+      "word": "flat.",
+      "start_ms": 62381,
+      "end_ms": 62661,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0591
+    },
+    {
+      "word": "However,",
+      "start_ms": 63481,
+      "end_ms": 63882,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0004
+    },
+    {
+      "word": "Greek",
+      "start_ms": 64462,
+      "end_ms": 64702,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0941
+    },
+    {
+      "word": "philosopher",
+      "start_ms": 64782,
+      "end_ms": 65363,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0621
+    },
+    {
+      "word": "Pythagoras",
+      "start_ms": 65463,
+      "end_ms": 66203,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.4055
+    },
+    {
+      "word": "was",
+      "start_ms": 66623,
+      "end_ms": 66763,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0933
+    },
+    {
+      "word": "one",
+      "start_ms": 66863,
+      "end_ms": 66964,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1098
+    },
+    {
+      "word": "of",
+      "start_ms": 67004,
+      "end_ms": 67044,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "the",
+      "start_ms": 67104,
+      "end_ms": 67204,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.136
+    },
+    {
+      "word": "first",
+      "start_ms": 67324,
+      "end_ms": 67624,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0895
+    },
+    {
+      "word": "to",
+      "start_ms": 67744,
+      "end_ms": 67824,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "suggest",
+      "start_ms": 67884,
+      "end_ms": 68304,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0628
+    },
+    {
+      "word": "that",
+      "start_ms": 68544,
+      "end_ms": 68685,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0408
+    },
+    {
+      "word": "the",
+      "start_ms": 68725,
+      "end_ms": 68825,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.003
+    },
+    {
+      "word": "Earth",
+      "start_ms": 68965,
+      "end_ms": 69145,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0193
+    },
+    {
+      "word": "is",
+      "start_ms": 69285,
+      "end_ms": 69345,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "spherical.",
+      "start_ms": 69405,
+      "end_ms": 69905,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0802
+    },
+    {
+      "word": "Later,",
+      "start_ms": 70706,
+      "end_ms": 71046,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0021
+    },
+    {
+      "word": "Aristotle",
+      "start_ms": 71586,
+      "end_ms": 72147,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.068
+    },
+    {
+      "word": "provided",
+      "start_ms": 72227,
+      "end_ms": 72667,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0623
+    },
+    {
+      "word": "evidence",
+      "start_ms": 72867,
+      "end_ms": 73247,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "by",
+      "start_ms": 73567,
+      "end_ms": 73688,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "observing",
+      "start_ms": 73788,
+      "end_ms": 74248,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "how",
+      "start_ms": 74348,
+      "end_ms": 74468,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "ships",
+      "start_ms": 74668,
+      "end_ms": 74948,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0442
+    },
+    {
+      "word": "disappear",
+      "start_ms": 75048,
+      "end_ms": 75589,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0706
+    },
+    {
+      "word": "over",
+      "start_ms": 75769,
+      "end_ms": 75909,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0507
+    },
+    {
+      "word": "the",
+      "start_ms": 75969,
+      "end_ms": 76029,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "horizon",
+      "start_ms": 76089,
+      "end_ms": 76589,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0185
+    },
+    {
+      "word": "and",
+      "start_ms": 77130,
+      "end_ms": 77210,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "how",
+      "start_ms": 77270,
+      "end_ms": 77390,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0033
+    },
+    {
+      "word": "the",
+      "start_ms": 77490,
+      "end_ms": 77590,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0073
+    },
+    {
+      "word": "Earth's",
+      "start_ms": 77750,
+      "end_ms": 78010,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1011
+    },
+    {
+      "word": "shadow",
+      "start_ms": 78110,
+      "end_ms": 78450,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0457
+    },
+    {
+      "word": "on",
+      "start_ms": 78550,
+      "end_ms": 78590,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.008
+    },
+    {
+      "word": "the",
+      "start_ms": 78671,
+      "end_ms": 78731,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0007
+    },
+    {
+      "word": "Moon",
+      "start_ms": 78831,
+      "end_ms": 79051,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0007
+    },
+    {
+      "word": "is",
+      "start_ms": 79371,
+      "end_ms": 79431,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "curved",
+      "start_ms": 79611,
+      "end_ms": 79991,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0012
+    },
+    {
+      "word": "during",
+      "start_ms": 80171,
+      "end_ms": 80472,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.003
+    },
+    {
+      "word": "a",
+      "start_ms": 80532,
+      "end_ms": 80552,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0187
+    },
+    {
+      "word": "lunar",
+      "start_ms": 80632,
+      "end_ms": 80912,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0161
+    },
+    {
+      "word": "eclipse.",
+      "start_ms": 80992,
+      "end_ms": 81372,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1088
+    },
+    {
+      "word": "Ferdinand",
+      "start_ms": 82153,
+      "end_ms": 82613,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0067
+    },
+    {
+      "word": "Magellan's",
+      "start_ms": 82673,
+      "end_ms": 83213,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0979
+    },
+    {
+      "word": "voyage",
+      "start_ms": 83273,
+      "end_ms": 83653,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0852
+    },
+    {
+      "word": "around",
+      "start_ms": 83734,
+      "end_ms": 83954,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0098
+    },
+    {
+      "word": "the",
+      "start_ms": 84014,
+      "end_ms": 84114,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.2292
+    },
+    {
+      "word": "world",
+      "start_ms": 84154,
+      "end_ms": 84454,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.003
+    },
+    {
+      "word": "further",
+      "start_ms": 84794,
+      "end_ms": 85134,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.066
+    },
+    {
+      "word": "confirmed",
+      "start_ms": 85194,
+      "end_ms": 85755,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0024
+    },
+    {
+      "word": "that",
+      "start_ms": 85915,
+      "end_ms": 86035,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0004
+    },
+    {
+      "word": "the",
+      "start_ms": 86075,
+      "end_ms": 86175,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.047
+    },
+    {
+      "word": "Earth",
+      "start_ms": 86315,
+      "end_ms": 86495,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0013
+    },
+    {
+      "word": "is",
+      "start_ms": 86655,
+      "end_ms": 86735,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0605
+    },
+    {
+      "word": "round.",
+      "start_ms": 86835,
+      "end_ms": 87156,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0773
+    }
+  ],
+  "format_spec": {
+    "font_size": 64,
+    "highlight_color": "#FF8C42",
+    "background_color": "rgba(255,253,240,0.90)",
+    "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+    "font_weight": "700",
+    "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+    "key_terms": [
+      "s shadow on the moon is curved during a lunar eclipse. ferdinand magellan"
+    ],
+    "words_per_page": 6
+  },
+  "source_block_type": "concept",
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

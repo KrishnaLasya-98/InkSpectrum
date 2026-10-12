@@ -1,0 +1,311 @@
+{
+  "section_id": "s26-recall",
+  "text": "Recall. Weather and climate are essential aspects of our environment. Many factors, such as latitude, altitude, wind, and ocean currents, influence climate. Different regions experience different types of climates, affecting the way people live, the food they grow and the clothes they wear.",
+  "start_ms": 412480,
+  "end_ms": 435520,
+  "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\audio\\narration-elevenlabs-v1\\s26-recall.wav",
+  "words": [
+    {
+      "word": "Recall.",
+      "start_ms": 412580,
+      "end_ms": 413081,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0027
+    },
+    {
+      "word": "Weather",
+      "start_ms": 414121,
+      "end_ms": 414422,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0033
+    },
+    {
+      "word": "and",
+      "start_ms": 414582,
+      "end_ms": 414662,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "climate",
+      "start_ms": 414762,
+      "end_ms": 415242,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0086
+    },
+    {
+      "word": "are",
+      "start_ms": 415503,
+      "end_ms": 415603,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0057
+    },
+    {
+      "word": "essential",
+      "start_ms": 415703,
+      "end_ms": 416223,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0147
+    },
+    {
+      "word": "aspects",
+      "start_ms": 416423,
+      "end_ms": 416824,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0075
+    },
+    {
+      "word": "of",
+      "start_ms": 416904,
+      "end_ms": 416964,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0005
+    },
+    {
+      "word": "our",
+      "start_ms": 417084,
+      "end_ms": 417164,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0116
+    },
+    {
+      "word": "environment.",
+      "start_ms": 417264,
+      "end_ms": 417805,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0135
+    },
+    {
+      "word": "Many",
+      "start_ms": 418906,
+      "end_ms": 419126,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "factors,",
+      "start_ms": 419206,
+      "end_ms": 419726,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0161
+    },
+    {
+      "word": "such",
+      "start_ms": 420167,
+      "end_ms": 420367,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0746
+    },
+    {
+      "word": "as",
+      "start_ms": 420427,
+      "end_ms": 420487,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "latitude,",
+      "start_ms": 420627,
+      "end_ms": 421228,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0093
+    },
+    {
+      "word": "altitude,",
+      "start_ms": 421708,
+      "end_ms": 422228,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0407
+    },
+    {
+      "word": "wind,",
+      "start_ms": 422749,
+      "end_ms": 423029,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0236
+    },
+    {
+      "word": "and",
+      "start_ms": 423510,
+      "end_ms": 423610,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "ocean",
+      "start_ms": 423830,
+      "end_ms": 424070,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0846
+    },
+    {
+      "word": "currents,",
+      "start_ms": 424170,
+      "end_ms": 424550,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0325
+    },
+    {
+      "word": "influence",
+      "start_ms": 424991,
+      "end_ms": 425471,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0035
+    },
+    {
+      "word": "climate.",
+      "start_ms": 425551,
+      "end_ms": 425952,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0364
+    },
+    {
+      "word": "Different",
+      "start_ms": 427053,
+      "end_ms": 427413,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0166
+    },
+    {
+      "word": "regions",
+      "start_ms": 427493,
+      "end_ms": 427913,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0345
+    },
+    {
+      "word": "experience",
+      "start_ms": 428054,
+      "end_ms": 428614,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0131
+    },
+    {
+      "word": "different",
+      "start_ms": 428754,
+      "end_ms": 429094,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0051
+    },
+    {
+      "word": "types",
+      "start_ms": 429174,
+      "end_ms": 429475,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "of",
+      "start_ms": 429555,
+      "end_ms": 429595,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "climates,",
+      "start_ms": 429675,
+      "end_ms": 430135,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0576
+    },
+    {
+      "word": "affecting",
+      "start_ms": 430716,
+      "end_ms": 431156,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0026
+    },
+    {
+      "word": "the",
+      "start_ms": 431216,
+      "end_ms": 431296,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1016
+    },
+    {
+      "word": "way",
+      "start_ms": 431356,
+      "end_ms": 431456,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0004
+    },
+    {
+      "word": "people",
+      "start_ms": 431557,
+      "end_ms": 431837,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0092
+    },
+    {
+      "word": "live,",
+      "start_ms": 431957,
+      "end_ms": 432177,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0013
+    },
+    {
+      "word": "the",
+      "start_ms": 432738,
+      "end_ms": 432818,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0017
+    },
+    {
+      "word": "food",
+      "start_ms": 432898,
+      "end_ms": 433118,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0472
+    },
+    {
+      "word": "they",
+      "start_ms": 433198,
+      "end_ms": 433318,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0021
+    },
+    {
+      "word": "grow",
+      "start_ms": 433398,
+      "end_ms": 433618,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0064
+    },
+    {
+      "word": "and",
+      "start_ms": 434119,
+      "end_ms": 434219,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0053
+    },
+    {
+      "word": "the",
+      "start_ms": 434259,
+      "end_ms": 434319,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0029
+    },
+    {
+      "word": "clothes",
+      "start_ms": 434399,
+      "end_ms": 434719,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -2.0501
+    },
+    {
+      "word": "they",
+      "start_ms": 434819,
+      "end_ms": 434939,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0021
+    },
+    {
+      "word": "wear.",
+      "start_ms": 435000,
+      "end_ms": 435200,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0759
+    }
+  ],
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

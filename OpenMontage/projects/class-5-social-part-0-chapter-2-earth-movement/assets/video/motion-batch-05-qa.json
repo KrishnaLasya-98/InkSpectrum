@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "review_method": "Recovered files and five one-second sampled frames per shot; final full-frame temporal and composition review still required.",
+  "shots": [
+    {
+      "shot_id": "ship-horizon-natural-05",
+      "status": "accept_limited",
+      "evidence": "qa-previews/ship-horizon-natural-05-contact.jpg",
+      "observation": "One coherent animated sailing ship recedes toward a clean ocean horizon. No false globe or generated lettering appears. The sample does not clearly prove hull-first disappearance.",
+      "use_policy": "One short distance-to-horizon cue in s04 only; explain hull-first disappearance with an authored precise diagram, not this footage alone."
+    },
+    {
+      "shot_id": "bicycle-inertia-05",
+      "status": "reject_for_inertia",
+      "evidence": "qa-previews/bicycle-inertia-05-contact.jpg",
+      "observation": "A helmeted child cycles continuously, but no braking or forward-motion demonstration is visible. It cannot teach the textbook inertia claim by itself.",
+      "use_policy": "Do not map to s11 inertia; seek precise animation or a verified alternate clip."
+    },
+    {
+      "shot_id": "spring-park-05",
+      "status": "accept_limited",
+      "evidence": "qa-previews/spring-park-05-contact.jpg",
+      "observation": "Spring blossoms and drifting petals show coherent motion with no generated text.",
+      "use_policy": "One five-second spring cue in s08, with separately authored exact label."
+    }
+  ],
+  "production_approval": false
+}

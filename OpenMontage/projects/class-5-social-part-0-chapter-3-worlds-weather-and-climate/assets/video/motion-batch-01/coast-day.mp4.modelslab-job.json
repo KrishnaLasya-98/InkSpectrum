@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188617461",
+  "request_fingerprint": "82723cac411cd4d774a9ab5d86f812aa8bff10217ac18617ce83b7d56b4a46a2",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-01\\coast-day.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791283043.5523174,
+  "last_poll_at_unix": 1791283438.8928208,
+  "completed_at_unix": 1791283440.6294174
+}

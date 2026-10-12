@@ -1,0 +1,91 @@
+{
+  "project_id": "class-5-social-part-0-chapter-3-worlds-weather-and-climate",
+  "pipeline_type": "educational-video",
+  "project_dir": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate",
+  "stages": [
+    {
+      "name": "input_ingestion",
+      "status": "completed",
+      "human_approval_required": false,
+      "human_approved": false,
+      "error": null
+    },
+    {
+      "name": "proposal",
+      "status": "completed",
+      "human_approval_required": true,
+      "human_approved": true,
+      "error": null
+    },
+    {
+      "name": "content_structuring",
+      "status": "completed",
+      "human_approval_required": true,
+      "human_approved": true,
+      "error": null
+    },
+    {
+      "name": "scene_plan",
+      "status": "completed",
+      "human_approval_required": false,
+      "human_approved": false,
+      "error": null
+    },
+    {
+      "name": "media_research",
+      "status": "completed",
+      "human_approval_required": false,
+      "human_approved": false,
+      "error": null
+    },
+    {
+      "name": "assets",
+      "status": "completed",
+      "human_approval_required": true,
+      "human_approved": true,
+      "error": null
+    },
+    {
+      "name": "voice_synthesis",
+      "status": "completed",
+      "human_approval_required": false,
+      "human_approved": false,
+      "error": null
+    },
+    {
+      "name": "text_audio_alignment",
+      "status": "completed",
+      "human_approval_required": false,
+      "human_approved": false,
+      "error": null
+    },
+    {
+      "name": "render_clips",
+      "status": "completed",
+      "human_approval_required": false,
+      "human_approved": false,
+      "error": null
+    },
+    {
+      "name": "multimedia_synchronization",
+      "status": "completed",
+      "human_approval_required": false,
+      "human_approved": false,
+      "error": null
+    },
+    {
+      "name": "composition",
+      "status": "completed",
+      "human_approval_required": false,
+      "human_approved": false,
+      "error": null
+    },
+    {
+      "name": "quality_assurance",
+      "status": "completed",
+      "human_approval_required": true,
+      "human_approved": true,
+      "error": null
+    }
+  ]
+}

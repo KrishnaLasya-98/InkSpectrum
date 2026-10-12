@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188613056",
+  "request_fingerprint": "59a9efb402a38ca94d0f1dcb1011b2ea4dac7fa989d3f28f948f5239d7284c97",
+  "poll_endpoint": "video",
+  "model_id": "wan-2.2-i2v",
+  "operation": "image_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-12-sync-repair\\voyage-ship-12.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791277370.415919,
+  "last_poll_at_unix": 1791279721.46898,
+  "completed_at_unix": 1791279723.3895862
+}

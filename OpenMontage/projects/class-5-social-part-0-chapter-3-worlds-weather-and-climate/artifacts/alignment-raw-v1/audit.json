@@ -1,0 +1,218 @@
+[
+  {
+    "section_id": "s01-title",
+    "audio_sha256": "f07d374f5878c40f072b03f84a81d83e48536c01a108079e78bdea91c1dc3591",
+    "word_count": 10,
+    "low_score_words": []
+  },
+  {
+    "section_id": "s02-objectives",
+    "audio_sha256": "a12e6bcc87a71a33dd9bd6ea186996e7afc64de12ca1d017983f2c1b04558ed8",
+    "word_count": 53,
+    "low_score_words": []
+  },
+  {
+    "section_id": "s03-startup",
+    "audio_sha256": "8ee1284bf374cdbab4eae530e48dba821c4af3a5b8602babfbb159ce9935b56c",
+    "word_count": 54,
+    "low_score_words": []
+  },
+  {
+    "section_id": "s04-weather",
+    "audio_sha256": "14e658d60b11126001178d8d356d64358b96332063bc46f2b1472653f9fb57ca",
+    "word_count": 48,
+    "low_score_words": [
+      {
+        "word": "rain.",
+        "start_ms": 79519,
+        "end_ms": 79839,
+        "timing_basis": "ctc_forced_alignment",
+        "mean_log_probability": -3.8476
+      }
+    ]
+  },
+  {
+    "section_id": "s05-hot-desert-fact",
+    "audio_sha256": "db8f2ebdb4798d80af8492b47886d624f688403beb73b5a438b9d5c09378902b",
+    "word_count": 35,
+    "low_score_words": []
+  },
+  {
+    "section_id": "s06-climate",
+    "audio_sha256": "c1a520c60c9c407fdcfbb484f1deacd464501f7efdc88c13d02237d78737ab1f",
+    "word_count": 55,
+    "low_score_words": []
+  },
+  {
+    "section_id": "s07-factors",
+    "audio_sha256": "3fbbd95e482558b4a79c2fe656acf2d66c887aaee36ee43cc1344e0682f1d310",
+    "word_count": 18,
+    "low_score_words": [
+      {
+        "word": "one.",
+        "start_ms": 133059,
+        "end_ms": 133199,
+        "timing_basis": "ctc_forced_alignment",
+        "mean_log_probability": -4.4253
+      }
+    ]
+  },
+  {
+    "section_id": "s08-latitude",
+    "audio_sha256": "1a720d0737e54f9bf8bcef21bebdd2890833b428be8e33a3a0bf8ce41f65668d",
+    "word_count": 52,
+    "low_score_words": []
+  },
+  {
+    "section_id": "s09-altitude",
+    "audio_sha256": "d7de750066673331cf2abc834a0d9f961120feb0fef3af4adb0d6f7433721810",
+    "word_count": 37,
+    "low_score_words": [
+      {
+        "word": "latitude.",
+        "start_ms": 178198,
+        "end_ms": 178799,
+        "timing_basis": "ctc_forced_alignment",
+        "mean_log_probability": -2.7825
+      }
+    ]
+  },
+  {
+    "section_id": "s10-sea-land-breeze",
+    "audio_sha256": "25f644f8f12ff36867ae9291efc6c53e71ca7a52a08fe5355ce5cf7868cb9500",
+    "word_count": 81,
+    "low_score_words": []
+  },
+  {
+    "section_id": "s11-wind",
+    "audio_sha256": "71327065cc0838e226bf0e9c3220a656ddb533bebebedc65de1e4b96677c3eed",
+    "word_count": 38,
+    "low_score_words": []
+  },
+  {
+    "section_id": "s12-humidity",
+    "audio_sha256": "a91efe8f90b63ad48d95518fead9b958136965800a251631c305432339749440",
+    "word_count": 33,
+    "low_score_words": []
+  },
+  {
+    "section_id": "s13-currents",
+    "audio_sha256": "7d3478b76da4cf2bea171f244c1363ff3c5b637cd12e1adb42def17a2ac48c08",
+    "word_count": 39,
+    "low_score_words": []
+  },
+  {
+    "section_id": "s14-rainforest-fact",
+    "audio_sha256": "ad67f067f68c87eb68dd83f6892c0a777eeab75b2077b6949e84d8168d1d2367",
+    "word_count": 34,
+    "low_score_words": []
+  },
+  {
+    "section_id": "s15-climate-types",
+    "audio_sha256": "1b9b337bc6e4b444a839711ecf2f65c1787d87792b07c73602007f067279fd59",
+    "word_count": 19,
+    "low_score_words": []
+  },
+  {
+    "section_id": "s16-monsoon",
+    "audio_sha256": "5380489a21d8b9999a94d4d2a337aeed7771b1e34089e74b02f289d10d5063e0",
+    "word_count": 27,
+    "low_score_words": [
+      {
+        "word": "season.",
+        "start_ms": 310258,
+        "end_ms": 310679,
+        "timing_basis": "ctc_forced_alignment",
+        "mean_log_probability": -2.678
+      }
+    ]
+  },
+  {
+    "section_id": "s17-equatorial",
+    "audio_sha256": "be091d7af0d6341fb7c5332639b307e9664ba11844b4d550b177660a78cf65c9",
+    "word_count": 26,
+    "low_score_words": []
+  },
+  {
+    "section_id": "s18-desert",
+    "audio_sha256": "3c18e8d9c57791f55b3ec3596cd44944230eb5121a22c903b07c938774a996c1",
+    "word_count": 23,
+    "low_score_words": []
+  },
+  {
+    "section_id": "s19-tundra",
+    "audio_sha256": "0ab2a028797b7094919b30217dd5ed67c22e71cf6d5f59af75997e106916a651",
+    "word_count": 21,
+    "low_score_words": []
+  },
+  {
+    "section_id": "s20-antarctica-fact",
+    "audio_sha256": "7aaaf15ead247ae5bd305ee89f9c2571a5accca7e786767879b925f59e427a46",
+    "word_count": 33,
+    "low_score_words": []
+  },
+  {
+    "section_id": "s21-zones",
+    "audio_sha256": "62ded15062ead2d822c96a9bfa21b57f901805fb0fb66d62d0402c59124a5cbe",
+    "word_count": 17,
+    "low_score_words": []
+  },
+  {
+    "section_id": "s22-torrid",
+    "audio_sha256": "f3dc6fb840c0169aa9fa0c45fcb9d6b3e7943015495a4cd4aadbef835c2f7960",
+    "word_count": 23,
+    "low_score_words": []
+  },
+  {
+    "section_id": "s23-temperate",
+    "audio_sha256": "fe3d17cadf4f314b2aa55a486b54f1cbb51558ac35a20ca6844ba14dafb4bcab",
+    "word_count": 17,
+    "low_score_words": []
+  },
+  {
+    "section_id": "s24-cloud-fact",
+    "audio_sha256": "e28d00f06e1db753f3b83148397667113379d4b105a7e387c175bcf9d95afbbe",
+    "word_count": 33,
+    "low_score_words": []
+  },
+  {
+    "section_id": "s25-frigid",
+    "audio_sha256": "9a09ea73252e8f0b7d73bed50046c17feba5a7ed280bff110c6717cd53ec2118",
+    "word_count": 14,
+    "low_score_words": [
+      {
+        "word": "lands.",
+        "start_ms": 411517,
+        "end_ms": 411919,
+        "timing_basis": "ctc_forced_alignment",
+        "mean_log_probability": -2.577
+      }
+    ]
+  },
+  {
+    "section_id": "s26-recall",
+    "audio_sha256": "90c553714e038243e06d6a2dc4a3c95a648f152be1cf33062e09e40bb865fe1b",
+    "word_count": 43,
+    "low_score_words": []
+  },
+  {
+    "section_id": "s27-remember",
+    "audio_sha256": "d6365c7d67601335f53a95da6e2f2f17a103422effed6bbc7fff337c0a36e1dd",
+    "word_count": 52,
+    "low_score_words": []
+  },
+  {
+    "section_id": "s28-wordbank",
+    "audio_sha256": "bbaf35d1d751718a8ce4ecbf24880a6b0f88350ed04c3ab9455bfa78ae17dd84",
+    "word_count": 46,
+    "low_score_words": [
+      {
+        "word": "vegetation.",
+        "start_ms": 491379,
+        "end_ms": 492080,
+        "timing_basis": "ctc_forced_alignment",
+        "mean_log_probability": -2.5136
+      }
+    ]
+  }
+]

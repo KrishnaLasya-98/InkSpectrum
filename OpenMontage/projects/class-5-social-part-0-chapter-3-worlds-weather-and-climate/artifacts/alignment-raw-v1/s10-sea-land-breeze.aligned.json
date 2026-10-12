@@ -1,0 +1,577 @@
+{
+  "section_id": "s10-sea-land-breeze",
+  "text": "Distance from the Sea (Sea Breeze and Land Breeze). Oceans and seas influence the climate of coastal areas. Water heats up and cools down more slowly than land. During the day, land heats up faster than water, causing a sea breeze to blow from the sea to the land. At night, the land cools down quickly, and a land breeze blows from land to the sea. This keeps coastal areas cooler in summer and warmer in winter compared to inland regions.",
+  "start_ms": 179760,
+  "end_ms": 214880,
+  "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\audio\\narration-elevenlabs-v1\\s10-sea-land-breeze.wav",
+  "words": [
+    {
+      "word": "Distance",
+      "start_ms": 179840,
+      "end_ms": 180260,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0024
+    },
+    {
+      "word": "from",
+      "start_ms": 180360,
+      "end_ms": 180520,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.007
+    },
+    {
+      "word": "the",
+      "start_ms": 180600,
+      "end_ms": 180661,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0004
+    },
+    {
+      "word": "Sea",
+      "start_ms": 180741,
+      "end_ms": 180941,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0193
+    },
+    {
+      "word": "(Sea",
+      "start_ms": 181741,
+      "end_ms": 181941,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0693
+    },
+    {
+      "word": "Breeze",
+      "start_ms": 182041,
+      "end_ms": 182381,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0217
+    },
+    {
+      "word": "and",
+      "start_ms": 182682,
+      "end_ms": 182802,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.015
+    },
+    {
+      "word": "Land",
+      "start_ms": 182882,
+      "end_ms": 183122,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0734
+    },
+    {
+      "word": "Breeze).",
+      "start_ms": 183222,
+      "end_ms": 183522,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0635
+    },
+    {
+      "word": "Oceans",
+      "start_ms": 184663,
+      "end_ms": 185043,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0195
+    },
+    {
+      "word": "and",
+      "start_ms": 185203,
+      "end_ms": 185303,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0354
+    },
+    {
+      "word": "seas",
+      "start_ms": 185423,
+      "end_ms": 185763,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1412
+    },
+    {
+      "word": "influence",
+      "start_ms": 186084,
+      "end_ms": 186544,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0409
+    },
+    {
+      "word": "the",
+      "start_ms": 186624,
+      "end_ms": 186704,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0052
+    },
+    {
+      "word": "climate",
+      "start_ms": 186764,
+      "end_ms": 187164,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0634
+    },
+    {
+      "word": "of",
+      "start_ms": 187284,
+      "end_ms": 187324,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "coastal",
+      "start_ms": 187464,
+      "end_ms": 187825,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0606
+    },
+    {
+      "word": "areas.",
+      "start_ms": 187945,
+      "end_ms": 188305,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0244
+    },
+    {
+      "word": "Water",
+      "start_ms": 189345,
+      "end_ms": 189666,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0045
+    },
+    {
+      "word": "heats",
+      "start_ms": 189746,
+      "end_ms": 190026,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0006
+    },
+    {
+      "word": "up",
+      "start_ms": 190206,
+      "end_ms": 190266,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "and",
+      "start_ms": 190546,
+      "end_ms": 190646,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0114
+    },
+    {
+      "word": "cools",
+      "start_ms": 190746,
+      "end_ms": 191066,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0291
+    },
+    {
+      "word": "down",
+      "start_ms": 191146,
+      "end_ms": 191367,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0009
+    },
+    {
+      "word": "more",
+      "start_ms": 191527,
+      "end_ms": 191727,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0019
+    },
+    {
+      "word": "slowly",
+      "start_ms": 191807,
+      "end_ms": 192227,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0109
+    },
+    {
+      "word": "than",
+      "start_ms": 192347,
+      "end_ms": 192467,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "land.",
+      "start_ms": 192567,
+      "end_ms": 192847,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0668
+    },
+    {
+      "word": "During",
+      "start_ms": 193728,
+      "end_ms": 194028,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.01
+    },
+    {
+      "word": "the",
+      "start_ms": 194088,
+      "end_ms": 194168,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "day,",
+      "start_ms": 194228,
+      "end_ms": 194428,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0027
+    },
+    {
+      "word": "land",
+      "start_ms": 195049,
+      "end_ms": 195309,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1259
+    },
+    {
+      "word": "heats",
+      "start_ms": 195409,
+      "end_ms": 195669,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0073
+    },
+    {
+      "word": "up",
+      "start_ms": 195789,
+      "end_ms": 195849,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0005
+    },
+    {
+      "word": "faster",
+      "start_ms": 196009,
+      "end_ms": 196429,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0263
+    },
+    {
+      "word": "than",
+      "start_ms": 196490,
+      "end_ms": 196590,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "water,",
+      "start_ms": 196670,
+      "end_ms": 196990,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0468
+    },
+    {
+      "word": "causing",
+      "start_ms": 197530,
+      "end_ms": 197870,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0041
+    },
+    {
+      "word": "a",
+      "start_ms": 197930,
+      "end_ms": 197950,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0004
+    },
+    {
+      "word": "sea",
+      "start_ms": 198050,
+      "end_ms": 198231,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1984
+    },
+    {
+      "word": "breeze",
+      "start_ms": 198331,
+      "end_ms": 198631,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0379
+    },
+    {
+      "word": "to",
+      "start_ms": 198731,
+      "end_ms": 198831,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "blow",
+      "start_ms": 198911,
+      "end_ms": 199131,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "from",
+      "start_ms": 199211,
+      "end_ms": 199351,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0298
+    },
+    {
+      "word": "the",
+      "start_ms": 199411,
+      "end_ms": 199491,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0043
+    },
+    {
+      "word": "sea",
+      "start_ms": 199571,
+      "end_ms": 199751,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0392
+    },
+    {
+      "word": "to",
+      "start_ms": 200012,
+      "end_ms": 200112,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.023
+    },
+    {
+      "word": "the",
+      "start_ms": 200172,
+      "end_ms": 200252,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0417
+    },
+    {
+      "word": "land.",
+      "start_ms": 200312,
+      "end_ms": 200572,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0008
+    },
+    {
+      "word": "At",
+      "start_ms": 201472,
+      "end_ms": 201532,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0792
+    },
+    {
+      "word": "night,",
+      "start_ms": 201652,
+      "end_ms": 201933,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0718
+    },
+    {
+      "word": "the",
+      "start_ms": 202453,
+      "end_ms": 202533,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.2056
+    },
+    {
+      "word": "land",
+      "start_ms": 202593,
+      "end_ms": 202833,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0757
+    },
+    {
+      "word": "cools",
+      "start_ms": 202993,
+      "end_ms": 203293,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0016
+    },
+    {
+      "word": "down",
+      "start_ms": 203373,
+      "end_ms": 203574,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0056
+    },
+    {
+      "word": "quickly,",
+      "start_ms": 203694,
+      "end_ms": 204054,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.065
+    },
+    {
+      "word": "and",
+      "start_ms": 204594,
+      "end_ms": 204694,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0105
+    },
+    {
+      "word": "a",
+      "start_ms": 204774,
+      "end_ms": 204794,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0013
+    },
+    {
+      "word": "land",
+      "start_ms": 204874,
+      "end_ms": 205134,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.085
+    },
+    {
+      "word": "breeze",
+      "start_ms": 205235,
+      "end_ms": 205535,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0162
+    },
+    {
+      "word": "blows",
+      "start_ms": 205675,
+      "end_ms": 205955,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0661
+    },
+    {
+      "word": "from",
+      "start_ms": 206035,
+      "end_ms": 206175,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "land",
+      "start_ms": 206275,
+      "end_ms": 206535,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0053
+    },
+    {
+      "word": "to",
+      "start_ms": 206835,
+      "end_ms": 206915,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0052
+    },
+    {
+      "word": "the",
+      "start_ms": 206996,
+      "end_ms": 207076,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0258
+    },
+    {
+      "word": "sea.",
+      "start_ms": 207136,
+      "end_ms": 207316,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "This",
+      "start_ms": 208096,
+      "end_ms": 208256,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0969
+    },
+    {
+      "word": "keeps",
+      "start_ms": 208376,
+      "end_ms": 208636,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0292
+    },
+    {
+      "word": "coastal",
+      "start_ms": 208737,
+      "end_ms": 209137,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1329
+    },
+    {
+      "word": "areas",
+      "start_ms": 209297,
+      "end_ms": 209597,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0044
+    },
+    {
+      "word": "cooler",
+      "start_ms": 209737,
+      "end_ms": 210077,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0517
+    },
+    {
+      "word": "in",
+      "start_ms": 210177,
+      "end_ms": 210237,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0654
+    },
+    {
+      "word": "summer",
+      "start_ms": 210337,
+      "end_ms": 210638,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0478
+    },
+    {
+      "word": "and",
+      "start_ms": 211038,
+      "end_ms": 211138,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0036
+    },
+    {
+      "word": "warmer",
+      "start_ms": 211238,
+      "end_ms": 211618,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0016
+    },
+    {
+      "word": "in",
+      "start_ms": 211718,
+      "end_ms": 211778,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0083
+    },
+    {
+      "word": "winter",
+      "start_ms": 211878,
+      "end_ms": 212238,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0388
+    },
+    {
+      "word": "compared",
+      "start_ms": 212639,
+      "end_ms": 213039,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0016
+    },
+    {
+      "word": "to",
+      "start_ms": 213079,
+      "end_ms": 213159,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0082
+    },
+    {
+      "word": "inland",
+      "start_ms": 213299,
+      "end_ms": 213639,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0037
+    },
+    {
+      "word": "regions.",
+      "start_ms": 213719,
+      "end_ms": 214180,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -2.1506
+    }
+  ],
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

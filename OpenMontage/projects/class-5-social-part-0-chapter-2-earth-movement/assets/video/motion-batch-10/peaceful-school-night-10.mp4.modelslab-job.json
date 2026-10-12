@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188346077",
+  "request_fingerprint": "86d862c9e05fa0fdd58abdd3f0bd6632294d7082062e6cc671606c7ee18f1e6a",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-10\\peaceful-school-night-10.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1790915135.1281753,
+  "last_poll_at_unix": 1790915345.6883254,
+  "completed_at_unix": 1790915348.144135
+}

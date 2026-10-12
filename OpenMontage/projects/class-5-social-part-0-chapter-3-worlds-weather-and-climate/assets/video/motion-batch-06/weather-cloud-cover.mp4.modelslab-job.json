@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188664284",
+  "request_fingerprint": "1387d409c055d999daf49eb3301984b64c1c532aca037bf0b15a30b05aa0e317",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-06\\weather-cloud-cover.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791353158.3982816,
+  "last_poll_at_unix": 1791353238.7849197,
+  "completed_at_unix": 1791353240.7774274
+}

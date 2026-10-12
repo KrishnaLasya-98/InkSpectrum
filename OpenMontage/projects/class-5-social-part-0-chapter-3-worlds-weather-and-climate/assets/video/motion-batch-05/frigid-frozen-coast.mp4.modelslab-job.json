@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "terminal_failed",
+  "request_id": "188662875",
+  "request_fingerprint": "76cb3f54f91bf653d43b200fa3a9358e9fa23ae1b0fc50d5f98dbc89b387ca89",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\frigid-frozen-coast.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791351174.9273577,
+  "provider_status": "failed",
+  "failed_at_unix": 1791353078.001445
+}

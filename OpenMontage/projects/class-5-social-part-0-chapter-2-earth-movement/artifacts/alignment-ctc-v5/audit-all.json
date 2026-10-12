@@ -1,0 +1,116 @@
+[
+  {
+    "section_id": "s01-title",
+    "words": 8,
+    "duration": 7.245125,
+    "low_score_words": []
+  },
+  {
+    "section_id": "s02-objectives",
+    "words": 53,
+    "duration": 28.915875,
+    "low_score_words": []
+  },
+  {
+    "section_id": "s03-startup",
+    "words": 32,
+    "duration": 18.154625,
+    "low_score_words": []
+  },
+  {
+    "section_id": "s04-spherical-earth",
+    "words": 71,
+    "duration": 33.60004166666667,
+    "low_score_words": []
+  },
+  {
+    "section_id": "s05-two-movements",
+    "words": 28,
+    "duration": 16.602625,
+    "low_score_words": []
+  },
+  {
+    "section_id": "s06-rotation",
+    "words": 113,
+    "duration": 51.01391666666667,
+    "low_score_words": []
+  },
+  {
+    "section_id": "s07-do-you-know",
+    "words": 28,
+    "duration": 13.640875,
+    "low_score_words": [
+      {
+        "word": "it!",
+        "start_ms": 168392,
+        "end_ms": 168512,
+        "timing_basis": "ctc_forced_alignment",
+        "mean_log_probability": -4.3685
+      }
+    ]
+  },
+  {
+    "section_id": "s08-revolution",
+    "words": 114,
+    "duration": 56.21129166666667,
+    "low_score_words": []
+  },
+  {
+    "section_id": "s09-day-length",
+    "words": 33,
+    "duration": 15.849625,
+    "low_score_words": [
+      {
+        "word": "time.",
+        "start_ms": 240173,
+        "end_ms": 240493,
+        "timing_basis": "ctc_forced_alignment",
+        "mean_log_probability": -4.16
+      }
+    ]
+  },
+  {
+    "section_id": "s10-solstice",
+    "words": 119,
+    "duration": 51.05795833333333,
+    "low_score_words": []
+  },
+  {
+    "section_id": "s11-inertia",
+    "words": 36,
+    "duration": 17.1065,
+    "low_score_words": [
+      {
+        "word": "down!",
+        "start_ms": 308278,
+        "end_ms": 308618,
+        "timing_basis": "ctc_forced_alignment",
+        "mean_log_probability": -3.7973
+      }
+    ]
+  },
+  {
+    "section_id": "s12-equinox",
+    "words": 73,
+    "duration": 35.35995833333333,
+    "low_score_words": []
+  },
+  {
+    "section_id": "s13-recall",
+    "words": 43,
+    "duration": 24.68375,
+    "low_score_words": []
+  },
+  {
+    "section_id": "s14-remember",
+    "words": 64,
+    "duration": 34.44225,
+    "low_score_words": []
+  },
+  {
+    "section_id": "s15-wordbank",
+    "words": 46,
+    "duration": 24.94975,
+    "low_score_words": []
+  }
+]

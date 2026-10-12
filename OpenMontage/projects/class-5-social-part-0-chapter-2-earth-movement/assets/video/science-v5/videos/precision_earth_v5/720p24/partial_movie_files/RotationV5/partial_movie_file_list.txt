@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/InkSpectrum/OpenMontage/projects/class-5-social-part-0-chapter-2-earth-movement/assets/video/science-v5/videos/precision_earth_v5/720p24/partial_movie_files/RotationV5/uncached_00000.mp4'
+file 'file:D:/InkSpectrum/OpenMontage/projects/class-5-social-part-0-chapter-2-earth-movement/assets/video/science-v5/videos/precision_earth_v5/720p24/partial_movie_files/RotationV5/uncached_00001.mp4'
+file 'file:D:/InkSpectrum/OpenMontage/projects/class-5-social-part-0-chapter-2-earth-movement/assets/video/science-v5/videos/precision_earth_v5/720p24/partial_movie_files/RotationV5/uncached_00002.mp4'
+file 'file:D:/InkSpectrum/OpenMontage/projects/class-5-social-part-0-chapter-2-earth-movement/assets/video/science-v5/videos/precision_earth_v5/720p24/partial_movie_files/RotationV5/uncached_00003.mp4'
+file 'file:D:/InkSpectrum/OpenMontage/projects/class-5-social-part-0-chapter-2-earth-movement/assets/video/science-v5/videos/precision_earth_v5/720p24/partial_movie_files/RotationV5/uncached_00004.mp4'
+file 'file:D:/InkSpectrum/OpenMontage/projects/class-5-social-part-0-chapter-2-earth-movement/assets/video/science-v5/videos/precision_earth_v5/720p24/partial_movie_files/RotationV5/uncached_00005.mp4'

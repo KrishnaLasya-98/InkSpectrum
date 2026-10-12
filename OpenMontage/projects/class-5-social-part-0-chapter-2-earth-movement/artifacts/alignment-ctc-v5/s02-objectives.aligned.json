@@ -1,0 +1,391 @@
+{
+  "section_id": "s02-objectives",
+  "text": "Learning Objectives. By the end of this chapter, learners will be able to: Understand that the Earth is spherical. Identify the two types of movements of the Earth. Explain rotation and its effects. Understand revolution and its effects. Learn about different seasons caused by revolution. Define solstices and equinoxes and when they occur.",
+  "start_ms": 7245,
+  "end_ms": 36161,
+  "words": [
+    {
+      "word": "Learning",
+      "start_ms": 7305,
+      "end_ms": 7645,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0368
+    },
+    {
+      "word": "Objectives.",
+      "start_ms": 7785,
+      "end_ms": 8386,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0136
+    },
+    {
+      "word": "By",
+      "start_ms": 10547,
+      "end_ms": 10647,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "the",
+      "start_ms": 10727,
+      "end_ms": 10827,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1322
+    },
+    {
+      "word": "end",
+      "start_ms": 10947,
+      "end_ms": 11047,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0158
+    },
+    {
+      "word": "of",
+      "start_ms": 11147,
+      "end_ms": 11187,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "this",
+      "start_ms": 11267,
+      "end_ms": 11407,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0014
+    },
+    {
+      "word": "chapter,",
+      "start_ms": 11507,
+      "end_ms": 11908,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0044
+    },
+    {
+      "word": "learners",
+      "start_ms": 12508,
+      "end_ms": 12888,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1128
+    },
+    {
+      "word": "will",
+      "start_ms": 12928,
+      "end_ms": 13108,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0558
+    },
+    {
+      "word": "be",
+      "start_ms": 13168,
+      "end_ms": 13228,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "able",
+      "start_ms": 13388,
+      "end_ms": 13608,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0023
+    },
+    {
+      "word": "to:",
+      "start_ms": 13689,
+      "end_ms": 13809,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "Understand",
+      "start_ms": 14689,
+      "end_ms": 15229,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0321
+    },
+    {
+      "word": "that",
+      "start_ms": 15450,
+      "end_ms": 15610,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0709
+    },
+    {
+      "word": "the",
+      "start_ms": 15650,
+      "end_ms": 15750,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0024
+    },
+    {
+      "word": "Earth",
+      "start_ms": 15910,
+      "end_ms": 16090,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0068
+    },
+    {
+      "word": "is",
+      "start_ms": 16350,
+      "end_ms": 16430,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0192
+    },
+    {
+      "word": "spherical.",
+      "start_ms": 16450,
+      "end_ms": 16990,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1004
+    },
+    {
+      "word": "Identify",
+      "start_ms": 17831,
+      "end_ms": 18471,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0365
+    },
+    {
+      "word": "the",
+      "start_ms": 18611,
+      "end_ms": 18711,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0037
+    },
+    {
+      "word": "two",
+      "start_ms": 18811,
+      "end_ms": 18951,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0184
+    },
+    {
+      "word": "types",
+      "start_ms": 19071,
+      "end_ms": 19352,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.093
+    },
+    {
+      "word": "of",
+      "start_ms": 19432,
+      "end_ms": 19472,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "movements",
+      "start_ms": 19612,
+      "end_ms": 20092,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0716
+    },
+    {
+      "word": "of",
+      "start_ms": 20272,
+      "end_ms": 20312,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0005
+    },
+    {
+      "word": "the",
+      "start_ms": 20412,
+      "end_ms": 20512,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1664
+    },
+    {
+      "word": "Earth.",
+      "start_ms": 20632,
+      "end_ms": 20812,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0144
+    },
+    {
+      "word": "Explain",
+      "start_ms": 21673,
+      "end_ms": 22073,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0016
+    },
+    {
+      "word": "rotation",
+      "start_ms": 22193,
+      "end_ms": 22774,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0823
+    },
+    {
+      "word": "and",
+      "start_ms": 23114,
+      "end_ms": 23194,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "its",
+      "start_ms": 23274,
+      "end_ms": 23394,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0138
+    },
+    {
+      "word": "effects.",
+      "start_ms": 23454,
+      "end_ms": 23854,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0255
+    },
+    {
+      "word": "Understand",
+      "start_ms": 24695,
+      "end_ms": 25215,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0068
+    },
+    {
+      "word": "revolution",
+      "start_ms": 25395,
+      "end_ms": 26035,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0369
+    },
+    {
+      "word": "and",
+      "start_ms": 26355,
+      "end_ms": 26436,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "its",
+      "start_ms": 26616,
+      "end_ms": 26756,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0244
+    },
+    {
+      "word": "effects.",
+      "start_ms": 26836,
+      "end_ms": 27216,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0012
+    },
+    {
+      "word": "Learn",
+      "start_ms": 28056,
+      "end_ms": 28277,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0486
+    },
+    {
+      "word": "about",
+      "start_ms": 28357,
+      "end_ms": 28597,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0011
+    },
+    {
+      "word": "different",
+      "start_ms": 28697,
+      "end_ms": 29057,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0326
+    },
+    {
+      "word": "seasons",
+      "start_ms": 29157,
+      "end_ms": 29637,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0012
+    },
+    {
+      "word": "caused",
+      "start_ms": 29877,
+      "end_ms": 30198,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0024
+    },
+    {
+      "word": "by",
+      "start_ms": 30298,
+      "end_ms": 30418,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "revolution.",
+      "start_ms": 30518,
+      "end_ms": 31098,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0455
+    },
+    {
+      "word": "Define",
+      "start_ms": 31839,
+      "end_ms": 32219,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0867
+    },
+    {
+      "word": "solstices",
+      "start_ms": 32339,
+      "end_ms": 33019,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.2013
+    },
+    {
+      "word": "and",
+      "start_ms": 33199,
+      "end_ms": 33279,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "equinoxes",
+      "start_ms": 33459,
+      "end_ms": 34140,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0172
+    },
+    {
+      "word": "and",
+      "start_ms": 34480,
+      "end_ms": 34560,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "when",
+      "start_ms": 34660,
+      "end_ms": 34820,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0017
+    },
+    {
+      "word": "they",
+      "start_ms": 34900,
+      "end_ms": 35040,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0933
+    },
+    {
+      "word": "occur.",
+      "start_ms": 35160,
+      "end_ms": 35400,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0022
+    }
+  ],
+  "format_spec": {
+    "font_size": 64,
+    "highlight_color": "#FF8C42",
+    "background_color": "rgba(255,253,240,0.90)",
+    "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+    "font_weight": "700",
+    "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+    "key_terms": [],
+    "words_per_page": 6
+  },
+  "source_block_type": "concept",
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

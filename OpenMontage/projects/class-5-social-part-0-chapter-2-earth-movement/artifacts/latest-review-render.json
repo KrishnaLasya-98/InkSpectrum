@@ -1,0 +1,9 @@
+{
+  "version": "1.0",
+  "status": "review_ready",
+  "path": "D:/InkSpectrum/OpenMontage/final-videos/Class-5-Social/Class-5-Social-Chapter-02-Earth-Movement.mp4",
+  "revision": "sync-repair-v5",
+  "updated_on": "2026-10-06",
+  "presentation_variant": "class5-social-chapter1-v4",
+  "note": "Delivered single canonical MP4. Technical encoded QA passed; 56/56 source blocks covered and targeted encoded frames reviewed. See encoded-sync-v5-qa.json for sampling scope and remaining limitations. User approval of this revision is pending."
+}

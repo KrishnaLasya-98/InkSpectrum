@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188662862",
+  "request_fingerprint": "f9c757145852364804e90fb325192d23b0c064267e3e94ea578a833a82401eda",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\climate-types-montage.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791351163.9041755,
+  "last_poll_at_unix": 1791352646.8983803,
+  "completed_at_unix": 1791352648.9405603
+}

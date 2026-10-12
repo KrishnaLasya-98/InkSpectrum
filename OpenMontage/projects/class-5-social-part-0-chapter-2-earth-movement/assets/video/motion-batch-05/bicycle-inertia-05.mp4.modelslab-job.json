@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188302622",
+  "request_fingerprint": "e59a9031de0da823b43ad9d6b1685dfa1a1ad8aa210aa63f513b040e097d87a8",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-05\\bicycle-inertia-05.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1790857673.8599353,
+  "last_poll_at_unix": 1790858148.4896023,
+  "completed_at_unix": 1790858150.1547143
+}

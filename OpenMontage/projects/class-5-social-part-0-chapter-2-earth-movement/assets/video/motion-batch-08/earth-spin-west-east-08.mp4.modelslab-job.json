@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188303588",
+  "request_fingerprint": "2dad8ee9455876ed0e39c31da70e2ff6776a8f95eafca425ecc51c938c15e73f",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-08\\earth-spin-west-east-08.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1790858721.5649211,
+  "last_poll_at_unix": 1790859133.464575,
+  "completed_at_unix": 1790859134.9033196
+}

@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188618081",
+  "request_fingerprint": "b0cc6fa44d43aef02dffb6fb3bb821ed4147a31115c33d1b0ab4fd182eb06775",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-02\\equatorial-rain.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791283802.835142,
+  "last_poll_at_unix": 1791284121.7667544,
+  "completed_at_unix": 1791284123.683606
+}

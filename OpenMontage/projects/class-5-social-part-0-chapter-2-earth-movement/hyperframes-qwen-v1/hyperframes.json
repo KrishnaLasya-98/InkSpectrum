@@ -1,0 +1,11 @@
+{
+  "version": 3,
+  "name": "Earth Movement",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 337.697,
+  "media": {
+    "autoProxy": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188618987",
+  "request_fingerprint": "c57ee36fdfef73d4b4a472f8e6fd37a58af4f2bc73ea43564616a40c221adc26",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-03\\desert-hot-day.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791284924.2916715,
+  "last_poll_at_unix": 1791285157.3769088,
+  "completed_at_unix": 1791285159.083856
+}

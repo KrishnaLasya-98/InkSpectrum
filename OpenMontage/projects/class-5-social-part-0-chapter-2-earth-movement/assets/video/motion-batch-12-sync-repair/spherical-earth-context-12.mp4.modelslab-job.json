@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188613067",
+  "request_fingerprint": "48a8d7f33d2cfd3a6e6c030c505714b41ca5a9db35cc161cb1424456bc155501",
+  "poll_endpoint": "video",
+  "model_id": "wan-2.2-i2v",
+  "operation": "image_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-12-sync-repair\\spherical-earth-context-12.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791277378.6589508,
+  "last_poll_at_unix": 1791279723.931551,
+  "completed_at_unix": 1791279725.517604
+}

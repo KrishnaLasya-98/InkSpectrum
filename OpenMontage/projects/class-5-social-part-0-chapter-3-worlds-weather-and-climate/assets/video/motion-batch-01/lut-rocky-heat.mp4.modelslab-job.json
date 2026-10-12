@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188617454",
+  "request_fingerprint": "1cab781597166d388ecbcdbd0830a47efab8fe8f3965447b50551dad2752eadd",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-01\\lut-rocky-heat.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791283039.2567253,
+  "last_poll_at_unix": 1791283429.8295205,
+  "completed_at_unix": 1791283431.5369828
+}

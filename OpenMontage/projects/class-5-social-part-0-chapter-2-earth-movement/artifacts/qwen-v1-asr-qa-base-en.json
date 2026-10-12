@@ -1,0 +1,106 @@
+{
+  "status": "review_required",
+  "model": "faster-whisper-base.en",
+  "sections": [
+    {
+      "section_id": "s06-rotation",
+      "lexical_similarity": 0.9869,
+      "expected_words": 115,
+      "heard_words": 114,
+      "mismatches": [
+        {
+          "operation": "delete",
+          "expected": "rotation",
+          "heard": ""
+        },
+        {
+          "operation": "insert",
+          "expected": "",
+          "heard": "degrees"
+        },
+        {
+          "operation": "delete",
+          "expected": "rotation",
+          "heard": ""
+        }
+      ],
+      "asr_transcript": "Rotation is the movement of the Earth around its own axis is called rotation. The Earth rotates from west to east. It completes one full rotation in 24 hours. The speed of rotation is faster at the equator and slower at the poles. The axis is tilted at an angle of 23.5 degrees. As the Earth is spherical in shape, only one half of the Earth receives sunlight at a time. Thus, the side of the earth facing the sun experience day. On the other hand, the other half, or the part away from the sun, experiences night as the earth rotates, the lighted part moves into the darkness. causes day and night."
+    },
+    {
+      "section_id": "s08-revolution",
+      "lexical_similarity": 0.9909,
+      "expected_words": 109,
+      "heard_words": 111,
+      "mismatches": [
+        {
+          "operation": "insert",
+          "expected": "",
+          "heard": "luwai the"
+        }
+      ],
+      "asr_transcript": "Revolution Revolution is the movement of the Earth around the Sun in a fixed path called an orbit. The Earth revolves around the Sun in an elliptical orbit. It takes 365 Luwai the days one year to complete one revolution. The tilt of the Earth's axis remains the same during revolution. Revolution causes seasonal changes. The revolution of the Earth and the tilt of its axis cause different seasons. Summer, the hemisphere tilted towards the Sun experiences summer. Winter, the hemisphere tilted away from the sun experiences winter. Spring occurs between winter and summer when the temperature starts rising. Autumn occurs between summer and winter when the temperature starts dropping."
+    },
+    {
+      "section_id": "s10-solstice",
+      "lexical_similarity": 0.9741,
+      "expected_words": 115,
+      "heard_words": 117,
+      "mismatches": [
+        {
+          "operation": "replace",
+          "expected": "22",
+          "heard": "20th tat of"
+        },
+        {
+          "operation": "replace",
+          "expected": "21",
+          "heard": "21th"
+        }
+      ],
+      "asr_transcript": "What is solstice and when does it occur? A solstice is a day, when the sun shines vertically over a tropic, both cancer and Capricorn in the afternoon and the day is the longest in that hemisphere. On 20th tat of December, the rays of the sun fall directly over the tropic of Capricorn. This is the longest day in southern hemisphere, summer season, while in the northern hemisphere, it is the shortest day, winter season. This is called Winter Solstice. On 21th June, sunlight falls vertically over the Tropic of Cancer. This is the longest day in Northern Hemisphere and hence it is called Summer Solstice. While in the Southern Hemisphere, it is the shortest day."
+    },
+    {
+      "section_id": "s12-equinox",
+      "lexical_similarity": 1.0,
+      "expected_words": 73,
+      "heard_words": 73,
+      "mismatches": [],
+      "asr_transcript": "What is Equinox and when does it occur? The sun falls directly on the equator two times in a year. During this period, there is equal length of day and night all over the world. In Northern Hemisphere, the March Equinox is called the Vernal or Spring Equinox, while September Equinox is called Autumnal Equinox. Spring Equinox March 21st marks the beginning of Spring. Autumn Equinox September 23rd marks the beginning of Autumn."
+    },
+    {
+      "section_id": "s13-recall",
+      "lexical_similarity": 0.9663,
+      "expected_words": 44,
+      "heard_words": 45,
+      "mismatches": [
+        {
+          "operation": "insert",
+          "expected": "",
+          "heard": "all"
+        },
+        {
+          "operation": "replace",
+          "expected": "affects",
+          "heard": "effects"
+        }
+      ],
+      "asr_transcript": "Recall. All. The Earth's movements, rotation and revolution have significant effects on our lives. Rotation causes day and night while revolution leads to the change of seasons. Solstices and equinoxes mark the shift in seasons, playing an essential role in our climate and timekeeping."
+    },
+    {
+      "section_id": "s14-remember",
+      "lexical_similarity": 0.9752,
+      "expected_words": 59,
+      "heard_words": 62,
+      "mismatches": [
+        {
+          "operation": "insert",
+          "expected": "",
+          "heard": "dot bull s"
+        }
+      ],
+      "asr_transcript": "Let's remember The Earth moves in two ways, rotation and revolution. Rotation causes day and night, while revolution causes seasons. The Earth completes one rotation in 24 hours and one revolution in 365 dot bull's days. Solstices occur in June and December, marking the longest and shortest days. Equinoxes occur in March and September when day and night are equal."
+    }
+  ],
+  "minimum_similarity": 0.9663,
+  "overall_similarity": 0.9836
+}

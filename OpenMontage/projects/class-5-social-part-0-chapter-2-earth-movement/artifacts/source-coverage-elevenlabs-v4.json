@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "status": "pass",
+  "required_blocks": 56,
+  "verified_blocks": 56,
+  "coverage_ratio": 1.0,
+  "issues": [],
+  "verbatim_panel_or_figure_blocks": 56,
+  "verbatim_panel_or_figure_issues": []
+}

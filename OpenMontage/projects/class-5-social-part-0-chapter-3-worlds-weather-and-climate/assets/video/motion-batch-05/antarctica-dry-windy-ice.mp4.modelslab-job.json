@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "terminal_failed",
+  "request_id": "188662874",
+  "request_fingerprint": "697b99a28f2f31852c3e688dafaa7ea8d8a7595a3f9dcc3cdf759887c0d53db5",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\antarctica-dry-windy-ice.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791351172.6490707,
+  "provider_status": "failed",
+  "failed_at_unix": 1791353077.568801
+}

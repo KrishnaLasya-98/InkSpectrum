@@ -1,0 +1,531 @@
+{
+  "section_id": "s12-equinox",
+  "text": "What is Equinox and When Does It Occur? The sun falls directly on the equator two times in a year. During this period there is equal length of day and night all over the world. In Northern Hemisphere, the March Equinox is called the Vernal or Spring Equinox while September Equinox is called Autumnal Equinox. Spring Equinox (March 21st) marks the beginning of spring. Autumn Equinox (September 23rd) marks the beginning of autumn.",
+  "start_ms": 309398,
+  "end_ms": 344758,
+  "words": [
+    {
+      "word": "What",
+      "start_ms": 309458,
+      "end_ms": 309618,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0047
+    },
+    {
+      "word": "is",
+      "start_ms": 309738,
+      "end_ms": 309798,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1227
+    },
+    {
+      "word": "Equinox",
+      "start_ms": 310018,
+      "end_ms": 310479,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0465
+    },
+    {
+      "word": "and",
+      "start_ms": 310839,
+      "end_ms": 310939,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0079
+    },
+    {
+      "word": "When",
+      "start_ms": 311059,
+      "end_ms": 311219,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0014
+    },
+    {
+      "word": "Does",
+      "start_ms": 311299,
+      "end_ms": 311459,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0553
+    },
+    {
+      "word": "It",
+      "start_ms": 311519,
+      "end_ms": 311559,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "Occur?",
+      "start_ms": 311719,
+      "end_ms": 311939,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0182
+    },
+    {
+      "word": "The",
+      "start_ms": 314021,
+      "end_ms": 314121,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0008
+    },
+    {
+      "word": "sun",
+      "start_ms": 314201,
+      "end_ms": 314361,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "falls",
+      "start_ms": 314501,
+      "end_ms": 314781,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0048
+    },
+    {
+      "word": "directly",
+      "start_ms": 314881,
+      "end_ms": 315401,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0545
+    },
+    {
+      "word": "on",
+      "start_ms": 315501,
+      "end_ms": 315541,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "the",
+      "start_ms": 315602,
+      "end_ms": 315682,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0941
+    },
+    {
+      "word": "equator",
+      "start_ms": 315782,
+      "end_ms": 316262,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.058
+    },
+    {
+      "word": "two",
+      "start_ms": 316542,
+      "end_ms": 316682,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0124
+    },
+    {
+      "word": "times",
+      "start_ms": 316782,
+      "end_ms": 317102,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0456
+    },
+    {
+      "word": "in",
+      "start_ms": 317242,
+      "end_ms": 317282,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "a",
+      "start_ms": 317383,
+      "end_ms": 317403,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0021
+    },
+    {
+      "word": "year.",
+      "start_ms": 317443,
+      "end_ms": 317623,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0186
+    },
+    {
+      "word": "During",
+      "start_ms": 318483,
+      "end_ms": 318783,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0066
+    },
+    {
+      "word": "this",
+      "start_ms": 318843,
+      "end_ms": 318963,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "period",
+      "start_ms": 319043,
+      "end_ms": 319404,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0021
+    },
+    {
+      "word": "there",
+      "start_ms": 319824,
+      "end_ms": 319984,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0144
+    },
+    {
+      "word": "is",
+      "start_ms": 320044,
+      "end_ms": 320084,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "equal",
+      "start_ms": 320304,
+      "end_ms": 320564,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1283
+    },
+    {
+      "word": "length",
+      "start_ms": 320684,
+      "end_ms": 320945,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0622
+    },
+    {
+      "word": "of",
+      "start_ms": 321005,
+      "end_ms": 321045,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "day",
+      "start_ms": 321185,
+      "end_ms": 321405,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0164
+    },
+    {
+      "word": "and",
+      "start_ms": 321585,
+      "end_ms": 321705,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1088
+    },
+    {
+      "word": "night",
+      "start_ms": 321805,
+      "end_ms": 322025,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0384
+    },
+    {
+      "word": "all",
+      "start_ms": 322385,
+      "end_ms": 322505,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "over",
+      "start_ms": 322585,
+      "end_ms": 322746,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0083
+    },
+    {
+      "word": "the",
+      "start_ms": 322806,
+      "end_ms": 322886,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1599
+    },
+    {
+      "word": "world.",
+      "start_ms": 322926,
+      "end_ms": 323186,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0199
+    },
+    {
+      "word": "In",
+      "start_ms": 323986,
+      "end_ms": 324046,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0067
+    },
+    {
+      "word": "Northern",
+      "start_ms": 324146,
+      "end_ms": 324487,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.048
+    },
+    {
+      "word": "Hemisphere,",
+      "start_ms": 324527,
+      "end_ms": 325047,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0427
+    },
+    {
+      "word": "the",
+      "start_ms": 325547,
+      "end_ms": 325627,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "March",
+      "start_ms": 325707,
+      "end_ms": 326007,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0008
+    },
+    {
+      "word": "Equinox",
+      "start_ms": 326147,
+      "end_ms": 326568,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0647
+    },
+    {
+      "word": "is",
+      "start_ms": 326828,
+      "end_ms": 326888,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0106
+    },
+    {
+      "word": "called",
+      "start_ms": 326948,
+      "end_ms": 327208,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0334
+    },
+    {
+      "word": "the",
+      "start_ms": 327268,
+      "end_ms": 327348,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0082
+    },
+    {
+      "word": "Vernal",
+      "start_ms": 327448,
+      "end_ms": 327828,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.002
+    },
+    {
+      "word": "or",
+      "start_ms": 328149,
+      "end_ms": 328189,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0548
+    },
+    {
+      "word": "Spring",
+      "start_ms": 328289,
+      "end_ms": 328609,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0346
+    },
+    {
+      "word": "Equinox",
+      "start_ms": 328749,
+      "end_ms": 329149,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0756
+    },
+    {
+      "word": "while",
+      "start_ms": 329830,
+      "end_ms": 329990,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0519
+    },
+    {
+      "word": "September",
+      "start_ms": 330070,
+      "end_ms": 330570,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0704
+    },
+    {
+      "word": "Equinox",
+      "start_ms": 330690,
+      "end_ms": 331090,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0176
+    },
+    {
+      "word": "is",
+      "start_ms": 331490,
+      "end_ms": 331551,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0167
+    },
+    {
+      "word": "called",
+      "start_ms": 331631,
+      "end_ms": 331891,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0007
+    },
+    {
+      "word": "Autumnal",
+      "start_ms": 332111,
+      "end_ms": 332531,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1165
+    },
+    {
+      "word": "Equinox.",
+      "start_ms": 332671,
+      "end_ms": 333071,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.05
+    },
+    {
+      "word": "Spring",
+      "start_ms": 334012,
+      "end_ms": 334332,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0878
+    },
+    {
+      "word": "Equinox",
+      "start_ms": 334492,
+      "end_ms": 334912,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0084
+    },
+    {
+      "word": "(March",
+      "start_ms": 335433,
+      "end_ms": 335673,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0005
+    },
+    {
+      "word": "21st)",
+      "start_ms": 335753,
+      "end_ms": 336453,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0015
+    },
+    {
+      "word": "marks",
+      "start_ms": 336994,
+      "end_ms": 337294,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0705
+    },
+    {
+      "word": "the",
+      "start_ms": 337374,
+      "end_ms": 337454,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0589
+    },
+    {
+      "word": "beginning",
+      "start_ms": 337534,
+      "end_ms": 337954,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0164
+    },
+    {
+      "word": "of",
+      "start_ms": 338094,
+      "end_ms": 338134,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "spring.",
+      "start_ms": 338254,
+      "end_ms": 338574,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0088
+    },
+    {
+      "word": "Autumn",
+      "start_ms": 339435,
+      "end_ms": 339675,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0054
+    },
+    {
+      "word": "Equinox",
+      "start_ms": 339815,
+      "end_ms": 340215,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0047
+    },
+    {
+      "word": "(September",
+      "start_ms": 340716,
+      "end_ms": 341156,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0009
+    },
+    {
+      "word": "23rd)",
+      "start_ms": 341216,
+      "end_ms": 341856,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0753
+    },
+    {
+      "word": "marks",
+      "start_ms": 342337,
+      "end_ms": 342637,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0991
+    },
+    {
+      "word": "the",
+      "start_ms": 342737,
+      "end_ms": 342817,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "beginning",
+      "start_ms": 342877,
+      "end_ms": 343257,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.006
+    },
+    {
+      "word": "of",
+      "start_ms": 343477,
+      "end_ms": 343517,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "autumn.",
+      "start_ms": 343737,
+      "end_ms": 344078,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -1.5759
+    }
+  ],
+  "format_spec": {
+    "font_size": 64,
+    "highlight_color": "#FF8C42",
+    "background_color": "rgba(255,253,240,0.90)",
+    "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+    "font_weight": "700",
+    "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+    "key_terms": [],
+    "words_per_page": 6
+  },
+  "source_block_type": "concept",
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

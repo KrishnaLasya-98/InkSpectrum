@@ -1,0 +1,82 @@
+{
+  "version": "1.0",
+  "checked_at": "2026-10-07T05:29:37.222584+00:00",
+  "batch": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-01.json",
+  "new_submissions": 0,
+  "jobs": [
+    {
+      "shot_id": "weather-opening",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-01\\weather-opening.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "window-sun",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-01\\window-sun.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "window-cloud",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-01\\window-cloud.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "window-rain",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-01\\window-rain.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "weather-wind",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-01\\weather-wind.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "weather-rain",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-01\\weather-rain.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "lut-rocky-heat",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-01\\lut-rocky-heat.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "sahara-dunes",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-01\\sahara-dunes.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "amazon-rain",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-01\\amazon-rain.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "mountain-ascending",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-01\\mountain-ascending.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "coast-day",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-01\\coast-day.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "coast-night",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-01\\coast-night.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    }
+  ],
+  "downloaded": 12,
+  "total": 12
+}

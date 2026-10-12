@@ -1,0 +1,5234 @@
+[
+  {
+    "word": "Social",
+    "startMs": 0,
+    "endMs": 440,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Studies,",
+    "startMs": 440,
+    "endMs": 980,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Class",
+    "startMs": 1400,
+    "endMs": 1640,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "5.",
+    "startMs": 1640,
+    "endMs": 2200,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Lesson",
+    "startMs": 3020,
+    "endMs": 3300,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "2:",
+    "startMs": 3300,
+    "endMs": 3620,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth",
+    "startMs": 4320,
+    "endMs": 4500,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Movement.",
+    "startMs": 4500,
+    "endMs": 5000,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Learning",
+    "startMs": 7440,
+    "endMs": 7820,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Objectives.",
+    "startMs": 7820,
+    "endMs": 8860,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "By",
+    "startMs": 11280,
+    "endMs": 11700,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 11700,
+    "endMs": 11860,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "end",
+    "startMs": 11860,
+    "endMs": 12120,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 12120,
+    "endMs": 12260,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "this",
+    "startMs": 12260,
+    "endMs": 12480,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "chapter,",
+    "startMs": 12480,
+    "endMs": 13000,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "learners",
+    "startMs": 13640,
+    "endMs": 13780,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "will",
+    "startMs": 13780,
+    "endMs": 14120,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "be",
+    "startMs": 14120,
+    "endMs": 14300,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "able",
+    "startMs": 14300,
+    "endMs": 14560,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "to:",
+    "startMs": 14560,
+    "endMs": 15080,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Understand",
+    "startMs": 15600,
+    "endMs": 16180,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "that",
+    "startMs": 16180,
+    "endMs": 16620,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 16620,
+    "endMs": 16880,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth",
+    "startMs": 16880,
+    "endMs": 17080,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 17080,
+    "endMs": 17460,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "spherical.",
+    "startMs": 17460,
+    "endMs": 17980,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Identify",
+    "startMs": 19040,
+    "endMs": 19500,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 19500,
+    "endMs": 19740,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "two",
+    "startMs": 19740,
+    "endMs": 20020,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "types",
+    "startMs": 20020,
+    "endMs": 20300,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 20300,
+    "endMs": 20560,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "movements",
+    "startMs": 20560,
+    "endMs": 20980,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 20980,
+    "endMs": 21380,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 21380,
+    "endMs": 21540,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth.",
+    "startMs": 21540,
+    "endMs": 21860,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Explain",
+    "startMs": 22720,
+    "endMs": 23120,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "rotation",
+    "startMs": 23120,
+    "endMs": 23580,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 23580,
+    "endMs": 24240,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "its",
+    "startMs": 24240,
+    "endMs": 24420,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "effects.",
+    "startMs": 24420,
+    "endMs": 24940,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Understand",
+    "startMs": 25760,
+    "endMs": 26280,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "revolution",
+    "startMs": 26280,
+    "endMs": 26800,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 26800,
+    "endMs": 27480,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "its",
+    "startMs": 27480,
+    "endMs": 27780,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "effects.",
+    "startMs": 27780,
+    "endMs": 28300,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Learn",
+    "startMs": 28940,
+    "endMs": 29300,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "about",
+    "startMs": 29300,
+    "endMs": 29580,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "different",
+    "startMs": 29580,
+    "endMs": 30040,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "seasons",
+    "startMs": 30040,
+    "endMs": 30520,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "caused",
+    "startMs": 30520,
+    "endMs": 31140,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "by",
+    "startMs": 31140,
+    "endMs": 31480,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "revolution.",
+    "startMs": 31480,
+    "endMs": 32080,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Define",
+    "startMs": 32780,
+    "endMs": 33300,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "solstices",
+    "startMs": 33300,
+    "endMs": 33920,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 33920,
+    "endMs": 34340,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "equinoxes",
+    "startMs": 34340,
+    "endMs": 35200,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 35200,
+    "endMs": 35600,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "when",
+    "startMs": 35600,
+    "endMs": 35840,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "they",
+    "startMs": 35840,
+    "endMs": 36060,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "occur.",
+    "startMs": 36060,
+    "endMs": 36460,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Start-Up",
+    "startMs": 38970,
+    "endMs": 39202,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Activity.",
+    "startMs": 39240,
+    "endMs": 39860,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Take",
+    "startMs": 41680,
+    "endMs": 42440,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "a",
+    "startMs": 42440,
+    "endMs": 43200,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "ball",
+    "startMs": 43200,
+    "endMs": 43500,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 43500,
+    "endMs": 43980,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "spin",
+    "startMs": 43980,
+    "endMs": 44300,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "it.",
+    "startMs": 44300,
+    "endMs": 44900,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Notice",
+    "startMs": 45580,
+    "endMs": 45720,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "how",
+    "startMs": 45720,
+    "endMs": 46140,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "it",
+    "startMs": 46140,
+    "endMs": 46340,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "moves.",
+    "startMs": 46340,
+    "endMs": 46840,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Imagine",
+    "startMs": 47940,
+    "endMs": 48340,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "this",
+    "startMs": 48340,
+    "endMs": 48840,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 48840,
+    "endMs": 49000,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 49000,
+    "endMs": 49200,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth",
+    "startMs": 49200,
+    "endMs": 49580,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "moving",
+    "startMs": 49580,
+    "endMs": 50100,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "in",
+    "startMs": 50100,
+    "endMs": 50440,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "space.",
+    "startMs": 50440,
+    "endMs": 50820,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "The",
+    "startMs": 51960,
+    "endMs": 52180,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth",
+    "startMs": 52180,
+    "endMs": 52460,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "moves",
+    "startMs": 52460,
+    "endMs": 52820,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "in",
+    "startMs": 52820,
+    "endMs": 53160,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "two",
+    "startMs": 53160,
+    "endMs": 53420,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "ways\u2014let's",
+    "startMs": 54070,
+    "endMs": 54853,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "explore",
+    "startMs": 54980,
+    "endMs": 55360,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "these",
+    "startMs": 55360,
+    "endMs": 55660,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "movements",
+    "startMs": 55660,
+    "endMs": 56120,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 56120,
+    "endMs": 56700,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "their",
+    "startMs": 56700,
+    "endMs": 56880,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "effects!",
+    "startMs": 56880,
+    "endMs": 57260,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Who",
+    "startMs": 59240,
+    "endMs": 59460,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "proved",
+    "startMs": 59460,
+    "endMs": 59980,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "that",
+    "startMs": 59980,
+    "endMs": 60280,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 60280,
+    "endMs": 60480,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "earth",
+    "startMs": 60480,
+    "endMs": 60720,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 60720,
+    "endMs": 61020,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "spherical?",
+    "startMs": 61020,
+    "endMs": 61380,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Many",
+    "startMs": 64460,
+    "endMs": 64880,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "ancient",
+    "startMs": 64880,
+    "endMs": 65420,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "civilizations",
+    "startMs": 65420,
+    "endMs": 66140,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "believed",
+    "startMs": 66140,
+    "endMs": 66920,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "that",
+    "startMs": 66920,
+    "endMs": 67420,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 67420,
+    "endMs": 67580,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth",
+    "startMs": 67580,
+    "endMs": 67840,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "was",
+    "startMs": 67840,
+    "endMs": 68100,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "flat.",
+    "startMs": 68100,
+    "endMs": 68500,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "However,",
+    "startMs": 69280,
+    "endMs": 69760,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Greek",
+    "startMs": 70500,
+    "endMs": 70560,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "philosopher",
+    "startMs": 70540,
+    "endMs": 71100,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Pythagoras",
+    "startMs": 71100,
+    "endMs": 72020,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "was",
+    "startMs": 72020,
+    "endMs": 72620,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "one",
+    "startMs": 72620,
+    "endMs": 72840,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 72840,
+    "endMs": 72980,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 72980,
+    "endMs": 73080,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "first",
+    "startMs": 73080,
+    "endMs": 73440,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "to",
+    "startMs": 73440,
+    "endMs": 73720,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "suggest",
+    "startMs": 73720,
+    "endMs": 74100,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "that",
+    "startMs": 74100,
+    "endMs": 74580,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 74580,
+    "endMs": 74720,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth",
+    "startMs": 74720,
+    "endMs": 75000,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 75000,
+    "endMs": 75260,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "spherical.",
+    "startMs": 75260,
+    "endMs": 75740,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Later,",
+    "startMs": 76520,
+    "endMs": 76960,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Aristotle",
+    "startMs": 77480,
+    "endMs": 77800,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "provided",
+    "startMs": 77800,
+    "endMs": 78500,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "evidence",
+    "startMs": 78500,
+    "endMs": 79140,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "by",
+    "startMs": 79140,
+    "endMs": 79560,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "observing",
+    "startMs": 79560,
+    "endMs": 80020,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "how",
+    "startMs": 80020,
+    "endMs": 80380,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "ships",
+    "startMs": 80380,
+    "endMs": 80740,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "disappear",
+    "startMs": 80740,
+    "endMs": 81380,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "over",
+    "startMs": 81380,
+    "endMs": 81760,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 81760,
+    "endMs": 81920,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "horizon",
+    "startMs": 81920,
+    "endMs": 82300,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 82300,
+    "endMs": 83080,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "how",
+    "startMs": 83080,
+    "endMs": 83300,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 83300,
+    "endMs": 83500,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth's",
+    "startMs": 83500,
+    "endMs": 84000,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "shadow",
+    "startMs": 84000,
+    "endMs": 84220,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "on",
+    "startMs": 84220,
+    "endMs": 84460,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 84460,
+    "endMs": 84640,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Moon",
+    "startMs": 84640,
+    "endMs": 84920,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 84920,
+    "endMs": 85300,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "curved",
+    "startMs": 85300,
+    "endMs": 85820,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "during",
+    "startMs": 85820,
+    "endMs": 86260,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "a",
+    "startMs": 86260,
+    "endMs": 86460,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "lunar",
+    "startMs": 86460,
+    "endMs": 86700,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "eclipse.",
+    "startMs": 86700,
+    "endMs": 87180,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Ferdinand",
+    "startMs": 88100,
+    "endMs": 88360,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Magellan's",
+    "startMs": 88360,
+    "endMs": 89100,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "voyage",
+    "startMs": 89100,
+    "endMs": 89380,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "around",
+    "startMs": 89380,
+    "endMs": 89800,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 89800,
+    "endMs": 89960,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "world",
+    "startMs": 89960,
+    "endMs": 90380,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "further",
+    "startMs": 90380,
+    "endMs": 90900,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "confirmed",
+    "startMs": 90900,
+    "endMs": 91520,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "that",
+    "startMs": 91520,
+    "endMs": 91920,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 91920,
+    "endMs": 92080,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth",
+    "startMs": 92080,
+    "endMs": 92300,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 92300,
+    "endMs": 92600,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "round.",
+    "startMs": 92600,
+    "endMs": 92940,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "The",
+    "startMs": 95300,
+    "endMs": 95480,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Two",
+    "startMs": 95480,
+    "endMs": 95740,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Movements",
+    "startMs": 95740,
+    "endMs": 96300,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 96300,
+    "endMs": 96740,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 96740,
+    "endMs": 96960,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth.",
+    "startMs": 96960,
+    "endMs": 97200,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "The",
+    "startMs": 100140,
+    "endMs": 100420,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth",
+    "startMs": 100420,
+    "endMs": 100740,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "moves",
+    "startMs": 100740,
+    "endMs": 101140,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "in",
+    "startMs": 101140,
+    "endMs": 101520,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "two",
+    "startMs": 101520,
+    "endMs": 101800,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "ways:",
+    "startMs": 101800,
+    "endMs": 102240,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Rotation",
+    "startMs": 103540,
+    "endMs": 103600,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "\u2013",
+    "startMs": 104060,
+    "endMs": 104507,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "The",
+    "startMs": 104580,
+    "endMs": 104680,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth",
+    "startMs": 104680,
+    "endMs": 104940,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "spins",
+    "startMs": 104940,
+    "endMs": 105380,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "on",
+    "startMs": 105380,
+    "endMs": 105720,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "its",
+    "startMs": 105720,
+    "endMs": 105920,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "axis",
+    "startMs": 105920,
+    "endMs": 106360,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "around",
+    "startMs": 106360,
+    "endMs": 106900,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "itself.",
+    "startMs": 106900,
+    "endMs": 107480,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Revolution",
+    "startMs": 108640,
+    "endMs": 109000,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "\u2013",
+    "startMs": 109310,
+    "endMs": 109886,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "The",
+    "startMs": 109980,
+    "endMs": 110040,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth",
+    "startMs": 110040,
+    "endMs": 110380,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "moves",
+    "startMs": 110380,
+    "endMs": 110900,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "around",
+    "startMs": 110900,
+    "endMs": 111300,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 111300,
+    "endMs": 111540,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Sun.",
+    "startMs": 111540,
+    "endMs": 111800,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Rotation.",
+    "startMs": 114320,
+    "endMs": 114740,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "The",
+    "startMs": 117260,
+    "endMs": 117980,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "movement",
+    "startMs": 117980,
+    "endMs": 118320,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 118320,
+    "endMs": 118700,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 118700,
+    "endMs": 118880,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth",
+    "startMs": 118880,
+    "endMs": 119160,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "around",
+    "startMs": 119160,
+    "endMs": 119620,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "its",
+    "startMs": 119620,
+    "endMs": 119880,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "own",
+    "startMs": 119880,
+    "endMs": 120200,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "axis",
+    "startMs": 120200,
+    "endMs": 120660,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 120660,
+    "endMs": 121120,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "called",
+    "startMs": 121120,
+    "endMs": 121480,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "rotation.",
+    "startMs": 121480,
+    "endMs": 121960,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "The",
+    "startMs": 122800,
+    "endMs": 123040,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "earth",
+    "startMs": 123040,
+    "endMs": 123340,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "rotates",
+    "startMs": 123340,
+    "endMs": 123960,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "from",
+    "startMs": 123960,
+    "endMs": 124260,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "west",
+    "startMs": 124260,
+    "endMs": 124580,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "to",
+    "startMs": 124580,
+    "endMs": 125020,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "east.",
+    "startMs": 125020,
+    "endMs": 125380,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "It",
+    "startMs": 126140,
+    "endMs": 126260,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "completes",
+    "startMs": 126260,
+    "endMs": 126700,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "one",
+    "startMs": 126700,
+    "endMs": 127180,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "full",
+    "startMs": 127180,
+    "endMs": 127460,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "rotation",
+    "startMs": 127460,
+    "endMs": 127980,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "in",
+    "startMs": 127980,
+    "endMs": 128380,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "24",
+    "startMs": 128380,
+    "endMs": 128980,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "hours.",
+    "startMs": 128980,
+    "endMs": 129300,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "The",
+    "startMs": 130100,
+    "endMs": 130260,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "speed",
+    "startMs": 130260,
+    "endMs": 130560,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 130560,
+    "endMs": 130760,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "rotation",
+    "startMs": 130760,
+    "endMs": 131220,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 131220,
+    "endMs": 131620,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "faster",
+    "startMs": 131620,
+    "endMs": 132000,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "at",
+    "startMs": 132000,
+    "endMs": 132360,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 132360,
+    "endMs": 132500,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "equator",
+    "startMs": 132500,
+    "endMs": 132980,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 132980,
+    "endMs": 133660,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "slower",
+    "startMs": 133660,
+    "endMs": 134020,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "at",
+    "startMs": 134020,
+    "endMs": 134380,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 134380,
+    "endMs": 134540,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "poles.",
+    "startMs": 134540,
+    "endMs": 134820,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "The",
+    "startMs": 135660,
+    "endMs": 135800,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "axis",
+    "startMs": 135800,
+    "endMs": 136240,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 136240,
+    "endMs": 136540,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "tilted",
+    "startMs": 136540,
+    "endMs": 136900,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "at",
+    "startMs": 136900,
+    "endMs": 137300,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "an",
+    "startMs": 137300,
+    "endMs": 137480,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "angle",
+    "startMs": 137480,
+    "endMs": 137800,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 137800,
+    "endMs": 138100,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "23.5\u00b0.",
+    "startMs": 139170,
+    "endMs": 140348,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "As",
+    "startMs": 140540,
+    "endMs": 140800,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 140800,
+    "endMs": 141000,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth",
+    "startMs": 141000,
+    "endMs": 141220,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 141220,
+    "endMs": 141440,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "spherical",
+    "startMs": 141440,
+    "endMs": 141840,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "in",
+    "startMs": 141840,
+    "endMs": 142220,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "shape,",
+    "startMs": 142220,
+    "endMs": 142540,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "only",
+    "startMs": 143040,
+    "endMs": 143240,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "one",
+    "startMs": 143240,
+    "endMs": 143700,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "half",
+    "startMs": 143700,
+    "endMs": 143960,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 143960,
+    "endMs": 144160,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 144160,
+    "endMs": 144300,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth",
+    "startMs": 144300,
+    "endMs": 144620,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "receives",
+    "startMs": 144620,
+    "endMs": 145060,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "sunlight",
+    "startMs": 145060,
+    "endMs": 145560,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "at",
+    "startMs": 145560,
+    "endMs": 145920,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "a",
+    "startMs": 145920,
+    "endMs": 146080,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "time.",
+    "startMs": 146080,
+    "endMs": 146320,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Thus,",
+    "startMs": 146920,
+    "endMs": 147220,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 147540,
+    "endMs": 147760,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "side",
+    "startMs": 147760,
+    "endMs": 148060,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 148060,
+    "endMs": 148220,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 148220,
+    "endMs": 148380,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth",
+    "startMs": 148380,
+    "endMs": 148620,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "facing",
+    "startMs": 148620,
+    "endMs": 148960,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 148960,
+    "endMs": 149280,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Sun",
+    "startMs": 149280,
+    "endMs": 149620,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "experience",
+    "startMs": 149620,
+    "endMs": 150460,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "day.",
+    "startMs": 150460,
+    "endMs": 150900,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "On",
+    "startMs": 151500,
+    "endMs": 151700,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 151700,
+    "endMs": 151860,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "other",
+    "startMs": 151860,
+    "endMs": 152080,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "hand,",
+    "startMs": 152080,
+    "endMs": 152440,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 152780,
+    "endMs": 152940,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "other",
+    "startMs": 152940,
+    "endMs": 153260,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "half,",
+    "startMs": 153260,
+    "endMs": 153640,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "or",
+    "startMs": 153960,
+    "endMs": 154160,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 154160,
+    "endMs": 154260,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "part",
+    "startMs": 154260,
+    "endMs": 154520,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "away",
+    "startMs": 154520,
+    "endMs": 154940,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "from",
+    "startMs": 154940,
+    "endMs": 155200,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 155200,
+    "endMs": 155360,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "sun,",
+    "startMs": 155360,
+    "endMs": 155720,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "experiences",
+    "startMs": 156020,
+    "endMs": 156800,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "night.",
+    "startMs": 156800,
+    "endMs": 157220,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "As",
+    "startMs": 157880,
+    "endMs": 158180,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 158180,
+    "endMs": 158380,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth",
+    "startMs": 158380,
+    "endMs": 158620,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "rotates,",
+    "startMs": 158620,
+    "endMs": 159320,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 159320,
+    "endMs": 159800,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "lighted",
+    "startMs": 159800,
+    "endMs": 160280,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "part",
+    "startMs": 160280,
+    "endMs": 160540,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "moves",
+    "startMs": 160540,
+    "endMs": 161020,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "into",
+    "startMs": 161020,
+    "endMs": 161500,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 161500,
+    "endMs": 161660,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "darkness.",
+    "startMs": 161660,
+    "endMs": 162080,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "This",
+    "startMs": 162760,
+    "endMs": 163040,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "rotation",
+    "startMs": 163040,
+    "endMs": 163600,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "causes",
+    "startMs": 163600,
+    "endMs": 164220,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "day",
+    "startMs": 164220,
+    "endMs": 164640,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 164640,
+    "endMs": 165140,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "night.",
+    "startMs": 165140,
+    "endMs": 165420,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Do",
+    "startMs": 167660,
+    "endMs": 167840,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "You",
+    "startMs": 167840,
+    "endMs": 168040,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Know?",
+    "startMs": 168040,
+    "endMs": 168460,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "The",
+    "startMs": 171080,
+    "endMs": 171140,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth",
+    "startMs": 171140,
+    "endMs": 171400,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "rotates",
+    "startMs": 171400,
+    "endMs": 172060,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "at",
+    "startMs": 172060,
+    "endMs": 172280,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "a",
+    "startMs": 172280,
+    "endMs": 172400,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "speed",
+    "startMs": 172400,
+    "endMs": 172700,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 172700,
+    "endMs": 173020,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "1,670",
+    "startMs": 173020,
+    "endMs": 174290,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "kilometers",
+    "startMs": 174290,
+    "endMs": 175382,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "per",
+    "startMs": 175560,
+    "endMs": 176020,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "hour",
+    "startMs": 176020,
+    "endMs": 176320,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "at",
+    "startMs": 176320,
+    "endMs": 176760,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 176760,
+    "endMs": 176920,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "equator,",
+    "startMs": 176920,
+    "endMs": 177460,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "but",
+    "startMs": 178120,
+    "endMs": 178320,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "we",
+    "startMs": 178320,
+    "endMs": 178500,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "don\u2019t",
+    "startMs": 178560,
+    "endMs": 178766,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "feel",
+    "startMs": 178800,
+    "endMs": 179020,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "it",
+    "startMs": 179020,
+    "endMs": 179320,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "because",
+    "startMs": 179320,
+    "endMs": 179720,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "we\u2019re",
+    "startMs": 179720,
+    "endMs": 180064,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "moving",
+    "startMs": 180120,
+    "endMs": 180420,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "along",
+    "startMs": 180420,
+    "endMs": 180780,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "with",
+    "startMs": 180780,
+    "endMs": 181060,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "it!",
+    "startMs": 181060,
+    "endMs": 181340,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Revolution.",
+    "startMs": 183480,
+    "endMs": 184340,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Revolution",
+    "startMs": 186800,
+    "endMs": 187520,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 187520,
+    "endMs": 188240,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 188240,
+    "endMs": 188440,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "movement",
+    "startMs": 188440,
+    "endMs": 188720,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 188720,
+    "endMs": 189100,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 189100,
+    "endMs": 189260,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth",
+    "startMs": 189260,
+    "endMs": 189560,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "around",
+    "startMs": 189560,
+    "endMs": 190040,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 190040,
+    "endMs": 190280,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Sun",
+    "startMs": 190280,
+    "endMs": 190500,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "in",
+    "startMs": 190500,
+    "endMs": 190960,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "a",
+    "startMs": 190960,
+    "endMs": 191120,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "fixed",
+    "startMs": 191120,
+    "endMs": 191400,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "path",
+    "startMs": 191400,
+    "endMs": 191860,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "called",
+    "startMs": 191860,
+    "endMs": 192360,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "an",
+    "startMs": 192360,
+    "endMs": 192700,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "orbit.",
+    "startMs": 192700,
+    "endMs": 193060,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "The",
+    "startMs": 193740,
+    "endMs": 193920,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth",
+    "startMs": 193920,
+    "endMs": 194200,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "revolves",
+    "startMs": 194200,
+    "endMs": 194680,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "around",
+    "startMs": 194680,
+    "endMs": 195080,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 195080,
+    "endMs": 195300,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Sun",
+    "startMs": 195300,
+    "endMs": 195540,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "in",
+    "startMs": 195540,
+    "endMs": 195980,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "an",
+    "startMs": 195980,
+    "endMs": 196140,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "elliptical",
+    "startMs": 196140,
+    "endMs": 196800,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "orbit.",
+    "startMs": 196800,
+    "endMs": 197180,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "It",
+    "startMs": 197840,
+    "endMs": 197960,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "takes",
+    "startMs": 197960,
+    "endMs": 198268,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "three",
+    "startMs": 198268,
+    "endMs": 198533,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "hundred",
+    "startMs": 198576,
+    "endMs": 198841,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 198884,
+    "endMs": 199149,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "sixty-five",
+    "startMs": 199192,
+    "endMs": 199457,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 199500,
+    "endMs": 200140,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "one",
+    "startMs": 200140,
+    "endMs": 200460,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "quarter",
+    "startMs": 200460,
+    "endMs": 200760,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "days",
+    "startMs": 200760,
+    "endMs": 201120,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "(one",
+    "startMs": 201600,
+    "endMs": 201860,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "year)",
+    "startMs": 201860,
+    "endMs": 202160,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "to",
+    "startMs": 202660,
+    "endMs": 202780,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "complete",
+    "startMs": 202780,
+    "endMs": 203180,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "one",
+    "startMs": 203180,
+    "endMs": 203660,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "revolution.",
+    "startMs": 203660,
+    "endMs": 204180,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "The",
+    "startMs": 204900,
+    "endMs": 205120,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "tilt",
+    "startMs": 205120,
+    "endMs": 205420,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 205420,
+    "endMs": 205640,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 205640,
+    "endMs": 205820,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth's",
+    "startMs": 205820,
+    "endMs": 206280,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "axis",
+    "startMs": 206280,
+    "endMs": 206600,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "remains",
+    "startMs": 206600,
+    "endMs": 207240,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 207240,
+    "endMs": 207540,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "same",
+    "startMs": 207540,
+    "endMs": 207960,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "during",
+    "startMs": 207960,
+    "endMs": 208380,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "revolution.",
+    "startMs": 208380,
+    "endMs": 209040,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Revolution",
+    "startMs": 210400,
+    "endMs": 210460,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "causes",
+    "startMs": 210400,
+    "endMs": 210980,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "seasonal",
+    "startMs": 210980,
+    "endMs": 211540,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "changes.",
+    "startMs": 211540,
+    "endMs": 212060,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "The",
+    "startMs": 212760,
+    "endMs": 212940,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "revolution",
+    "startMs": 212940,
+    "endMs": 213360,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 213360,
+    "endMs": 213720,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 213720,
+    "endMs": 213900,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth",
+    "startMs": 213900,
+    "endMs": 214180,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 214180,
+    "endMs": 214620,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 214620,
+    "endMs": 214740,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "tilt",
+    "startMs": 214740,
+    "endMs": 215040,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 215040,
+    "endMs": 215240,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "its",
+    "startMs": 215240,
+    "endMs": 215420,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "axis",
+    "startMs": 215420,
+    "endMs": 215900,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "cause",
+    "startMs": 215900,
+    "endMs": 216460,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "different",
+    "startMs": 216460,
+    "endMs": 217020,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "seasons:",
+    "startMs": 217020,
+    "endMs": 217440,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Summer",
+    "startMs": 218360,
+    "endMs": 218660,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "\u2013",
+    "startMs": 218880,
+    "endMs": 219327,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "The",
+    "startMs": 219400,
+    "endMs": 219460,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "hemisphere",
+    "startMs": 219440,
+    "endMs": 219900,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "tilted",
+    "startMs": 219900,
+    "endMs": 220460,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "towards",
+    "startMs": 220460,
+    "endMs": 220920,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 220920,
+    "endMs": 221240,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Sun",
+    "startMs": 221240,
+    "endMs": 221520,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "experiences",
+    "startMs": 221520,
+    "endMs": 222500,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "summer.",
+    "startMs": 222500,
+    "endMs": 222960,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Winter",
+    "startMs": 223520,
+    "endMs": 224040,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "\u2013",
+    "startMs": 224080,
+    "endMs": 224562,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "The",
+    "startMs": 224640,
+    "endMs": 224800,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "hemisphere",
+    "startMs": 224800,
+    "endMs": 225280,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "tilted",
+    "startMs": 225280,
+    "endMs": 225800,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "away",
+    "startMs": 225800,
+    "endMs": 226240,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "from",
+    "startMs": 226240,
+    "endMs": 226520,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 226520,
+    "endMs": 226700,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Sun",
+    "startMs": 226700,
+    "endMs": 226980,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "experiences",
+    "startMs": 226980,
+    "endMs": 227880,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "winter.",
+    "startMs": 227880,
+    "endMs": 228440,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Spring",
+    "startMs": 229220,
+    "endMs": 229560,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "\u2013",
+    "startMs": 229730,
+    "endMs": 230169,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Occurs",
+    "startMs": 230240,
+    "endMs": 230520,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "between",
+    "startMs": 230520,
+    "endMs": 230940,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "winter",
+    "startMs": 230940,
+    "endMs": 231360,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 231360,
+    "endMs": 231700,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "summer",
+    "startMs": 231700,
+    "endMs": 232120,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "when",
+    "startMs": 232120,
+    "endMs": 232580,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 232580,
+    "endMs": 232740,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "temperature",
+    "startMs": 232740,
+    "endMs": 233140,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "starts",
+    "startMs": 233140,
+    "endMs": 233600,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "rising.",
+    "startMs": 233600,
+    "endMs": 234180,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Autumn",
+    "startMs": 234880,
+    "endMs": 235120,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "\u2013",
+    "startMs": 235410,
+    "endMs": 235866,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Occurs",
+    "startMs": 235940,
+    "endMs": 236060,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "between",
+    "startMs": 236060,
+    "endMs": 236460,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "summer",
+    "startMs": 236840,
+    "endMs": 236980,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 236980,
+    "endMs": 237180,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "winter",
+    "startMs": 237180,
+    "endMs": 237580,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "when",
+    "startMs": 237580,
+    "endMs": 238080,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 238080,
+    "endMs": 238240,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "temperature",
+    "startMs": 238240,
+    "endMs": 238640,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "starts",
+    "startMs": 238640,
+    "endMs": 239120,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "dropping.",
+    "startMs": 239120,
+    "endMs": 239620,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Let's",
+    "startMs": 242020,
+    "endMs": 242480,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Learn",
+    "startMs": 242480,
+    "endMs": 242640,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "More.",
+    "startMs": 242640,
+    "endMs": 243040,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "A",
+    "startMs": 245440,
+    "endMs": 245940,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "day",
+    "startMs": 245940,
+    "endMs": 246180,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "on",
+    "startMs": 246180,
+    "endMs": 246420,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth",
+    "startMs": 246420,
+    "endMs": 246740,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 246740,
+    "endMs": 247160,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "actually",
+    "startMs": 247160,
+    "endMs": 247660,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "23",
+    "startMs": 247660,
+    "endMs": 248400,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "hours,",
+    "startMs": 248400,
+    "endMs": 248800,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "56",
+    "startMs": 248800,
+    "endMs": 249520,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "minutes,",
+    "startMs": 249520,
+    "endMs": 250140,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "not",
+    "startMs": 250780,
+    "endMs": 251040,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "exactly",
+    "startMs": 251040,
+    "endMs": 251600,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "24",
+    "startMs": 251600,
+    "endMs": 252260,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "hours,",
+    "startMs": 252260,
+    "endMs": 252620,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "but",
+    "startMs": 253220,
+    "endMs": 253420,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "we",
+    "startMs": 253420,
+    "endMs": 253600,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "round",
+    "startMs": 253600,
+    "endMs": 253880,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "it",
+    "startMs": 253880,
+    "endMs": 254060,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "off",
+    "startMs": 254060,
+    "endMs": 254240,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "to",
+    "startMs": 254240,
+    "endMs": 254440,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "24",
+    "startMs": 254440,
+    "endMs": 254960,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "hours",
+    "startMs": 254960,
+    "endMs": 255340,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "because",
+    "startMs": 255340,
+    "endMs": 255800,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "it\u2019s",
+    "startMs": 255800,
+    "endMs": 256196,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "easier",
+    "startMs": 256260,
+    "endMs": 256560,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "to",
+    "startMs": 256560,
+    "endMs": 256820,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "keep",
+    "startMs": 256820,
+    "endMs": 257000,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "track",
+    "startMs": 257000,
+    "endMs": 257260,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 257260,
+    "endMs": 257480,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "time.",
+    "startMs": 257480,
+    "endMs": 257740,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "What",
+    "startMs": 260079,
+    "endMs": 260279,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 260279,
+    "endMs": 260639,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Solstice",
+    "startMs": 260639,
+    "endMs": 261039,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 261039,
+    "endMs": 261659,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "When",
+    "startMs": 261659,
+    "endMs": 261919,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Does",
+    "startMs": 261919,
+    "endMs": 262159,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "It",
+    "startMs": 262159,
+    "endMs": 262299,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Occur?",
+    "startMs": 262299,
+    "endMs": 262639,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "A",
+    "startMs": 265379,
+    "endMs": 265599,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "solstice",
+    "startMs": 265599,
+    "endMs": 266159,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 266159,
+    "endMs": 266499,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "a",
+    "startMs": 266499,
+    "endMs": 266679,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "day,",
+    "startMs": 266679,
+    "endMs": 266879,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "when",
+    "startMs": 266879,
+    "endMs": 267519,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 267519,
+    "endMs": 267699,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "sun",
+    "startMs": 267699,
+    "endMs": 267919,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "shines",
+    "startMs": 267919,
+    "endMs": 268379,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "vertically",
+    "startMs": 268379,
+    "endMs": 268879,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "over",
+    "startMs": 268879,
+    "endMs": 269419,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "a",
+    "startMs": 269419,
+    "endMs": 269619,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Tropic",
+    "startMs": 269619,
+    "endMs": 270119,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "(both",
+    "startMs": 270639,
+    "endMs": 270799,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "cancer",
+    "startMs": 270799,
+    "endMs": 271259,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 271259,
+    "endMs": 271679,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Capricorn)",
+    "startMs": 271679,
+    "endMs": 272279,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "in",
+    "startMs": 272759,
+    "endMs": 272899,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 272899,
+    "endMs": 273059,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "afternoon",
+    "startMs": 273059,
+    "endMs": 273519,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 274059,
+    "endMs": 274379,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 274379,
+    "endMs": 274519,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "day",
+    "startMs": 274519,
+    "endMs": 274739,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 274739,
+    "endMs": 274999,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 274999,
+    "endMs": 275199,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "longest",
+    "startMs": 275199,
+    "endMs": 275539,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "in",
+    "startMs": 275539,
+    "endMs": 275999,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "that",
+    "startMs": 275999,
+    "endMs": 276199,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "hemisphere.",
+    "startMs": 276199,
+    "endMs": 276699,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "On",
+    "startMs": 277499,
+    "endMs": 277759,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 277759,
+    "endMs": 277879,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "twenty-second",
+    "startMs": 278199,
+    "endMs": 278577,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 278639,
+    "endMs": 278779,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "December,",
+    "startMs": 278779,
+    "endMs": 279259,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 279779,
+    "endMs": 279999,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "rays",
+    "startMs": 279999,
+    "endMs": 280219,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 280219,
+    "endMs": 280459,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 280459,
+    "endMs": 280619,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "sun",
+    "startMs": 280619,
+    "endMs": 280899,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "fall",
+    "startMs": 280899,
+    "endMs": 281239,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "directly",
+    "startMs": 281239,
+    "endMs": 281739,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "over",
+    "startMs": 281739,
+    "endMs": 282219,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 282219,
+    "endMs": 282379,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Tropic",
+    "startMs": 282379,
+    "endMs": 282739,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 282739,
+    "endMs": 282919,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Capricorn.",
+    "startMs": 282919,
+    "endMs": 283519,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "This",
+    "startMs": 284139,
+    "endMs": 284499,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 284499,
+    "endMs": 284779,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 284779,
+    "endMs": 285019,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "longest",
+    "startMs": 285019,
+    "endMs": 285359,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "day",
+    "startMs": 285359,
+    "endMs": 285759,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "in",
+    "startMs": 285759,
+    "endMs": 286019,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Southern",
+    "startMs": 286019,
+    "endMs": 286299,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Hemisphere",
+    "startMs": 286299,
+    "endMs": 286899,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "(summer",
+    "startMs": 287519,
+    "endMs": 287679,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "season),",
+    "startMs": 287679,
+    "endMs": 288119,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "while",
+    "startMs": 288539,
+    "endMs": 288799,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "in",
+    "startMs": 288799,
+    "endMs": 288959,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 288959,
+    "endMs": 289119,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Northern",
+    "startMs": 289119,
+    "endMs": 289399,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Hemisphere,",
+    "startMs": 289399,
+    "endMs": 289959,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "it",
+    "startMs": 289959,
+    "endMs": 290539,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 290539,
+    "endMs": 290679,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 290679,
+    "endMs": 290859,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "shortest",
+    "startMs": 290859,
+    "endMs": 291159,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "day",
+    "startMs": 291159,
+    "endMs": 291579,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "(winter",
+    "startMs": 292079,
+    "endMs": 292279,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "season).",
+    "startMs": 292279,
+    "endMs": 292659,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "This",
+    "startMs": 293359,
+    "endMs": 293619,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 293619,
+    "endMs": 293899,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "called",
+    "startMs": 293899,
+    "endMs": 294279,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "'Winter",
+    "startMs": 294379,
+    "endMs": 294792,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Solstice.",
+    "startMs": 294859,
+    "endMs": 295379,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "On",
+    "startMs": 296179,
+    "endMs": 296399,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 296399,
+    "endMs": 296519,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "twenty-first",
+    "startMs": 296809,
+    "endMs": 297162,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 297219,
+    "endMs": 297379,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "June,",
+    "startMs": 297379,
+    "endMs": 297739,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "sunlight",
+    "startMs": 298439,
+    "endMs": 298619,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "falls",
+    "startMs": 298619,
+    "endMs": 299119,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "vertically",
+    "startMs": 299119,
+    "endMs": 299619,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "over",
+    "startMs": 299619,
+    "endMs": 300119,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 300119,
+    "endMs": 300279,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Tropic",
+    "startMs": 300279,
+    "endMs": 300619,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 300619,
+    "endMs": 300819,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Cancer.",
+    "startMs": 300819,
+    "endMs": 301139,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "This",
+    "startMs": 301899,
+    "endMs": 302179,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 302179,
+    "endMs": 302439,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 302439,
+    "endMs": 302619,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "longest",
+    "startMs": 302619,
+    "endMs": 303039,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "day",
+    "startMs": 303039,
+    "endMs": 303439,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "in",
+    "startMs": 303439,
+    "endMs": 303699,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Northern",
+    "startMs": 303699,
+    "endMs": 303999,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Hemisphere",
+    "startMs": 303999,
+    "endMs": 304599,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 304599,
+    "endMs": 305279,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "hence",
+    "startMs": 305279,
+    "endMs": 305639,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "it",
+    "startMs": 305639,
+    "endMs": 306159,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 306159,
+    "endMs": 306319,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "called",
+    "startMs": 306319,
+    "endMs": 306679,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "'Summer",
+    "startMs": 306972,
+    "endMs": 307534,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Solstice',",
+    "startMs": 307626,
+    "endMs": 308188,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "while",
+    "startMs": 308279,
+    "endMs": 308499,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "in",
+    "startMs": 308499,
+    "endMs": 308639,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 308639,
+    "endMs": 308759,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Southern",
+    "startMs": 308759,
+    "endMs": 309079,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Hemisphere,",
+    "startMs": 309079,
+    "endMs": 309659,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "it",
+    "startMs": 309659,
+    "endMs": 310119,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 310119,
+    "endMs": 310279,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 310279,
+    "endMs": 310459,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "shortest",
+    "startMs": 310459,
+    "endMs": 310819,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "day.",
+    "startMs": 310819,
+    "endMs": 311199,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Let's",
+    "startMs": 313420,
+    "endMs": 313860,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Learn",
+    "startMs": 313860,
+    "endMs": 314040,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "More.",
+    "startMs": 314040,
+    "endMs": 314480,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Earth",
+    "startMs": 317340,
+    "endMs": 317700,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "keeps",
+    "startMs": 317700,
+    "endMs": 318040,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "rotating",
+    "startMs": 318040,
+    "endMs": 318720,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "due",
+    "startMs": 318720,
+    "endMs": 319140,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "to",
+    "startMs": 319140,
+    "endMs": 319320,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "inertia,",
+    "startMs": 319320,
+    "endMs": 319820,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 320620,
+    "endMs": 320700,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "same",
+    "startMs": 320700,
+    "endMs": 321040,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "reason",
+    "startMs": 321040,
+    "endMs": 321360,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "you",
+    "startMs": 321360,
+    "endMs": 321780,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "continue",
+    "startMs": 321780,
+    "endMs": 322120,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "moving",
+    "startMs": 322120,
+    "endMs": 322600,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "forward",
+    "startMs": 322600,
+    "endMs": 323120,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "when",
+    "startMs": 323120,
+    "endMs": 323680,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "you",
+    "startMs": 323680,
+    "endMs": 323860,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "stop",
+    "startMs": 323860,
+    "endMs": 324120,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "a",
+    "startMs": 324120,
+    "endMs": 324300,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "bike",
+    "startMs": 324300,
+    "endMs": 324540,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "suddenly.",
+    "startMs": 324540,
+    "endMs": 325060,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "This",
+    "startMs": 325800,
+    "endMs": 326060,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "movement",
+    "startMs": 326060,
+    "endMs": 326500,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "doesn\u2019t",
+    "startMs": 326580,
+    "endMs": 327027,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "stop",
+    "startMs": 327100,
+    "endMs": 327460,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "because",
+    "startMs": 327460,
+    "endMs": 327940,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "there\u2019s",
+    "startMs": 327940,
+    "endMs": 328353,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "no",
+    "startMs": 328420,
+    "endMs": 328600,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "friction",
+    "startMs": 328600,
+    "endMs": 328940,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "in",
+    "startMs": 328940,
+    "endMs": 329280,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "space",
+    "startMs": 329280,
+    "endMs": 329580,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "to",
+    "startMs": 329580,
+    "endMs": 329920,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "slow",
+    "startMs": 329920,
+    "endMs": 330160,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "it",
+    "startMs": 330160,
+    "endMs": 330340,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "down!",
+    "startMs": 330340,
+    "endMs": 330620,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "What",
+    "startMs": 333000,
+    "endMs": 333220,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 333220,
+    "endMs": 333440,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Equinox",
+    "startMs": 333440,
+    "endMs": 334120,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 334120,
+    "endMs": 334540,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "When",
+    "startMs": 334540,
+    "endMs": 334820,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Does",
+    "startMs": 334820,
+    "endMs": 335060,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "It",
+    "startMs": 335060,
+    "endMs": 335200,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Occur?",
+    "startMs": 335200,
+    "endMs": 335520,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "The",
+    "startMs": 338060,
+    "endMs": 338520,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "sun",
+    "startMs": 338520,
+    "endMs": 338780,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "falls",
+    "startMs": 338780,
+    "endMs": 339120,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "directly",
+    "startMs": 339120,
+    "endMs": 339580,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "on",
+    "startMs": 339580,
+    "endMs": 339980,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 339980,
+    "endMs": 340100,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "equator",
+    "startMs": 340100,
+    "endMs": 340640,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "two",
+    "startMs": 340640,
+    "endMs": 341100,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "times",
+    "startMs": 341100,
+    "endMs": 341460,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "in",
+    "startMs": 341460,
+    "endMs": 341720,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "a",
+    "startMs": 341720,
+    "endMs": 341840,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "year.",
+    "startMs": 341840,
+    "endMs": 342060,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "During",
+    "startMs": 342760,
+    "endMs": 343100,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "this",
+    "startMs": 343100,
+    "endMs": 343380,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "period",
+    "startMs": 343380,
+    "endMs": 343800,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "there",
+    "startMs": 344140,
+    "endMs": 344380,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 344380,
+    "endMs": 344480,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "equal",
+    "startMs": 344480,
+    "endMs": 344980,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "length",
+    "startMs": 344980,
+    "endMs": 345260,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 345260,
+    "endMs": 345520,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "day",
+    "startMs": 345520,
+    "endMs": 345800,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 345800,
+    "endMs": 346100,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "night",
+    "startMs": 346100,
+    "endMs": 346400,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "all",
+    "startMs": 346400,
+    "endMs": 346880,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "over",
+    "startMs": 346880,
+    "endMs": 347180,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 347180,
+    "endMs": 347280,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "world.",
+    "startMs": 347280,
+    "endMs": 347560,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "In",
+    "startMs": 348200,
+    "endMs": 348500,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Northern",
+    "startMs": 348500,
+    "endMs": 348800,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Hemisphere,",
+    "startMs": 348800,
+    "endMs": 349380,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 349840,
+    "endMs": 350060,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "March",
+    "startMs": 350060,
+    "endMs": 350380,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Equinox",
+    "startMs": 350380,
+    "endMs": 351000,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 351000,
+    "endMs": 351300,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "called",
+    "startMs": 351300,
+    "endMs": 351580,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 351580,
+    "endMs": 351800,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Vernal",
+    "startMs": 351800,
+    "endMs": 352280,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "or",
+    "startMs": 352280,
+    "endMs": 352620,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Spring",
+    "startMs": 352620,
+    "endMs": 352960,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Equinox",
+    "startMs": 352960,
+    "endMs": 353740,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "while",
+    "startMs": 354100,
+    "endMs": 354380,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "September",
+    "startMs": 354380,
+    "endMs": 354820,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Equinox",
+    "startMs": 354820,
+    "endMs": 355580,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 355580,
+    "endMs": 355960,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "called",
+    "startMs": 355960,
+    "endMs": 356280,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Autumnal",
+    "startMs": 356280,
+    "endMs": 356940,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Equinox.",
+    "startMs": 356940,
+    "endMs": 357580,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Spring",
+    "startMs": 357580,
+    "endMs": 358700,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Equinox",
+    "startMs": 358700,
+    "endMs": 359360,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "(March",
+    "startMs": 359880,
+    "endMs": 359980,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "21st)",
+    "startMs": 360590,
+    "endMs": 361201,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "marks",
+    "startMs": 361300,
+    "endMs": 361640,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 361640,
+    "endMs": 361860,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "beginning",
+    "startMs": 361860,
+    "endMs": 362200,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 362200,
+    "endMs": 362580,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "spring.",
+    "startMs": 362580,
+    "endMs": 362940,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Autumn",
+    "startMs": 363820,
+    "endMs": 364020,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Equinox",
+    "startMs": 364020,
+    "endMs": 364700,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "(September",
+    "startMs": 365140,
+    "endMs": 365400,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "23rd)",
+    "startMs": 365910,
+    "endMs": 366572,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "marks",
+    "startMs": 366680,
+    "endMs": 366980,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 366980,
+    "endMs": 367200,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "beginning",
+    "startMs": 367200,
+    "endMs": 367560,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 367560,
+    "endMs": 367980,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "autumn.",
+    "startMs": 367980,
+    "endMs": 368360,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Recall.",
+    "startMs": 370660,
+    "endMs": 371120,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "The",
+    "startMs": 371120,
+    "endMs": 374120,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth's",
+    "startMs": 374120,
+    "endMs": 374660,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "movements,",
+    "startMs": 374660,
+    "endMs": 375120,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "rotation",
+    "startMs": 375720,
+    "endMs": 376040,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 376040,
+    "endMs": 376780,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "revolution,",
+    "startMs": 376780,
+    "endMs": 377400,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "have",
+    "startMs": 377660,
+    "endMs": 378120,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "significant",
+    "startMs": 378120,
+    "endMs": 378720,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "affects",
+    "startMs": 378720,
+    "endMs": 379236,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "on",
+    "startMs": 379320,
+    "endMs": 379680,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "our",
+    "startMs": 379680,
+    "endMs": 379860,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "lives.",
+    "startMs": 379860,
+    "endMs": 380260,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Rotation",
+    "startMs": 381620,
+    "endMs": 381680,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "causes",
+    "startMs": 381620,
+    "endMs": 382160,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "day",
+    "startMs": 382160,
+    "endMs": 382540,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 382540,
+    "endMs": 382840,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "night,",
+    "startMs": 382840,
+    "endMs": 383200,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "while",
+    "startMs": 383780,
+    "endMs": 384060,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "revolution",
+    "startMs": 384060,
+    "endMs": 384560,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "leads",
+    "startMs": 384560,
+    "endMs": 385260,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "to",
+    "startMs": 385260,
+    "endMs": 385500,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 385500,
+    "endMs": 385640,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "change",
+    "startMs": 385640,
+    "endMs": 385940,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 385940,
+    "endMs": 386180,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "seasons.",
+    "startMs": 386180,
+    "endMs": 386600,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Solstices",
+    "startMs": 387800,
+    "endMs": 388120,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 388120,
+    "endMs": 388580,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "equinoxes",
+    "startMs": 388580,
+    "endMs": 389520,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "mark",
+    "startMs": 389520,
+    "endMs": 389880,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 389880,
+    "endMs": 390100,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "shift",
+    "startMs": 390100,
+    "endMs": 390380,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "in",
+    "startMs": 390380,
+    "endMs": 390660,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "seasons,",
+    "startMs": 390660,
+    "endMs": 391140,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "playing",
+    "startMs": 391640,
+    "endMs": 391940,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "an",
+    "startMs": 391940,
+    "endMs": 392180,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "essential",
+    "startMs": 392180,
+    "endMs": 392680,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "role",
+    "startMs": 392680,
+    "endMs": 393040,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "in",
+    "startMs": 393040,
+    "endMs": 393380,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "our",
+    "startMs": 393380,
+    "endMs": 393520,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "climate",
+    "startMs": 393520,
+    "endMs": 393920,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 393920,
+    "endMs": 394380,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "timekeeping.",
+    "startMs": 394380,
+    "endMs": 394980,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Let's",
+    "startMs": 397720,
+    "endMs": 397892,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Remember.",
+    "startMs": 397920,
+    "endMs": 398360,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "The",
+    "startMs": 401020,
+    "endMs": 401300,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth",
+    "startMs": 401300,
+    "endMs": 401600,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "moves",
+    "startMs": 401600,
+    "endMs": 401980,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "in",
+    "startMs": 401980,
+    "endMs": 402360,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "two",
+    "startMs": 402360,
+    "endMs": 402620,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "ways:",
+    "startMs": 402620,
+    "endMs": 403020,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "rotation",
+    "startMs": 404200,
+    "endMs": 404260,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 404200,
+    "endMs": 404760,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "revolution.",
+    "startMs": 404760,
+    "endMs": 405320,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Rotation",
+    "startMs": 406120,
+    "endMs": 406600,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "causes",
+    "startMs": 406600,
+    "endMs": 407160,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "day",
+    "startMs": 407160,
+    "endMs": 407560,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 407560,
+    "endMs": 407860,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "night,",
+    "startMs": 407860,
+    "endMs": 408220,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "while",
+    "startMs": 408680,
+    "endMs": 408880,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "revolution",
+    "startMs": 408880,
+    "endMs": 409440,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "causes",
+    "startMs": 409440,
+    "endMs": 410180,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "seasons.",
+    "startMs": 410180,
+    "endMs": 410620,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "The",
+    "startMs": 411620,
+    "endMs": 411800,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth",
+    "startMs": 411800,
+    "endMs": 412060,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "completes",
+    "startMs": 412060,
+    "endMs": 412580,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "one",
+    "startMs": 412580,
+    "endMs": 412980,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "rotation",
+    "startMs": 412980,
+    "endMs": 413420,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "in",
+    "startMs": 413420,
+    "endMs": 413860,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "24",
+    "startMs": 413860,
+    "endMs": 414460,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "hours",
+    "startMs": 414460,
+    "endMs": 414900,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 414900,
+    "endMs": 415620,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "one",
+    "startMs": 415620,
+    "endMs": 415940,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "revolution",
+    "startMs": 415940,
+    "endMs": 416560,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "in",
+    "startMs": 416560,
+    "endMs": 417053,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "three",
+    "startMs": 417053,
+    "endMs": 417477,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "hundred",
+    "startMs": 417547,
+    "endMs": 417971,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 418040,
+    "endMs": 418310,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "sixty-five",
+    "startMs": 418310,
+    "endMs": 418542,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 418580,
+    "endMs": 418812,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "one",
+    "startMs": 418850,
+    "endMs": 419082,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "quarter",
+    "startMs": 419120,
+    "endMs": 419380,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "days.",
+    "startMs": 419380,
+    "endMs": 419840,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Solstices",
+    "startMs": 420840,
+    "endMs": 421320,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "occur",
+    "startMs": 421320,
+    "endMs": 421800,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "in",
+    "startMs": 421800,
+    "endMs": 422120,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "June",
+    "startMs": 422120,
+    "endMs": 422420,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 422420,
+    "endMs": 422780,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "December,",
+    "startMs": 422780,
+    "endMs": 423260,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "marking",
+    "startMs": 423680,
+    "endMs": 424000,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 424000,
+    "endMs": 424240,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "longest",
+    "startMs": 424240,
+    "endMs": 424660,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 424660,
+    "endMs": 425160,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "shortest",
+    "startMs": 425160,
+    "endMs": 425540,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "days.",
+    "startMs": 425540,
+    "endMs": 425980,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Equinoxes",
+    "startMs": 426900,
+    "endMs": 427600,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "occur",
+    "startMs": 427600,
+    "endMs": 427940,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "in",
+    "startMs": 427940,
+    "endMs": 428240,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "March",
+    "startMs": 428240,
+    "endMs": 428540,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 428540,
+    "endMs": 428920,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "September,",
+    "startMs": 428920,
+    "endMs": 429460,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "when",
+    "startMs": 429920,
+    "endMs": 430060,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "day",
+    "startMs": 430060,
+    "endMs": 430380,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 430380,
+    "endMs": 430720,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "night",
+    "startMs": 430720,
+    "endMs": 431040,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "are",
+    "startMs": 431040,
+    "endMs": 431400,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "equal.",
+    "startMs": 431400,
+    "endMs": 431840,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Word",
+    "startMs": 434140,
+    "endMs": 434380,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Bank.",
+    "startMs": 434380,
+    "endMs": 434800,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Rotation",
+    "startMs": 437900,
+    "endMs": 437960,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "\u2013",
+    "startMs": 438400,
+    "endMs": 438830,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Spinning",
+    "startMs": 438900,
+    "endMs": 439180,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 439180,
+    "endMs": 439440,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 439440,
+    "endMs": 439640,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth",
+    "startMs": 439640,
+    "endMs": 439960,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "on",
+    "startMs": 439960,
+    "endMs": 440360,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "its",
+    "startMs": 440360,
+    "endMs": 440560,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "axis.",
+    "startMs": 440560,
+    "endMs": 441100,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Revolution",
+    "startMs": 442380,
+    "endMs": 442680,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "\u2013",
+    "startMs": 442930,
+    "endMs": 443403,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Movement",
+    "startMs": 443480,
+    "endMs": 443840,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 443840,
+    "endMs": 444180,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 444180,
+    "endMs": 444340,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth",
+    "startMs": 444340,
+    "endMs": 444660,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "around",
+    "startMs": 444660,
+    "endMs": 445220,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 445220,
+    "endMs": 445440,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Sun.",
+    "startMs": 445440,
+    "endMs": 445740,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Orbit",
+    "startMs": 446680,
+    "endMs": 446960,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "\u2013",
+    "startMs": 447190,
+    "endMs": 447629,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "The",
+    "startMs": 447700,
+    "endMs": 447800,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "path",
+    "startMs": 447800,
+    "endMs": 448120,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "of",
+    "startMs": 448120,
+    "endMs": 448320,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 448320,
+    "endMs": 448500,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Earth",
+    "startMs": 448500,
+    "endMs": 448840,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "around",
+    "startMs": 448840,
+    "endMs": 449380,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 449380,
+    "endMs": 449620,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Sun.",
+    "startMs": 449620,
+    "endMs": 450040,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Solstice",
+    "startMs": 450920,
+    "endMs": 451280,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "\u2013",
+    "startMs": 451460,
+    "endMs": 451924,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "When",
+    "startMs": 452000,
+    "endMs": 452120,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "the",
+    "startMs": 452120,
+    "endMs": 452280,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "Sun",
+    "startMs": 452280,
+    "endMs": 452600,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "is",
+    "startMs": 452600,
+    "endMs": 452860,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "at",
+    "startMs": 452860,
+    "endMs": 453040,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "its",
+    "startMs": 453040,
+    "endMs": 453260,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "farthest",
+    "startMs": 453260,
+    "endMs": 453780,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "point",
+    "startMs": 453780,
+    "endMs": 454180,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "north",
+    "startMs": 454180,
+    "endMs": 454680,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "or",
+    "startMs": 454680,
+    "endMs": 455160,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "south.",
+    "startMs": 455160,
+    "endMs": 455520,
+    "pageBreakAfter": true
+  },
+  {
+    "word": "Equinox",
+    "startMs": 456380,
+    "endMs": 456920,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "\u2013",
+    "startMs": 456950,
+    "endMs": 457440,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "When",
+    "startMs": 457520,
+    "endMs": 457720,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "day",
+    "startMs": 457720,
+    "endMs": 458060,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "and",
+    "startMs": 458060,
+    "endMs": 458320,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "night",
+    "startMs": 458320,
+    "endMs": 458660,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "are",
+    "startMs": 458660,
+    "endMs": 459000,
+    "pageBreakAfter": false
+  },
+  {
+    "word": "equal.",
+    "startMs": 459000,
+    "endMs": 459600,
+    "pageBreakAfter": true
+  }
+]

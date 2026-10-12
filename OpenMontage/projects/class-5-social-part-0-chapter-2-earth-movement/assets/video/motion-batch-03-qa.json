@@ -1,0 +1,9 @@
+{
+  "version": "1.0",
+  "status": "reject",
+  "shot_id": "earth-opening-clean-i2v-03",
+  "technical": "Playable 5.0625-second silent 832x464 H.264 clip at 16 fps.",
+  "visual_evidence": "qa-previews/earth-opening-clean-i2v-03-contact.jpg",
+  "reason": "The model again inserted large invented lettering in the left title area throughout the shot. Do not use or obscure this generated text in the approved composition.",
+  "next_action": "Try one bounded Wan 2.2 image-to-video request with a purely visual prompt that never mentions title, words, or a blank title area. If it still invents lettering, use the reviewed deterministic 3D opening with authored title UI."
+}

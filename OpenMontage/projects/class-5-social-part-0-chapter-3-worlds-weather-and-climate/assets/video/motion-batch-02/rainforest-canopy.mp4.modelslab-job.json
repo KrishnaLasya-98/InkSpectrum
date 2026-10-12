@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188618076",
+  "request_fingerprint": "1cbb39beacca22ac807495484e53056b48621bd7898fc685dda2f6c63eda61ca",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-02\\rainforest-canopy.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791283800.6799579,
+  "last_poll_at_unix": 1791284116.2195482,
+  "completed_at_unix": 1791284118.105253
+}

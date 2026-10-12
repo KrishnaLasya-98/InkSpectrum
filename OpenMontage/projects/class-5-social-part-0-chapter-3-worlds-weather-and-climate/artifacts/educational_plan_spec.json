@@ -1,0 +1,438 @@
+{
+  "version": "1.0",
+  "title": "Worlds Weather and Climate",
+  "subject_classification": "theory",
+  "domain": "social-studies",
+  "complexity_level": "elementary",
+  "target_audience": "Class 5, ages 9-11",
+  "learning_objectives": [
+    "Explain the difference between weather and climate.",
+    "Identify and describe the factors affecting climate.",
+    "Understand the different types of climate found in the world.",
+    "Recognize the climatic zones of the Earth.",
+    "Explain how climate affects human life and the environment."
+  ],
+  "metadata": {
+    "subject": "social-studies",
+    "subject_label": "Social Studies",
+    "grade": 5,
+    "chapter": 3,
+    "narration_speed": 0.85,
+    "delivery_policy": {
+      "estimated_wpm": 140,
+      "heading_pause_seconds": 2,
+      "topic_pause_seconds": 1.5
+    },
+    "production_scope": {
+      "user_approved": true,
+      "start_section_id": "s01-title",
+      "end_section_id": "s28-wordbank",
+      "exclude_assessments": true,
+      "description": "Opening through Word Bank, original PDF pages 1-7."
+    },
+    "source_audit": "D:\\InkSpectrum\\OpenMontage\\textbook-collections\\class-5-social\\reviewed\\chapter-03\\audits\\source-audit.json",
+    "approval": {
+      "status": "approved",
+      "evidence": "User requested remaining chapters sequentially and explicitly requested Chapter 3 generation on 2026-10-06."
+    }
+  },
+  "section_defaults": {
+    "render_mode": "video_gen",
+    "transition_to_next": "crossfade"
+  },
+  "sections": [
+    {
+      "section_id": "s01-title",
+      "title": "Lesson 3: Worlds Weather and Climate",
+      "source_delivery": true,
+      "source_selectors": [
+        {
+          "page": 1,
+          "start": 1,
+          "end": 1
+        }
+      ],
+      "description": "A child-friendly 3D sunny meadow with clouds and distant snowy mountains, moving foliage and a gently gliding camera; reserve the left area for the exact chapter title.",
+      "animation_action": "A child-friendly 3D sunny meadow with clouds and distant snowy mountains, moving foliage and a gently gliding camera; reserve the left area for the exact chapter title.",
+      "narration_prefix": "Social Studies, Class 5."
+    },
+    {
+      "section_id": "s02-objectives",
+      "title": "Learning Objectives",
+      "source_delivery": true,
+      "source_selectors": [
+        {
+          "page": 1,
+          "start": 2,
+          "end": 8
+        }
+      ],
+      "description": "Readable exact learning-objective list with aligned subtitles; retain a stable cream reading card.",
+      "animation_action": "Readable exact learning-objective list with aligned subtitles; retain a stable cream reading card."
+    },
+    {
+      "section_id": "s03-startup",
+      "title": "Start-Up",
+      "source_delivery": true,
+      "source_selectors": [
+        {
+          "page": 1,
+          "start": 9,
+          "end": 10
+        }
+      ],
+      "description": "An Indian schoolchild looks out a classroom window onto sunny, cloudy and rainy weather cues; time weather changes to the spoken words.",
+      "animation_action": "An Indian schoolchild looks out a classroom window onto sunny, cloudy and rainy weather cues; time weather changes to the spoken words."
+    },
+    {
+      "section_id": "s04-weather",
+      "title": "Weather",
+      "source_delivery": true,
+      "source_selectors": [
+        {
+          "page": 1,
+          "start": 11,
+          "end": 12
+        }
+      ],
+      "description": "A 3D landscape demonstrates cloud movement, blowing foliage, rain and changing sunlight; exact temperature and humidity graphics are authored separately.",
+      "animation_action": "A 3D landscape demonstrates cloud movement, blowing foliage, rain and changing sunlight; exact temperature and humidity graphics are authored separately."
+    },
+    {
+      "section_id": "s05-hot-desert-fact",
+      "title": "Do You Know?",
+      "source_delivery": true,
+      "source_selectors": [
+        {
+          "page": 1,
+          "start": 13,
+          "end": 14
+        }
+      ],
+      "description": "A hot rocky desert with heat shimmer; no fake measurement labels or air-temperature display.",
+      "animation_action": "A hot rocky desert with heat shimmer; no fake measurement labels or air-temperature display."
+    },
+    {
+      "section_id": "s06-climate",
+      "title": "Climate",
+      "source_delivery": true,
+      "source_selectors": [
+        {
+          "page": 2,
+          "start": 1,
+          "end": 2
+        }
+      ],
+      "description": "Distinct hot dry dunes and warm rainy rainforest shots, timed to Sahara and Amazon descriptions; authored 30-year comparison graphic.",
+      "animation_action": "Distinct hot dry dunes and warm rainy rainforest shots, timed to Sahara and Amazon descriptions; authored 30-year comparison graphic."
+    },
+    {
+      "section_id": "s07-factors",
+      "title": "Factors Affecting Climate",
+      "source_delivery": true,
+      "source_selectors": [
+        {
+          "page": 2,
+          "start": 3,
+          "end": 4
+        }
+      ],
+      "description": "A precise animated overview shows sunlight, mountains, coast, moving air and ocean water; exact source text remains on the cream card.",
+      "animation_action": "A precise animated overview shows sunlight, mountains, coast, moving air and ocean water; exact source text remains on the cream card."
+    },
+    {
+      "section_id": "s08-latitude",
+      "title": "Distance from the Equator (Latitudes)",
+      "source_delivery": true,
+      "source_selectors": [
+        {
+          "page": 2,
+          "start": 5,
+          "end": 7
+        }
+      ],
+      "description": "A new blue 3D globe with authored latitude rings and sunlight paths toward the equator and poles; original textbook world map shown unchanged.",
+      "animation_action": "A new blue 3D globe with authored latitude rings and sunlight paths toward the equator and poles; original textbook world map shown unchanged."
+    },
+    {
+      "section_id": "s09-altitude",
+      "title": "Altitude",
+      "source_delivery": true,
+      "source_selectors": [
+        {
+          "page": 3,
+          "start": 1,
+          "end": 3
+        }
+      ],
+      "description": "An authored 3D terrain view moves from sea level to a snowy mountain; label altitude with precise editable text; original mountain photograph remains visible when referenced.",
+      "animation_action": "An authored 3D terrain view moves from sea level to a snowy mountain; label altitude with precise editable text; original mountain photograph remains visible when referenced."
+    },
+    {
+      "section_id": "s10-sea-land-breeze",
+      "title": "Distance from the Sea (Sea Breeze and Land Breeze)",
+      "source_delivery": true,
+      "source_selectors": [
+        {
+          "page": 3,
+          "start": 4,
+          "end": 6
+        }
+      ],
+      "description": "Precise coastal 3D model with day sea-to-land airflow and night land-to-sea airflow; preserve the original two-panel breeze diagram.",
+      "animation_action": "Precise coastal 3D model with day sea-to-land airflow and night land-to-sea airflow; preserve the original two-panel breeze diagram."
+    },
+    {
+      "section_id": "s11-wind",
+      "title": "Direction of the Wind",
+      "source_delivery": true,
+      "source_selectors": [
+        {
+          "page": 4,
+          "start": 1,
+          "end": 3
+        }
+      ],
+      "description": "A 3D mountain and moving cloud/rain illustrate windward moisture and leeward rain shadow, with exact original diagram labels retained.",
+      "animation_action": "A 3D mountain and moving cloud/rain illustrate windward moisture and leeward rain shadow, with exact original diagram labels retained."
+    },
+    {
+      "section_id": "s12-humidity",
+      "title": "Humidity",
+      "source_delivery": true,
+      "source_selectors": [
+        {
+          "page": 4,
+          "start": 4,
+          "end": 6
+        }
+      ],
+      "description": "A humid coastal garden and a dry desert in distinct shots; precise water-vapour cue; show the textbook photograph in a source inset.",
+      "animation_action": "A humid coastal garden and a dry desert in distinct shots; precise water-vapour cue; show the textbook photograph in a source inset."
+    },
+    {
+      "section_id": "s13-currents",
+      "title": "Ocean Currents",
+      "source_delivery": true,
+      "source_selectors": [
+        {
+          "page": 4,
+          "start": 7,
+          "end": 9
+        }
+      ],
+      "description": "Moving ocean water with authored warm and cold current arrows; geographic labels only on reviewed source-derived graphics, never AI-generated maps.",
+      "animation_action": "Moving ocean water with authored warm and cold current arrows; geographic labels only on reviewed source-derived graphics, never AI-generated maps."
+    },
+    {
+      "section_id": "s14-rainforest-fact",
+      "title": "Let's Learn More!",
+      "source_delivery": true,
+      "source_selectors": [
+        {
+          "page": 5,
+          "start": 1,
+          "end": 2
+        }
+      ],
+      "description": "A fresh lush 3D rainforest with falling rain, moving leaves and fruit; cream source fact box.",
+      "animation_action": "A fresh lush 3D rainforest with falling rain, moving leaves and fruit; cream source fact box."
+    },
+    {
+      "section_id": "s15-climate-types",
+      "title": "Types of Climate",
+      "source_delivery": true,
+      "source_selectors": [
+        {
+          "page": 5,
+          "start": 3,
+          "end": 4
+        }
+      ],
+      "description": "A concise precise 3D overview of hot wet, dry and cold environments; source transition text remains exact.",
+      "animation_action": "A concise precise 3D overview of hot wet, dry and cold environments; source transition text remains exact."
+    },
+    {
+      "section_id": "s16-monsoon",
+      "title": "Monsoon or Tropical Climate",
+      "source_delivery": true,
+      "source_selectors": [
+        {
+          "page": 5,
+          "start": 5,
+          "end": 7
+        }
+      ],
+      "description": "Heavy monsoon rain over a child-friendly Indian rural landscape with moving trees and accumulating puddles.",
+      "animation_action": "Heavy monsoon rain over a child-friendly Indian rural landscape with moving trees and accumulating puddles."
+    },
+    {
+      "section_id": "s17-equatorial",
+      "title": "Equatorial Climate",
+      "source_delivery": true,
+      "source_selectors": [
+        {
+          "page": 5,
+          "start": 8,
+          "end": 11
+        }
+      ],
+      "description": "A dense 3D rainforest canopy with falling rain and moving leaves; show the original rainforest photograph as an inset.",
+      "animation_action": "A dense 3D rainforest canopy with falling rain and moving leaves; show the original rainforest photograph as an inset."
+    },
+    {
+      "section_id": "s18-desert",
+      "title": "Desert Climate",
+      "source_delivery": true,
+      "source_selectors": [
+        {
+          "page": 5,
+          "start": 12,
+          "end": 15
+        }
+      ],
+      "description": "Fresh desert dunes in hot daylight and a separate cool moonlit desert shot; original desert photograph preserved.",
+      "animation_action": "Fresh desert dunes in hot daylight and a separate cool moonlit desert shot; original desert photograph preserved."
+    },
+    {
+      "section_id": "s19-tundra",
+      "title": "Tundra Climate",
+      "source_delivery": true,
+      "source_selectors": [
+        {
+          "page": 6,
+          "start": 1,
+          "end": 3
+        }
+      ],
+      "description": "Cold sparsely vegetated snowy terrain, gentle wind and sparse low plants; original source photo preserved without inventing Antarctic reindeer geography.",
+      "animation_action": "Cold sparsely vegetated snowy terrain, gentle wind and sparse low plants; original source photo preserved without inventing Antarctic reindeer geography."
+    },
+    {
+      "section_id": "s20-antarctica-fact",
+      "title": "Do You Know?",
+      "source_delivery": true,
+      "source_selectors": [
+        {
+          "page": 6,
+          "start": 4,
+          "end": 5
+        }
+      ],
+      "description": "Antarctic ice and wind context, no rainfall simulation or unsupported historical claims beyond the printed source card.",
+      "animation_action": "Antarctic ice and wind context, no rainfall simulation or unsupported historical claims beyond the printed source card."
+    },
+    {
+      "section_id": "s21-zones",
+      "title": "Climatic Zones of the Earth",
+      "source_delivery": true,
+      "source_selectors": [
+        {
+          "page": 6,
+          "start": 6,
+          "end": 7
+        }
+      ],
+      "description": "A new blue 3D globe with precisely authored tropical, temperate and polar bands.",
+      "animation_action": "A new blue 3D globe with precisely authored tropical, temperate and polar bands."
+    },
+    {
+      "section_id": "s22-torrid",
+      "title": "Torrid Zone",
+      "source_delivery": true,
+      "source_selectors": [
+        {
+          "page": 6,
+          "start": 8,
+          "end": 10
+        }
+      ],
+      "description": "Authored globe highlights the band between Tropic of Cancer and Tropic of Capricorn with clean editable labels.",
+      "animation_action": "Authored globe highlights the band between Tropic of Cancer and Tropic of Capricorn with clean editable labels."
+    },
+    {
+      "section_id": "s23-temperate",
+      "title": "Temperate Zone",
+      "source_delivery": true,
+      "source_selectors": [
+        {
+          "page": 6,
+          "start": 11,
+          "end": 13
+        }
+      ],
+      "description": "Authored globe highlights both temperate bands; a fresh moving woodland shows moderate conditions.",
+      "animation_action": "Authored globe highlights both temperate bands; a fresh moving woodland shows moderate conditions."
+    },
+    {
+      "section_id": "s24-cloud-fact",
+      "title": "Do you know?",
+      "source_delivery": true,
+      "source_selectors": [
+        {
+          "page": 6,
+          "start": 14,
+          "end": 15
+        }
+      ],
+      "description": "Distinct fluffy fair-weather cumulus and layered rainy nimbostratus cloud scenes matched to narration.",
+      "animation_action": "Distinct fluffy fair-weather cumulus and layered rainy nimbostratus cloud scenes matched to narration."
+    },
+    {
+      "section_id": "s25-frigid",
+      "title": "Frigid Zone",
+      "source_delivery": true,
+      "source_selectors": [
+        {
+          "page": 7,
+          "start": 1,
+          "end": 4
+        }
+      ],
+      "description": "Authored globe highlights polar regions; exact original climatic-zone diagram stays readable.",
+      "animation_action": "Authored globe highlights polar regions; exact original climatic-zone diagram stays readable."
+    },
+    {
+      "section_id": "s26-recall",
+      "title": "Recall",
+      "source_delivery": true,
+      "source_selectors": [
+        {
+          "page": 7,
+          "start": 5,
+          "end": 6
+        }
+      ],
+      "description": "Exact Recall paragraph on a cream reading panel with punctuated word-highlight subtitles.",
+      "animation_action": "Exact Recall paragraph on a cream reading panel with punctuated word-highlight subtitles."
+    },
+    {
+      "section_id": "s27-remember",
+      "title": "Let's Remember",
+      "source_delivery": true,
+      "source_selectors": [
+        {
+          "page": 7,
+          "start": 7,
+          "end": 12
+        }
+      ],
+      "description": "Exact five-item Let’s Remember list on a cream reading panel with word-highlight subtitles.",
+      "animation_action": "Exact five-item Let’s Remember list on a cream reading panel with word-highlight subtitles."
+    },
+    {
+      "section_id": "s28-wordbank",
+      "title": "Word Bank",
+      "source_delivery": true,
+      "source_selectors": [
+        {
+          "page": 7,
+          "start": 13,
+          "end": 14
+        }
+      ],
+      "description": "Exact five-row Word Bank table with term and meaning spoken together; finish after the last definition.",
+      "animation_action": "Exact five-row Word Bank table with term and meaning spoken together; finish after the last definition."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "version": "1.0",
+  "project_id": "class-5-social-part-0-chapter-2-earth-movement",
+  "pipeline_type": "educational-video",
+  "stage": "text_audio_alignment",
+  "status": "completed",
+  "timestamp": "2026-10-01T11:25:43.207566+00:00",
+  "checkpoint_policy": "auto_noncreative",
+  "human_approval_required": false,
+  "human_approved": false,
+  "artifacts": {
+    "narration_aligned_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\artifacts\\alignment-v1\\narration_aligned.json",
+    "word_captions_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\artifacts\\alignment-v1\\word_captions.json",
+    "formatted_srt_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\artifacts\\alignment-v1\\formatted_subtitles.srt",
+    "timing_qa_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\artifacts\\alignment-v1\\alignment-qa.json"
+  },
+  "style_playbook": "clean-professional",
+  "cost_snapshot": {
+    "total_spent_usd": 0.0,
+    "total_reserved_usd": 0.0,
+    "budget_remaining_usd": 5.0
+  },
+  "metadata": {
+    "method": "faster_whisper",
+    "words": 857,
+    "duration_seconds": 426.472,
+    "stage_started_at_unix": 1790853855.6731923,
+    "stage_duration_seconds": 87.22,
+    "estimated_duration_seconds": 180.0,
+    "eta_accuracy_ratio": 0.485,
+    "artifact_sha256": "dde5a3da5cb5b8b23763a2056ac06a8d8d2147fcdfb4aa606d1d60caf8c70a5b"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "version": "1.0",
+  "checked_at": "2026-10-07T05:29:46.007445+00:00",
+  "batch": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-02.json",
+  "new_submissions": 0,
+  "jobs": [
+    {
+      "shot_id": "humid-coast",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-02\\humid-coast.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "rainforest-canopy",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-02\\rainforest-canopy.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "monsoon-rain",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-02\\monsoon-rain.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "equatorial-rain",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-02\\equatorial-rain.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "tundra-wind",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-02\\tundra-wind.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "antarctic-wind",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-02\\antarctic-wind.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    }
+  ],
+  "downloaded": 6,
+  "total": 6
+}

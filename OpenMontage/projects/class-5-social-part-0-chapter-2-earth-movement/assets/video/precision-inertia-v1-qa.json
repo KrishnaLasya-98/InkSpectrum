@@ -1,0 +1,12 @@
+{
+  "version": "1.0",
+  "source": "precision_inertia_v1.py",
+  "scene": "BicycleStopInertia",
+  "file": "precision-inertia-v1-final/videos/precision_inertia_v1/1080p30/BicycleStopInertia-1080p.mp4",
+  "status": "accept_limited_teaching_inset",
+  "evidence": "precision-inertia-v1-final/contact.jpg",
+  "probe": {"video_codec": "h264", "width": 1920, "height": 1080, "fps": 30, "duration_seconds": 4.266667},
+  "observation": "The bicycle and rider travel right for 2.2 seconds, then the bicycle stays in place while the rider's upper body tips forward. The abstract model is not suitable as a full-frame story shot, but its motion sequence makes the source inertia example explicit.",
+  "use_policy": "One small animated teaching inset beside the exact original blue fact-card text, with the spoken cue synchronized to the stop at about 2.2 seconds. Do not stretch, loop, or reuse it. The three rejected Wan bicycle shots must not replace this explanation.",
+  "final_composition_approval": false
+}

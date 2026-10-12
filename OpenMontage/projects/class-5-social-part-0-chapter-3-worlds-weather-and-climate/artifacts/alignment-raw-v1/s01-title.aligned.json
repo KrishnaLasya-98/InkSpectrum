@@ -1,0 +1,80 @@
+{
+  "section_id": "s01-title",
+  "text": "Social Studies, Class 5. Lesson 3: Worlds Weather and Climate.",
+  "start_ms": 0,
+  "end_ms": 6480,
+  "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\audio\\narration-elevenlabs-v1\\s01-title.wav",
+  "words": [
+    {
+      "word": "Social",
+      "start_ms": 100,
+      "end_ms": 461,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0446
+    },
+    {
+      "word": "Studies,",
+      "start_ms": 562,
+      "end_ms": 983,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.054
+    },
+    {
+      "word": "Class",
+      "start_ms": 1364,
+      "end_ms": 1645,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0004
+    },
+    {
+      "word": "5.",
+      "start_ms": 1745,
+      "end_ms": 2066,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.036
+    },
+    {
+      "word": "Lesson",
+      "start_ms": 2829,
+      "end_ms": 3150,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.124
+    },
+    {
+      "word": "3:",
+      "start_ms": 3270,
+      "end_ms": 3531,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0116
+    },
+    {
+      "word": "Worlds",
+      "start_ms": 4273,
+      "end_ms": 4674,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0481
+    },
+    {
+      "word": "Weather",
+      "start_ms": 5015,
+      "end_ms": 5316,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0024
+    },
+    {
+      "word": "and",
+      "start_ms": 5577,
+      "end_ms": 5657,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "Climate.",
+      "start_ms": 5758,
+      "end_ms": 6199,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0083
+    }
+  ],
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

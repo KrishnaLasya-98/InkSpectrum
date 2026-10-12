@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "scope": "One revised opening shot after semantic rejection of batch-02 opening",
+  "provider": "modelslab",
+  "model_id": "wan-2.2-i2v",
+  "operation": "image_to_video",
+  "shots": [
+    {
+      "shot_id": "earth-opening-clean-i2v-03",
+      "section_id": "s01-title",
+      "narration_cue": "Lesson 2: Earth Movement",
+      "reference_image": "assets/images/gpt-reference-v1/earth-opening.png",
+      "prompt": "Animate the supplied reference frame as a polished five-second 3D educational background. Exactly one Earth turns gently, with subtle cloud movement and a warm sunlight rim. Preserve the source composition, natural geography, dark star field, and stable 16:9 framing. The camera movement is smooth and restrained, and the scene stays continuous from first frame to last. The lesson title is composed later in a separate graphics layer."
+    }
+  ]
+}

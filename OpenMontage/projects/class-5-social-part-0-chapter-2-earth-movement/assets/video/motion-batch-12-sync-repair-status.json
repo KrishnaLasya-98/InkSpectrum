@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "batch": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-12-sync-repair.json",
+  "shots": [
+    {
+      "shot_id": "voyage-ship-12",
+      "section_id": "s04-spherical-earth",
+      "status": "submitted",
+      "request_id": "188613056",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-12-sync-repair\\voyage-ship-12.mp4",
+      "error": null
+    },
+    {
+      "shot_id": "spherical-earth-context-12",
+      "section_id": "s04-spherical-earth",
+      "status": "submitted",
+      "request_id": "188613067",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-12-sync-repair\\spherical-earth-context-12.mp4",
+      "error": null
+    }
+  ],
+  "complete": false
+}

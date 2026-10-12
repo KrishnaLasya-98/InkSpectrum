@@ -1,0 +1,108 @@
+{
+  "section_id": "s25-frigid",
+  "text": "Frigid Zone. Located near the poles. It is the coldest zone with ice-covered lands.",
+  "start_ms": 404880,
+  "end_ms": 412480,
+  "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\audio\\narration-elevenlabs-v1\\s25-frigid.wav",
+  "words": [
+    {
+      "word": "Frigid",
+      "start_ms": 404980,
+      "end_ms": 405341,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0546
+    },
+    {
+      "word": "Zone.",
+      "start_ms": 405441,
+      "end_ms": 405702,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.2751
+    },
+    {
+      "word": "Located",
+      "start_ms": 406564,
+      "end_ms": 407066,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0053
+    },
+    {
+      "word": "near",
+      "start_ms": 407206,
+      "end_ms": 407367,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0397
+    },
+    {
+      "word": "the",
+      "start_ms": 407447,
+      "end_ms": 407527,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "poles.",
+      "start_ms": 407587,
+      "end_ms": 408008,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0113
+    },
+    {
+      "word": "It",
+      "start_ms": 408830,
+      "end_ms": 408891,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "is",
+      "start_ms": 408991,
+      "end_ms": 409031,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "the",
+      "start_ms": 409111,
+      "end_ms": 409171,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0004
+    },
+    {
+      "word": "coldest",
+      "start_ms": 409332,
+      "end_ms": 409833,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.071
+    },
+    {
+      "word": "zone",
+      "start_ms": 409953,
+      "end_ms": 410234,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.2633
+    },
+    {
+      "word": "with",
+      "start_ms": 410475,
+      "end_ms": 410615,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0621
+    },
+    {
+      "word": "ice-covered",
+      "start_ms": 410896,
+      "end_ms": 411457,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0626
+    },
+    {
+      "word": "lands.",
+      "start_ms": 411517,
+      "end_ms": 411919,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -2.577
+    }
+  ],
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

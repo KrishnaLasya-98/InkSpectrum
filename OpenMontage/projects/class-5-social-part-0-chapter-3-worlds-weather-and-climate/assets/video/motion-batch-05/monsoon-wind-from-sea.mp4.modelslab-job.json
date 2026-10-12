@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "terminal_failed",
+  "request_id": "188662857",
+  "request_fingerprint": "303b00cae3cd70dcf96f48a9abc384fcca1a4b39e1725767f72e61ca051baa66",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\monsoon-wind-from-sea.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791351159.4106596,
+  "provider_status": "failed",
+  "failed_at_unix": 1791353075.445263
+}

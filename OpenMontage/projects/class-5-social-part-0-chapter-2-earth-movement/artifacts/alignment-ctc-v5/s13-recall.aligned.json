@@ -1,0 +1,321 @@
+{
+  "section_id": "s13-recall",
+  "text": "Recall. The Earth's movements, rotation and revolution, have significant affects on our lives. Rotation causes day and night, while revolution leads to the change of seasons. Solstices and equinoxes mark the shift in seasons, playing an essential role in our climate and timekeeping.",
+  "start_ms": 344758,
+  "end_ms": 369442,
+  "words": [
+    {
+      "word": "Recall.",
+      "start_ms": 344858,
+      "end_ms": 345319,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.052
+    },
+    {
+      "word": "The",
+      "start_ms": 347441,
+      "end_ms": 347541,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0114
+    },
+    {
+      "word": "Earth's",
+      "start_ms": 347681,
+      "end_ms": 347941,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0825
+    },
+    {
+      "word": "movements,",
+      "start_ms": 348081,
+      "end_ms": 348642,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0075
+    },
+    {
+      "word": "rotation",
+      "start_ms": 349102,
+      "end_ms": 349663,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0086
+    },
+    {
+      "word": "and",
+      "start_ms": 350103,
+      "end_ms": 350203,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1092
+    },
+    {
+      "word": "revolution,",
+      "start_ms": 350283,
+      "end_ms": 350904,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0797
+    },
+    {
+      "word": "have",
+      "start_ms": 351444,
+      "end_ms": 351605,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1035
+    },
+    {
+      "word": "significant",
+      "start_ms": 351685,
+      "end_ms": 352365,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0314
+    },
+    {
+      "word": "affects",
+      "start_ms": 352485,
+      "end_ms": 352866,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.5154
+    },
+    {
+      "word": "on",
+      "start_ms": 353046,
+      "end_ms": 353086,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "our",
+      "start_ms": 353206,
+      "end_ms": 353286,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0263
+    },
+    {
+      "word": "lives.",
+      "start_ms": 353346,
+      "end_ms": 353667,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0736
+    },
+    {
+      "word": "Rotation",
+      "start_ms": 354547,
+      "end_ms": 355088,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0164
+    },
+    {
+      "word": "causes",
+      "start_ms": 355288,
+      "end_ms": 355648,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0076
+    },
+    {
+      "word": "day",
+      "start_ms": 355769,
+      "end_ms": 355969,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "and",
+      "start_ms": 356169,
+      "end_ms": 356269,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1369
+    },
+    {
+      "word": "night,",
+      "start_ms": 356349,
+      "end_ms": 356609,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0161
+    },
+    {
+      "word": "while",
+      "start_ms": 357310,
+      "end_ms": 357490,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "revolution",
+      "start_ms": 357590,
+      "end_ms": 358191,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0705
+    },
+    {
+      "word": "leads",
+      "start_ms": 358531,
+      "end_ms": 358771,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "to",
+      "start_ms": 358832,
+      "end_ms": 358912,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "the",
+      "start_ms": 358972,
+      "end_ms": 359052,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0226
+    },
+    {
+      "word": "change",
+      "start_ms": 359132,
+      "end_ms": 359452,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0208
+    },
+    {
+      "word": "of",
+      "start_ms": 359512,
+      "end_ms": 359552,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "seasons.",
+      "start_ms": 359652,
+      "end_ms": 360133,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1179
+    },
+    {
+      "word": "Solstices",
+      "start_ms": 361074,
+      "end_ms": 361754,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.2471
+    },
+    {
+      "word": "and",
+      "start_ms": 361915,
+      "end_ms": 362015,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0285
+    },
+    {
+      "word": "equinoxes",
+      "start_ms": 362175,
+      "end_ms": 362875,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0606
+    },
+    {
+      "word": "mark",
+      "start_ms": 363116,
+      "end_ms": 363316,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "the",
+      "start_ms": 363436,
+      "end_ms": 363536,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0822
+    },
+    {
+      "word": "shift",
+      "start_ms": 363616,
+      "end_ms": 363916,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1177
+    },
+    {
+      "word": "in",
+      "start_ms": 363976,
+      "end_ms": 364037,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0105
+    },
+    {
+      "word": "seasons,",
+      "start_ms": 364137,
+      "end_ms": 364577,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0511
+    },
+    {
+      "word": "playing",
+      "start_ms": 365158,
+      "end_ms": 365458,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0436
+    },
+    {
+      "word": "an",
+      "start_ms": 365538,
+      "end_ms": 365578,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "essential",
+      "start_ms": 365678,
+      "end_ms": 366179,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0381
+    },
+    {
+      "word": "role",
+      "start_ms": 366299,
+      "end_ms": 366579,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1715
+    },
+    {
+      "word": "in",
+      "start_ms": 366739,
+      "end_ms": 366779,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "our",
+      "start_ms": 366879,
+      "end_ms": 366939,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0007
+    },
+    {
+      "word": "climate",
+      "start_ms": 367019,
+      "end_ms": 367440,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "and",
+      "start_ms": 367700,
+      "end_ms": 367800,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0254
+    },
+    {
+      "word": "timekeeping.",
+      "start_ms": 367880,
+      "end_ms": 368521,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0452
+    }
+  ],
+  "format_spec": {
+    "font_size": 64,
+    "highlight_color": "#FF8C42",
+    "background_color": "rgba(255,253,240,0.90)",
+    "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+    "font_weight": "700",
+    "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+    "key_terms": [],
+    "words_per_page": 6
+  },
+  "source_block_type": "concept",
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

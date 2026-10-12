@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188664301",
+  "request_fingerprint": "d3f59e10e464c0b21938826ad9bee900247c6b90a12de9e89c517f743cec4f88",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-06\\humidity-lush-coast.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791353169.4473686,
+  "last_poll_at_unix": 1791353326.853276,
+  "completed_at_unix": 1791353328.5631893
+}

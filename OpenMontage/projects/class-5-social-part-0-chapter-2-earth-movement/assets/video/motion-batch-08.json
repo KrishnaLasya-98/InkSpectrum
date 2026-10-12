@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "scope": "Source-cued motion repairs after batch 05-07 visual QA",
+  "provider": "modelslab",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "shots": [
+    {
+      "shot_id": "startup-spinning-ball-08",
+      "section_id": "s03-startup",
+      "narration_cue": "Take a ball and spin it. Notice how it moves.",
+      "prompt": "A bright child-friendly three-dimensional animated classroom, one pair of a child's hands gently spins one plain blue rubber ball on a clear wooden table. The ball remains centered and visibly rotates continuously as the camera moves slightly closer over five seconds. One ball only, simple safe action, warm cheerful lighting, no writing on the ball or walls, no globe, no other toys."
+    },
+    {
+      "shot_id": "bicycle-brake-forward-08",
+      "section_id": "s11-inertia",
+      "narration_cue": "you continue moving forward when you stop a bike suddenly",
+      "prompt": "One continuous clear side view of a child-friendly three-dimensional animated ten-year-old riding a small bicycle slowly on a smooth park path, wearing a helmet. In the first second the bicycle moves forward. The child squeezes the brake levers and both bicycle wheels visibly stop by the middle of the shot. For the remaining seconds the child's upper body gently leans forward and settles, while the bicycle stays stopped and the child remains seated and safe. Emphasize the stop-then-forward-lean action, not ordinary cycling; no fall, no collision, no writing."
+    },
+    {
+      "shot_id": "earth-spin-west-east-08",
+      "section_id": "s06-rotation",
+      "narration_cue": "The earth rotates from west to east.",
+      "prompt": "A polished child-friendly three-dimensional animated blue Earth globe floating against a simple deep blue space background. One globe turns steadily around its tilted axis in a continuous smooth five-second side view while a warm Sun lights one half and the other half stays dark. No second planet, no orbit, no Moon, no extra objects, no map names or invented text. Leave clean space on the left for a separately authored lesson panel."
+    }
+  ]
+}

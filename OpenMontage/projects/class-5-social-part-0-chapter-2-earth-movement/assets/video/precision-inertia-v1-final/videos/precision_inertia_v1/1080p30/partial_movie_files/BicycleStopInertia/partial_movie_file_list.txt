@@ -1,0 +1,4 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/InkSpectrum/OpenMontage/projects/class-5-social-part-0-chapter-2-earth-movement/assets/video/precision-inertia-v1-final/videos/precision_inertia_v1/1080p30/partial_movie_files/BicycleStopInertia/uncached_00000.mp4'
+file 'file:D:/InkSpectrum/OpenMontage/projects/class-5-social-part-0-chapter-2-earth-movement/assets/video/precision-inertia-v1-final/videos/precision_inertia_v1/1080p30/partial_movie_files/BicycleStopInertia/uncached_00001.mp4'
+file 'file:D:/InkSpectrum/OpenMontage/projects/class-5-social-part-0-chapter-2-earth-movement/assets/video/precision-inertia-v1-final/videos/precision_inertia_v1/1080p30/partial_movie_files/BicycleStopInertia/uncached_00002.mp4'

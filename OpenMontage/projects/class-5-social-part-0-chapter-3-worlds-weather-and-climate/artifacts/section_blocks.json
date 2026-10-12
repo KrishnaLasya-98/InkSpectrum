@@ -1,0 +1,277 @@
+{
+  "subject": "social_studies",
+  "blocks": [
+    {
+      "block_id": "social_studies_block_000",
+      "block_type": "intro",
+      "heading": "Lesson 3: Worlds Weather and Climate",
+      "body_text": "",
+      "image_refs": [],
+      "equations": [],
+      "qa_pairs": []
+    },
+    {
+      "block_id": "social_studies_block_001",
+      "block_type": "concept",
+      "heading": "Learning Objectives",
+      "body_text": "By the end of this chapter, learners will be able to:\n\n- Explain the difference between weather and climate.\n- Identify and describe the factors affecting climate.\n- Understand the different types of climate found in the world.\n- Recognize the climatic zones of the Earth.\n- Explain how climate affects human life and the environment.",
+      "image_refs": [],
+      "equations": [],
+      "qa_pairs": []
+    },
+    {
+      "block_id": "social_studies_block_002",
+      "block_type": "concept",
+      "heading": "Start-Up",
+      "body_text": "Look outside the window! Is it sunny, cloudy, or rainy? Have you ever noticed how the weather changes throughout the day? Some places are always warm, while others are cold. Why does this happen? In this chapter, we will explore the differences between weather and climate and understand the factors that influence them.",
+      "image_refs": [],
+      "equations": [],
+      "qa_pairs": []
+    },
+    {
+      "block_id": "social_studies_block_003",
+      "block_type": "concept",
+      "heading": "Weather",
+      "body_text": "Weather is the condition of the atmosphere at a particular place and time. It includes temperature, wind, rainfall, humidity, and cloud cover. Weather can change from hour to hour or day to day. For example, one morning, it may be sunny and by afternoon it could rain.",
+      "image_refs": [],
+      "equations": [],
+      "qa_pairs": []
+    },
+    {
+      "block_id": "social_studies_block_004",
+      "block_type": "concept",
+      "heading": "Do You Know?",
+      "body_text": "The hottest place on Earth is the Lut Desert in Iran, where temperatures have been recorded as high as 159.3\u00b0F (70.7\u00b0C)! Imagine how hot it must be to have that much heat!",
+      "image_refs": [],
+      "equations": [],
+      "qa_pairs": []
+    },
+    {
+      "block_id": "social_studies_block_005",
+      "block_type": "concept",
+      "heading": "Climate",
+      "body_text": "Climate is the average weather condition of a place over a long period, usually 30 years or more. It tells us whether a place is generally hot, cold, wet, or dry. For example, the climate of the Sahara Desert is hot and dry, while the climate of the Amazon Rainforest is warm and rainy.",
+      "image_refs": [],
+      "equations": [],
+      "qa_pairs": []
+    },
+    {
+      "block_id": "social_studies_block_006",
+      "block_type": "concept",
+      "heading": "Factors Affecting Climate",
+      "body_text": "Several factors influence the climate of a place. Let us explore them one by one.",
+      "image_refs": [],
+      "equations": [],
+      "qa_pairs": []
+    },
+    {
+      "block_id": "social_studies_block_007",
+      "block_type": "concept",
+      "heading": "Distance from the Equator (Latitudes)",
+      "body_text": "The Earth is divided into imaginary lines called latitudes. Places near the equator receive direct sunlight throughout the year, making them hot. As we move towards the poles, sunlight spreads out, making these areas cooler. This is why tropical regions are warm, while polar regions are cold.",
+      "image_refs": [
+        "images/world-map.png"
+      ],
+      "equations": [],
+      "qa_pairs": []
+    },
+    {
+      "block_id": "social_studies_block_008",
+      "block_type": "concept",
+      "heading": "Altitude",
+      "body_text": "Altitude is the height of a place above sea level. Higher altitudes have cooler temperatures because the air is thinner and cannot hold much heat. For example, mountains are colder than plains at the same latitude.",
+      "image_refs": [
+        "images/altitude-photo.png"
+      ],
+      "equations": [],
+      "qa_pairs": []
+    },
+    {
+      "block_id": "social_studies_block_009",
+      "block_type": "concept",
+      "heading": "Distance from the Sea (Sea Breeze and Land Breeze)",
+      "body_text": "Oceans and seas influence the climate of coastal areas. Water heats up and cools down more slowly than land. During the day, land heats up faster than water, causing a sea breeze to blow from the sea to the land. At night, the land cools down quickly, and a land breeze blows from land to the sea. This keeps coastal areas cooler in summer and warmer in winter compared to inland regions.",
+      "image_refs": [
+        "images/sea-land-breeze.png"
+      ],
+      "equations": [],
+      "qa_pairs": []
+    },
+    {
+      "block_id": "social_studies_block_010",
+      "block_type": "concept",
+      "heading": "Direction of the Wind",
+      "body_text": "Winds carry heat and moisture from one place to another. Winds coming from the sea bring rain, while winds from deserts bring dry weather. For example, the monsoon winds bring heavy rainfall to India.",
+      "image_refs": [
+        "images/rain-shadow.png"
+      ],
+      "equations": [],
+      "qa_pairs": []
+    },
+    {
+      "block_id": "social_studies_block_011",
+      "block_type": "concept",
+      "heading": "Humidity",
+      "body_text": "Humidity is the amount of water vapour in the air. Places with high humidity receive more rainfall, while dry areas have less humidity. For example, coastal areas have higher humidity than deserts.",
+      "image_refs": [
+        "images/humidity-photo.png"
+      ],
+      "equations": [],
+      "qa_pairs": []
+    },
+    {
+      "block_id": "social_studies_block_012",
+      "block_type": "concept",
+      "heading": "Ocean Currents",
+      "body_text": "Ocean currents are large movements of water in the oceans. Warm ocean currents make coastal areas warmer, while cold currents bring cool temperatures. For example, the Gulf Stream warms Europe, while the cold Labrador Current cools Canada.",
+      "image_refs": [
+        "images/ocean-wave.png"
+      ],
+      "equations": [],
+      "qa_pairs": []
+    },
+    {
+      "block_id": "social_studies_block_013",
+      "block_type": "concept",
+      "heading": "Let's Learn More!",
+      "body_text": "Rainforests receive about 80 inches of rain each year and they are so important because they provide oxygen and food to the world. Without them, our planet would be very different!",
+      "image_refs": [],
+      "equations": [],
+      "qa_pairs": []
+    },
+    {
+      "block_id": "social_studies_block_014",
+      "block_type": "concept",
+      "heading": "Types of Climate",
+      "body_text": "Different parts of the world have different types of climate. Let's look at some major types.",
+      "image_refs": [],
+      "equations": [],
+      "qa_pairs": []
+    },
+    {
+      "block_id": "social_studies_block_015",
+      "block_type": "concept",
+      "heading": "Monsoon or Tropical Climate",
+      "body_text": "Found in South Asia, Southeast Asia, and some parts of Africa.\n\nIt has hot summers and receives heavy rainfall during the monsoon season.",
+      "image_refs": [],
+      "equations": [],
+      "qa_pairs": []
+    },
+    {
+      "block_id": "social_studies_block_016",
+      "block_type": "concept",
+      "heading": "Equatorial Climate",
+      "body_text": "Found near the equator, such as in the Amazon Rainforest and Congo Basin.\n\nIt is hot and humid throughout the year with heavy rainfall.",
+      "image_refs": [
+        "images/rainforest-photo.png"
+      ],
+      "equations": [],
+      "qa_pairs": []
+    },
+    {
+      "block_id": "social_studies_block_017",
+      "block_type": "concept",
+      "heading": "Desert Climate",
+      "body_text": "Found in places like the Sahara Desert and the Thar Desert.\n\nIt has very little rainfall, hot days, and cold nights.",
+      "image_refs": [
+        "images/desert-photo.png"
+      ],
+      "equations": [],
+      "qa_pairs": []
+    },
+    {
+      "block_id": "social_studies_block_018",
+      "block_type": "concept",
+      "heading": "Tundra Climate",
+      "body_text": "Found near the poles, such as in Greenland and Antarctica. It is extremely cold with little or no vegetation.",
+      "image_refs": [
+        "images/tundra-photo.png"
+      ],
+      "equations": [],
+      "qa_pairs": []
+    },
+    {
+      "block_id": "social_studies_block_019",
+      "block_type": "concept",
+      "heading": "Do You Know?",
+      "body_text": "Antarctica is the driest, coldest, and windiest continent on Earth. It hasn\u2019t rained there in millions of years, but it\u2019s still considered a desert because of the lack of precipitation.",
+      "image_refs": [],
+      "equations": [],
+      "qa_pairs": []
+    },
+    {
+      "block_id": "social_studies_block_020",
+      "block_type": "concept",
+      "heading": "Climatic Zones of the Earth",
+      "body_text": "The Earth is divided into three main climatic zones based on latitude.",
+      "image_refs": [],
+      "equations": [],
+      "qa_pairs": []
+    },
+    {
+      "block_id": "social_studies_block_021",
+      "block_type": "concept",
+      "heading": "Torrid Zone",
+      "body_text": "Located between the Tropic of Cancer and the Tropic of Capricorn.\n\nIt is the hottest zone as it receives direct sunlight.",
+      "image_refs": [],
+      "equations": [],
+      "qa_pairs": []
+    },
+    {
+      "block_id": "social_studies_block_022",
+      "block_type": "concept",
+      "heading": "Temperate Zone",
+      "body_text": "Found between the tropics and the polar circles.\n\nIt has moderate temperatures with distinct seasons.",
+      "image_refs": [],
+      "equations": [],
+      "qa_pairs": []
+    },
+    {
+      "block_id": "social_studies_block_023",
+      "block_type": "concept",
+      "heading": "Do you know?",
+      "body_text": "There are different types of clouds that can tell you about the weather? For example, cumulus clouds are fluffy and show fair weather, while nimbostratus clouds bring rain or snow.",
+      "image_refs": [],
+      "equations": [],
+      "qa_pairs": []
+    },
+    {
+      "block_id": "social_studies_block_024",
+      "block_type": "concept",
+      "heading": "Frigid Zone",
+      "body_text": "Located near the poles.\n\nIt is the coldest zone with ice-covered lands.",
+      "image_refs": [
+        "images/climatic-zones.png"
+      ],
+      "equations": [],
+      "qa_pairs": []
+    },
+    {
+      "block_id": "social_studies_block_025",
+      "block_type": "recall",
+      "heading": "Recall",
+      "body_text": "Weather and climate are essential aspects of our environment. Many factors, such as latitude, altitude, wind, and ocean currents, influence climate. Different regions experience different types of climates, affecting the way people live, the food they grow and the clothes they wear.",
+      "image_refs": [],
+      "equations": [],
+      "qa_pairs": []
+    },
+    {
+      "block_id": "social_studies_block_026",
+      "block_type": "recall",
+      "heading": "Let's Remember",
+      "body_text": "- Weather is the daily atmospheric condition of a place.\n- Climate is the average weather over a long period.\n- Latitude, altitude, distance from the sea, and winds influence climate.\n- The world has different types of climate, including tropical, desert, and tundra.\n- The Earth has three climatic zones: torrid, temperate, and frigid.",
+      "image_refs": [],
+      "equations": [],
+      "qa_pairs": []
+    },
+    {
+      "block_id": "social_studies_block_027",
+      "block_type": "glossary",
+      "heading": "Word Bank",
+      "body_text": "| Word | Meaning |\n| --- | --- |\n| Humidity | The amount of water vapor in the air. |\n| Altitude | The height of a place above sea level. |\n| Equator | An imaginary line dividing the Earth into two halves. |\n| Monsoon | Seasonal winds that bring heavy rain. |\n| Tundra | A cold region with little vegetation. |",
+      "image_refs": [],
+      "equations": [],
+      "qa_pairs": []
+    }
+  ]
+}

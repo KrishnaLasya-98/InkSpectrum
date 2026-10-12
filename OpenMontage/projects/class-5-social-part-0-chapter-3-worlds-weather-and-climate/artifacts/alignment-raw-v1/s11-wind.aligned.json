@@ -1,0 +1,276 @@
+{
+  "section_id": "s11-wind",
+  "text": "Direction of the Wind. Winds carry heat and moisture from one place to another. Winds coming from the sea bring rain, while winds from deserts bring dry weather. For example, the monsoon winds bring heavy rainfall to India.",
+  "start_ms": 214880,
+  "end_ms": 233200,
+  "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\audio\\narration-elevenlabs-v1\\s11-wind.wav",
+  "words": [
+    {
+      "word": "Direction",
+      "start_ms": 214940,
+      "end_ms": 215441,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0604
+    },
+    {
+      "word": "of",
+      "start_ms": 215601,
+      "end_ms": 215641,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "the",
+      "start_ms": 215741,
+      "end_ms": 215841,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0071
+    },
+    {
+      "word": "Wind.",
+      "start_ms": 215901,
+      "end_ms": 216141,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0004
+    },
+    {
+      "word": "Winds",
+      "start_ms": 217303,
+      "end_ms": 217603,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0319
+    },
+    {
+      "word": "carry",
+      "start_ms": 217703,
+      "end_ms": 218003,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0016
+    },
+    {
+      "word": "heat",
+      "start_ms": 218144,
+      "end_ms": 218384,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "and",
+      "start_ms": 218624,
+      "end_ms": 218724,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0975
+    },
+    {
+      "word": "moisture",
+      "start_ms": 218804,
+      "end_ms": 219285,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0159
+    },
+    {
+      "word": "from",
+      "start_ms": 219545,
+      "end_ms": 219705,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0495
+    },
+    {
+      "word": "one",
+      "start_ms": 219905,
+      "end_ms": 220026,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.096
+    },
+    {
+      "word": "place",
+      "start_ms": 220086,
+      "end_ms": 220386,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0091
+    },
+    {
+      "word": "to",
+      "start_ms": 220526,
+      "end_ms": 220626,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0014
+    },
+    {
+      "word": "another.",
+      "start_ms": 220746,
+      "end_ms": 221067,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0023
+    },
+    {
+      "word": "Winds",
+      "start_ms": 221848,
+      "end_ms": 222108,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0767
+    },
+    {
+      "word": "coming",
+      "start_ms": 222208,
+      "end_ms": 222468,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0524
+    },
+    {
+      "word": "from",
+      "start_ms": 222528,
+      "end_ms": 222648,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0613
+    },
+    {
+      "word": "the",
+      "start_ms": 222729,
+      "end_ms": 222789,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "sea",
+      "start_ms": 222889,
+      "end_ms": 223109,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "bring",
+      "start_ms": 223429,
+      "end_ms": 223630,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0066
+    },
+    {
+      "word": "rain,",
+      "start_ms": 223770,
+      "end_ms": 224030,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0665
+    },
+    {
+      "word": "while",
+      "start_ms": 224771,
+      "end_ms": 224951,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0636
+    },
+    {
+      "word": "winds",
+      "start_ms": 225031,
+      "end_ms": 225271,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0142
+    },
+    {
+      "word": "from",
+      "start_ms": 225331,
+      "end_ms": 225472,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "deserts",
+      "start_ms": 225612,
+      "end_ms": 226072,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0622
+    },
+    {
+      "word": "bring",
+      "start_ms": 226393,
+      "end_ms": 226573,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.118
+    },
+    {
+      "word": "dry",
+      "start_ms": 226713,
+      "end_ms": 226933,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "weather.",
+      "start_ms": 227053,
+      "end_ms": 227314,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0007
+    },
+    {
+      "word": "For",
+      "start_ms": 228054,
+      "end_ms": 228175,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0007
+    },
+    {
+      "word": "example,",
+      "start_ms": 228275,
+      "end_ms": 228755,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0257
+    },
+    {
+      "word": "the",
+      "start_ms": 229356,
+      "end_ms": 229436,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "monsoon",
+      "start_ms": 229516,
+      "end_ms": 229976,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0034
+    },
+    {
+      "word": "winds",
+      "start_ms": 230077,
+      "end_ms": 230377,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.02
+    },
+    {
+      "word": "bring",
+      "start_ms": 230577,
+      "end_ms": 230777,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0953
+    },
+    {
+      "word": "heavy",
+      "start_ms": 230938,
+      "end_ms": 231198,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0015
+    },
+    {
+      "word": "rainfall",
+      "start_ms": 231298,
+      "end_ms": 231798,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0312
+    },
+    {
+      "word": "to",
+      "start_ms": 231899,
+      "end_ms": 231999,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1424
+    },
+    {
+      "word": "India.",
+      "start_ms": 232119,
+      "end_ms": 232419,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0377
+    }
+  ],
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

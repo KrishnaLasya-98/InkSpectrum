@@ -1,0 +1,115 @@
+{
+  "version": "1.0",
+  "checked_at": "2026-10-07T06:10:05.525866+00:00",
+  "batch": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-06.json",
+  "new_submissions": 0,
+  "jobs": [
+    {
+      "shot_id": "startup-warm-place",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-06\\startup-warm-place.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "startup-cold-place",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-06\\startup-cold-place.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "weather-cloud-cover",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-06\\weather-cloud-cover.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "weather-change-rain-to-sun",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-06\\weather-change-rain-to-sun.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "climate-long-term-seasons",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-06\\climate-long-term-seasons.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "climate-wet-dry-contrast",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-06\\climate-wet-dry-contrast.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "altitude-foothill-to-peak",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-06\\altitude-foothill-to-peak.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "coast-day-thermal-lag",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-06\\coast-day-thermal-lag.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "coast-night-thermal-lag",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-06\\coast-night-thermal-lag.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "humidity-lush-coast",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-06\\humidity-lush-coast.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "warm-current-coast",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-06\\warm-current-coast.mp4",
+      "new_submission": false,
+      "request_id": "188664304",
+      "http_status": 200,
+      "status": "recovered",
+      "output_bytes": 506826
+    },
+    {
+      "shot_id": "cold-current-coast",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-06\\cold-current-coast.mp4",
+      "new_submission": false,
+      "request_id": "188664308",
+      "http_status": 200,
+      "status": "recovered",
+      "output_bytes": 622141
+    },
+    {
+      "shot_id": "monsoon-rice-fields",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-06\\monsoon-rice-fields.mp4",
+      "new_submission": false,
+      "request_id": "188664309",
+      "http_status": 200,
+      "status": "recovered",
+      "output_bytes": 701165
+    },
+    {
+      "shot_id": "equatorial-rainforest-river",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-06\\equatorial-rainforest-river.mp4",
+      "new_submission": false,
+      "request_id": "188664310",
+      "http_status": 200,
+      "status": "recovered",
+      "output_bytes": 847264
+    },
+    {
+      "shot_id": "temperate-four-seasons-tree",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-06\\temperate-four-seasons-tree.mp4",
+      "new_submission": false,
+      "request_id": "188664312",
+      "http_status": 200,
+      "status": "recovered",
+      "output_bytes": 836267
+    }
+  ],
+  "downloaded": 15,
+  "total": 15
+}

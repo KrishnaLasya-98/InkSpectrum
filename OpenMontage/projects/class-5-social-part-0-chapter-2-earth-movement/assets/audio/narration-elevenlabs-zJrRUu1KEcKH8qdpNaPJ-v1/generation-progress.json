@@ -1,0 +1,173 @@
+{
+  "status": "speech_generated_alignment_pending",
+  "voice_id": "zJrRUu1KEcKH8qdpNaPJ",
+  "complete": 15,
+  "total": 15,
+  "segments": [
+    {
+      "section_id": "s01-title",
+      "voice_id": "zJrRUu1KEcKH8qdpNaPJ",
+      "model_id": "eleven_v4",
+      "text_sha256": "7a0328194b45d8bb7e30b5590f99ce8b9435edbb9b69c0db8a9eb7cf66f7c902",
+      "context_sha256": "1526bfe27f17428bcbc9084f57fa5a98c980f6f60aa5a19690ed566f1d1364ac",
+      "settings_sha256": "6bfc8618847cf92c46b254c69cac40b6f667d59384825fd01f919eae5dd46a57",
+      "characters": 50,
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-elevenlabs-zJrRUu1KEcKH8qdpNaPJ-v1\\s01-title.mp3",
+      "status": "audio_received"
+    },
+    {
+      "section_id": "s02-objectives",
+      "voice_id": "zJrRUu1KEcKH8qdpNaPJ",
+      "model_id": "eleven_v4",
+      "text_sha256": "500ebb05c40e21c4cdc61a62102b8bd85f0612efe968adf9ccac6f6fd5c86b3d",
+      "context_sha256": "91620c989ad90e5218bb519e6af3e7d9aaf045146c8b3fbe3aea7f9cd58de75c",
+      "settings_sha256": "6bfc8618847cf92c46b254c69cac40b6f667d59384825fd01f919eae5dd46a57",
+      "characters": 341,
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-elevenlabs-zJrRUu1KEcKH8qdpNaPJ-v1\\s02-objectives.mp3",
+      "status": "audio_received"
+    },
+    {
+      "section_id": "s03-startup",
+      "voice_id": "zJrRUu1KEcKH8qdpNaPJ",
+      "model_id": "eleven_v4",
+      "text_sha256": "dd9a6499f79ceb090cc22184a936665c0793a56324dcfd9412845014dda6e0ae",
+      "context_sha256": "a775473ab445834b24d7b007722eb9d32baba9458a3f786eecd29c77ee771273",
+      "settings_sha256": "6bfc8618847cf92c46b254c69cac40b6f667d59384825fd01f919eae5dd46a57",
+      "characters": 184,
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-elevenlabs-zJrRUu1KEcKH8qdpNaPJ-v1\\s03-startup.mp3",
+      "status": "audio_received"
+    },
+    {
+      "section_id": "s04-spherical-earth",
+      "voice_id": "zJrRUu1KEcKH8qdpNaPJ",
+      "model_id": "eleven_v4",
+      "text_sha256": "3b569ca3f5c053d847642c993216f24eefb6f08068d32db0143dbec0660d8a0c",
+      "context_sha256": "a3de83c8af305bb4df7bb1a0de4f579c219f3e5407d645ce88cef1d30b48ad3d",
+      "settings_sha256": "6bfc8618847cf92c46b254c69cac40b6f667d59384825fd01f919eae5dd46a57",
+      "characters": 445,
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-elevenlabs-zJrRUu1KEcKH8qdpNaPJ-v1\\s04-spherical-earth.mp3",
+      "status": "audio_received"
+    },
+    {
+      "section_id": "s05-two-movements",
+      "voice_id": "zJrRUu1KEcKH8qdpNaPJ",
+      "model_id": "eleven_v4",
+      "text_sha256": "1f59a592e2388cd1faf77d0e394112e8457c6c3f1b45fd288b501868ab854957",
+      "context_sha256": "84e49a9ceaa5afb4b379ea3279319503818a84c8712bcbd31ac844eaa433b399",
+      "settings_sha256": "6bfc8618847cf92c46b254c69cac40b6f667d59384825fd01f919eae5dd46a57",
+      "characters": 159,
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-elevenlabs-zJrRUu1KEcKH8qdpNaPJ-v1\\s05-two-movements.mp3",
+      "status": "audio_received"
+    },
+    {
+      "section_id": "s06-rotation",
+      "voice_id": "zJrRUu1KEcKH8qdpNaPJ",
+      "model_id": "eleven_v4",
+      "text_sha256": "495a5a2870ecd6aded89c1e309ac65dbbb58b6f3c876f344e1d1dd14095ddd35",
+      "context_sha256": "25a6e6ef56bb4c0c23cb4828ef168f55e7c9aaac5a4bd4052a3797c52373d05a",
+      "settings_sha256": "6bfc8618847cf92c46b254c69cac40b6f667d59384825fd01f919eae5dd46a57",
+      "characters": 605,
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-elevenlabs-zJrRUu1KEcKH8qdpNaPJ-v1\\s06-rotation.mp3",
+      "status": "audio_received"
+    },
+    {
+      "section_id": "s07-do-you-know",
+      "voice_id": "zJrRUu1KEcKH8qdpNaPJ",
+      "model_id": "eleven_v4",
+      "text_sha256": "5ec670d5da7f393396b955d960f5cefea8ac2d6a5f24466e8d42d89b1a400ad3",
+      "context_sha256": "ee1db83125b4e4b7cc5bccb2009bae0eee91e54678b967d249b6718eba649880",
+      "settings_sha256": "6bfc8618847cf92c46b254c69cac40b6f667d59384825fd01f919eae5dd46a57",
+      "characters": 143,
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-elevenlabs-zJrRUu1KEcKH8qdpNaPJ-v1\\s07-do-you-know.mp3",
+      "status": "audio_received"
+    },
+    {
+      "section_id": "s08-revolution",
+      "voice_id": "zJrRUu1KEcKH8qdpNaPJ",
+      "model_id": "eleven_v4",
+      "text_sha256": "726141f35e9a1ff5c8ae8487a45fd7a0989a62a182bb9f26b3f96ef937f30432",
+      "context_sha256": "ef4eb74a385e2fe4f9c900320123536fc1568ee099e4e4b1e9336b8ebc1560f2",
+      "settings_sha256": "6bfc8618847cf92c46b254c69cac40b6f667d59384825fd01f919eae5dd46a57",
+      "characters": 728,
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-elevenlabs-zJrRUu1KEcKH8qdpNaPJ-v1\\s08-revolution.mp3",
+      "status": "audio_received"
+    },
+    {
+      "section_id": "s09-day-length",
+      "voice_id": "zJrRUu1KEcKH8qdpNaPJ",
+      "model_id": "eleven_v4",
+      "text_sha256": "f5f97f4e6e1de0e801b24a67fa916fedf7b50302e6c0b3a462c2305236c61e8b",
+      "context_sha256": "a5b365184ced7b3a83490f3631b70f2537087fd1337690fd5f46c04e3613aa40",
+      "settings_sha256": "6bfc8618847cf92c46b254c69cac40b6f667d59384825fd01f919eae5dd46a57",
+      "characters": 163,
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-elevenlabs-zJrRUu1KEcKH8qdpNaPJ-v1\\s09-day-length.mp3",
+      "status": "audio_received"
+    },
+    {
+      "section_id": "s10-solstice",
+      "voice_id": "zJrRUu1KEcKH8qdpNaPJ",
+      "model_id": "eleven_v4",
+      "text_sha256": "5f3f8c0f5ef874e46c25d0556df7c5d14ecbfd90cb084a22377672eab69f6f18",
+      "context_sha256": "e4142f399436a03ab2ed9068d3f3a115d284ea6541d46c247b7b15ab56994744",
+      "settings_sha256": "6bfc8618847cf92c46b254c69cac40b6f667d59384825fd01f919eae5dd46a57",
+      "characters": 696,
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-elevenlabs-zJrRUu1KEcKH8qdpNaPJ-v1\\s10-solstice.mp3",
+      "status": "audio_received"
+    },
+    {
+      "section_id": "s11-inertia",
+      "voice_id": "zJrRUu1KEcKH8qdpNaPJ",
+      "model_id": "eleven_v4",
+      "text_sha256": "6f036fbb1011654b83c1f241b22a05f370b763efea3c936225c1e66be8c72ddf",
+      "context_sha256": "ba8f04b94f273a0d5adde424f5fc7ebf55d8e9a5bf539f2dc5d51433a5815b5e",
+      "settings_sha256": "6bfc8618847cf92c46b254c69cac40b6f667d59384825fd01f919eae5dd46a57",
+      "characters": 210,
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-elevenlabs-zJrRUu1KEcKH8qdpNaPJ-v1\\s11-inertia.mp3",
+      "status": "audio_received"
+    },
+    {
+      "section_id": "s12-equinox",
+      "voice_id": "zJrRUu1KEcKH8qdpNaPJ",
+      "model_id": "eleven_v4",
+      "text_sha256": "c9bc880e977b27e04524b1d592c2a4f9e468fea8518d6c2040014038fc8f537b",
+      "context_sha256": "45e496ca9a2c6891e40299cd8672b5dd281a7e95b04762bc1d132f1ac5742cdd",
+      "settings_sha256": "6bfc8618847cf92c46b254c69cac40b6f667d59384825fd01f919eae5dd46a57",
+      "characters": 431,
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-elevenlabs-zJrRUu1KEcKH8qdpNaPJ-v1\\s12-equinox.mp3",
+      "status": "audio_received"
+    },
+    {
+      "section_id": "s13-recall",
+      "voice_id": "zJrRUu1KEcKH8qdpNaPJ",
+      "model_id": "eleven_v4",
+      "text_sha256": "5e95fb107fd059a3e1f2c858caea3ac2fdfe7fa9b2c3154f98fcbfd247711531",
+      "context_sha256": "2e39a38589e10fd0b35fe180f79fe48cce6155cd2cfaab10689fb0546322ab85",
+      "settings_sha256": "6bfc8618847cf92c46b254c69cac40b6f667d59384825fd01f919eae5dd46a57",
+      "characters": 283,
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-elevenlabs-zJrRUu1KEcKH8qdpNaPJ-v1\\s13-recall.mp3",
+      "status": "audio_received"
+    },
+    {
+      "section_id": "s14-remember",
+      "voice_id": "zJrRUu1KEcKH8qdpNaPJ",
+      "model_id": "eleven_v4",
+      "text_sha256": "6abee0f8f72eac876b14b80b019bee87ee2a8b51766e0b06b8c175bb34c4098b",
+      "context_sha256": "8ef9a48173d5b4dc277aacde7b46ac41f155a42486f27d2b10547969d89809f0",
+      "settings_sha256": "6bfc8618847cf92c46b254c69cac40b6f667d59384825fd01f919eae5dd46a57",
+      "characters": 398,
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-elevenlabs-zJrRUu1KEcKH8qdpNaPJ-v1\\s14-remember.mp3",
+      "status": "audio_received"
+    },
+    {
+      "section_id": "s15-wordbank",
+      "voice_id": "zJrRUu1KEcKH8qdpNaPJ",
+      "model_id": "eleven_v4",
+      "text_sha256": "14cfa1074b1c039c8df19f9a248ce4399fbca1dba8442f3d61caefbdf3058e48",
+      "context_sha256": "401e7b2faececd4fd9aeaac6582c56d0b97090eac68ee461d1518772470a7fef",
+      "settings_sha256": "6bfc8618847cf92c46b254c69cac40b6f667d59384825fd01f919eae5dd46a57",
+      "characters": 258,
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-elevenlabs-zJrRUu1KEcKH8qdpNaPJ-v1\\s15-wordbank.mp3",
+      "status": "audio_received"
+    }
+  ]
+}

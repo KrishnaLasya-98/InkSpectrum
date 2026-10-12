@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "project_id": "class-5-social-part-0-chapter-3-worlds-weather-and-climate",
+  "pipeline_type": "educational-video",
+  "stage": "render_clips",
+  "status": "failed",
+  "timestamp": "2026-10-06T12:49:26.333479+00:00",
+  "checkpoint_policy": "auto_noncreative",
+  "human_approval_required": false,
+  "human_approved": false,
+  "artifacts": {},
+  "style_playbook": "clean-professional",
+  "error": "Upstream stage voice_synthesis restarted; outputs require rebuilding or revalidation.",
+  "metadata": {
+    "invalidated_by": "voice_synthesis",
+    "previous_status": "in_progress"
+  }
+}

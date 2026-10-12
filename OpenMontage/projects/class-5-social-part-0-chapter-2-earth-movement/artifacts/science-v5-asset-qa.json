@@ -1,0 +1,90 @@
+{
+  "status": "asset_probe_and_sampled_motion_pass",
+  "full_chapter_encoded_qa": "not_started",
+  "assets": [
+    {
+      "file": "assets\\video\\science-v5\\videos\\precision_earth_v5\\720p24\\ContrastV5.mp4",
+      "sha256": "6695dcb6b61ad1f92de6f5a6e0e47915d45a59d298c98d68b1109dad21e065aa",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1280,
+            "height": 720,
+            "r_frame_rate": "24/1"
+          }
+        ],
+        "format": {
+          "duration": "16.666667"
+        }
+      },
+      "sampled_frames": 17,
+      "unique_sampled_frames": 17
+    },
+    {
+      "file": "assets\\video\\science-v5\\videos\\precision_earth_v5\\720p24\\RevolutionV5.mp4",
+      "sha256": "7dfd3df95c316545ca986e44db7a6c30c87f98707df98887d851b8c7f87283c2",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1280,
+            "height": 720,
+            "r_frame_rate": "24/1"
+          }
+        ],
+        "format": {
+          "duration": "34.083333"
+        }
+      },
+      "sampled_frames": 34,
+      "unique_sampled_frames": 34
+    },
+    {
+      "file": "assets\\video\\science-v5\\videos\\precision_earth_v5\\720p24\\RotationV5.mp4",
+      "sha256": "76172675301ee1a5f04b79d49e8e531202ad30653ee533384352770f41b9969a",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1280,
+            "height": 720,
+            "r_frame_rate": "24/1"
+          }
+        ],
+        "format": {
+          "duration": "51.083333"
+        }
+      },
+      "sampled_frames": 51,
+      "unique_sampled_frames": 51
+    },
+    {
+      "file": "assets\\video\\science-v5\\videos\\precision_earth_v5\\720p24\\SphericalContextV5.mp4",
+      "sha256": "3b98f732b41808fc98d42cd903c9d85ba0ce2faae7e47c4622fd0b657f10cec0",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1280,
+            "height": 720,
+            "r_frame_rate": "24/1"
+          }
+        ],
+        "format": {
+          "duration": "33.625000"
+        }
+      },
+      "sampled_frames": 34,
+      "unique_sampled_frames": 34
+    }
+  ]
+}

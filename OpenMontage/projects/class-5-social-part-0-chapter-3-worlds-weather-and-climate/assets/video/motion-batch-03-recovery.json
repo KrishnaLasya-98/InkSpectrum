@@ -1,0 +1,70 @@
+{
+  "version": "1.0",
+  "checked_at": "2026-10-07T05:29:57.116436+00:00",
+  "batch": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-03.json",
+  "new_submissions": 0,
+  "jobs": [
+    {
+      "shot_id": "weather-sunny-garden",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-03\\weather-sunny-garden.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "dry-desert-air",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-03\\dry-desert-air.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "sea-current-waves",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-03\\sea-current-waves.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "rainforest-food",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-03\\rainforest-food.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "desert-hot-day",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-03\\desert-hot-day.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "desert-cool-night",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-03\\desert-cool-night.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "temperate-seasons",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-03\\temperate-seasons.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "cumulus-fair",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-03\\cumulus-fair.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "nimbostratus-rain",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-03\\nimbostratus-rain.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    },
+    {
+      "shot_id": "frigid-ice",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-03\\frigid-ice.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    }
+  ],
+  "downloaded": 10,
+  "total": 10
+}

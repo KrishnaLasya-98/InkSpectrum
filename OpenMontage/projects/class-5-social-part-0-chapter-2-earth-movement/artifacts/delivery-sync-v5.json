@@ -1,0 +1,13 @@
+{
+  "status": "delivered",
+  "path": "D:\\InkSpectrum\\OpenMontage\\final-videos\\Class-5-Social\\Class-5-Social-Chapter-02-Earth-Movement.mp4",
+  "revision": "sync-repair-v5",
+  "sha256": "1dacdc366c02e14196e0ee3e6fcbde744842c7b4bdaaea7a6b8e77baf7a12f60",
+  "duplicate_render_retained": false,
+  "recycled_superseded_deliveries": [
+    "D:\\InkSpectrum\\OpenMontage\\final-videos\\Class-5-Social\\Class-5-Social-Chapter-02-Earth-Movement.mp4",
+    "D:\\InkSpectrum\\OpenMontage\\final-videos\\Class-5-Social\\Class-5-Social-Chapter-02-Earth-Movement-title-pause-v4.mp4"
+  ],
+  "recycled_files_recoverable": true,
+  "qa_report": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\artifacts\\encoded-sync-v5-qa.json"
+}

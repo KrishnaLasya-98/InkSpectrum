@@ -1,0 +1,87 @@
+{
+  "version": "1.0",
+  "batch": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-03.json",
+  "shots": [
+    {
+      "shot_id": "weather-sunny-garden",
+      "section_id": "s04-weather",
+      "status": "submitted",
+      "request_id": "188618980",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-03\\weather-sunny-garden.mp4",
+      "error": null
+    },
+    {
+      "shot_id": "dry-desert-air",
+      "section_id": "s12-humidity",
+      "status": "submitted",
+      "request_id": "188618982",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-03\\dry-desert-air.mp4",
+      "error": null
+    },
+    {
+      "shot_id": "sea-current-waves",
+      "section_id": "s13-currents",
+      "status": "submitted",
+      "request_id": "188618984",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-03\\sea-current-waves.mp4",
+      "error": null
+    },
+    {
+      "shot_id": "rainforest-food",
+      "section_id": "s14-rainforest-fact",
+      "status": "submitted",
+      "request_id": "188618985",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-03\\rainforest-food.mp4",
+      "error": null
+    },
+    {
+      "shot_id": "desert-hot-day",
+      "section_id": "s18-desert",
+      "status": "submitted",
+      "request_id": "188618987",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-03\\desert-hot-day.mp4",
+      "error": null
+    },
+    {
+      "shot_id": "desert-cool-night",
+      "section_id": "s18-desert",
+      "status": "submitted",
+      "request_id": "188618988",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-03\\desert-cool-night.mp4",
+      "error": null
+    },
+    {
+      "shot_id": "temperate-seasons",
+      "section_id": "s23-temperate",
+      "status": "submitted",
+      "request_id": "188618990",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-03\\temperate-seasons.mp4",
+      "error": null
+    },
+    {
+      "shot_id": "cumulus-fair",
+      "section_id": "s24-cloud-fact",
+      "status": "submitted",
+      "request_id": "188618991",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-03\\cumulus-fair.mp4",
+      "error": null
+    },
+    {
+      "shot_id": "nimbostratus-rain",
+      "section_id": "s24-cloud-fact",
+      "status": "submitted",
+      "request_id": "188618993",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-03\\nimbostratus-rain.mp4",
+      "error": null
+    },
+    {
+      "shot_id": "frigid-ice",
+      "section_id": "s25-frigid",
+      "status": "submitted",
+      "request_id": "188618994",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-03\\frigid-ice.mp4",
+      "error": null
+    }
+  ],
+  "complete": false
+}

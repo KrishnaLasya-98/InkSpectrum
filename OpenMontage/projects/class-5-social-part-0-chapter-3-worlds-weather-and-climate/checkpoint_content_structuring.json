@@ -1,0 +1,32 @@
+{
+  "version": "1.0",
+  "project_id": "class-5-social-part-0-chapter-3-worlds-weather-and-climate",
+  "pipeline_type": "educational-video",
+  "stage": "content_structuring",
+  "status": "completed",
+  "timestamp": "2026-10-06T10:35:14.161600+00:00",
+  "checkpoint_policy": "auto_noncreative",
+  "human_approval_required": true,
+  "human_approved": true,
+  "artifacts": {
+    "educational_plan_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\educational_plan.json",
+    "source_coverage_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\coverage_contract.json"
+  },
+  "style_playbook": "clean-professional",
+  "cost_snapshot": {
+    "total_spent_usd": 0.0,
+    "total_reserved_usd": 0.0,
+    "budget_remaining_usd": 5.0
+  },
+  "metadata": {
+    "sections": 28,
+    "verified_source_blocks": 80,
+    "stage_started_at_unix": 1791282913.7956,
+    "stage_duration_seconds": 0.186,
+    "estimated_duration_seconds": 180.0,
+    "eta_accuracy_ratio": 0.001,
+    "artifact_sha256": "2f129456b2d2001c646f2e4652e9e4f4cf69330f41b58aaad121cc3427a7b740",
+    "approved_artifact_sha256": "2f129456b2d2001c646f2e4652e9e4f4cf69330f41b58aaad121cc3427a7b740",
+    "approval_evidence": "full-run-preauthorized"
+  }
+}

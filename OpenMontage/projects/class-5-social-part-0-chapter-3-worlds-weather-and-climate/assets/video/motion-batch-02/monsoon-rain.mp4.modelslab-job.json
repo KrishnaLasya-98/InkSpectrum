@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188618079",
+  "request_fingerprint": "e547d72618718bc25c8a5fc98ea9d38229cbfc5b66a4282cbb693631419979d0",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-02\\monsoon-rain.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791283801.6614583,
+  "last_poll_at_unix": 1791284118.6110349,
+  "completed_at_unix": 1791284121.2886155
+}

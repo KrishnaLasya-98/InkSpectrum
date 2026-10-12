@@ -1,0 +1,777 @@
+{
+  "version": "1.0",
+  "project_id": "class-5-social-part-0-chapter-3-worlds-weather-and-climate",
+  "pipeline_type": "educational-video",
+  "stage": "render_clips",
+  "status": "completed",
+  "timestamp": "2026-10-07T07:26:48.350713+00:00",
+  "checkpoint_policy": "auto_noncreative",
+  "human_approval_required": false,
+  "human_approved": false,
+  "artifacts": {
+    "render_report": {
+      "version": "1.0",
+      "outputs": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\altitude-foothill-to-peak-a0b1d6875ca0.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1828469,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\AltitudeClimate-2a32dde13d96.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "1280x720",
+          "fps": 30.0,
+          "duration_seconds": 20.3,
+          "file_size_bytes": 571567,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\amazon-rain-4bc05586d6c7.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1492774,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\antarctic-wind-9edadbfc5dd5.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1282836,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\AntarcticaClimate-85e096575fb1.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "1280x720",
+          "fps": 30.0,
+          "duration_seconds": 18.2,
+          "file_size_bytes": 343638,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\BreezeClimate-cc04236183a7.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "1280x720",
+          "fps": 30.0,
+          "duration_seconds": 37.2,
+          "file_size_bytes": 890344,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\climate-factors-landscape-a677652517a0.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1106204,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\climate-long-term-seasons-409ce9a8b212.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1766006,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\climate-wet-dry-contrast-0a6834af8bb8.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1829176,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\ClimateContrast-b9085db3b2e1.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "1280x720",
+          "fps": 30.0,
+          "duration_seconds": 27.033,
+          "file_size_bytes": 741756,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\ClimateTypesPreview-22320416225c.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "1280x720",
+          "fps": 30.0,
+          "duration_seconds": 10.5,
+          "file_size_bytes": 258428,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\CloudClimate-f5ad240b0263.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "1280x720",
+          "fps": 30.0,
+          "duration_seconds": 16.1,
+          "file_size_bytes": 696560,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\coast-day-b032b4c89cc8.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1610592,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\coast-day-thermal-lag-b44d04f276ff.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1762532,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\coast-night-a8fc83d4c4bc.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 705024,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\coast-night-thermal-lag-4f412cd4c48c.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 856811,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\cold-current-coast-e9418ccf40f2.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.066,
+          "file_size_bytes": 1309577,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\cumulus-fair-c2effd5e21a4.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.066,
+          "file_size_bytes": 1413840,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\CurrentsClimate-400d17d22eb6.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "1280x720",
+          "fps": 30.0,
+          "duration_seconds": 23.133,
+          "file_size_bytes": 564291,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\desert-cool-night-cd4237102118.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 601485,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\desert-hot-day-34f51acbd7e5.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1038139,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\DesertClimate-a813ad82a50f.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "1280x720",
+          "fps": 30.0,
+          "duration_seconds": 13.367,
+          "file_size_bytes": 336692,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\dry-desert-air-dd2bf0af1df2.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1026767,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\earth-equator-to-poles-69ec722eb13d.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1274524,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\equator-strong-sunlight-28fb44db0160.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1539944,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\equatorial-rain-c3f827b54dd2.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1663637,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\equatorial-rainforest-river-bed2dcbcf388.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1950447,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\EquatorialClimate-e347b76101a5.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "1280x720",
+          "fps": 30.0,
+          "duration_seconds": 15.133,
+          "file_size_bytes": 883285,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\FactorsPreview-ab661f21f944.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "1280x720",
+          "fps": 30.0,
+          "duration_seconds": 11.533,
+          "file_size_bytes": 286675,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\frigid-ice-4d1e822b40d5.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.066,
+          "file_size_bytes": 1196453,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\FrigidClimate-adbd4a4cff4f.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "1280x720",
+          "fps": 30.0,
+          "duration_seconds": 10.033,
+          "file_size_bytes": 410738,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\HotDesert-6d78941e15d8.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "1280x720",
+          "fps": 30.0,
+          "duration_seconds": 21.133,
+          "file_size_bytes": 500622,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\humid-coast-2e86bd166b34.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1434976,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\humidity-lush-coast-1dec1a2d1eb7.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1923826,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\HumidityClimate-c49983f9ac8a.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "1280x720",
+          "fps": 30.0,
+          "duration_seconds": 20.533,
+          "file_size_bytes": 1246837,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\LatitudeClimate-b84db9df8529.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "1280x720",
+          "fps": 30.0,
+          "duration_seconds": 30.133,
+          "file_size_bytes": 844687,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\long-weather-title-c083dd89f573.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1571491,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\lut-heat-shimmer-fa751db34212.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1395969,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\lut-rocky-heat-8ff963d4fea6.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1613397,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\lut-scorched-ridges-939cc5ee2d10.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1141790,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\monsoon-rain-ba612cb7066e.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 2054683,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\monsoon-rice-fields-5b36802a29f6.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1652787,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\MonsoonClimate-73363d1ac01a.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "1280x720",
+          "fps": 30.0,
+          "duration_seconds": 16.267,
+          "file_size_bytes": 958394,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\mountain-ascending-d85bd5fbc1aa.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1106635,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\nimbostratus-rain-57cf7bf86d08.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1249211,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\polar-low-sunlight-1bff745995bf.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 962983,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\rainforest-canopy-912789c3baa5.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1748007,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\rainforest-food-1e4dbd786f67.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1360382,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\RainforestClimate-236103b467c4.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "1280x720",
+          "fps": 30.0,
+          "duration_seconds": 18.033,
+          "file_size_bytes": 1048124,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\sahara-dunes-a3b9a5a1a672.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1011680,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\sea-current-waves-b1c9ad70ede7.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 2038661,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\startup-cold-place-820e07f37207.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1451142,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\StartupWeather-45817ae8a87b.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "1280x720",
+          "fps": 30.0,
+          "duration_seconds": 27.3,
+          "file_size_bytes": 1060010,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\temperate-four-seasons-tree-53e38efd7f4c.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.066,
+          "file_size_bytes": 1886479,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\temperate-seasons-2f58c20200d5.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.066,
+          "file_size_bytes": 1926826,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\TemperateClimate-ce14261db354.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "1280x720",
+          "fps": 30.0,
+          "duration_seconds": 11.433,
+          "file_size_bytes": 615000,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\TorridClimate-19d10179f574.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "1280x720",
+          "fps": 30.0,
+          "duration_seconds": 12.967,
+          "file_size_bytes": 617197,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\tundra-wind-9437ccb624b1.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.066,
+          "file_size_bytes": 957738,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\TundraClimate-524a3826ba14.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "1280x720",
+          "fps": 30.0,
+          "duration_seconds": 13.333,
+          "file_size_bytes": 349907,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\warm-current-coast-8a0cf1e26fe4.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1407427,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\weather-change-rain-to-sun-ae8dca3ef284.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1779547,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\weather-cloud-cover-b17ceaa9e37c.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1839693,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\weather-opening-643eb51b5e5a.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1595785,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\weather-rain-8a163d2b4844.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1291646,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\weather-sunny-garden-9ae2a8a86896.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1309819,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\weather-wind-be5be1029b32.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1821590,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\WeatherChanges-a19552b0190b.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "1280x720",
+          "fps": 30.0,
+          "duration_seconds": 25.267,
+          "file_size_bytes": 1038505,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\WindClimate-68301180b804.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "1280x720",
+          "fps": 30.0,
+          "duration_seconds": 20.3,
+          "file_size_bytes": 783384,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\window-cloud-6df395c6073c.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1048864,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\window-rain-b2fb3527b011.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1106382,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\window-sun-deedf662fcae.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "832x480",
+          "fps": 30.0,
+          "duration_seconds": 5.067,
+          "file_size_bytes": 1089479,
+          "platform_target": "hyperframes-composition-input"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\ZonesOverview-ea7ca84ad390.mp4",
+          "format": "mp4",
+          "codec": "h264",
+          "resolution": "1280x720",
+          "fps": 30.0,
+          "duration_seconds": 10.467,
+          "file_size_bytes": 427171,
+          "platform_target": "hyperframes-composition-input"
+        }
+      ],
+      "warnings": [
+        "23 precision-authored clips are intentionally subtle-motion. Exact frame hashes verified no repeated end-frame extension."
+      ],
+      "verification_notes": [
+        "All composition media passed ffprobe, black-frame, audio-stream, and exact-frame checks.",
+        "All 49 accepted Wan 2.2 clips passed the strict full-motion audit.",
+        "Generated media contains no audio stream; approved narration remains authoritative.",
+        "Six encoded full-motion contact sheets were visually reviewed for chapter relevance and artifacts."
+      ],
+      "render_grammar": "animation-first",
+      "slideshow_risk_score": {
+        "average": 0.319444,
+        "verdict": "pass: authored precision motion plus generated full-motion footage"
+      },
+      "metadata": {
+        "technical_qa_report": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\composition-media-technical-qa-v1.json",
+        "files_checked": 72,
+        "generated_full_motion_files": 49,
+        "precision_authored_low_motion_files": 23,
+        "new_provider_submissions": 30
+      }
+    }
+  },
+  "style_playbook": "clean-professional",
+  "cost_snapshot": {
+    "total_spent_usd": 0.0,
+    "total_reserved_usd": 0.0,
+    "budget_remaining_usd": 5.0
+  },
+  "metadata": {
+    "media_qa_report": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\composition-media-technical-qa-v1.json",
+    "render_report_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\media-render-report-v1.json",
+    "generated_clips": 49,
+    "precision_clips": 23,
+    "new_provider_submissions": 30,
+    "stage_started_at_unix": 1791358007.4821033,
+    "stage_duration_seconds": 0.581,
+    "estimated_duration_seconds": 900.0,
+    "eta_accuracy_ratio": 0.001,
+    "artifact_sha256": "85a19281bc799b997b7c764c9e93aaf622eb50c4e2ba11d3a5617bbf0522deb2"
+  }
+}

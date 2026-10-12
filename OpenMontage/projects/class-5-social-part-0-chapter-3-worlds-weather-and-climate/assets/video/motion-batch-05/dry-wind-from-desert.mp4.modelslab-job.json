@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "terminal_failed",
+  "request_id": "188662859",
+  "request_fingerprint": "3e74bed936a913c0fb8794b91cf21bd1e4f89b8ddf3758ad7a7cc6f59f791021",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\dry-wind-from-desert.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791351161.6179304,
+  "provider_status": "failed",
+  "failed_at_unix": 1791353075.866906
+}

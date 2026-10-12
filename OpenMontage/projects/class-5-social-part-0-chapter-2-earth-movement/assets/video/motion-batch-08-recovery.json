@@ -1,0 +1,37 @@
+{
+  "version": "1.0",
+  "checked_at": "2026-10-01T12:52:14.986537+00:00",
+  "batch": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-08.json",
+  "new_submissions": 0,
+  "jobs": [
+    {
+      "shot_id": "startup-spinning-ball-08",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-08\\startup-spinning-ball-08.mp4",
+      "new_submission": false,
+      "request_id": "188303586",
+      "http_status": 200,
+      "status": "recovered",
+      "output_bytes": 396908
+    },
+    {
+      "shot_id": "bicycle-brake-forward-08",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-08\\bicycle-brake-forward-08.mp4",
+      "new_submission": false,
+      "request_id": "188303587",
+      "http_status": 200,
+      "status": "recovered",
+      "output_bytes": 627943
+    },
+    {
+      "shot_id": "earth-spin-west-east-08",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-08\\earth-spin-west-east-08.mp4",
+      "new_submission": false,
+      "request_id": "188303588",
+      "http_status": 200,
+      "status": "recovered",
+      "output_bytes": 164808
+    }
+  ],
+  "downloaded": 3,
+  "total": 3
+}

@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "terminal_failed",
+  "request_id": "188662868",
+  "request_fingerprint": "d64a8c12e456b3dfcbe1e47012a1a9ee2e9d34be34ae89c05be39bddb5385078",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\torrid-warm-river-valley.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791351169.8887384,
+  "provider_status": "failed",
+  "failed_at_unix": 1791353076.741965
+}

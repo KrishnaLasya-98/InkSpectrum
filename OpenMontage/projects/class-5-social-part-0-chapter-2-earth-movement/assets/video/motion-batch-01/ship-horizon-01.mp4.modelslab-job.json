@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188298910",
+  "request_fingerprint": "2a72dc7844032822b48606a2bd4c69eceef811ba9658f92395b10cc973e2c67c",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-01\\ship-horizon-01.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1790853589.5503085,
+  "last_poll_at_unix": 1790853962.7467062,
+  "completed_at_unix": 1790853964.3851929
+}

@@ -1,0 +1,142 @@
+{
+  "version": "1.0",
+  "project_id": "class-5-social-part-0-chapter-3-worlds-weather-and-climate",
+  "subject": "social-studies",
+  "subject_label": "Social",
+  "subject_profile": "social_science",
+  "chapter": 3,
+  "title": "Worlds Weather and Climate",
+  "subject_type": "theory",
+  "complexity": "elementary",
+  "grade": 5,
+  "age_range": "9-11",
+  "book_part": null,
+  "delivery_folder_name": "Class-5-Social",
+  "delivery_video_name": "Class-5-Social-Chapter-03-Worlds-Weather-and-Climate.mp4",
+  "duration_seconds": 533.0,
+  "source_input": "D:\\InkSpectrum\\OpenMontage\\textbook-collections\\class-5-social\\source-chapters\\chapter-03-world-s-weather-and-climate.pdf",
+  "source_pdf": "D:\\InkSpectrum\\OpenMontage\\textbook-collections\\class-5-social\\source-chapters\\chapter-03-world-s-weather-and-climate.pdf",
+  "source_markdown": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\extracted_content.md",
+  "source_extraction_artifact": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\extracted_content.json",
+  "source_document": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\chapter_document.json",
+  "coverage_contract": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\coverage_contract.json",
+  "pipeline": "educational-video",
+  "approval_policy": "full-run-preauthorized",
+  "content_policy": {
+    "require_authored_coverage_audit": true,
+    "source_fidelity": "complete-topic-coverage",
+    "allow_teacher_bridges": true,
+    "allow_invented_labels": false,
+    "allowed_overlay_types": [
+      "chapter_title",
+      "source_section_heading",
+      "narration_subtitle",
+      "assessment_prompt",
+      "answer_reveal"
+    ],
+    "max_content_lines_per_screen": 3,
+    "remove_redundant_text": true,
+    "display_only_labels_are_not_spoken": true,
+    "delivery_timing": {
+      "narration_speed": 0.85,
+      "spoken_heading_pause_seconds": 2.0,
+      "topic_end_pause_seconds": 1.5
+    },
+    "require_teaching_contract": true
+  },
+  "grade_delivery": {
+    "wpm_min": 115,
+    "wpm_max": 140,
+    "subtitle_words_max": 9,
+    "sentence_words_target": 16,
+    "subtitle_lines_max": 2,
+    "explanation_style": "clear, concrete, age-appropriate, and question-led"
+  },
+  "providers": {
+    "planning": {
+      "provider": "openmontage"
+    },
+    "audio": {
+      "provider": "elevenlabs",
+      "model_id": "eleven_v4",
+      "voice_id": "zJrRUu1KEcKH8qdpNaPJ",
+      "language": "en",
+      "speed": 0.85,
+      "lock_voice": true,
+      "enable_stt_qa": true
+    },
+    "video": {
+      "provider": "modelslab",
+      "model_id": "wan2.2",
+      "image_model_id": "wan-2.2-i2v",
+      "reference_model_id": "h3-minimax-r2v",
+      "reference_image_model_id": "flux",
+      "fallback_model_id": "h3-minimax-t2v",
+      "generate_audio": false,
+      "educational_mode": true,
+      "fresh_assets_only": true,
+      "allow_clip_reuse": false,
+      "max_generation_attempts": 3,
+      "semantic_qa": {
+        "required": true,
+        "model": "clip",
+        "max_frames": 5,
+        "minimum_match_ratio": 0.4
+      }
+    }
+  },
+  "automation_policy": {
+    "resume_from_checkpoints": true,
+    "max_repair_attempts": 3,
+    "fail_on_missing_source_coverage": true,
+    "fail_on_final_qa": true
+  },
+  "qa_policy": {
+    "required_source_coverage": 1.0,
+    "max_subtitle_drift_ms": 150,
+    "max_av_boundary_drift_ms": 100,
+    "reject_black_frames": true,
+    "reject_frozen_story_clips": true,
+    "reject_reused_assets": true,
+    "require_semantic_av_match": true
+  },
+  "render_policy": {
+    "runtime": "hyperframes",
+    "ui_template_id": "hyperframes-educational-v1",
+    "ui_template_package_sha256": "043693b98a939d5b92f0bcc4c70df358ba22c7735c2de3f042040f563eee871c",
+    "book_presentation_id": "source-faithful-book-v1",
+    "template_lock": "strict",
+    "composition_mode": "atelier",
+    "visual_media": "animated-video-only",
+    "embedded_media_text": false,
+    "subtitle_timing": "word-aligned",
+    "minimum_free_disk_gb": 8.0,
+    "workers": 1,
+    "low_memory_mode": true,
+    "require_streaming_encode": true,
+    "sync_authority": "measured-narration",
+    "reject_linear_subtitle_alignment": true,
+    "shared_timing_map": [
+      "audio",
+      "word_subtitles",
+      "visual_cues",
+      "teaching_ui"
+    ],
+    "required_opening_cards": [],
+    "optional_source_opening_cards": [
+      "we_learn",
+      "lesson_highlights"
+    ],
+    "opening_cards_policy": "only-if-present-in-source",
+    "teaching_ui_style": {
+      "badge": "cream-top-left",
+      "content_card": "cream-top-right",
+      "subtitle_lane": "cream-bottom-word-highlight",
+      "background": "full-frame-animated-video",
+      "assessment_mode": "source-faithful-stable-reading-screen"
+    },
+    "provider_outage_fallback": "blocked-no-substitution"
+  },
+  "educational_plan_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\educational_plan.json",
+  "presentation_variant": "class5-social-chapter1-v4"
+}

@@ -1,0 +1,1574 @@
+{
+  "file name" : "chapter-02-earth-movement.pdf",
+  "number of pages" : 7,
+  "author" : null,
+  "title" : null,
+  "creation date" : null,
+  "modification date" : null,
+  "kids" : [ {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 1,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 60.0, 690.0, 152.333, 710.667 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "lesson :2"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 2,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 173.667, 684.0, 449.0, 715.0 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Earth Movement"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 141,
+    "page number" : 1,
+    "bounding box" : [ 61.266, 616.037, 115.867, 669.392 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile1.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 3,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 119.0, 613.667, 391.0, 647.667 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Learning Objectives"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 4,
+    "page number" : 1,
+    "bounding box" : [ 58.0, 567.0, 384.0, 612.964 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "the end of this chapter, learners will be able to Understand that the Earth is spherical: By -"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 8,
+    "page number" : 1,
+    "bounding box" : [ 389.833, 498.664, 602.834, 606.336 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "ublication"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 5,
+    "page number" : 1,
+    "bounding box" : [ 56.667, 542.667, 381.333, 560.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Identify the two types of movements ofthe Earth:"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 6,
+    "page number" : 1,
+    "bounding box" : [ 57.0, 518.0, 266.667, 535.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Explain rotation and its effects."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 7,
+    "page number" : 1,
+    "bounding box" : [ 58.0, 494.667, 309.333, 510.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Understand revolution and its effects."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 9,
+    "page number" : 1,
+    "bounding box" : [ 57.333, 467.333, 402.0, 486.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Learn about different seasons caused by revolution."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 10,
+    "page number" : 1,
+    "bounding box" : [ 56.667, 441.333, 409.667, 462.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Define solstices and equinoxes and when they occur."
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 142,
+    "page number" : 1,
+    "bounding box" : [ 59.963, 396.748, 97.793, 443.231 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile2.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 11,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 99.0, 399.0, 302.0, 431.667 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Start-Up Activity"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 12,
+    "page number" : 1,
+    "bounding box" : [ 325.333, 402.667, 350.0, 427.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "0"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 13,
+    "page number" : 1,
+    "bounding box" : [ 57.333, 337.333, 573.667, 397.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Take a ball and spin it. Notice how it moves. Imagine this is the Earth moving in space. The Earth moves in two ways--let's explore these movements and their effects!"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 14,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 57.667, 293.0, 355.667, 315.333 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Who proved that the earth is spherical ?"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 15,
+    "page number" : 1,
+    "bounding box" : [ 57.0, 247.333, 572.667, 287.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Many ancient civilizations believed that the Earth was flat; However, Greek philosopher Pythagoras was one of the first to suggest that the Earth is"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 16,
+    "page number" : 1,
+    "bounding box" : [ 217.667, 125.0, 573.0, 247.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "spherical: Later, Aristotle   provided evidence by observing how ships disappear over the horizon and how the Earth's shadow on the Moon is  curved during a lunar eclipse. Ferdinand Magellan's voyage around the world further confirmed that the Earth is round."
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 143,
+    "page number" : 1,
+    "bounding box" : [ 60.262, 82.69, 214.986, 237.414 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile3.png"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 144,
+    "page number" : 2,
+    "bounding box" : [ 46.345, 730.12, 162.561, 780.575 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile4.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 17,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 58.0, 714.0, 294.333, 730.333 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The Two Movements ofthe Earth"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 18,
+    "page number" : 2,
+    "bounding box" : [ 57.333, 686.667, 256.667, 704.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The Earth moves in two ways:"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 19,
+    "page number" : 2,
+    "bounding box" : [ 58.333, 661.333, 398.667, 679.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Rotation The Earth spins on its axis around itself:"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 20,
+    "page number" : 2,
+    "bounding box" : [ 57.667, 639.0, 368.333, 653.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Revolution The Earth moves around the Sun:"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 21,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 57.667, 614.333, 124.333, 629.0 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Rotation"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 145,
+    "page number" : 2,
+    "bounding box" : [ 438.595, 728.841, 555.518, 780.51 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile5.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 22,
+    "page number" : 2,
+    "bounding box" : [ 57.333, 562.667, 570.333, 585.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The earth rotates from west to east. It completes one full rotation in 24 hours"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 28,
+    "page number" : 2,
+    "bounding box" : [ 202.333, 417.0, 573.0, 562.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The speed ofrotation is faster at the equator and slower at the poles. The axis is tilted at an angle of 23.59_ As the Earth is spherical in shape, only one half of the Earth receives sunlight at a time. Thus, the side of the Earth facing the Sun experience day: On the other hand, the other half; or the part away from the sun, experiences night: As the Earth rotates, the lighted"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 146,
+    "page number" : 2,
+    "bounding box" : [ 67.589, 432.774, 199.736, 552.0 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile4.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 23,
+    "page number" : 2,
+    "bounding box" : [ 133.0, 519.0, 145.667, 524.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "23.45"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 24,
+    "page number" : 2,
+    "bounding box" : [ 87.333, 499.0, 107.0, 505.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "equator"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 25,
+    "page number" : 2,
+    "bounding box" : [ 159.0, 491.667, 189.667, 497.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "orbltal plane"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 26,
+    "page number" : 2,
+    "bounding box" : [ 135.0, 445.0, 185.0, 451.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "line perpendicular t0"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 27,
+    "page number" : 2,
+    "bounding box" : [ 140.333, 439.0, 180.333, 445.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "the orbital plane"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 29,
+    "page number" : 2,
+    "bounding box" : [ 56.667, 396.333, 466.0, 415.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "part moves into the darkness. Rotation causes day and night:"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 147,
+    "page number" : 2,
+    "bounding box" : [ 68.972, 342.388, 97.831, 395.776 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile5.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 30,
+    "page number" : 2,
+    "bounding box" : [ 111.0, 349.667, 215.667, 363.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Do You Know?"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 31,
+    "page number" : 2,
+    "bounding box" : [ 57.667, 300.667, 573.0, 340.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The Earth rotates at a speed of 1,670 kilometers per hour at the equator, but we dont feel it because we re moving along with itl"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 32,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 57.333, 277.333, 140.667, 293.333 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Revolution"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 33,
+    "page number" : 2,
+    "bounding box" : [ 57.0, 251.0, 572.21, 267.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Revolution is the movement of the Earth around the Sun in a fixed path"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 34,
+    "page number" : 2,
+    "bounding box" : [ 56.333, 143.667, 388.0, 246.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "called an orbit. The Earth revolves around the Sun in an elliptical orbit: It takes 3651/ days (one year) to complete one revolution: The tilt of the Earth's axis remains the same during revolution: Revolution causes seasonal changes."
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 148,
+    "page number" : 2,
+    "bounding box" : [ 391.986, 70.82, 566.587, 245.422 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile6.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 37,
+    "page number" : 2,
+    "bounding box" : [ 416.667, 224.0, 454.0, 234.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Rotation"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 38,
+    "page number" : 2,
+    "bounding box" : [ 500.0, 224.0, 545.333, 234.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Revolution"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 39,
+    "page number" : 2,
+    "bounding box" : [ 508.0, 215.333, 536.667, 224.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "80 arcund"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 40,
+    "page number" : 2,
+    "bounding box" : [ 430.0, 118.0, 440.667, 126.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Day"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 35,
+    "page number" : 2,
+    "bounding box" : [ 58.0, 101.667, 221.0, 116.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "cause different seasons:"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 36,
+    "page number" : 2,
+    "bounding box" : [ 57.667, 73.667, 387.667, 91.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Summer The hemisphere tilted towards the Sun experiences summer."
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 149,
+    "page number" : 3,
+    "bounding box" : [ 46.297, 731.162, 162.454, 780.501 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile9.png"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 150,
+    "page number" : 3,
+    "bounding box" : [ 438.462, 728.748, 555.347, 780.613 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile10.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 41,
+    "page number" : 3,
+    "bounding box" : [ 57.333, 686.0, 523.0, 707.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Winter _ The hemisphere tilted away from the Sun experiences winter."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 42,
+    "page number" : 3,
+    "bounding box" : [ 55.667, 640.333, 572.0, 680.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Spring ~ Occurs between winter and summer when the temperature starts rising:"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 43,
+    "page number" : 3,
+    "bounding box" : [ 58.333, 616.0, 572.667, 634.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Autumn Occurs between summer and winter when the temperature starts"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 45,
+    "page number" : 3,
+    "bounding box" : [ 467.328, 559.99, 597.005, 604.343 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "oatio"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 151,
+    "page number" : 3,
+    "bounding box" : [ 60.027, 542.825, 101.534, 582.528 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile7.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 44,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 101.667, 547.333, 221.667, 562.333 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Let's Learn More"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 46,
+    "page number" : 3,
+    "bounding box" : [ 57.333, 498.333, 572.667, 538.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "day on Earth is actually 23 hours, 56 minutes, not exactly 24 hours, but we round it offto 24 hours because it's easier to keep track of time."
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 47,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 58.0, 475.0, 354.0, 491.667 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "What is Solstice and When Does It Occur?"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 48,
+    "page number" : 3,
+    "bounding box" : [ 56.667, 279.333, 573.0, 468.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A solstice is a when the sun shines vertically over a Tropic (both cancer and Capricorn) in the afternoon and the is the longest in that of Capricorn: This is the longest in Southern Hemisphere (summer season) , while in the Northern Hemisphere, it is the shortest day (winter season). This is called 'Winter Solstice. On 21 June, sunlight falls vertically over the Tropic of Cancer_ This is the longest in Northern Hemisphere and hence it is called 'Summer Solstice' while in the Southern Hemisphere, itis the shortest day. day, day day day"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 152,
+    "page number" : 3,
+    "bounding box" : [ 60.692, 226.084, 107.333, 270.556 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile8.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 49,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 106.667, 231.667, 231.333, 247.667 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Let's Learn More"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 50,
+    "page number" : 3,
+    "bounding box" : [ 57.0, 165.0, 573.667, 225.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Earth keeps rotating due to inertia, the same reason you continue moving forward when you stop a bike suddenly. This movement doesn't stop because there's no friction in space to slow it down!"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 51,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 58.0, 140.667, 369.333, 158.0 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "What is Equinox and When Does It Occur?"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 52,
+    "page number" : 3,
+    "bounding box" : [ 56.667, 94.667, 573.0, 135.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The sun falls directly on the equator two times in a year. During this period there is equal length of day and night all over the world."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 53,
+    "page number" : 3,
+    "bounding box" : [ 57.333, 69.333, 574.0, 88.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "In Northern Hemisphere, the March Equinox is called the Vernal or Spring Equinox while September Equinox is called Autumnal Equinox. Spring Equinox (March 2lst) marks the beginning of spring: Autumn Equinox (September 23rd) marks the beginning of autumn:"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 153,
+    "page number" : 4,
+    "bounding box" : [ 46.351, 728.68, 162.527, 780.489 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile13.png"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 154,
+    "page number" : 4,
+    "bounding box" : [ 438.626, 728.946, 555.461, 780.689 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile14.png"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 155,
+    "page number" : 4,
+    "bounding box" : [ 102.561, 391.27, 527.199, 653.609 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile9.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 64,
+    "page number" : 4,
+    "bounding box" : [ 481.908, 574.317, 602.092, 607.349 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "ation"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 54,
+    "page number" : 4,
+    "bounding box" : [ 124.333, 581.667, 149.0, 593.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "23.5"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 55,
+    "page number" : 4,
+    "bounding box" : [ 267.0, 547.333, 380.0, 565.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "September 22-23"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 56,
+    "page number" : 4,
+    "bounding box" : [ 275.0, 536.333, 369.667, 549.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Autumnal Equinox"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 57,
+    "page number" : 4,
+    "bounding box" : [ 107.667, 465.333, 216.667, 482.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "December 21-22"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 58,
+    "page number" : 4,
+    "bounding box" : [ 449.0, 464.667, 523.333, 481.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "June 20-22"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 59,
+    "page number" : 4,
+    "bounding box" : [ 108.667, 453.667, 186.333, 466.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Winter Solstice"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 60,
+    "page number" : 4,
+    "bounding box" : [ 436.333, 453.667, 523.333, 466.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Summer Solstice"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 61,
+    "page number" : 4,
+    "bounding box" : [ 284.667, 401.333, 366.667, 417.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "March 20-21"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 156,
+    "page number" : 4,
+    "bounding box" : [ 58.676, 357.098, 99.871, 409.805 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile10.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 62,
+    "page number" : 4,
+    "bounding box" : [ 286.333, 390.333, 364.333, 403.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Vernal Equinox"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 63,
+    "page number" : 4,
+    "bounding box" : [ 106.0, 362.667, 169.333, 382.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Recall"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 65,
+    "page number" : 4,
+    "bounding box" : [ 106.0, 362.667, 169.333, 382.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Recall"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 66,
+    "page number" : 4,
+    "bounding box" : [ 56.333, 274.333, 560.667, 354.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The Earth's movements, rotation and revolution, have significant affects on our lives. Rotation causes day and night; while revolution leads to the change of seasons. Solstices and equinoxes mark the shift in seasons, playing an essential role in our climate and timekeeping:"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 157,
+    "page number" : 4,
+    "bounding box" : [ 60.643, 229.955, 102.305, 269.506 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile11.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 67,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 105.0, 237.0, 290.0, 261.667 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "let's Remember"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 68,
+    "page number" : 4,
+    "bounding box" : [ 58.0, 200.0, 432.0, 218.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The Earth moves in two ways: rotation and revolution:"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 69,
+    "page number" : 4,
+    "bounding box" : [ 57.333, 174.667, 500.0, 193.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Rotation causes day and night, while revolution causes seasons."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 70,
+    "page number" : 4,
+    "bounding box" : [ 56.0, 128.333, 568.333, 169.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The Earth completes one rotation in 24 hours and one revolution in 3651 days."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 71,
+    "page number" : 4,
+    "bounding box" : [ 56.0, 83.667, 561.0, 125.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Solstices occur in June and December, marking the longest and shortest days."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 72,
+    "page number" : 4,
+    "bounding box" : [ 57.0, 59.031, 565.0, 79.302 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fauinoxes occur in March and September, when and night are equal: day"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 158,
+    "page number" : 5,
+    "bounding box" : [ 57.927, 694.673, 230.127, 732.102 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile18.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 75,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 94.667, 699.667, 224.333, 722.333 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Word Bank"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 73,
+    "page number" : 5,
+    "bounding box" : [ 65.667, 713.0, 81.667, 718.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Word"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 74,
+    "page number" : 5,
+    "bounding box" : [ 70.333, 707.667, 86.333, 713.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Bank"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 77,
+    "page number" : 5,
+    "bounding box" : [ 201.333, 672.0, 429.667, 690.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Spinning of the Earth on its axis."
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 76,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 58.333, 675.0, 124.333, 689.667 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Rotation"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 159,
+    "page number" : 5,
+    "bounding box" : [ 438.496, 728.852, 555.465, 780.437 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile19.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 78,
+    "page number" : 5,
+    "bounding box" : [ 57.333, 650.667, 140.0, 665.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Revolution"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 79,
+    "page number" : 5,
+    "bounding box" : [ 202.333, 650.333, 475.667, 664.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Movement of the Earth around the Sun_"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 80,
+    "page number" : 5,
+    "bounding box" : [ 58.333, 625.0, 98.333, 639.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Orbit"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 82,
+    "page number" : 5,
+    "bounding box" : [ 57.333, 600.0, 118.0, 614.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Solstice"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 81,
+    "page number" : 5,
+    "bounding box" : [ 201.667, 625.0, 467.667, 639.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The of the Earth around the Sun: path"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 84,
+    "page number" : 5,
+    "bounding box" : [ 201.667, 595.667, 516.0, 617.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "When the Sun is at its farthest point north or"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 88,
+    "page number" : 5,
+    "bounding box" : [ 563.0, 603.0, 593.667, 633.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Q"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 85,
+    "page number" : 5,
+    "bounding box" : [ 201.667, 570.0, 416.333, 590.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "When day and night are equal:"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 83,
+    "page number" : 5,
+    "bounding box" : [ 57.333, 571.333, 121.333, 589.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Equinox"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 89,
+    "page number" : 5,
+    "bounding box" : [ 385.739, 505.329, 578.594, 588.004 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "blicat"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 160,
+    "page number" : 5,
+    "bounding box" : [ 57.051, 525.977, 301.827, 561.076 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile20.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 86,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 59.333, 528.667, 298.667, 558.0 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Assessment Activity"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 87,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 58.0, 488.667, 404.667, 509.667 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "I. Answer the following very short questions"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "level" : "1",
+    "page number" : 5,
+    "bounding box" : [ 94.333, 438.333, 495.333, 482.667 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 96.0, 466.667, 408.667, 482.667 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "1 What are the two movements of the Earth?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 94.333, 438.333, 495.333, 457.667 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "2_ How long does the Earth take to one rotation?",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 92,
+    "page number" : 5,
+    "bounding box" : [ 95.0, 412.699, 309.667, 432.634 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "What causes and night? day"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 93,
+    "page number" : 5,
+    "bounding box" : [ 95.333, 391.667, 232.333, 406.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "4_ What is an orbit?"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 94,
+    "page number" : 5,
+    "bounding box" : [ 95.0, 366.333, 381.667, 380.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "When does the summer solstice occur?"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 95,
+    "level" : "Doctitle",
+    "page number" : 5,
+    "bounding box" : [ 94.333, 327.333, 367.333, 345.667 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Answer the following short questions"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "level" : "1",
+    "page number" : 5,
+    "bounding box" : [ 94.333, 274.667, 456.0, 320.0 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 96.0, 303.0, 332.0, 320.0 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "1_ Define rotation and revolution.?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 94.333, 274.667, 456.0, 296.333 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "2 Why does the Earth experience different seasons?",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 98,
+    "page number" : 5,
+    "bounding box" : [ 94.333, 249.333, 352.333, 271.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "What happens during an equinox?"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 99,
+    "level" : "Doctitle",
+    "page number" : 5,
+    "bounding box" : [ 57.0, 214.0, 360.667, 236.0 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "III. Answer the following long questions"
+  }, {
+    "type" : "list",
+    "pdfua_tag" : "L",
+    "level" : "1",
+    "page number" : 5,
+    "bounding box" : [ 93.667, 164.667, 547.333, 208.333 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 96.0, 190.0, 484.0, 208.333 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "1 Explain the effects of Earth's rotation with examples.?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "pdfua_tag" : "LI",
+      "page number" : 5,
+      "bounding box" : [ 93.667, 164.667, 547.333, 182.333 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "2 How does Earth's revolution cause different seasons? Explain.?",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 102,
+    "level" : "Doctitle",
+    "page number" : 5,
+    "bounding box" : [ 57.667, 131.0, 225.333, 145.667 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "IV _ Fill in the blanks"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 103,
+    "page number" : 5,
+    "bounding box" : [ 95.667, 100.667, 558.333, 121.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The Earth takes hours to complete one rotation."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 104,
+    "page number" : 5,
+    "bounding box" : [ 94.0, 76.0, 442.667, 97.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The Earth's orbit is in shape."
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 162,
+    "page number" : 6,
+    "bounding box" : [ 438.534, 729.049, 555.595, 781.118 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile22.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 105,
+    "page number" : 6,
+    "bounding box" : [ 95.0, 712.333, 454.667, 730.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The longest day in the Northern Hemisphere is on"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 106,
+    "page number" : 6,
+    "bounding box" : [ 95.0, 685.333, 564.0, 706.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "4.The Earth takes days to complete one revolution."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 107,
+    "page number" : 6,
+    "bounding box" : [ 95.0, 661.333, 490.0, 680.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The marks the beginning of spring:"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 108,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 60.667, 629.0, 193.667, 643.0 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "V True or false"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 109,
+    "page number" : 6,
+    "bounding box" : [ 96.0, 603.0, 285.0, 618.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "1 Rotation causes seasons."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 110,
+    "page number" : 6,
+    "bounding box" : [ 94.667, 552.0, 403.333, 568.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The Summer Solstice occurs in December."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 111,
+    "page number" : 6,
+    "bounding box" : [ 94.667, 524.0, 368.0, 542.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The Spring Equinox occurs in March_"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 112,
+    "page number" : 6,
+    "bounding box" : [ 94.333, 502.333, 339.667, 517.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The Earth's axis is tilted at 23.59 _"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 113,
+    "page number" : 6,
+    "bounding box" : [ 495.333, 499.333, 520.0, 518.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "("
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 114,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 59.0, 462.667, 248.0, 483.333 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "VI Match the following"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 115,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 130.0, 440.667, 202.667, 456.667 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Column A"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 116,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 381.667, 441.0, 455.667, 455.667 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Column B"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 117,
+    "page number" : 6,
+    "bounding box" : [ 132.0, 415.667, 207.667, 430.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "1 Rotation"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 121,
+    "page number" : 6,
+    "bounding box" : [ 381.333, 391.667, 550.0, 432.296 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Longest in the Northern Hemisphere day"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 118,
+    "page number" : 6,
+    "bounding box" : [ 257.433, 395.978, 385.567, 424.355 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "'pok"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 119,
+    "page number" : 6,
+    "bounding box" : [ 130.333, 369.667, 223.0, 384.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "2 . Revolution"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 120,
+    "level" : "2",
+    "page number" : 6,
+    "bounding box" : [ 130.0, 322.333, 266.667, 339.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "3. Summer Solstice"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 124,
+    "level" : "2",
+    "page number" : 6,
+    "bounding box" : [ 131.0, 298.333, 253.667, 313.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "4. Winter Solstice"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 125,
+    "page number" : 6,
+    "bounding box" : [ 130.333, 273.0, 144.333, 287.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "5."
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 128,
+    "page number" : 6,
+    "bounding box" : [ 82.715, 249.303, 213.285, 270.697 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Rocw"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 122,
+    "page number" : 6,
+    "bounding box" : [ 382.0, 346.0, 552.0, 385.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Shortest day in the Northern Hemisphere"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 123,
+    "page number" : 6,
+    "bounding box" : [ 381.667, 319.667, 551.333, 339.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Causes day and night"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 126,
+    "page number" : 6,
+    "bounding box" : [ 381.333, 294.333, 543.333, 314.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Equal and night day"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 127,
+    "page number" : 6,
+    "bounding box" : [ 397.333, 272.0, 509.333, 288.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Causes seasons"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 163,
+    "page number" : 6,
+    "bounding box" : [ 64.934, 177.495, 126.433, 215.958 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile13.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 129,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 129.0, 176.333, 226.667, 209.333 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Activity"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 164,
+    "page number" : 6,
+    "bounding box" : [ 130.692, 180.615, 222.291, 202.691 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile24.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 130,
+    "page number" : 6,
+    "bounding box" : [ 57.333, 117.667, 572.667, 155.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Make a Model of Earth's Movement: Use a lamp as the Sun and a ball as the Earth to show rotation and revolution."
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 170,
+    "page number" : 7,
+    "bounding box" : [ 438.459, 728.784, 555.431, 780.522 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile30.png"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 166,
+    "page number" : 7,
+    "bounding box" : [ 60.371, 691.17, 107.302, 729.038 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile15.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 131,
+    "level" : "Subtitle",
+    "page number" : 7,
+    "bounding box" : [ 111.333, 694.667, 199.0, 723.333 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Project"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 132,
+    "page number" : 7,
+    "bounding box" : [ 57.333, 651.0, 571.333, 690.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Observe Shadows: Measure the length of your shadow at different times of the day to see the effects of Earth's rotation:"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 167,
+    "page number" : 7,
+    "bounding box" : [ 59.601, 582.967, 98.66, 619.926 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile16.png"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 133,
+    "page number" : 7,
+    "bounding box" : [ 99.0, 589.0, 159.667, 610.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "HOTs"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 134,
+    "page number" : 7,
+    "bounding box" : [ 512.76, 597.589, 602.24, 606.411 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "ron"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 135,
+    "page number" : 7,
+    "bounding box" : [ 57.333, 541.0, 536.667, 581.333 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "1 How do you think Earth's rotation and revolution impact the of animals and plants?"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 136,
+    "page number" : 7,
+    "bounding box" : [ 344.0, 419.333, 376.0, 452.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "K"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 137,
+    "page number" : 7,
+    "bounding box" : [ 57.0, 383.667, 550.333, 420.0 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "If the Earth rotated faster or slower, how do you think it would affect life on Earth?"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 138,
+    "page number" : 7,
+    "bounding box" : [ 86.15, 242.331, 282.183, 339.336 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Rock<"
+  }, {
+    "type" : "image",
+    "pdfua_tag" : "Figure",
+    "id" : 168,
+    "page number" : 7,
+    "bounding box" : [ 59.591, 186.041, 109.366, 228.477 ],
+    "alt_source" : "missing",
+    "source" : "images/imageFile17.png"
+  }, {
+    "type" : "heading",
+    "pdfua_tag" : "H1",
+    "id" : 139,
+    "level" : "Subtitle",
+    "page number" : 7,
+    "bounding box" : [ 112.333, 187.0, 188.333, 201.667 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Life Skills"
+  }, {
+    "type" : "paragraph",
+    "pdfua_tag" : "P",
+    "id" : 140,
+    "page number" : 7,
+    "bounding box" : [ 56.667, 94.333, 540.667, 156.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "the rhythm for our daily lives. How can you use the concept of Earth's rotation to manage your day better? Think about how you balance activities like study, play, rest, and chores"
+  } ]
+}

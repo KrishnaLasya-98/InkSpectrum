@@ -1,0 +1,29 @@
+{
+  "status": "pass_automated_and_representative_visual",
+  "scope": "Opening through Word Bank inclusive; excludes assessment and exercises",
+  "render": "hyperframes-elevenlabs-v4/renders/class5-social-chapter2-earth-movement-final-elevenlabs-v4.mp4",
+  "delivery": "D:/InkSpectrum/OpenMontage/final-videos/Class-5-Social/Class-5-Social-Chapter-02-Earth-Movement.mp4",
+  "sha256": "7A5300B98FB8A6AF25A38E8412EAC568E8B31B69A723995CC5997DB2875D5D89",
+  "duration_seconds": 461.266667,
+  "resolution": "1920x1080",
+  "fps": 30,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "voice_model": "eleven_v4",
+  "voice_id": "zJrRUu1KEcKH8qdpNaPJ",
+  "sections": 15,
+  "motion_clips": 20,
+  "source_blocks_verified": 56,
+  "verbatim_panel_or_figure_blocks_verified": 56,
+  "heading_hold_seconds_each": 2,
+  "black_intervals_at_least_0_1s": 0,
+  "frozen_intervals_at_least_4s": 0,
+  "unintended_silences_at_least_3s": 0,
+  "representative_encoded_frame_seconds": [1, 10, 46, 82, 140, 210, 280, 400, 455],
+  "encoded_contact_sheet": "artifacts/encoded-elevenlabs-v4-qa/contact-sheet.jpg",
+  "source_coverage_report": "artifacts/source-coverage-elevenlabs-v4.json",
+  "asr_report": "artifacts/elevenlabs-v4-asr-qa-base-en.json",
+  "limitations": [
+    "Automated checks and representative encoded frames do not replace a full human listening review."
+  ]
+}

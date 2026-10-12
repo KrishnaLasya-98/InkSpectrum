@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "checked_at": "2026-10-07T05:30:06.919588+00:00",
+  "batch": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-04.json",
+  "new_submissions": 0,
+  "jobs": [
+    {
+      "shot_id": "long-weather-title",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-04\\long-weather-title.mp4",
+      "new_submission": false,
+      "status": "downloaded"
+    }
+  ],
+  "downloaded": 1,
+  "total": 1
+}

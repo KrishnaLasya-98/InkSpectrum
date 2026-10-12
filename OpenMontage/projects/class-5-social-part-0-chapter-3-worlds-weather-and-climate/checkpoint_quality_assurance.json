@@ -1,0 +1,55 @@
+{
+  "version": "1.0",
+  "project_id": "class-5-social-part-0-chapter-3-worlds-weather-and-climate",
+  "pipeline_type": "educational-video",
+  "stage": "quality_assurance",
+  "status": "completed",
+  "timestamp": "2026-10-07T07:34:04.328488+00:00",
+  "checkpoint_policy": "auto_noncreative",
+  "human_approval_required": true,
+  "human_approved": true,
+  "artifacts": {
+    "publish_log": {
+      "version": "1.0",
+      "entries": [
+        {
+          "platform": "local-mp4",
+          "status": "exported",
+          "visibility": "private",
+          "export_path": "D:\\InkSpectrum\\OpenMontage\\final-videos\\Class-5-Social\\Class-5-Social-Chapter-03-Worlds-Weather-and-Climate.mp4",
+          "timestamp": "2026-10-07T07:34:03.560237+00:00",
+          "metadata_used": {
+            "title": "Class 5 Social - Chapter 3 - Worlds Weather and Climate",
+            "description": "Verified textbook video covering the opening through Word Bank; assessments excluded."
+          }
+        }
+      ],
+      "metadata": {
+        "sha256": "d0976e875060cd69f00d211b8fdad18379594b25efb12bd12afff1a2f2669cc6",
+        "bytes": 379083839,
+        "encoded_qa": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\encoded-qa-v3\\encoded-qa-report.json",
+        "encoded_comparison": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\encoded-comparison-v3\\encoded-comparison-report.json",
+        "semantic_coverage": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\encoded-semantic-coverage-v2\\semantic-coverage-report.json",
+        "one_verified_final_for_chapter": true
+      }
+    }
+  },
+  "style_playbook": "clean-professional",
+  "cost_snapshot": {
+    "total_spent_usd": 0.0,
+    "total_reserved_usd": 0.0,
+    "budget_remaining_usd": 5.0
+  },
+  "metadata": {
+    "revision": "review-v2",
+    "final_path": "D:\\InkSpectrum\\OpenMontage\\final-videos\\Class-5-Social\\Class-5-Social-Chapter-03-Worlds-Weather-and-Climate.mp4",
+    "final_sha256": "d0976e875060cd69f00d211b8fdad18379594b25efb12bd12afff1a2f2669cc6",
+    "approval_evidence": "full-run-preauthorized",
+    "stage_started_at_unix": 1791358443.572649,
+    "stage_duration_seconds": 0.401,
+    "estimated_duration_seconds": 300.0,
+    "eta_accuracy_ratio": 0.001,
+    "artifact_sha256": "b7c3276ffedf880d564384c133722f3dd0904202192da0045650fb33c480da09",
+    "approved_artifact_sha256": "b7c3276ffedf880d564384c133722f3dd0904202192da0045650fb33c480da09"
+  }
+}

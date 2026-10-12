@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188346073",
+  "request_fingerprint": "a0516f4477a882dbc056a60e387f3ff8c7f7c5731fbe6533d9230578919038cb",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-10\\classroom-lamp-globe-day-night-10.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1790915131.5773304,
+  "last_poll_at_unix": 1790915340.6202822,
+  "completed_at_unix": 1790915342.328872
+}

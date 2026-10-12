@@ -1,0 +1,2 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/InkSpectrum/OpenMontage/projects/class-5-social-part-0-chapter-2-earth-movement/assets/video/precision-earth-v1-rotation-recovery/videos/precision_earth_v1/1080p30/partial_movie_files/RotationDayNight/uncached_00000.mp4'

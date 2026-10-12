@@ -1,0 +1,55 @@
+{
+  "version": "1.0",
+  "batch": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-02.json",
+  "shots": [
+    {
+      "shot_id": "humid-coast",
+      "section_id": "s12-humidity",
+      "status": "submitted",
+      "request_id": "188618074",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-02\\humid-coast.mp4",
+      "error": null
+    },
+    {
+      "shot_id": "rainforest-canopy",
+      "section_id": "s14-rainforest-fact",
+      "status": "submitted",
+      "request_id": "188618076",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-02\\rainforest-canopy.mp4",
+      "error": null
+    },
+    {
+      "shot_id": "monsoon-rain",
+      "section_id": "s16-monsoon",
+      "status": "submitted",
+      "request_id": "188618079",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-02\\monsoon-rain.mp4",
+      "error": null
+    },
+    {
+      "shot_id": "equatorial-rain",
+      "section_id": "s17-equatorial",
+      "status": "submitted",
+      "request_id": "188618081",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-02\\equatorial-rain.mp4",
+      "error": null
+    },
+    {
+      "shot_id": "tundra-wind",
+      "section_id": "s19-tundra",
+      "status": "submitted",
+      "request_id": "188618082",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-02\\tundra-wind.mp4",
+      "error": null
+    },
+    {
+      "shot_id": "antarctic-wind",
+      "section_id": "s20-antarctica-fact",
+      "status": "submitted",
+      "request_id": "188618086",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-02\\antarctic-wind.mp4",
+      "error": null
+    }
+  ],
+  "complete": false
+}

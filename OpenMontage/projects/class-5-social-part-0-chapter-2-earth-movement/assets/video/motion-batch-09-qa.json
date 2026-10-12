@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "review_method": "Recovered the durable Wan image-to-video job without resubmission; ffprobe and a five-frame, one-second contact sheet were compared with the exact s11 inertia narration cue.",
+  "shots": [
+    {
+      "shot_id": "bicycle-stop-inertia-i2v-09",
+      "status": "reject_for_inertia_explanation",
+      "evidence": "motion-batch-09/contact.jpg",
+      "observation": "The child and bicycle are coherent and move, but the sampled frames do not make a wheel stop followed by forward body motion unambiguous. The last frame changes posture abruptly. This is not sufficient proof of the physical claim.",
+      "use_policy": "Do not use as the explanatory s11 shot. A brief generic bicycle context cue is possible only if paired with separate verified deterministic stop/forward-motion teaching animation."
+    }
+  ],
+  "production_approval": false
+}

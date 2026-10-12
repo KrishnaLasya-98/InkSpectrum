@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188662852",
+  "request_fingerprint": "1f2e7262ef87568d5e8bb00f51d75d25d0cc2d6c01d54942bc32e26d174893c0",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\equator-strong-sunlight.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791351155.8122776,
+  "last_poll_at_unix": 1791352542.2995389,
+  "completed_at_unix": 1791352543.8844976
+}

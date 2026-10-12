@@ -1,0 +1,36 @@
+{
+  "status": "review_required",
+  "model": "faster-whisper-small.en",
+  "sections": [
+    {
+      "section_id": "s08-revolution",
+      "lexical_similarity": 0.9737,
+      "expected_words": 116,
+      "heard_words": 112,
+      "mismatches": [
+        {
+          "operation": "replace",
+          "expected": "three hundred and sixty five",
+          "heard": "365"
+        }
+      ],
+      "asr_transcript": "REVOLUTION Revolution is the movement of the earth around the sun in a fixed path called an orbit. The earth revolves around the sun in an elliptical orbit. It takes 365 and one quarter days, one year, to complete one revolution. The tilt of the earth's axis remains the same during revolution. Revolution causes seasonal changes. The revolution of the earth and the tilt of its axis cause different seasons. Summer. The hemisphere tilted towards the sun experiences summer. Winter. The hemisphere tilted away from the sun experiences winter. Spring. Occurs between winter and summer when the temperature starts rising. Autumn. Occurs between summer and winter when the temperature starts dropping."
+    },
+    {
+      "section_id": "s13-recall",
+      "lexical_similarity": 0.9773,
+      "expected_words": 44,
+      "heard_words": 44,
+      "mismatches": [
+        {
+          "operation": "replace",
+          "expected": "affects",
+          "heard": "effects"
+        }
+      ],
+      "asr_transcript": "Recall The Earth's movements, rotation and revolution have significant effects on our lives. Rotation causes day and night, while revolution leads to the change of seasons. Solstices and equinoxes mark the shift in seasons, playing an essential role in our climate and timekeeping."
+    }
+  ],
+  "minimum_similarity": 0.9737,
+  "overall_similarity": 0.9747
+}

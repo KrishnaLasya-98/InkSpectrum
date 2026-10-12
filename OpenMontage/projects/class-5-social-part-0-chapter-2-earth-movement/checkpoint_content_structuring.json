@@ -1,0 +1,32 @@
+{
+  "version": "1.0",
+  "project_id": "class-5-social-part-0-chapter-2-earth-movement",
+  "pipeline_type": "educational-video",
+  "stage": "content_structuring",
+  "status": "completed",
+  "timestamp": "2026-10-01T11:12:36.319714+00:00",
+  "checkpoint_policy": "auto_noncreative",
+  "human_approval_required": true,
+  "human_approved": true,
+  "artifacts": {
+    "educational_plan_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\artifacts\\educational_plan.json",
+    "source_coverage_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\artifacts\\coverage_contract.json"
+  },
+  "style_playbook": "clean-professional",
+  "cost_snapshot": {
+    "total_spent_usd": 0.0,
+    "total_reserved_usd": 0.0,
+    "budget_remaining_usd": 5.0
+  },
+  "metadata": {
+    "sections": 15,
+    "verified_source_blocks": 56,
+    "stage_started_at_unix": 1790853156.019517,
+    "stage_duration_seconds": 0.167,
+    "estimated_duration_seconds": 180.0,
+    "eta_accuracy_ratio": 0.001,
+    "artifact_sha256": "706440a09faa817a64e2a682711abb6ea9021480cc8d0ac419a174a439317d4d",
+    "approved_artifact_sha256": "706440a09faa817a64e2a682711abb6ea9021480cc8d0ac419a174a439317d4d",
+    "approval_evidence": "full-run-preauthorized"
+  }
+}

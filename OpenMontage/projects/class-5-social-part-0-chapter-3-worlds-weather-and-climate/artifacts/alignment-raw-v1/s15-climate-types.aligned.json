@@ -1,0 +1,143 @@
+{
+  "section_id": "s15-climate-types",
+  "text": "Types of Climate. Different parts of the world have different types of climate. Let's look at some major types.",
+  "start_ms": 288960,
+  "end_ms": 297360,
+  "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\audio\\narration-elevenlabs-v1\\s15-climate-types.wav",
+  "words": [
+    {
+      "word": "Types",
+      "start_ms": 289000,
+      "end_ms": 289321,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0233
+    },
+    {
+      "word": "of",
+      "start_ms": 289421,
+      "end_ms": 289461,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "Climate.",
+      "start_ms": 289602,
+      "end_ms": 290063,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0717
+    },
+    {
+      "word": "Different",
+      "start_ms": 291025,
+      "end_ms": 291366,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0057
+    },
+    {
+      "word": "parts",
+      "start_ms": 291446,
+      "end_ms": 291727,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0214
+    },
+    {
+      "word": "of",
+      "start_ms": 291787,
+      "end_ms": 291867,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.2007
+    },
+    {
+      "word": "the",
+      "start_ms": 291927,
+      "end_ms": 292007,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "world",
+      "start_ms": 292067,
+      "end_ms": 292368,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1443
+    },
+    {
+      "word": "have",
+      "start_ms": 292669,
+      "end_ms": 292829,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0093
+    },
+    {
+      "word": "different",
+      "start_ms": 292929,
+      "end_ms": 293290,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0059
+    },
+    {
+      "word": "types",
+      "start_ms": 293350,
+      "end_ms": 293631,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0094
+    },
+    {
+      "word": "of",
+      "start_ms": 293711,
+      "end_ms": 293751,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "climate.",
+      "start_ms": 293852,
+      "end_ms": 294273,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0067
+    },
+    {
+      "word": "Let's",
+      "start_ms": 295055,
+      "end_ms": 295275,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0492
+    },
+    {
+      "word": "look",
+      "start_ms": 295315,
+      "end_ms": 295455,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "at",
+      "start_ms": 295516,
+      "end_ms": 295576,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0019
+    },
+    {
+      "word": "some",
+      "start_ms": 295656,
+      "end_ms": 295816,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "major",
+      "start_ms": 295917,
+      "end_ms": 296217,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.6368
+    },
+    {
+      "word": "types.",
+      "start_ms": 296277,
+      "end_ms": 296598,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0027
+    }
+  ],
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

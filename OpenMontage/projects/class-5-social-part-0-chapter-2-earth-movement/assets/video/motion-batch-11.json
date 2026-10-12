@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "scope": "Distinct season context for the textbook solstice and equinox figure readings",
+  "provider": "modelslab",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "shots": [
+    {
+      "shot_id": "solstice-bright-summer-11",
+      "section_id": "s10-solstice",
+      "narration_cue": "the longest day in Northern Hemisphere",
+      "prompt": "One continuous five-second child-friendly three-dimensional animated summer landscape: a sunlit meadow and leafy trees beside a small village, warm golden light, gentle breeze moving grasses, and a smooth sideward camera glide. This is atmospheric context for a long summer day, not a latitude or hemisphere diagram. No people, labels, signs, captions, maps, numbers, writing or logos. No sudden transition and no frozen frames."
+    },
+    {
+      "shot_id": "solstice-calm-winter-11",
+      "section_id": "s10-solstice",
+      "narration_cue": "the shortest day, winter season",
+      "prompt": "One continuous five-second child-friendly three-dimensional animated winter landscape: a quiet meadow with light snow on evergreen trees, cool low sunlight, soft moving clouds and a smooth sideward camera glide. This is atmospheric context for winter, not a latitude or hemisphere diagram. No people, labels, signs, captions, maps, numbers, writing or logos. No sudden transition and no frozen frames."
+    },
+    {
+      "shot_id": "equinox-spring-meadow-11",
+      "section_id": "s12-equinox",
+      "narration_cue": "Spring Equinox marks the beginning of spring",
+      "prompt": "One continuous five-second child-friendly three-dimensional animated spring meadow with fresh green leaves, small flowers, bright soft sunlight and a few moving butterflies. The camera glides smoothly past one flowering tree in a coherent landscape. This is atmospheric spring context only; exact equinox dates and geometry will be authored separately from the textbook. No people, lettering, labels, signs, captions, numbers or logos; no cuts or frozen frames."
+    }
+  ]
+}

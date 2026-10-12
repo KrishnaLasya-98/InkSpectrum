@@ -1,0 +1,313 @@
+{
+  "status": "source_and_timing_pass_media_and_encoded_review_pending",
+  "sections": [
+    {
+      "section_id": "s01-title",
+      "source_block_ids": [
+        "p0001-b0001"
+      ],
+      "required_motion": true,
+      "precision_class": "OpeningWeather",
+      "text_and_caption_exact": true
+    },
+    {
+      "section_id": "s02-objectives",
+      "source_block_ids": [
+        "p0001-b0002",
+        "p0001-b0003",
+        "p0001-b0004",
+        "p0001-b0005",
+        "p0001-b0006",
+        "p0001-b0007",
+        "p0001-b0008"
+      ],
+      "required_motion": false,
+      "precision_class": null,
+      "text_and_caption_exact": true
+    },
+    {
+      "section_id": "s03-startup",
+      "source_block_ids": [
+        "p0001-b0009",
+        "p0001-b0010"
+      ],
+      "required_motion": true,
+      "precision_class": "StartupWeather",
+      "text_and_caption_exact": true
+    },
+    {
+      "section_id": "s04-weather",
+      "source_block_ids": [
+        "p0001-b0011",
+        "p0001-b0012"
+      ],
+      "required_motion": true,
+      "precision_class": "WeatherChanges",
+      "text_and_caption_exact": true
+    },
+    {
+      "section_id": "s05-hot-desert-fact",
+      "source_block_ids": [
+        "p0001-b0013",
+        "p0001-b0014"
+      ],
+      "required_motion": true,
+      "precision_class": "HotDesert",
+      "text_and_caption_exact": true
+    },
+    {
+      "section_id": "s06-climate",
+      "source_block_ids": [
+        "p0002-b0001",
+        "p0002-b0002"
+      ],
+      "required_motion": true,
+      "precision_class": "ClimateContrast",
+      "text_and_caption_exact": true
+    },
+    {
+      "section_id": "s07-factors",
+      "source_block_ids": [
+        "p0002-b0003",
+        "p0002-b0004"
+      ],
+      "required_motion": true,
+      "precision_class": "FactorsPreview",
+      "text_and_caption_exact": true
+    },
+    {
+      "section_id": "s08-latitude",
+      "source_block_ids": [
+        "p0002-b0005",
+        "p0002-b0006",
+        "p0002-b0007"
+      ],
+      "required_motion": true,
+      "precision_class": "LatitudeClimate",
+      "text_and_caption_exact": true
+    },
+    {
+      "section_id": "s09-altitude",
+      "source_block_ids": [
+        "p0003-b0001",
+        "p0003-b0002",
+        "p0003-b0003"
+      ],
+      "required_motion": true,
+      "precision_class": "AltitudeClimate",
+      "text_and_caption_exact": true
+    },
+    {
+      "section_id": "s10-sea-land-breeze",
+      "source_block_ids": [
+        "p0003-b0004",
+        "p0003-b0005",
+        "p0003-b0006"
+      ],
+      "required_motion": true,
+      "precision_class": "BreezeClimate",
+      "text_and_caption_exact": true
+    },
+    {
+      "section_id": "s11-wind",
+      "source_block_ids": [
+        "p0004-b0001",
+        "p0004-b0002",
+        "p0004-b0003"
+      ],
+      "required_motion": true,
+      "precision_class": "WindClimate",
+      "text_and_caption_exact": true
+    },
+    {
+      "section_id": "s12-humidity",
+      "source_block_ids": [
+        "p0004-b0004",
+        "p0004-b0005",
+        "p0004-b0006"
+      ],
+      "required_motion": true,
+      "precision_class": "HumidityClimate",
+      "text_and_caption_exact": true
+    },
+    {
+      "section_id": "s13-currents",
+      "source_block_ids": [
+        "p0004-b0007",
+        "p0004-b0008",
+        "p0004-b0009"
+      ],
+      "required_motion": true,
+      "precision_class": "CurrentsClimate",
+      "text_and_caption_exact": true
+    },
+    {
+      "section_id": "s14-rainforest-fact",
+      "source_block_ids": [
+        "p0005-b0001",
+        "p0005-b0002"
+      ],
+      "required_motion": true,
+      "precision_class": "RainforestClimate",
+      "text_and_caption_exact": true
+    },
+    {
+      "section_id": "s15-climate-types",
+      "source_block_ids": [
+        "p0005-b0003",
+        "p0005-b0004"
+      ],
+      "required_motion": true,
+      "precision_class": "ClimateTypesPreview",
+      "text_and_caption_exact": true
+    },
+    {
+      "section_id": "s16-monsoon",
+      "source_block_ids": [
+        "p0005-b0005",
+        "p0005-b0006",
+        "p0005-b0007"
+      ],
+      "required_motion": true,
+      "precision_class": "MonsoonClimate",
+      "text_and_caption_exact": true
+    },
+    {
+      "section_id": "s17-equatorial",
+      "source_block_ids": [
+        "p0005-b0008",
+        "p0005-b0009",
+        "p0005-b0010",
+        "p0005-b0011"
+      ],
+      "required_motion": true,
+      "precision_class": "EquatorialClimate",
+      "text_and_caption_exact": true
+    },
+    {
+      "section_id": "s18-desert",
+      "source_block_ids": [
+        "p0005-b0012",
+        "p0005-b0013",
+        "p0005-b0014",
+        "p0005-b0015"
+      ],
+      "required_motion": true,
+      "precision_class": "DesertClimate",
+      "text_and_caption_exact": true
+    },
+    {
+      "section_id": "s19-tundra",
+      "source_block_ids": [
+        "p0006-b0001",
+        "p0006-b0002",
+        "p0006-b0003"
+      ],
+      "required_motion": true,
+      "precision_class": "TundraClimate",
+      "text_and_caption_exact": true
+    },
+    {
+      "section_id": "s20-antarctica-fact",
+      "source_block_ids": [
+        "p0006-b0004",
+        "p0006-b0005"
+      ],
+      "required_motion": true,
+      "precision_class": "AntarcticaClimate",
+      "text_and_caption_exact": true
+    },
+    {
+      "section_id": "s21-zones",
+      "source_block_ids": [
+        "p0006-b0006",
+        "p0006-b0007"
+      ],
+      "required_motion": true,
+      "precision_class": "ZonesOverview",
+      "text_and_caption_exact": true
+    },
+    {
+      "section_id": "s22-torrid",
+      "source_block_ids": [
+        "p0006-b0008",
+        "p0006-b0009",
+        "p0006-b0010"
+      ],
+      "required_motion": true,
+      "precision_class": "TorridClimate",
+      "text_and_caption_exact": true
+    },
+    {
+      "section_id": "s23-temperate",
+      "source_block_ids": [
+        "p0006-b0011",
+        "p0006-b0012",
+        "p0006-b0013"
+      ],
+      "required_motion": true,
+      "precision_class": "TemperateClimate",
+      "text_and_caption_exact": true
+    },
+    {
+      "section_id": "s24-cloud-fact",
+      "source_block_ids": [
+        "p0006-b0014",
+        "p0006-b0015"
+      ],
+      "required_motion": true,
+      "precision_class": "CloudClimate",
+      "text_and_caption_exact": true
+    },
+    {
+      "section_id": "s25-frigid",
+      "source_block_ids": [
+        "p0007-b0001",
+        "p0007-b0002",
+        "p0007-b0003",
+        "p0007-b0004"
+      ],
+      "required_motion": true,
+      "precision_class": "FrigidClimate",
+      "text_and_caption_exact": true
+    },
+    {
+      "section_id": "s26-recall",
+      "source_block_ids": [
+        "p0007-b0005",
+        "p0007-b0006"
+      ],
+      "required_motion": false,
+      "precision_class": null,
+      "text_and_caption_exact": true
+    },
+    {
+      "section_id": "s27-remember",
+      "source_block_ids": [
+        "p0007-b0007",
+        "p0007-b0008",
+        "p0007-b0009",
+        "p0007-b0010",
+        "p0007-b0011",
+        "p0007-b0012"
+      ],
+      "required_motion": false,
+      "precision_class": null,
+      "text_and_caption_exact": true
+    },
+    {
+      "section_id": "s28-wordbank",
+      "source_block_ids": [
+        "p0007-b0013",
+        "p0007-b0014"
+      ],
+      "required_motion": false,
+      "precision_class": null,
+      "text_and_caption_exact": true
+    }
+  ],
+  "required_source_blocks": 80,
+  "figures_expected": 10,
+  "duration_seconds": 548.2339583333332,
+  "textbook_table_cells": 12
+}

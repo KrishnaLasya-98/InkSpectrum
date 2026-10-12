@@ -1,0 +1,8 @@
+{
+  "version": "1.0",
+  "status": "pass",
+  "required_blocks": 80,
+  "verified_text_blocks": 80,
+  "issues": [],
+  "validation_boundary": "Authored text and evidence only; PDF visual verification, answer verification, cue resolution, and encoded-output QA remain mandatory."
+}

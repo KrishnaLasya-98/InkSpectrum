@@ -1,0 +1,103 @@
+{
+  "version": "1.0",
+  "batch": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-01.json",
+  "shots": [
+    {
+      "shot_id": "weather-opening",
+      "section_id": "s01-title",
+      "status": "submitted",
+      "request_id": "188617425",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-01\\weather-opening.mp4",
+      "error": null
+    },
+    {
+      "shot_id": "window-sun",
+      "section_id": "s03-startup",
+      "status": "submitted",
+      "request_id": "188617428",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-01\\window-sun.mp4",
+      "error": null
+    },
+    {
+      "shot_id": "window-cloud",
+      "section_id": "s03-startup",
+      "status": "submitted",
+      "request_id": "188617430",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-01\\window-cloud.mp4",
+      "error": null
+    },
+    {
+      "shot_id": "window-rain",
+      "section_id": "s03-startup",
+      "status": "submitted",
+      "request_id": "188617446",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-01\\window-rain.mp4",
+      "error": null
+    },
+    {
+      "shot_id": "weather-wind",
+      "section_id": "s04-weather",
+      "status": "submitted",
+      "request_id": "188617450",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-01\\weather-wind.mp4",
+      "error": null
+    },
+    {
+      "shot_id": "weather-rain",
+      "section_id": "s04-weather",
+      "status": "submitted",
+      "request_id": "188617451",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-01\\weather-rain.mp4",
+      "error": null
+    },
+    {
+      "shot_id": "lut-rocky-heat",
+      "section_id": "s05-hot-desert-fact",
+      "status": "submitted",
+      "request_id": "188617454",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-01\\lut-rocky-heat.mp4",
+      "error": null
+    },
+    {
+      "shot_id": "sahara-dunes",
+      "section_id": "s06-climate",
+      "status": "submitted",
+      "request_id": "188617456",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-01\\sahara-dunes.mp4",
+      "error": null
+    },
+    {
+      "shot_id": "amazon-rain",
+      "section_id": "s06-climate",
+      "status": "submitted",
+      "request_id": "188617458",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-01\\amazon-rain.mp4",
+      "error": null
+    },
+    {
+      "shot_id": "mountain-ascending",
+      "section_id": "s09-altitude",
+      "status": "submitted",
+      "request_id": "188617460",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-01\\mountain-ascending.mp4",
+      "error": null
+    },
+    {
+      "shot_id": "coast-day",
+      "section_id": "s10-sea-land-breeze",
+      "status": "submitted",
+      "request_id": "188617461",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-01\\coast-day.mp4",
+      "error": null
+    },
+    {
+      "shot_id": "coast-night",
+      "section_id": "s10-sea-land-breeze",
+      "status": "submitted",
+      "request_id": "188617462",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-01\\coast-night.mp4",
+      "error": null
+    }
+  ],
+  "complete": false
+}

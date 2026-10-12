@@ -1,0 +1,140 @@
+{
+  "version": "2.0",
+  "segments": {
+    "s01-title": {
+      "fingerprint": "3bd62626786a00539c73a15adc639709cd4ef754ac9a5ec0c7552e4619f6a58d",
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-v1\\s01-title.wav",
+      "duration_seconds": 8.117,
+      "voice": "af_heart",
+      "wer": 0.0,
+      "heading_duration_seconds": 0.0,
+      "heading_holds": []
+    },
+    "s02-objectives": {
+      "fingerprint": "960f314e53e2c16ed1efd474688c5e96d255bd1a375f440b6b55696d1a31cb60",
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-v1\\s02-objectives.wav",
+      "duration_seconds": 30.097,
+      "voice": "af_heart",
+      "wer": 0.0,
+      "heading_duration_seconds": 1.493,
+      "heading_holds": []
+    },
+    "s03-startup": {
+      "fingerprint": "9f30defed1d743e4a294e6237de2d42de5d5c30177c2812ecf31ccb392a0e313",
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-v1\\s03-startup.wav",
+      "duration_seconds": 18.791,
+      "voice": "af_heart",
+      "wer": 0.0,
+      "heading_duration_seconds": 1.472,
+      "heading_holds": []
+    },
+    "s04-spherical-earth": {
+      "fingerprint": "c98b878e4ea84e64ca14d4d4f949585b9f25df4d8eadaaa7bb90b06cdf35d6dc",
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-v1\\s04-spherical-earth.wav",
+      "duration_seconds": 35.025,
+      "voice": "af_heart",
+      "wer": 0.0,
+      "heading_duration_seconds": 2.048,
+      "heading_holds": []
+    },
+    "s05-two-movements": {
+      "fingerprint": "4d7f09a5c0e4cabff23195c727b9d5424def454c7211a5cbe08d0ba9f248fdd2",
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-v1\\s05-two-movements.wav",
+      "duration_seconds": 16.145,
+      "voice": "af_heart",
+      "wer": 0.0,
+      "heading_duration_seconds": 1.749,
+      "heading_holds": []
+    },
+    "s06-rotation": {
+      "fingerprint": "146064272b4dba5d8c0ade8363cb3b87fe466176a0f69f8af75255dd371f5595",
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-v1\\s06-rotation.wav",
+      "duration_seconds": 48.615,
+      "voice": "af_heart",
+      "wer": 0.0,
+      "heading_duration_seconds": 1.088,
+      "heading_holds": []
+    },
+    "s07-do-you-know": {
+      "fingerprint": "de6c2dc6888346d4df6a907313bae965a83210e62ee93403130f2d322cd06718",
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-v1\\s07-do-you-know.wav",
+      "duration_seconds": 15.484,
+      "voice": "af_heart",
+      "wer": 0.0,
+      "heading_duration_seconds": 0.96,
+      "heading_holds": []
+    },
+    "s08-revolution": {
+      "fingerprint": "9fa04e69c33f74d5d5f3bc7f680dbc030870358fa583a9c9b0ceacdc4a7aa6fc",
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-v1\\s08-revolution.wav",
+      "duration_seconds": 52.199,
+      "voice": "af_heart",
+      "wer": 0.0,
+      "heading_duration_seconds": 1.088,
+      "heading_holds": []
+    },
+    "s09-day-length": {
+      "fingerprint": "e6044f98b68180ab577b03943f726bd4fcb47b1cee954f36f763afc2234ede99",
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-v1\\s09-day-length.wav",
+      "duration_seconds": 18.897,
+      "voice": "af_heart",
+      "wer": 0.0,
+      "heading_duration_seconds": 1.28,
+      "heading_holds": []
+    },
+    "s10-solstice": {
+      "fingerprint": "907f4e11e05cb94ecc1480b69b7c79f403a48a5a796b121f054f3dbe9f4ea0dd",
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-v1\\s10-solstice.wav",
+      "duration_seconds": 47.015,
+      "voice": "af_heart",
+      "wer": 0.0,
+      "heading_duration_seconds": 2.432,
+      "heading_holds": []
+    },
+    "s11-inertia": {
+      "fingerprint": "1b01db4cc9f4a05e9b0821e10f3313ab72c411c742939caa2f1a576c9325182f",
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-v1\\s11-inertia.wav",
+      "duration_seconds": 19.217,
+      "voice": "af_heart",
+      "wer": 0.0,
+      "heading_duration_seconds": 1.28,
+      "heading_holds": []
+    },
+    "s12-equinox": {
+      "fingerprint": "f0b0dc7291e17f094f8f3ee4d956e6c5e46f2d4d9c94a9258966bf5c79586747",
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-v1\\s12-equinox.wav",
+      "duration_seconds": 34.492,
+      "voice": "af_heart",
+      "wer": 0.0,
+      "heading_duration_seconds": 2.411,
+      "heading_holds": []
+    },
+    "s13-recall": {
+      "fingerprint": "de1f8319b2ba9156b05e6f0220b249833b1e4f8c1a767dfaac7269b02cf8ca0a",
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-v1\\s13-recall.wav",
+      "duration_seconds": 25.873,
+      "voice": "af_heart",
+      "wer": 0.0,
+      "heading_duration_seconds": 0.96,
+      "heading_holds": []
+    },
+    "s14-remember": {
+      "fingerprint": "cdbe83dc33a26c97a11fb0acca3ce7976f16728c93e3ba6f286c467c9e7e2a5d",
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-v1\\s14-remember.wav",
+      "duration_seconds": 33.425,
+      "voice": "af_heart",
+      "wer": 0.0,
+      "heading_duration_seconds": 1.195,
+      "heading_holds": []
+    },
+    "s15-wordbank": {
+      "fingerprint": "c3bdbfac7bdff7d02ec63c45ed3f599103bed1362b0acab1ca8f03593f1ed064",
+      "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\audio\\narration-v1\\s15-wordbank.wav",
+      "duration_seconds": 23.079,
+      "voice": "af_heart",
+      "wer": 0.0,
+      "heading_duration_seconds": 1.045,
+      "heading_holds": []
+    }
+  }
+}

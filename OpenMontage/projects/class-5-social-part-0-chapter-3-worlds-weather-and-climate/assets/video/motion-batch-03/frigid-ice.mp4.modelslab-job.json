@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188618994",
+  "request_fingerprint": "c5846752e043f667b4fe5b3b111a4801b1ed961b6d8ef75eec4e13ecc5b30076",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-03\\frigid-ice.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791284931.3694253,
+  "last_poll_at_unix": 1791285320.4533088,
+  "completed_at_unix": 1791285322.070269
+}

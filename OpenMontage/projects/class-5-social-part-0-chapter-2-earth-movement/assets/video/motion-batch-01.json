@@ -1,0 +1,45 @@
+{
+  "version": "1.0",
+  "scope": "Class 5 Social, Chapter 2, opening through Word Bank",
+  "provider": "modelslab",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "shots": [
+    {
+      "shot_id": "earth-opening-01",
+      "section_id": "s01-title",
+      "narration_cue": "Lesson 2: Earth Movement",
+      "prompt": "Five seconds of continuous polished child-friendly 3D educational animation for ten-year-old students. A beautiful physically round Earth slowly turns in space, with a warm sun glow at the edge and stars subtly twinkling. Smooth forward camera drift creates real parallax and an inviting sense of discovery. Earth remains large in the right half of a 16:9 frame; the left half stays naturally dark enough for a separately authored lesson title overlay. Premium family-animation lighting, blue and cream color harmony, clean geography without country borders. No embedded words, letters, captions, labels, logo, watermark or camera jump."
+    },
+    {
+      "shot_id": "startup-spinning-ball-01",
+      "section_id": "s03-startup",
+      "narration_cue": "Take a ball and spin it",
+      "prompt": "Five seconds of continuous polished child-friendly 3D classroom animation. On a warm wooden desk, a single plain blue ball rotates smoothly on the spot after a child's hand gives it one gentle spin; the hand exits the frame naturally. The same ball stays in view throughout, with moving specular highlights and a soft contact shadow showing true rotation. Cheerful daylight, calm camera orbit, believable movement, room for a compact teaching panel in the upper-right. No second ball, globe map, embedded words, letters, labels, subtitle, logo or watermark."
+    },
+    {
+      "shot_id": "ship-horizon-01",
+      "section_id": "s04-spherical-earth",
+      "narration_cue": "ships disappear over the horizon",
+      "prompt": "Five seconds of continuous 3D animated educational film showing evidence of a spherical Earth. From a calm shore-side view, one small sailing ship moves away across a blue sea and its hull gradually disappears below the curved horizon before its mast does. Use a smooth locked camera and unmistakable temporal motion, warm clear daylight, crisp elegant child-friendly forms, premium feature-animation lighting. Keep the ocean and ship central with open sky at upper-right for later authored text. No people, no lettering, no labels, no subtitles, no logos, no watermark, no instant cut."
+    },
+    {
+      "shot_id": "earth-shadow-eclipse-01",
+      "section_id": "s04-spherical-earth",
+      "narration_cue": "Earth's shadow on the Moon is curved",
+      "prompt": "Five seconds of continuous polished 3D educational animation showing a lunar eclipse geometry as a visual analogy, not a diagram with text. Earth passes between a bright Sun and a full Moon; a clearly curved dark shadow progresses slowly across the Moon's surface. Accurate round celestial bodies, calm smooth camera movement, deep blue space, child-friendly cinematic clarity, no invented arrows or markings. Leave upper-right negative space for a later authored fact panel. No embedded lettering, labels, subtitles, logo or watermark."
+    },
+    {
+      "shot_id": "earth-day-night-01",
+      "section_id": "s06-rotation",
+      "narration_cue": "Rotation causes day and night",
+      "prompt": "Five seconds of continuous premium child-friendly 3D educational animation. A single spherical Earth turns steadily from west to east under a fixed sunlight direction, while the visible day-night boundary advances naturally across its surface. An animated golden Sun is partially visible at the edge, with a clean dark-space background. Scientific concept is clear without letters or arrows; authored labels will be added later. Smooth slow orbiting camera, coherent Earth shape and lighting, polished family-film look. No text, labels, subtitles, logos, watermarks, cuts, freezes or loops."
+    },
+    {
+      "shot_id": "earth-revolution-01",
+      "section_id": "s08-revolution",
+      "narration_cue": "Earth moves around the Sun",
+      "prompt": "Five seconds of continuous polished 3D animation for a Class 5 social studies lesson. A single tilted Earth travels partway around a warm glowing Sun on a clearly elliptical path while still rotating gently. Keep the axis orientation coherent as the orbit advances. The camera tracks smoothly above the orbital plane to make the two distinct movements easy to see; blue, gold and cream family-film palette. No text, fake map labels, extra planets, visible written numbers, subtitle, logo, watermark, frame freeze or abrupt cut."
+    }
+  ]
+}

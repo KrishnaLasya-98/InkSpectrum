@@ -1,0 +1,316 @@
+{
+  "status": "pause_and_word_interval_pass_pronunciation_review_pending",
+  "method": "ffmpeg silence measurement and unconstrained acoustic decoder; not scripted transcript substitution",
+  "pause_checks": [
+    {
+      "section_id": "s01-title",
+      "measured_quiet_heading_gap_seconds": 2.0,
+      "words": 10,
+      "word_intervals_valid": true
+    },
+    {
+      "section_id": "s02-objectives",
+      "measured_quiet_heading_gap_seconds": 2.0,
+      "words": 53,
+      "word_intervals_valid": true
+    },
+    {
+      "section_id": "s03-startup",
+      "measured_quiet_heading_gap_seconds": 2.0,
+      "words": 54,
+      "word_intervals_valid": true
+    },
+    {
+      "section_id": "s04-weather",
+      "measured_quiet_heading_gap_seconds": 2.0,
+      "words": 48,
+      "word_intervals_valid": true
+    },
+    {
+      "section_id": "s05-hot-desert-fact",
+      "measured_quiet_heading_gap_seconds": 2.0,
+      "words": 35,
+      "word_intervals_valid": true
+    },
+    {
+      "section_id": "s06-climate",
+      "measured_quiet_heading_gap_seconds": 2.0,
+      "words": 55,
+      "word_intervals_valid": true
+    },
+    {
+      "section_id": "s07-factors",
+      "measured_quiet_heading_gap_seconds": 2.0,
+      "words": 18,
+      "word_intervals_valid": true
+    },
+    {
+      "section_id": "s08-latitude",
+      "measured_quiet_heading_gap_seconds": 2.0,
+      "words": 52,
+      "word_intervals_valid": true
+    },
+    {
+      "section_id": "s09-altitude",
+      "measured_quiet_heading_gap_seconds": 2.0,
+      "words": 37,
+      "word_intervals_valid": true
+    },
+    {
+      "section_id": "s10-sea-land-breeze",
+      "measured_quiet_heading_gap_seconds": 2.0,
+      "words": 81,
+      "word_intervals_valid": true
+    },
+    {
+      "section_id": "s11-wind",
+      "measured_quiet_heading_gap_seconds": 2.0,
+      "words": 38,
+      "word_intervals_valid": true
+    },
+    {
+      "section_id": "s12-humidity",
+      "measured_quiet_heading_gap_seconds": 2.0,
+      "words": 33,
+      "word_intervals_valid": true
+    },
+    {
+      "section_id": "s13-currents",
+      "measured_quiet_heading_gap_seconds": 2.0,
+      "words": 39,
+      "word_intervals_valid": true
+    },
+    {
+      "section_id": "s14-rainforest-fact",
+      "measured_quiet_heading_gap_seconds": 2.0,
+      "words": 34,
+      "word_intervals_valid": true
+    },
+    {
+      "section_id": "s15-climate-types",
+      "measured_quiet_heading_gap_seconds": 2.0,
+      "words": 19,
+      "word_intervals_valid": true
+    },
+    {
+      "section_id": "s16-monsoon",
+      "measured_quiet_heading_gap_seconds": 2.0,
+      "words": 27,
+      "word_intervals_valid": true
+    },
+    {
+      "section_id": "s17-equatorial",
+      "measured_quiet_heading_gap_seconds": 2.0,
+      "words": 26,
+      "word_intervals_valid": true
+    },
+    {
+      "section_id": "s18-desert",
+      "measured_quiet_heading_gap_seconds": 2.0,
+      "words": 23,
+      "word_intervals_valid": true
+    },
+    {
+      "section_id": "s19-tundra",
+      "measured_quiet_heading_gap_seconds": 2.0,
+      "words": 21,
+      "word_intervals_valid": true
+    },
+    {
+      "section_id": "s20-antarctica-fact",
+      "measured_quiet_heading_gap_seconds": 2.0,
+      "words": 33,
+      "word_intervals_valid": true
+    },
+    {
+      "section_id": "s21-zones",
+      "measured_quiet_heading_gap_seconds": 2.0,
+      "words": 17,
+      "word_intervals_valid": true
+    },
+    {
+      "section_id": "s22-torrid",
+      "measured_quiet_heading_gap_seconds": 2.0,
+      "words": 23,
+      "word_intervals_valid": true
+    },
+    {
+      "section_id": "s23-temperate",
+      "measured_quiet_heading_gap_seconds": 2.0,
+      "words": 17,
+      "word_intervals_valid": true
+    },
+    {
+      "section_id": "s24-cloud-fact",
+      "measured_quiet_heading_gap_seconds": 2.0,
+      "words": 33,
+      "word_intervals_valid": true
+    },
+    {
+      "section_id": "s25-frigid",
+      "measured_quiet_heading_gap_seconds": 2.0,
+      "words": 14,
+      "word_intervals_valid": true
+    },
+    {
+      "section_id": "s26-recall",
+      "measured_quiet_heading_gap_seconds": 2.0,
+      "words": 43,
+      "word_intervals_valid": true
+    },
+    {
+      "section_id": "s27-remember",
+      "measured_quiet_heading_gap_seconds": 2.0,
+      "words": 52,
+      "word_intervals_valid": true
+    },
+    {
+      "section_id": "s28-wordbank",
+      "measured_quiet_heading_gap_seconds": 2.0,
+      "words": 46,
+      "word_intervals_valid": true
+    }
+  ],
+  "unconstrained_transcripts": [
+    {
+      "section_id": "s01-title",
+      "unconstrained_ctc_transcript": "SOCIAL STUDIES CLASS FIVE LESSEN THREE WORLDS WEATHER AND CLIMATE",
+      "review_status": "triage_not_human_listening"
+    },
+    {
+      "section_id": "s02-objectives",
+      "unconstrained_ctc_transcript": "LEARNING OBJECTIVES BY THE END OF THIS CHAPTER LEARNERS WILL BE ABLE TO EXPLAIN THE DIFFERENCE BETWEEN WEATHER AND CLIMATE IDENTIFY AND DESCRIBE THE FACTORS AFFECTING CLIMATE UNDERSTAND THE DIFFERENT TYPES OF CLIMATE FOUND IN THE WORLD RECOGNIZE THE CLIMATIC ZONES OF THE EARTH EXPLAIN HOW CLIMATE AFFECTS HUMAN LIFE AND THE ENVIRONMENT",
+      "review_status": "triage_not_human_listening"
+    },
+    {
+      "section_id": "s03-startup",
+      "unconstrained_ctc_transcript": "START UP LOOK OUTSIDE THE WINDOW IS IT SUNNY CLOUDY OR RAINY HAVE YOU EVER NOTICED HOW THE WEATHER CHANGES THROUGHOUT THE DAY SOME PLACES ARE ALWAYS WARM WHILE OTHERS ARE COLD WHY DOES THIS HAPPEN IN THIS CHAPTER WE WILL EXPLORE THE DIFFERENCES BETWEEN WEATHER AND CLIMATE AND UNDERSTAND THE FACTORS THAT INFLUENCE THEM",
+      "review_status": "triage_not_human_listening"
+    },
+    {
+      "section_id": "s04-weather",
+      "unconstrained_ctc_transcript": "WEATHER WHEATHER IS THE CONDITION OF THE ATMOSPHERE AT A PARTICULAR PLACE AND TIME IT INCLUDES TEMPERATURE WIND RAINFALL HUMIDITY AND CLOUD COVER WHETHER CAN CHANGE FROM HOUR TO HOUR OR DAY TO DAY FOR EXAMPLE ONE MORNING IT MAY BE SUNNY AND BY AFTERNOON IT COULD RAIN",
+      "review_status": "triage_not_human_listening"
+    },
+    {
+      "section_id": "s05-hot-desert-fact",
+      "unconstrained_ctc_transcript": "DO YOU KNOW THE HOTTEST PLACE ON EARTH IS THE LOOT DESERT IN IRAN WHERE TEMPERATURES HAVE BEEN RECORDED AS HIGH AS ONE HUNDRED FIFTY NINE POINT THREE DEGREES FAHRENITE SEVENTY POINTS SEVEN DEGREES SELSIES IMAGINE HOW HOT IT MUST BE TO HAVE THAT MUCH HEAT",
+      "review_status": "triage_not_human_listening"
+    },
+    {
+      "section_id": "s06-climate",
+      "unconstrained_ctc_transcript": "CLIMATE CLIMATE IS THE AVERAGE WEATHER CONDITION OF A PLACE OVER A LONG PERIOD USUALLY THIRTY YEARS OR MORE IT TELLS US WHETHER A PLACE IS GENERALLY HOT COLD WET OR DRY FOR EXAMPLE THE CLIMATE OF THE SAHARAH DESERT IS HOT AND DRY WHILE THE CLIMATE OF THE AMAZON RAIN FOREST IS WARM AND RAINY",
+      "review_status": "triage_not_human_listening"
+    },
+    {
+      "section_id": "s07-factors",
+      "unconstrained_ctc_transcript": "FACTORS AFFECTING CLIMATE SEVERAL FACTORS INFLUENCE THE CLIMATE OF A PLACE LET US EXPLORE THEM ONE BY ONE",
+      "review_status": "triage_not_human_listening"
+    },
+    {
+      "section_id": "s08-latitude",
+      "unconstrained_ctc_transcript": "DISTANCE FROM THE EQUATOR LATITUDES THE EARTH IS DIVIDED INTO IMAGINARY LINES CALLED LATITUDES PLACES NEAR THE EQUATOR RECEIVE DIRECT SUNLIGHT THROUGHOUT THE YEAR MAKING THEM HOT AS WE MOVE TOWARDS THE POLES SUNLIGHT SPREADS OUT MAKING THESE AREAS COOLER THIS IS WHY TROPICAL REGIONS ARE WARM WHILE POLAR REGIONS ARE COOLD",
+      "review_status": "triage_not_human_listening"
+    },
+    {
+      "section_id": "s09-altitude",
+      "unconstrained_ctc_transcript": "ALTITUDE ALTITUDE IS THE HEIGHT OF A PLACE ABOVE SEA LEVEL HIGHER ALTITUDES HAVE COOLER TEMPERATURES BECAUSE THE AIR IS THINNER AND CANNOT HOLD MUCH HEAT FOR EXAMPLE MOUNTAINS ARE COLDER THAN PLAINS AT THE SAME LATITUDE",
+      "review_status": "triage_not_human_listening"
+    },
+    {
+      "section_id": "s10-sea-land-breeze",
+      "unconstrained_ctc_transcript": "DISTANCE FROM THE SEA SEA BREEZE AND LAND BREEZE OCEANS AND SEASE INFLUENCE THE CLIMATE OF COASTAL AREAS WATER HEATS UP AND COOLS DOWN MORE SLOWLY THAN LAND DURING THE DAY LAND HEATS UP FASTER THAN WATER CAUSING A SEA BREEZE TO BLOW FROM THE SEA TO THE LAND AT NIGHT THE LAND COOLS DOWN QUICKLY AND A LAND BREEZE BLOWS FROM LAND TO THE SEA THIS KEEPS COASTAL AREAS COOLER IN SUMMER AND WARMER IN WINTER COMPARED TO INLAND REGIONS",
+      "review_status": "triage_not_human_listening"
+    },
+    {
+      "section_id": "s11-wind",
+      "unconstrained_ctc_transcript": "DIRECTION OF THE WIND WINDS CARRY HEAT AND MOISTURE FROM ONE PLACE TO ANOTHER WINDS COMING FROM THE SEA BRING RAIN WHILE WINDS FROM DESERTS BRING DRY WEATHER FOR EXAMPLE THE MON SOON WINDS BRING HEAVY RAINFALL TO INDIA",
+      "review_status": "triage_not_human_listening"
+    },
+    {
+      "section_id": "s12-humidity",
+      "unconstrained_ctc_transcript": "HUMIDITY HUMIDITY IS THE AMOUNT OF WATER VAPOR IN THE AIR PLACES WITH HIGH HUMIDITY RECEIVE MORE RAINFALL WHILE DRY AREAS HAVE LESS HUMIDITY FOR EXAMPLE COASTIL AREAS HAVE HIGHER HUMIDITY THAN DESERTS",
+      "review_status": "triage_not_human_listening"
+    },
+    {
+      "section_id": "s13-currents",
+      "unconstrained_ctc_transcript": "OCEAN CURRENTS OCEAN CURRENTS ARE LARGE MOVEMENTS OF WATER IN THE OCEANS WARM OCEAN CURRENTS MAKE COSTAL AREAS WARMER WHILE COLD CURRENTS BRING COOL TEMPERATURES FOR EXAMPLE THE GULF STREAM WARMS EUROPE WHILE THE COLD LABORADOR CURRENT COOLS CANADA",
+      "review_status": "triage_not_human_listening"
+    },
+    {
+      "section_id": "s14-rainforest-fact",
+      "unconstrained_ctc_transcript": "LETS LEARN MORE RAIN FORESTS RECEIVE ABOUT EIGHTY INCHES OF RAIN EACH YERE AND THEY ARE SO IMPORTANT BECAUSE THEY PROVIDE OXYGEN AND FOOD TO THE WORLD WITHOUT THEM OUR PLANET WOULD BE VERY DIFFERENT",
+      "review_status": "triage_not_human_listening"
+    },
+    {
+      "section_id": "s15-climate-types",
+      "unconstrained_ctc_transcript": "TYPES OF CLIMATE DIFFERENT PARTS OF THE WORLD HAVE DIFFERENT TYPES OF CLIMATE LET'S LOOK AT SOME MEJOR TYPES",
+      "review_status": "triage_not_human_listening"
+    },
+    {
+      "section_id": "s16-monsoon",
+      "unconstrained_ctc_transcript": "MON SOON OR TROPICAL CLIMATE FOUND IN SOUTH ASIA SOUTH EAST ASIA AND SOME PARTS OF AFRICA IT HAS HOT SUMMERS AND RECEIVES HEAVY RAINFALL DURING THE MONSOON SEASON",
+      "review_status": "triage_not_human_listening"
+    },
+    {
+      "section_id": "s17-equatorial",
+      "unconstrained_ctc_transcript": "EQUATORIAL CLIMATE FOUND NEAR THE EQUATOR SUCH AS IN THE AMAZON GREEN FOREST AND CONGO BASIN IT IS HOT AND HUMID THROUGHOUT THE YEAR WITH HEAVY RAINFALL",
+      "review_status": "triage_not_human_listening"
+    },
+    {
+      "section_id": "s18-desert",
+      "unconstrained_ctc_transcript": "DESERT CLIMATE FOUND IN PLACES LIKE THE SAHARA DESERT AND THE THAR DESERT IT HAS VERY LITTLE RAINFALL HOT DAYS AND COLD NIGHTS",
+      "review_status": "triage_not_human_listening"
+    },
+    {
+      "section_id": "s19-tundra",
+      "unconstrained_ctc_transcript": "TUNDRA CLIMATE FOUND NEAR THE POLES SUCH AS IN GREENLAND AND ANTACTICA IT IS EXTREMELY COLD WITH LITTLE OR NO VEGETATION",
+      "review_status": "triage_not_human_listening"
+    },
+    {
+      "section_id": "s20-antarctica-fact",
+      "unconstrained_ctc_transcript": "DO YOU KNOW ANTACTICA IS THE DRIEST COLDEST AND WINDIEST CONTINENT ON EARTH IT HASN'T REINED THERE IN MILLIONS OF YEARS BUT IT STILL CONSIDERED A DESERT BECAUSE OF THE LACK OF PRECIPITATION",
+      "review_status": "triage_not_human_listening"
+    },
+    {
+      "section_id": "s21-zones",
+      "unconstrained_ctc_transcript": "CLIMATIC ZONES OF THE EARTH THE EARTH IS DIVIDED INTO THREE MEAN CLIMATIC ZONES BASED ON LATITUDE",
+      "review_status": "triage_not_human_listening"
+    },
+    {
+      "section_id": "s22-torrid",
+      "unconstrained_ctc_transcript": "TORID ZON LOCATED BETWEEN THE TROPIC OF CANCER AND THE TROPIC OF CAPRICON IT IS THE HOTTEST ZON AS IT RECEIVES DIRECT SUNLIGHT",
+      "review_status": "triage_not_human_listening"
+    },
+    {
+      "section_id": "s23-temperate",
+      "unconstrained_ctc_transcript": "TEMPERATE ZONE FOUND BETWEEN THE TROPICS AND THE POLAR CIRCLES IT HAS MODERATE TEMPERATURES WITH DISTINCT SEASONS",
+      "review_status": "triage_not_human_listening"
+    },
+    {
+      "section_id": "s24-cloud-fact",
+      "unconstrained_ctc_transcript": "DO YOU KNOW THERE ARE DIFFERENT TYPES OF CLOUDS THAT CAN TELL YOU ABOUT THE WEATHER FOR EXAMPLE CUMULOUS CLOUDS ARE FLUFFY AND SHOW FAIR WEATHER WHILE NIMBLE STRATUS CLOUDS BRING RAIN OR SNOW",
+      "review_status": "triage_not_human_listening"
+    },
+    {
+      "section_id": "s25-frigid",
+      "unconstrained_ctc_transcript": "FRIGID ZON LOCATED NEAR THE POLES IT IS THE COLDEST ZON WITH ICE COVERED LANDS",
+      "review_status": "triage_not_human_listening"
+    },
+    {
+      "section_id": "s26-recall",
+      "unconstrained_ctc_transcript": "RECALL WEATHER AND CLIMATE ARE ESSENTIAL ASPECTS OF OUR ENVIRONMENT MANY FACTORS SUCH AS LATITUDE ALTITUDE WIND AND OCEAN CURRENTS INFLUENCE CLIMATE DIFFERENT REGIONS EXPERIENCE DIFFERENT TYPES OF CLIMATES AFFECTING THE WAY PEOPLE LIVE THE FOOD THEY GROW AND THE CLODS THEY WEAR",
+      "review_status": "triage_not_human_listening"
+    },
+    {
+      "section_id": "s27-remember",
+      "unconstrained_ctc_transcript": "LETS REMEMBER WEATHER IS THE DAILY ATMOSPHERIC CONDITION OF A PLACE CLIMATE IS THE AVERAGE WEATHER OVER A LONG PERIOD LATITUDE ALTITUDE DISTANCE FROM THE SEA AND WINDS INFLUENCE CLIMATE THE WORLD HAS DIFFERENT TYPES OF CLIMATE INCLUDING TROPICAL DESERTE AND TUNDRA THE EARTH HAS THREE CLIMATIC ZONES TORRID TEMPERATE AND FRIGID",
+      "review_status": "triage_not_human_listening"
+    },
+    {
+      "section_id": "s28-wordbank",
+      "unconstrained_ctc_transcript": "WORD BANK WORD MEANING HUMIDITY THE AMOUNT OF WATER VAPOUR IN THE AIR ALTITUDE THE HEIGHT OF A PLACE ABOVE SEA LEVEL EQUATOR AN IMAGINARY LINE DIVIDING THE EARTH INTO TWO HALVES MONSOON SEASONABL WINDS THAT BRING HEAVY RAIN TANDRA A COLD REGION WITH LITTLE VEGETATION",
+      "review_status": "triage_not_human_listening"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "section_id": "s01-title",
+  "text": "Social Studies, Class 5. Lesson 2: Earth Movement.",
+  "start_ms": 0,
+  "end_ms": 7245,
+  "words": [
+    {
+      "word": "Social",
+      "start_ms": 120,
+      "end_ms": 440,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0013
+    },
+    {
+      "word": "Studies,",
+      "start_ms": 560,
+      "end_ms": 981,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0006
+    },
+    {
+      "word": "Class",
+      "start_ms": 1441,
+      "end_ms": 1721,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.004
+    },
+    {
+      "word": "5.",
+      "start_ms": 1821,
+      "end_ms": 2142,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1241
+    },
+    {
+      "word": "Lesson",
+      "start_ms": 2922,
+      "end_ms": 3222,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1272
+    },
+    {
+      "word": "2:",
+      "start_ms": 3362,
+      "end_ms": 3522,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0024
+    },
+    {
+      "word": "Earth",
+      "start_ms": 4303,
+      "end_ms": 4503,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0419
+    },
+    {
+      "word": "Movement.",
+      "start_ms": 4663,
+      "end_ms": 5104,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0024
+    }
+  ],
+  "format_spec": {
+    "font_size": 64,
+    "highlight_color": "#FF8C42",
+    "background_color": "rgba(255,253,240,0.90)",
+    "font_family": "Nunito, 'Segoe UI', Arial, sans-serif",
+    "font_weight": "700",
+    "text_shadow": "0 2px 8px rgba(0,0,0,0.25)",
+    "key_terms": [],
+    "words_per_page": 6
+  },
+  "source_block_type": "concept",
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

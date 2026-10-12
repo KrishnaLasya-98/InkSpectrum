@@ -1,0 +1,269 @@
+{
+  "section_id": "s09-altitude",
+  "text": "Altitude. Altitude is the height of a place above sea level. Higher altitudes have cooler temperatures because the air is thinner and cannot hold much heat. For example, mountains are colder than plains at the same latitude.",
+  "start_ms": 161120,
+  "end_ms": 179760,
+  "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\audio\\narration-elevenlabs-v1\\s09-altitude.wav",
+  "words": [
+    {
+      "word": "Altitude.",
+      "start_ms": 161220,
+      "end_ms": 161761,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.024
+    },
+    {
+      "word": "Altitude",
+      "start_ms": 163002,
+      "end_ms": 163583,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0048
+    },
+    {
+      "word": "is",
+      "start_ms": 163863,
+      "end_ms": 163923,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "the",
+      "start_ms": 163983,
+      "end_ms": 164063,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0007
+    },
+    {
+      "word": "height",
+      "start_ms": 164183,
+      "end_ms": 164444,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0791
+    },
+    {
+      "word": "of",
+      "start_ms": 164524,
+      "end_ms": 164564,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "a",
+      "start_ms": 164684,
+      "end_ms": 164704,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0152
+    },
+    {
+      "word": "place",
+      "start_ms": 164784,
+      "end_ms": 165064,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.067
+    },
+    {
+      "word": "above",
+      "start_ms": 165304,
+      "end_ms": 165585,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0212
+    },
+    {
+      "word": "sea",
+      "start_ms": 165705,
+      "end_ms": 165885,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0042
+    },
+    {
+      "word": "level.",
+      "start_ms": 165945,
+      "end_ms": 166205,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.06
+    },
+    {
+      "word": "Higher",
+      "start_ms": 167126,
+      "end_ms": 167407,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.016
+    },
+    {
+      "word": "altitudes",
+      "start_ms": 167547,
+      "end_ms": 168107,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0364
+    },
+    {
+      "word": "have",
+      "start_ms": 168228,
+      "end_ms": 168368,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "cooler",
+      "start_ms": 168508,
+      "end_ms": 168828,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0773
+    },
+    {
+      "word": "temperatures",
+      "start_ms": 168908,
+      "end_ms": 169529,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0345
+    },
+    {
+      "word": "because",
+      "start_ms": 170030,
+      "end_ms": 170290,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0016
+    },
+    {
+      "word": "the",
+      "start_ms": 170330,
+      "end_ms": 170430,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0122
+    },
+    {
+      "word": "air",
+      "start_ms": 170610,
+      "end_ms": 170750,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0497
+    },
+    {
+      "word": "is",
+      "start_ms": 170830,
+      "end_ms": 170890,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0004
+    },
+    {
+      "word": "thinner",
+      "start_ms": 170991,
+      "end_ms": 171331,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0289
+    },
+    {
+      "word": "and",
+      "start_ms": 171731,
+      "end_ms": 171811,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0395
+    },
+    {
+      "word": "cannot",
+      "start_ms": 171892,
+      "end_ms": 172212,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "hold",
+      "start_ms": 172312,
+      "end_ms": 172532,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0105
+    },
+    {
+      "word": "much",
+      "start_ms": 172672,
+      "end_ms": 172853,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "heat.",
+      "start_ms": 172953,
+      "end_ms": 173153,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0352
+    },
+    {
+      "word": "For",
+      "start_ms": 174094,
+      "end_ms": 174194,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "example,",
+      "start_ms": 174294,
+      "end_ms": 174735,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0331
+    },
+    {
+      "word": "mountains",
+      "start_ms": 175355,
+      "end_ms": 175896,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0013
+    },
+    {
+      "word": "are",
+      "start_ms": 176076,
+      "end_ms": 176156,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "colder",
+      "start_ms": 176256,
+      "end_ms": 176617,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0004
+    },
+    {
+      "word": "than",
+      "start_ms": 176677,
+      "end_ms": 176797,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "plains",
+      "start_ms": 176937,
+      "end_ms": 177337,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0019
+    },
+    {
+      "word": "at",
+      "start_ms": 177578,
+      "end_ms": 177638,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0005
+    },
+    {
+      "word": "the",
+      "start_ms": 177698,
+      "end_ms": 177798,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.008
+    },
+    {
+      "word": "same",
+      "start_ms": 177878,
+      "end_ms": 178138,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1425
+    },
+    {
+      "word": "latitude.",
+      "start_ms": 178198,
+      "end_ms": 178799,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -2.7825
+    }
+  ],
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

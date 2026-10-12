@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "entries": [
+    {
+      "platform": "local-mp4",
+      "status": "exported",
+      "visibility": "private",
+      "export_path": "D:\\InkSpectrum\\OpenMontage\\final-videos\\Class-5-Social\\Class-5-Social-Chapter-03-Worlds-Weather-and-Climate.mp4",
+      "timestamp": "2026-10-07T07:34:03.560237+00:00",
+      "metadata_used": {
+        "title": "Class 5 Social - Chapter 3 - Worlds Weather and Climate",
+        "description": "Verified textbook video covering the opening through Word Bank; assessments excluded."
+      }
+    }
+  ],
+  "metadata": {
+    "sha256": "d0976e875060cd69f00d211b8fdad18379594b25efb12bd12afff1a2f2669cc6",
+    "bytes": 379083839,
+    "encoded_qa": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\encoded-qa-v3\\encoded-qa-report.json",
+    "encoded_comparison": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\encoded-comparison-v3\\encoded-comparison-report.json",
+    "semantic_coverage": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\encoded-semantic-coverage-v2\\semantic-coverage-report.json",
+    "one_verified_final_for_chapter": true
+  }
+}

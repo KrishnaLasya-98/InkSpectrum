@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188617460",
+  "request_fingerprint": "da0ac7701047df6c0d531d05ba4bb6399a8f70d11786f536ac34e7f11bf602bf",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-01\\mountain-ascending.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791283042.7257383,
+  "last_poll_at_unix": 1791283436.8550272,
+  "completed_at_unix": 1791283438.4374783
+}

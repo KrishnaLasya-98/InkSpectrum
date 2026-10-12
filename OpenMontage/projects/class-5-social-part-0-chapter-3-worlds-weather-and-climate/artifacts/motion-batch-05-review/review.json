@@ -1,0 +1,345 @@
+{
+  "version": "1.0",
+  "batch": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05.json",
+  "shots": [
+    {
+      "shot_id": "lut-heat-shimmer",
+      "section_id": "s05-hot-desert-fact",
+      "prompt": "An uninhabited rocky salt desert under an intense high sun, visible heat shimmer ripples above dark stones while fine dust moves gently across the ground. Polished child-friendly 3D animated film, continuous natural motion, slow cinematic push forward, no people, captions, letters, numbers, logos, maps, watermarks, loops or frozen frames.",
+      "source_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\lut-heat-shimmer.mp4",
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.062,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "sample_times_seconds": [
+        0.15,
+        0.83,
+        1.511,
+        2.191,
+        2.871,
+        3.551,
+        4.232,
+        4.912
+      ],
+      "frame_paths": [
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\lut-heat-shimmer-00-0.150s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\lut-heat-shimmer-01-0.830s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\lut-heat-shimmer-02-1.511s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\lut-heat-shimmer-03-2.191s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\lut-heat-shimmer-04-2.871s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\lut-heat-shimmer-05-3.551s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\lut-heat-shimmer-06-4.232s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\lut-heat-shimmer-07-4.912s.jpg"
+      ],
+      "semantic_status": "accepted",
+      "review_notes": "Clean rocky hot-desert context with visible airborne heat/dust motion.",
+      "contact_sheet": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\lut-heat-shimmer-contact-sheet.jpg"
+    },
+    {
+      "shot_id": "lut-scorched-ridges",
+      "section_id": "s05-hot-desert-fact",
+      "prompt": "Wide scorched desert ridges and weathered rock formations glowing beneath fierce midday sunlight, tiny dust trails cross the valley and the air visibly wavers with heat. Polished child-friendly 3D animated film, continuous environmental motion, gentle orbiting camera, no people, captions, letters, numbers, logos, maps, watermarks, loops or frozen frames.",
+      "source_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\lut-scorched-ridges.mp4",
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.062,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "sample_times_seconds": [
+        0.15,
+        0.83,
+        1.511,
+        2.191,
+        2.871,
+        3.551,
+        4.232,
+        4.912
+      ],
+      "frame_paths": [
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\lut-scorched-ridges-00-0.150s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\lut-scorched-ridges-01-0.830s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\lut-scorched-ridges-02-1.511s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\lut-scorched-ridges-03-2.191s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\lut-scorched-ridges-04-2.871s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\lut-scorched-ridges-05-3.551s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\lut-scorched-ridges-06-4.232s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\lut-scorched-ridges-07-4.912s.jpg"
+      ],
+      "semantic_status": "accepted",
+      "review_notes": "Clean scorched ridge context with strong heat lighting and smooth camera movement.",
+      "contact_sheet": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\lut-scorched-ridges-contact-sheet.jpg"
+    },
+    {
+      "shot_id": "climate-factors-landscape",
+      "section_id": "s07-factors",
+      "prompt": "A broad educational landscape showing ocean coast, green plain, high mountain and distant dry land in one coherent world, with clouds drifting and wind moving vegetation to suggest several influences on climate. Polished child-friendly 3D animation, smooth aerial camera travel, no text, labels, arrows, people, logos, watermarks, loops or frozen frames.",
+      "source_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\climate-factors-landscape.mp4",
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.062,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "sample_times_seconds": [
+        0.15,
+        0.83,
+        1.511,
+        2.191,
+        2.871,
+        3.551,
+        4.232,
+        4.912
+      ],
+      "frame_paths": [
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\climate-factors-landscape-00-0.150s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\climate-factors-landscape-01-0.830s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\climate-factors-landscape-02-1.511s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\climate-factors-landscape-03-2.191s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\climate-factors-landscape-04-2.871s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\climate-factors-landscape-05-3.551s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\climate-factors-landscape-06-4.232s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\climate-factors-landscape-07-4.912s.jpg"
+      ],
+      "semantic_status": "accepted",
+      "review_notes": "Accurate varied coast, plain, and mountain context; clean continuous aerial motion.",
+      "contact_sheet": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\climate-factors-landscape-contact-sheet.jpg"
+    },
+    {
+      "shot_id": "equator-strong-sunlight",
+      "section_id": "s08-latitude",
+      "prompt": "A warm tropical landscape near the equator under strong overhead sunlight, lush plants sway gently and short soft shadows move as clouds pass, conveying year-round direct warmth without a diagram. Polished child-friendly 3D animated film, slow lateral camera, no text, labels, globes, maps, arrows, logos, watermarks, loops or frozen frames.",
+      "source_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\equator-strong-sunlight.mp4",
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.062,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "sample_times_seconds": [
+        0.15,
+        0.83,
+        1.511,
+        2.191,
+        2.871,
+        3.551,
+        4.232,
+        4.912
+      ],
+      "frame_paths": [
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\equator-strong-sunlight-00-0.150s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\equator-strong-sunlight-01-0.830s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\equator-strong-sunlight-02-1.511s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\equator-strong-sunlight-03-2.191s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\equator-strong-sunlight-04-2.871s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\equator-strong-sunlight-05-3.551s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\equator-strong-sunlight-06-4.232s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\equator-strong-sunlight-07-4.912s.jpg"
+      ],
+      "semantic_status": "accepted",
+      "review_notes": "Clear warm tropical sunlight context with clean vegetation and continuous motion.",
+      "contact_sheet": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\equator-strong-sunlight-contact-sheet.jpg"
+    },
+    {
+      "shot_id": "polar-low-sunlight",
+      "section_id": "s08-latitude",
+      "prompt": "A cold polar landscape under a low angled sun near the horizon, long shadows stretch across snow while pale clouds and fine snow particles drift slowly, conveying weaker spread-out sunlight without a diagram. Polished child-friendly 3D animation, gentle camera glide, no text, labels, globes, maps, arrows, logos, watermarks, loops or frozen frames.",
+      "source_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\polar-low-sunlight.mp4",
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.062,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "sample_times_seconds": [
+        0.15,
+        0.83,
+        1.511,
+        2.191,
+        2.871,
+        3.551,
+        4.232,
+        4.912
+      ],
+      "frame_paths": [
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\polar-low-sunlight-00-0.150s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\polar-low-sunlight-01-0.830s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\polar-low-sunlight-02-1.511s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\polar-low-sunlight-03-2.191s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\polar-low-sunlight-04-2.871s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\polar-low-sunlight-05-3.551s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\polar-low-sunlight-06-4.232s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\polar-low-sunlight-07-4.912s.jpg"
+      ],
+      "semantic_status": "accepted",
+      "review_notes": "Clear low-angle polar sunlight, long shadows, and continuous snow motion.",
+      "contact_sheet": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\polar-low-sunlight-contact-sheet.jpg"
+    },
+    {
+      "shot_id": "climate-types-montage",
+      "section_id": "s15-climate-types",
+      "prompt": "A seamless camera journey transitions through a rainy tropical forest, a bright dry desert, and a snowy tundra landscape, each environment clearly distinct and naturally animated. Polished child-friendly 3D film, smooth continuous forward motion, no text, labels, split screen, people, logos, watermarks, loops or frozen frames.",
+      "source_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\climate-types-montage.mp4",
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.062,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "sample_times_seconds": [
+        0.15,
+        0.83,
+        1.511,
+        2.191,
+        2.871,
+        3.551,
+        4.232,
+        4.912
+      ],
+      "frame_paths": [
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\climate-types-montage-00-0.150s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\climate-types-montage-01-0.830s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\climate-types-montage-02-1.511s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\climate-types-montage-03-2.191s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\climate-types-montage-04-2.871s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\climate-types-montage-05-3.551s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\climate-types-montage-06-4.232s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\climate-types-montage-07-4.912s.jpg"
+      ],
+      "semantic_status": "rejected",
+      "review_notes": "Persistent three-way split-screen contradicts the requested seamless journey and collection presentation.",
+      "contact_sheet": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\climate-types-montage-contact-sheet.jpg"
+    },
+    {
+      "shot_id": "earth-equator-to-poles",
+      "section_id": "s21-zones",
+      "prompt": "A stylized accurate spherical Earth turns slowly as the camera travels visually from the warm equatorial region toward a snowy polar region, using natural land, ocean and ice colors while moving clouds provide depth. Child-friendly 3D animation, no colored bands, borders, text, labels, arrows, logos, watermarks, loops or frozen frames.",
+      "source_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\earth-equator-to-poles.mp4",
+      "technical": {
+        "status": "pass",
+        "duration_seconds": 5.062,
+        "has_video": true,
+        "has_audio": false,
+        "black_events": [],
+        "freeze_durations": [],
+        "issues": []
+      },
+      "sample_times_seconds": [
+        0.15,
+        0.83,
+        1.511,
+        2.191,
+        2.871,
+        3.551,
+        4.232,
+        4.912
+      ],
+      "frame_paths": [
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\earth-equator-to-poles-00-0.150s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\earth-equator-to-poles-01-0.830s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\earth-equator-to-poles-02-1.511s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\earth-equator-to-poles-03-2.191s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\earth-equator-to-poles-04-2.871s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\earth-equator-to-poles-05-3.551s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\earth-equator-to-poles-06-4.232s.jpg",
+        "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\earth-equator-to-poles-07-4.912s.jpg"
+      ],
+      "semantic_status": "accepted",
+      "review_notes": "Useful unlabeled globe context for the zones overview; the exact textbook zone diagram remains authoritative.",
+      "contact_sheet": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\earth-equator-to-poles-contact-sheet.jpg"
+    }
+  ],
+  "technical_passed": 7,
+  "technical_failed": 0,
+  "semantic_status": "partial_review_complete",
+  "semantic_accepted": 6,
+  "semantic_rejected": 1,
+  "contact_sheets": [
+    "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\lut-heat-shimmer-contact-sheet.jpg",
+    "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\lut-scorched-ridges-contact-sheet.jpg",
+    "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\climate-factors-landscape-contact-sheet.jpg",
+    "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\equator-strong-sunlight-contact-sheet.jpg",
+    "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\polar-low-sunlight-contact-sheet.jpg",
+    "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\climate-types-montage-contact-sheet.jpg",
+    "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\motion-batch-05-review\\earth-equator-to-poles-contact-sheet.jpg"
+  ],
+  "unavailable": [
+    {
+      "shot_id": "climate-factors-globe",
+      "section_id": "s07-factors",
+      "provider_status": "not_downloaded",
+      "request_id": null,
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\climate-factors-globe.mp4"
+    },
+    {
+      "shot_id": "monsoon-wind-from-sea",
+      "section_id": "s11-wind",
+      "provider_status": "not_downloaded",
+      "request_id": null,
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\monsoon-wind-from-sea.mp4"
+    },
+    {
+      "shot_id": "dry-wind-from-desert",
+      "section_id": "s11-wind",
+      "provider_status": "not_downloaded",
+      "request_id": null,
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\dry-wind-from-desert.mp4"
+    },
+    {
+      "shot_id": "torrid-tropical-sun",
+      "section_id": "s22-torrid",
+      "provider_status": "not_downloaded",
+      "request_id": null,
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\torrid-tropical-sun.mp4"
+    },
+    {
+      "shot_id": "torrid-warm-river-valley",
+      "section_id": "s22-torrid",
+      "provider_status": "not_downloaded",
+      "request_id": null,
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\torrid-warm-river-valley.mp4"
+    },
+    {
+      "shot_id": "tundra-reindeer-context",
+      "section_id": "s19-tundra",
+      "provider_status": "not_downloaded",
+      "request_id": null,
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\tundra-reindeer-context.mp4"
+    },
+    {
+      "shot_id": "antarctica-dry-windy-ice",
+      "section_id": "s20-antarctica-fact",
+      "provider_status": "not_downloaded",
+      "request_id": null,
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\antarctica-dry-windy-ice.mp4"
+    },
+    {
+      "shot_id": "frigid-frozen-coast",
+      "section_id": "s25-frigid",
+      "provider_status": "not_downloaded",
+      "request_id": null,
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-05\\frigid-frozen-coast.mp4"
+    }
+  ],
+  "batch_complete": false
+}

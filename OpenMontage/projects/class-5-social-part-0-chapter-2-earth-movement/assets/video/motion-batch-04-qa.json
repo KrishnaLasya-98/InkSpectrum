@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "status": "accept_limited",
+  "shot_id": "earth-opening-natural-i2v-04",
+  "technical": "Recovered playable silent H.264 video, 832x464, 16 fps, 5.0625 seconds. No black or frozen interval detected with 0.5-second threshold.",
+  "visual_evidence": "qa-previews/earth-opening-natural-i2v-04-contact.jpg",
+  "semantic_review": "One consistent 3D Earth against star field and warm sunlight, gently moving, with no generated letters or other planets across one-second sampled frames. Clean negative space at left for a separately authored title panel.",
+  "use_policy": "Use once for the opening only. The measured title section is 8.117 seconds, so solve the timing without looping or freezing; review final retiming and title overlay at 1920x1080 before production approval.",
+  "production_approval": false
+}

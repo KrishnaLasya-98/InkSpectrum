@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188617428",
+  "request_fingerprint": "14b334daf7aa12ecc9a0b63afb262375d439825bfacfd551dee1bf71a65e522f",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-01\\window-sun.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791283007.9385636,
+  "last_poll_at_unix": 1791283132.2103367,
+  "completed_at_unix": 1791283133.97853
+}

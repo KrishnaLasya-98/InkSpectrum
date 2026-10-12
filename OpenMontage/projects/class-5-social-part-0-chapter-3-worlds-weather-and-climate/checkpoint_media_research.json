@@ -1,0 +1,352 @@
+{
+  "version": "1.0",
+  "project_id": "class-5-social-part-0-chapter-3-worlds-weather-and-climate",
+  "pipeline_type": "educational-video",
+  "stage": "media_research",
+  "status": "completed",
+  "timestamp": "2026-10-06T10:35:15.286644+00:00",
+  "checkpoint_policy": "auto_noncreative",
+  "human_approval_required": false,
+  "human_approved": false,
+  "artifacts": {
+    "media_research_plan": {
+      "version": "1.0",
+      "subject": "social-studies",
+      "subject_family": "social_studies",
+      "scenes": [
+        {
+          "scene_id": "s01-title",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s02-objectives",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s03-startup",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s04-weather",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s05-hot-desert-fact",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s06-climate",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s07-factors",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s08-latitude",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s09-altitude",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s10-sea-land-breeze",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s11-wind",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s12-humidity",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s13-currents",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s14-rainforest-fact",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s15-climate-types",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s16-monsoon",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s17-equatorial",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s18-desert",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s19-tundra",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s20-antarctica-fact",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s21-zones",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s22-torrid",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s23-temperate",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s24-cloud-fact",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s25-frigid",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s26-recall",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s27-remember",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        },
+        {
+          "scene_id": "s28-wordbank",
+          "subject_family": "social_studies",
+          "recommended_treatment": "historical_or_geographic_evidence",
+          "search_required": false,
+          "queries": [],
+          "preferred_sources": [],
+          "fallback_strategy": "map_timeline_or_diagram",
+          "rationale": "Places, people, maps, and historical claims need attributable evidence rather than synthetic documentary footage. Stock search is waived for the approved fresh-3D/source-figure production mode.",
+          "selection_status": "not_required"
+        }
+      ],
+      "search_scene_count": 0,
+      "selection_policy": {
+        "stock_results_are_candidates_only": true,
+        "require_visual_review": true,
+        "require_source_and_license_provenance": true,
+        "reject_watermarks_and_inaccurate_representations": true,
+        "fresh_3d_and_source_figures_only": true
+      }
+    }
+  },
+  "style_playbook": "clean-professional",
+  "cost_snapshot": {
+    "total_spent_usd": 0.0,
+    "total_reserved_usd": 0.0,
+    "budget_remaining_usd": 5.0
+  },
+  "metadata": {
+    "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\media_research_plan.json",
+    "stock_searches": 0,
+    "selection": "fresh_3d_plus_source_figures",
+    "stage_started_at_unix": 1791282914.8683393,
+    "stage_duration_seconds": 0.233,
+    "estimated_duration_seconds": 90.0,
+    "eta_accuracy_ratio": 0.003,
+    "artifact_sha256": "e537b74922023441d4c8aeda03a6573cc6086ce237e914002934ac5872c9d3bb"
+  }
+}

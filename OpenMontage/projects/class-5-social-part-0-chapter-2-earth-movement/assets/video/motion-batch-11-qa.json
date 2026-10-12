@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "review_method": "Recovered all three durable Wan jobs without duplicate submissions; each five-second MP4 passed ffprobe and was reviewed in five one-second contact frames against its specific season cue.",
+  "shots": [
+    {
+      "shot_id": "solstice-bright-summer-11",
+      "status": "reject_as_summer_specific",
+      "evidence": "motion-batch-11/solstice-bright-summer-11-contact.jpg",
+      "observation": "The sunlit scene is attractive and moves, but the yellowing trees and grasses read as autumn rather than unmistakable summer.",
+      "use_policy": "Do not label this clip as the Northern Hemisphere summer solstice. It may be generic warm-day context only if the final edit needs it and does not contradict adjacent wording."
+    },
+    {
+      "shot_id": "solstice-calm-winter-11",
+      "status": "accept_context_only",
+      "evidence": "motion-batch-11/solstice-calm-winter-11-contact.jpg",
+      "observation": "A coherent snow-covered forest with continuous gentle snowfall clearly reads as winter; no embedded labels are visible.",
+      "use_policy": "Use once as a winter context cue beside the exact source figure; it does not prove solstice geometry or hemisphere."
+    },
+    {
+      "shot_id": "equinox-spring-meadow-11",
+      "status": "accept_context_only",
+      "evidence": "motion-batch-11/equinox-spring-meadow-11-contact.jpg",
+      "observation": "A coherent flowering meadow with moving butterflies clearly reads as spring; no embedded labels are visible.",
+      "use_policy": "Use once as a spring context cue beside the exact source figure; it does not prove equal day/night or a date."
+    }
+  ],
+  "production_approval": false
+}

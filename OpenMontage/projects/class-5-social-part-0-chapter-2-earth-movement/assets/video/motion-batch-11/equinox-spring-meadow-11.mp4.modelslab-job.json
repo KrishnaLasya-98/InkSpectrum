@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188346430",
+  "request_fingerprint": "57faa2ba47ead5e3f29a0bf5fd5f7b44d3d015d9cc3250f709ceb2087496519e",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-11\\equinox-spring-meadow-11.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1790915607.3871841,
+  "last_poll_at_unix": 1790915700.8836462,
+  "completed_at_unix": 1790915702.6875787
+}

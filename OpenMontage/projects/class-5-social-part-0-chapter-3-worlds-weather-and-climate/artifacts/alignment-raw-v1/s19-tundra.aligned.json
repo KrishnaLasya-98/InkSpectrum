@@ -1,0 +1,157 @@
+{
+  "section_id": "s19-tundra",
+  "text": "Tundra Climate. Found near the poles, such as in Greenland and Antarctica. It is extremely cold with little or no vegetation.",
+  "start_ms": 335600,
+  "end_ms": 346800,
+  "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\audio\\narration-elevenlabs-v1\\s19-tundra.wav",
+  "words": [
+    {
+      "word": "Tundra",
+      "start_ms": 335660,
+      "end_ms": 336041,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0576
+    },
+    {
+      "word": "Climate.",
+      "start_ms": 336141,
+      "end_ms": 336562,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0273
+    },
+    {
+      "word": "Found",
+      "start_ms": 337463,
+      "end_ms": 337764,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0415
+    },
+    {
+      "word": "near",
+      "start_ms": 337904,
+      "end_ms": 338044,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.001
+    },
+    {
+      "word": "the",
+      "start_ms": 338125,
+      "end_ms": 338185,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "poles,",
+      "start_ms": 338265,
+      "end_ms": 338665,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0697
+    },
+    {
+      "word": "such",
+      "start_ms": 339186,
+      "end_ms": 339387,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0143
+    },
+    {
+      "word": "as",
+      "start_ms": 339487,
+      "end_ms": 339527,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "in",
+      "start_ms": 339647,
+      "end_ms": 339687,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "Greenland",
+      "start_ms": 339787,
+      "end_ms": 340268,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0028
+    },
+    {
+      "word": "and",
+      "start_ms": 340589,
+      "end_ms": 340689,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.001
+    },
+    {
+      "word": "Antarctica.",
+      "start_ms": 340809,
+      "end_ms": 341450,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.2836
+    },
+    {
+      "word": "It",
+      "start_ms": 342332,
+      "end_ms": 342392,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "is",
+      "start_ms": 342472,
+      "end_ms": 342532,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0699
+    },
+    {
+      "word": "extremely",
+      "start_ms": 342613,
+      "end_ms": 343314,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0952
+    },
+    {
+      "word": "cold",
+      "start_ms": 343414,
+      "end_ms": 343735,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "with",
+      "start_ms": 344115,
+      "end_ms": 344235,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0304
+    },
+    {
+      "word": "little",
+      "start_ms": 344356,
+      "end_ms": 344636,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0609
+    },
+    {
+      "word": "or",
+      "start_ms": 344897,
+      "end_ms": 344957,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.086
+    },
+    {
+      "word": "no",
+      "start_ms": 345117,
+      "end_ms": 345257,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "vegetation.",
+      "start_ms": 345377,
+      "end_ms": 345979,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0788
+    }
+  ],
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

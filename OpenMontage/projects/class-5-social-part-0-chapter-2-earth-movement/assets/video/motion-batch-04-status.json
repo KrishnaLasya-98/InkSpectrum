@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "batch": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-04.json",
+  "shots": [
+    {
+      "shot_id": "earth-opening-natural-i2v-04",
+      "section_id": "s01-title",
+      "status": "submitted",
+      "request_id": "188301813",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-04\\earth-opening-natural-i2v-04.mp4",
+      "error": null
+    }
+  ],
+  "complete": false
+}

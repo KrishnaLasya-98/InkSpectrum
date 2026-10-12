@@ -1,0 +1,346 @@
+{
+  "section_id": "s04-weather",
+  "text": "Weather. Weather is the condition of the atmosphere at a particular place and time. It includes temperature, wind, rainfall, humidity, and cloud cover. Weather can change from hour to hour or day to day. For example, one morning, it may be sunny and by afternoon it could rain.",
+  "start_ms": 57440,
+  "end_ms": 80560,
+  "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\audio\\narration-elevenlabs-v1\\s04-weather.wav",
+  "words": [
+    {
+      "word": "Weather.",
+      "start_ms": 57560,
+      "end_ms": 57880,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0681
+    },
+    {
+      "word": "Weather",
+      "start_ms": 58901,
+      "end_ms": 59242,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.01
+    },
+    {
+      "word": "is",
+      "start_ms": 59482,
+      "end_ms": 59522,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0009
+    },
+    {
+      "word": "the",
+      "start_ms": 59602,
+      "end_ms": 59662,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "condition",
+      "start_ms": 59742,
+      "end_ms": 60202,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0009
+    },
+    {
+      "word": "of",
+      "start_ms": 60302,
+      "end_ms": 60343,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "the",
+      "start_ms": 60423,
+      "end_ms": 60523,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0944
+    },
+    {
+      "word": "atmosphere",
+      "start_ms": 60683,
+      "end_ms": 61283,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0338
+    },
+    {
+      "word": "at",
+      "start_ms": 61544,
+      "end_ms": 61604,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0056
+    },
+    {
+      "word": "a",
+      "start_ms": 61684,
+      "end_ms": 61704,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0036
+    },
+    {
+      "word": "particular",
+      "start_ms": 61784,
+      "end_ms": 62284,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0044
+    },
+    {
+      "word": "place",
+      "start_ms": 62384,
+      "end_ms": 62685,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0334
+    },
+    {
+      "word": "and",
+      "start_ms": 62885,
+      "end_ms": 62985,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0411
+    },
+    {
+      "word": "time.",
+      "start_ms": 63065,
+      "end_ms": 63345,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "It",
+      "start_ms": 64246,
+      "end_ms": 64306,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "includes",
+      "start_ms": 64386,
+      "end_ms": 64846,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0121
+    },
+    {
+      "word": "temperature,",
+      "start_ms": 64987,
+      "end_ms": 65527,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0273
+    },
+    {
+      "word": "wind,",
+      "start_ms": 66027,
+      "end_ms": 66308,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0236
+    },
+    {
+      "word": "rainfall,",
+      "start_ms": 66908,
+      "end_ms": 67509,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0154
+    },
+    {
+      "word": "humidity,",
+      "start_ms": 68009,
+      "end_ms": 68570,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "and",
+      "start_ms": 68950,
+      "end_ms": 69050,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0411
+    },
+    {
+      "word": "cloud",
+      "start_ms": 69130,
+      "end_ms": 69390,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "cover.",
+      "start_ms": 69490,
+      "end_ms": 69771,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0225
+    },
+    {
+      "word": "Weather",
+      "start_ms": 70631,
+      "end_ms": 70892,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0881
+    },
+    {
+      "word": "can",
+      "start_ms": 70972,
+      "end_ms": 71092,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0171
+    },
+    {
+      "word": "change",
+      "start_ms": 71212,
+      "end_ms": 71532,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0232
+    },
+    {
+      "word": "from",
+      "start_ms": 71632,
+      "end_ms": 71772,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0121
+    },
+    {
+      "word": "hour",
+      "start_ms": 71913,
+      "end_ms": 72193,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0557
+    },
+    {
+      "word": "to",
+      "start_ms": 72293,
+      "end_ms": 72373,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "hour",
+      "start_ms": 72433,
+      "end_ms": 72713,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0033
+    },
+    {
+      "word": "or",
+      "start_ms": 73074,
+      "end_ms": 73134,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0797
+    },
+    {
+      "word": "day",
+      "start_ms": 73214,
+      "end_ms": 73374,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0006
+    },
+    {
+      "word": "to",
+      "start_ms": 73454,
+      "end_ms": 73534,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "day.",
+      "start_ms": 73574,
+      "end_ms": 73754,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1205
+    },
+    {
+      "word": "For",
+      "start_ms": 74575,
+      "end_ms": 74675,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "example,",
+      "start_ms": 74775,
+      "end_ms": 75255,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0018
+    },
+    {
+      "word": "one",
+      "start_ms": 75936,
+      "end_ms": 76056,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1404
+    },
+    {
+      "word": "morning,",
+      "start_ms": 76116,
+      "end_ms": 76436,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0387
+    },
+    {
+      "word": "it",
+      "start_ms": 76717,
+      "end_ms": 76757,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "may",
+      "start_ms": 76837,
+      "end_ms": 76957,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0512
+    },
+    {
+      "word": "be",
+      "start_ms": 77017,
+      "end_ms": 77077,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "sunny",
+      "start_ms": 77177,
+      "end_ms": 77477,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "and",
+      "start_ms": 78018,
+      "end_ms": 78098,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "by",
+      "start_ms": 78158,
+      "end_ms": 78258,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "afternoon",
+      "start_ms": 78438,
+      "end_ms": 78879,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0531
+    },
+    {
+      "word": "it",
+      "start_ms": 79199,
+      "end_ms": 79259,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1039
+    },
+    {
+      "word": "could",
+      "start_ms": 79299,
+      "end_ms": 79459,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0019
+    },
+    {
+      "word": "rain.",
+      "start_ms": 79519,
+      "end_ms": 79839,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -3.8476
+    }
+  ],
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

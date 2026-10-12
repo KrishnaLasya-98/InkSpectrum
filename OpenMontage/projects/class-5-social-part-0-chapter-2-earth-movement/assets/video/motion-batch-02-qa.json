@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "status": "revise",
+  "technical": "Both Wan image-to-video files are playable 5.062-second silent clips with no detected black or frozen span.",
+  "visual_review": [
+    {"shot_id": "earth-opening-clean-i2v-02", "status": "reject", "reason": "The model generated large 'DARK LEFT' lettering despite the no-text constraint. Preserve for audit; do not use as clean final media."},
+    {"shot_id": "startup-plain-ball-i2v-02", "status": "accept_limited", "reason": "One-second interval contact sheet shows a child touching one plain ball, then its transformation into a globe. No embedded text; use once for the Start-Up Activity. The ball's spin is subtle, so pair it with a precise rotation visual at the corresponding spoken cue."}
+  ],
+  "next_action": "Keep source figures and exact scientific geometry authored. For title, use a truly clean deterministic 3D Earth background; do not place a generated-text frame behind the user-facing title.",
+  "temporal_review_evidence": ["qa-previews/startup-plain-ball-contact.jpg"]
+}

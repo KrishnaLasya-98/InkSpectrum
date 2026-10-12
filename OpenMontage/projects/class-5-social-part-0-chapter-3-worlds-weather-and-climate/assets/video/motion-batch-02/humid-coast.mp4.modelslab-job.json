@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188618074",
+  "request_fingerprint": "dc3db49338453f16bb5a34007f941e08cb64f9423d8c405a43a76acf1dfaf524",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\motion-batch-02\\humid-coast.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1791283798.898485,
+  "last_poll_at_unix": 1791284113.9406009,
+  "completed_at_unix": 1791284115.7370803
+}

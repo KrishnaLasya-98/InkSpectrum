@@ -1,0 +1,1047 @@
+{
+  "clips": [
+    {
+      "section_id": "s01-title",
+      "success": true,
+      "render_mode": "hyperframes",
+      "visual_segments": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\weather-opening-643eb51b5e5a.mp4",
+          "offset_seconds": 0,
+          "duration_seconds": 5.022,
+          "transition": "cut",
+          "cue": "opening landscape"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\long-weather-title-c083dd89f573.mp4",
+          "offset_seconds": 4.473,
+          "duration_seconds": 3.838,
+          "transition": "crossfade",
+          "cue": "related unique meadow shot; constant title UI; no repeated video"
+        }
+      ],
+      "source_figure_overlays": [],
+      "source_card_intervals": [
+        [
+          0,
+          8.311
+        ]
+      ]
+    },
+    {
+      "section_id": "s02-objectives",
+      "success": true,
+      "render_mode": "hyperframes",
+      "visual_segments": [],
+      "source_figure_overlays": [],
+      "source_card_intervals": [
+        [
+          0,
+          27.966
+        ]
+      ]
+    },
+    {
+      "section_id": "s03-startup",
+      "success": true,
+      "render_mode": "hyperframes",
+      "visual_segments": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\StartupWeather-45817ae8a87b.mp4",
+          "offset_seconds": 0,
+          "duration_seconds": 27.085,
+          "transition": "cut",
+          "cue": "full section explanatory motion"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\window-sun-deedf662fcae.mp4",
+          "offset_seconds": 2.657,
+          "duration_seconds": 4.984,
+          "transition": "crossfade",
+          "cue": "Look outside"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\window-cloud-6df395c6073c.mp4",
+          "offset_seconds": 7.641,
+          "duration_seconds": 1.541,
+          "transition": "crossfade",
+          "cue": "Have you ever noticed"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\window-rain-b2fb3527b011.mp4",
+          "offset_seconds": 9.182,
+          "duration_seconds": 4.884,
+          "transition": "crossfade",
+          "cue": "the weather changes"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\startup-cold-place-820e07f37207.mp4",
+          "offset_seconds": 14.066,
+          "duration_seconds": 5.022,
+          "transition": "crossfade",
+          "cue": "while others are cold"
+        }
+      ],
+      "source_figure_overlays": [],
+      "source_card_intervals": [
+        [
+          0,
+          27.085
+        ]
+      ],
+      "teaching_pages": [
+        {
+          "text": "Look outside the window! Is it sunny, cloudy, or rainy? Have you ever noticed how the weather changes throughout the day? Some places are always warm, while others are cold.",
+          "start_offset_seconds": 0.0,
+          "end_offset_seconds": 16.158
+        },
+        {
+          "text": "Why does this happen? In this chapter, we will explore the differences between weather and climate and understand the factors that influence them.",
+          "start_offset_seconds": 16.158,
+          "end_offset_seconds": 27.085
+        }
+      ]
+    },
+    {
+      "section_id": "s04-weather",
+      "success": true,
+      "render_mode": "hyperframes",
+      "visual_segments": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\WeatherChanges-a19552b0190b.mp4",
+          "offset_seconds": 0,
+          "duration_seconds": 25.038,
+          "transition": "cut",
+          "cue": "full section explanatory motion"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\weather-wind-be5be1029b32.mp4",
+          "offset_seconds": 7.895,
+          "duration_seconds": 4.704,
+          "transition": "crossfade",
+          "cue": "It includes"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\weather-cloud-cover-b17ceaa9e37c.mp4",
+          "offset_seconds": 12.599,
+          "duration_seconds": 1.681,
+          "transition": "crossfade",
+          "cue": "and cloud cover"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\weather-change-rain-to-sun-ae8dca3ef284.mp4",
+          "offset_seconds": 14.28,
+          "duration_seconds": 3.944,
+          "transition": "crossfade",
+          "cue": "Weather can change"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\weather-sunny-garden-9ae2a8a86896.mp4",
+          "offset_seconds": 18.224,
+          "duration_seconds": 3.583,
+          "transition": "crossfade",
+          "cue": "For example"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\weather-rain-8a163d2b4844.mp4",
+          "offset_seconds": 21.807,
+          "duration_seconds": 3.231,
+          "transition": "crossfade",
+          "cue": "by afternoon"
+        }
+      ],
+      "source_figure_overlays": [],
+      "source_card_intervals": [
+        [
+          0,
+          25.038
+        ]
+      ],
+      "teaching_pages": [
+        {
+          "text": "Weather is the condition of the atmosphere at a particular place and time. It includes temperature, wind, rainfall, humidity, and cloud cover.",
+          "start_offset_seconds": 0.0,
+          "end_offset_seconds": 14.33
+        },
+        {
+          "text": "Weather can change from hour to hour or day to day. For example, one morning, it may be sunny and by afternoon it could rain.",
+          "start_offset_seconds": 14.33,
+          "end_offset_seconds": 25.038
+        }
+      ]
+    },
+    {
+      "section_id": "s05-hot-desert-fact",
+      "success": true,
+      "render_mode": "hyperframes",
+      "visual_segments": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\HotDesert-6d78941e15d8.mp4",
+          "offset_seconds": 0,
+          "duration_seconds": 20.936,
+          "transition": "cut",
+          "cue": "full section explanatory motion"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\lut-rocky-heat-8ff963d4fea6.mp4",
+          "offset_seconds": 2.603,
+          "duration_seconds": 4.19,
+          "transition": "crossfade",
+          "cue": "The hottest"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\lut-heat-shimmer-fa751db34212.mp4",
+          "offset_seconds": 6.793,
+          "duration_seconds": 5.022,
+          "transition": "crossfade",
+          "cue": "where temperatures"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\lut-scorched-ridges-939cc5ee2d10.mp4",
+          "offset_seconds": 16.303,
+          "duration_seconds": 4.633,
+          "transition": "crossfade",
+          "cue": "Imagine how hot"
+        }
+      ],
+      "source_figure_overlays": [],
+      "source_card_intervals": [
+        [
+          0,
+          20.936
+        ]
+      ]
+    },
+    {
+      "section_id": "s06-climate",
+      "success": true,
+      "render_mode": "hyperframes",
+      "visual_segments": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\ClimateContrast-b9085db3b2e1.mp4",
+          "offset_seconds": 0,
+          "duration_seconds": 26.847,
+          "transition": "cut",
+          "cue": "full section explanatory motion"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\climate-long-term-seasons-409ce9a8b212.mp4",
+          "offset_seconds": 2.557,
+          "duration_seconds": 5.022,
+          "transition": "crossfade",
+          "cue": "Climate is the average"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\climate-wet-dry-contrast-0a6834af8bb8.mp4",
+          "offset_seconds": 10.425,
+          "duration_seconds": 5.022,
+          "transition": "crossfade",
+          "cue": "It tells us"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\sahara-dunes-a3b9a5a1a672.mp4",
+          "offset_seconds": 17.851,
+          "duration_seconds": 3.863,
+          "transition": "crossfade",
+          "cue": "the climate of the Sahara"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\amazon-rain-4bc05586d6c7.mp4",
+          "offset_seconds": 21.714,
+          "duration_seconds": 5.022,
+          "transition": "crossfade",
+          "cue": "the climate of the Amazon"
+        }
+      ],
+      "source_figure_overlays": [],
+      "source_card_intervals": [
+        [
+          0,
+          26.847
+        ]
+      ],
+      "teaching_pages": [
+        {
+          "text": "Climate is the average weather condition of a place over a long period, usually 30 years or more. It tells us whether a place is generally hot, cold, wet, or dry.",
+          "start_offset_seconds": 0.0,
+          "end_offset_seconds": 16.66
+        },
+        {
+          "text": "For example, the climate of the Sahara Desert is hot and dry, while the climate of the Amazon Rainforest is warm and rainy.",
+          "start_offset_seconds": 16.66,
+          "end_offset_seconds": 26.847
+        }
+      ]
+    },
+    {
+      "section_id": "s07-factors",
+      "success": true,
+      "render_mode": "hyperframes",
+      "visual_segments": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\FactorsPreview-ab661f21f944.mp4",
+          "offset_seconds": 0,
+          "duration_seconds": 11.374,
+          "transition": "cut",
+          "cue": "full section explanatory motion"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\climate-factors-landscape-a677652517a0.mp4",
+          "offset_seconds": 3.76,
+          "duration_seconds": 5.022,
+          "transition": "crossfade",
+          "cue": "Several factors"
+        }
+      ],
+      "source_figure_overlays": [],
+      "source_card_intervals": [
+        [
+          0,
+          11.374
+        ]
+      ]
+    },
+    {
+      "section_id": "s08-latitude",
+      "success": true,
+      "render_mode": "hyperframes",
+      "visual_segments": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\LatitudeClimate-b84db9df8529.mp4",
+          "offset_seconds": 0,
+          "duration_seconds": 29.97,
+          "transition": "cut",
+          "cue": "full section explanatory motion"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\equator-strong-sunlight-28fb44db0160.mp4",
+          "offset_seconds": 10.267,
+          "duration_seconds": 5.022,
+          "transition": "crossfade",
+          "cue": "Places near the equator"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\polar-low-sunlight-1bff745995bf.mp4",
+          "offset_seconds": 17.192,
+          "duration_seconds": 5.022,
+          "transition": "crossfade",
+          "cue": "As we move towards the poles"
+        }
+      ],
+      "source_figure_overlays": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\images\\world-map.png",
+          "offset_seconds": 4.935,
+          "duration_seconds": 5
+        }
+      ],
+      "source_card_intervals": [
+        [
+          0,
+          29.97
+        ]
+      ],
+      "teaching_pages": [
+        {
+          "text": "The Earth is divided into imaginary lines called latitudes. Places near the equator receive direct sunlight throughout the year, making them hot.",
+          "start_offset_seconds": 0.0,
+          "end_offset_seconds": 17.242
+        },
+        {
+          "text": "As we move towards the poles, sunlight spreads out, making these areas cooler. This is why tropical regions are warm, while polar regions are cold.",
+          "start_offset_seconds": 17.242,
+          "end_offset_seconds": 29.97
+        }
+      ]
+    },
+    {
+      "section_id": "s09-altitude",
+      "success": true,
+      "render_mode": "hyperframes",
+      "visual_segments": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\AltitudeClimate-2a32dde13d96.mp4",
+          "offset_seconds": 0,
+          "duration_seconds": 20.124,
+          "transition": "cut",
+          "cue": "full section explanatory motion"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\altitude-foothill-to-peak-a0b1d6875ca0.mp4",
+          "offset_seconds": 6.901,
+          "duration_seconds": 5.022,
+          "transition": "crossfade",
+          "cue": "Higher altitudes"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\mountain-ascending-d85bd5fbc1aa.mp4",
+          "offset_seconds": 13.869,
+          "duration_seconds": 5.022,
+          "transition": "crossfade",
+          "cue": "For example"
+        }
+      ],
+      "source_figure_overlays": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\images\\altitude-photo.png",
+          "offset_seconds": 2.744,
+          "duration_seconds": 5
+        }
+      ],
+      "source_card_intervals": [
+        [
+          0,
+          20.124
+        ]
+      ]
+    },
+    {
+      "section_id": "s10-sea-land-breeze",
+      "success": true,
+      "render_mode": "hyperframes",
+      "visual_segments": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\BreezeClimate-cc04236183a7.mp4",
+          "offset_seconds": 0,
+          "duration_seconds": 37.007,
+          "transition": "cut",
+          "cue": "full section explanatory motion"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\coast-day-b032b4c89cc8.mp4",
+          "offset_seconds": 5.854,
+          "duration_seconds": 5.022,
+          "transition": "crossfade",
+          "cue": "Oceans and seas"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\coast-day-thermal-lag-b44d04f276ff.mp4",
+          "offset_seconds": 15.005,
+          "duration_seconds": 5.022,
+          "transition": "crossfade",
+          "cue": "During the day"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\coast-night-a8fc83d4c4bc.mp4",
+          "offset_seconds": 22.749,
+          "duration_seconds": 0.981,
+          "transition": "crossfade",
+          "cue": "At night"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\coast-night-thermal-lag-4f412cd4c48c.mp4",
+          "offset_seconds": 23.73,
+          "duration_seconds": 5.022,
+          "transition": "crossfade",
+          "cue": "the land cools down quickly"
+        }
+      ],
+      "source_figure_overlays": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\images\\sea-land-breeze.png",
+          "offset_seconds": 5.904,
+          "duration_seconds": 5
+        }
+      ],
+      "source_card_intervals": [
+        [
+          0,
+          37.007
+        ]
+      ],
+      "teaching_pages": [
+        {
+          "text": "Oceans and seas influence the climate of coastal areas. Water heats up and cools down more slowly than land.",
+          "start_offset_seconds": 0.0,
+          "end_offset_seconds": 15.055
+        },
+        {
+          "text": "During the day, land heats up faster than water, causing a sea breeze to blow from the sea to the land.",
+          "start_offset_seconds": 15.055,
+          "end_offset_seconds": 22.799
+        },
+        {
+          "text": "At night, the land cools down quickly, and a land breeze blows from land to the sea. This keeps coastal areas cooler in summer and warmer in winter compared to inland regions.",
+          "start_offset_seconds": 22.799,
+          "end_offset_seconds": 37.007
+        }
+      ]
+    },
+    {
+      "section_id": "s11-wind",
+      "success": true,
+      "render_mode": "hyperframes",
+      "visual_segments": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\WindClimate-68301180b804.mp4",
+          "offset_seconds": 0,
+          "duration_seconds": 20.1,
+          "transition": "cut",
+          "cue": "full section explanatory motion"
+        }
+      ],
+      "source_figure_overlays": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\images\\rain-shadow.png",
+          "offset_seconds": 3.414,
+          "duration_seconds": 5
+        }
+      ],
+      "source_card_intervals": [
+        [
+          0,
+          20.1
+        ]
+      ]
+    },
+    {
+      "section_id": "s12-humidity",
+      "success": true,
+      "render_mode": "hyperframes",
+      "visual_segments": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\HumidityClimate-c49983f9ac8a.mp4",
+          "offset_seconds": 0,
+          "duration_seconds": 20.388,
+          "transition": "cut",
+          "cue": "full section explanatory motion"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\humidity-lush-coast-1dec1a2d1eb7.mp4",
+          "offset_seconds": 7.045,
+          "duration_seconds": 4.045,
+          "transition": "crossfade",
+          "cue": "Places with high humidity"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\dry-desert-air-dd2bf0af1df2.mp4",
+          "offset_seconds": 11.09,
+          "duration_seconds": 3.063,
+          "transition": "crossfade",
+          "cue": "while dry areas"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\humid-coast-2e86bd166b34.mp4",
+          "offset_seconds": 14.153,
+          "duration_seconds": 5.022,
+          "transition": "crossfade",
+          "cue": "For example"
+        }
+      ],
+      "source_figure_overlays": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\images\\humidity-photo.png",
+          "offset_seconds": 2.755,
+          "duration_seconds": 5
+        }
+      ],
+      "source_card_intervals": [
+        [
+          0,
+          20.388
+        ]
+      ]
+    },
+    {
+      "section_id": "s13-currents",
+      "success": true,
+      "render_mode": "hyperframes",
+      "visual_segments": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\CurrentsClimate-400d17d22eb6.mp4",
+          "offset_seconds": 0,
+          "duration_seconds": 22.949,
+          "transition": "cut",
+          "cue": "full section explanatory motion"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\sea-current-waves-b1c9ad70ede7.mp4",
+          "offset_seconds": 3.034,
+          "duration_seconds": 4.812,
+          "transition": "crossfade",
+          "cue": "Ocean currents are"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\warm-current-coast-8a0cf1e26fe4.mp4",
+          "offset_seconds": 7.846,
+          "duration_seconds": 3.724,
+          "transition": "crossfade",
+          "cue": "Warm ocean currents"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\cold-current-coast-e9418ccf40f2.mp4",
+          "offset_seconds": 11.57,
+          "duration_seconds": 5.022,
+          "transition": "crossfade",
+          "cue": "while cold currents"
+        }
+      ],
+      "source_figure_overlays": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\images\\ocean-wave.png",
+          "offset_seconds": 3.085,
+          "duration_seconds": 5
+        }
+      ],
+      "source_card_intervals": [
+        [
+          0,
+          22.949
+        ]
+      ],
+      "teaching_pages": [
+        {
+          "text": "Ocean currents are large movements of water in the oceans. Warm ocean currents make coastal areas warmer, while cold currents bring cool temperatures.",
+          "start_offset_seconds": 0.0,
+          "end_offset_seconds": 15.083
+        },
+        {
+          "text": "For example, the Gulf Stream warms Europe, while the cold Labrador Current cools Canada.",
+          "start_offset_seconds": 15.083,
+          "end_offset_seconds": 22.949
+        }
+      ]
+    },
+    {
+      "section_id": "s14-rainforest-fact",
+      "success": true,
+      "render_mode": "hyperframes",
+      "visual_segments": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\RainforestClimate-236103b467c4.mp4",
+          "offset_seconds": 0,
+          "duration_seconds": 17.878,
+          "transition": "cut",
+          "cue": "full section explanatory motion"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\rainforest-canopy-912789c3baa5.mp4",
+          "offset_seconds": 3.16,
+          "duration_seconds": 5.022,
+          "transition": "crossfade",
+          "cue": "Rainforests receive"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\rainforest-food-1e4dbd786f67.mp4",
+          "offset_seconds": 9.7,
+          "duration_seconds": 5.022,
+          "transition": "crossfade",
+          "cue": "because they provide"
+        }
+      ],
+      "source_figure_overlays": [],
+      "source_card_intervals": [
+        [
+          0,
+          17.878
+        ]
+      ]
+    },
+    {
+      "section_id": "s15-climate-types",
+      "success": true,
+      "render_mode": "hyperframes",
+      "visual_segments": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\ClimateTypesPreview-22320416225c.mp4",
+          "offset_seconds": 0,
+          "duration_seconds": 10.343,
+          "transition": "cut",
+          "cue": "full section explanatory motion"
+        }
+      ],
+      "source_figure_overlays": [],
+      "source_card_intervals": [
+        [
+          0,
+          10.343
+        ]
+      ]
+    },
+    {
+      "section_id": "s16-monsoon",
+      "success": true,
+      "render_mode": "hyperframes",
+      "visual_segments": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\MonsoonClimate-73363d1ac01a.mp4",
+          "offset_seconds": 0,
+          "duration_seconds": 16.082,
+          "transition": "cut",
+          "cue": "full section explanatory motion"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\monsoon-rain-ba612cb7066e.mp4",
+          "offset_seconds": 9.845,
+          "duration_seconds": 1.703,
+          "transition": "crossfade",
+          "cue": "It has hot summers"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\monsoon-rice-fields-5b36802a29f6.mp4",
+          "offset_seconds": 11.548,
+          "duration_seconds": 4.534,
+          "transition": "crossfade",
+          "cue": "receives heavy rainfall"
+        }
+      ],
+      "source_figure_overlays": [],
+      "source_card_intervals": [
+        [
+          0,
+          16.082
+        ]
+      ]
+    },
+    {
+      "section_id": "s17-equatorial",
+      "success": true,
+      "render_mode": "hyperframes",
+      "visual_segments": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\EquatorialClimate-e347b76101a5.mp4",
+          "offset_seconds": 0,
+          "duration_seconds": 14.945,
+          "transition": "cut",
+          "cue": "full section explanatory motion"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\equatorial-rainforest-river-bed2dcbcf388.mp4",
+          "offset_seconds": 3.351,
+          "duration_seconds": 5.022,
+          "transition": "crossfade",
+          "cue": "Found near the equator"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\equatorial-rain-c3f827b54dd2.mp4",
+          "offset_seconds": 9.57,
+          "duration_seconds": 5.022,
+          "transition": "crossfade",
+          "cue": "It is hot"
+        }
+      ],
+      "source_figure_overlays": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\images\\rainforest-photo.png",
+          "offset_seconds": 3.401,
+          "duration_seconds": 5
+        }
+      ],
+      "source_card_intervals": [
+        [
+          0,
+          14.945
+        ]
+      ]
+    },
+    {
+      "section_id": "s18-desert",
+      "success": true,
+      "render_mode": "hyperframes",
+      "visual_segments": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\DesertClimate-a813ad82a50f.mp4",
+          "offset_seconds": 0,
+          "duration_seconds": 13.184,
+          "transition": "cut",
+          "cue": "full section explanatory motion"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\desert-hot-day-34f51acbd7e5.mp4",
+          "offset_seconds": 3.049,
+          "duration_seconds": 5.022,
+          "transition": "crossfade",
+          "cue": "Found in places"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\desert-cool-night-cd4237102118.mp4",
+          "offset_seconds": 10.892,
+          "duration_seconds": 2.292,
+          "transition": "crossfade",
+          "cue": "cold nights"
+        }
+      ],
+      "source_figure_overlays": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\images\\desert-photo.png",
+          "offset_seconds": 3.098,
+          "duration_seconds": 5
+        }
+      ],
+      "source_card_intervals": [
+        [
+          0,
+          13.184
+        ]
+      ]
+    },
+    {
+      "section_id": "s19-tundra",
+      "success": true,
+      "render_mode": "hyperframes",
+      "visual_segments": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\TundraClimate-524a3826ba14.mp4",
+          "offset_seconds": 0,
+          "duration_seconds": 13.176,
+          "transition": "cut",
+          "cue": "full section explanatory motion"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\tundra-wind-9437ccb624b1.mp4",
+          "offset_seconds": 7.979,
+          "duration_seconds": 5.022,
+          "transition": "crossfade",
+          "cue": "It is extremely"
+        }
+      ],
+      "source_figure_overlays": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\images\\tundra-photo.png",
+          "offset_seconds": 3.086,
+          "duration_seconds": 5
+        }
+      ],
+      "source_card_intervals": [
+        [
+          0,
+          13.176
+        ]
+      ]
+    },
+    {
+      "section_id": "s20-antarctica-fact",
+      "success": true,
+      "render_mode": "hyperframes",
+      "visual_segments": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\AntarcticaClimate-85e096575fb1.mp4",
+          "offset_seconds": 0,
+          "duration_seconds": 18.017,
+          "transition": "cut",
+          "cue": "full section explanatory motion"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\antarctic-wind-9edadbfc5dd5.mp4",
+          "offset_seconds": 2.678,
+          "duration_seconds": 5.022,
+          "transition": "crossfade",
+          "cue": "Antarctica is"
+        }
+      ],
+      "source_figure_overlays": [],
+      "source_card_intervals": [
+        [
+          0,
+          18.017
+        ]
+      ]
+    },
+    {
+      "section_id": "s21-zones",
+      "success": true,
+      "render_mode": "hyperframes",
+      "visual_segments": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\ZonesOverview-ea7ca84ad390.mp4",
+          "offset_seconds": 0,
+          "duration_seconds": 10.289,
+          "transition": "cut",
+          "cue": "full section explanatory motion"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\earth-equator-to-poles-69ec722eb13d.mp4",
+          "offset_seconds": 3.964,
+          "duration_seconds": 5.022,
+          "transition": "crossfade",
+          "cue": "The Earth is divided"
+        }
+      ],
+      "source_figure_overlays": [],
+      "source_card_intervals": [
+        [
+          0,
+          10.289
+        ]
+      ]
+    },
+    {
+      "section_id": "s22-torrid",
+      "success": true,
+      "render_mode": "hyperframes",
+      "visual_segments": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\TorridClimate-19d10179f574.mp4",
+          "offset_seconds": 0,
+          "duration_seconds": 12.773,
+          "transition": "cut",
+          "cue": "full section explanatory motion"
+        }
+      ],
+      "source_figure_overlays": [],
+      "source_card_intervals": [
+        [
+          0,
+          12.773
+        ]
+      ]
+    },
+    {
+      "section_id": "s23-temperate",
+      "success": true,
+      "render_mode": "hyperframes",
+      "visual_segments": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\TemperateClimate-ce14261db354.mp4",
+          "offset_seconds": 0,
+          "duration_seconds": 11.263,
+          "transition": "cut",
+          "cue": "full section explanatory motion"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\temperate-four-seasons-tree-53e38efd7f4c.mp4",
+          "offset_seconds": 2.929,
+          "duration_seconds": 3.697,
+          "transition": "crossfade",
+          "cue": "Found between the tropics"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\temperate-seasons-2f58c20200d5.mp4",
+          "offset_seconds": 6.626,
+          "duration_seconds": 4.637,
+          "transition": "crossfade",
+          "cue": "It has moderate"
+        }
+      ],
+      "source_figure_overlays": [],
+      "source_card_intervals": [
+        [
+          0,
+          11.263
+        ]
+      ]
+    },
+    {
+      "section_id": "s24-cloud-fact",
+      "success": true,
+      "render_mode": "hyperframes",
+      "visual_segments": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\CloudClimate-f5ad240b0263.mp4",
+          "offset_seconds": 0,
+          "duration_seconds": 15.897,
+          "transition": "cut",
+          "cue": "full section explanatory motion"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\cumulus-fair-c2effd5e21a4.mp4",
+          "offset_seconds": 7.757,
+          "duration_seconds": 3.585,
+          "transition": "crossfade",
+          "cue": "cumulus clouds"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\nimbostratus-rain-57cf7bf86d08.mp4",
+          "offset_seconds": 11.342,
+          "duration_seconds": 4.555,
+          "transition": "crossfade",
+          "cue": "while nimbostratus"
+        }
+      ],
+      "source_figure_overlays": [],
+      "source_card_intervals": [
+        [
+          0,
+          15.897
+        ]
+      ]
+    },
+    {
+      "section_id": "s25-frigid",
+      "success": true,
+      "render_mode": "hyperframes",
+      "visual_segments": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\FrigidClimate-adbd4a4cff4f.mp4",
+          "offset_seconds": 0,
+          "duration_seconds": 9.869,
+          "transition": "cut",
+          "cue": "full section explanatory motion"
+        },
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\video\\seek-safe-v1\\frigid-ice-4d1e822b40d5.mp4",
+          "offset_seconds": 5.23,
+          "duration_seconds": 4.639,
+          "transition": "crossfade",
+          "cue": "It is the coldest"
+        }
+      ],
+      "source_figure_overlays": [
+        {
+          "path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\artifacts\\images\\climatic-zones.png",
+          "offset_seconds": 2.968,
+          "duration_seconds": 5
+        }
+      ],
+      "source_card_intervals": [
+        [
+          0,
+          9.869
+        ]
+      ]
+    },
+    {
+      "section_id": "s26-recall",
+      "success": true,
+      "render_mode": "hyperframes",
+      "visual_segments": [],
+      "source_figure_overlays": [],
+      "source_card_intervals": [
+        [
+          0,
+          25.416
+        ]
+      ],
+      "teaching_pages": [
+        {
+          "text": "Weather and climate are essential aspects of our environment. Many factors, such as latitude, altitude, wind, and ocean currents, influence climate.",
+          "start_offset_seconds": 0.0,
+          "end_offset_seconds": 15.769
+        },
+        {
+          "text": "Different regions experience different types of climates, affecting the way people live, the food they grow and the clothes they wear.",
+          "start_offset_seconds": 15.769,
+          "end_offset_seconds": 25.416
+        }
+      ]
+    },
+    {
+      "section_id": "s27-remember",
+      "success": true,
+      "render_mode": "hyperframes",
+      "visual_segments": [],
+      "source_figure_overlays": [],
+      "source_card_intervals": [
+        [
+          0,
+          31.061
+        ]
+      ]
+    },
+    {
+      "section_id": "s28-wordbank",
+      "success": true,
+      "render_mode": "hyperframes",
+      "visual_segments": [],
+      "source_figure_overlays": [],
+      "source_card_intervals": [
+        [
+          0,
+          29.947
+        ]
+      ]
+    }
+  ],
+  "status": "visual_qa_pending",
+  "policy": "full-length fresh precise motion under unique Wan cutaways; no media loops or frozen extension"
+}

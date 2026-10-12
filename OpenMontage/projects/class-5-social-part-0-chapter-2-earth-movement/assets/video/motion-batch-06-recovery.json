@@ -1,0 +1,37 @@
+{
+  "version": "1.0",
+  "checked_at": "2026-10-01T12:36:02.177745+00:00",
+  "batch": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-06.json",
+  "new_submissions": 0,
+  "jobs": [
+    {
+      "shot_id": "summer-park-06",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-06\\summer-park-06.mp4",
+      "new_submission": false,
+      "request_id": "188302684",
+      "http_status": 200,
+      "status": "recovered",
+      "output_bytes": 604331
+    },
+    {
+      "shot_id": "autumn-park-06",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-06\\autumn-park-06.mp4",
+      "new_submission": false,
+      "request_id": "188302686",
+      "http_status": 200,
+      "status": "recovered",
+      "output_bytes": 558520
+    },
+    {
+      "shot_id": "winter-park-06",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-06\\winter-park-06.mp4",
+      "new_submission": false,
+      "request_id": "188302687",
+      "http_status": 200,
+      "status": "recovered",
+      "output_bytes": 633718
+    }
+  ],
+  "downloaded": 3,
+  "total": 3
+}

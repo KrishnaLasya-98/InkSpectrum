@@ -1,0 +1,105 @@
+{
+  "version": "1.0",
+  "project_id": "class-5-social-part-0-chapter-2-earth-movement",
+  "decisions": [
+    {
+      "decision_id": "d-001",
+      "stage": "proposal",
+      "category": "pipeline_selection",
+      "subject": "Educational production pipeline",
+      "options_considered": [
+        {
+          "option_id": "educational-video",
+          "label": "Source-grounded educational video",
+          "score": 1.0,
+          "reason": "Preserves textbook coverage, teaching UI, synchronization, and encoded-output QA."
+        }
+      ],
+      "selected": "educational-video",
+      "reason": "The input is a textbook chapter requiring auditable source fidelity.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 1.0
+    },
+    {
+      "decision_id": "d-002",
+      "stage": "proposal",
+      "category": "render_runtime_selection",
+      "subject": "Composition runtime",
+      "options_considered": [
+        {
+          "option_id": "hyperframes",
+          "label": "HyperFrames",
+          "score": 1.0,
+          "reason": "Matches the locked educational UI and word-highlight subtitle contract."
+        },
+        {
+          "option_id": "remotion",
+          "label": "Remotion",
+          "score": 0.6,
+          "reason": "Available, but not the approved appearance/runtime for this educational program.",
+          "rejected_because": "The educational template is locked to HyperFrames."
+        }
+      ],
+      "selected": "hyperframes",
+      "reason": "The user selected HyperFrames and the shared educational template is version-locked to it.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 1.0
+    },
+    {
+      "decision_id": "d-003",
+      "stage": "proposal",
+      "category": "provider_selection",
+      "subject": "Generated educational motion provider",
+      "options_considered": [
+        {
+          "option_id": "modelslab",
+          "label": "ModelsLab",
+          "score": 1.0,
+          "reason": "Configured for text, image, and reference-driven animated video generation."
+        }
+      ],
+      "selected": "modelslab",
+      "reason": "The chapter provider contract explicitly selects ModelsLab.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 1.0
+    },
+    {
+      "decision_id": "d-004",
+      "stage": "proposal",
+      "category": "voice_selection",
+      "subject": "Narration TTS provider",
+      "options_considered": [
+        {
+          "option_id": "huggingface-kokoro",
+          "label": "huggingface-kokoro",
+          "score": 1.0,
+          "reason": "Uses one chapter-scoped voice with speech QA and word alignment; configured voice is af_heart."
+        }
+      ],
+      "selected": "huggingface-kokoro",
+      "reason": "The configured narrator remains authoritative for the whole chapter.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 1.0
+    },
+    {
+      "decision_id": "d-005",
+      "stage": "voice_synthesis",
+      "category": "voice_selection",
+      "subject": "Narration TTS provider",
+      "options_considered": [
+        {"option_id": "huggingface-kokoro", "label": "Kokoro", "score": 0.5, "reason": "Original chapter configuration.", "rejected_because": "Superseded by the user's voice selection."},
+        {"option_id": "qwen-clone", "label": "Qwen Indian voice", "score": 0.7, "reason": "Earlier review narration.", "rejected_because": "Superseded by the user's ElevenLabs choice."},
+        {"option_id": "elevenlabs-v4-niharika", "label": "ElevenLabs v4 Niharika", "score": 1.0, "reason": "The user selected this exact Indian-accent voice and Eleven v4 model."}
+      ],
+      "selected": "elevenlabs-v4-niharika",
+      "reason": "The user approved the selected voice only; 15 Chapter 2 sections were generated and speech-aligned.",
+      "user_visible": true,
+      "user_approved": true,
+      "confidence": 1.0
+    }
+  ]
+}

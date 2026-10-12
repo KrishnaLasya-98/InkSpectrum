@@ -1,0 +1,241 @@
+{
+  "section_id": "s24-cloud-fact",
+  "text": "Do you know? There are different types of clouds that can tell you about the weather? For example, cumulus clouds are fluffy and show fair weather, while nimbostratus clouds bring rain or snow.",
+  "start_ms": 391040,
+  "end_ms": 404880,
+  "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\audio\\narration-elevenlabs-v1\\s24-cloud-fact.wav",
+  "words": [
+    {
+      "word": "Do",
+      "start_ms": 391080,
+      "end_ms": 391160,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0051
+    },
+    {
+      "word": "you",
+      "start_ms": 391240,
+      "end_ms": 391340,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "know?",
+      "start_ms": 391380,
+      "end_ms": 391541,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0092
+    },
+    {
+      "word": "There",
+      "start_ms": 392182,
+      "end_ms": 392322,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0038
+    },
+    {
+      "word": "are",
+      "start_ms": 392382,
+      "end_ms": 392462,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "different",
+      "start_ms": 392562,
+      "end_ms": 392923,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0099
+    },
+    {
+      "word": "types",
+      "start_ms": 392963,
+      "end_ms": 393223,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0341
+    },
+    {
+      "word": "of",
+      "start_ms": 393283,
+      "end_ms": 393343,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0128
+    },
+    {
+      "word": "clouds",
+      "start_ms": 393484,
+      "end_ms": 393924,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0011
+    },
+    {
+      "word": "that",
+      "start_ms": 394044,
+      "end_ms": 394165,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0087
+    },
+    {
+      "word": "can",
+      "start_ms": 394225,
+      "end_ms": 394325,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "tell",
+      "start_ms": 394425,
+      "end_ms": 394585,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0953
+    },
+    {
+      "word": "you",
+      "start_ms": 394625,
+      "end_ms": 394705,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0
+    },
+    {
+      "word": "about",
+      "start_ms": 394805,
+      "end_ms": 395006,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "the",
+      "start_ms": 395046,
+      "end_ms": 395146,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.177
+    },
+    {
+      "word": "weather?",
+      "start_ms": 395206,
+      "end_ms": 395486,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0474
+    },
+    {
+      "word": "For",
+      "start_ms": 396167,
+      "end_ms": 396288,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0647
+    },
+    {
+      "word": "example,",
+      "start_ms": 396388,
+      "end_ms": 396848,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0042
+    },
+    {
+      "word": "cumulus",
+      "start_ms": 397389,
+      "end_ms": 397890,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0809
+    },
+    {
+      "word": "clouds",
+      "start_ms": 397950,
+      "end_ms": 398331,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0023
+    },
+    {
+      "word": "are",
+      "start_ms": 398531,
+      "end_ms": 398611,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0021
+    },
+    {
+      "word": "fluffy",
+      "start_ms": 398731,
+      "end_ms": 399112,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "and",
+      "start_ms": 399392,
+      "end_ms": 399472,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "show",
+      "start_ms": 399572,
+      "end_ms": 399713,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "fair",
+      "start_ms": 399893,
+      "end_ms": 400133,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0324
+    },
+    {
+      "word": "weather,",
+      "start_ms": 400193,
+      "end_ms": 400494,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0412
+    },
+    {
+      "word": "while",
+      "start_ms": 400974,
+      "end_ms": 401155,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0236
+    },
+    {
+      "word": "nimbostratus",
+      "start_ms": 401275,
+      "end_ms": 402036,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.2509
+    },
+    {
+      "word": "clouds",
+      "start_ms": 402096,
+      "end_ms": 402456,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.001
+    },
+    {
+      "word": "bring",
+      "start_ms": 402657,
+      "end_ms": 402857,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0021
+    },
+    {
+      "word": "rain",
+      "start_ms": 402997,
+      "end_ms": 403238,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0691
+    },
+    {
+      "word": "or",
+      "start_ms": 403558,
+      "end_ms": 403598,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0007
+    },
+    {
+      "word": "snow.",
+      "start_ms": 403698,
+      "end_ms": 403979,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0921
+    }
+  ],
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

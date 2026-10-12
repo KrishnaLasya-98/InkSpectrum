@@ -1,0 +1,9 @@
+{
+  "version": "1.0",
+  "review_method": "Recovered files and five one-second sampled frames per shot; final full-frame temporal and composition review still required.",
+  "shots": [
+    {"shot_id": "classroom-earth-globe-07", "status": "accept_limited", "evidence": "qa-previews/classroom-earth-globe-07-contact.jpg", "observation": "A single classroom globe turns between samples. Landforms are stylized, not an authoritative map.", "use_policy": "One objectives/background cue only; all objectives must be exact authored text outside model pixels."},
+    {"shot_id": "moon-curved-shadow-07", "status": "accept_limited", "evidence": "qa-previews/moon-curved-shadow-07-contact.jpg", "observation": "Single Moon with a curved dark shadow; slight temporal variation, no extra planets or generated text. The clip does not establish the Sun-Earth-Moon arrangement.", "use_policy": "One lunar-eclipse visual cue in s04, paired with a precise authored explanatory diagram."}
+  ],
+  "production_approval": false
+}

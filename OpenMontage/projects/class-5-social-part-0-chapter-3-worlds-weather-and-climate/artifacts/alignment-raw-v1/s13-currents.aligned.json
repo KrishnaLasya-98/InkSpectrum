@@ -1,0 +1,283 @@
+{
+  "section_id": "s13-currents",
+  "text": "Ocean Currents. Ocean currents are large movements of water in the oceans. Warm ocean currents make coastal areas warmer, while cold currents bring cool temperatures. For example, the Gulf Stream warms Europe, while the cold Labrador Current cools Canada.",
+  "start_ms": 252080,
+  "end_ms": 273200,
+  "audio_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-3-worlds-weather-and-climate\\assets\\audio\\narration-elevenlabs-v1\\s13-currents.wav",
+  "words": [
+    {
+      "word": "Ocean",
+      "start_ms": 252200,
+      "end_ms": 252460,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0062
+    },
+    {
+      "word": "Currents.",
+      "start_ms": 252560,
+      "end_ms": 252981,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.047
+    },
+    {
+      "word": "Ocean",
+      "start_ms": 254022,
+      "end_ms": 254282,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.138
+    },
+    {
+      "word": "currents",
+      "start_ms": 254382,
+      "end_ms": 254783,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0047
+    },
+    {
+      "word": "are",
+      "start_ms": 255043,
+      "end_ms": 255103,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "large",
+      "start_ms": 255243,
+      "end_ms": 255583,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "movements",
+      "start_ms": 255683,
+      "end_ms": 256104,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "of",
+      "start_ms": 256184,
+      "end_ms": 256224,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "water",
+      "start_ms": 256344,
+      "end_ms": 256724,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0174
+    },
+    {
+      "word": "in",
+      "start_ms": 256965,
+      "end_ms": 257005,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "the",
+      "start_ms": 257085,
+      "end_ms": 257165,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1673
+    },
+    {
+      "word": "oceans.",
+      "start_ms": 257325,
+      "end_ms": 257705,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0057
+    },
+    {
+      "word": "Warm",
+      "start_ms": 258746,
+      "end_ms": 259027,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.115
+    },
+    {
+      "word": "ocean",
+      "start_ms": 259227,
+      "end_ms": 259467,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0427
+    },
+    {
+      "word": "currents",
+      "start_ms": 259547,
+      "end_ms": 259927,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0564
+    },
+    {
+      "word": "make",
+      "start_ms": 260208,
+      "end_ms": 260388,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0013
+    },
+    {
+      "word": "coastal",
+      "start_ms": 260488,
+      "end_ms": 260908,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.1831
+    },
+    {
+      "word": "areas",
+      "start_ms": 261069,
+      "end_ms": 261409,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0325
+    },
+    {
+      "word": "warmer,",
+      "start_ms": 261509,
+      "end_ms": 261909,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0862
+    },
+    {
+      "word": "while",
+      "start_ms": 262470,
+      "end_ms": 262670,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0016
+    },
+    {
+      "word": "cold",
+      "start_ms": 262810,
+      "end_ms": 263050,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0342
+    },
+    {
+      "word": "currents",
+      "start_ms": 263150,
+      "end_ms": 263531,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0349
+    },
+    {
+      "word": "bring",
+      "start_ms": 263791,
+      "end_ms": 263971,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0389
+    },
+    {
+      "word": "cool",
+      "start_ms": 264131,
+      "end_ms": 264352,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "temperatures.",
+      "start_ms": 264452,
+      "end_ms": 265052,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0343
+    },
+    {
+      "word": "For",
+      "start_ms": 265933,
+      "end_ms": 266053,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0053
+    },
+    {
+      "word": "example,",
+      "start_ms": 266153,
+      "end_ms": 266614,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0297
+    },
+    {
+      "word": "the",
+      "start_ms": 267094,
+      "end_ms": 267194,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0987
+    },
+    {
+      "word": "Gulf",
+      "start_ms": 267294,
+      "end_ms": 267535,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0007
+    },
+    {
+      "word": "Stream",
+      "start_ms": 267635,
+      "end_ms": 267935,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0928
+    },
+    {
+      "word": "warms",
+      "start_ms": 268115,
+      "end_ms": 268435,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0003
+    },
+    {
+      "word": "Europe,",
+      "start_ms": 268636,
+      "end_ms": 268896,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0002
+    },
+    {
+      "word": "while",
+      "start_ms": 269416,
+      "end_ms": 269597,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    },
+    {
+      "word": "the",
+      "start_ms": 269657,
+      "end_ms": 269717,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0007
+    },
+    {
+      "word": "cold",
+      "start_ms": 269837,
+      "end_ms": 270117,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0007
+    },
+    {
+      "word": "Labrador",
+      "start_ms": 270297,
+      "end_ms": 270758,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0389
+    },
+    {
+      "word": "Current",
+      "start_ms": 270858,
+      "end_ms": 271178,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0184
+    },
+    {
+      "word": "cools",
+      "start_ms": 271478,
+      "end_ms": 271799,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0849
+    },
+    {
+      "word": "Canada.",
+      "start_ms": 271899,
+      "end_ms": 272299,
+      "timing_basis": "ctc_forced_alignment",
+      "mean_log_probability": -0.0001
+    }
+  ],
+  "alignment_method": "wav2vec2_ctc_viterbi"
+}

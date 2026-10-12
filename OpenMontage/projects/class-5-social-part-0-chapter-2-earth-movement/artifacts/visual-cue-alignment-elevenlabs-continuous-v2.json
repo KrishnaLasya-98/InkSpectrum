@@ -1,0 +1,122 @@
+[
+  {
+    "section_id": "s01-title",
+    "cue": "Social Studies, Class 5. Lesson 2: Earth Movement.",
+    "start_seconds": 0.0,
+    "match_score": 1.0
+  },
+  {
+    "section_id": "s02-objectives",
+    "cue": "Understand that the Earth is spherical.",
+    "start_seconds": 5.47,
+    "match_score": 1.0
+  },
+  {
+    "section_id": "s03-startup",
+    "cue": "Take a ball and spin it.",
+    "start_seconds": 2.05,
+    "match_score": 1.0
+  },
+  {
+    "section_id": "s03-startup",
+    "cue": "Imagine this is the Earth moving in space.",
+    "start_seconds": 7.21,
+    "match_score": 1.0
+  },
+  {
+    "section_id": "s04-spherical-earth",
+    "cue": "ships disappear over the horizon",
+    "start_seconds": 18.99,
+    "match_score": 1.0
+  },
+  {
+    "section_id": "s04-spherical-earth",
+    "cue": "the Earth's shadow on the Moon is curved",
+    "start_seconds": 21.91,
+    "match_score": 1.0
+  },
+  {
+    "section_id": "s05-two-movements",
+    "cue": "rotation and revolution",
+    "start_seconds": 1.92,
+    "match_score": 1.0
+  },
+  {
+    "section_id": "s06-rotation",
+    "cue": "the Earth rotates from west to east",
+    "start_seconds": 6.35,
+    "match_score": 1.0
+  },
+  {
+    "section_id": "s06-rotation",
+    "cue": "one half of the Earth receives sunlight",
+    "start_seconds": 26.77,
+    "match_score": 1.0
+  },
+  {
+    "section_id": "s06-rotation",
+    "cue": "side of the Earth facing the Sun experiences day",
+    "start_seconds": 31.27,
+    "match_score": 0.889
+  },
+  {
+    "section_id": "s06-rotation",
+    "cue": "the part away from the sun experiences night",
+    "start_seconds": 37.67,
+    "match_score": 1.0
+  },
+  {
+    "section_id": "s06-rotation",
+    "cue": "Rotation causes day and night",
+    "start_seconds": 47.94,
+    "match_score": 1.0
+  },
+  {
+    "section_id": "s08-revolution",
+    "cue": "the Earth moves around the Sun",
+    "start_seconds": 3.47,
+    "match_score": 0.909
+  },
+  {
+    "section_id": "s08-revolution",
+    "cue": "Summer",
+    "start_seconds": 32.77,
+    "match_score": 1.0
+  },
+  {
+    "section_id": "s08-revolution",
+    "cue": "Winter",
+    "start_seconds": 38.01,
+    "match_score": 1.0
+  },
+  {
+    "section_id": "s08-revolution",
+    "cue": "Spring",
+    "start_seconds": 43.63,
+    "match_score": 1.0
+  },
+  {
+    "section_id": "s08-revolution",
+    "cue": "Autumn",
+    "start_seconds": 49.25,
+    "match_score": 1.0
+  },
+  {
+    "section_id": "s10-solstice",
+    "cue": "winter season",
+    "start_seconds": 29.85,
+    "match_score": 1.0
+  },
+  {
+    "section_id": "s11-inertia",
+    "cue": "continue moving forward when you stop a bike suddenly",
+    "start_seconds": 6.19,
+    "match_score": 1.0
+  },
+  {
+    "section_id": "s12-equinox",
+    "cue": "Spring Equinox marks the beginning of spring",
+    "start_seconds": 23.15,
+    "match_score": 0.875
+  }
+]

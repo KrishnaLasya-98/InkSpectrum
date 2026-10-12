@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "provider": "modelslab",
+  "status": "success",
+  "request_id": "188346074",
+  "request_fingerprint": "8a99c067b7cdda30b16cc55d4a7073b85307a49e0f94d8e5efd37360d8bcb722",
+  "poll_endpoint": "video",
+  "model_id": "wan2.2",
+  "operation": "text_to_video",
+  "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-10\\sunny-school-morning-10.mp4",
+  "estimated_runtime_seconds": 135.0,
+  "submitted_at_unix": 1790915133.3621209,
+  "last_poll_at_unix": 1790915342.8475552,
+  "completed_at_unix": 1790915345.0441663
+}

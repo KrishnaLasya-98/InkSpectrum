@@ -1,0 +1,2 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/InkSpectrum/OpenMontage/projects/class-5-social-part-0-chapter-2-earth-movement/assets/video/precision-earth-v1-contrast-preview/videos/precision_earth_v1/480p16/partial_movie_files/TwoMovementsContrast/1608668540_2185948735_3355023648.mp4'

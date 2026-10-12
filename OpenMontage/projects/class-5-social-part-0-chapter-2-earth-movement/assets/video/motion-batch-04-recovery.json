@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "checked_at": "2026-10-01T12:33:08.881695+00:00",
+  "batch": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-04.json",
+  "new_submissions": 0,
+  "jobs": [
+    {
+      "shot_id": "earth-opening-natural-i2v-04",
+      "output_path": "D:\\InkSpectrum\\OpenMontage\\projects\\class-5-social-part-0-chapter-2-earth-movement\\assets\\video\\motion-batch-04\\earth-opening-natural-i2v-04.mp4",
+      "new_submission": false,
+      "request_id": "188301813",
+      "http_status": 200,
+      "status": "recovered",
+      "output_bytes": 515714
+    }
+  ],
+  "downloaded": 1,
+  "total": 1
+}
